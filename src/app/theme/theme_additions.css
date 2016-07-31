@@ -1,0 +1,8 @@
+#top-navigation .menuitem a span {
+  font-weight: 300;
+}
+
+#top-navigation .menuitem:hover a span {
+  font-weight: 500;
+  font-size: 13px;
+}
