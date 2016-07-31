@@ -6,3 +6,8 @@
   font-weight: 500;
   font-size: 13px;
 }
+
+.copyrights a {
+  color: #F8FFE9;
+  text-decoration: underline;
+}
