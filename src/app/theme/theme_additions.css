@@ -11,3 +11,7 @@
   color: #F8FFE9;
   text-decoration: underline;
 }
+
+#homesection div:nth-child(2) {
+  display: flex;
+}
