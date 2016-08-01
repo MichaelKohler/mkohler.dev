@@ -15,3 +15,11 @@
 #homesection > div:nth-child(2) {
   display: flex;
 }
+
+.circle-skills .row {
+  padding-top: 20px;
+}
+
+.progress-bar {
+  background-color: #3D6584;
+}
