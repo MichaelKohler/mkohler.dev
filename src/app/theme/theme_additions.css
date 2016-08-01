@@ -29,3 +29,11 @@
     flex-direction: column;
   }
 }
+
+#presentationsection h4 {
+  margin-top: 2em;
+}
+
+.presentation-list {
+  line-height: 2.5em;
+}
