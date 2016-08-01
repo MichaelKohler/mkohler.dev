@@ -4,7 +4,7 @@ export function FooterDirective() {
   let directive = {
     restrict: 'E',
     scope: {},
-    templateUrl: '/app/components/footer/footer.html',
+    templateUrl: 'app/components/footer/footer.html',
     controller: FooterController,
     controllerAs: 'vm'
   };
