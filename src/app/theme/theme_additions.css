@@ -12,6 +12,6 @@
   text-decoration: underline;
 }
 
-#homesection div:nth-child(2) {
+#homesection > div:nth-child(2) {
   display: flex;
 }
