@@ -32,6 +32,10 @@
   .m-details {
     flex-direction: column;
   }
+
+  #contacts-data {
+    padding-bottom: 50px;
+  }
 }
 
 #presentationsection h4 {
@@ -41,7 +45,6 @@
 .presentation-list {
   line-height: 2.5em;
 }
-
 
 .m-details {
   display: flex;
