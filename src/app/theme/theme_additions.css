@@ -12,8 +12,8 @@
   text-decoration: underline;
 }
 
-.circle-skills .row {
-  padding-top: 20px;
+.single-skill {
+  margin-top: 2em;
 }
 
 .progress-bar {
@@ -22,20 +22,6 @@
 
 #homesection > div:nth-child(2) {
   display: flex;
-}
-
-@media (max-width: 992px) {
-  #homesection > div:nth-child(2) {
-    flex-direction: column;
-  }
-
-  .m-details {
-    flex-direction: column;
-  }
-
-  #contacts-data {
-    padding-bottom: 50px;
-  }
 }
 
 #presentationsection h4 {
@@ -56,4 +42,32 @@ a:hover {
 
 .infoblock:first-child {
   padding-left: 0;
+}
+
+.single-skill {
+  margin-top: 2em;
+}
+
+@media (max-width: 992px) {
+  #homesection > div:nth-child(2) {
+    flex-direction: column;
+  }
+
+  .m-details {
+    flex-direction: column;
+  }
+
+  #contacts-data {
+    padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .single-skill {
+    margin-top: 2em;
+  }
+
+  .single-skill:first-child {
+    margin-top: 0;
+  }
 }
