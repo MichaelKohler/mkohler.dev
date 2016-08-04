@@ -16,10 +16,6 @@
   margin-top: 2em;
 }
 
-.progress-bar {
-  background-color: #3D6584;
-}
-
 #homesection > div:nth-child(2) {
   display: flex;
 }
