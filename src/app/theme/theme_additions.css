@@ -53,3 +53,7 @@ a:hover {
 .m-details {
   display: flex;
 }
+
+.infoblock:first-child {
+  padding-left: 0;
+}
