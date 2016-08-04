@@ -28,6 +28,10 @@
   #homesection > div:nth-child(2) {
     flex-direction: column;
   }
+
+  .m-details {
+    flex-direction: column;
+  }
 }
 
 #presentationsection h4 {
@@ -36,4 +40,9 @@
 
 .presentation-list {
   line-height: 2.5em;
+}
+
+
+.m-details {
+  display: flex;
 }
