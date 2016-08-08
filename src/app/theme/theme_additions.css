@@ -58,6 +58,30 @@ a:hover {
   margin: 20px 0;
 }
 
+.mozilla-video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;  /* we can still keep the aspect ratio in tact */
+}
+
+.mozilla-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.mozilla h4,
+.mozilla iframe {
+  margin-top: 30px;
+}
+
+.mozilla h5 {
+  margin-top: 15px;
+}
+
 @media (max-width: 992px) {
   #homesection > div:nth-child(2) {
     flex-direction: column;
