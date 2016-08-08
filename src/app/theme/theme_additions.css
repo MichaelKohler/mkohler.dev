@@ -66,4 +66,28 @@ a:hover {
   .single-skill:first-child {
     margin-top: 0;
   }
+
+  #top-navigation .ident .vc-name .position h4 {
+    font-size: 13px;
+  }
+
+  #top-navigation .ident .vc-name .position .position-title {
+    padding: 30px 40px 37px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .single-skill {
+    margin-top: 2em;
+  }
+
+  .single-skill:first-child {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  #top-navigation .ident .vc-name .position .position-title {
+    display: none;
+  }
 }
