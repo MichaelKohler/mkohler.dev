@@ -1,7 +1,7 @@
 mkohler.codes
 ===
 
-[mkohler.codes](mkohler.codes) is my personal CV which contains public documentation of my current and previous work, my education and general skills.
+[mkohler.codes](https://mkohler.codes) is my personal CV which contains public documentation of my current and previous work, my education and general skills.
 
 Setting up
 -----
