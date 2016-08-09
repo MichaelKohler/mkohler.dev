@@ -77,6 +77,11 @@ a:hover {
   margin-top: 30px;
 }
 
+.mozilla-container img {
+  width: 100%;
+  margin-top: 15px;
+}
+
 .mozilla-video-container {
     position: relative;
     width: 100%;
@@ -92,13 +97,16 @@ a:hover {
     height: 100%;
 }
 
-.mozilla h4,
 .mozilla iframe {
   margin-top: 30px;
 }
 
-.mozilla h5 {
-  margin-top: 15px;
+.mozilla h3 {
+  margin-top: 60px;
+}
+
+.mozilla h4 {
+  margin-top: 30px;
 }
 
 /* CONTACT */
@@ -106,7 +114,11 @@ a:hover {
   margin-top: 60px;
 }
 
-
+@media (min-width: 1200px) {
+  .mozilla-container img {
+    width: 66%;
+  }
+}
 
 @media (max-width: 992px) {
   #homesection > section:nth-child(2) {
