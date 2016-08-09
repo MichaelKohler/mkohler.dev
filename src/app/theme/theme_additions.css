@@ -23,6 +23,10 @@ a:hover {
   font-size: 13px;
 }
 
+#top-navigation .menuitem a.active span {
+  font-weight: 600;
+}
+
 /* FOOTER */
 .copyrights a {
   color: #F8FFE9;
