@@ -64,6 +64,16 @@ a:hover {
   margin: 20px 0;
 }
 
+.personal-info .row {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #b0d2bd;
+}
+
+.personal-info .row div:first-child {
+  font-weight: 600;
+}
+
 /* TALKS */
 #talkssection h4 {
   margin-top: 2em;
