@@ -82,6 +82,10 @@ a:hover {
   margin-top: 15px;
 }
 
+#contacts-data {
+  margin-top: 60px;
+}
+
 @media (max-width: 992px) {
   #homesection > div:nth-child(2) {
     flex-direction: column;
