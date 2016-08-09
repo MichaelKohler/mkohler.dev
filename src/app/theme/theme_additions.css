@@ -1,3 +1,9 @@
+/* GLOBAL */
+a:hover {
+  text-decoration: underline;
+}
+
+/* HEADER */
 #top-navigation .menuitem a span {
   font-weight: 300;
 }
@@ -7,33 +13,23 @@
   font-size: 13px;
 }
 
+/* FOOTER */
 .copyrights a {
   color: #F8FFE9;
   text-decoration: underline;
 }
 
-.single-skill {
-  margin-top: 2em;
-}
-
+/* ABOUT */
 #homesection > section:nth-child(2) {
   display: flex;
 }
 
-#presentationsection h4 {
-  margin-top: 2em;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-.presentation-list {
-  line-height: 2.5em;
-}
-
 .m-details {
   display: flex;
+}
+
+.single-skill {
+  margin-top: 2em;
 }
 
 .infoblock:first-child {
@@ -58,6 +54,16 @@ a:hover {
   margin: 20px 0;
 }
 
+/* PRESENTATION */
+#presentationsection h4 {
+  margin-top: 2em;
+}
+
+.presentation-list {
+  line-height: 2.5em;
+}
+
+/* MOZILLA */
 .mozilla-video-container {
     position: relative;
     width: 100%;
@@ -82,9 +88,12 @@ a:hover {
   margin-top: 15px;
 }
 
+/* CONTACT */
 #contacts-data {
   margin-top: 60px;
 }
+
+
 
 @media (max-width: 992px) {
   #homesection > section:nth-child(2) {
@@ -101,6 +110,14 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+  #top-navigation .ident .vc-name .position h4 {
+    font-size: 13px;
+  }
+
+  #top-navigation .ident .vc-name .position .position-title {
+    padding: 30px 40px 37px 40px;
+  }
+
   .single-skill {
     margin-top: 2em;
   }
@@ -111,14 +128,6 @@ a:hover {
 
   .circle-skills h3 {
     padding-bottom: 20px;
-  }
-
-  #top-navigation .ident .vc-name .position h4 {
-    font-size: 13px;
-  }
-
-  #top-navigation .ident .vc-name .position .position-title {
-    padding: 30px 40px 37px 40px;
   }
 }
 
