@@ -64,11 +64,19 @@ a:hover {
   margin-top: 2em;
 }
 
+.talks-container {
+  margin-top: 30px;
+}
+
 .talks-list {
   line-height: 2.5em;
 }
 
 /* MOZILLA */
+.mozilla-container {
+  margin-top: 30px;
+}
+
 .mozilla-video-container {
     position: relative;
     width: 100%;
