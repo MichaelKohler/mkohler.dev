@@ -1,4 +1,9 @@
 /* GLOBAL */
+a,
+ul li a {
+  color: #6599be;
+}
+
 a:hover {
   text-decoration: underline;
 }
