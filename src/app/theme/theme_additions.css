@@ -6,6 +6,11 @@ a:hover {
 /* HEADER */
 #top-navigation .menuitem a span {
   font-weight: 300;
+  margin-top: 20px;
+}
+
+#top-navigation .menuitem a i {
+  padding-top: 21px;
 }
 
 #top-navigation .menuitem:hover a span {
