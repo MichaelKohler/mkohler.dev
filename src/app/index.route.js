@@ -13,11 +13,11 @@ export function routerConfig ($stateProvider, $urlRouterProvider) {
       controller: 'ContactController',
       controllerAs: 'contact'
     })
-    .state('presentations', {
-      url: '/presentations',
-      templateUrl: 'app/components/presentations/presentations.html',
-      controller: 'PresentationController',
-      controllerAs: 'presentations'
+    .state('talks', {
+      url: '/talks',
+      templateUrl: 'app/components/talks/talks.html',
+      controller: 'TalksController',
+      controllerAs: 'talks'
     })
     .state('mozilla', {
       url: '/mozilla',

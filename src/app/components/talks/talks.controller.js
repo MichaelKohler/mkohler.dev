@@ -1,4 +1,4 @@
-export class PresentationController {
+export class TalksController {
   constructor () {
     'ngInject';
   }

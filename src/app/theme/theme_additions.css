@@ -54,12 +54,12 @@ a:hover {
   margin: 20px 0;
 }
 
-/* PRESENTATION */
-#presentationsection h4 {
+/* TALKS */
+#talkssection h4 {
   margin-top: 2em;
 }
 
-.presentation-list {
+.talks-list {
   line-height: 2.5em;
 }
 
