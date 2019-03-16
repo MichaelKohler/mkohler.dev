@@ -1,12 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,400italic,500,700);
-@import url(https://fonts.googleapis.com/css?family=Dosis:300,400,500,700);
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-/*------------------------------------------------------------------
-[Color Scheme / Colors, textures]
+/*
+  [Color Scheme / Colors, textures]
 */
-.e-bg-light-texture {
-  background: url("../images/backgrounds/dark_fish_skin.png"); }
-
 .color01 {
   color: #ffffff !important; }
 
@@ -562,12 +556,6 @@ body {
   .boxed footer {
     margin: 0 0 16px 0; }
 
-#initial {
-  background-image: url("../images/initial/bg-01.jpg");
-  background-attachment: fixed;
-  background-position: center center;
-  background-size: cover; }
-
 .clearfix:after {
   content: ".";
   visibility: hidden;
@@ -769,25 +757,6 @@ i {
 
 .width-30 {
   width: 30%; }
-
-#back-top a {
-  background: #bfbfbf url(../images/back_top.png) no-repeat 50% 50%;
-  border: 1px solid #ffffff;
-  bottom: 60px;
-  display: block;
-  height: 40px;
-  position: fixed;
-  right: 30px;
-  width: 40px;
-  z-index: 10;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out; }
-  #back-top a:hover {
-    background: #e74c3c url(../images/back_top.png) no-repeat 50% 50%;
-    border-color: #e74c3c; }
 
 input, textarea {
   border: 0;
@@ -1029,7 +998,7 @@ button, input, select, textarea {
     color: #e7e7e7; }
     #top-navigation .ident .vc-photo {
       min-height: 360px;
-      background: url("/assets/images/userpic01.jpg");
+      background: url("/images/userpic01.jpg");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1038,7 +1007,7 @@ button, input, select, textarea {
       -ms-filter: grayscale(100%);
       -o-filter: grayscale(100%);
       filter: grayscale(100%);
-      filter: url(/assets/images/grayscale.svg#greyscale);
+      filter: url(/images/grayscale.svg#greyscale);
       /* Firefox 4+ */
       filter: gray;
       /* IE 6-9 */
@@ -1513,127 +1482,13 @@ button, input, select, textarea {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: url(../images/grayscale.svg#greyscale);
+  filter: url(/images/grayscale.svg#greyscale);
   /* Firefox 4+ */
   filter: gray;
   /* IE 6-9 */
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out; }
-
-.timeline-bg01 {
-  background: url("../images/timeline-1.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg01-01 {
-  background: url("../images/timeline-1-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg02 {
-  background: url("../images/timeline-2.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg02-01 {
-  background: url("../images/timeline-2-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg03 {
-  background: url("../images/timeline-3.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg03-01 {
-  background: url("../images/timeline-3-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg04 {
-  background: url("../images/timeline-4.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg04-01 {
-  background: url("../images/timeline-4-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-/* Counts Block */
-.bg-light .counts {
-  color: #ffffff; }
-
-.bg-dark .counts {
-  color: #ffffff; }
-
-.counts {
-  text-align: center; }
-  .counts i::before,
-  .counts .count, .counts .digit, .counts .count-text {
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-    -ms-transition: all 0.35s ease-in-out;
-    transition-delay: .1s; }
-  .counts .count-container {
-    text-align: center; }
-    .counts .count-container .count-icon {
-      width: 64px;
-      height: 64px;
-      border-radius: 32px;
-      margin: 0 auto;
-      line-height: 64px; }
-      .counts .count-container .count-icon i::before {
-        font-size: 24px;
-        margin: 0; }
-    .counts .count-container .count {
-      text-align: center;
-      display: inline-block; }
-      .counts .count-container .count .digit {
-        font-size: 40px;
-        line-height: 64px;
-        margin: 0;
-        padding: 0; }
-      .counts .count-container .count .count-text {
-        margin-top: 8px;
-        font-size: 11px;
-        text-transform: uppercase;
-        letter-spacing: 3px; }
-      .counts .count-container .count:hover {
-        cursor: pointer; }
-
-#counts-dark-bg {
-  background: url("../images/backgrounds/dark_wood.png"); }
-  #counts-dark-bg .count-container .count-icon i::before {
-    color: #ffffff; }
-  #counts-dark-bg .count-container .count .digit {
-    color: #ffffff; }
-  #counts-dark-bg .count-container .count .count-text {
-    color: #ffffff; }
-  #counts-dark-bg .count-container .count:hover {
-    color: #e74c3c; }
-    #counts-dark-bg .count-container .count:hover i::before {
-      color: #e74c3c; }
-  #counts-dark-bg .count-container .count:hover .digit, #counts-dark-bg .count-container .count:hover .count-text {
-    color: #e74c3c; }
-
-#counts-light-bg .count-container .count-icon {
-  background: #ffffff; }
-  #counts-light-bg .count-container .count-icon i::before {
-    color: #8f8f8f; }
-#counts-light-bg .count-container .count .digit {
-  color: #3f3f3f; }
-#counts-light-bg .count-container .count .count-text {
-  color: #3f3f3f; }
-#counts-light-bg .count-container .count:hover {
-  color: #e74c3c; }
-  #counts-light-bg .count-container .count:hover i::before {
-    color: #e74c3c; }
-#counts-light-bg .count-container .count:hover .digit, #counts-light-bg .count-container .count:hover .count-text {
-  color: #e74c3c; }
 
 .grid {
   padding: 0; }
@@ -2384,10 +2239,6 @@ footer {
 
 .subtitle {
   color: #406E8E; }
-
-.boxed {
-  background-image: url("../images/backgrounds/tweed.png");
-  box-shadow: rgba(0, 0, 0, 0.2) 0 0 15px 4px; }
 
 .btn-wh-trans {
   background: #8EA8C3;

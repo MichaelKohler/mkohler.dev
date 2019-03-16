@@ -1,8 +1,4 @@
-node_modules/
-bower_components/
-coverage/
-.sass-cache/
-.idea/
-.tmp/
-dist/
+npm-debug.log
+node_modules
 .DS_Store
+dist
