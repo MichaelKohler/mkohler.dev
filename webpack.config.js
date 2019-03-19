@@ -52,6 +52,7 @@ module.exports = {
       filename: '[name].css',
     }),
     new CopyWebpackPlugin([
+      { from: 'public/images/', to: './images' },
       { from: 'index.html', to: '.' },
     ], { copyUnmodified: true })
   ]
