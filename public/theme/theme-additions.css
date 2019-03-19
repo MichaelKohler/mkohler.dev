@@ -38,6 +38,10 @@ a:hover {
   font-weight: 600;
 }
 
+.Typist {
+  display: inline-block;
+}
+
 /* FOOTER */
 .copyrights a {
   color: #F8FFE9;
