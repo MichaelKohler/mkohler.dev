@@ -44,6 +44,16 @@ a:hover {
   text-decoration: underline;
 }
 
+footer .svg-inline--fa {
+  font-size: 24px;
+  color: #FFF;
+  opacity: 0.7;
+}
+
+footer .svg-inline--fa:hover {
+  opacity: 1;
+}
+
 /* ABOUT */
 #homesection .pro-experience li.position {
   line-height: 20px;
