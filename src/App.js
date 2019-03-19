@@ -1,17 +1,25 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './Header';
-import Content from './Content';
 import Footer from './Footer';
+import Front from './Front';
+import Contact from './Contact';
+import Talks from './Talks';
+import Mozilla from './Mozilla';
 import '../public/theme/theme.css';
 import '../public/theme/theme-additions.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 const App = () => {
   return (
-    <div>
+    <Router>
       <Header />
-      <Content />
+      <Route path="/" exact component={Front} />
+      <Route path="/contact/" component={Contact} />
+      <Route path="/talks/" component={Talks} />
+      <Route path="/mozilla/" component={Mozilla} />
       <Footer />
-    </div>
+    </Router>
   );
 };
 

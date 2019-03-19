@@ -34,6 +34,10 @@ a:hover {
 }
 
 /* ABOUT */
+#homesection .pro-experience li.position {
+  line-height: 20px;
+}
+
 #homesection > section:nth-child(2) {
   display: flex;
 }
