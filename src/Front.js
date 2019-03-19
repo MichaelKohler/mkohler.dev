@@ -1,4 +1,8 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faBook, faHeart,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Front = () => {
   return (
@@ -21,8 +25,8 @@ const Front = () => {
               <section className="row infoblock-container">
                 <div className="col-md-5 infoblock">
                   <div className="row">
-                    <div className="col-sm-1 col-md-3 nopadding hidden-sm hidden-xs">
-                      <i className="fa fa-book" />
+                    <div className="icon-container col-sm-1 col-md-3 hidden-sm hidden-xs">
+                      <FontAwesomeIcon icon={faBook} />
                     </div>
                     <div className="col-sm-11 col-md-9">
                       <h5 className="font-accident-one-bold uppercase">Eager to learn</h5>
@@ -36,8 +40,8 @@ const Front = () => {
                 <div className="col-md-1" />
                 <div className="col-md-5 infoblock nopadding">
                   <div className="row">
-                    <div className="col-sm-1 col-md-3 nopadding hidden-sm hidden-xs">
-                      <i className="fa fa-heart" />
+                    <div className="icon-container col-sm-1 col-md-3 hidden-sm hidden-xs">
+                      <FontAwesomeIcon icon={faHeart} />
                     </div>
                     <div className="col-sm-11 col-md-9">
                       <h5 className="font-accident-one-bold uppercase">Motivated</h5>

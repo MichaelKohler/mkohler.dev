@@ -8,6 +8,17 @@ a:hover {
   text-decoration: underline;
 }
 
+.svg-inline--fa {
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+.menuitem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* HEADER */
 #top-navigation .menuitem a span {
   font-weight: 300;
@@ -70,6 +81,16 @@ a:hover {
 .infoblock-container {
   padding: 0;
   margin: 20px 0;
+}
+
+.infoblock-container .icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.infoblock-container .svg-inline--fa {
+  font-size: 24px;
 }
 
 .personal-info .row {
@@ -154,6 +175,11 @@ a:hover {
 
   #contacts-data {
     padding-bottom: 50px;
+  }
+
+  .infoblock-container {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 

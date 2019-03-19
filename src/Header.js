@@ -1,5 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import {
+  faUser, faMicrophone, faGlobe, faEnvelope, faPencilAlt,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
   return (
@@ -29,25 +34,25 @@ const Header = () => {
               <ul id="nav" className="row nopadding cd-side-navigation">
                 <li className="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color01">
                   <Link to="/">
-                    <i className="fa fa-user" />
+                    <FontAwesomeIcon icon={faUser} />
                     <span>resume</span>
                   </Link>
                 </li>
                 <li className="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color03">
                   <Link to="/mozilla">
-                    <i className="fa fa-globe" />
+                    <FontAwesomeIcon icon={faGlobe} />
                     <span>mozilla</span>
                   </Link>
                 </li>
                 <li className="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color04">
                   <Link to="/talks">
-                    <i className="fa fa-microphone" />
+                    <FontAwesomeIcon icon={faMicrophone} />
                     <span>talks</span>
                   </Link>
                 </li>
                 <li className="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color05">
                   <Link to="/contact">
-                    <i className="fa fa-envelope" />
+                    <FontAwesomeIcon icon={faEnvelope} />
                     <span>contact</span>
                   </Link>
                 </li>
@@ -57,7 +62,7 @@ const Header = () => {
                     rel="noopener noreferrer"
                     href="https://www.github.com/MichaelKohler"
                   >
-                    <i className="fa fa-github" />
+                    <FontAwesomeIcon icon={faGithub} />
                     <span>GitHub</span>
                   </a>
                 </li>
@@ -67,7 +72,7 @@ const Header = () => {
                     rel="noopener noreferrer"
                     href="https://www.michaelkohler.info"
                   >
-                    <i className="fa fa-pencil" />
+                    <FontAwesomeIcon icon={faPencilAlt} />
                     <span>blog</span>
                   </a>
                 </li>
