@@ -31,7 +31,7 @@ const Front = () => {
                     <div className="col-sm-11 col-md-9">
                       <h5 className="font-accident-one-bold uppercase">Eager to learn</h5>
                       <p>
-                        Even though I have several years of experience with Web Development
+                        Even though I have several years of experience with Software Development
                         I&apos;m always eager to learn more to increase my knowledge.
                       </p>
                     </div>
@@ -73,7 +73,7 @@ const Front = () => {
                   <div className="col-lg-7 col-sm-12">
                     Berlin, Germany
                     <br />
-                    Bern, Switzerland
+                    originally from Bern, Switzerland
                   </div>
                 </div>
                 <div className="row">
@@ -97,14 +97,21 @@ const Front = () => {
               <h3 className="font-accident-two-normal uppercase">Experience</h3>
               <div className="experience">
                 <ul className="">
-                  <li className="date">02/2008 - now</li>
+                  <li className="date">04/2008 - now</li>
                   <li className="company uppercase">
                     <a href="https://www.mozilla.org">Volunteer @ Mozilla Foundation</a>
                   </li>
                   <li className="position">Developer, Community Builder</li>
                 </ul>
                 <ul className="">
-                  <li className="date">11/2016 - now</li>
+                  <li className="date">02/2019 - now</li>
+                  <li className="company uppercase">
+                    <a href="http://www.control4.com">Control4</a>
+                  </li>
+                  <li className="position">(acquired NEEO)</li>
+                </ul>
+                <ul className="">
+                  <li className="date">11/2016 - 01/2019</li>
                   <li className="company uppercase">
                     <a href="http://www.neeo.com">NEEO AG</a>
                   </li>
@@ -171,49 +178,60 @@ const Front = () => {
               <h3 className="font-accident-two-normal uppercase">My Professional skills</h3>
               <div className="row">
                 <div className="col-sm-4 single-skill">
-                  <h4 className="font-accident-one-normal uppercase">JavaScript (NodeJS)</h4>
+                  <h4 className="font-accident-one-normal uppercase">Backend JavaScript</h4>
                   <p className="font-regular-normal">
-                    I&apos;ve been developing Node.js APIs for the past 6 years, as private
-                    projects as well as professionally. At NEEO I&apos;m developing JavaScript
-                    for both front and back end based on Ionic and NodeJS in a IoT environment.
-                    Previously during my time at NETCASE GmbH I&apos;ve worked on Sails.js /
-                    Loopback APIs.
+                    I&apos;ve been developing Node.js applications for the past 8 years, as private
+                    projects as well as professionally. At NEEO I developped JavaScript
+                    for both front and back end based on Ionic and Node.js in a IoT environment.
+                    Previously during my time at NETCASE GmbH I had also worked on Sails.js /
+                    Loopback based APIs. Currently at Control4 I&apos;m developping Node.js
+                    applications.
                   </p>
                 </div>
                 <div className="col-sm-4 single-skill">
-                  <h4 className="font-accident-one-normal uppercase">JavaScript (AngularJS)</h4>
+                  <h4 className="font-accident-one-normal uppercase">Frontend JavaScript</h4>
                   <p className="font-regular-normal">
                     As part of my work at NEEO and NETCASE GmbH and several private projects
-                    I&apos;ve been using AngularJS 1 for the past 4 years. From really simple to
+                    I used AngularJS 1 for the past 4 years. From really simple to
                     more complex frontends, I&apos;ve been involved in developing them. While my
-                    CSS skills are not perfect, I know AngularJS well and can output semantic DOM
-                    to make it as easy as possible to style.
+                    CSS skills are not perfect, I know AngularJS/React well and can output
+                    semantic DOM to make it as easy as possible to style. In the recent past
+                    I&apos;ve mostly used React for my personal as well as Mozilla projects.
                   </p>
                 </div>
                 <div className="col-sm-4 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Other languages</h4>
                   <p className="font-regular-normal">
-                    I have experience in several other Web related (HTML, CSS, minimal PHP
-                    and Ruby) languages, as well as non-Web related languages such as Java.
-                    While I&apos;m not a professional in either CSS nor PHP or Ruby, I am eager to
-                    refresh those technologies if necessary.
+                    I have experience in several other languages, most notably HTML and CSS.
+                    Additionally I have also worked with TypeScript. I
+                    haven&apos;t written any PHP, Ruby or Java in years, but back in the days...
+                    Sometime in the future I will also learn Lua and Rust.
                   </p>
                 </div>
+              </div>
+              <div className="col-sm-4 single-skill">
+                <h4 className="font-accident-one-normal uppercase">Web Standards</h4>
+                <p className="font-regular-normal">
+                  Due to my affiliation with Mozilla, I&apos;m really passionate about the Open
+                  Web. Therefore I&apos;m trying to keep on top of changes to Web Standards and
+                  will always encourage the use of modern standards where possible.
+                </p>
+              </div>
+              <div className="col-sm-4 single-skill">
+                <h4 className="font-accident-one-normal uppercase">DevOps</h4>
+                <p className="font-regular-normal">
+                  At NEEO I also gained experience in DevOps. I like working with Docker
+                  containers and try to make sure Infrastructure as Code is applied where
+                  possible. For my personal servers (even my Raspberry Pi) I&apos;ve been
+                  using Ansible. Currently I&apos;m looking into Kubernetes.
+                </p>
               </div>
               <div className="row">
                 <div className="col-sm-4 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Databases</h4>
                   <p className="font-regular-normal">
                     I&apos;ve been mostly using MongoDB as database. Nevertheless I have used
-                    several other database systems in the past.
-                  </p>
-                </div>
-                <div className="col-sm-4 single-skill">
-                  <h4 className="font-accident-one-normal uppercase">Web Standards</h4>
-                  <p className="font-regular-normal">
-                    Due to my affiliation with Mozilla, I&apos;m really passionate about the Open
-                    Web. Therefore I&apos;m trying to keep on top of changes to Web Standards and
-                    will always encourage the use of modern standards where possible.
+                    several other database systems in the past, such as MySQL.
                   </p>
                 </div>
               </div>
