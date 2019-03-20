@@ -40,7 +40,7 @@
   },
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js --mode production",
-    "start": "webpack-dev-server --hot --progress --colors --inline --mode development",
+    "start": "webpack-dev-server --hot --progress --colors --inline --historyApiFallback --mode development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Kohler",
