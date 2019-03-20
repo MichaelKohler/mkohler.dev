@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang="en-US" class="fade nonumbers">
+<head>
+	<title>Firefox OS App Day - 25.05.2013 - Mozilla Switzerland</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=1274, user-scalable=no">
+	<link rel="stylesheet" href="themes/mozilla/styles/style.css">
+
+	<style>
+		#Cover h2 {
+			color:#FFF;
+			text-align:center;
+			font-size:40px;
+			}
+		#FitToWidth h2,
+		#FitToHeight h2 {
+			color:#fff;
+			text-align:center;
+			}
+	</style>
+</head>
+<body class="list">
+	<header class="caption">
+		<h1>Mozilla Switzerland</h1>
+		<p>Michael Kohler, mkohler@picobudget.com</p>
+	</header>
+
+	<div class="slide cover" id="Cover"><div>
+		<section>
+			<img src="pictures/cover.jpg" alt="">
+		</section>
+	</div></div>
+	
+	<div class="slide" id="Title"><div>
+		<section>
+			<header>
+			    <h1>Mozilla Switzerland</h1>
+				<h2>Firefox OS App Day Switzerland</h2>
+			</header>
+			<footer class="byline">Michael Kohler, Mozilla Rep, 25.05.2013</footer>
+		</section>
+	</div></div>
+
+	<div class="slide" id="facts"><div>
+		<section>
+			<header>
+				<h2>Some facts about Mozilla Switzerland</h2>
+			</header>
+			<ul>
+			  <li>First meetup in 2010</li>
+			  <li>First official event in 2012</li>
+			  <li>one Rep, one localization guy, Mr. pdf.js, a HTML5 pro and more!</p>
+			</ul>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="first"><div>
+		<section>
+			<header>
+				<h2>First meetup</h2>
+			</header>
+			<img style="float:left;" height="50%" src="https://farm3.staticflickr.com/2875/8808312139_bdae453d5e_z.jpg" />
+			<p style="margin-bottom:0px;">Two strangers joining each other for a beer</p>
+		</section>
+	</div></div>
+
+	<div class="slide" id="last"><div>
+		<section>
+			<header>
+				<h2>Last year's event</h2>
+			</header>
+			<img style="float:left;" height="60%" src="https://farm6.staticflickr.com/5458/8818917274_ed4e6a0f20_z.jpg" />
+			<p style="margin-bottom:0px;">Last year "Weekend of Code", now "Firefox OS App Day"</p>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="growth"><div>
+		<section>
+			<header>
+				<h2>Latest meetup</h2>
+			</header>
+			<img style="float:left;" height="60%" src="https://o.twimg.com/2/proxy.jpg?t=HBgpaHR0cHM6Ly90d2l0cGljLmNvbS9zaG93L2xhcmdlL2M1b20xZy5qcGcUkAMUrAIAFgASAA&s=NB8cp5zxBpb-ccEJuCEQtBjU-oaOpb82116XFEs-8SQ" />
+			<p style="margin-bottom:0px;">At the last meetup 11 persons joined us!<br />Let's keep this growth for an open web!</p>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="andnow"><div>
+		<section>
+			<header>
+				<h2>and now..</h2>
+			</header>
+			<p>... we're here, introducing Firefox OS to Switzerland!</p>
+		</section>
+	</div></div>
+	
+	<div class="slide" id="coordinates"><div>
+		<section>
+			<header>
+				<h2>Coordinates</h2>
+			</header>
+			<p>Find all links to our social presence at</p>
+			<a href="http://mzl.la/14Xq4Nv" style="font-size:2em;">http://mzl.la/14Xq4Nv</a>
+		</section>
+	</div></div>
+
+    <!-- LEAVE THIS!!! (comment added by Michael Kohler) -->
+	<div class="slide" id="ThankYou"><div>
+		<section>
+			<header>
+				<h2>Shower Presentation Template</h2>
+			</header>
+			<p>Vadim Makeev, Opera Software</p>
+			<p>Mozilla styling by Chris Heilmann, Mozilla</p>
+			<ul>
+				<li><a href="http://pepelsbey.net">pepelsbey.net</a></li>
+				<li><a href="http://twitter.com/pepelsbey">twitter.com/pepelsbey</a></li>
+				<li><a href="mailto:pepelsbey@gmail.com">pepelsbey@gmail.com</a></li>
+			</ul>
+			<p>Shower: <a href="http://github.com/pepelsbey/shower">github.com/pepelsbey/shower</a></p>
+		</section>
+	</div></div>
+	<!--
+		To hide progress bar from entire presentation
+		just remove “progress” element.
+		-->
+	<div class="progress"><div></div></div>
+	<script src="scripts/script.js"></script>
+	<!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+
+<!-- SOCKETS -->
+<script src="../libs/socket.io.js"></script>
+<script>
+(function(window, document) {
+  var socket = io.connect('/');
+
+  // handle the message from the controller
+  socket.on('message', function(e) {
+    if(e.state) {
+      if (e.state == 1)
+        scrollToSlide(getCurrentSlideNumber() + 1);
+      else if (e.state == -1)
+        scrollToSlide(getCurrentSlideNumber() - 1);
+    }
+  });
+
+})(this, this.document);
+</script>
+
+</body>
+</html>

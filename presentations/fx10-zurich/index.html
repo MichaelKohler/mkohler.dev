@@ -1,0 +1,649 @@
+<!DOCTYPE HTML>
+<!-- <html lang="en-US"> -->
+<html lang="en-US" class="fade">
+<head>
+  <meta charset="UTF-8">
+  <title>10 Years of Firefox</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    div[id$='bullets'].slide > div::after {
+      content: 'For Information only, do NOT present';
+      background: rgba(200,0,0,0.5);
+      color: #fff;
+      position: absolute;
+      top: 20px;
+      right: 0;
+      padding: 5px 20px;
+      transform: rotate(90deg) translate(52%,-150px);
+      border-radius: 5px;
+    }
+    .full div[id$='bullets'].slide > div::after {
+      animation: wiggle alternate 1s infinite;
+    }
+    @keyframes wiggle {
+      from {
+        transform: rotate(90deg) translate(52%,-150px);
+      }
+      to {
+        transform: rotate(90deg) translate(52%,-160px);
+      }
+    }
+    .demourl {
+      bottom: 10px;
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>10 Years of Firefox</h1>
+    <p class="footer">
+      Michael Kohler, Mozilla Rep
+      <a href="http://twitter.com/KohlerSolutions">@KohlerSolutions</a> or 
+      <a href="mailto:mkohler@picobudget.com">mkohler@picobudget.com</a>
+    </p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate. <button onclick="goFullScreen()">Go fullscreen</button></p>
+    <p class="abstract">
+      <strong>Abstract: </strong>
+       What has changed in Firefox in the last 10 years? What's its story?
+    </p>
+  </aside>
+
+  <div id="cover" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>10 Years of Firefox</h2>
+      </header>
+      <img src="pictures/slides/new_logo.png"  
+           alt="">
+      <small class="byline">
+        Michael Kohler, Mozilla Rep, #fx10 Zurich, 17.11.2014
+      </small>
+    </section>
+  </div></div>
+
+  <div id="10_years" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>10 years?</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+
+  <div id="liip" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks to liip</h2>
+      </header>
+      <img src="pictures/slides/liip.png" 
+           alt="Apache Cordova" 
+           class="middle shadow" height="350">
+      </p>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="mozch" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>@MozillaCH</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="netscape" class="slide"><div>
+    <section>
+      <header>
+        <h2>Netscape</h2>
+      </header>
+      <img src="pictures/slides/netscape.png" 
+           alt="Netscape logo" 
+           class="middle shadow">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="seamonkey" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Project Seamonkey</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="appsuite" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Mozilla Application Suite</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="m4" class="slide"><div>
+    <section>
+      <header>
+        <h2>Mozilla Application Suite - m4</h2>
+      </header>
+      <img src="pictures/slides/moz-m4.png" 
+           alt="M4 Screenshot" 
+           class="middle shadow">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="navigator" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Navigator (Browser)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="communicator" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Communicator (Mail)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="composer" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Composer</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="irc" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>IRC (ChatZilla)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="coderush" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>"Code Rush"</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="applicationsuite" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>SeaMonkey</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+   <div id="phoenix" class="slide"><div>
+    <section>
+      <header>
+        <h2>Phoenix</h2>
+      </header>
+      <img src="pictures/slides/phoenix.png" 
+           alt="Netscape logo" 
+           class="middle shadow">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firebird" class="slide"><div>
+    <section>
+      <header>
+        <h2>Firebird</h2>
+      </header>
+      <img src="pictures/slides/firebird.png" 
+           alt="Netscape logo" 
+           class="middle shadow">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firefox" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox 1.0<br />9.11.2004</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firefox2" class="slide"><div>
+    <section>
+      <header>
+        <h2>Firefox</h2>
+      </header>
+      <img src="pictures/slides/1.0.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="nyt" class="slide"><div>
+    <section>
+      <header>
+        <h2>New York Times - 2004</h2>
+      </header>
+      <img src="pictures/slides/nyt.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="milestones" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Important Milestones</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firefox3" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox 3 (July 2008)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="worldrecord" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Guinness World Record!</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="rapid" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Rapid Release</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firefox10" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox 10 (ESR)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="australis" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox 29 (Australis)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="australis2" class="slide"><div>
+    <section>
+      <header>
+        <h2>Australis</h2>
+      </header>
+      <img src="pictures/slides/australis.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firefox331" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox 33.1</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="forget" class="slide"><div>
+    <section>
+      <header>
+        <h2>Forget Button</h2>
+      </header>
+      <img src="pictures/slides/forget.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="enhanced" class="slide"><div>
+    <section>
+      <header>
+        <h2>Enhanced Tiles</h2>
+      </header>
+      <img src="pictures/slides/enhanced.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="ddg" class="slide"><div>
+    <section>
+      <header>
+        <h2>DuckDuckGo</h2>
+      </header>
+      <img src="pictures/slides/ddg.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="channels" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox Channels</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="release" class="slide"><div>
+    <section>
+      <header>
+        <h2>Release</h2>
+      </header>
+      <img src="pictures/slides/new_logo.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="beta" class="slide"><div>
+    <section>
+      <header>
+        <h2>Beta</h2>
+      </header>
+      <img src="pictures/slides/beta.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="devedition" class="slide"><div>
+    <section>
+      <header>
+        <h2>Developer Edition (previously Aurora)</h2>
+      </header>
+      <img src="pictures/slides/devedition.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="nightly" class="slide"><div>
+    <section>
+      <header>
+        <h2>Nightly</h2>
+      </header>
+      <img src="pictures/slides/nightly.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="10jahrefirefox" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>10 Years of Firefox</h2>
+      </header>
+      <img src="pictures/slides/fx10.jpg" 
+           alt="Netscape logo" 
+           class="middle shadow" height="400">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="choose" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2></h2>
+      </header>
+      <img src="pictures/slides/chooseindependent.png"  
+           alt="">
+      <small class="byline">
+        
+      </small>
+    </section>
+  </div></div>
+
+  <div id="chooseindependent" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Choose Independent (Video)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="performance" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox is slow?</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="devtools" class="slide"><div>
+    <section>
+      <header>
+        <h2>Developer Tools: a quick peak</h2>
+      </header>
+      <img src="pictures/slides/devtools.png" 
+           alt="Netscape logo" 
+           class="middle shadow" height="175">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="whatelse" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>What else?</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firefoxos" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox OS</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firefoxandroid" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Firefox for Android</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="thunderbird" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Thunderbird (Community)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="bugzilla" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Bugzilla</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="webmaker" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Webmaker</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="nss" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>NSS</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="advocacy" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Advocacy &amp; Privacy</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="andmore" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>..and more</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="andnow" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>..and now?</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="cake" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>Cake and beer!</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks!</h2>
+      </header>
+      <img src="pictures/slides/redpanda.jpg" class="right" alt="Red panda (Firefox)">
+      <ul class="nobull">
+        <li>Michael Kohler</li>
+        <li>Mozilla Reps</li>
+        <li><a href="http://twitter.com/KohlerSolutions">@KohlerSolutions</a></li>
+      </ul>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/yortw/5798336827/">Photo by Yortw</a>
+      </small>
+    <footer class="notes">
+    </footer>
+
+    </section>
+  </div></div>
+
+  <div class="progress"><div></div></div>
+  <script src="scripts/script.js"></script>
+
+  <!-- Copyright slide engine © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>

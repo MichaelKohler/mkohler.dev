@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>Introduction to Mozilla and Firefox OS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="en">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="author" content="Michael Kohler">
+    <meta name="publisher" content="Michael Kohler">
+    <meta name="copyright" content="Michael Kohler (content), Mozilla (the fox), Google (slides coding)">
+    <meta name="description" content="">
+    <meta name="page-topic" content="education">
+    <meta name="page-type" content="slide">
+    <meta name="audience" content="all">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" href="fira/fira.css" type="text/css" />
+    <link rel="stylesheet" media="all" href="theme/css/default.css">
+    <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+
+    <base target="_blank">
+</head>
+
+<body>
+
+    <slides class="layout-widescreen">
+
+        <slide class="title-slide segue nobackground blue">
+            <div class="grid"></div>
+            <img src="imgs/mozilla_wordmark.png" id="mozilla-logo">
+            <hgroup class="auto-fadein">
+                <br /><br /><br /><br />
+                <h1>Introduction to Mozilla and Firefox OS</h1>
+
+                <br><br><br><br><br><br><br><br><br><br>
+
+                <h2>Michael Kohler</h2>
+                <p>Mozilla Rep, Mozilla Switzerland<br>
+                <span class="light">2015-11-10</span></p>
+
+            </hgroup>
+        </slide>
+
+        <slide class="segue blue">
+          <hgroup>
+              <h2>About me - Michael Kohler</h2>
+          </hgroup>
+          <article>
+            <ul>
+              <li>Volunteering for Mozilla since 2008</li>
+              <li>Mozilla Rep</li>
+              <li>Leader Mozilla Switzerland</li>
+              <li>Leader Mozilla German-speaking community</li>
+              <li>Web Developer @ netcase.ch</li>
+              <li>mkohler.codes</li>
+            </ul>
+          </article>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>What is Mozilla?</h1>
+                <img class="slideside" src="imgs/trust.jpg" />
+            </hgroup>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h2>To ensure the Internet is a global public resource open and accessible to all. An Internet that truly puts people first. An Internet where individuals can shape their own experience. An Internet where people are empowered, safe and independent.</h2>
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Mozilla's Manifesto</h2>
+            </hgroup>
+            <article>
+                <p>The Internet is a an integral part of modern life</p>
+                <p>The Internet is a public resource that must remain open and accessible</p>
+                <p>Individuals’ security and privacy on the Internet are fundamental and must not be treated as optional.</p>
+                <p>Individuals must have the ability to shape the Internet and their own experiences on it.</p>
+                <p>Transparent community-based processes promote participation, accountability and trust.</p>
+                <p>For more points please see: https://www.mozilla.org/en-US/about/manifesto/</p>
+            </article>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Firefox</h1>
+                <img class="slideside" src="imgs/firefox_logo.png">
+            </hgroup>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Firefox is a<br /> trusted brand …</h1>
+                <img class="slideside" src="imgs/trust.jpg" />
+            </hgroup>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Firefox is the<br /> independent choice!</h1>
+                <img class="slideside" src="imgs/answers.jpg" />
+            </hgroup>
+        </slide>
+
+        <slide class="blue center-image-slide">
+            <hgroup>
+                <h2>Tracking Protection</h2>
+            </hgroup>
+            <img class="center-image" src="imgs/tp.png">
+        </slide>
+
+        <slide class="blue center-image-slide">
+            <hgroup>
+                <h2>Tracking Protection</h2>
+            </hgroup>
+            <img class="center-image smaller-image" src="imgs/tp2.png">
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>It's Open …</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Open Source and open for contributions</h2>
+            </hgroup>
+            <article>
+                <p>Mozilla and its products is not only the "Mozilla Corporation"</p>
+                <p>Thousands of volunteers!</p>
+                <p>You'll find Mozilla volunteers in every country</p>
+            </article>
+            <img class="slideside" src="imgs/volunteers.jpg" />
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Mozilla Switzerland</h1>
+                <h2>mozilla.ch</h2>
+            </hgroup>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Firefox OS</h1>
+                <img class="slideside" src="imgs/fox.png">
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Why Firefox OS?</h2>
+            </hgroup>
+            <article>
+              <p>Built on Web technologies (HTML, CSS, JS)</p>
+              <p>Open platform</p>
+              <p>The Web is the platform!</p>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Initial focus</h2>
+            </hgroup>
+            <article>
+              <p>Target feature phone users</p>
+              <p>affordable phones</p>
+              <p>got more or less crushed by low-end Android smartphones</p>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>New focus</h2>
+            </hgroup>
+            <article>
+              <p>More focus on high-end devices</p>
+              <p>TVs</p>
+              <p>Internet of Things</p>
+            </article>
+        </slide>
+
+        <slide class="blue center-image-slide">
+            <hgroup>
+                <h2>TVs</h2>
+            </hgroup>
+            <img class="center-image smaller-image" src="imgs/tv.png">
+        </slide>
+
+        <slide class="blue center-image-slide">
+            <hgroup>
+                <h2>TVs</h2>
+            </hgroup>
+            <img class="center-image smaller-image" src="imgs/tv_panasonic.png">
+        </slide>
+
+        <slide class="blue center-image-slide">
+            <hgroup>
+                <h2>b2gdroid</h2>
+            </hgroup>
+            <img class="center-image smaller-image" src="imgs/droid.png">
+        </slide>
+
+        <slide class="blue center-image-slide">
+            <hgroup>
+                <h2>Sony Devices</h2>
+            </hgroup>
+            <img class="center-image smaller-image" src="imgs/sonydevices.png">
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Gonk (HAL, Kernel, ..)</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Gecko (Rendering Engine)</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Gaia (Graphical User Interface)</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>WebAPIs …</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>A few examples of WebAPIs</h2>
+            </hgroup>
+            <article>
+              <p>Geolocation API</p>
+              <p>Vibration API</p>
+              <p>Ambient Light API</p>
+              <p>Battery Status API</p>
+              <p>Push Notification API</p>
+              <p>Contacts API</p>
+              <p>Power Management API</p>
+              <p>.. and many more!</p>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Vibration API</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code data-lang="javascript">
+navigator.vibrate(1000);
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Battery Status API</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code class="smaller">
+navigator.getBattery().then(function(battery) {
+  battery.addEventListener('chargingchange', function() {
+    console.log("Battery charging? " + (battery.charging ? "Yes" : "No"));
+  });
+
+  battery.addEventListener('levelchange', function() {
+    console.log("Battery level: " + battery.level * 100 + "%");
+  });
+
+  battery.addEventListener('chargingtimechange', function() {
+    console.log("Battery charging time: " + battery.chargingTime + " seconds");
+  });
+
+  battery.addEventListener('dischargingtimechange', function() {
+    console.log("Battery discharging time: " + battery.dischargingTime + " seconds");
+  });
+});
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>WebTelephony API</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code data-lang="javascript">
+var tel = navigator.mozTelephony;
+
+tel.dial("123456789").then(function(call) {
+  call.number;
+});
+
+tel.onincoming = function (e) {
+  var incomingCall = e.call;
+  console.log(incomingCall.id);
+  incomingCall.answer();
+};
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Notification API</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code data-lang="javascript">
+if (!("Notification" in window)) {
+  alert("Not supported!");
+}
+else if (Notification.permission === "granted") {
+  var notification = new Notification("Hi there!");
+}
+else if (Notification.permission !== 'denied') {
+  Notification.requestPermission(function (permission) {
+    if (permission === "granted") {
+      var notification = new Notification("Hi there!");
+    }
+  });
+}
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Contacts API</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code class="smaller" data-lang="javascript">
+var contactData = {
+  givenName: ["John"],
+  familyName: ["Doe"],
+  nickname: ["No kidding"]
+};
+
+var person = new mozContact(contactData);
+
+var saving = navigator.mozContacts.save(person);
+
+saving.onsuccess = function() {
+  console.log('new contact saved');
+};
+
+saving.onerror = function(err) {
+  console.error(err);
+};
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Permissions</h2>
+            </hgroup>
+            <article>
+              <p>Certified (only pre-installed apps)</p>
+              <p>Priviledged (from Marketplace)</p>
+              <p>Hosted (from anywhere)</p>
+            </article>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Activities …</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Register an activity</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code>
+"activities": {
+  "pick": {
+    "href": "./pick.html",
+    "disposition": "inline",
+    "filters": {
+      "type": ["image/*","image/jpeg","image/png"]
+    },
+    "returnValue": true
+  }
+}
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Handle the activity</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code class="smaller">
+navigator.mozSetMessageHandler('activity', function(activityRequest) {
+  var option = activityRequest.source;
+
+  if (option.name === "pick") {
+    // Do something to handle the activity...
+
+    // Send back the result
+    if (picture) {
+      activityRequest.postResult({
+        type: picture.type,
+        blob: picture
+      });
+    } else {
+      activityRequest.postError("Unable to provide a picture");
+    }
+  }
+});
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Starting an activity</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code class="smaller">
+var activity = new MozActivity({
+  name: "pick",
+  data: {
+    type: "image/jpeg"
+  }
+});
+
+activity.onsuccess = function() {
+  var picture = this.result;
+  console.log("A picture has been retrieved");
+};
+
+activity.onerror = function() {
+  console.log(this.error);
+};
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Apps …</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>What are WebApps?</h2>
+            </hgroup>
+            <article>
+              <p>"Normal" websites with WebAPIs</p>
+              <p>+ manifest</p>
+              <p>Either "hosted" or packaged</p>
+              <p>Also available on Desktop and Android</p>
+              <p>Homescreen, Dialer, .. everything is a WebApp</p>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>The Manifest</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code>
+{
+    "name": "Cool App",
+    "description": "This is an app!",
+    "icons": {
+        "60": "/img/icon-60.png",
+        "128": "/img/icon-128.png"
+    },
+    "fullscreen": true,
+    "orientations": ["portrait","landscape-secondary"],
+    "developer": {
+        "name": "Michael Kohler",
+        "url": "http://mozilla.ch"
+    }
+}
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="blue center-image-slide">
+            <hgroup>
+                <h2>marketplace.firefox.com</h2>
+                <img class="center-image smaller-image" src="imgs/marketplace.png">
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Installing an App</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code>
+var appInstall = navigator.mozApps.install(manifestUrl);
+
+appInstall.onsuccess = function(data) {
+    // App installed!
+};
+
+appInstall.onerror = function() {
+    console.log("Install failed: " + appInstall.error.name);
+};
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Apps Demo …</h1>
+            </hgroup>
+        </slide>
+
+
+        <slide class="blue center-image-slide">
+            <hgroup>
+                <h2>Addons</h2>
+                <img class="center-image smaller-image" src="imgs/ffosaddons.png">
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Addons</h2>
+            </hgroup>
+            <article>
+              <p>Based on WebExtensions API</p>
+              <p>Injects JS/CSS</p>
+              <p>Can modify all apps/websites</p>
+              <p>New in version 2.5</p>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>The Manifest - manifest.json</h2>
+            </hgroup>
+            <article>
+              <pre>
+                <code>
+{
+  "manifest_version": 2,
+  "version": "1.1",
+  "name": "Status Bar Battery Percentage",
+  "description": "Adds the battery status percentage",
+  "author": "Michael Kohler & André Fiedler",
+  "content_scripts": [{
+    "matches": "app://system.gaiamobile.org/index.html",
+    "css": [],
+    "js": ["index.js"]
+  }],
+  "icons": {
+    "128": "128.png"
+  }
+}
+                </code>
+              </pre>
+            </article>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Addon Demo …</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>How can I contribute?</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Contribute generally</h2>
+            </hgroup>
+            <article>
+              <p>Promote Mozilla's mission</p>
+              <p>Ideas</p>
+              <p><strong>File bugs</strong> at bugzilla.mozilla.org if you encounter anything that might be a bug or for features</p>
+              <p>Code</p>
+              <p>Testing (QA)</p>
+              <p>Design / UX</p>
+              <p>Localization</p>
+              <p>Marketing</p>
+              <p>...</p>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Contributing to Firefox OS</h2>
+            </hgroup>
+            <article>
+              <p>Test it out on your device (if you have one that is supported)</p>
+              <p>Test b2gdroid</p>
+              <p>Fix bugs (bugzilla.mozilla.org, Firefox OS product)</p>
+              <p>Write add-ons and make it as customizable as Firefox Desktop is</p>
+              <p>Spread the word</p>
+            </article>
+        </slide>
+
+        <slide class="blue">
+            <hgroup>
+                <h2>Staying up to date</h2>
+            </hgroup>
+            <article>
+              <p>Follow <a href="https://twitter.com/MozillaCH">MozillaCH</a> on Twitter</p>
+              <p>Join our mailing list (<a href="https://lists.mozilla.org/listinfo/community-switzerland">community-switzerland</a> on lists.mozilla.org)</p>
+              <p>Follow the dev-fxos mailing list</p>
+              <p>Come to our <a href="http://www.meetup.com/Mozilla-Meetup-Switzerland/">meetups</a></p>
+              <p>Write add-ons and make it as customizable as Firefox Desktop is</p>
+              <p>Spread the word</p>
+              <p>Learn about it on <a href="https://developer.mozilla.org/en-US/Firefox_OS">MDN</a></p>
+              <p>(all links are linked from the last few tweets on MozillaCH)</p>
+            </article>
+        </slide>
+
+        <slide class="title-slide blue">
+            <hgroup class="flexbox vleft auto-fadein">
+                <h1>Questions?</h1>
+            </hgroup>
+        </slide>
+
+        <slide class="thank-you-slide segue nobackground">
+            <div class="grid"></div>
+            <img src="imgs/firefox_logo.png" id="firefox-logo">
+            <img src="imgs/mozilla_wordmark.png" id="mozilla-logo">
+            <article class="flexbox vleft auto-fadein">
+                <h2>Thank you!</h2>
+                <p>mkohler@picobudget.com</p>
+            </article>
+            <p class="auto-fadein" data-config-contact="">
+                <span>Twitter</span>
+                <a href="https://twitter.com/kohlersolutions">@KohlerSolutions</a>
+                <br>
+                <span>Reps</span>
+                <a href="https://reps.mozilla.org/u/michaelkohler/">reps.mozilla.org/u/michaelkohler/</a>
+                <br>
+                <span>MozillaCH</span>
+                <a href="http://www.mozilla.ch">mozilla.ch</a>
+                <br>
+                <span>MozillaCH</span>
+                <a href="http://www.twitter.com/MozillaCH">twitter.com/MozillaCH</a>
+                <br>
+                <span>MozillaCH</span>
+                <a href="http://www.meetup.com/Mozilla-Meetup-Switzerland/">meetup.com/Mozilla-Meetup-Switzerland/</a>
+                <br>
+            </p>
+        </slide>
+
+    </slides>
+    <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,720 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Web Apps</title>
+
+		<meta name="author" content="Colin Frei (remixed by Michael Kohler)">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
+		<link rel="stylesheet" href="css/my.css">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+
+                <section>
+                    <h1>So you want to build a "web app"<br />...</h1>
+		    <h2>Origial slides by <a href="https://github.com/colinfrei/FirefoxOsAppDayZurichTalk">@ColinFrei</a></h2>
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+		<section>
+			<h2>Structure of Firefox OS</h2>
+			<dl>
+		                <dt>Gonk:</dt>
+		                <dd>Kernel, used to actually start everything</dd>
+
+		                <dt>Gecko:</dt>
+		                <dd>Rendering engine, to render the GUI</dd>
+
+		                <dt>Gaia:</dt>
+		                <dd>GUI - all HTML, CSS, JavaScript</dd>
+                   	 </dl>
+		</section>
+
+                <!--
+                ####################################################################
+                # Web APIs
+                ####################################################################
+                -->
+                <section>
+                    <h1>Web APIs<br />the fun part</h1>
+
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>APIs</h2>
+                    <ul class="two_column_list">
+                        <li>WebTelephony</li>
+                        <li>Vibration API</li>
+                        <li>WebSMS</li>
+                        <li>Idle API</li>
+                        <li>Screen Orientation</li>
+                        <li>Power Management API</li>
+                        <li>Mobile Connection API</li>
+                        <li>TCP Socket API</li>
+                        <li>Geolocation API</li>
+                        <li>WiFi Information API</li>
+                        <li>Device Storage API</li>
+                        <li>Contacts API</li>
+                        <li>Mouse Lock API</li>
+                        <li>Open WebApps</li>
+                        <li>WebBluetooth</li>
+                        <li>Network Information API</li>
+                        <li>Battery Status API</li>
+                        <li>Alarm API</li>
+                        <li>Proximity sensor</li>
+                        <li>Time/Clock API</li>
+                        <li>Push Notifications API</li>
+                        <li>Permissions API</li>
+                        <li>WebFM API</li>
+                        <li>FileHandle API</li>
+                        <li>Network Stats API</li>
+                        <li>WebPayment</li>
+                        <li>Ambient light sensor</li>
+                        <li>and more (like WebNFC!)</li>
+                    </ul>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Ambient Light</h2>
+
+                    <pre><code data-trim>
+window.ondevicelight = function (event) {
+
+    console.log("Ambient light: " + event.value + " lux");
+
+};
+                    </code></pre>
+
+                    <a href="http://www.w3.org/TR/ambient-light/">W3C Specification</a>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Battery Status</h2>
+
+                    <pre><code data-trim>
+var battery = navigator.battery;
+/*
+    battery.level: Battery level between 0 and 1
+    battery.charging: true/false
+    battery.chargingTime: Time left to fully charge, in seconds
+    battery.dischargingTime: Time until fully discharged, in seconds
+*/
+
+console.log("Battery level: " + battery.level * 100 + "%");
+
+navigator.battery.addEventListener(
+    "levelchange",
+    function() {
+        // Update display with current battery level
+    }
+);
+                    </code></pre>
+
+                    <a href="https://dvcs.w3.org/hg/dap/raw-file/tip/battery/Overview.html">W3C Specification</a>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Vibration API</h2>
+
+                    <pre><code data-trim>
+ navigator.vibrate(1000);
+
+ navigator.vibrate([200, 100, 200]);
+                    </code></pre>
+
+                    <a href="http://dev.w3.org/2009/dap/vibration/">W3C Specification</a>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Push Notifications</h2>
+
+                    <pre><code data-trim>
+// Setup Push Notifications
+var reg = navigator.push.register();
+reg.onsuccess = function(e) {
+    var endpointUrl = e.target.result;
+    // save endpointUrl to app server
+}
+
+navigator.mozSetMessageHandler('push', function(m) {
+    var version = m.version;
+    // do something based on version
+});
+
+//Unregister
+navigator.push.unregister(endpointUrl);
+                    </code></pre>
+
+                    <a href="https://wiki.mozilla.org/WebAPI/SimplePush">SimplePush on MDN</a>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>(Local) Notifications</h2>
+
+                    <pre><code data-trim>
+var notification = navigator.mozNotification;
+
+notification.createNotification(
+    "Title",
+    "Notification Text",
+    iconUrl
+);
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>Open WebApps</h2>
+
+                    <pre><code data-trim>
+var appInstall = navigator.mozApps.install(manifestUrl);
+
+appInstall.onsuccess = function(data) {
+    // App installed!
+};
+
+appInstall.onerror = function() {
+    console.log("Install failed: " + appInstall.error.name);
+};
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>WebPayment</h2>
+
+                    <pre><code data-trim>
+var payment = navigator.mozPay(JsonWebToken);
+
+payment.onsuccess = function() {
+    // ...
+    // Profit!
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>More Links</h2>
+                    <a href="https://wiki.mozilla.org/WebAPI">Overview of WebAPIs</a><br />
+                    <a href="https://github.com/robnyman/Firefox-OS-Boilerplate-App/blob/gh-pages/js/webapp.js">Boilerplate App (Example Code)</a><br />
+                    <a href="https://hacks.mozilla.org/2013/02/using-webapis-to-make-the-web-layer-more-capable/">Web API Blog Post</a>
+                </section>
+
+
+                <!--
+                ####################################################################
+                # Web Activities
+                ####################################################################
+                -->
+                <section>
+                    <h1>Web<br />Activities</h1>
+
+                    <aside class="notes">
+                        Next up: web activities.<br />
+                        Web activities are similiar to <strong>Web Intents</strong>, they allow you to build links between apps. There are two sides to that.
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Two sides</h2>
+                    <ul>
+                        <li>Use another app's functionality</li>
+                        <li>Offer functionality</li>
+                    </ul>
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Sharing an Image</h2>
+                    <pre><code data-trim>
+var share = new MozActivity({
+    name: "share",
+    data: {
+        type: "image/*",
+        number: 1,
+        blobs: [new Blob($('#imgToShare')[0], {type: "text/png"})]
+    }
+});
+
+share.onsuccess = function() {
+    // Do stuff
+};
+share.onerror = function () {
+    // handle error
+};
+                    </code></pre>
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Offering an Activity</h2>
+                    <pre><code data-trim>
+"pick": {
+    "href": "./pick.html",
+    "disposition": "inline",
+    "filters": {
+        "type": ["image/*","image/jpeg","image/png"]
+    },
+    "returnValue": true
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Handling the Activity</h2>
+                    <pre><code data-trim>
+navigator.mozSetMessageHandler('activity', function(request) {
+    var options = request.source;
+    if ("pick" === options.name) {
+        // Do something with the image
+    }
+});
+                    </code></pre>
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Firefox OS Activities</h2>
+                    <dl>
+                        <dt>browse</dt>
+                        <dd>Browse a gallery to select a Photo</dd>
+
+                        <dt>configure</dt>
+                        <dd>Change phone settings</dd>
+
+                        <dt>dial</dt>
+                        <dd>Call someone</dd>
+
+                        <dt><strong>new</strong></dt>
+                        <dd>'add something': contact, email, sms</dd>
+
+                        <dt>open</dt>
+                        <dd>'open sthg': contact, gallery, music, video</dd>
+
+                        <dt><strong>pick</strong></dt>
+                        <dd>Retrieve data: contact, image, email</dd>
+
+                        <dt>record</dt>
+                        <dd>Take a picture or record video</dd>
+
+                        <dt>and more..</dt>
+                        <dd></dd>
+
+                    </dl>
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>More Links</h2>
+                    <a href="https://developer.mozilla.org/en-US/docs/WebAPI/Web_Activities">Wiki Documentation</a><br />
+                    <a href="https://github.com/robnyman/Firefox-OS-Boilerplate-App/blob/gh-pages/js/webapp.js">Example Code in Boilerplate App</a><br />
+                    <a href="https://hacks.mozilla.org/2013/01/introducing-web-activities/">Web Activities Intro Blogpost</a>
+                </section>
+
+
+                <!--
+                ####################################################################
+                # Webapp Manifest
+                ####################################################################
+                -->
+                <section>
+                    <h1>Open Web App<br />manifest</h1>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+				<section>
+					<h2>Basic Manifest</h2>
+					<pre><code data-trim>
+{
+    "name": "Cool App",
+    "description": "This app lets you do really awesome stuff"
+}
+					</code></pre>
+
+                    <aside class="notes">
+                    </aside>
+				</section>
+
+				<section>
+					<h2>A bit more data</h2>
+					<pre><code data-trim>
+{
+    "name": "Cool App",
+    "description": "This app lets you do really awesome stuff",
+    "icons": {
+        "60": "/img/icon-60.png",
+        "128": "/img/icon-128.png"
+    },
+    "fullscreen": true,
+    "orientations": ["portrait","landscape-secondary"],
+    "chrome": { "navigation": true},
+    "developer": {
+        "name": "Colin Frei",
+        "url": "http://colinfrei.com"
+    }
+}
+					</code></pre>
+
+                    <a href="http://www.mozilla.org/en-US/styleguide/products/firefoxos/icons/">Firefox OS App Icon Guidelines</a>
+
+                    <aside class="notes">
+                    </aside>
+				</section>
+
+                <section>
+                    <h2>Adding Chrome</h2>
+                    <pre><code data-trim>
+    "chrome": { "navigation": true}
+                </code></pre>
+                    <img src="https://mdn.mozillademos.org/files/5843/nav-both2.png" />
+
+                    <aside class="notes">
+                    </aside>
+
+                </section>
+
+                <section>
+                    <h2>Locales</h2>
+                    <pre><code data-trim>
+{
+    "name": "Cool App",
+    "description": "This app lets you do really awesome stuff",
+    "default_locale": "en",
+    "locales": {
+        "de": {
+            "description": "Beschreibung der App"
+        }
+    }
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Web Activities</h2>
+
+                    <pre><code data-trim>
+{
+    "name": "Cool App",
+    "description": "This app lets you do really awesome stuff",
+    "activities": {
+        "pick": {
+            "href": "./pick.html",
+            "disposition": "inline",
+            "filters": {
+                "type": ["image/*","image/jpeg","image/png"]
+            },
+            "returnValue": true
+        }
+    }
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Messages</h2>
+
+                    <pre><code data-trim>
+{
+    "name": "Cool App",
+    "description": "This app lets you do really awesome stuff",
+    "messages": [
+        { "notification": "/dialer/index.html#keyboard-view" },
+        { "alarm": "/facebook/fb_sync.html" }
+    ]
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Market Restrictions</h2>
+
+                    <pre><code data-trim>
+{
+    "name": "Cool App",
+    "description": "This app lets you do really awesome stuff",
+    "installs_allowed_from": [
+        "https://marketplace.firefox.com",
+        "http://colinfrei.com"
+    ]
+}
+                    </code></pre>
+                </section>
+
+                <section>
+                    <h2>Permissions</h2>
+                    <pre><code data-trim>
+{
+    "name": "App Name",
+    "description": "A description of your app",
+    "type": "privileged",
+    "permissions": {
+        "desktop-notification": {
+            "description": "Required to notify about stuff"
+        }
+    }
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Types</h2>
+
+                    <table cellpadding="10" style="width: 100%">
+                        <tr>
+                            <td></td>
+                            <td>Web</td>
+                            <td>Privileged</td>
+                            <td>Certified</td>
+                        </tr>
+                        <tr>
+                            <td>Hosted</td>
+                            <td>✔</td>
+                            <td>✖</td>
+                            <td>✖</td>
+                        </tr>
+                        <tr>
+                            <td>Packaged</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                            <td>✔</td>
+                        </tr>
+                    </table>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Permissions</h2>
+                    <ul>
+                        <li>alarms</li>
+                        <li>audio-channel-*</li>
+                        <li>contacts</li>
+                        <li>desktop-notification</li>
+                        <li>geolocation</li>
+                        <li>storage</li>
+                        <li>systemXHR</li>
+                    </ul>
+                    <p>
+                        <br /><a href="https://developer.mozilla.org/en-US/docs/Web/Apps/App_permissions?redirectlocale=en-US&redirectslug=Apps%2FApp_permissions">Full List</a>
+                    </p>
+
+                    <aside class="notes">
+
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Permissions</h2>
+                    <pre><code data-trim>
+{
+    "name": "App Name",
+    "description": "A description of your app",
+    "type": "privileged",
+    "permissions": {
+        "contacts": {
+            "description": "Required to match users",
+            "access": "readonly"
+        }
+    }
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+
+                <section>
+                    <h2>Versions & Updating</h2>
+                    <pre><code data-trim>
+{
+    "name": "App Name",
+    "description": "A description of your app",
+    "version": "2.0"
+}
+                    </code></pre>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Bits & Pieces</h2>
+                    <p class="fragment">Content Type:<br />application/x-web-app-manifest+json</p>
+                    <p class="fragment">Same Origin</p>
+                    <p class="fragment">Absolute Paths</p>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+
+                <section>
+                    <h2>More Links</h2>
+
+                    <a href="http://www.mozilla.org/en-US/styleguide/products/firefoxos/icons/">Firefox OS App Icon Guidelines</a><br />
+                    <a href="http://mounir.lamouri.fr/2013/05/the-web-manifest.html">Blog Post about Manifests evolving</a><br />
+                    <a href="http://www.w3.org/TR/appmanifest/">Manifest specification</a><br />
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/Apps/App_permissions">App Permissions</a>
+                </section>
+
+                <!--
+                ####################################################################
+                # Firefox Marketplace
+                ####################################################################
+                -->
+
+                <section>
+                    <h1>Firefox Marketplace</h1>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Submitting your app</h2>
+
+                    <iframe src="https://marketplace.firefox.com/developers/submit/" width="100%" height="100%"></iframe>
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>Review criteria</h2>
+                    <img src="http://farm3.staticflickr.com/2583/3709203268_1f8afc8392_b.jpg" />
+
+                    <aside class="notes">
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>You can review apps too!</h2>
+
+                    <img src="http://cdn.returnofkings.com/wp-content/uploads/2013/01/50360dff1d41c876970001df.jpg" /><br />
+                    <a href="https://wiki.mozilla.org/Marketplace/Reviewers/Points_and_Incentives">Reviewer Application</a>
+
+                    <aside class="notes">
+                        <p>Requirements:</p>
+                        <ul>
+                            <li>Basic HTML Knowledge</li>
+                            <li>Friendly and helpful attitude</li>
+                            <li>Fluent in English</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <section>
+                    <h2>More Links</h2>
+
+                    <a href="https://developer.mozilla.org/en-US/docs/Web/Apps/Publishing/Marketplace_review_criteria">Marketplace Review Criteria</a><br />
+                    <a href="https://blog.mozilla.org/apps/2013/05/20/become-a-marketplace-app-reviewer/">Blog Post "Become a Marketplace Reviewer"</a>
+                </section>
+
+
+                <section>
+                    <h1>Thanks!</h1>
+		    <h2><span style="color: red;">@MozillaCH</span> on twitter!</h2>
+                </section>
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: false,
+				history: true,
+				center: false,
+                rollingLinks: false,
+
+				transition: 'linear', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; } }
+					// { src: 'plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
