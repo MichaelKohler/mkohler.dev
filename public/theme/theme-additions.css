@@ -1,4 +1,8 @@
 /* GLOBAL */
+html {
+  background-color: #3a5a77;
+}
+
 a,
 ul li a {
   color: #6599be;
@@ -170,6 +174,7 @@ footer .svg-inline--fa:hover {
 /* CONTACT */
 #contacts-data {
   margin-top: 60px;
+  margin-bottom: 100px;
 }
 
 @media (min-width: 1200px) {
