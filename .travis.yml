@@ -4,13 +4,19 @@ node_js:
 branches:
   only:
   - master
+git:
+  submodules: false
+
+# Use sed to replace the SSH URL with the public URL, then initialize submodules
+# https://stackoverflow.com/questions/15674064/how-to-fix-a-permission-denied-publickey-error-for-a-git-submodule-update-in-t
+before_install:
+- sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+- git submodule update --init --recursive
 
 install:
 - npm install
 
 script:
-- git submodule init
-- git submodule update
 - npm run build
 
 deploy:
