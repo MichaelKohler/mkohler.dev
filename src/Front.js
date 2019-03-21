@@ -209,24 +209,24 @@ const Front = () => {
                   </p>
                 </div>
               </div>
-              <div className="col-sm-4 single-skill">
-                <h4 className="font-accident-one-normal uppercase">Web Standards</h4>
-                <p className="font-regular-normal">
-                  Due to my affiliation with Mozilla, I&apos;m really passionate about the Open
-                  Web. Therefore I&apos;m trying to keep on top of changes to Web Standards and
-                  will always encourage the use of modern standards where possible.
-                </p>
-              </div>
-              <div className="col-sm-4 single-skill">
-                <h4 className="font-accident-one-normal uppercase">DevOps</h4>
-                <p className="font-regular-normal">
-                  At NEEO I also gained experience in DevOps. I like working with Docker
-                  containers and try to make sure Infrastructure as Code is applied where
-                  possible. For my personal servers (even my Raspberry Pi) I&apos;ve been
-                  using Ansible. Currently I&apos;m looking into Kubernetes.
-                </p>
-              </div>
               <div className="row">
+                <div className="col-sm-4 single-skill">
+                  <h4 className="font-accident-one-normal uppercase">Web Standards</h4>
+                  <p className="font-regular-normal">
+                    Due to my affiliation with Mozilla, I&apos;m really passionate about the Open
+                    Web. Therefore I&apos;m trying to keep on top of changes to Web Standards and
+                    will always encourage the use of modern standards where possible.
+                  </p>
+                </div>
+                <div className="col-sm-4 single-skill">
+                  <h4 className="font-accident-one-normal uppercase">DevOps</h4>
+                  <p className="font-regular-normal">
+                    At NEEO I also gained experience in DevOps. I like working with Docker
+                    containers and try to make sure Infrastructure as Code is applied where
+                    possible. For my personal servers (even my Raspberry Pi) I&apos;ve been
+                    using Ansible. Currently I&apos;m looking into Kubernetes.
+                  </p>
+                </div>
                 <div className="col-sm-4 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Databases</h4>
                   <p className="font-regular-normal">
