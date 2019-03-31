@@ -223,15 +223,15 @@ const Front = () => {
                   <p className="font-regular-normal">
                     At NEEO I also gained experience in DevOps. I like working with Docker
                     containers and try to make sure Infrastructure as Code is applied where
-                    possible. For my personal servers (even my Raspberry Pi) I&apos;ve been
-                    using Ansible. Currently I&apos;m looking into Kubernetes.
+                    possible. I also have experience with Kubernetes, deploying all my private
+                    projects on my own Kubernetes Cluster. For my personal gadgets like my
+                    Raspberry Pi I&apos;ve been using Ansible.
                   </p>
                 </div>
                 <div className="col-sm-4 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Databases</h4>
                   <p className="font-regular-normal">
-                    I&apos;ve been mostly using MongoDB as database. Nevertheless I have used
-                    several other database systems in the past, such as MySQL.
+                    I&apos;ve been mostly using MongoDB and MySQL for my personal database needs.
                   </p>
                 </div>
               </div>
