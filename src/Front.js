@@ -177,7 +177,7 @@ const Front = () => {
             <div className="padding-50">
               <h3 className="font-accident-two-normal uppercase">My Professional skills</h3>
               <div className="row">
-                <div className="col-sm-4 single-skill">
+                <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Backend JavaScript</h4>
                   <p className="font-regular-normal">
                     I&apos;ve been developing Node.js applications for the past 8 years, as private
@@ -188,7 +188,7 @@ const Front = () => {
                     applications.
                   </p>
                 </div>
-                <div className="col-sm-4 single-skill">
+                <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Frontend JavaScript</h4>
                   <p className="font-regular-normal">
                     As part of my work at NEEO and NETCASE GmbH and several private projects
@@ -199,7 +199,7 @@ const Front = () => {
                     I&apos;ve mostly used React for my personal as well as Mozilla projects.
                   </p>
                 </div>
-                <div className="col-sm-4 single-skill">
+                <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Other languages</h4>
                   <p className="font-regular-normal">
                     I have experience in several other languages, most notably HTML and CSS.
@@ -210,7 +210,7 @@ const Front = () => {
                 </div>
               </div>
               <div className="row">
-                <div className="col-sm-4 single-skill">
+                <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Web Standards</h4>
                   <p className="font-regular-normal">
                     Due to my affiliation with Mozilla, I&apos;m really passionate about the Open
@@ -218,7 +218,7 @@ const Front = () => {
                     will always encourage the use of modern standards where possible.
                   </p>
                 </div>
-                <div className="col-sm-4 single-skill">
+                <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">DevOps</h4>
                   <p className="font-regular-normal">
                     At NEEO I also gained experience in DevOps. I like working with Docker
@@ -228,7 +228,7 @@ const Front = () => {
                     Raspberry Pi I&apos;ve been using Ansible.
                   </p>
                 </div>
-                <div className="col-sm-4 single-skill">
+                <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Databases</h4>
                   <p className="font-regular-normal">
                     I&apos;ve been mostly using MongoDB and MySQL for my personal database needs.
