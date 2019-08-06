@@ -34,7 +34,7 @@
     "mini-css-extract-plugin": "^0.8.0",
     "prop-types": "^15.7.2",
     "react-hot-loader": "^4.12.8",
-    "style-loader": "^0.23.1",
+    "style-loader": "^1.0.0",
     "svg-inline-loader": "^0.8.0",
     "webpack": "^4.36.1",
     "webpack-dev-server": "^3.7.2"
