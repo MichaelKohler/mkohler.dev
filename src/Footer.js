@@ -20,11 +20,11 @@ const Footer = () => {
             <h4 className="font-accident-two-normal uppercase">Follow me</h4>
             <div className="follow">
               <ul className="list-inline social">
-                <li><a target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/KohlerSolutions"><FontAwesomeIcon icon={faTwitter} /></a></li>
-                <li><a target="_blank" rel="noopener noreferrer" href="https://www.xing.com/profile/Michael_Kohler36"><FontAwesomeIcon icon={faXing} /></a></li>
-                <li><a target="_blank" rel="noopener noreferrer" href="https://www.michaelkohler.info"><FontAwesomeIcon icon={faGlobe} /></a></li>
-                <li><a target="_blank" rel="noopener noreferrer" href="https://www.github.com/MichaelKohler"><FontAwesomeIcon icon={faGithub} /></a></li>
-                <li><a target="_blank" rel="noopener noreferrer" href="mailto:me@michaelkohler.info"><FontAwesomeIcon icon={faEnvelope} /></a></li>
+                <li><a target="_blank" aria-label="Michael on Twitter" title="foo" rel="noopener noreferrer" href="https://www.twitter.com/KohlerSolutions"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                <li><a target="_blank" aria-label="Michael on Xing" rel="noopener noreferrer" href="https://www.xing.com/profile/Michael_Kohler36"><FontAwesomeIcon icon={faXing} /></a></li>
+                <li><a target="_blank" aria-label="Michael's Blog" rel="noopener noreferrer" href="https://www.michaelkohler.info"><FontAwesomeIcon icon={faGlobe} /></a></li>
+                <li><a target="_blank" aria-label="Michael on GitHub" rel="noopener noreferrer" href="https://www.github.com/MichaelKohler"><FontAwesomeIcon icon={faGithub} /></a></li>
+                <li><a target="_blank" aria-label="Michael's Email" rel="noopener noreferrer" href="mailto:me@michaelkohler.info"><FontAwesomeIcon icon={faEnvelope} /></a></li>
               </ul>
             </div>
           </div>
