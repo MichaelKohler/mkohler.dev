@@ -78,25 +78,13 @@ I&apos;m a passionate Mozillian volunteering in
                     <p>2010 - now</p>
                     <ul>
                       <li>
-                        Started with another Mozillian in Switzerland to build the
-                        {' '}
-                        <a href="https://mozilla.ch">mozilla.ch</a>
-                        {' '}
-                        community
+                        Started with another Mozillian in Switzerland to build the <a href="https://mozilla.ch">mozilla.ch</a> community
                       </li>
                       <li>
-                        Organized (almost) monthly
-                        {' '}
-                        <a href="http://www.meetup.com/Mozilla-Meetup-Switzerland/">
-                          meetups in Zurich
-                        </a>
+                        Organized (almost) monthly <a href="http://www.meetup.com/Mozilla-Meetup-Switzerland/">meetups in Zurich</a>
                       </li>
                       <li>
-                        Nurturing
-                        {' '}
-                        <a href="http://github.com/mozillach/participation/">Participation</a>
-                        {' '}
-                        in Switzerland
+                        Nurturing <a href="http://github.com/mozillach/participation/">Participation</a> in Switzerland
                       </li>
                       <li>
                         In 2013, 2014 and 2015 I helped develop the German-speaking community
@@ -120,11 +108,7 @@ I&apos;m a passionate Mozillian volunteering in
                     <p>2012 - now</p>
                     <ul>
                       <li>
-                        Started as
-                        {' '}
-                        <a href="https://reps.mozilla.org">Mozilla Rep</a>
-                        {' '}
-                        in 2012
+                        Started as <a href="https://reps.mozilla.org">Mozilla Rep</a> in 2012
                       </li>
                       <li>
                         Officially represented Mozilla in Switzerland and supporting
@@ -134,11 +118,7 @@ I&apos;m a passionate Mozillian volunteering in
                         Reps Mentor since 2014 to coach other Mozilla Reps
                       </li>
                       <li>
-                        I was voted to be a
-                        {' '}
-                        <a href="https://wiki.mozilla.org/ReMo/Council">Reps Council</a>
-                        {' '}
-                        member from
+                        I was voted to be a <a href="https://wiki.mozilla.org/ReMo/Council">Reps Council</a> member from
                         May 2015 to November 2017 to bring the Reps program to the
                         next phase and take care of operational
                         and strategic responsibilities of the Reps program
