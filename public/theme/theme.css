@@ -998,7 +998,7 @@ button, input, select, textarea {
     color: #e7e7e7; }
     #top-navigation .ident .vc-photo {
       min-height: 360px;
-      background: url("/images/userpic01.jpg");
+      background: url("/images/userpic01.webp");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;

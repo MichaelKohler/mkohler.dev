@@ -37,7 +37,7 @@ I&apos;m a passionate Mozillian volunteering in
                       I&apos;m also involved in the Mozilla Reps (Representative) program.
                     </p>
 
-                    <img src="/images/me.jpg" alt="Michael sitting and listening" />
+                    <img src="/images/me.webp" alt="Michael sitting and listening" />
 
                     <h3>What I have done for Mozilla</h3>
 
@@ -72,7 +72,7 @@ I&apos;m a passionate Mozillian volunteering in
                       </li>
                     </ul>
 
-                    <img src="/images/me_firefox.jpg" alt="Michael hugging the fox" />
+                    <img src="/images/me_firefox.webp" alt="Michael hugging the fox" />
 
                     <h4>Community Building</h4>
                     <p>2010 - now</p>
@@ -102,7 +102,7 @@ I&apos;m a passionate Mozillian volunteering in
                       </li>
                     </ul>
 
-                    <img src="/images/me_community_building.jpg" alt="Michael in front of the Brandenburger Tor with a group of Mozillians" />
+                    <img src="/images/me_community_building.webp" alt="Michael in front of the Brandenburger Tor with a group of Mozillians" />
 
                     <h4>Mozilla Reps</h4>
                     <p>2012 - now</p>
@@ -129,7 +129,7 @@ I&apos;m a passionate Mozillian volunteering in
                       </li>
                     </ul>
 
-                    <img src="/images/reps_group.jpg" alt="Michael and the rest of the Reps Council and Peers in Berlin in April 2016" />
+                    <img src="/images/reps_group.webp" alt="Michael and the rest of the Reps Council and Peers in Berlin in April 2016" />
 
                     <h4>Firefox - Choose Independent</h4>
                     <div className="mozilla-video-container">
