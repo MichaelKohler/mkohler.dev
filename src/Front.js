@@ -22,13 +22,13 @@ const Front = () => {
                 </div>
               </div>
 
-              <section className="row infoblock-container">
-                <div className="col-md-5 infoblock">
-                  <div className="row">
+              <section className="row infoblock-container nopadding">
+                <div className="col-md-5 infoblock nopadding">
+                  <div className="row nopadding">
                     <div className="icon-container col-sm-1 col-md-3 hidden-sm hidden-xs">
                       <FontAwesomeIcon icon={faBook} />
                     </div>
-                    <div className="col-sm-11 col-md-9">
+                    <div className="col-sm-11 col-md-9 nopadding">
                       <h5 className="font-accident-one-bold uppercase">Eager to learn</h5>
                       <p>
                         Even though I have several years of experience with Software Development
@@ -39,11 +39,11 @@ const Front = () => {
                 </div>
                 <div className="col-md-1" />
                 <div className="col-md-5 infoblock nopadding">
-                  <div className="row">
+                  <div className="row nopadding">
                     <div className="icon-container col-sm-1 col-md-3 hidden-sm hidden-xs">
                       <FontAwesomeIcon icon={faHeart} />
                     </div>
-                    <div className="col-sm-11 col-md-9">
+                    <div className="col-sm-11 col-md-9 nopadding">
                       <h5 className="font-accident-one-bold uppercase">Motivated</h5>
                       <p>
                         With my volunteer work for Mozilla I&apos;m very passionate about the Open
