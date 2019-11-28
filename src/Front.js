@@ -106,7 +106,7 @@ const Front = () => {
                 <ul className="">
                   <li className="date">02/2019 - now</li>
                   <li className="company uppercase">
-                    <a href="http://www.control4.com">Control4</a>
+                    <a href="http://www.control4.com">Control4 + SnapAV</a>
                   </li>
                   <li className="position">(acquired NEEO)</li>
                 </ul>
@@ -181,8 +181,8 @@ const Front = () => {
                   <h4 className="font-accident-one-normal uppercase">Backend JavaScript</h4>
                   <p className="font-regular-normal">
                     I&apos;ve been developing Node.js applications for the past 8 years, as private
-                    projects as well as professionally. At NEEO I developped JavaScript
-                    for both front and back end based on Ionic and Node.js in a IoT environment.
+                    projects as well as professionally. At NEEO I developed JavaScript
+                    for both front and back end based on Ionic and Node.js in an IoT environment.
                     Previously during my time at NETCASE GmbH I had also worked on Sails.js /
                     Loopback based APIs. Currently at Control4 I&apos;m developping Node.js
                     applications.
@@ -192,7 +192,7 @@ const Front = () => {
                   <h4 className="font-accident-one-normal uppercase">Frontend JavaScript</h4>
                   <p className="font-regular-normal">
                     As part of my work at NEEO and NETCASE GmbH and several private projects
-                    I used AngularJS 1 for the past 4 years. From really simple to
+                    I used AngularJS 1 for about 4 years. From really simple to
                     more complex frontends, I&apos;ve been involved in developing them. While my
                     CSS skills are not perfect, I know AngularJS/React well and can output
                     semantic DOM to make it as easy as possible to style. In the recent past
@@ -205,7 +205,7 @@ const Front = () => {
                     I have experience in several other languages, most notably HTML and CSS.
                     Additionally I have also worked with TypeScript. I
                     haven&apos;t written any PHP, Ruby or Java in years, but back in the days...
-                    Sometime in the future I will also learn Lua and Rust.
+                    Iapos;ve been doing smaller projects with Lua and Rust as well.
                   </p>
                 </div>
               </div>
@@ -221,11 +221,12 @@ const Front = () => {
                 <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">DevOps</h4>
                   <p className="font-regular-normal">
-                    At NEEO I also gained experience in DevOps. I like working with Docker
-                    containers and try to make sure Infrastructure as Code is applied where
-                    possible. I also have experience with Kubernetes, deploying all my private
-                    projects on my own Kubernetes Cluster. For my personal gadgets like my
-                    Raspberry Pi I&apos;ve been using Ansible.
+                    At NEEO and Control4 I gained experience in DevOps methodologies.
+                    I like working with Docker and try to make sure Infrastructure as
+                    Code is applied where possible. I&apos;ve implemented different metrics
+                    tracking systems. I also have experience deploying all my private projects to
+                    Kubernetes and monitoring the health of the cluster. For my personal gadgets
+                    I&apos;ve been using Ansible.
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-12 single-skill">
