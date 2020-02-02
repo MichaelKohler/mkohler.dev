@@ -28,7 +28,7 @@ const Talks = () => {
                       </li>
                       <li>
                         <a href="/presentations/mozillaCH_intro_mozilla/index.html" target="_blank">
-                        Mozilla Intro &amp; Update, Mozilla Switzerland at TechUP, Luzern, 13.04.2016
+                          Mozilla Intro &amp; Update, Mozilla Switzerland at TechUP, Luzern, 13.04.2016
                         </a>
                       </li>
                       <li>

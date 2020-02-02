@@ -12,7 +12,7 @@ const Mozilla = () => {
                   <h2 className="font-accident-two-normal uppercase">Mozilla Contributions</h2>
                   <div className="quote">
                     <h5 className="font-accident-one-bold uppercase subtitle">
-I&apos;m a passionate Mozillian volunteering in
+                      I&apos;m a passionate Mozillian volunteering in
                       different areas of Mozilla.
                     </h5>
                   </div>
