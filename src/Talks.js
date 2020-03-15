@@ -27,9 +27,7 @@ const Talks = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/presentations/mozillaCH_intro_mozilla/index.html" target="_blank">
-                          Mozilla Intro &amp; Update, Mozilla Switzerland at TechUP, Luzern, 13.04.2016
-                        </a>
+                        Mozilla Intro &amp; Update, Mozilla Switzerland at TechUP, Luzern, 13.04.2016
                       </li>
                       <li>
                         <a href="/presentations/mozillaCH-day-whats-new-in-mozilla/index.html" target="_blank">
@@ -37,9 +35,7 @@ const Talks = () => {
                         </a>
                       </li>
                       <li>
-                        <a href="/presentations/mozweekend-berlin-2015-contributing/index.html" target="_blank">
-                          Mozilla Weekend Berlin 2015 - Contributing at Mozilla, German-speaking Mozilla Community, Berlin, 11.07.2015
-                        </a>
+                        Mozilla Weekend Berlin 2015 - Contributing at Mozilla, German-speaking Mozilla Community, Berlin, 11.07.2015
                       </li>
                       <li>
                         <a href="/presentations/mozweekend-berlin-2015-outro/index.html" target="_blank">
