@@ -54,6 +54,7 @@ module.exports = {
     new CopyWebpackPlugin([
       { from: 'public/presentations/', to: './presentations' },
       { from: 'public/images/', to: './images' },
+      { from: 'public/CNAME', to: '.' },
       { from: '404.html', to: '.' },
       { from: 'index.html', to: '.' },
     ], { copyUnmodified: true })
