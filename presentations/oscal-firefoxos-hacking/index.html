@@ -1,0 +1,372 @@
+<!DOCTYPE HTML>
+<!-- <html lang="en-US"> -->
+<html lang="en-US" class="fade">
+<head>
+  <meta charset="UTF-8">
+  <title>Firefox OS - Creating your own app and hack Firefox OS itself</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    .full div[id$='bullets'].slide > div::after {
+      animation: wiggle alternate 1s infinite;
+    }
+    @keyframes wiggle {
+      from {
+        transform: rotate(90deg) translate(52%,-150px);
+      }
+      to {
+        transform: rotate(90deg) translate(52%,-160px);
+      }
+    }
+    .demourl {
+      bottom: 10px;
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>Firefox OS - Creating your own app and hack Firefox OS itself</h1>
+    <p class="footer">
+      Michael Kohler,
+      <a href="http://twitter.com/KohlerSolutions">@KohlerSolutions</a> or
+      <a href="mailto:mkohler@picobudget.com">mkohler@picobudget.com</a>
+    </p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate. <button onclick="goFullScreen()">Go fullscreen</button></p>
+    <p class="abstract">
+      <strong>Abstract: </strong>
+       Create your own app and we'll show you how!
+    </p>
+  </aside>
+
+  <div id="cover" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Firefox OS - Creating your own app and hack Firefox OS itself</h2>
+      </header>
+      <img src="pictures/slides/be-the-future.jpg"
+           alt="Mozilla">
+      <small class="byline">
+        Michael Kohler, Mozilla Rep, OSCAL 2015 May 2015
+      </small>
+    </section>
+  </div></div>
+
+  <div id="aboutme" class="slide"><div>
+    <section>
+      <header>
+        <h2>About me</h2>
+      </header>
+      <ul class="longlist">
+        <li>Michael Kohler</li>
+        <li>volunteering for Mozilla since 2008</li>
+        <li>Mozilla Representative since 2012</li>
+        <li>Web Developer @netcase.ch</li>
+        <li>mkohler.codes</li>
+      </ul>
+      <img src="pictures/slides/reps.png"
+           alt="Mozilla Reps Logo">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="simulator" class="slide"><div>
+    <section>
+      <header>
+        <h2>Simulator</h2>
+      </header>
+      <img height="70%" src="pictures/slides/simulator.png"
+           alt="Simulator"
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="webide" class="slide"><div>
+    <section>
+      <header>
+        <h2>WebIDE - Demo</h2>
+      </header>
+      <img height="70%" src="pictures/slides/webide.png"
+           alt="WebIDE"
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="webapipic" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>https://wiki.mozilla.org/WebAPI</h2>
+      </header>
+      <img src="pictures/slides/webapi.png"
+           alt="webapi table pic"
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div class="slide" id="some"><div>
+    <section>
+      <header>
+        <h2>Common WebAPI</h2>
+      </header>
+      <ul>
+        <li>Vibration API</li>
+        <li>Geolocation API</li>
+        <li>Battery Status API</li>
+        <li>Push Notification API</li>
+        <li>Contacts API</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div class="slide" id="some2"><div>
+    <section>
+      <header>
+        <h2>Interesting WebAPI (certified)</h2>
+      </header>
+      <ul>
+        <li>WebTelephony</li>
+        <li>WebSMS</li>
+        <li>WebFM API</li>
+        <li>WebPayment API</li>
+        <li>WebBluetooth API</li>
+      </ul>
+    </section>
+  </div></div>
+
+  <div id="examples" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Some examples..</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div class="slide" id="vibAPI"><div>
+    <section>
+      <header>
+        <h2>Vibration API (complicated form)</h2>
+      </header>
+      <pre><code>window.navigator.vibrate([200, 100, 200]);</code></pre>
+    </section>
+  </div></div>
+
+  <div class="slide" id="geolocation"><div>
+    <section>
+      <header>
+        <h2>Geolocation API</h2>
+      </header>
+      <pre style="font-size: 0.95em;"><code>navigator.geolocation.getCurrentPosition(function(position) {</code>
+        <code>  do_something(position.coords.latitude,</code>
+        <code>      position.coords.longitude);</code>
+        <code>});</code>
+      </code></pre>
+    </section>
+  </div></div>
+
+  <div class="slide" id="batterystatus"><div>
+    <section>
+      <header>
+        <h2>Battery Status API</h2>
+      </header>
+      <pre style="font-size: 0.8em;"><code>navigator.getBattery().then(function(battery) {</code>
+      <code>  battery.addEventListener('chargingchange', function() {</code>
+      <code>    console.log("Battery charging? " + (battery.charging ? "Yes" : "No"));</code>
+      <code>  });</code>
+
+      <code>  battery.addEventListener('levelchange', function() {</code>
+      <code>    console.log("Battery level: " + battery.level * 100 + "%");</code>
+      <code>  });</code>
+
+      <code>  battery.addEventListener('chargingtimechange', function() {</code>
+      <code>    console.log("Battery charging time: " + battery.chargingTime + " seconds");</code>
+      <code>  });</code>
+
+      <code>  battery.addEventListener('dischargingtimechange', function() {</code>
+      <code>    console.log("Battery discharging time: " + battery.dischargingTime + " seconds");</code>
+      <code>  });</code>
+      <code>});</code></pre>
+    </section>
+  </div></div>
+
+  <div id="mdn" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 2em;">developer.mozilla.org<br />(MDN)</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="cordova" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 2.6em;">Cordova Target</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="website" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 2.6em;">Existing Website + Manifest</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="manifest" class="slide"><div>
+    <section>
+      <header>
+        <h2>Manifest</h2>
+      </header>
+      <pre><code>{ "name": "Cool App",</code>
+      <code>  "description": "This app lets you do ...",</code>
+      <code>  "icons": {</code>
+      <code>    "128": "/img/icon-128.png"</code>
+      <code>  },</code>
+      <code>  "fullscreen": true,</code>
+      <code>  "orientations": ["portrait","landscape-secondary"],</code>
+      <code>  "developer": {</code>
+      <code>    "name": "Max Mustermann",</code>
+      <code>    "url": "http://mozilla.org"</code>
+      <code>  }}</code></pre>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="marketplace" class="slide cover"><div>
+    <section>
+      <header>
+      </header>
+      <img src="pictures/slides/marketplace.png"
+           alt="Marketplace"
+           class="middle shadow">
+    </section>
+  </div></div>
+
+
+  <div id="hackingfirefoxos" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Hacking Gaia</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="hackinggaia" class="slide cover"><div>
+    <section>
+      <header>
+      </header>
+      <img src="pictures/slides/hackinggaia.png"
+           alt="Hacking Gaia"
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="download" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 1.5em;">github.com/mozilla-b2g/gaia</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="make" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 2.6em;">make</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="runsimulator" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 2.6em;">run in Simulator</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="b2gdesktop" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 2em;">nightly.mozilla.org</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="werehere" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">We're here to help!</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="demophones" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 2.5em;">Demo phones for testing available</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+
+<!--
+===================================
+END
+===================================
+-->
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks</h2>
+      </header>
+      <img src="pictures/mozillaoverview/redpanda.jpg" class="right" alt="Red panda (Firefox)">
+      <ul class="nobull">
+        <li>Michael Kohler</li>
+        <li>Mozilla Reps</li>
+        <li><a href="http://twitter.com/KohlerSolutions">@KohlerSolutions</a></li>
+        <br />
+        <li><strong>Slides</strong>:<br />mkohler.codes</li>
+      </ul>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/yortw/5798336827/">Photo by Yortw</a>
+      </small>
+    <footer class="notes">
+    </footer>
+
+    </section>
+  </div></div>
+
+  <div class="progress"><div></div></div>
+  <script src="scripts/script.js"></script>
+
+  <!-- Copyright slide engine © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>

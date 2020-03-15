@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html lang="en-US" class="fade nonmbers">
+
+<head>
+  <title>Creating a Firefox OS App – Michael Kohler – innovation [L]app Düsseldorf</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1274, user-scalable=no">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    /* Add your own styles here */
+    .talkdescription {
+      font-size: 12px;
+      color: #fff;
+      width: 80%;
+    }
+    .full .talkdescription {
+      display: none;
+    }
+    .slide blockquote.lots {
+      font-size: 30px;
+    }
+    .demourl { 
+      bottom: 20px;
+    }
+    .quotesource::before {
+      content: '~';
+    }
+    #reveal {
+      float: right;
+      margin: 20px 0 0 20px;
+      background: #fff;
+      position: relative;
+    }
+    #reveal img {
+      width: 200px;
+      z-index: 5;
+      display: block;
+      opacity: 0.5;
+      -webkit-transition: 2s;
+      -moz-transition: 2s;
+      -o-transition: 2s;
+      transition: 2s;
+    }
+    #reveal:hover img {
+      opacity: 1;
+    }
+    .full #awkward h2 {
+      color: #000;
+      margin-top: -20px;
+      background: transparent;
+    }
+    .full #templerun h2 {
+      transform: rotate(270deg) translate(-120px, -240px);
+    }
+    .full #templerun2 h2 {
+      transform: rotate(90deg) translate(330px, -230px);
+    }
+    .full #somuchfun ul {
+      text-align: right;
+      color: #fff;
+      width: 170px;
+    }
+    .full #somuchfun ul li::before {
+      content: '';
+    }
+    ul.lots li {
+      font-size: 20px;
+      width: 50%;
+      float: left;
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>Creating a Firefox OS App</h1>
+    <p class="footer">Michael Kohler, <a href="http://twitter.com/mozillareps">Mozilla Rep</a></p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate.</p>
+    <p>How to create a Firefox OS app - Live coding.</p>
+  </aside>
+
+  <div id="cover" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2></h2>
+      </header>
+      <p></p>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  
+  <div id="cover2" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Creating a Firefox OS App</h2>
+      </header>
+      <img src="pictures/be-the-future.jpg"  
+           alt="Firefox OS - be the future">
+      <small class="byline">
+        Michael Kohler, Mozilla Rep, innovation [L]app Düsseldorf 
+      </small>
+    </section>
+  </div></div>
+
+  <div id="fxapps" class="slide"><div>
+    <section>
+      <header>
+        <h2>Apps</h2>
+      </header>
+      <img src="pictures/apps.png" class="middle" height="400" 
+           alt="Firefox OS apps">
+      <p class="demourl">
+        <a href="https://marketplace.firefox.com/developers/docs/concept">What makes a great app?</a>
+      </p>
+    </section>
+  </div></div>
+
+  <div id="marketplace" class="slide"><div>
+    <section>
+      <header>
+        <h2>Marketplace</h2>
+      </header>
+      <figure class="middle shadow frame">
+      <img src="pictures/firefoxmarketplace.jpg" 
+           alt="Firefox marketplace" 
+           height="400">
+      </figure>     
+      <p class="demourl">
+        <a href="https://marketplace.firefox.com/">Firefox Marketplace</a>
+      </p>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="android" class="slide"><div>
+    <section>
+      <header>
+        <h2>Work with others…</h2>
+      </header>
+      <figure class="middle shadow swing frame"><img src="pictures/foxkeh-android.png" 
+           alt="Foxkeh loves android" 
+           ></figure>
+    </section>
+  </div></div>
+
+  <div id="manifest" class="slide"><div>
+    <section>
+      <header>
+        <h2>Defined by manifest</h2>
+      </header>
+      <pre>
+        <code>{</code>
+        <code>  "name": "My App",</code>
+        <code>  "description": "My elevator pitch goes here",</code>
+        <code>  "launch_path": "/",</code>
+        <code>  "icons": { "128": "/img/icon-128.png" },</code>
+        <code>  "developer": {</code>
+        <code>    "name": "Your name or organization",</code>
+        <code>    "url": "http://your-homepage-here.org"</code>
+        <code>  }</code>
+        <code>}</code>
+      </pre>
+      <p class="demourl"><a href="https://developer.mozilla.org/en-US/docs/Apps/Manifest">App manifest</a></p>
+    </section>
+  </div></div>
+
+  <div id="installapp" class="slide"><div>
+    <section>
+      <header>
+        <h2>Install apps from the web</h2>
+      </header>
+        <pre>
+        <code>var installapp = navigator.mozApps.install(manifestURL);</code>
+        <code>installapp.onsuccess = function(data) {</code>
+        <code>  // App is installed</code>
+        <code>};</code>
+        <code>installapp.onerror = function() {</code>
+        <code> // App wasn't installed, info is in </code>
+        <code> // installapp.error.name</code>
+        <code>};</code>
+        </pre>
+    </section>
+  </div></div>
+
+  <div id="webapis" class="slide h"><div>
+    <section>
+      <header>
+        <h2>Web APIs</h2>
+      </header>
+      <img src="pictures/webapiwiki.png" height="400" class="middle shadow" alt="WebAPI wiki">
+      <p class="demourl">
+        <a href="https://wiki.mozilla.org/WebAPI">WebAPI Wiki</a>
+      </p> 
+    </section>
+  </div></div>
+
+   <div id="webapilist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Web APIs (hosted apps)</h2>
+      </header>
+      <ul class="inline">
+        <li>Vibration API</li>
+        <li>Screen Orientation</li>
+        <li>Geolocation API</li>
+        <li>Mouse Lock API</li>
+        <li>Open WebApps</li>
+        <li>Network Information API</li>
+        <li>Battery Status API</li>
+        <li>Alarm API</li>
+        <li>Push Notifications API</li>
+        <li>WebFM API / FMRadio</li>
+        <li>WebPayment</li>
+        <li>IndexedDB</li>
+        <li>Ambient light sensor</li>
+        <li>Proximity sensor</li>
+        <li>Notification</li>
+      </ul>
+      <p class="demourl">
+        <a href="https://hacks.mozilla.org/2013/02/using-webapis-to-make-the-web-layer-more-capable/">Using WebAPIs to make the web layer more capable</a>
+      </p>
+    </section>
+  </div></div>
+
+  <div id="threekinds" class="slide"><div>
+    <section>
+      <header>
+        <h2>Three levels of access&hellip;</h2>
+      </header>
+      <ul>
+        <li><mark>Hosted apps</mark> - stored on your server, easy to upgrade, limited access.</li>
+        <li><mark>Privileged apps</mark> - reviewed by the App store, packaged and signed</li>
+        <li><mark>Certified apps</mark> - part of the OS, only by Mozilla and partners</li>
+      </ul>
+      <p class="demourl"><a href="https://developer.mozilla.org/en-US/docs/Apps/App_permissions">App permissions</a></p>
+    </section>
+  </div></div>
+
+  <div id="disrupting" class="slide shout"><div>
+    <section>
+      <header>
+        <h2>let's see&hellip;</h2>
+      </header>
+    </section>
+  </div></div>
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks</h2>
+      </header>
+        <figure class="frame middle swing">
+        <img src="pictures/thats-all-fox.jpg"
+             width="600" 
+             alt="that's all firefox">
+        </figure>
+      <ul class="oneline demourl">
+        <li>Michael Kohler</li>
+        <li><a href="http://twitter.com/mozillareps">@mozillareps</a></li>
+        <li><a href="http://www.mozilla.de">
+          mozilla.de
+        </a></li>
+        <li><a href="http://presentations.michaelkohler.info">
+          http://presentations.michaelkohler.info
+        </a></li>
+      </ul>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <script src="scripts/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>

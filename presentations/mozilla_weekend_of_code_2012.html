@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Firefox Source Code 101</title>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <meta name="description" content="Mozilla Webmaker Event Zurich June 23 2012">
+  <meta name="author" content="Michael Kohler">
+
+  <link rel="stylesheet" href="../libs/reveal.js/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="../libs/reveal.js/css/main.css" type="text/css">
+  <link rel="stylesheet" href="../libs/reveal.js/css/print.css" type="text/css" media="print">
+  <link rel="stylesheet" href="../libs/reveal.js/lib/zenburn.css" type="text/css">
+
+  <style>
+    body {
+      font-family: 'Droid Sans', sans-serif;
+    }
+
+    #folderTable {
+      font-size: 13pt;
+      text-align: left;
+    }
+    
+    td {
+      padding-left: 30px;
+    }
+
+    #beginning {
+      background-image: url("http://upload.wikimedia.org/wikipedia/de/2/2e/Mozilla_Firefox_Logo.png");
+      color: #000;
+      font-size: 12pt;
+    }
+
+    #imagecourtesy {
+      font-size: 10pt;
+    }
+  </style>
+</head>
+<body>
+
+<div class="reveal">
+    <div class="slides">
+        <section id="beginning">
+          <h1>Firefox Source Code 101</h1>
+          <aside>by Michael Kohler (@KohlerSolutions) and Mozilla Switzerland (@MozillaCH)</aside>
+          <p style="padding-top: 20px; font-size: 17pt;">Mozilla Weekend of Code, 23.06.2012, ZRH</p>
+        </section>
+        <section>
+          <h2>Michael Kohler</h2>
+          <p>Computer Science student at the University of Bern</p>
+          <p>Volonteer Firefox front-end developer since 2008</p>
+          <p><a href="http://michaelkohler.info">www.michaelkohler.info</a></p>
+          <p>@KohlerSolutions</p>
+        </section>
+        <section>
+          <h2>Who knows C/C++?
+        </section>
+        <section>
+          <h2>Technologies used</h2>
+          <p>You don't need to know C/C++!</p>
+        </section>
+        <section>
+          <h2>XUL</h2>
+          <p>XML User Interface Language</p>
+          <pre><code>
+&lt;page id="bookmarksPanel"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+       xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+       onload="init();"
+       onunload="SidebarUtils.setMouseoverURL('');"&gt;
+ 
+   &lt;script type="application/javascript" 
+           src="chrome://browser/content/bookmarks/sidebarUtils.js"/&gt;
+   &lt;script type="application/javascript" 
+           src="chrome://browser/content/bookmarks/bookmarksPanel.js"/&gt;
+ 
+   &lt;commandset id="placesCommands"/&gt;
+   &lt;commandset id="editMenuCommands"/&gt;
+   &lt;menupopup id="placesContext"/&gt;
+ 
+   &lt;!-- Bookmarks and history tooltip --&gt;
+   &lt;tooltip id="bhTooltip"/&gt;
+ 
+   &lt;hbox id="sidebar-search-container" align="center"&gt;
+     &lt;label id="sidebar-search-label"
+            value="&search.label;" accesskey="&search.accesskey;" control="search-box"/&gt;
+     &lt;textbox id="search-box" flex="1" type="search" class="compact"
+              aria-controls="bookmarks-view"
+              oncommand="searchBookmarks(this.value);"/&gt;
+   &lt;/hbox&gt;
+&lt;/page&gt;
+        </code></pre>
+        </section>
+        <section>
+          <h2>JavaScript</h2>
+          <p>Control the GUI + background work</p>
+          <pre><code>
+     if (this._resume_from_crash) {
+       // create a backup if the session data file exists
+       try {
+         if (this._sessionFileBackup.exists())
+           this._sessionFileBackup.remove(false);
+         if (this._sessionFile.exists())
+           this._sessionFile.copyTo(null, this._sessionFileBackup.leafName);
+       }
+       catch (ex) { Cu.reportError(ex); } // file was write-locked?
+     }
+ 
+     // at this point, we've as good as resumed the session, so we can
+     // clear the resume_session_once flag, if it's set
+     if (this._loadState != STATE_QUITTING &&
+         this._prefBranch.getBoolPref("sessionstore.resume_session_once"))
+       this._prefBranch.setBoolPref("sessionstore.resume_session_once", false);
+ 
+     this._initialized = true;
+          </code></pre>
+        </section>
+        <section>
+          <h2>What about styling?</h2>
+          <p>What do you think which technology is used to style the GUI?</p>
+        </section>
+        <section>
+          <h2>CSS</h2>
+          <p>All GUI elements are styled with CSS! Amazing isn't it?</p>
+          <pre><code>
+ #menubar-items {
+   -moz-box-orient: vertical; /* for flex hack */
+ }
+ 
+ #main-menubar {
+   -moz-box-flex: 1; /* make menu items expand to fill toolbar height */
+ }
+ 
+ #navigator-toolbox {
+   -moz-appearance: none;
+   background-color: transparent;
+   border-top: none;
+ }
+ 
+ #main-window:not([disablechrome]) #navigator-toolbox[tabsontop=true] {
+   border-bottom: 1px solid ThreeDShadow;
+ }
+ 
+ #navigator-toolbox[tabsontop=true] > toolbar:not(:-moz-lwtheme):not(#toolbar-menubar):not(#TabsToolbar),
+ #navigator-toolbox[tabsontop=false] > toolbar:not(:-moz-lwtheme):not(#toolbar-menubar) {
+   -moz-appearance: none;
+   border-style: none;
+   background-color: -moz-Dialog;
+ }
+          </code></pre>
+        </section>
+        <section>
+          <img src="http://farm9.staticflickr.com/8018/7421998892_031ccbec70_z.jpg" />
+          <aside id="imagecourtesy">Image from <a href="http://www.flickr.com/photos/78294107@N06/7421998892/in/photostream/">flickr</a></aside>
+        </section>
+        <section>
+          <h2>Java</h2>
+          <p>Firefox mobile code (Android)</p>
+          <pre><code>
+@Override
+public void onCreate(Bundle savedInstanceState) {
+    super.onCreate(savedInstanceState);
+
+    Log.d(LOGTAG, "creating awesomebar");
+
+    mResolver = Tabs.getInstance().getContentResolver();
+    LayoutInflater.from(this).setFactory(GeckoViewsFactory.getInstance());
+
+    setContentView(R.layout.awesomebar);
+
+    mGoButton = (ImageButton) findViewById(R.id.awesomebar_button);
+    mText = (AwesomeBarEditText) findViewById(R.id.awesomebar_text);
+ 
+    TabWidget tabWidget = (TabWidget) findViewById(android.R.id.tabs);
+    tabWidget.setDividerDrawable(null);
+ 
+    mAwesomeTabs = (AwesomeBarTabs) findViewById(R.id.awesomebar_tabs);
+    mAwesomeTabs.setOnUrlOpenListener(new AwesomeBarTabs.OnUrlOpenListener() {
+    public void onUrlOpen(String url) {
+        openUrlAndFinish(url);
+    }
+ 
+    public void onSearch(String engine, String text) {
+        openSearchAndFinish(text, engine);
+    }
+[some more code..]
+}
+          </code></pre>
+        </section>
+        <section>
+          <h2>C/C++</h2>
+          <p>Low-level implementation code</p>
+          <p>Startup, rendering, JS engine, ..</p>
+          <pre><code>
+ void
+ nsProgressFrame::DestroyFrom(nsIFrame* aDestructRoot)
+ {
+   NS_ASSERTION(!GetPrevContinuation(),
+                "nsProgressFrame should not have continuations; if it does we "
+                "need to call RegUnregAccessKey only for the first.");
+   nsFormControlFrame::RegUnRegAccessKey(static_cast<nsIFrame*>(this), false);
+   nsContentUtils::DestroyAnonymousContent(&mBarDiv);
+   nsContainerFrame::DestroyFrom(aDestructRoot);
+ }
+          </code></pre>
+        </section>
+        <section>
+          <h2>Folder structure</h2>
+          <p>The <i>mozilla-central</i> contains</p>
+          <table id="folderTable">
+            <tr><td>browser\</td><td>browser specific content (front-end)</td></tr>
+            <tr><td>b2g\</td><td>yes, b2g code is in the same repository!</td></tr>
+            <tr><td>build\</td><td>build scripts (autoconf, ..)</td></tr>
+            <tr><td>dom\</td><td>DOM related stuff</td></tr>
+            <tr><td>layout\</td><td>layout implementations (MathML, forms, printing, ..)</td></tr>
+            <tr><td>media\</td><td>libjpeg, libogg, libtheora, libvorbis, ..</td></tr>
+            <tr><td>mobile\</td><td>Firefox mobile specific code</td></tr>
+            <tr><td>testing\</td><td>Testing frameworks (Mochitest, ..)</td></tr>
+            <tr><td>toolkit\</td><td>shared code (addon SDK, crashreporter, file picker, ..)</td></tr>
+          </table>
+          <p>.. and many more!</p>
+        </section>
+        <section>
+          <h2>Learning by doing</h2>
+          <p>.. search for a string</p>
+          <p>.. identify code parts</p>
+          <p>.. find the appropriate JS code part</p>
+        </section>
+        <section>
+          <h2>Tools</h2>
+          <p>IRC @ <a href="irc://irc.mozilla.org">irc.mozilla.org</a></p>
+          <p>MDN - Mozilla Developer Network @ <a href="http://mdn.mozilla.org" href="_target">mdn.mozilla.org</a></p>
+          <p>Tinderbox Pushlog @ <a href="http://tbpl.mozilla.org" href="_target">tbpl.mozilla.org</a></p>
+          <p>MXR @ <a href="http://mxr.mozilla.org" href="_target">mxr.mozilla.org</a></p>
+          <p>Bugzilla @ <a href="http://bugzilla.mozilla.org" href="_target">bugzilla.mozilla.org</a></p>
+        </section>
+        <section>
+          <h2>Good to know</h2>
+          <p>Look at other people's patches!</p>
+          <p>search bugzilla.mozilla.org for [goodfirstbugs]</p>
+          <p>use MXR to search inside the code</p>
+        </section>
+        <section>
+          <h1>Questions?</h1>
+        </section>
+        <section>
+          <h2>Released under Creative Commons</h2>
+          <p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />This <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" rel="dct:type">work</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</p>
+          <p style="padding-top: 30px;">You can find all my presentations at<br /><a href="http://presentations.michaelkohler.info">presentations.michaelkohler.info/</a>.</p>
+
+    </div>
+
+    <!-- navigational controls -->
+    <aside class="controls">
+	    <a class="left" href="#">&#x25C4;</a>
+		<a class="right" href="#">&#x25BA;</a>
+		<a class="up" href="#">&#x25B2;</a>
+		<a class="down" href="#">&#x25BC;</a>
+	</aside>
+
+	<!-- presentation progress -->
+	<div class="progress"><span></span></div>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="../libs/reveal.js/js/reveal.js"></script>
+
+<!-- INIT SLIDES -->
+<script>
+  // Parse the query string into a key/value object
+  var query = {};
+  location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
+    query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
+  } );
+
+  Reveal.initialize({
+    // Display controls in the bottom right corner
+    controls: true,
+
+    // Display a presentation progress bar
+    progress: true,
+
+    // If true; each slide will be pushed to the browser history
+    history: false,
+
+    // Loops the presentation, defaults to false
+    loop: false,
+
+    // Flags if mouse wheel navigation should be enabled
+    mouseWheel: false,
+
+    // Apply a 3D roll to links on hover
+    rollingLinks: false,
+
+    // UI style
+    theme: 'neon', // default/neon
+
+    // Transition style
+    transition: 'default' // default/cube/page/concave/linear(2d)
+  });
+  hljs.initHighlightingOnLoad();
+</script>
+
+<!-- SOCKETS -->
+<script src="../libs/socket.io.js"></script>
+<script>
+(function(window, document) {
+  var socket = io.connect('/');
+
+  // handle the message from the controller
+  socket.on('message', function(e) {
+    if(e.state) {
+      if (e.state == 1)
+        Reveal.navigateRight();
+      else if (e.state == -1)
+        Reveal.navigateLeft();
+    }
+  });
+
+})(this, this.document);
+</script>
+
+</body>
+</html>

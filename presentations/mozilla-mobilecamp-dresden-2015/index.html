@@ -1,0 +1,424 @@
+<!DOCTYPE HTML>
+<!-- <html lang="en-US"> -->
+<html lang="en-US" class="fade">
+<head>
+  <meta charset="UTF-8">
+  <title>Firefox OS - still advancing</title>
+  <meta name="viewport" content="width=device-width, user-scalable=yes">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+    .full div[id$='bullets'].slide > div::after {
+      animation: wiggle alternate 1s infinite;
+    } 
+    @keyframes wiggle {
+      from {
+        transform: rotate(90deg) translate(52%,-150px);
+      }
+      to {
+        transform: rotate(90deg) translate(52%,-160px);
+      }
+    }
+    .demourl {
+      bottom: 10px;
+    }
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>Firefox OS - still advancing</h1>
+    <p class="footer">
+      Michael Kohler, 
+      <a href="http://twitter.com/KohlerSolutions">@KohlerSolutions</a> or 
+      <a href="mailto:mkohler@picobudget.com">mkohler@picobudget.com</a>
+    </p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate. <button onclick="goFullScreen()">Go fullscreen</button></p>
+    <p class="abstract">
+      <strong>Abstract: </strong>
+       On the road to Firefox OS 3.0. What is Firefox OS? What's coming? What is already there?
+    </p>
+  </aside>
+
+  <div id="cover" class="slide cover w"><div>
+    <section>
+      <header>
+        <h2>Firefox OS - still advancing</h2>
+      </header>
+      <img src="pictures/slides/be-the-future.jpg"
+           alt="Mozilla">
+      <small class="byline">
+        Michael Kohler, Mozilla Rep, MobileCamp Dresden April 2015
+      </small>
+    </section>
+  </div></div>
+
+  <div id="aboutme" class="slide"><div>
+    <section>
+      <header>
+        <h2>About me</h2>
+      </header>
+      <ul class="longlist">
+        <li>Michael Kohler</li>
+        <li>volunteering for Mozilla since 2008</li>
+        <li>Mozilla Representative since 2012</li>
+        <li>Web Developer @netcase.ch</li>
+        <li>mkohler.codes</li>
+      </ul>
+      <img src="pictures/slides/reps.png" 
+           alt="Mozilla Reps Logo">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="mozillatwitter" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 2.2em;">@mozilla_deutsch</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="firefoxos" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Independent choice</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="hypnophone" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>Hey - we REALLY like our smartphones!</h2>
+      </header>
+      <img src="pictures/slides/hypnophone.jpg" 
+           alt="people with smartphones" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="firefoxospic" class="slide cover"><div>
+    <section>
+      <header>
+      </header>
+      <img src="pictures/slides/firefoxos.png" alt="Firefox OS Website" class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="open" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">It's open</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="alternative" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Good alternative</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="privacy" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Values your privacy</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="webasaplatform" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Web is the platform</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="forall" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>Mozilla's Mission - The Open Web</h2>
+      </header>
+      <img src="pictures/slides/this-is-for-everyone.jpg" alt="This is for everyone" class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="goal1" class="slide shout"><div>
+    <section>
+      <header>
+        <h3>The Internet the World Needs</h3>
+        <h2>Knowable</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="goal2" class="slide shout"><div>
+    <section>
+      <header>
+        <h3>The Internet the World Needs</h3>
+        <h2 style="font-size: 3em;">Interoperable</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="goal3" class="slide shout"><div>
+    <section>
+      <header>
+        <h3>The Internet the World Needs</h3>
+        <h2>Ours</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="platforms" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Firefox OS<br />Desktop<br />Android<br />...</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="marketplace" class="slide"><div>
+    <section>
+      <header>
+        <h2>Firefox Marketplace</h2>
+      </header>
+      <img src="pictures/slides/marketplace.png" 
+           alt="Firefox Marketplace" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="cordova" class="slide"><div>
+    <section>
+      <header>
+        <h2>You can do it too!</h2>
+      </header>
+      <img src="pictures/slides/cordova.png" 
+           alt="Cordova" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="where" class="slide"><div>
+    <section>
+      <header>
+        <h2>Still expanding</h2>
+      </header>
+      <img src="pictures/slides/where.png" 
+           alt="Where is Firefox OS?" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="oneyearago" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">In the last year</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="newapis" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">New API added</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="copypaste" class="slide"><div>
+    <section>
+      <header>
+        <h2>Copy &amp; Paste</h2>
+      </header>
+      <img src="pictures/slides/copypaste.png" 
+           alt="CopyPaste" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="swiping" class="slide"><div>
+    <section>
+      <header>
+        <h2>App Switching with Swipe</h2>
+      </header>
+      <img height="70%" src="pictures/slides/switching.png" 
+           alt="App switching" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="more" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">.. and more!</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="going" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Where is it going?</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="newmarkets" class="slide"><div>
+    <section>
+      <header>
+        <h2>New markets</h2>
+      </header>
+      <img src="pictures/slides/markets.png" 
+           alt="new markets" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="tvs" class="slide cover"><div>
+    <section>
+      <header>
+        <h2>TV already available!</h2>
+      </header>
+      <img src="pictures/slides/tv_panasonic.png" 
+           alt="TV Panasonic" 
+           class="middle shadow">
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="tvdemo" class="slide"><div>
+    <section>
+      <header>
+        <h2>Demo</h2>
+      </header>
+      <img src="pictures/slides/tv.png" 
+           alt="TV GUI" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="raspberrypi" class="slide shout"><div>
+    <section>
+      <header>
+        <h2 style="font-size: 3em;">Raspberry Pi</h2>
+      </header>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="janos" class="slide"><div>
+    <section>
+      <header>
+        <h2>JanOS</h2>
+      </header>
+      <img src="pictures/slides/janos.png" 
+           alt="JanOS" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="washing" class="slide"><div>
+    <section>
+      <header>
+        <h2>Maybe your washing machine? :)</h2>
+      </header>
+      <img height="70%" src="pictures/slides/washing.png" 
+           alt="Washing" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="firefoxandroid" class="slide"><div>
+    <section>
+      <header>
+        <h2>Firefox for Android</h2>
+      </header>
+      <img height="50%" src="pictures/slides/android.png" 
+           alt="FxAndroid" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+  <div id="firefoxios" class="slide"><div>
+    <section>
+      <header>
+        <h2>Firefox for iOS</h2>
+      </header>
+      <img height="60%" src="pictures/slides/ios.png" 
+           alt="FxIOS" 
+           class="middle shadow">
+    </section>
+  </div></div>
+
+<!-- 
+===================================
+END
+===================================
+-->
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks</h2>
+      </header>
+      <img src="pictures/mozillaoverview/redpanda.jpg" class="right" alt="Red panda (Firefox)">
+      <ul class="nobull">
+        <li>Michael Kohler</li>
+        <li>Mozilla Reps</li>
+        <li><a href="http://twitter.com/KohlerSolutions">@KohlerSolutions</a></li>
+        <br />
+        <li><strong>Slides</strong>:<br />mkohler.codes</li>
+      </ul>
+      <small class="credits">
+        <a href="http://www.flickr.com/photos/yortw/5798336827/">Photo by Yortw</a>
+      </small>
+    <footer class="notes">
+    </footer>
+
+    </section>
+  </div></div>
+
+  <div class="progress"><div></div></div>
+  <script src="scripts/script.js"></script>
+
+  <!-- Copyright slide engine © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
