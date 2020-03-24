@@ -106,9 +106,9 @@ const Front = () => {
                 <ul className="">
                   <li className="date">02/2019 - now</li>
                   <li className="company uppercase">
-                    <a href="http://www.control4.com">Control4 + SnapAV</a>
+                    <a href="http://www.control4.com">Control4 + SnapAV (acquired NEEO)</a>
                   </li>
-                  <li className="position">(acquired NEEO)</li>
+                  <li className="position">Software Development Engineer</li>
                 </ul>
                 <ul className="">
                   <li className="date">11/2016 - 01/2019</li>
