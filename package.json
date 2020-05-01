@@ -14,7 +14,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-typist": "^2.0.5",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@babel/core": "^7.8.7",
@@ -42,8 +43,11 @@
   "scripts": {
     "build": "./node_modules/webpack/bin/webpack.js --mode production",
     "start": "webpack-dev-server --hot --progress --colors --inline --historyApiFallback --mode development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "author": "Michael Kohler",
-  "license": "MIT"
+  "license": "MIT",
+  "snyk": true
 }
