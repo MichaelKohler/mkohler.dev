@@ -51,12 +51,14 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: '[name].css',
     }),
-    new CopyWebpackPlugin([
-      { from: 'public/presentations/', to: './presentations' },
-      { from: 'public/images/', to: './images' },
-      { from: 'public/CNAME', to: '.' },
-      { from: '404.html', to: '.' },
-      { from: 'index.html', to: '.' },
-    ], { copyUnmodified: true })
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: 'public/presentations/', to: './presentations' },
+        { from: 'public/images/', to: './images' },
+        { from: 'public/CNAME', to: '.' },
+        { from: '404.html', to: '.' },
+        { from: 'index.html', to: '.' },
+      ],
+    }),
   ]
 };
