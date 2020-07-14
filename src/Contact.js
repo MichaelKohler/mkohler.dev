@@ -38,12 +38,6 @@ const Contact = () => {
                               <p className="small"><a href="https://twitter.com/KohlerSolutions">https://twitter.com/KohlerSolutions</a></p>
                             </div>
                           </div>
-                          <div className="row">
-                            <div className="col-sm-2"><span className="font-accident-two-bold uppercase">Skype:</span></div>
-                            <div className="col-sm-10">
-                              <p className="small">@michaelkohler1991</p>
-                            </div>
-                          </div>
                         </div>
                         <div className="col-md-6">
                           <div className="row">
