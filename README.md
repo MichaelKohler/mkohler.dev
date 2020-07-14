@@ -9,7 +9,7 @@ Setting up
 After cloning the repository change to the newly created folder and install the third-party dependencies.
 
 ```
-$ npm install
+$ npm ci
 ```
 
 Running the project
