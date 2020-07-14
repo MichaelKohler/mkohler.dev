@@ -181,31 +181,29 @@ const Front = () => {
                   <h4 className="font-accident-one-normal uppercase">Backend JavaScript</h4>
                   <p className="font-regular-normal">
                     I&apos;ve been developing Node.js applications for the past 8 years, as private
-                    projects as well as professionally. At NEEO I developed JavaScript
-                    for both front and back end based on Ionic and Node.js in an IoT environment.
-                    Previously during my time at NETCASE GmbH I had also worked on Sails.js /
-                    Loopback based APIs. Currently at Control4 I&apos;m developping Node.js
-                    applications.
+                    side projects as well as professionally. Currently at Control4 I&apos;m
+                    developping Node.js applications to support the Neeo Remote. Before being
+                    acquired by Control4, at NEEO I developed JavaScript applications for both
+                    front and back end based with Ionic and Node.js in an IoT environment.
+                    Previously during my time at NETCASE GmbH I have also worked on Sails.js
+                    and Loopback based APIs.
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Frontend JavaScript</h4>
                   <p className="font-regular-normal">
-                    As part of my work at NEEO and NETCASE GmbH and several private projects
-                    I used AngularJS 1 for about 4 years. From really simple to
-                    more complex frontends, I&apos;ve been involved in developing them. While my
-                    CSS skills are not perfect, I know AngularJS/React well and can output
-                    semantic DOM to make it as easy as possible to style. In the recent past
-                    I&apos;ve mostly used React for my personal as well as Mozilla projects.
+                    In the recent past I&apos;ve mostly used React for my personal as well
+                    as Mozilla projects. As part of my work at NEEO and NETCASE GmbH and
+                    several private projects I used AngularJS 1 for about 4 years.
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Other languages</h4>
                   <p className="font-regular-normal">
                     I have experience in several other languages, most notably HTML and CSS.
-                    Additionally I have also worked with TypeScript. I
+                    Recently I&apos;ve been doing smaller projects with Lua and Rust as well.
+                    Additionally I have also worked with TypeScript for the NEEO SDK. I
                     haven&apos;t written any PHP, Ruby or Java in years, but back in the days...
-                    Iapos;ve been doing smaller projects with Lua and Rust as well.
                   </p>
                 </div>
               </div>
@@ -223,16 +221,20 @@ const Front = () => {
                   <p className="font-regular-normal">
                     At NEEO and Control4 I gained experience in DevOps methodologies.
                     I like working with Docker and try to make sure Infrastructure as
-                    Code is applied where possible. I&apos;ve implemented different metrics
-                    tracking systems. I also have experience deploying all my private projects to
-                    Kubernetes and monitoring the health of the cluster. For my personal gadgets
-                    I&apos;ve been using Ansible.
+                    Code is applied where possible. I&apos;ve helped creating a complete test
+                    cluster to test our commits for Control4 in different levels of detail and
+                    technology. I&apos;ve also implemented different metrics tracking systems
+                    and visualizations through Grafana. For my private projects I&apos;m using
+                    Kubernetes and monitor the health of the cluster as well as my personal
+                    Raspberry Pi. For my personal gadgets I&apos;ve been using Ansible for
+                    configuration management.
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Databases</h4>
                   <p className="font-regular-normal">
-                    I&apos;ve been mostly using MongoDB and MySQL for my personal database needs.
+                    Nowadays I&apos;me mostly using MySQL for my database needs. In the past, for
+                    example at NETCASE, I was also using MongoDB.
                   </p>
                 </div>
               </div>
