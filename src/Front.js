@@ -9,7 +9,7 @@ const Front = () => {
     <div className="content-wrap">
       <section id="homesection" className="container-fluid nopadding">
         <section className="m-details row nopadding bg-color01">
-          <div className="col-md-8 nopadding">
+          <div className="col-md-12 col-lg-8 nopadding">
             <div className="padding-50 full-height">
               <div className="row nopadding">
                 <div className="col-md-12 nopadding">
@@ -56,7 +56,7 @@ const Front = () => {
             </div>
           </div>
 
-          <section className="col-md-4 personal nopadding ui-block-color01">
+          <section className="col-md-12 col-lg-4 personal nopadding ui-block-color01">
             <div className="padding-50">
               <h3 className="font-accident-two-normal uppercase">Personal Info</h3>
               <div className="personal-info fullwidth">
@@ -92,7 +92,7 @@ const Front = () => {
         </section>
 
         <section className="row nopadding ui-block-color02">
-          <div className="col-md-4 pro-experience nopadding">
+          <div className="col-md-12 col-lg-4 pro-experience nopadding">
             <div className="padding-50">
               <h3 className="font-accident-two-normal uppercase">Experience</h3>
               <div className="experience">
@@ -173,7 +173,7 @@ const Front = () => {
             </div>
           </div>
 
-          <div className="col-md-8 circle-skills nopadding ui-block-color03">
+          <div className="col-md-12 col-lg-8 circle-skills nopadding ui-block-color03">
             <div className="padding-50">
               <h3 className="font-accident-two-normal uppercase">My Professional skills</h3>
               <div className="row">
