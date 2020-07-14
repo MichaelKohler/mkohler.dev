@@ -12,9 +12,9 @@ const Header = () => {
     <header>
       <section id="top-navigation" className="container-fluid nopadding">
         <div className="row nopadding ident ui-bg-color01">
-          <div className="col-md-5 col-lg-4 vc-photo">&nbsp;</div>
+          <div className="col-md-5 col-lg-2 vc-photo">&nbsp;</div>
 
-          <div className="col-md-7 col-lg-8 vc-name nopadding">
+          <div className="col-md-7 col-lg-10 vc-name nopadding">
             <div className="row nopadding name">
               <div className="col-md-12 name-title">
                 <h1 className="font-accident-two-light uppercase">Michael Kohler</h1>
