@@ -94,17 +94,9 @@ footer .social li {
   display: flex;
 }
 
-.single-skill {
-  margin-top: 2em;
-}
-
 .infoblock {
   margin-top: 50px;
   padding-left: 0px;
-}
-
-.single-skill {
-  margin-top: 2em;
 }
 
 .pro-experience h3,
@@ -139,6 +131,10 @@ footer .social li {
 
 .personal-info .row div:first-child {
   font-weight: 600;
+}
+
+.single-skill {
+  margin-top: 2em;
 }
 
 /* TALKS */
@@ -221,24 +217,8 @@ footer .social li {
     justify-content: center;
   }
 
-  .single-skill {
-    margin-top: 2em;
-  }
-
-  .single-skill:first-child {
-    margin-top: 0;
-  }
-
   .circle-skills h3 {
     padding-bottom: 20px;
-  }
-
-  .single-skill {
-    margin-top: 2em;
-  }
-
-  .single-skill:first-child {
-    margin-top: 0;
   }
 }
 
