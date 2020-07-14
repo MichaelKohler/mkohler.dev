@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-12 copyrights">
             <p>
-              © 2016-2019 Michael Kohler - Design is an adapted template by&nbsp;
+              © 2016-2020 Michael Kohler - Design is an adapted template by&nbsp;
               <a href="https://wrapbootstrap.com/user/alexeyka">alexeyka</a>
             </p>
           </div>
