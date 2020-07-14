@@ -44,6 +44,10 @@ const Mozilla = () => {
                     <h4>Profiles</h4>
                     <ul>
                       <li>
+                        Contributions Overview:&nbsp;
+                        <a href="https://contributions.michaelkohler.info/">contributions.michaelkohler.info</a>
+                      </li>
+                      <li>
                         Bugzilla:&nbsp;
                         <a href="https://bugzilla.mozilla.org/user_profile?login=me@michaelkohler.info">bugzilla.mozilla.org</a>
                       </li>
@@ -53,7 +57,7 @@ const Mozilla = () => {
                       </li>
                       <li>
                         Mozillians:&nbsp;
-                        <a href="https://mozillians.org/en-US/u/mkohler/">mozillians.org</a>
+                        <a href="https://people.mozilla.org/p/mkohler">people.mozilla.org</a>
                       </li>
                     </ul>
 
@@ -73,6 +77,15 @@ const Mozilla = () => {
                     </ul>
 
                     <img src="/images/me_firefox.webp" alt="Michael hugging the fox" />
+
+                    <h4>Common Voice</h4>
+                    <p>2018 - now</p>
+                    <ul>
+                      <li>
+                        Working on different tooling for the Common Voice project mostly around
+                        sentence collections
+                      </li>
+                    </ul>
 
                     <h4>Community Building</h4>
                     <p>2010 - now</p>
@@ -130,17 +143,6 @@ const Mozilla = () => {
                     </ul>
 
                     <img src="/images/reps_group.webp" alt="Michael and the rest of the Reps Council and Peers in Berlin in April 2016" />
-
-                    <h4>Firefox - Choose Independent</h4>
-                    <div className="mozilla-video-container">
-                      <iframe
-                        title="mozilla video"
-                        className="mozilla-video"
-                        src="https://www.youtube.com/embed/LtOGa5M8AuU"
-                        frameBorder="0"
-                        allowFullScreen
-                      />
-                    </div>
                   </section>
                 </div>
               </div>
