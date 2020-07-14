@@ -23,9 +23,9 @@ const Front = () => {
               </div>
 
               <section className="row infoblock-container nopadding">
-                <div className="col-md-5 infoblock">
+                <div className="col-md-5 infoblock mt-5 pl-0">
                   <div className="row nopadding">
-                    <div className="icon-container col-sm-1 col-md-3 hidden-sm hidden-xs">
+                    <div className="icon-container col-sm-1 col-md-3 d-none d-lg-block">
                       <FontAwesomeIcon icon={faBook} />
                     </div>
                     <div className="col-sm-11 col-md-9 nopadding">
@@ -38,9 +38,9 @@ const Front = () => {
                   </div>
                 </div>
                 <div className="col-md-1" />
-                <div className="col-md-5 infoblock">
+                <div className="col-md-5 infoblock mt-5 pl-0">
                   <div className="row nopadding">
-                    <div className="icon-container col-sm-1 col-md-3 hidden-sm hidden-xs">
+                    <div className="icon-container col-sm-1 col-md-3 d-none d-lg-block">
                       <FontAwesomeIcon icon={faHeart} />
                     </div>
                     <div className="col-sm-11 col-md-9 nopadding">
