@@ -238,14 +238,15 @@ const Front = () => {
                   <h4 className="font-accident-one-normal uppercase">DevOps</h4>
                   <p className="font-regular-normal">
                     At NEEO and Control4 I gained experience in DevOps methodologies.
-                    I like working with Docker and try to make sure Infrastructure as
-                    Code is applied where possible. I&apos;ve helped creating a complete test
+                    I try to make sure Infrastructure as Code is applied where possible.
+                    I&apos;ve helped creating a complete test
                     cluster to test our commits for Control4 in different levels of detail and
                     technology. I&apos;ve also implemented different metrics tracking systems
                     and visualizations through Grafana. For my private projects I&apos;m using
                     Kubernetes and monitor the health of the cluster as well as my personal
                     Raspberry Pi. For my personal gadgets I&apos;ve been using Ansible for
-                    configuration management.
+                    configuration management. I test and deploy my personal projects through
+                    GitHub Actions, keeping dependencies up to date with dependabot.
                   </p>
                 </div>
                 <div className="col-md-4 col-sm-12 single-skill">
