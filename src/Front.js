@@ -10,7 +10,7 @@ const Front = () => {
       <section id="homesection" className="container-fluid nopadding">
         <section className="m-details row nopadding bg-color01">
           <div className="col-md-8 nopadding">
-            <div className="padding-50">
+            <div className="padding-50 full-height">
               <div className="row nopadding">
                 <div className="col-md-12 nopadding">
                   <h2 className="font-accident-two-normal uppercase">About Michael</h2>
@@ -23,7 +23,7 @@ const Front = () => {
               </div>
 
               <section className="row infoblock-container nopadding">
-                <div className="col-md-5 infoblock nopadding">
+                <div className="col-md-5 infoblock">
                   <div className="row nopadding">
                     <div className="icon-container col-sm-1 col-md-3 hidden-sm hidden-xs">
                       <FontAwesomeIcon icon={faBook} />
@@ -38,7 +38,7 @@ const Front = () => {
                   </div>
                 </div>
                 <div className="col-md-1" />
-                <div className="col-md-5 infoblock nopadding">
+                <div className="col-md-5 infoblock">
                   <div className="row nopadding">
                     <div className="icon-container col-sm-1 col-md-3 hidden-sm hidden-xs">
                       <FontAwesomeIcon icon={faHeart} />

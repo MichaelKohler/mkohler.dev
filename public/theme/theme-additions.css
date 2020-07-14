@@ -23,6 +23,10 @@ a:hover {
   align-items: center;
 }
 
+.full-height {
+  height: 100%;
+}
+
 /* HEADER */
 #top-navigation .ident .vc-name .name .name-title,
 #top-navigation .ident .vc-name .position .position-title {
@@ -94,8 +98,9 @@ footer .social li {
   margin-top: 2em;
 }
 
-.infoblock:first-child {
-  padding-left: 0;
+.infoblock {
+  margin-top: 50px;
+  padding-left: 0px;
 }
 
 .single-skill {
