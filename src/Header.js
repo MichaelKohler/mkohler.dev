@@ -30,8 +30,8 @@ const Header = () => {
                       <Typist cursor={{ hideWhenDone: true }}>
                         <span>JavaScript Developer</span>
                         <Typist.Backspace count={20} delay={1000} />
-                        <span>NodeJS Developer</span>
-                        <Typist.Backspace count={16} delay={1000} />
+                        <span>Node.js Developer</span>
+                        <Typist.Backspace count={17} delay={1000} />
                         <span>Community Builder</span>
                         <Typist.Backspace count={17} delay={1000} />
                         <span>JavaScript Developer</span>

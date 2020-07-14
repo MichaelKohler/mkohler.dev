@@ -12,7 +12,7 @@ const Contact = () => {
                   <h2 className="font-accident-two-normal uppercase">Contact</h2>
                   <div className="quote">
                     <h4 className="font-accident-one-bold uppercase subtitle">
-                      JavaScript frontend and backend developer with a passion for Web Standards
+                      JavaScript developer with a passion for Web Standards and DevOps
                     </h4>
                   </div>
                   <p className="small fontcolor-medium">

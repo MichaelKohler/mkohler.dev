@@ -16,7 +16,7 @@ const Front = () => {
                   <h2 className="font-accident-two-normal uppercase">About Michael</h2>
                   <div className="quote">
                     <h5 className="font-accident-one-bold uppercase subtitle">
-                      JavaScript frontend and backend developer with a passion for Web Standards
+                      JavaScript developer with a passion for Web Standards and DevOps
                     </h5>
                   </div>
                 </div>
@@ -102,6 +102,9 @@ const Front = () => {
                     <a href="https://www.mozilla.org">Volunteer @ Mozilla Foundation</a>
                   </li>
                   <li className="position">Developer, Community Builder</li>
+                  <li>
+                    Technologies: Node.js, React, Vanilla JavaScript, Rust
+                  </li>
                 </ul>
                 <ul className="">
                   <li className="date">02/2019 - now</li>
@@ -109,6 +112,9 @@ const Front = () => {
                     <a href="http://www.control4.com">Control4 + SnapAV (acquired NEEO)</a>
                   </li>
                   <li className="position">Software Development Engineer</li>
+                  <li>
+                    Technologies: Node.js, React, Lua, Python, Bash
+                  </li>
                 </ul>
                 <ul className="">
                   <li className="date">11/2016 - 01/2019</li>
@@ -116,13 +122,19 @@ const Front = () => {
                     <a href="http://www.neeo.com">NEEO AG</a>
                   </li>
                   <li className="position">JavaScript Developer</li>
+                  <li>
+                    Technologies: Node.js, AngularJS, Ionic, Z-Wave, Bash
+                  </li>
                 </ul>
                 <ul className="">
                   <li className="date">04/2015 - 10/2016</li>
                   <li className="company uppercase">
                     <a href="http://www.netcase.ch">NETCASE GmbH</a>
                   </li>
-                  <li className="position">Web Developer, NodeJS and AngularJS</li>
+                  <li className="position">Web Developer</li>
+                  <li>
+                    Technologies: Node.js, AngularJS, Bootstrap
+                  </li>
                 </ul>
                 <ul className="">
                   <li className="date">01/2014 - 02/2015</li>
@@ -133,6 +145,9 @@ const Front = () => {
                     Application Developer, 2nd-Level-Support Document Output
                     Management, Requirement Engineering
                   </li>
+                  <li>
+                    Technologies: C#, XML, VBA, ITIL
+                  </li>
                 </ul>
                 <ul className="">
                   <li className="date">08/2010 - 12/2013</li>
@@ -142,6 +157,9 @@ const Front = () => {
                   <li className="position">
                     Application Developer, 2nd-Level-Support
                     Document Output Management, Requirement Engineering
+                  </li>
+                  <li>
+                    Technologies: C#, XML, VBA, ITIL
                   </li>
                 </ul>
               </div>

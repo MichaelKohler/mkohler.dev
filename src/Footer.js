@@ -13,7 +13,7 @@ const Footer = () => {
           <div className="col-md-6">
             <h4 className="font-accident-two-normal uppercase">Michael Kohler</h4>
             <p className="inline-block">
-              JavaScript frontend and backend developer with a passion for Web Standards
+              JavaScript developer with a passion for Web Standards and DevOps
             </p>
           </div>
           <div className="col-md-6">
