@@ -9,7 +9,7 @@ const Front = () => {
     <div className="content-wrap">
       <section id="homesection" className="container-fluid nopadding">
         <section className="m-details row nopadding bg-color01">
-          <div className="col-md-12 col-lg-8 nopadding">
+          <div className="col-md-12 col-lg-8 nopadding full-height-container">
             <div className="padding-50 full-height">
               <div className="row nopadding">
                 <div className="col-md-12 nopadding">

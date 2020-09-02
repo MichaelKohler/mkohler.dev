@@ -222,3 +222,32 @@ footer .social li {
     display: none;
   }
 }
+
+/* Print */
+@media print {
+  header nav,
+  aside.position,
+  .vc-photo,
+  #homesection h2:first-child,
+  #homesection .infoblock-container,
+  #homesection .quote,
+  #homesection .m-details .full-height-container,
+  .circle-skills h3,
+  #root footer {
+    display: none;
+  }
+
+  .name .name-title,
+  .circle-skills .padding-50,
+  .personal .padding-50,
+  .pro-experience .padding-50 {
+    margin: 0;
+    padding: 0;
+  }
+
+  #homesection .pro-experience .experience {
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
