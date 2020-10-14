@@ -211,7 +211,7 @@ footer .social li {
 
 @media (max-width: 768px) {
   #top-navigation .ident .vc-photo {
-    min-height: 650px;
+    display: none;
   }
 
   #top-navigation .ident .vc-name .position h4 {
