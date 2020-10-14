@@ -1,13 +1,1 @@
-(function() {
-	var multiplex = Reveal.getConfig().multiplex;
-	var socketId = multiplex.id;
-	var socket = io.connect(multiplex.url);
-
-	socket.on(multiplex.id, function(data) {
-		// ignore data from sockets that aren't ours
-		if (data.socketId !== socketId) { return; }
-		if( window.location.host === 'localhost:1947' ) return;
-
-		Reveal.slide(data.indexh, data.indexv, data.indexf, 'remote');
-	});
-}());
+!function(){var e=Reveal.getConfig().multiplex,o=e.id;io.connect(e.url).on(e.id,(function(e){e.socketId===o&&"localhost:1947"!==window.location.host&&Reveal.slide(e.indexh,e.indexv,e.indexf,"remote")}))}();

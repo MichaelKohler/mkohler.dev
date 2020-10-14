@@ -1,16 +1,1 @@
-(function() {
-  'use strict';
-
-  document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('#calculateButton').addEventListener('click', calculate, false);
-  });
-
-  function calculate() {
-    for (var i = 0; i < 10; i++) {
-      var square = i*i;
-      console.log(square);
-    }
-  }
-
-  localStorage.setItem('demo', 'HI MOZILLA!');
-})();
+!function(){"use strict";function e(){for(var e=0;e<10;e++){var t=e*e;console.log(t)}}document.addEventListener("DOMContentLoaded",(function(){document.querySelector("#calculateButton").addEventListener("click",e,!1)})),localStorage.setItem("demo","HI MOZILLA!")}();
