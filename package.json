@@ -40,8 +40,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "scripts": {
-    "build": "./node_modules/webpack/bin/webpack.js --mode production",
-    "start": "webpack-dev-server --hot --progress --colors --inline --historyApiFallback --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development --env development",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Michael Kohler",
