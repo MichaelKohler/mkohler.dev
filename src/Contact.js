@@ -10,11 +10,6 @@ const Contact = () => {
               <div className="row nopadding">
                 <div className="col-md-12 nopadding">
                   <h2 className="font-accident-two-normal uppercase">Contact</h2>
-                  <div className="quote">
-                    <h4 className="font-accident-one-bold uppercase subtitle">
-                      JavaScript developer with a passion for Web Standards and DevOps
-                    </h4>
-                  </div>
                   <p className="small fontcolor-medium">
                     Feel free to get in touch with me if you like my skills. Since this is
                     a public place, I&apos;m not confident to publish my phone number here,

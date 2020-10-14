@@ -24,7 +24,7 @@ const Header = () => {
             <aside className="row nopadding position">
               <div className="col-md-12 position-title">
                 <section className="cd-intro">
-                  <h4 className="cd-headline clip is-full-width font-accident-two-normal uppercase">
+                  <h2 className="cd-headline clip is-full-width font-accident-two-normal uppercase">
                     <span>
                       I&apos;m an experienced&nbsp;
                       <Typist cursor={{ hideWhenDone: true }}>
@@ -37,7 +37,7 @@ const Header = () => {
                         <span>JavaScript Developer</span>
                       </Typist>
                     </span>
-                  </h4>
+                  </h2>
                 </section>
               </div>
             </aside>

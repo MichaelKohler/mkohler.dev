@@ -15,9 +15,9 @@ const Front = () => {
                 <div className="col-md-12 nopadding">
                   <h2 className="font-accident-two-normal uppercase">About Michael</h2>
                   <div className="quote">
-                    <h5 className="font-accident-one-bold uppercase subtitle">
+                    <h3 className="font-accident-two-bold uppercase subtitle">
                       JavaScript developer with a passion for Web Standards and DevOps
-                    </h5>
+                    </h3>
                   </div>
                 </div>
               </div>

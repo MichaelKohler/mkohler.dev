@@ -11,13 +11,13 @@ const Footer = () => {
       <div className="container-fluid nopadding">
         <div className="row">
           <div className="col-md-6">
-            <h4 className="font-accident-two-normal uppercase">Michael Kohler</h4>
+            <h3 className="font-accident-two-normal uppercase">Michael Kohler</h3>
             <p className="inline-block">
               JavaScript developer with a passion for Web Standards and DevOps
             </p>
           </div>
           <div className="col-md-6">
-            <h4 className="font-accident-two-normal uppercase">Follow me</h4>
+            <h3 className="font-accident-two-normal uppercase">Follow me</h3>
             <div className="follow">
               <ul className="list-inline social">
                 <li><a target="_blank" aria-label="Michael on Twitter" title="foo" rel="noopener noreferrer" href="https://www.twitter.com/KohlerSolutions"><FontAwesomeIcon icon={faTwitter} /></a></li>

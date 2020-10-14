@@ -27,6 +27,10 @@ a:hover {
 }
 
 /* HEADER */
+#top-navigation .cd-intro .cd-headline {
+  font-size: 1.5em;
+}
+
 #top-navigation .ident .vc-name .name .name-title,
 #top-navigation .ident .vc-name .position .position-title {
   display: flex;
@@ -60,6 +64,10 @@ a:hover {
 .copyrights a {
   color: #F8FFE9;
   text-decoration: underline;
+}
+
+footer h3 {
+  color: #FFF;
 }
 
 footer .svg-inline--fa {
