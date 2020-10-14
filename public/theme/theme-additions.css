@@ -3,9 +3,8 @@ html {
   background-color: #3a5a77;
 }
 
-a,
 ul li a {
-  color: #3777a5;
+  color: #000;
 }
 
 a:hover {
@@ -92,6 +91,10 @@ footer .social li {
 
 .m-details {
   display: flex;
+}
+
+.personal a {
+  color: #000;
 }
 
 .pro-experience h3,
