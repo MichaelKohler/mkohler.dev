@@ -29,7 +29,7 @@ const Front = () => {
                       <FontAwesomeIcon icon={faBook} />
                     </div>
                     <div className="col-sm-11 col-md-9 nopadding">
-                      <h5 className="font-accident-one-bold uppercase">Eager to learn</h5>
+                      <h4 className="font-accident-one-bold uppercase">Eager to learn</h4>
                       <p>
                         Even though I have several years of experience with Software Development
                         I&apos;m always eager to learn more to increase my knowledge.
@@ -44,7 +44,7 @@ const Front = () => {
                       <FontAwesomeIcon icon={faHeart} />
                     </div>
                     <div className="col-sm-11 col-md-9 nopadding">
-                      <h5 className="font-accident-one-bold uppercase">Motivated</h5>
+                      <h4 className="font-accident-one-bold uppercase">Motivated</h4>
                       <p>
                         With my volunteer work for Mozilla I&apos;m very passionate about the Open
                         Web and therefore very motivated to work as Web Developer.
