@@ -998,7 +998,7 @@ button, input, select, textarea {
     color: #e7e7e7; }
     #top-navigation .ident .vc-photo {
       min-height: 360px;
-      background: url("/images/userpic01.webp");
+      background: url("../images/userpic01.webp");
       background-position: center center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -1007,9 +1007,6 @@ button, input, select, textarea {
       -ms-filter: grayscale(100%);
       -o-filter: grayscale(100%);
       filter: grayscale(100%);
-      filter: url(/images/grayscale.svg#greyscale);
-      /* Firefox 4+ */
-      filter: gray;
       /* IE 6-9 */
       -moz-transition: all .5s ease-in-out;
       -webkit-transition: all .5s ease-in-out;
@@ -1482,9 +1479,6 @@ button, input, select, textarea {
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
   filter: grayscale(100%);
-  filter: url(/images/grayscale.svg#greyscale);
-  /* Firefox 4+ */
-  filter: gray;
   /* IE 6-9 */
   -moz-transition: all .5s ease-in-out;
   -webkit-transition: all .5s ease-in-out;

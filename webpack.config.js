@@ -42,7 +42,7 @@ module.exports = {
         loader: 'svg-inline-loader'
       },
       {
-        test: /\.(eot|woff|woff2|svg|ttf)$/,
+        test: /\.(eot|woff|woff2|svg|ttf|webp)$/,
         loader: 'file-loader'
       }
     ]
