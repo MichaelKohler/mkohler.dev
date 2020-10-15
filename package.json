@@ -10,7 +10,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
     "@fortawesome/react-fontawesome": "^0.1.11",
     "bootstrap": "^4.5.3",
-    "react": "^16.13.1",
+    "react": "^16.14.0",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-typist": "^2.0.5",
