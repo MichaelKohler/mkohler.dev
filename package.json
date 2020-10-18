@@ -2,6 +2,8 @@
   "name": "mkohler.dev",
   "version": "2.1.0",
   "description": "Michael Kohler's CV",
+  "author": "Michael Kohler",
+  "license": "MIT",
   "main": "main.js",
   "dependencies": {
     "@babel/preset-env": "^7.12.1",
@@ -20,10 +22,14 @@
     "@babel/core": "^7.12.3",
     "@babel/preset-react": "^7.12.1",
     "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.5.2",
     "babel-loader": "^8.1.0",
     "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "copy-webpack-plugin": "^6.2.1",
     "css-loader": "^5.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
     "eslint": "^7.11.0",
     "eslint-config-airbnb": "^18.2.0",
     "eslint-loader": "^4.0.2",
@@ -31,6 +37,8 @@
     "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-react": "^7.21.4",
     "file-loader": "^6.1.1",
+    "jest": "^26.5.3",
+    "jest-transform-stub": "^2.0.0",
     "mini-css-extract-plugin": "^1.0.0",
     "prop-types": "^15.7.2",
     "react-hot-loader": "^4.13.0",
@@ -42,8 +50,39 @@
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack serve --mode development --env development",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint": "eslint src tests",
+    "test": "npm run eslint && jest"
   },
-  "author": "Michael Kohler",
-  "license": "MIT"
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/main.js"
+    ],
+    "coverageReporters": [
+      "lcov",
+      "text-summary"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 81,
+        "functions": 77,
+        "lines": 83,
+        "statements": 84
+      }
+    },
+    "transform": {
+      "\\.js$": "babel-jest",
+      "\\.css$": "<rootDir>/tests/file-transformer.js"
+    },
+    "moduleNameMapper": {
+      "\\.css$": "jest-transform-stub"
+    },
+    "setupFiles": [
+      "<rootDir>/tests/test-setup.js"
+    ],
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
 }
