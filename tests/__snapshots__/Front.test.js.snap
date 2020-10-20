@@ -315,7 +315,7 @@ exports[`should correctly render Front 1`] = `
               <li
                 className="position"
               >
-                Software Development Engineer
+                Senior Software Developer
               </li>
               <li>
                 Technologies: Node.js, React, Lua, Python, Bash
@@ -531,7 +531,7 @@ exports[`should correctly render Front 1`] = `
               <p
                 className="font-regular-normal"
               >
-                I've been developing Node.js applications for the past 8 years, as private side projects as well as professionally. Currently at Control4 I'm developping Node.js applications to support the Neeo Remote. Before being acquired by Control4, at NEEO I developed JavaScript applications for both front and back end based with Ionic and Node.js in an IoT environment. Previously during my time at NETCASE GmbH I have also worked on Sails.js and Loopback based APIs.
+                I've been developing Node.js applications since 2013, as side projects as well as professionally. Currently at Control4 I'm developing Node.js applications to support the Neeo Remote. Before being acquired by Control4, at NEEO I developed JavaScript applications for both front and back end based with Ionic and Node.js in an IoT environment. Previously during my time at NETCASE GmbH I have also worked on Sails.js and Loopback based APIs.
               </p>
             </div>
             <div
@@ -545,7 +545,7 @@ exports[`should correctly render Front 1`] = `
               <p
                 className="font-regular-normal"
               >
-                In the recent past I've mostly used React for my personal as well as Mozilla projects. As part of my work at NEEO and NETCASE GmbH and several private projects I used AngularJS 1 for about 4 years.
+                Recently I've mostly used React for my personal as well as Mozilla projects. As part of my work at NEEO and NETCASE GmbH and several private projects I used AngularJS 1 for about 4 years.
               </p>
             </div>
             <div
@@ -559,7 +559,7 @@ exports[`should correctly render Front 1`] = `
               <p
                 className="font-regular-normal"
               >
-                I have experience in several other languages, most notably HTML and CSS. Recently I've been doing smaller projects with Lua and Rust as well. Additionally I have also worked with TypeScript for the NEEO SDK. I haven't written any PHP, Ruby or Java in years, but back in the days...
+                Recently I've been doing smaller projects with Lua and Rust as well. Additionally I have also worked with TypeScript for the NEEO SDK. I haven't written any PHP, Ruby or Java in years, but back in the days...
               </p>
             </div>
           </div>
@@ -591,7 +591,7 @@ exports[`should correctly render Front 1`] = `
               <p
                 className="font-regular-normal"
               >
-                At NEEO and Control4 I gained experience in DevOps methodologies. I try to make sure Infrastructure as Code is applied where possible. I've helped creating a complete test cluster to test our commits for Control4 in different levels of detail and technology. I've also implemented different metrics tracking systems and visualizations through Grafana. For my private projects I'm using Kubernetes and monitor the health of the cluster as well as my personal Raspberry Pi. For my personal gadgets I've been using Ansible for configuration management. I test and deploy my personal projects through GitHub Actions, keeping dependencies up to date with dependabot.
+                At NEEO and Control4 I gained experience in DevOps methodologies. I try to make sure Infrastructure as Code is applied where possible. I've helped creating a complete test cluster to test our commits for Control4 in different levels of detail and technology. I've also implemented different metrics tracking systems and visualizations through Grafana. For my private projects I'm using Kubernetes and monitor the health of the cluster as well as my personal Raspberry Pi. I've been using Ansible for configuration management. I test and deploy my personal projects through GitHub Actions, keeping dependencies up to date with dependabot.
               </p>
             </div>
             <div

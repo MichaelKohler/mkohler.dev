@@ -111,7 +111,7 @@ const Front = () => {
                   <li className="company uppercase">
                     <a href="http://www.control4.com">Control4 + SnapAV (acquired NEEO)</a>
                   </li>
-                  <li className="position">Software Development Engineer</li>
+                  <li className="position">Senior Software Developer</li>
                   <li>
                     Technologies: Node.js, React, Lua, Python, Bash
                   </li>
@@ -198,9 +198,9 @@ const Front = () => {
                 <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Backend JavaScript</h4>
                   <p className="font-regular-normal">
-                    I&apos;ve been developing Node.js applications for the past 8 years, as private
+                    I&apos;ve been developing Node.js applications since 2013, as
                     side projects as well as professionally. Currently at Control4 I&apos;m
-                    developping Node.js applications to support the Neeo Remote. Before being
+                    developing Node.js applications to support the Neeo Remote. Before being
                     acquired by Control4, at NEEO I developed JavaScript applications for both
                     front and back end based with Ionic and Node.js in an IoT environment.
                     Previously during my time at NETCASE GmbH I have also worked on Sails.js
@@ -210,7 +210,7 @@ const Front = () => {
                 <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Frontend JavaScript</h4>
                   <p className="font-regular-normal">
-                    In the recent past I&apos;ve mostly used React for my personal as well
+                    Recently I&apos;ve mostly used React for my personal as well
                     as Mozilla projects. As part of my work at NEEO and NETCASE GmbH and
                     several private projects I used AngularJS 1 for about 4 years.
                   </p>
@@ -218,7 +218,6 @@ const Front = () => {
                 <div className="col-md-4 col-sm-12 single-skill">
                   <h4 className="font-accident-one-normal uppercase">Other languages</h4>
                   <p className="font-regular-normal">
-                    I have experience in several other languages, most notably HTML and CSS.
                     Recently I&apos;ve been doing smaller projects with Lua and Rust as well.
                     Additionally I have also worked with TypeScript for the NEEO SDK. I
                     haven&apos;t written any PHP, Ruby or Java in years, but back in the days...
@@ -244,7 +243,7 @@ const Front = () => {
                     technology. I&apos;ve also implemented different metrics tracking systems
                     and visualizations through Grafana. For my private projects I&apos;m using
                     Kubernetes and monitor the health of the cluster as well as my personal
-                    Raspberry Pi. For my personal gadgets I&apos;ve been using Ansible for
+                    Raspberry Pi. I&apos;ve been using Ansible for
                     configuration management. I test and deploy my personal projects through
                     GitHub Actions, keeping dependencies up to date with dependabot.
                   </p>
