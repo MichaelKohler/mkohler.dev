@@ -310,7 +310,7 @@ exports[`should correctly render Header 1`] = `
               className="col-xs-4 col-sm-2 nopadding menuitem ui-menu-color06"
             >
               <a
-                href="https://www.michaelkohler.info"
+                href="https://michaelkohler.info"
                 rel="noopener noreferrer"
                 target="_blank"
               >

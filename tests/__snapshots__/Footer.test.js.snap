@@ -122,7 +122,7 @@ exports[`should correctly render footer 1`] = `
             <li>
               <a
                 aria-label="Michael's Blog"
-                href="https://www.michaelkohler.info"
+                href="https://michaelkohler.info"
                 rel="noopener noreferrer"
                 target="_blank"
               >

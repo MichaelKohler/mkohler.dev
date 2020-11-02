@@ -82,7 +82,7 @@ const Header = () => {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://www.michaelkohler.info"
+                    href="https://michaelkohler.info"
                   >
                     <FontAwesomeIcon icon={faPencilAlt} />
                     <span>blog</span>
