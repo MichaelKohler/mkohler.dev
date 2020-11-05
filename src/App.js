@@ -7,8 +7,6 @@ import Contact from './Contact';
 import Talks from './Talks';
 import Mozilla from './Mozilla';
 import '../public/theme/theme.css';
-import '../public/theme/theme-additions.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 const App = () => {
   return (
