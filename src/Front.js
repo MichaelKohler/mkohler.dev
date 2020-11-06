@@ -7,88 +7,67 @@ import {
 const Front = () => {
   return (
     <section id="homesection">
-      <section className="m-details row bg-color01">
-        <div className="col-md-12 col-lg-8 full-height-container">
-          <div className="row">
-            <div className="col-md-12">
-              <h2>About Michael</h2>
-              <h3 className="quote">
-                JavaScript developer with a passion for Web Standards and DevOps
-              </h3>
-            </div>
-          </div>
+      <section className="details">
+        <div className="about">
+          <h2>About Michael</h2>
+          <h3 className="quote">
+            JavaScript developer with a passion for Web Standards and DevOps
+          </h3>
 
           <section className="row infoblock-container">
-            <div className="col-md-5 infoblock">
-              <div className="row">
-                <div className="icon-container col-sm-1 col-md-3 d-none d-lg-block">
-                  <FontAwesomeIcon icon={faBook} />
-                </div>
-                <div className="col-sm-11 col-md-9">
-                  <h4>Eager to learn</h4>
-                  <p>
-                    Even though I have several years of experience with Software Development
-                    I&apos;m always eager to learn more to increase my knowledge.
-                  </p>
-                </div>
-              </div>
+            <div className="infoblock">
+              <h4><FontAwesomeIcon icon={faBook} /> Eager to learn</h4>
+              <p>
+                Even though I have several years of experience with Software Development
+                I&apos;m always eager to learn more to increase my knowledge.
+              </p>
             </div>
-            <div className="col-md-1" />
-            <div className="col-md-5 infoblock">
-              <div className="row">
-                <div className="icon-container col-sm-1 col-md-3 d-none d-lg-block">
-                  <FontAwesomeIcon icon={faHeart} />
-                </div>
-                <div className="col-sm-11 col-md-9">
-                  <h4>Motivated</h4>
-                  <p>
-                    With my volunteer work for Mozilla I&apos;m very passionate about the Open
-                    Web and therefore very motivated to work as Web Developer.
-                  </p>
-                </div>
-              </div>
+            <div className="infoblock">
+              <h4><FontAwesomeIcon icon={faHeart} /> Motivated</h4>
+              <p>
+                With my volunteer work for Mozilla I&apos;m very passionate about the Open
+                Web and therefore very motivated to work as Web Developer.
+              </p>
             </div>
           </section>
         </div>
 
-        <section className="col-md-12 col-lg-4 personal ui-block-color01">
+        <section className="personal">
           <h3>Personal Info</h3>
           <div className="personal-info">
             <div className="row">
-              <div className="col-lg-5 col-sm-12">Name:</div>
-              <div className="col-lg-7 col-sm-12">Michael Kohler</div>
+              <div>Name:</div>
+              <div>Michael Kohler</div>
             </div>
             <div className="row">
-              <div className="col-lg-5 col-sm-12">Date of Birth:</div>
-              <div className="col-lg-7 col-sm-12">30/11/1991</div>
+              <div>Date of Birth:</div>
+              <div>30/11/1991</div>
             </div>
             <div className="row">
-              <div className="col-lg-5 col-sm-12">Place:</div>
-              <div className="col-lg-7 col-sm-12">
+              <div>Place:</div>
+              <div>
                 Berlin, Germany
                 <br />
                 originally from Bern, Switzerland
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-5 col-sm-12">eMail:</div>
-              <div className="col-lg-7 col-sm-12">
-                <a href="mailto:me@michaelkohler.info">me@michaelkohler.info</a>
-              </div>
+              <div>eMail:</div>
+              <a href="mailto:me@michaelkohler.info">me@michaelkohler.info</a>
             </div>
             <div className="row">
-              <div className="col-lg-5 col-sm-12">Languages (fluent):</div>
-              <div className="col-lg-7 col-sm-12">German, English</div>
+              <div>Languages (fluent):</div>
+              <div>German, English</div>
             </div>
           </div>
         </section>
       </section>
 
-      <section className="row ui-block-color02">
-        <div className="col-md-12 col-lg-4 pro-experience">
+      <section className="experience-info">
+        <div className="pro-experience">
           <h3>Experience</h3>
           <div className="experience">
-            <ul className="">
+            <ul>
               <li className="date">04/2008 - now</li>
               <li className="company">
                 <a href="https://www.mozilla.org">Volunteer @ Mozilla Foundation</a>
@@ -98,7 +77,7 @@ const Front = () => {
                 Technologies: Node.js, React, Vanilla JavaScript, Rust
               </li>
             </ul>
-            <ul className="">
+            <ul>
               <li className="date">02/2019 - now</li>
               <li className="company">
                 <a href="http://www.control4.com">Control4 + SnapAV (acquired NEEO)</a>
@@ -108,7 +87,7 @@ const Front = () => {
                 Technologies: Node.js, React, Lua, Python, Bash
               </li>
             </ul>
-            <ul className="">
+            <ul>
               <li className="date">11/2016 - 01/2019</li>
               <li className="company">
                 <a href="http://www.neeo.com">NEEO AG</a>
@@ -118,7 +97,7 @@ const Front = () => {
                 Technologies: Node.js, AngularJS, Ionic, Z-Wave, Bash
               </li>
             </ul>
-            <ul className="">
+            <ul>
               <li className="date">04/2015 - 10/2016</li>
               <li className="company">
                 <a href="http://www.netcase.ch">NETCASE GmbH</a>
@@ -128,7 +107,7 @@ const Front = () => {
                 Technologies: Node.js, AngularJS, Bootstrap
               </li>
             </ul>
-            <ul className="">
+            <ul>
               <li className="date">01/2014 - 02/2015</li>
               <li className="company">
                 <a href="http://www.swisscom.ch">Swisscom Banking Provider AG</a>
@@ -141,7 +120,7 @@ const Front = () => {
                 Technologies: C#, XML, VBA, ITIL
               </li>
             </ul>
-            <ul className="">
+            <ul>
               <li className="date">08/2010 - 12/2013</li>
               <li className="company">
                 <a href="http://www.entris-banking.ch">Entris Banking AG</a>
@@ -158,21 +137,21 @@ const Front = () => {
 
           <h3>Education</h3>
           <div className="experience">
-            <ul className="">
+            <ul>
               <li className="date">02/2013 - 02/2017</li>
               <li className="company">
                 <a href="https://www.ffhs.ch">Fernfachhochschule Schweiz</a>
               </li>
               <li className="position">Computer Science, not finished</li>
             </ul>
-            <ul className="">
+            <ul>
               <li className="date">09/2011 - 01/2013</li>
               <li className="company">
                 <a href="http://www.inf.unibe.ch/index_eng.html">University of Bern</a>
               </li>
               <li className="position">Computer Science, not finished</li>
             </ul>
-            <ul className="">
+            <ul>
               <li className="date">08/2006 - 07/2010</li>
               <li className="company">
                 <a href="http://www.gymneufeld.ch">Gymnasium Neufeld</a>
@@ -182,10 +161,10 @@ const Front = () => {
           </div>
         </div>
 
-        <div className="col-md-12 col-lg-8 skills ui-block-color03">
+        <div className="skills">
           <h3>My Professional skills</h3>
           <div className="row">
-            <div className="col-md-4 col-sm-12 single-skill">
+            <div className="single-skill">
               <h4>Backend JavaScript</h4>
               <p>
                 I&apos;ve been developing Node.js applications since 2013, as
@@ -197,7 +176,7 @@ const Front = () => {
                 and Loopback based APIs.
               </p>
             </div>
-            <div className="col-md-4 col-sm-12 single-skill">
+            <div className="single-skill">
               <h4>Frontend JavaScript</h4>
               <p>
                 Recently I&apos;ve mostly used React for my personal as well
@@ -205,7 +184,7 @@ const Front = () => {
                 several private projects I used AngularJS 1 for about 4 years.
               </p>
             </div>
-            <div className="col-md-4 col-sm-12 single-skill">
+            <div className="single-skill">
               <h4>Other languages</h4>
               <p>
                 Recently I&apos;ve been doing smaller projects with Lua and Rust as well.
@@ -215,7 +194,7 @@ const Front = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-md-4 col-sm-12 single-skill">
+            <div className="single-skill">
               <h4>Web Standards</h4>
               <p>
                 Due to my affiliation with Mozilla, I&apos;m really passionate about the Open
@@ -223,7 +202,7 @@ const Front = () => {
                 will always encourage the use of modern standards where possible.
               </p>
             </div>
-            <div className="col-md-4 col-sm-12 single-skill">
+            <div className="single-skill">
               <h4>DevOps</h4>
               <p>
                 At NEEO and Control4 I gained experience in DevOps methodologies.
@@ -238,7 +217,7 @@ const Front = () => {
                 GitHub Actions, keeping dependencies up to date with dependabot.
               </p>
             </div>
-            <div className="col-md-4 col-sm-12 single-skill">
+            <div className="single-skill">
               <h4>Databases</h4>
               <p>
                 Nowadays I&apos;me mostly using MySQL for my database needs. In the past, for
