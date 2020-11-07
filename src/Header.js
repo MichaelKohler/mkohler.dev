@@ -18,7 +18,7 @@ const Header = () => {
         <section className="position">
           <h2>
             <span>
-              I&apos;m an experienced&nbsp;
+              I&apos;m a&nbsp;
               <Typist cursor={{ hideWhenDone: true }}>
                 <span>JavaScript Developer</span>
                 <Typist.Backspace count={20} delay={1000} />

@@ -22,7 +22,7 @@ exports[`should correctly render Header 1`] = `
     >
       <h2>
         <span>
-          I'm an experienced 
+          I'm a 
           <Typist
             avgTypingDelay={70}
             className=""

@@ -271,7 +271,7 @@ nav li:nth-child(6) {
 
 .about {
   flex-grow: 1;
-  padding: 0 30px;
+  padding: 0 30px 20px;
 }
 
 .personal {
@@ -313,7 +313,7 @@ nav li:nth-child(6) {
 }
 
 .pro-experience {
-  padding: 0 30px;
+  padding: 0 30px 20px;
   flex-grow: 3;
   min-width: 550px;
 }
@@ -354,11 +354,6 @@ nav li:nth-child(6) {
   font-weight: 700;
   font-size: 1.2rem;
   color: #ffffff;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
 }
 
 .pro-experience li.company a:before {
@@ -428,7 +423,7 @@ nav li:nth-child(6) {
 .skills {
   background-color: #cfe5f1;
   flex-grow: 1;
-  padding: 0 30px;
+  padding: 0 30px 20px;
 }
 
 .skills h3,
@@ -452,7 +447,7 @@ nav li:nth-child(6) {
 #talks,
 #mozilla,
 #contact {
-  padding: 30px 30px;
+  margin: 30px 30px;
 }
 
 #talks h2,
@@ -577,20 +572,55 @@ footer .svg-inline--fa:hover {
   opacity: 1;
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1200px) {
+  .details,
+  .experience-info {
+    flex-direction: column;
+  }
 
-}
+  .pro-experience,
+  .pro-experience .experience {
+    max-width: 100%;
+    min-width: unset;
+  }
 
-@media (max-width: 992px) {
-
+  #mozilla img {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
+  footer {
+    flex-direction: column-reverse;
+  }
 
+  header .position h2 {
+    font-size: 18px;
+  }
+
+  header .name h1 {
+    font-size: 24px;
+  }
+
+  header .photo {
+    display: none;
+  }
+
+  header .svg-inline--fa {
+    font-size: 32px;
+  }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
+  .pro-experience .experience {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
 
+  .pro-experience li.company a:before {
+    display: none;
+  }
 }
 
 @media print {
