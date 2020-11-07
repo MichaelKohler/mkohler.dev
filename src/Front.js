@@ -168,10 +168,10 @@ const Front = () => {
               <h4>Backend JavaScript</h4>
               <p>
                 I&apos;ve been developing Node.js applications since 2013, as
-                side projects as well as professionally. Currently at Control4 I&apos;m
-                developing Node.js applications to support the Neeo Remote. Before being
+                side projects as well as professionally. At Control4 I
+                developed Node.js applications to support the Neeo Remote. Before being
                 acquired by Control4, at NEEO I developed JavaScript applications for both
-                front and back end based with Ionic and Node.js in an IoT environment.
+                front and back end with Ionic and Node.js in an IoT environment.
                 Previously during my time at NETCASE GmbH I have also worked on Sails.js
                 and Loopback based APIs.
               </p>
