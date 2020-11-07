@@ -1,0 +1,130 @@
+{
+
+  "basics": {
+    "name": "Michael Kohler",
+    "label": "Senior Software Developer",
+    "image": "",
+    "email": "me@michaelkohler.info",
+    "phone": "",
+    "website": "https://mkohler.dev",
+    "summary": "Senior Software Developer with a passion for Web Standards and DevOps",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Berlin",
+      "countryCode": "DE",
+      "region": "Berlin"
+    },
+    "profiles": [{
+      "network": "Twitter",
+      "username": "KohlerSolutions",
+      "url": "https://twitter.com/KohlerSolutions"
+    }, {
+      "network": "Xing",
+      "username": "Michael_Kohler36",
+      "url": "https://www.xing.com/profile/Michael_Kohler36"
+    }, {
+      "network": "Blog",
+      "username": "MichaelKohler",
+      "url": "https://michaelkohler.info"
+    }, {
+      "network": "GitHub",
+      "username": "MichaelKohler",
+      "url": "https://github.com/MichaelKohler"
+    }]
+  },
+  "work": [{
+    "company": "Control4 + SnapAV (acquired NEEO)",
+    "position": "Senior Software Development Engineer",
+    "website": "https://control4.com",
+    "startDate": "2019-02-01",
+    "endDate": "2020-12-31",
+    "summary": "Software Developer as well as Scrum Master for the Neeo Remote",
+    "highlights": [
+      ""
+    ]
+  }, {
+    "company": "NEEO AG",
+    "position": "JavaScript Developer",
+    "website": "https://neeo.com",
+    "startDate": "2016-11-01",
+    "endDate": "2019-01-31",
+    "summary": "Software Developer for the NEEO Brain/Remote",
+    "highlights": [
+      ""
+    ]
+  }, {
+    "company": "Netcase GmbH",
+    "position": "Web Developer",
+    "website": "https://netcase.ch",
+    "startDate": "2015-04-01",
+    "endDate": "2016-10-31",
+    "summary": "Web Developer for several web projects",
+    "highlights": [
+      ""
+    ]
+  }, {
+    "company": "Swisscom Banking Provider AG",
+    "position": "Application Developer",
+    "website": "https://swisscom.ch",
+    "startDate": "2014-01-01",
+    "endDate": "2015-02-28",
+    "summary": "Solutions for Document Output Managements for banks, including responsibility for project management, support and requirement engineering",
+    "highlights": [
+      ""
+    ]
+  }, {
+    "company": "Entris Banking AG",
+    "position": "Application Developer",
+    "website": "https://entris-banking.ch",
+    "startDate": "2010-08-01",
+    "endDate": "2013-12-31",
+    "summary": "Solutions for Document Output Managements for banks, including responsibility for project management, support and requirement engineering",
+    "highlights": [
+      ""
+    ]
+  }],
+  "volunteer": [{
+    "organization": "Mozilla Foundation",
+    "position": "Volunteer",
+    "website": "https://mozilla.org/",
+    "startDate": "2008-04-01",
+    "endDate": "2099-12-31",
+    "summary": "Software Developer, Community Builder, Mozilla Rep",
+    "highlights": [
+      ""
+    ]
+  }],
+  "education": [{
+    "institution": "Fernfachhochschule Schweiz",
+    "area": "Computer Science",
+    "studyType": "Bachelor (not finished)",
+    "startDate": "2013-02-01",
+    "endDate": "2017-02-01"
+  }, {
+    "institution": "University of Bern",
+    "area": "Computer Science",
+    "studyType": "Bachelor (not finished)",
+    "startDate": "2011-09-01",
+    "endDate": "2013-01-31"
+  }, {
+    "institution": "Gymnasium Neufeld",
+    "area": "Economics and Law",
+    "studyType": "Matura",
+    "startDate": "2006-08-01",
+    "endDate": "2010-07-31"
+  }],
+  "languages": [{
+    "language": "Swiss German",
+    "fluency": "Native"
+  }, {
+    "language": "German",
+    "fluency": "Native"
+  }, {
+    "language": "English",
+    "fluency": "Proficient"
+  }, {
+    "language": "French",
+    "fluency": "Basic"
+  }]
+}

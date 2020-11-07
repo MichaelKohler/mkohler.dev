@@ -4,7 +4,7 @@ import Typist from 'react-typist';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import {
-  faUser, faMicrophone, faGlobe, faEnvelope, faPencilAlt,
+  faUser, faMicrophone, faGlobe, faFile, faPencilAlt,
 } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
@@ -52,12 +52,6 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/contact">
-                <FontAwesomeIcon icon={faEnvelope} />
-                <span>contact</span>
-              </Link>
-            </li>
-            <li>
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -75,6 +69,16 @@ const Header = () => {
               >
                 <FontAwesomeIcon icon={faPencilAlt} />
                 <span>blog</span>
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="/resume.json"
+              >
+                <FontAwesomeIcon icon={faFile} />
+                <span>JSON</span>
               </a>
             </li>
           </ul>

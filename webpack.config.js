@@ -58,6 +58,7 @@ module.exports = {
         { from: 'public/CNAME', to: '.' },
         { from: '404.html', to: '.' },
         { from: 'index.html', to: '.' },
+        { from: 'resume.json', to: '.' },
       ],
     }),
   ]
