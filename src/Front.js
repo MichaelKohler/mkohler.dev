@@ -94,7 +94,7 @@ const Front = () => {
               </li>
               <li className="position">JavaScript Developer</li>
               <li>
-                Technologies: Node.js, AngularJS, Ionic, Z-Wave, Bash
+                Technologies: Node.js, AngularJS, Ionic, TypeScript, Z-Wave, Bash
               </li>
             </ul>
             <ul>
@@ -117,7 +117,7 @@ const Front = () => {
                 Management, Requirement Engineering
               </li>
               <li>
-                Technologies: C#, XML, VBA, ITIL
+                Technologies: C#, XML, VBA
               </li>
             </ul>
             <ul>
@@ -130,7 +130,7 @@ const Front = () => {
                 Document Output Management, Requirement Engineering
               </li>
               <li>
-                Technologies: C#, XML, VBA, ITIL
+                Technologies: XML, VBA
               </li>
             </ul>
           </div>
