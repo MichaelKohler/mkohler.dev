@@ -589,14 +589,6 @@ footer .svg-inline--fa:hover {
     flex-direction: column-reverse;
   }
 
-  header .position h2 {
-    font-size: 18px;
-  }
-
-  header .name h1 {
-    font-size: 24px;
-  }
-
   header .photo {
     display: none;
   }
