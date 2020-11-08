@@ -273,36 +273,36 @@ nav li:nth-child(6) {
   padding: 0 30px 20px;
 }
 
-.personal {
-  flex-grow: 3;
+.sidebar {
+  flex-grow: 1;
   background-color: #f2faff;
   padding: 0 30px;
 }
 
-.personal a {
+.sidebar a {
   color: #000;
 }
 
 .pro-experience h3,
-.personal h3 {
+.sidebar h3 {
   padding-bottom: 20px;
 }
 
-.personal-info .row {
+.sidebar-info .row {
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: 1px dotted #b0d2bd;
 }
 
-.personal-info .row div:first-child {
+.sidebar-info .row div:first-child {
   margin-bottom: 10px;
 }
 
-.personal-info .row:last-child {
+.sidebar-info .row:last-child {
   border-bottom: none;
 }
 
-.personal-info .row div:first-child {
+.sidebar-info .row div:first-child {
   font-weight: 600;
 }
 
@@ -311,10 +311,13 @@ nav li:nth-child(6) {
   background-color: #dcf3fb;
 }
 
+.skills {
+  max-width: 25vw;
+}
+
 .pro-experience {
+  flex-grow: 2;
   padding: 0 30px 20px;
-  flex-grow: 3;
-  min-width: 550px;
 }
 
 .pro-experience .experience {
@@ -423,29 +426,6 @@ nav li:nth-child(6) {
 
 .pro-experience li.position {
   color: #3f3f3f;
-}
-
-.skills {
-  background-color: #cfe5f1;
-  flex-grow: 1;
-  padding: 0 30px 20px;
-}
-
-.skills h3,
-.skills h4 {
-  color: #3f3f3f;
-}
-
-.skills h4:first-child {
-  padding-top: 0;
-}
-
-.single-skill {
-  margin-top: 2em;
-}
-
-.single-skill h4 {
-  margin-top: 0;
 }
 
 #talks,
@@ -568,15 +548,22 @@ footer .svg-inline--fa:hover {
 }
 
 @media (max-width: 1200px) {
-  .details,
-  .experience-info {
+  .details {
     flex-direction: column;
+  }
+
+  .experience-info {
+    flex-direction: column-reverse;
   }
 
   .pro-experience,
   .pro-experience .experience {
     max-width: 100%;
     min-width: unset;
+  }
+
+  .skills {
+    max-width: 100%;
   }
 
   #mozilla img {

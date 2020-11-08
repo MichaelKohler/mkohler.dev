@@ -32,9 +32,9 @@ const Front = () => {
           </section>
         </div>
 
-        <section className="personal">
+        <section className="sidebar">
           <h3>Personal Info</h3>
-          <div className="personal-info">
+          <div className="sidebar-info">
             <div className="row">
               <div>Name:</div>
               <div>Michael Kohler</div>
@@ -64,6 +64,40 @@ const Front = () => {
       </section>
 
       <section className="experience-info">
+        <section className="sidebar skills">
+          <h3>Skills</h3>
+          <div className="sidebar-info">
+            <div className="row">
+              <div>Programming Languages:</div>
+              <div>JavaScript, HTML, CSS, Python, Lua, Bash, Rust</div>
+            </div>
+            <div className="row">
+              <div>DevOps:</div>
+              <div>Pipelines/Actions, Docker, Kubernetes, Grafana, Prometheus, GitLab, Ansible</div>
+            </div>
+            <div className="row">
+              <div>Databases:</div>
+              <div>MySQL, MongoDB</div>
+            </div>
+            <div className="row">
+              <div>IoT:</div>
+              <div>Z-Wave, Device Management, Raspberry Pi</div>
+            </div>
+            <div className="row">
+              <div>Methodologies:</div>
+              <div>Scrum, Pair Programming, TDD, Feature Flags</div>
+            </div>
+            <div className="row">
+              <div>Product:</div>
+              <div>Requirement Engineering, Backlog Grooming, Sprint Planning</div>
+            </div>
+            <div className="row">
+              <div>Management:</div>
+              <div>Mentoring, Conflict Resolution</div>
+            </div>
+          </div>
+        </section>
+
         <div className="pro-experience">
           <h3>Experience</h3>
           <div className="experience">
@@ -254,72 +288,6 @@ const Front = () => {
               </li>
               <li className="position">Matura</li>
             </ul>
-          </div>
-        </div>
-
-        <div className="skills">
-          <h3>My skills</h3>
-          <div className="row">
-            <div className="single-skill">
-              <h4>Backend JavaScript</h4>
-              <p>
-                I&apos;ve been developing Node.js applications since 2013, as
-                side projects as well as professionally. At Control4 I
-                developed Node.js applications to support the Neeo Remote. Before being
-                acquired by Control4, at NEEO I developed JavaScript applications for both
-                front and back end with Ionic and Node.js in an IoT environment.
-                Previously during my time at NETCASE GmbH I have also worked on Sails.js
-                and Loopback based APIs.
-              </p>
-            </div>
-            <div className="single-skill">
-              <h4>Frontend JavaScript</h4>
-              <p>
-                Recently I&apos;ve mostly used React for my personal as well
-                as Mozilla projects. As part of my work at NEEO and NETCASE GmbH and
-                several private projects I used AngularJS 1 for about 4 years.
-              </p>
-            </div>
-            <div className="single-skill">
-              <h4>Other languages</h4>
-              <p>
-                Recently I&apos;ve been doing smaller projects with Lua and Rust as well.
-                Additionally I have also worked with TypeScript for the NEEO SDK. I
-                haven&apos;t written any PHP, Ruby or Java in years, but back in the days...
-              </p>
-            </div>
-          </div>
-          <div className="row">
-            <div className="single-skill">
-              <h4>Web Standards</h4>
-              <p>
-                Due to my affiliation with Mozilla, I&apos;m really passionate about the Open
-                Web. Therefore I&apos;m trying to keep on top of changes to Web Standards and
-                will always encourage the use of modern standards where possible.
-              </p>
-            </div>
-            <div className="single-skill">
-              <h4>DevOps</h4>
-              <p>
-                At NEEO and Control4 I gained experience in DevOps methodologies.
-                I try to make sure Infrastructure as Code is applied where possible.
-                I&apos;ve helped creating a complete test
-                cluster to test our commits for Control4 in different levels of detail and
-                technology. I&apos;ve also implemented different metrics tracking systems
-                and visualizations through Grafana. For my private projects I&apos;m using
-                Kubernetes and monitor the health of the cluster as well as my personal
-                Raspberry Pi. I&apos;ve been using Ansible for
-                configuration management. I test and deploy my personal projects through
-                GitHub Actions, keeping dependencies up to date with dependabot.
-              </p>
-            </div>
-            <div className="single-skill">
-              <h4>Databases</h4>
-              <p>
-                Nowadays I&apos;me mostly using MySQL for my database needs. In the past, for
-                example at NETCASE, I was also using MongoDB.
-              </p>
-            </div>
           </div>
         </div>
       </section>
