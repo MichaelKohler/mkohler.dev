@@ -61,8 +61,7 @@ a i:before {
 
 a:hover,
 a:focus {
-  text-decoration: none;
-  outline: none;
+  text-decoration: underline;
 }
 
 p {
@@ -464,6 +463,8 @@ nav li:nth-child(6) {
 
 .talks-list {
   line-height: 2.5em;
+  list-style-type: circle;
+  margin-left: 30px;
 }
 
 #mozilla img {
