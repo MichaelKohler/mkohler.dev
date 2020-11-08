@@ -14,7 +14,7 @@ exports[`should correctly render App 1`] = `
   />
   <Route
     component={[Function]}
-    path="/mozilla/"
+    path="/opensource/"
   />
   <Footer />
 </BrowserRouter>

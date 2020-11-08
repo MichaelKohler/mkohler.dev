@@ -30,9 +30,9 @@ const Header = () => {
               </Link>
             </li>
             <li>
-              <Link to="/mozilla">
+              <Link to="/opensource">
                 <FontAwesomeIcon icon={faGlobe} />
-                <span>mozilla</span>
+                <span>Open Source</span>
               </Link>
             </li>
             <li>

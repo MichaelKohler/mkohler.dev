@@ -4,7 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Front from './Front';
 import Talks from './Talks';
-import Mozilla from './Mozilla';
+import OpenSource from './OpenSource';
 import '../public/theme.css';
 
 const App = () => {
@@ -13,7 +13,7 @@ const App = () => {
       <Header />
       <Route path="/" exact component={Front} />
       <Route path="/talks/" component={Talks} />
-      <Route path="/mozilla/" component={Mozilla} />
+      <Route path="/opensource/" component={OpenSource} />
       <Footer />
     </Router>
   );

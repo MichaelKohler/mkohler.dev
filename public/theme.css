@@ -74,8 +74,8 @@ p {
 
 ul {
   padding-left: 0;
-  list-style: none;
-  margin-left: 0;
+  list-style-type: circle;
+  margin-left: 20px;
 }
 
 ul li {
@@ -376,10 +376,12 @@ nav li:nth-child(6) {
   color: #ffffff;
 }
 
+.pro-experience li.responsibilities {
+  list-style-type: none;
+}
+
 .pro-experience li.responsibilities ul {
   margin-top: 10px;
-  list-style-type: circle;
-  margin-left: 20px;
 }
 
 .pro-experience a,
@@ -429,24 +431,44 @@ nav li:nth-child(6) {
 }
 
 #talks,
-#mozilla {
+#opensource {
   margin: 30px 30px;
 }
 
 #talks h2,
-#mozilla h2 {
+#opensource h2 {
   padding-top: 0;
 }
 
 .talks-list {
   line-height: 2.5em;
-  list-style-type: circle;
-  margin-left: 30px;
 }
 
-#mozilla img {
-  max-width: 1000px;
+#opensource .areas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#opensource .area {
+  min-width: 45vw;
+  max-width: 45vw;
+}
+
+#opensource .area:nth-child(n) {
+  padding-right: 10px;
+}
+
+#opensource .area:nth-child(2n) {
+  padding-left: 10px;
+}
+
+#opensource img {
+  min-width: 45vw;
+  max-width: 45vw;
   margin-top: 15px;
+  min-height: 400px;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 footer {
@@ -566,8 +588,18 @@ footer .svg-inline--fa:hover {
     max-width: 100%;
   }
 
-  #mozilla img {
+  #opensource .areas {
+    flex-direction: column;
+  }
+
+  #opensource .area {
+    max-width: unset;
+    width: 100%;
+  }
+
+  #opensource img {
     max-width: 100%;
+    min-width: 100%;
   }
 }
 

@@ -70,7 +70,7 @@ exports[`should correctly render Header 1`] = `
         </li>
         <li>
           <Link
-            to="/mozilla"
+            to="/opensource"
           >
             <FontAwesomeIcon
               border={false}
@@ -104,7 +104,7 @@ exports[`should correctly render Header 1`] = `
               transform={null}
             />
             <span>
-              mozilla
+              Open Source
             </span>
           </Link>
         </li>
