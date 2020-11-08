@@ -26,7 +26,7 @@ const Front = () => {
               <h4><FontAwesomeIcon icon={faHeart} /> Motivated</h4>
               <p>
                 With my volunteer work for Mozilla I&apos;m very passionate about the Open
-                Web and therefore very motivated to work as Web Developer.
+                Web and Software Engineering in general.
               </p>
             </div>
           </section>
