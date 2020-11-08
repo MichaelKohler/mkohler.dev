@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Typist from 'react-typist';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -18,16 +17,7 @@ const Header = () => {
         <section className="position">
           <h2>
             <span>
-              I&apos;m a&nbsp;
-              <Typist cursor={{ hideWhenDone: true }}>
-                <span>JavaScript Developer</span>
-                <Typist.Backspace count={20} delay={1000} />
-                <span>Node.js Developer</span>
-                <Typist.Backspace count={17} delay={1000} />
-                <span>Community Builder</span>
-                <Typist.Backspace count={17} delay={1000} />
-                <span>JavaScript Developer</span>
-              </Typist>
+              Senior Software Engineer
             </span>
           </h2>
         </section>

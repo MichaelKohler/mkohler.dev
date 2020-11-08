@@ -374,6 +374,12 @@ nav li:nth-child(6) {
   color: #ffffff;
 }
 
+.pro-experience li.responsibilities ul {
+  margin-top: 10px;
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
 .pro-experience a,
 .pro-experience a:hover,
 .pro-experience a:focus {

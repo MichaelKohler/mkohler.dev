@@ -10,10 +10,6 @@ exports[`should correctly render App 1`] = `
   />
   <Route
     component={[Function]}
-    path="/contact/"
-  />
-  <Route
-    component={[Function]}
     path="/talks/"
   />
   <Route

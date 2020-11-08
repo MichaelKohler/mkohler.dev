@@ -203,15 +203,39 @@ exports[`should correctly render Front 1`] = `
           >
             Developer, Community Builder
           </li>
-          <li>
-            Technologies: Node.js, React, Vanilla JavaScript, Rust
+          <li
+            className="responsibilities"
+          >
+            <ul>
+              <li>
+                Mozilla Rep since 2012 (served on the Reps Council and now a Reps Module Peer)
+              </li>
+              <li>
+                Community Building in Switzerland and Germany
+              </li>
+              <li>
+                Improved the Common Voice Sentence Collector (Node.js, React, MySQL)
+              </li>
+              <li>
+                Improved the Common Voice Sentence Extractor (Rust)
+              </li>
+              <li>
+                Implemented several GitHub Actions to automate processes for Common Voice
+              </li>
+              <li>
+                Created several volunteer campaign websites to boost volunteer involvement
+              </li>
+              <li>
+                Wrote several patches for Firefox (JavaScript, XUL)
+              </li>
+            </ul>
           </li>
         </ul>
         <ul>
           <li
             className="date"
           >
-            02/2019 - now
+            02/2019 - 12/2020
           </li>
           <li
             className="company"
@@ -219,16 +243,43 @@ exports[`should correctly render Front 1`] = `
             <a
               href="http://www.control4.com"
             >
-              Control4 + SnapAV (acquired NEEO)
+              Control4 (acquired NEEO)
             </a>
           </li>
           <li
             className="position"
           >
-            Senior Software Developer
+            Senior Software Development Engineer
           </li>
-          <li>
-            Technologies: Node.js, React, Lua, Python, Bash
+          <li
+            className="responsibilities"
+          >
+            <ul>
+              <li>
+                Integration of the Neeo Remote into the Control4 system
+              </li>
+              <li>
+                Development of the Neeo middleware running on the Control4 controller (Node.js)
+              </li>
+              <li>
+                Bugfixes on the Control4 remote driver (Lua)
+              </li>
+              <li>
+                Feature Flags implementation and administration
+              </li>
+              <li>
+                Improvements to Automated Test Infrastructure (Python, Ansible, GitLab)
+              </li>
+              <li>
+                Implementation of Metrics Tracking and Dashboards (Node.js, SQL, Grafana)
+              </li>
+              <li>
+                Responsible for Release Management processes and tools
+              </li>
+              <li>
+                Scrum Master
+              </li>
+            </ul>
           </li>
         </ul>
         <ul>
@@ -251,8 +302,26 @@ exports[`should correctly render Front 1`] = `
           >
             JavaScript Developer
           </li>
-          <li>
-            Technologies: Node.js, AngularJS, Ionic, Z-Wave, Bash
+          <li
+            className="responsibilities"
+          >
+            <ul>
+              <li>
+                Development of the NEEO services serving content to the remote (Node.js, Linux)
+              </li>
+              <li>
+                Integration of Z-Wave devices into NEEO (including certification)
+              </li>
+              <li>
+                Development of the NEEO App for configuration (Ionic, AngularJS)
+              </li>
+              <li>
+                Development of the NEEO Cloud to manage customer accounts and firmware groups
+              </li>
+              <li>
+                Customer Support on the NEEO Planet
+              </li>
+            </ul>
           </li>
         </ul>
         <ul>
@@ -275,8 +344,17 @@ exports[`should correctly render Front 1`] = `
           >
             Web Developer
           </li>
-          <li>
-            Technologies: Node.js, AngularJS, Bootstrap
+          <li
+            className="responsibilities"
+          >
+            <ul>
+              <li>
+                Created several smaller websites (Vanilla JS, Sails.js)
+              </li>
+              <li>
+                Worked on a larger product management tool (Node.js, Loopback, AngularJS)
+              </li>
+            </ul>
           </li>
         </ul>
         <ul>
@@ -297,10 +375,25 @@ exports[`should correctly render Front 1`] = `
           <li
             className="position"
           >
-            Application Developer, 2nd-Level-Support Document Output Management, Requirement Engineering
+            Application Developer, 2nd-Level-Support Document Output Management
           </li>
-          <li>
-            Technologies: C#, XML, VBA, ITIL
+          <li
+            className="responsibilities"
+          >
+            <ul>
+              <li>
+                Worked on a large project to migrate the core banking platform of several banks
+              </li>
+              <li>
+                Responsible for the Document Output System used to print customer documents
+              </li>
+              <li>
+                Improvements and adjustments to documents and wizard (C#, VBA, Office)
+              </li>
+              <li>
+                Requirement engineering and project management for the Document Output System
+              </li>
+            </ul>
           </li>
         </ul>
         <ul>
@@ -321,10 +414,25 @@ exports[`should correctly render Front 1`] = `
           <li
             className="position"
           >
-            Application Developer, 2nd-Level-Support Document Output Management, Requirement Engineering
+            Application Developer, 2nd-Level-Support Document Output Management
           </li>
-          <li>
-            Technologies: C#, XML, VBA, ITIL
+          <li
+            className="responsibilities"
+          >
+            <ul>
+              <li>
+                Worked on a large project to migrate the core banking platform of several banks
+              </li>
+              <li>
+                Responsible for a part of the Document Output System
+              </li>
+              <li>
+                Improvements and adjustments to documents (VBA, Office)
+              </li>
+              <li>
+                Requirement engineering and project management for the Document Output System
+              </li>
+            </ul>
           </li>
         </ul>
       </div>
@@ -403,7 +511,7 @@ exports[`should correctly render Front 1`] = `
       className="skills"
     >
       <h3>
-        My Professional skills
+        My skills
       </h3>
       <div
         className="row"
@@ -415,7 +523,7 @@ exports[`should correctly render Front 1`] = `
             Backend JavaScript
           </h4>
           <p>
-            I've been developing Node.js applications since 2013, as side projects as well as professionally. Currently at Control4 I'm developing Node.js applications to support the Neeo Remote. Before being acquired by Control4, at NEEO I developed JavaScript applications for both front and back end based with Ionic and Node.js in an IoT environment. Previously during my time at NETCASE GmbH I have also worked on Sails.js and Loopback based APIs.
+            I've been developing Node.js applications since 2013, as side projects as well as professionally. At Control4 I developed Node.js applications to support the Neeo Remote. Before being acquired by Control4, at NEEO I developed JavaScript applications for both front and back end with Ionic and Node.js in an IoT environment. Previously during my time at NETCASE GmbH I have also worked on Sails.js and Loopback based APIs.
           </p>
         </div>
         <div

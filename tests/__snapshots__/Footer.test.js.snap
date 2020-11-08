@@ -7,7 +7,7 @@ exports[`should correctly render footer 1`] = `
       Michael Kohler
     </h3>
     <p>
-      JavaScript developer with a passion for Web Standards and DevOps
+      Software Engineer with a passion for Web Standards and DevOps
     </p>
     <p
       className="copyrights"

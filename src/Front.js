@@ -73,18 +73,65 @@ const Front = () => {
                 <a href="https://www.mozilla.org">Volunteer @ Mozilla Foundation</a>
               </li>
               <li className="position">Developer, Community Builder</li>
-              <li>
-                Technologies: Node.js, React, Vanilla JavaScript, Rust
+              <li className="responsibilities">
+                <ul>
+                  <li>
+                    Mozilla Rep since 2012 (served on the Reps Council and now a Reps Module Peer)
+                  </li>
+                  <li>
+                    Community Building in Switzerland and Germany
+                  </li>
+                  <li>
+                    Improved the Common Voice Sentence Collector (Node.js, React, MySQL)
+                  </li>
+                  <li>
+                    Improved the Common Voice Sentence Extractor (Rust)
+                  </li>
+                  <li>
+                    Implemented several GitHub Actions to automate processes for Common Voice
+                  </li>
+                  <li>
+                    Created several volunteer campaign websites to boost volunteer involvement
+                  </li>
+                  <li>
+                    Wrote several patches for Firefox (JavaScript, XUL)
+                  </li>
+                </ul>
               </li>
             </ul>
             <ul>
-              <li className="date">02/2019 - now</li>
+              <li className="date">02/2019 - 12/2020</li>
               <li className="company">
-                <a href="http://www.control4.com">Control4 + SnapAV (acquired NEEO)</a>
+                <a href="http://www.control4.com">Control4 (acquired NEEO)</a>
               </li>
-              <li className="position">Senior Software Developer</li>
-              <li>
-                Technologies: Node.js, React, Lua, Python, Bash
+              <li className="position">Senior Software Development Engineer</li>
+              <li className="responsibilities">
+                <ul>
+                  <li>
+                    Integration of the Neeo Remote into the Control4 system
+                  </li>
+                  <li>
+                    Development of the Neeo middleware running on the Control4 controller (Node.js)
+                  </li>
+                  <li>
+                    Bugfixes on the Control4 remote driver (Lua)
+                  </li>
+                  <li>
+                    Feature Flags implementation and administration
+                  </li>
+                  <li>
+                    Improvements to Automated Test Infrastructure (Python, Ansible, GitLab)
+                  </li>
+                  <li>
+                    Implementation of Metrics Tracking and Dashboards (Node.js, SQL, Grafana)
+                  </li>
+                  <li>
+                    Responsible for Release Management processes and tools
+                  </li>
+                  <li>
+                    Scrum Master
+                  </li>
+                </ul>
               </li>
             </ul>
             <ul>
@@ -93,8 +140,24 @@ const Front = () => {
                 <a href="http://www.neeo.com">NEEO AG</a>
               </li>
               <li className="position">JavaScript Developer</li>
-              <li>
-                Technologies: Node.js, AngularJS, Ionic, TypeScript, Z-Wave, Bash
+              <li className="responsibilities">
+                <ul>
+                  <li>
+                    Development of the NEEO services serving content to the remote (Node.js, Linux)
+                  </li>
+                  <li>
+                    Integration of Z-Wave devices into NEEO (including certification)
+                  </li>
+                  <li>
+                    Development of the NEEO App for configuration (Ionic, AngularJS)
+                  </li>
+                  <li>
+                    Development of the NEEO Cloud to manage customer accounts and firmware groups
+                  </li>
+                  <li>
+                    Customer Support on the NEEO Planet
+                  </li>
+                </ul>
               </li>
             </ul>
             <ul>
@@ -103,8 +166,15 @@ const Front = () => {
                 <a href="http://www.netcase.ch">NETCASE GmbH</a>
               </li>
               <li className="position">Web Developer</li>
-              <li>
-                Technologies: Node.js, AngularJS, Bootstrap
+              <li className="responsibilities">
+                <ul>
+                  <li>
+                    Created several smaller websites (Vanilla JS, Sails.js)
+                  </li>
+                  <li>
+                    Worked on a larger product management tool (Node.js, Loopback, AngularJS)
+                  </li>
+                </ul>
               </li>
             </ul>
             <ul>
@@ -114,10 +184,23 @@ const Front = () => {
               </li>
               <li className="position">
                 Application Developer, 2nd-Level-Support Document Output
-                Management, Requirement Engineering
+                Management
               </li>
-              <li>
-                Technologies: C#, XML, VBA
+              <li className="responsibilities">
+                <ul>
+                  <li>
+                    Worked on a large project to migrate the core banking platform of several banks
+                  </li>
+                  <li>
+                    Responsible for the Document Output System used to print customer documents
+                  </li>
+                  <li>
+                    Improvements and adjustments to documents and wizard (C#, VBA, Office)
+                  </li>
+                  <li>
+                    Requirement engineering and project management for the Document Output System
+                  </li>
+                </ul>
               </li>
             </ul>
             <ul>
@@ -127,10 +210,23 @@ const Front = () => {
               </li>
               <li className="position">
                 Application Developer, 2nd-Level-Support
-                Document Output Management, Requirement Engineering
+                Document Output Management
               </li>
-              <li>
-                Technologies: XML, VBA
+              <li className="responsibilities">
+                <ul>
+                  <li>
+                    Worked on a large project to migrate the core banking platform of several banks
+                  </li>
+                  <li>
+                    Responsible for a part of the Document Output System
+                  </li>
+                  <li>
+                    Improvements and adjustments to documents (VBA, Office)
+                  </li>
+                  <li>
+                    Requirement engineering and project management for the Document Output System
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
@@ -162,7 +258,7 @@ const Front = () => {
         </div>
 
         <div className="skills">
-          <h3>My Professional skills</h3>
+          <h3>My skills</h3>
           <div className="row">
             <div className="single-skill">
               <h4>Backend JavaScript</h4>

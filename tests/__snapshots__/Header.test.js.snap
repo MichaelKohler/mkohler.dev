@@ -22,47 +22,7 @@ exports[`should correctly render Header 1`] = `
     >
       <h2>
         <span>
-          I'm a 
-          <Typist
-            avgTypingDelay={70}
-            className=""
-            cursor={
-              Object {
-                "hideWhenDone": true,
-              }
-            }
-            delayGenerator={[Function]}
-            onCharacterTyped={[Function]}
-            onLineTyped={[Function]}
-            onTypingDone={[Function]}
-            startDelay={0}
-            stdTypingDelay={25}
-          >
-            <span>
-              JavaScript Developer
-            </span>
-            <Backspace
-              count={20}
-              delay={1000}
-            />
-            <span>
-              Node.js Developer
-            </span>
-            <Backspace
-              count={17}
-              delay={1000}
-            />
-            <span>
-              Community Builder
-            </span>
-            <Backspace
-              count={17}
-              delay={1000}
-            />
-            <span>
-              JavaScript Developer
-            </span>
-          </Typist>
+          Senior Software Engineer
         </span>
       </h2>
     </section>
@@ -189,46 +149,6 @@ exports[`should correctly render Header 1`] = `
           </Link>
         </li>
         <li>
-          <Link
-            to="/contact"
-          >
-            <FontAwesomeIcon
-              border={false}
-              className=""
-              fixedWidth={false}
-              flip={null}
-              icon={
-                Object {
-                  "icon": Array [
-                    512,
-                    512,
-                    Array [],
-                    "f0e0",
-                    "M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z",
-                  ],
-                  "iconName": "envelope",
-                  "prefix": "fas",
-                }
-              }
-              inverse={false}
-              listItem={false}
-              mask={null}
-              pull={null}
-              pulse={false}
-              rotation={null}
-              size={null}
-              spin={false}
-              swapOpacity={false}
-              symbol={false}
-              title=""
-              transform={null}
-            />
-            <span>
-              contact
-            </span>
-          </Link>
-        </li>
-        <li>
           <a
             href="https://www.github.com/MichaelKohler"
             rel="noopener noreferrer"
@@ -309,6 +229,48 @@ exports[`should correctly render Header 1`] = `
             />
             <span>
               blog
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/resume.json"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <FontAwesomeIcon
+              border={false}
+              className=""
+              fixedWidth={false}
+              flip={null}
+              icon={
+                Object {
+                  "icon": Array [
+                    384,
+                    512,
+                    Array [],
+                    "f15b",
+                    "M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm160-14.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z",
+                  ],
+                  "iconName": "file",
+                  "prefix": "fas",
+                }
+              }
+              inverse={false}
+              listItem={false}
+              mask={null}
+              pull={null}
+              pulse={false}
+              rotation={null}
+              size={null}
+              spin={false}
+              swapOpacity={false}
+              symbol={false}
+              title=""
+              transform={null}
+            />
+            <span>
+              JSON
             </span>
           </a>
         </li>

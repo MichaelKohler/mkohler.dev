@@ -11,7 +11,7 @@ const Footer = () => {
       <section>
         <h3>Michael Kohler</h3>
         <p>
-          JavaScript developer with a passion for Web Standards and DevOps
+          Software Engineer with a passion for Web Standards and DevOps
         </p>
         <p className="copyrights">
           © 2016-2020 Michael Kohler - Design is an adapted version of a template by&nbsp;
