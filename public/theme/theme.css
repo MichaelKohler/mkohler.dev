@@ -448,16 +448,13 @@ nav li:nth-child(6) {
   margin-top: 0;
 }
 
-/* TALKS */
 #talks,
-#mozilla,
-#contact {
+#mozilla {
   margin: 30px 30px;
 }
 
 #talks h2,
-#mozilla h2,
-#contact h2 {
+#mozilla h2 {
   padding-top: 0;
 }
 
@@ -470,15 +467,6 @@ nav li:nth-child(6) {
 #mozilla img {
   max-width: 1000px;
   margin-top: 15px;
-}
-
-.contacts-data {
-  margin-top: 60px;
-  margin-bottom: 200px;
-}
-
-.contacts-data p {
-  margin-bottom: 50px;
 }
 
 footer {
