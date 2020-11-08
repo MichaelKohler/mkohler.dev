@@ -5,7 +5,7 @@ import Footer from './Footer';
 import Front from './Front';
 import Talks from './Talks';
 import Mozilla from './Mozilla';
-import '../public/theme/theme.css';
+import '../public/theme.css';
 
 const App = () => {
   return (
