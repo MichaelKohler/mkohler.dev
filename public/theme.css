@@ -324,8 +324,8 @@ nav li:nth-child(6) {
   overflow: visible;
   position: relative;
   border-left: 1px solid #8EA8C3;
-  padding-left: 24px;
-  margin-left: 7px;
+  padding-left: 4px;
+  margin-left: 16px;
 }
 
 .pro-experience .experience:first-child {
@@ -485,6 +485,10 @@ footer p {
   color: #ffffff;
 }
 
+footer ul {
+  list-style-type: none;
+}
+
 footer a:hover,
 footer a:focus {
   text-decoration: underline;
@@ -579,6 +583,9 @@ footer .svg-inline--fa:hover {
     max-width: 100%;
     min-width: unset;
   }
+  .pro-experience .experience ul li ul {
+    margin-left: 23px;
+  }
 
   .skills {
     max-width: 100%;
@@ -617,6 +624,11 @@ footer .svg-inline--fa:hover {
   .pro-experience .experience {
     border-left: none;
     padding-left: 0;
+    margin-left: 0;
+  }
+
+  .pro-experience .experience ul {
+    margin-top: 0;
     margin-left: 0;
   }
 
