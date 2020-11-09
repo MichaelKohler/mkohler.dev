@@ -644,6 +644,18 @@ footer .svg-inline--fa:hover {
 }
 
 @media print {
+  body {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
   nav,
   .about,
   .sidebar h3,
@@ -670,6 +682,14 @@ footer .svg-inline--fa:hover {
     margin-bottom: 5px;
   }
 
+  header .position h2 {
+    font-size: 16px;
+  }
+
+  header .position h2:after {
+    content: "  - CV: https://mkohler.dev"
+  }
+
   .pro-experience h3 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -684,6 +704,24 @@ footer .svg-inline--fa:hover {
   .pro-experience .experience ul {
     padding-left: 0;
     margin-left: 0;
+    margin-bottom: 0;
+  }
+
+  .pro-experience li.date {
+    font-size: 12px;
+  }
+
+  .pro-experience .experience li.company a {
+    font-size: 14px;
+  }
+
+  .pro-experience li.position {
+    line-height: 12px;
+  }
+
+  .pro-experience h3,
+  .pro-experience .experience:nth-of-type(2) {
+    display: none;
   }
 
   .sidebar-info .row {
@@ -692,7 +730,8 @@ footer .svg-inline--fa:hover {
     margin-bottom: 5px;
   }
 
-  .sidebar-info .row:first-child {
+  .sidebar-info .row:nth-of-type(1),
+  .sidebar-info .row:nth-of-type(4) {
     display: none;
   }
 }
