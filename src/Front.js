@@ -77,11 +77,11 @@ const Front = () => {
             </div>
             <div className="row">
               <div>Databases:</div>
-              <div>MySQL, MongoDB</div>
+              <div>MySQL, InfluxDB, MongoDB</div>
             </div>
             <div className="row">
               <div>IoT:</div>
-              <div>Z-Wave, Device Management, Raspberry Pi</div>
+              <div>Z-Wave, Device Management, Firmware Management</div>
             </div>
             <div className="row">
               <div>Methodologies:</div>
@@ -89,7 +89,9 @@ const Front = () => {
             </div>
             <div className="row">
               <div>Product:</div>
-              <div>Requirement Engineering, Backlog Grooming, Sprint Planning</div>
+              <div>
+                Requirement Engineering, Release Management, Backlog Grooming, Sprint Planning
+              </div>
             </div>
             <div className="row">
               <div>Management:</div>
