@@ -128,16 +128,6 @@ exports[`should correctly render Front 1`] = `
           className="row"
         >
           <div>
-            Date of Birth:
-          </div>
-          <div>
-            30/11/1991
-          </div>
-        </div>
-        <div
-          className="row"
-        >
-          <div>
             Place:
           </div>
           <div>
@@ -210,7 +200,7 @@ exports[`should correctly render Front 1`] = `
             Databases:
           </div>
           <div>
-            MySQL, MongoDB
+            MySQL, InfluxDB, MongoDB
           </div>
         </div>
         <div
@@ -220,7 +210,7 @@ exports[`should correctly render Front 1`] = `
             IoT:
           </div>
           <div>
-            Z-Wave, Device Management, Raspberry Pi
+            Z-Wave, Device Management, Firmware Management
           </div>
         </div>
         <div
@@ -240,7 +230,7 @@ exports[`should correctly render Front 1`] = `
             Product:
           </div>
           <div>
-            Requirement Engineering, Backlog Grooming, Sprint Planning
+            Requirement Engineering, Release Management, Backlog Grooming, Sprint Planning
           </div>
         </div>
         <div

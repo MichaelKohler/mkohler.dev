@@ -40,10 +40,6 @@ const Front = () => {
               <div>Michael Kohler</div>
             </div>
             <div className="row">
-              <div>Date of Birth:</div>
-              <div>30/11/1991</div>
-            </div>
-            <div className="row">
               <div>Place:</div>
               <div>
                 Berlin, Germany
