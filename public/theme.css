@@ -671,15 +671,19 @@ footer .svg-inline--fa:hover {
   }
 
   .pro-experience h3 {
+    margin-top: 10px;
     margin-bottom: 10px;
   }
 
   .pro-experience .experience {
     border-left: none;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .pro-experience .experience ul {
-    margin-left: 20px;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .sidebar-info .row {
