@@ -487,6 +487,8 @@ footer p {
 
 footer ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer a:hover,
@@ -520,6 +522,10 @@ footer .follow .social {
 
 footer .follow .social li {
   padding: 20px;
+}
+
+footer .follow .social li:first-child {
+  padding-left: 0;
 }
 
 footer .follow .social li a i {
@@ -578,6 +584,10 @@ footer .svg-inline--fa:hover {
     flex-direction: column-reverse;
   }
 
+  footer {
+    flex-direction: column-reverse;
+  }
+
   .pro-experience,
   .pro-experience .experience {
     max-width: 100%;
@@ -607,10 +617,6 @@ footer .svg-inline--fa:hover {
 }
 
 @media (max-width: 768px) {
-  footer {
-    flex-direction: column-reverse;
-  }
-
   header .photo {
     display: none;
   }
