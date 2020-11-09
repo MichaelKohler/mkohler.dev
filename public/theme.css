@@ -323,7 +323,7 @@ nav li:nth-child(6) {
 .pro-experience .experience {
   overflow: visible;
   position: relative;
-  border-left: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: 1px solid #8EA8C3;
   padding-left: 24px;
   margin-left: 7px;
 }
@@ -404,10 +404,6 @@ nav li:nth-child(6) {
 
 .pro-experience h3 {
   color: #3f3f3f;
-}
-
-.pro-experience .experience {
-  border-left: 1px solid #8EA8C3;
 }
 
 .pro-experience li.date {
@@ -630,5 +626,51 @@ footer .svg-inline--fa:hover {
 }
 
 @media print {
+  nav,
+  .about,
+  .sidebar h3,
+  .skills,
+  footer {
+    display: none;
+  }
 
+  h1, h2, h3, h4, h5, h6,
+  header .name,
+  header .position,
+  .sidebar,
+  .sidebar-info .row,
+  .sidebar-info .row div:first-child,
+  .pro-experience,
+  .pro-experience h3,
+  .pro-experience .experience {
+    margin: 0;
+    padding: 0;
+    min-height: unset;
+  }
+
+  header .position {
+    margin-bottom: 5px;
+  }
+
+  .pro-experience h3 {
+    margin-bottom: 10px;
+  }
+
+  .pro-experience .experience {
+    border-left: none;
+  }
+
+  .pro-experience .experience ul {
+    margin-left: 20px;
+  }
+
+  .sidebar-info .row {
+    border-bottom: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .sidebar-info .row:first-child {
+    display: none;
+  }
 }
