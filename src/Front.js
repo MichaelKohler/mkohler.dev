@@ -77,7 +77,7 @@ const Front = () => {
             </div>
             <div className="row">
               <div>IoT:</div>
-              <div>Z-Wave, Device Management, Firmware Management</div>
+              <div>Z-Wave, Device Management, Firmware Management, MQTT</div>
             </div>
             <div className="row">
               <div>Methodologies:</div>

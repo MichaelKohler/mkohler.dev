@@ -210,7 +210,7 @@ exports[`should correctly render Front 1`] = `
             IoT:
           </div>
           <div>
-            Z-Wave, Device Management, Firmware Management
+            Z-Wave, Device Management, Firmware Management, MQTT
           </div>
         </div>
         <div
