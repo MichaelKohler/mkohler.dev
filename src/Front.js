@@ -158,10 +158,16 @@ const Front = () => {
                     Implementation of Metrics Tracking and Dashboards (Node.js, SQL, Grafana)
                   </li>
                   <li>
-                    Responsible for Release Management processes and tools
+                    Responsible for Release Management processes, tools and pipelines
                   </li>
                   <li>
-                    Scrum Master
+                    Continuous improvement of development environment
+                  </li>
+                  <li>
+                    Mentoring other team members
+                  </li>
+                  <li>
+                    Ad interim Scrum Master
                   </li>
                 </ul>
               </li>
