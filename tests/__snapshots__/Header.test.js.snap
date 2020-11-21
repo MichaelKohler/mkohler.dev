@@ -2,11 +2,11 @@
 
 exports[`should correctly render Header 1`] = `
 <header>
-  <div
+  <img
+    alt="Michael"
     className="photo"
-  >
-     
-  </div>
+    src="/images/userpic01.webp"
+  />
   <div
     className="nav-container"
   >
