@@ -111,22 +111,14 @@ const Front = () => {
                     Mozilla Rep since 2012 (served on the Reps Council and now a Reps Module Peer)
                   </li>
                   <li>
-                    Community Building in Switzerland and Germany
-                  </li>
-                  <li>
                     Improved the Common Voice Sentence Collector (Node.js, React, MySQL)
-                  </li>
-                  <li>
-                    Improved the Common Voice Sentence Extractor (Rust)
+                    and Extractor (Rust)
                   </li>
                   <li>
                     Implemented several GitHub Actions to automate processes for Common Voice
                   </li>
                   <li>
                     Created several volunteer campaign websites to boost volunteer involvement
-                  </li>
-                  <li>
-                    Wrote several patches for Firefox (JavaScript, XUL)
                   </li>
                 </ul>
               </li>
@@ -140,16 +132,14 @@ const Front = () => {
               <li className="responsibilities">
                 <ul>
                   <li>
-                    Integration of the Neeo Remote into the Control4 system
-                  </li>
-                  <li>
-                    Development of the Neeo middleware running on the Control4 controller (Node.js)
+                    Integration of the Neeo Remote into the Control4 system (Node.js)
                   </li>
                   <li>
                     Bugfixes on the Control4 remote driver (Lua)
                   </li>
                   <li>
-                    Feature Flags implementation and administration
+                    Feature Flags implementation and Release Management processes,
+                    tools and pipelines
                   </li>
                   <li>
                     Improvements to Automated Test Infrastructure (Python, Ansible, GitLab)
@@ -158,16 +148,10 @@ const Front = () => {
                     Implementation of Metrics Tracking and Dashboards (Node.js, SQL, Grafana)
                   </li>
                   <li>
-                    Responsible for Release Management processes, tools and pipelines
-                  </li>
-                  <li>
                     Continuous improvement of development environment
                   </li>
                   <li>
                     Mentoring other team members
-                  </li>
-                  <li>
-                    Ad interim Scrum Master
                   </li>
                 </ul>
               </li>
