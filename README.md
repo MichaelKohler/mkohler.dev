@@ -37,4 +37,4 @@ LICENSE
 
 In general this project is published under the MIT license, apart from the following files which you are **not** allowed to use freely.
 
-* src/app/theme/theme.css
+* public/theme.css
