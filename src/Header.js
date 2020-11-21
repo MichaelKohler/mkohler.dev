@@ -9,7 +9,7 @@ import {
 const Header = () => {
   return (
     <header>
-      <div className="photo">&nbsp;</div>
+      <img className="photo" src="/images/userpic01.webp" alt="Michael" />
       <div className="nav-container">
         <div className="name">
           <h1>Michael Kohler</h1>

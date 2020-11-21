@@ -101,10 +101,6 @@ header .photo {
   max-height: 360px;
   min-width: 250px;
   max-width: 360px;
-  background: url("./images/userpic01.webp");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
