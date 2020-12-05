@@ -26,14 +26,6 @@ exports[`should correctly render OpenSource 1`] = `
   </h3>
   <ul>
     <li>
-      Contributions Overview: 
-      <a
-        href="https://contributions.michaelkohler.info/"
-      >
-        contributions.michaelkohler.info
-      </a>
-    </li>
-    <li>
       Bugzilla: 
       <a
         href="https://bugzilla.mozilla.org/user_profile?login=me@michaelkohler.info"

@@ -31,10 +31,6 @@ const Mozilla = () => {
       <h3>Profiles</h3>
       <ul>
         <li>
-          Contributions Overview:&nbsp;
-          <a href="https://contributions.michaelkohler.info/">contributions.michaelkohler.info</a>
-        </li>
-        <li>
           Bugzilla:&nbsp;
           <a href="https://bugzilla.mozilla.org/user_profile?login=me@michaelkohler.info">bugzilla.mozilla.org</a>
         </li>
