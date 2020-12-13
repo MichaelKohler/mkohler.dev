@@ -55,6 +55,7 @@ module.exports = {
       patterns: [
         { from: 'public/presentations/', to: './presentations' },
         { from: 'public/images/', to: './images' },
+        { from: 'public/fonts/', to: './fonts' },
         { from: 'public/CNAME', to: '.' },
         { from: '404.html', to: '.' },
         { from: 'index.html', to: '.' },
