@@ -5,6 +5,7 @@ exports[`should correctly render Header 1`] = `
   <img
     alt="Michael"
     className="photo"
+    rel="preload"
     src="/images/userpic01.webp"
   />
   <div
