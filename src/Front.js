@@ -124,6 +124,13 @@ const Front = () => {
               </li>
             </ul>
             <ul>
+              <li className="date">01/2021 - now</li>
+              <li className="company">
+                <a href="https://media1.giphy.com/media/SWVzkIlHdEckF81gnA/giphy.gi">To Be Announced</a>
+              </li>
+              <li className="position">Senior Engineer</li>
+            </ul>
+            <ul>
               <li className="date">02/2019 - 12/2020</li>
               <li className="company">
                 <a href="http://www.control4.com">Control4 (acquired NEEO)</a>
