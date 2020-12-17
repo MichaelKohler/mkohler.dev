@@ -35,6 +35,4 @@ This will create a few folder ```dist``` which will include all necessary files 
 LICENSE
 -----
 
-In general this project is published under the MIT license, apart from the following files which you are **not** allowed to use freely.
-
-* public/theme.css
+In general this project is published under the MIT license. However you might not be able to use the design, as I bought it and adjusted it. It's not freely available.
