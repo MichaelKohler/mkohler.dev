@@ -1,0 +1,16 @@
+name: Lighthouse Test
+
+on: deployment
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@9a3a9ade8222dcdf9d3c77710b10df47ee7c7c89
+      - name: Audit using Lighthouse
+        uses: treosh/lighthouse-ci-action@v3
+        with:
+          urls: |
+            https://mkohler.dev/
+            https://mkohler.dev/opensource
+          uploadArtifacts: true
