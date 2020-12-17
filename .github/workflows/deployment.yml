@@ -18,6 +18,8 @@ jobs:
         node-version: 12
     - name: Install Dependencies
       run: npm ci
+    - name: Test
+      run: npm t
     - name: Build
       run: npm run build
     - name: Deploy to gh-pages
