@@ -33,3 +33,14 @@ jobs:
         urls: |
           https://mkohler.dev/
         uploadArtifacts: true
+
+  lighthouse:
+    needs: [deploy]
+    runs-on: ubuntu-latest
+    steps:
+    - name: Audit using Lighthouse
+      uses: treosh/lighthouse-ci-action@v3
+      with:
+        urls: |
+          https://mkohler.dev/
+        uploadArtifacts: true
