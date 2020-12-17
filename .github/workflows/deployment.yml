@@ -30,5 +30,4 @@ jobs:
       with:
         urls: |
           https://mkohler.dev/
-          https://mkohler.dev/opensource
         uploadArtifacts: true
