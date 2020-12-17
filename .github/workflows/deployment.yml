@@ -25,3 +25,10 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
+    - name: Audit using Lighthouse
+      uses: treosh/lighthouse-ci-action@v3
+      with:
+        urls: |
+          https://mkohler.dev/
+          https://mkohler.dev/opensource
+        uploadArtifacts: true
