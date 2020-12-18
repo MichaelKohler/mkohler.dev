@@ -126,9 +126,9 @@ const Front = () => {
             <ul>
               <li className="date">01/2021 - now</li>
               <li className="company">
-                <a href="https://media1.giphy.com/media/SWVzkIlHdEckF81gnA/giphy.gi">To Be Announced</a>
+                <a href="https://www.klarna.com/">Klarna Bank AB</a>
               </li>
-              <li className="position">Senior Engineer</li>
+              <li className="position">Senior Engineer, Card Management</li>
             </ul>
             <ul>
               <li className="date">02/2019 - 12/2020</li>

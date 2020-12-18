@@ -303,15 +303,15 @@ exports[`should correctly render Front 1`] = `
             className="company"
           >
             <a
-              href="https://media1.giphy.com/media/SWVzkIlHdEckF81gnA/giphy.gi"
+              href="https://www.klarna.com/"
             >
-              To Be Announced
+              Klarna Bank AB
             </a>
           </li>
           <li
             className="position"
           >
-            Senior Engineer
+            Senior Engineer, Card Management
           </li>
         </ul>
         <ul>
