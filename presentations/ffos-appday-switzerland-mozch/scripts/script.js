@@ -1,1 +1,281 @@
-!function(){var e,n=window.location,t=document.body,a=document.querySelectorAll("div.slide"),r=document.querySelector("div.progress div"),i=[],l=a.length;for(e=0;e<l;e++)i.push({id:a[e].id,hasInnerNavigation:null!==a[e].querySelector(".inner")});function o(){return"scale("+1/Math.max(t.clientWidth/window.innerWidth,t.clientHeight/window.innerHeight)+")"}function s(e){t.style.WebkitTransform=e,t.style.MozTransform=e,t.style.msTransform=e,t.style.OTransform=e,t.style.transform=e}function u(){t.className="full",s(o())}function c(){t.className="list",s("none")}function d(){var e,t=i.length,a=n.hash.substr(1);for(e=0;e<t;++e)if(a===i[e].id)return e;return-1}function f(e){if(-1!==e){var n=document.getElementById(i[e].id);null!=n&&window.scrollTo(0,n.offsetTop)}}function h(){return"full"!==n.search.substr(1)}function v(e){return 0>e?i.length-1:i.length<=e?0:e}function m(e){null!==r&&(r.style.width=(100/(i.length-1)*v(e)).toFixed(2)+"%")}function p(e){return"#"+i[v(e)].id}function y(e){n.hash=p(e),h()||m(e)}function w(e){var t=function(e){for(var n=e;"BODY"!==n.nodeName&&"HTML"!==n.nodeName;){if(n.classList.contains("slide"))return n.id;n=n.parentNode}return""}(e.target);""!==t&&h()&&(e.preventDefault(),n.hash="#"+t,history.replaceState(null,null,n.pathname+"?full#"+t),u(),m(d()))}window.addEventListener("DOMContentLoaded",(function(){h()||(-1===d()&&history.replaceState(null,null,n.pathname+"?full"+p(0)),u(),m(d()))}),!1),window.addEventListener("popstate",(function(e){h()?(c(),f(d())):u()}),!1),window.addEventListener("resize",(function(e){h()||s(o())}),!1),document.addEventListener("keydown",(function(e){if(!(e.altKey||e.ctrlKey||e.metaKey)){var t=d();switch(e.which){case 116:case 13:h()&&-1!==t&&(e.preventDefault(),history.pushState(null,null,n.pathname+"?full"+p(t)),u(),m(t));break;case 27:h()||(e.preventDefault(),history.pushState(null,null,n.pathname+p(t)),c(),f(t));break;case 33:case 38:case 37:case 72:case 75:e.preventDefault(),y(--t);break;case 34:case 40:case 39:case 76:case 74:e.preventDefault(),-1!==t&&i[t].hasInnerNavigation&&-1!==function(e){if(!0!==i[e].hasInnerNavigation)return-1;var n=document.querySelectorAll(p(e)+" .active"),t=n[n.length-1].nextElementSibling;return null!==t?(t.classList.add("active"),n.length+1):-1}(t)||y(++t);break;case 36:e.preventDefault(),y(t=0);break;case 35:e.preventDefault(),y(t=i.length-1);break;case 9:case 32:e.preventDefault(),y(t+=e.shiftKey?-1:1)}}}),!1),document.addEventListener("click",w,!1),document.addEventListener("touchend",w,!1),document.addEventListener("touchstart",(function(e){if(!h()){var n=d();e.touches[0].pageX>window.innerWidth/2?n++:n--,y(n)}}),!1),document.addEventListener("touchmove",(function(e){h()||e.preventDefault()}),!1)}();
+(function () {
+	var url = window.location,
+		body = document.body,
+		slides = document.querySelectorAll('div.slide'),
+		progress = document.querySelector('div.progress div'),
+		slideList = [],
+		l = slides.length, i;
+
+	for (i = 0; i < l; i++) {
+		slideList.push({
+			id: slides[i].id,
+			hasInnerNavigation: null !== slides[i].querySelector('.inner')
+		});
+	}
+
+	function getTransform() {
+		var denominator = Math.max(
+			body.clientWidth / window.innerWidth,
+			body.clientHeight / window.innerHeight
+		);
+
+		return 'scale(' + (1 / denominator) + ')';
+	}
+
+	function applyTransform(transform) {
+		body.style.WebkitTransform = transform;
+		body.style.MozTransform = transform;
+		body.style.msTransform = transform;
+		body.style.OTransform = transform;
+		body.style.transform = transform;
+	}
+
+	function enterSlideMode() {
+		body.className = 'full';
+		applyTransform(getTransform());
+	}
+
+	function enterListMode() {
+		body.className = 'list';
+		applyTransform('none');
+	}
+
+	function getCurrentSlideNumber() {
+		var i, l = slideList.length,
+			currentSlideId = url.hash.substr(1);
+
+		for (i = 0; i < l; ++i) {
+			if (currentSlideId === slideList[i].id) {
+				return i;
+			}
+		}
+
+		return -1;
+	}
+
+	function scrollToSlide(slideNumber) {
+		if (-1 === slideNumber ) { return; }
+
+		var currentSlide = document.getElementById(slideList[slideNumber].id);
+
+		if (null != currentSlide) {
+			window.scrollTo(0, currentSlide.offsetTop);
+		}
+	}
+
+	function isListMode() {
+		return 'full' !== url.search.substr(1);
+	}
+
+	function normalizeSlideNumber(slideNumber) {
+		if (0 > slideNumber) {
+			return slideList.length - 1;
+		} else if (slideList.length <= slideNumber) {
+			return 0;
+		} else {
+			return slideNumber;
+		}
+	}
+
+	function updateProgress(slideNumber) {
+		if (null === progress) { return; }
+		progress.style.width = (100 / (slideList.length - 1) * normalizeSlideNumber(slideNumber)).toFixed(2) + '%';
+	}
+
+	function getSlideHash(slideNumber) {
+		return '#' + slideList[normalizeSlideNumber(slideNumber)].id;
+	}
+
+	function goToSlide(slideNumber) {
+		url.hash = getSlideHash(slideNumber);
+
+		if (!isListMode()) {
+			updateProgress(slideNumber);
+		}
+	}
+
+	function getContainingSlideId(el) {
+		var node = el;
+		while ('BODY' !== node.nodeName && 'HTML' !== node.nodeName) {
+			if (node.classList.contains('slide')) {
+				return node.id;
+			} else {
+				node = node.parentNode;
+			}
+		}
+
+		return '';
+	}
+
+	function dispatchSingleSlideMode(e) {
+		var slideId = getContainingSlideId(e.target);
+
+		if ('' !== slideId && isListMode()) {
+			e.preventDefault();
+
+			// NOTE: we should update hash to get things work properly
+			url.hash = '#' + slideId;
+			history.replaceState(null, null, url.pathname + '?full#' + slideId);
+			enterSlideMode();
+
+			updateProgress(getCurrentSlideNumber());
+		}
+	}
+
+	// Increases inner navigation by adding 'active' class to next inactive inner navigation item
+	function increaseInnerNavigation(slideNumber) {
+		// Shortcut for slides without inner navigation
+		if (true !== slideList[slideNumber].hasInnerNavigation) { return -1; }
+
+		var activeNodes = document.querySelectorAll(getSlideHash(slideNumber) + ' .active'),
+			// NOTE: we assume there is no other elements in inner navigation
+			node = activeNodes[activeNodes.length - 1].nextElementSibling;
+
+		if (null !== node) {
+			node.classList.add('active');
+			return activeNodes.length + 1;
+		} else {
+			return -1;
+		}
+	}
+
+	// Event handlers
+
+	window.addEventListener('DOMContentLoaded', function () {
+		if (!isListMode()) {
+			// "?full" is present without slide hash, so we should display first slide
+			if (-1 === getCurrentSlideNumber()) {
+				history.replaceState(null, null, url.pathname + '?full' + getSlideHash(0));
+			}
+
+			enterSlideMode();
+			updateProgress(getCurrentSlideNumber());
+		}
+	}, false);
+
+	window.addEventListener('popstate', function (e) {
+		if (isListMode()) {
+			enterListMode();
+			scrollToSlide(getCurrentSlideNumber());
+		} else {
+			enterSlideMode();
+		}
+	}, false);
+
+	window.addEventListener('resize', function (e) {
+		if (!isListMode()) {
+			applyTransform(getTransform());
+		}
+	}, false);
+
+	document.addEventListener('keydown', function (e) {
+		// Shortcut for alt, shift and meta keys
+		if (e.altKey || e.ctrlKey || e.metaKey) { return; }
+
+		var currentSlideNumber = getCurrentSlideNumber();
+
+		switch (e.which) {
+			case 116: // F5
+			case 13: // Enter
+				if (isListMode() && -1 !== currentSlideNumber) {
+					e.preventDefault();
+
+					history.pushState(null, null, url.pathname + '?full' + getSlideHash(currentSlideNumber));
+					enterSlideMode();
+
+					updateProgress(currentSlideNumber);
+				}
+			break;
+
+			case 27: // Esc
+				if (!isListMode()) {
+					e.preventDefault();
+
+					history.pushState(null, null, url.pathname + getSlideHash(currentSlideNumber));
+					enterListMode();
+					scrollToSlide(currentSlideNumber);
+				}
+			break;
+
+			case 33: // PgUp
+			case 38: // Up
+			case 37: // Left
+			case 72: // h
+			case 75: // k
+				e.preventDefault();
+
+				currentSlideNumber--;
+				goToSlide(currentSlideNumber);
+			break;
+
+			case 34: // PgDown
+			case 40: // Down
+			case 39: // Right
+			case 76: // l
+			case 74: // j
+				e.preventDefault();
+
+				// Only go to next slide if current slide have no inner
+				// navigation or inner navigation is fully shown
+				// NOTE: But first of all check if there is no current slide
+				if (
+					-1 === currentSlideNumber ||
+					!slideList[currentSlideNumber].hasInnerNavigation ||
+					-1 === increaseInnerNavigation(currentSlideNumber)
+				) {
+					currentSlideNumber++;
+					goToSlide(currentSlideNumber);
+				}
+			break;
+
+			case 36: // Home
+				e.preventDefault();
+
+				currentSlideNumber = 0;
+				goToSlide(currentSlideNumber);
+			break;
+
+			case 35: // End
+				e.preventDefault();
+
+				currentSlideNumber = slideList.length - 1;
+				goToSlide(currentSlideNumber);
+			break;
+
+			case 9: // Tab = +1; Shift + Tab = -1
+			case 32: // Space = +1; Shift + Space = -1
+				e.preventDefault();
+
+				currentSlideNumber += e.shiftKey ? -1 : 1;
+				goToSlide(currentSlideNumber);
+			break;
+
+			default:
+				// Behave as usual
+		}
+	}, false);
+
+	document.addEventListener('click', dispatchSingleSlideMode, false);
+	document.addEventListener('touchend', dispatchSingleSlideMode, false);
+
+	document.addEventListener('touchstart', function (e) {
+		if (!isListMode()) {
+			var currentSlideNumber = getCurrentSlideNumber(),
+				x = e.touches[0].pageX;
+			if (x > window.innerWidth / 2) {
+				currentSlideNumber++;
+			} else {
+				currentSlideNumber--;
+			}
+
+			goToSlide(currentSlideNumber);
+		}
+	}, false);
+
+	document.addEventListener('touchmove', function (e) {
+		if (!isListMode()) {
+			e.preventDefault();
+		}
+	}, false);
+
+}());

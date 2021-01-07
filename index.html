@@ -5,41 +5,388 @@
   <title>Michael Kohler</title>
   <meta name="description" content="Michael is a JavaScript developer and Open Source enthusiast living in Berlin. He is also a Mozilla Rep.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <script type="text/javascript">
-    // Single Page Apps for GitHub Pages
-    // https://github.com/rafrex/spa-github-pages
-    // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
-    // ----------------------------------------------------------------------
-    // This script checks to see if a redirect is present in the query string
-    // and converts it back into the correct url and adds it to the
-    // browser's history using window.history.replaceState(...),
-    // which won't cause the browser to attempt to load the new url.
-    // When the single page app is loaded further down in this file,
-    // the correct url will be waiting in the browser's history for
-    // the single page app to route accordingly.
-    (function(l) {
-      if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function(v) {
-          var a = v.split('=');
-          q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
-        });
-        if (q.p !== undefined) {
-          window.history.replaceState(null, null,
-            l.pathname.slice(0, -1) + (q.p || '') +
-            (q.q ? ('?' + q.q) : '') +
-            l.hash
-          );
-        }
-      }
-    }(window.location))
-  </script>
-  <!-- End Single Page Apps for GitHub Pages -->
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/fa-all.min.css">
 </head>
-<body>
-  <div id="root"></div>
 
-  <script src="/main.js"></script>
+<body>
+  <header>
+  <img class="photo" src="/images/userpic01.webp" rel="preload" alt="" />
+  <div class="nav-container">
+    <div class="name">
+      <h1>Michael Kohler</h1>
+    </div>
+    <section class="position">
+      <h2>
+        <span>
+          Senior Software Engineer
+        </span>
+      </h2>
+    </section>
+    <nav>
+      <ul>
+        <li>
+          <a href="/">
+            <i class="fas fa-user"></i>
+            <span>resume</span>
+          </a>
+        </li>
+        <li>
+          <a href="/opensource/">
+            <i class="fas fa-globe"></i>
+            <span>Open Source</span>
+          </a>
+        </li>
+        <li>
+          <a href="/talks/">
+            <i class="fas fa-microphone"></i>
+            <span>talks</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.github.com/MichaelKohler"
+          >
+          <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://michaelkohler.info"
+          >
+          <i class="fas fa-pencil-alt"></i>
+            <span>blog</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/data/resume.json"
+          >
+            <i class="fas fa-file"></i>
+            <span>JSON</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  
+<section id="homesection">
+  <section class="details">
+    <div class="about">
+      <h2>About Michael</h2>
+      <h3 class="quote">
+        JavaScript developer with a passion for Web Standards and DevOps
+      </h3>
+
+      <section class="row infoblock-container">
+        <div class="infoblock">
+          <h4><i class="fas fa-book"></i> Eager to learn</h4>
+          <p>
+            Even though I have several years of experience with Software Development
+            I&apos;m always eager to learn more to increase my knowledge.
+          </p>
+        </div>
+        <div class="infoblock">
+          <h4><i class="fas fa-heart"></i> Motivated</h4>
+          <p>
+            With my volunteer work for Mozilla I&apos;m very passionate about the Open
+            Web and Software Engineering in general.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section class="sidebar">
+      <h3>Personal Info</h3>
+      <div class="sidebar-info">
+        <div class="row">
+          <div>Name:</div>
+          <div>Michael Kohler</div>
+        </div>
+        <div class="row">
+          <div>Place:</div>
+          <div>
+            Berlin, Germany
+            <br />
+            originally from Bern, Switzerland
+          </div>
+        </div>
+        <div class="row">
+          <div>eMail:</div>
+          <a href="mailto:me@michaelkohler.info">me@michaelkohler.info</a>
+        </div>
+        <div class="row">
+          <div>Languages (fluent):</div>
+          <div>German, English</div>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="experience-info">
+    <section class="sidebar skills">
+      <h3>Skills</h3>
+      <div class="sidebar-info">
+        <div class="row">
+          <div>Programming Languages:</div>
+          <div>JavaScript, HTML, CSS, Python, Lua, Bash, Rust</div>
+        </div>
+        <div class="row">
+          <div>DevOps:</div>
+          <div>Pipelines/Actions, Docker, Kubernetes, Grafana, Prometheus, GitLab, Ansible</div>
+        </div>
+        <div class="row">
+          <div>Databases:</div>
+          <div>MySQL, InfluxDB, MongoDB</div>
+        </div>
+        <div class="row">
+          <div>IoT:</div>
+          <div>Z-Wave, Device Management, Firmware Management, MQTT</div>
+        </div>
+        <div class="row">
+          <div>Methodologies:</div>
+          <div>Scrum, Pair Programming, TDD, Feature Flags</div>
+        </div>
+        <div class="row">
+          <div>Product:</div>
+          <div>
+            Requirement Engineering, Release Management, Backlog Grooming, Sprint Planning
+          </div>
+        </div>
+        <div class="row">
+          <div>Management:</div>
+          <div>Mentoring, Conflict Resolution</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="pro-experience">
+      <h3>Experience</h3>
+      <div class="experience">
+        <ul>
+          <li class="date">04/2008 - now</li>
+          <li class="company">
+            <a href="https://www.mozilla.org">Volunteer @ Mozilla Foundation</a>
+          </li>
+          <li class="position">Developer, Community Builder</li>
+          <li class="responsibilities">
+            <ul>
+              <li>
+                Mozilla Rep since 2012 (served on the Reps Council and now a Reps Module Peer)
+              </li>
+              <li>
+                Improved the Common Voice Sentence Collector (Node.js, React, MySQL)
+                and Extractor (Rust)
+              </li>
+              <li>
+                Implemented several GitHub Actions to automate processes for Common Voice
+              </li>
+              <li>
+                Created several volunteer campaign websites to boost volunteer involvement
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="date">01/2021 - now</li>
+          <li class="company">
+            <a href="https://www.klarna.com/">Klarna Bank AB</a>
+          </li>
+          <li class="position">Senior Engineer, Card Management</li>
+        </ul>
+        <ul>
+          <li class="date">02/2019 - 12/2020</li>
+          <li class="company">
+            <a href="http://www.control4.com">Control4 (acquired NEEO)</a>
+          </li>
+          <li class="position">Senior Software Development Engineer</li>
+          <li class="responsibilities">
+            <ul>
+              <li>
+                Integration of the Neeo Remote into the Control4 system (Node.js)
+              </li>
+              <li>
+                Bugfixes on the Control4 remote driver (Lua)
+              </li>
+              <li>
+                Feature Flags implementation and Release Management processes,
+                tools and pipelines
+              </li>
+              <li>
+                Improvements to Automated Test Infrastructure (Python, Ansible, GitLab)
+              </li>
+              <li>
+                Implementation of Metrics Tracking and Dashboards (Node.js, SQL, Grafana)
+              </li>
+              <li>
+                Continuous improvement of development environment
+              </li>
+              <li>
+                Mentoring other team members
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="date">11/2016 - 01/2019</li>
+          <li class="company">
+            <a href="http://www.neeo.com">NEEO AG</a>
+          </li>
+          <li class="position">JavaScript Developer</li>
+          <li class="responsibilities">
+            <ul>
+              <li>
+                Development of the NEEO services serving content to the remote (Node.js, Linux)
+              </li>
+              <li>
+                Integration of Z-Wave devices into NEEO (including certification)
+              </li>
+              <li>
+                Development of the NEEO App for configuration (Ionic, AngularJS)
+              </li>
+              <li>
+                Development of the NEEO Cloud to manage customer accounts and firmware groups
+              </li>
+              <li>
+                Customer Support on the NEEO Planet
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="date">04/2015 - 10/2016</li>
+          <li class="company">
+            <a href="http://www.netcase.ch">NETCASE GmbH</a>
+          </li>
+          <li class="position">Web Developer</li>
+          <li class="responsibilities">
+            <ul>
+              <li>
+                Created several smaller websites (Vanilla JS, Sails.js)
+              </li>
+              <li>
+                Worked on a larger product management tool (Node.js, Loopback, AngularJS)
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="date">01/2014 - 02/2015</li>
+          <li class="company">
+            <a href="http://www.swisscom.ch">Swisscom Banking Provider AG</a>
+          </li>
+          <li class="position">
+            Application Developer, 2nd-Level-Support Document Output
+            Management
+          </li>
+          <li class="responsibilities">
+            <ul>
+              <li>
+                Worked on a large project to migrate the core banking platform of several banks
+              </li>
+              <li>
+                Responsible for the Document Output System used to print customer documents
+              </li>
+              <li>
+                Improvements and adjustments to documents and wizard (C#, VBA, Office)
+              </li>
+              <li>
+                Requirement engineering and project management for the Document Output System
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li class="date">08/2010 - 12/2013</li>
+          <li class="company">
+            <a href="http://www.entris-banking.ch">Entris Banking AG</a>
+          </li>
+          <li class="position">
+            Application Developer, 2nd-Level-Support
+            Document Output Management
+          </li>
+          <li class="responsibilities">
+            <ul>
+              <li>
+                Worked on a large project to migrate the core banking platform of several banks
+              </li>
+              <li>
+                Responsible for a part of the Document Output System
+              </li>
+              <li>
+                Improvements and adjustments to documents (VBA, Office)
+              </li>
+              <li>
+                Requirement engineering and project management for the Document Output System
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <h3>Education</h3>
+      <div class="experience">
+        <ul>
+          <li class="date">02/2013 - 02/2017</li>
+          <li class="company">
+            <a href="https://www.ffhs.ch">Fernfachhochschule Schweiz</a>
+          </li>
+          <li class="position">Computer Science, not finished</li>
+        </ul>
+        <ul>
+          <li class="date">09/2011 - 01/2013</li>
+          <li class="company">
+            <a href="http://www.inf.unibe.ch/index_eng.html">University of Bern</a>
+          </li>
+          <li class="position">Computer Science, not finished</li>
+        </ul>
+        <ul>
+          <li class="date">08/2006 - 07/2010</li>
+          <li class="company">
+            <a href="http://www.gymneufeld.ch">Gymnasium Neufeld</a>
+          </li>
+          <li class="position">Matura</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</section>
+
+
+  <footer>
+  <section>
+    <h3>Michael Kohler</h3>
+    <p>
+      Software Engineer with a passion for Web Standards and DevOps
+    </p>
+    <p class="copyrights">
+      © 2016-2020 Michael Kohler - Design is an adapted version of a template by&nbsp;<a href="https://wrapbootstrap.com/user/alexeyka">alexeyka</a>
+    </p>
+  </section>
+  <section>
+    <h3>Follow me</h3>
+    <div class="follow">
+      <ul class="list-inline social">
+        <li><a target="_blank" aria-label="Michael on Twitter" title="foo" rel="noopener noreferrer" href="https://www.twitter.com/KohlerSolutions"><i class="fab fa-twitter"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's LinkedIn" rel="noopener noreferrer" href="https://www.linkedin.com/in/mkohlerdev"><i class="fab fa-linkedin"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's Blog" rel="noopener noreferrer" href="https://michaelkohler.info"><i class="fas fa-globe"></i></a></li>
+        <li><a target="_blank" aria-label="Michael on GitHub" rel="noopener noreferrer" href="https://www.github.com/MichaelKohler"><i class="fab fa-github"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's Email" rel="noopener noreferrer" href="mailto:me@michaelkohler.info"><i class="fas fa-envelope"></i></a></li>
+        <li><a target="_blank" aria-label="Michael on Xing" rel="noopener noreferrer" href="https://www.xing.com/profile/Michael_Kohler36"><i class="fab fa-xing"></i></a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+
 </body>
 </html>

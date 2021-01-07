@@ -1,1 +1,57 @@
-!function(){if(!window.location.search.match(/receiver/gi)){var e=io.connect(window.location.origin),n=Math.random().toString().slice(2);console.log("View slide notes at "+window.location.origin+"/notes/"+n),window.open(window.location.origin+"/notes/"+n,"notes-"+n),Reveal.addEventListener("fragmentshown",(function(i){var t={fragment:"next",socketId:n};e.emit("fragmentchanged",t)})),Reveal.addEventListener("fragmenthidden",(function(i){var t={fragment:"previous",socketId:n};e.emit("fragmentchanged",t)})),Reveal.addEventListener("slidechanged",(function(i){var t,o,d=i.currentSlide;d.nextElementSibling&&"SECTION"==d.parentNode.nodeName?(t=i.indexh,o=i.indexv+1):(t=i.indexh+1,o=0);var a=d.querySelector("aside.notes"),r={notes:a?a.innerHTML:"",indexh:i.indexh,indexv:i.indexv,nextindexh:t,nextindexv:o,socketId:n,markdown:!!a&&"string"==typeof a.getAttribute("data-markdown")};e.emit("slidechanged",r)}))}}();
+(function() {
+	// don't emit events from inside the previews themselves
+	if ( window.location.search.match( /receiver/gi ) ) { return; }
+
+	var socket = io.connect(window.location.origin);
+	var socketId = Math.random().toString().slice(2);
+	
+	console.log('View slide notes at ' + window.location.origin + '/notes/' + socketId);
+	window.open(window.location.origin + '/notes/' + socketId, 'notes-' + socketId);
+
+	// Fires when a fragment is shown
+	Reveal.addEventListener( 'fragmentshown', function( event ) {
+		var fragmentData = {
+			fragment : 'next',
+			socketId : socketId
+		};
+		socket.emit('fragmentchanged', fragmentData);
+	} );
+
+	// Fires when a fragment is hidden
+	Reveal.addEventListener( 'fragmenthidden', function( event ) {
+		var fragmentData = {
+			fragment : 'previous',
+			socketId : socketId
+		};
+		socket.emit('fragmentchanged', fragmentData);
+	} );
+
+	// Fires when slide is changed
+	Reveal.addEventListener( 'slidechanged', function( event ) {
+		var nextindexh;
+		var nextindexv;
+		var slideElement = event.currentSlide;
+
+		if (slideElement.nextElementSibling && slideElement.parentNode.nodeName == 'SECTION') {
+			nextindexh = event.indexh;
+			nextindexv = event.indexv + 1;
+		} else {
+			nextindexh = event.indexh + 1;
+			nextindexv = 0;
+		}
+
+		var notes = slideElement.querySelector('aside.notes');
+		var slideData = {
+			notes : notes ? notes.innerHTML : '',
+			indexh : event.indexh,
+			indexv : event.indexv,
+			nextindexh : nextindexh,
+			nextindexv : nextindexv,
+			socketId : socketId,
+			markdown : notes ? typeof notes.getAttribute('data-markdown') === 'string' : false
+
+		};
+
+		socket.emit('slidechanged', slideData);
+	} );
+}());

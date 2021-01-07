@@ -1,0 +1,720 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("fonts/raleway.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Dosis";
+  src: url("fonts/dosis.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #2f2f2f;
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 1.7rem;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+h5 {
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+a,
+a i,
+a i:before {
+  cursor: pointer;
+  text-decoration: none;
+  color: #2f2f2f;
+  transition: all 0.25s ease 0s;
+  -moz-transition: all 0.25s ease 0s;
+  -webkit-transition: all 0.25s ease 0s;
+  -o-transition: all 0.25s ease 0s;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+p {
+  line-height: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+  color: #2f2f2f;
+  letter-spacing: 1px;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+ul li {
+  padding: 0;
+}
+
+ul li a {
+  cursor: pointer;
+  color: #000;
+}
+
+i {
+  color: #b7b7b7;
+}
+
+header {
+  color: #e7e7e7;
+  background-color: #23395B;
+  display: flex;
+}
+
+header .photo {
+  max-height: 360px;
+  min-width: 250px;
+  max-width: 360px;
+  flex-grow: 1;
+}
+
+header .nav-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+}
+
+header .name,
+header .position {
+  padding: 0px 40px;
+  min-height: 120px;
+  max-height: 120px;
+  overflow: hidden;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+}
+
+header .position {
+  background-color: #1f3352;
+}
+
+header .position h2 {
+  font-size: 24px;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  letter-spacing: 2px;
+}
+
+.Typist {
+  display: inline-block;
+}
+
+header .svg-inline--fa {
+  font-size: 40px;
+  opacity: 0.7;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+nav li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 120px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+nav li a {
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+nav li a:hover {
+  text-decoration: none;
+}
+
+nav li a i:before {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 40px;
+  margin: 0;
+}
+
+nav li a:hover i:before,
+nav li a:active i:before,
+nav li a:focus i:before {
+  color: rgba(255, 255, 255, 1);
+}
+
+nav li a span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+nav li:nth-child(1) {
+  background-color: #406E8E;
+}
+
+nav li:nth-child(2) {
+  background-color: #3f6988;
+}
+
+nav li:nth-child(3) {
+  background-color: #3d6584;
+}
+
+nav li:nth-child(4) {
+  background-color: #3c6280;
+}
+
+nav li:nth-child(5) {
+  background-color: #3c5e7c;
+}
+
+nav li:nth-child(6) {
+  background-color: #3a5a77;
+}
+
+.quote {
+  color: #406E8E;
+  margin: 0;
+  padding-top: 4px;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoblock {
+  margin-bottom: 24px;
+}
+
+.infoblock-container {
+  padding: 0;
+  margin: 20px 0;
+}
+
+.infoblock-container .icon-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.infoblock-container i {
+  font-size: 24px;
+  color: #2f2f2f;
+}
+
+.about {
+  flex-grow: 1;
+  padding: 0 30px 20px;
+}
+
+.sidebar {
+  flex-grow: 1;
+  background-color: #f2faff;
+  padding: 0 30px;
+}
+
+.sidebar a {
+  color: #000;
+}
+
+.pro-experience h3,
+.sidebar h3 {
+  padding-bottom: 20px;
+}
+
+.sidebar-info .row {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px dotted #b0d2bd;
+}
+
+.sidebar-info .row div:first-child {
+  margin-bottom: 10px;
+}
+
+.sidebar-info .row:last-child {
+  border-bottom: none;
+}
+
+.sidebar-info .row div:first-child {
+  font-weight: 700;
+}
+
+.experience-info {
+  display: flex;
+  background-color: #dcf3fb;
+}
+
+.skills {
+  max-width: 25vw;
+}
+
+.pro-experience {
+  flex-grow: 2;
+  padding: 0 30px 20px;
+}
+
+.pro-experience .experience {
+  overflow: visible;
+  position: relative;
+  border-left: 1px solid #8EA8C3;
+  padding-left: 4px;
+  margin-left: 16px;
+}
+
+.pro-experience .experience:first-child {
+  margin-bottom: 30px;
+}
+
+.pro-experience .experience ul {
+  margin-bottom: 23px;
+}
+
+.pro-experience li.date {
+  font-size: 1rem;
+  margin-bottom: 0;
+  color: #ffffff;
+  position: relative;
+  display: block;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.pro-experience li.company {
+  display: block;
+  text-transform: uppercase;
+}
+
+.pro-experience li.company a {
+  position: relative;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+
+.pro-experience li.company a:before {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 4px;
+  top: 5px;
+  left: -29px;
+  background: #ffffff;
+  content: "";
+}
+
+.pro-experience li.position {
+  margin: 0 0 0 0;
+  display: block;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.pro-experience li.responsibilities {
+  list-style-type: none;
+}
+
+.pro-experience li.responsibilities ul {
+  margin-top: 10px;
+}
+
+.pro-experience a,
+.pro-experience a:hover,
+.pro-experience a:focus {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.pro-experience a i::before {
+  font-size: 32px;
+  color: #ffffff;
+  line-height: 32px;
+  margin-left: 0;
+}
+
+.pro-experience a:hover i::before {
+  opacity: .5;
+}
+
+.pro-experience h3 {
+  color: #3f3f3f;
+}
+
+.pro-experience li.date {
+  color: #3f3f3f;
+}
+
+.pro-experience li.company a {
+  color: #3f3f3f;
+}
+
+.pro-experience li.company a:hover {
+  color: #8EA8C3;
+}
+
+.pro-experience li.company a:before {
+  background: #8EA8C3;
+}
+
+.pro-experience li.position {
+  color: #3f3f3f;
+}
+
+#talks,
+#opensource {
+  margin: 30px 30px;
+}
+
+#talks h2,
+#opensource h2 {
+  padding-top: 0;
+}
+
+.talks-list {
+  line-height: 2.5em;
+}
+
+#opensource .areas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#opensource .area {
+  min-width: 45vw;
+  max-width: 45vw;
+}
+
+#opensource .area:nth-child(n) {
+  padding-right: 10px;
+}
+
+#opensource .area:nth-child(2n) {
+  padding-left: 10px;
+}
+
+#opensource img {
+  min-width: 45vw;
+  max-width: 45vw;
+  margin-top: 15px;
+  min-height: 400px;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #3a5a77;
+  padding: 21px 50px 18px 50px;
+  color: #b7b7b7;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer h3 {
+  color: #FFF;
+  margin-top: 0;
+}
+
+footer p {
+  padding-top: 30px;
+  color: #ffffff;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer .follow {
+  margin-top: 21px;
+}
+
+footer .follow .social {
+  display: flex;
+}
+
+footer .follow .social li {
+  padding: 20px;
+}
+
+footer .follow .social li:first-child {
+  padding-left: 0;
+}
+
+footer .follow .social li a i {
+  color: #efefef;
+  font-size: 32px;
+}
+
+footer .follow .social li a i:before {
+  color: #efefef;
+}
+
+footer .follow .social li a:hover i:before,
+footer .follow .social li a:focus i:before,
+footer .follow .social li a:active i:before {
+  color: #fff;
+}
+
+footer .copyrights p {
+  margin-top: 2rem;
+}
+
+footer .copyrights a {
+  color: #F8FFE9;
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .details {
+    flex-direction: column;
+  }
+
+  .experience-info {
+    flex-direction: column-reverse;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+  }
+
+  .pro-experience,
+  .pro-experience .experience {
+    max-width: 100%;
+    min-width: unset;
+  }
+  .pro-experience .experience ul li ul {
+    margin-left: 23px;
+  }
+
+  .skills {
+    max-width: 100%;
+  }
+
+  #opensource .areas {
+    flex-direction: column;
+  }
+
+  #opensource .area {
+    max-width: unset;
+    width: 100%;
+  }
+
+  #opensource img {
+    max-width: 100%;
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  header .photo {
+    display: none;
+  }
+
+  header .svg-inline--fa {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .pro-experience .experience {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .pro-experience .experience ul {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .pro-experience li.company a:before {
+    display: none;
+  }
+}
+
+@media print {
+  body {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  header img,
+  nav,
+  .about,
+  .details .sidebar h3,
+  .pro-experience h3:nth-of-type(2),
+  footer {
+    display: none;
+  }
+
+  header {
+    color: #000;
+  }
+
+  header,
+  header .position,
+  .experience-info,
+  .sidebar {
+    background-color: #fff;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  header .name,
+  header .position,
+  .details .sidebar,
+  .pro-experience h3 {
+    margin: 0;
+    padding: 0;
+    min-height: unset;
+  }
+
+  header .position {
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #8EA8C3;
+  }
+
+  header .position h2 {
+    font-size: 16px;
+  }
+
+  header .position h2:after {
+    content: "  - https://mkohler.dev";
+    text-transform: lowercase;
+  }
+
+  /* Remove Name */
+  .details .sidebar-info .row:nth-of-type(1) {
+    display: none;
+  }
+
+  .experience-info {
+    display: block;
+  }
+
+  .experience-info .skills {
+    min-width: 100%;
+  }
+
+  .skills h3,
+  .pro-experience h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+  }
+
+  .skills,
+  .pro-experience {
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .pro-experience .experience ul {
+    break-inside: avoid;
+  }
+
+  .pro-experience .experience ul:nth-child(n+4) .responsibilities {
+    display: none;
+  }
+
+  .pro-experience li.date {
+    font-size: 12px;
+  }
+
+  .pro-experience .experience li.company {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .pro-experience .experience li.company a {
+    font-size: 14px;
+  }
+
+  .pro-experience li.position {
+    line-height: 12px;
+  }
+
+  /* Remove Eduction */
+  .pro-experience .experience:nth-of-type(2) {
+    display: none;
+  }
+
+  .sidebar .row {
+    border-bottom: none;
+    margin-bottom: 0;
+    margin-top: 15px;
+    padding-bottom: 0;
+  }
+
+  .sidebar-info .row div:first-child {
+    margin-bottom: 5px;
+  }
+}

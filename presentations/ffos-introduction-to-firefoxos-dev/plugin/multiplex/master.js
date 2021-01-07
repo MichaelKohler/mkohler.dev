@@ -1,1 +1,50 @@
-!function(){if(!window.location.search.match(/receiver/gi)){var e=Reveal.getConfig().multiplex,n=io.connect(e.url),i=function(i,t,d,a){if(void 0===a&&"remote"!==a){var r,v,c=Reveal.getIndices().f;void 0===c&&(c=0),i.nextElementSibling&&"SECTION"==i.parentNode.nodeName?(r=t,v=d+1):(r=t+1,v=0);var o={indexh:t,indexv:d,indexf:c,nextindexh:r,nextindexv:v,secret:e.secret,socketId:e.id};n.emit("slidechanged",o)}};Reveal.addEventListener("slidechanged",(function(e){i(e.currentSlide,e.indexh,e.indexv,e.origin)}));var t=function(e){i(Reveal.getCurrentSlide(),Reveal.getIndices().h,Reveal.getIndices().v,e.origin)};Reveal.addEventListener("fragmentshown",t),Reveal.addEventListener("fragmenthidden",t)}}();
+(function() {
+	// don't emit events from inside the previews themselves
+	if ( window.location.search.match( /receiver/gi ) ) { return; }
+	var multiplex = Reveal.getConfig().multiplex;
+
+	var socket = io.connect(multiplex.url);
+
+	var notify = function( slideElement, indexh, indexv, origin ) {
+		if( typeof origin === 'undefined' && origin !== 'remote' ) {
+			var nextindexh;
+			var nextindexv;
+
+			var fragmentindex = Reveal.getIndices().f;
+			if (typeof fragmentindex == 'undefined') {
+				fragmentindex = 0;
+			}
+
+			if (slideElement.nextElementSibling && slideElement.parentNode.nodeName == 'SECTION') {
+				nextindexh = indexh;
+				nextindexv = indexv + 1;
+			} else {
+				nextindexh = indexh + 1;
+				nextindexv = 0;
+			}
+
+			var slideData = {
+				indexh : indexh,
+				indexv : indexv,
+				indexf : fragmentindex,
+				nextindexh : nextindexh,
+				nextindexv : nextindexv,
+				secret: multiplex.secret,
+				socketId : multiplex.id
+			};
+
+			socket.emit('slidechanged', slideData);
+		}
+	}
+
+	Reveal.addEventListener( 'slidechanged', function( event ) {
+		notify( event.currentSlide, event.indexh, event.indexv, event.origin );
+	} );
+
+	var fragmentNotify = function( event ) {
+		notify( Reveal.getCurrentSlide(), Reveal.getIndices().h, Reveal.getIndices().v, event.origin );
+	};
+
+	Reveal.addEventListener( 'fragmentshown', fragmentNotify );
+	Reveal.addEventListener( 'fragmenthidden', fragmentNotify );
+}());
