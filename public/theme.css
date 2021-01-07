@@ -256,8 +256,9 @@ nav li:nth-child(6) {
   margin-top: 10px;
 }
 
-.infoblock-container .svg-inline--fa {
+.infoblock-container i {
   font-size: 24px;
+  color: #2f2f2f;
 }
 
 .about {
@@ -483,27 +484,6 @@ footer ul {
   padding: 0;
 }
 
-footer a:hover,
-footer a:focus {
-  text-decoration: underline;
-}
-
-footer .follow .social li a i {
-  background: rgba(255, 255, 255, 0.8);
-}
-
-footer .follow .social li a i:before {
-  color: #3a5a77;
-}
-
-footer .follow .social li a i:hover {
-  background: #ffffff;
-}
-
-footer .follow .social li a i:hover:before {
-  color: #3a5a77;
-}
-
 footer .follow {
   margin-top: 21px;
 }
@@ -521,32 +501,14 @@ footer .follow .social li:first-child {
 }
 
 footer .follow .social li a i {
-  background: #676767;
-  width: 32px;
-  height: 32px;
-  padding: 12px 0;
-  border-radius: 50%;
-  font-size: 13px;
-  line-height: 7px;
-  text-align: center;
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
+  color: #efefef;
+  font-size: 32px;
 }
 
 footer .follow .social li a i:before {
   color: #efefef;
 }
 
-footer .follow .social li a i:hover {
-  background: #e74c3c;
-}
-
-footer .follow .social li a i:hover:before {
-  color: #ffffff;
-}
 
 footer .copyrights p {
   margin-top: 2rem;
