@@ -13,7 +13,7 @@
     "@11ty/eleventy": "^0.11.1"
   },
   "scripts": {
-    "build": "webpack --mode production",
-    "start": "webpack serve --mode development --env development"
+    "build": "eleventy",
+    "start": "eleventy serve"
   }
 }
