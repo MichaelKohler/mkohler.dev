@@ -175,19 +175,10 @@ nav li {
   flex-grow: 1;
 }
 
-nav li:hover .svg-inline--fa {
-  opacity: 1;
-}
-
 nav li a {
   width: 100%;
   text-decoration: none;
   color: #ffffff;
-}
-
-nav li a i {
-  padding-top: 21px;
-  display: block;
 }
 
 nav li a i:before {
