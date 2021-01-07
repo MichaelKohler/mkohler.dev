@@ -30,7 +30,7 @@ Building the project
 $ npm run build
 ```
 
-This will create a few folder ```dist``` which will include all necessary files to upload to a web server.
+This will create a few folder ```_site``` which will include all necessary files to upload to a web server.
 
 LICENSE
 -----
