@@ -181,10 +181,20 @@ nav li a {
   color: #ffffff;
 }
 
+nav li a:hover {
+  text-decoration: none;
+}
+
 nav li a i:before {
   color: rgba(255, 255, 255, 0.6);
   font-size: 40px;
   margin: 0;
+}
+
+nav li a:hover i:before,
+nav li a:active i:before,
+nav li a:focus i:before {
+  color: rgba(255, 255, 255, 1);
 }
 
 nav li a span {
@@ -500,6 +510,11 @@ footer .follow .social li a i:before {
   color: #efefef;
 }
 
+footer .follow .social li a:hover i:before,
+footer .follow .social li a:focus i:before,
+footer .follow .social li a:active i:before {
+  color: #fff;
+}
 
 footer .copyrights p {
   margin-top: 2rem;
@@ -508,16 +523,6 @@ footer .copyrights p {
 footer .copyrights a {
   color: #F8FFE9;
   text-decoration: underline;
-}
-
-footer .svg-inline--fa {
-  font-size: 24px;
-  color: #FFF;
-  opacity: 0.7;
-}
-
-footer .svg-inline--fa:hover {
-  opacity: 1;
 }
 
 @media (max-width: 1200px) {
