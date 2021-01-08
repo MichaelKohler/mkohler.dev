@@ -1,7 +1,7 @@
 mkohler.dev
 ===
 
-[mkohler.dev](https://mkohler.dev) is my personal CV which contains public documentation of my current and previous work, my education and general skills.
+[mkohler.dev](https://mkohler.dev) is my personal CV which contains public documentation of my current and previous work, my education and general skills. It also hosts my blog.
 
 Setting up
 -----
