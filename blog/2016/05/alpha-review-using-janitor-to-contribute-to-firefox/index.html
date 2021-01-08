@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8" />
+  <title>Michael Kohler</title>
+  <meta name="description" content="Michael is a JavaScript developer and Open Source enthusiast living in Berlin. He is also a Mozilla Rep.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/fa-all.min.css">
+</head>
+
+<body>
+  <header>
+  <img class="photo" src="/images/userpic01.webp" rel="preload" alt="" />
+  <div class="nav-container">
+    <div class="name">
+      <h1>Michael Kohler</h1>
+    </div>
+    <section class="position">
+      <h2>
+        <span>
+          Senior Software Engineer
+        </span>
+      </h2>
+    </section>
+    <nav>
+      <ul>
+        <li>
+          <a href="/">
+            <i class="fas fa-user"></i>
+            <span>resume</span>
+          </a>
+        </li>
+        <li>
+          <a href="/opensource/">
+            <i class="fas fa-globe"></i>
+            <span>Open Source</span>
+          </a>
+        </li>
+        <li>
+          <a href="/talks/">
+            <i class="fas fa-microphone"></i>
+            <span>talks</span>
+          </a>
+        </li>
+        <li>
+          <a href="/blog">
+          <i class="fas fa-pencil-alt"></i>
+            <span>blog</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.github.com/MichaelKohler"
+          >
+          <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/data/resume.json"
+          >
+            <i class="fas fa-file"></i>
+            <span>JSON</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  
+<section id="blogpost">
+  <h1>Alpha Review - Using Janitor to contribute to Firefox</h1>
+  <p class="date">2016-05-05 at 15:02:12</p>
+
+  <p>At the <a href="/blog/2016/firefox-hackathon-zurich-april-2016">Firefox Hackathon in Zurich</a> we used <a href="http://janitor.technology/">The Janitor</a> to contribute to Firefox. It's important to note that it's still in alpha and invite-only.</p>
+<p><a href="/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png"><img src="/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png" alt="Screen Shot 2016-05-05 at 14.37.23"></a></p>
+<p>The Janitor was started by <a href="https://mozillians.org/en-US/u/janx/">Jan Keromnes</a>, a Mozilla employee. While still in an alpha state, Jan gave us access to it so we could test run it at our hackathon. Many thanks to him for spending his Saturday on IRC and helping us out with everything!</p>
+<p>Once you're signed up, you can click on &quot;Open in Cloud9&quot; and directly get to the <a href="http://c9.io/">Cloud9 editor</a> who kindly sponsor the premium accounts for this project. Cloud9 is a pure-web IDE based on real Linux environments, with an insanely fast editor.</p>
+<p><a href="/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.png"><img src="/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.png" alt="Screen Shot 2016-05-05 at 14.38.23"></a></p>
+<p><a href="/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.png"><img src="/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.png" alt="Screen Shot 2016-05-05 at 14.38.50"></a></p>
+<p>At the hackathon we ran into a Cloud9 &quot;create workspace&quot; limitation, but according to Jan this should be fixed now.</p>
+<h2>Setting up</h2>
+<p>After an initial &quot;git pull origin master&quot; in the Cloud9 editor terminal, you can start to build Firefox in there. Simply running &quot;./mach build&quot; is enough. For me this took about 12 minutes for the first time, while my laptop still needs more than 50 minutes to compile Firefox. This is definitely an improvement. Further you won't need anything else than a browser!</p>
+<p>I had my environment ready in about 15 minutes if you count the time to compile Firefox. Comparing this to my previous setups, this solves a lot of dependency-hell problems and is also way faster.</p>
+<h2>Running the newly compiled Firefox</h2>
+<p>The Janitor includes a VNC viewer which opens a new tab and you can run your compiled Firefox in there. You can start a shell and run &quot;./mach run&quot; in the Firefox directory and you can start testing your changes.</p>
+<p><a href="/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.png"><img src="/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.png" alt="Screen Shot 2016-05-05 at 14.49.08"></a></p>
+<p><a href="/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.png"><img src="/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.png" alt="Screen Shot 2016-05-05 at 14.50.20"></a></p>
+<h2>Running ESLint</h2>
+<p>For some of the bugs we tackled at the hackathon, we needed to run ESLint (well, would be good to run this anyway, no matter what part of the code base you're changing). The command looks like this:</p>
+<pre><code>    user@e49de5f6914e:~/firefox$ ./mach eslint --no-ignore devtools/client/webconsole/test/browser_webconsole_live_filtering_of_message_types.js
+    0:00.40 Running /usr/local/bin/eslint
+    0:00.40 /usr/local/bin/eslint --plugin html --ext [.js,.jsm,.jsx,.xml,.html] --no-ignore devtools/client/webconsole/test/browser_webconsole_live_filtering_of_message_types.js
+
+    /home/user/firefox/devtools/client/webconsole/test/browser_webconsole_live_filtering_of_message_types.js
+    8:1   warning  Could not load globals from file browser/base/content/browser-eme.js: Error: ENOENT: no such file or directory, open '/home/user/firefox/browser/base/content/browser-eme.js'  mozilla/import-browserjs-globals
+    8:1   warning  Definition for rule 'mozilla/import-globals' was not found                                                                                                                     mozilla/import-globals
+    8:1   error    Definition for rule 'keyword-spacing' was not found                                                                                                                            keyword-spacing
+    18:17  error    content is a possible Cross Process Object Wrapper (CPOW)                                                                                                                      mozilla/no-cpows-in-tests
+
+    ✖ 4 problems (2 errors, 2 warnings)
+
+    0:02.85 Finished eslint. Errors encountered.
+</code></pre>
+<p>As you might see from the input, running this in the Janitor environment results in not finding the Mozilla-specific rules. The reason here is that the eslint npm package is installed globally. Globally installed eslint can't find the locally installed mozilla-eslint-plugin. In my opinion the easiest fix would be to not install it globally, just within the firefox directory (running &quot;./mach eslint --setup&quot;) while spinning up the instance should be enough here.</p>
+<p>We could circumvent this problem by changing the global npm prefix and then running it with &quot;/new/path/eslint ...&quot; so it doesn't call the other one. In hindsight, we could just have installed it to the directory and then call it through node_modules.</p>
+<p><strong>Update, May 5, 15:09:</strong> Jan has has fixed this plugin issue :)</p>
+<h2>Creating a patch</h2>
+<p>Creating a patch is really easy, following the <a href="https://developer.mozilla.org/en-US/docs/Mercurial/Using_Mercurial#I%27m_all_used_to_Git_but_how_can_I_provide_Mercurial-ready_patches">tutorial on MDN</a> is enough. We were very happy to see that the moz-git-tools are already installed by default, so you can just create your own branch, checkin your changes and run &quot;git format-patch -p -k master&quot; to get a Git patch file. Since we need a Mercurial patch, you then run &quot;git-patch-to-hg-patch&quot; and you can upload the resulting file to Bugzilla and you're set!</p>
+<p>Those two commands could maybe be aliased by default so running &quot;create-patch&quot; or similar would directly do this for you to further decrease the work you need to do manually.</p>
+<h2>Seeing it in action</h2>
+<p>You can watch it in action on <a href="https://www.youtube.com/watch?v=5sNDMIh-iVw">YouTube</a>.</p>
+<h2>Conclusion</h2>
+<p>After some initial account problems, we didn't really find any other bugs apart from the ESLint situation. Again, thanks a lot to Jan for providing us the environment and letting us test it. This will change the live of a lot of contributors! For now The Janitor supports contributions to Firefox, Chrome, Thunderbird, Servo and KDE. There is also a <a href="https://github.com/jankeromnes/janitor">GitHub repository</a> for it.</p>
+
+</section>
+
+
+  <footer>
+  <section>
+    <h3>Michael Kohler</h3>
+    <p>
+      Software Engineer with a passion for Web Standards and DevOps
+    </p>
+    <p class="copyrights">
+      © 2016-2020 Michael Kohler - Design is an adapted version of a template by&nbsp;<a href="https://wrapbootstrap.com/user/alexeyka">alexeyka</a>
+    </p>
+  </section>
+  <section>
+    <h3>Follow me</h3>
+    <div class="follow">
+      <ul class="list-inline social">
+        <li><a target="_blank" aria-label="Michael on Twitter" title="foo" rel="noopener noreferrer" href="https://www.twitter.com/KohlerSolutions"><i class="fab fa-twitter"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's LinkedIn" rel="noopener noreferrer" href="https://www.linkedin.com/in/mkohlerdev"><i class="fab fa-linkedin"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's Blog RSS" rel="noopener noreferrer" href="/feed.xml"><i class="fas fa-rss"></i></a></li>
+        <li><a target="_blank" aria-label="Michael on GitHub" rel="noopener noreferrer" href="https://www.github.com/MichaelKohler"><i class="fab fa-github"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's Email" rel="noopener noreferrer" href="mailto:me@michaelkohler.info"><i class="fas fa-envelope"></i></a></li>
+        <li><a target="_blank" aria-label="Michael on Xing" rel="noopener noreferrer" href="https://www.xing.com/profile/Michael_Kohler36"><i class="fab fa-xing"></i></a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+
+</body>
+</html>

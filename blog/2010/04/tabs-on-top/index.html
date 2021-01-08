@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8" />
+  <title>Michael Kohler</title>
+  <meta name="description" content="Michael is a JavaScript developer and Open Source enthusiast living in Berlin. He is also a Mozilla Rep.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/fa-all.min.css">
+</head>
+
+<body>
+  <header>
+  <img class="photo" src="/images/userpic01.webp" rel="preload" alt="" />
+  <div class="nav-container">
+    <div class="name">
+      <h1>Michael Kohler</h1>
+    </div>
+    <section class="position">
+      <h2>
+        <span>
+          Senior Software Engineer
+        </span>
+      </h2>
+    </section>
+    <nav>
+      <ul>
+        <li>
+          <a href="/">
+            <i class="fas fa-user"></i>
+            <span>resume</span>
+          </a>
+        </li>
+        <li>
+          <a href="/opensource/">
+            <i class="fas fa-globe"></i>
+            <span>Open Source</span>
+          </a>
+        </li>
+        <li>
+          <a href="/talks/">
+            <i class="fas fa-microphone"></i>
+            <span>talks</span>
+          </a>
+        </li>
+        <li>
+          <a href="/blog">
+          <i class="fas fa-pencil-alt"></i>
+            <span>blog</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.github.com/MichaelKohler"
+          >
+          <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/data/resume.json"
+          >
+            <i class="fas fa-file"></i>
+            <span>JSON</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  
+<section id="blogpost">
+  <h1>Tabs-on-Top</h1>
+  <p class="date">2010-04-18 at 21:30:48</p>
+
+  <p>Currently there is a discussion about the Tabs-on-Top feature in the <a href="http://groups.google.de/group/mozilla.dev.apps.firefox/browse_thread/thread/29849697fc8f53f5#">mozilla.dev.apps.firefox newsgroup</a>. Tabs-on-tops has been <a href="http://hg.mozilla.org/mozilla-central/log?rev=544815">pushed</a> to the nightly (trunk) development branch of firefox on April 6th 2010. Pretty much every new feature introduced to Firefox leads to a more or less active discussion but this time it is very important to find the right decision since this is a major change in the front UI. Of course there will never be an agreement because GUIs are still a matter of subjective. Now the FF UI design team needs to find a decision which is best for most of the users.</p>
+<p>Firefox is currently used by millions of users. This means a lot of people who need to be satisfied. Otherwise they will just think about changing the browser. But wait, is there a good browser which has the option to place tabs on the bottom of the location bar? Yes, it is Firefox. Of course there will be an option to place tabs on the bottom. It is just about where to place the tabs by <em>default</em>.</p>
+<p>It is well known that good design is getting more and more important (e.g. the iPhone or iPad design). Unfortunately a lot of people think that good visual design (good looking interfaces) are the best ones. This is in most cases absolutely false. The best GUI is the one that allows the user to do the needed actions in the most comfortable way. A browser is still just for surfing the web (at least in most cases) and not for looking at something beautiful.</p>
+<p>Coming back to the actual discussion I think it is difficult to get to a good decision. There are pros and cons which I will explain now.</p>
+<h2>Pros</h2>
+<p>Often tabs indicate that the content will change. Already with tabs on bottom the content of the tab changes when clicking on another tab. This will not change. But have you ever thought about other things that change when focusing another tab? The first thing that comes to mind is the location bar. Sure, that was logical, wasn't it? The other thing are the forward/back-arrows. The location bar indicates the URL you are currently on, the arrows represent the history. Even though you don't see the change of the arrows right away, their content changes. In my opinion it would be more intuitive having the tabs on top (even though a few things are constant like the home button).</p>
+<p><a href="http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_tablevel.png"><img src="http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_tablevel-1024x211.png" alt="" title="bookmarksbar_on_tablevel"></a></p>
+<p>Wait, the bookmarks toolbar doesn't change. So why should it be below the location bar? It would be way better if it was right on top of the tabs (i.e. right below the window title bar). So just move it on top, so the bookmarks toolbar doesn't disturb the user's view.</p>
+<p><a href="http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_browserlevel.png"><img src="http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_browserlevel-1024x211.png" alt="" title="bookmarksbar_on_browserlevel"></a></p>
+<p>(thanks to <a href="http://blog.mozilla.com/faaborg/">Alex Faaborg</a> for these <a href="http://people.mozilla.com/~faaborg/files/daf/bookmarksBarLevel.png">mockups</a>)</p>
+<p>An important fact in user-centered UI design has always been <a href="http://en.wikipedia.org/wiki/Fitts%27s_law">Fitt's Law</a>. I don't want to explain it here, but one aspect of it is really important: It is easier to click on an element which is located at the top of the screen than on one that is somewhere in the middle of the screen. This is because you can move your cursor straight to the top and it automatically stops there and then you can move it a few pixels down and you are right over the element to click on. Unfortunately nowadays the screen resolutions are very high and a lot of users don't have the windows maximized. Due to this fact Fitt's Law doesn't work here anymore.</p>
+<p>Further it is better to have the tabs on top because they do not disturb the vision of the user when watching away from the location bar to the tab's content. Every feature has its disadvantages, though.</p>
+<h2>Contras</h2>
+<p>As mentioned above a lot of users don't maximize their windows, so Fitt's Law doesn't work. I cannot mention this enough times: Fitt's Law is still important! It is probably better to place the tabs right on top of the content, like that there is at least less way to move the cursor.</p>
+<p>A question I always ask myself is why it would need a change. The most users know the current UI design, why should they get used to another layout? Sure if it was more comfortable it wouldn't be a problem. If a user has always used Google Chrome and now decided to use Firefox, he would probably want to have the tabs on top because he is used to that. But honestly, do we really want to copy Google Chrome? Is its design really that well done? In my opinion there is absolutely no reasons to do so. An unified browser design would be very indeed, but unfortunately that is something that will never be achieved..</p>
+<p>Another problem with tabs-on-top would be the menu bar. I don't think it would be good to have the menu bar and the tabs this close together. It would make it much easier to click on a top instead of a menuitem and that is definitely not something the users want. Sure, this will not be a problem anymore when the &quot;Firefox App Button&quot; will be introduced in a future version of Firefox.</p>
+<p>In conclusion I think the tabs-on-top feature is very nice-to-have, but as always there are disadvantages, too. Some UX (user experience) experts need to weigh the facts and decide. Either way (tabs on top/bottom) there will be an option to change the layout. In my opinion the tabs should be placed at the bottom where they are now. Having them at the top by default has too many disadvantages.. Please don't forget one thing: eventually the majority of the users needs to be satisfied.</p>
+
+</section>
+
+
+  <footer>
+  <section>
+    <h3>Michael Kohler</h3>
+    <p>
+      Software Engineer with a passion for Web Standards and DevOps
+    </p>
+    <p class="copyrights">
+      © 2016-2020 Michael Kohler - Design is an adapted version of a template by&nbsp;<a href="https://wrapbootstrap.com/user/alexeyka">alexeyka</a>
+    </p>
+  </section>
+  <section>
+    <h3>Follow me</h3>
+    <div class="follow">
+      <ul class="list-inline social">
+        <li><a target="_blank" aria-label="Michael on Twitter" title="foo" rel="noopener noreferrer" href="https://www.twitter.com/KohlerSolutions"><i class="fab fa-twitter"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's LinkedIn" rel="noopener noreferrer" href="https://www.linkedin.com/in/mkohlerdev"><i class="fab fa-linkedin"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's Blog RSS" rel="noopener noreferrer" href="/feed.xml"><i class="fas fa-rss"></i></a></li>
+        <li><a target="_blank" aria-label="Michael on GitHub" rel="noopener noreferrer" href="https://www.github.com/MichaelKohler"><i class="fab fa-github"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's Email" rel="noopener noreferrer" href="mailto:me@michaelkohler.info"><i class="fas fa-envelope"></i></a></li>
+        <li><a target="_blank" aria-label="Michael on Xing" rel="noopener noreferrer" href="https://www.xing.com/profile/Michael_Kohler36"><i class="fab fa-xing"></i></a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+
+</body>
+</html>

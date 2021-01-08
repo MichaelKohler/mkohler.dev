@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset="UTF-8" />
+  <title>Michael Kohler</title>
+  <meta name="description" content="Michael is a JavaScript developer and Open Source enthusiast living in Berlin. He is also a Mozilla Rep.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="/theme.css">
+  <link rel="stylesheet" href="/fa-all.min.css">
+</head>
+
+<body>
+  <header>
+  <img class="photo" src="/images/userpic01.webp" rel="preload" alt="" />
+  <div class="nav-container">
+    <div class="name">
+      <h1>Michael Kohler</h1>
+    </div>
+    <section class="position">
+      <h2>
+        <span>
+          Senior Software Engineer
+        </span>
+      </h2>
+    </section>
+    <nav>
+      <ul>
+        <li>
+          <a href="/">
+            <i class="fas fa-user"></i>
+            <span>resume</span>
+          </a>
+        </li>
+        <li>
+          <a href="/opensource/">
+            <i class="fas fa-globe"></i>
+            <span>Open Source</span>
+          </a>
+        </li>
+        <li>
+          <a href="/talks/">
+            <i class="fas fa-microphone"></i>
+            <span>talks</span>
+          </a>
+        </li>
+        <li>
+          <a href="/blog">
+          <i class="fas fa-pencil-alt"></i>
+            <span>blog</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.github.com/MichaelKohler"
+          >
+          <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="/data/resume.json"
+          >
+            <i class="fas fa-file"></i>
+            <span>JSON</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+  
+<section id="blogpost">
+  <h1>Firefox OS App Day Frankfurt - 22.11.2014</h1>
+  <p class="date">2014-11-25 at 22:58:29</p>
+
+  <p>On the 22nd of November we met in Frankfurt am Main (Germany) to have a Firefox OS App Day. This is an event where we have talks in the morning to explain Firefox OS and Web APIs and then we hack for the rest of the day creating amazing apps for Firefox OS (and the open web).</p>
+<h2>Preparation</h2>
+<p>I asked Jan Bambach if he wanted to help out to organize a Firefox OS App Day. He gladly accepted even though he had some stress in school since he has to write exams. After figuring out a date, we started to plan the event. We started with the agenda.</p>
+<ul>
+<li>09:00 - 09:15 Welcome / Introduction to Mozilla</li>
+<li>09:15 - 09:45 &quot;What is Firefox OS?&quot;</li>
+<li>09:45 - 10:15 &quot;How do I develop for Firefox OS?&quot;</li>
+<li>10:15 - 10:30 Break</li>
+<li>10:30 - 12:30 Hacking your own Firefox OS app</li>
+<li>12:30 - 13:30 Lunch Break</li>
+<li>13:30 - 17:15 Hacking your own Firefox OS app</li>
+<li>17:15 - 17:30 &quot;Firefox Marketplace - How to submit an app&quot;</li>
+<li>17:30 - 18:15 App presentations</li>
+</ul>
+<p>We did a lot of advertisement for the event, but unfortunately that didn't turn out as we expected. We only heard about another event taking place the same day a few days before the event. This was too late to reschedule. Next time we'll check better and avoid having an event at the same day as a big Barcamp going on. I'm sure that we'd have more participants if it was on another day. Additionally we found out that asking Universities to advertise it to their students doesn't scale as well as it should. We didn't get any feedback from them.</p>
+<p><a href="https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg"><img src="https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg" alt=""></a></p>
+<h2>App Day</h2>
+<p>On Saturday we were 9 persons. We expected to have 25 persons, but I'm going to explain to you why this is actually not as bad as it sounds.</p>
+<p>After a talk about the Mozilla community and Firefox OS from me, Colin talked about Web APIs and showed some examples. This was very interesting to all the participants since most of them were native App developers and not web developers. There were some &quot;I can do X on Android, is that possible with Firefox OS too?&quot;.</p>
+<p>Since we could support every developer without having a &quot;question queue&quot;, the overall turnout of the apps was a lot more advanced than at other App days with more people where we sometimes had multiple people waiting for an answer to a question. This was also the first time where we had two Marketplace submissions with a fully functional app.
+/images/images
+Apps created:</p>
+<ul>
+<li><a href="https://marketplace.firefox.com/app/wasserwaage-lite?src=search">Wasserwaage</a>- an app to measure if something is even</li>
+<li>Clownfish - a game where you need to swim around fishes and need to avoid them  (still awaiting review in the Marketplace, make sure to check it out once it's reviewed!)</li>
+<li>A game where you need to clear your side of the table of all balls so that the other person has all the balls (not yet pushed to the Marketplace, but already a very exciting game even though there are no points yet)</li>
+<li>A quiz app where you need to find out the capital or country by identifying the flag of the country (this was already developed before, but he did a lot of fixes and adapted it to Firefox OS)</li>
+<li>An app to upload Creative Commons pictures to the Wikimedia Commons page. Unfortunately we had a problem with the Wikimedia API and couldn't finish the app. He promised to finish it once it's possible. The Wikimedia Commons API doesn't send a CORS header, so systemXHR doesn't work if cookies are sent.</li>
+</ul>
+<p><a href="/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.jpg"><img src="/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.jpg" alt="B3Jr9DnIMAAlbvK.jpg_large"></a></p>
+<p>At the end we showed how to upload an App to the Marketplace. Let's hope that everybody else uploads their app too once it has a better state and is not a prototype :)</p>
+<p>Thanks to everybody who attended, great event!</p>
+<h2>Lessons learned</h2>
+<ul>
+<li>Check better for &quot;competing&quot; events during the event days</li>
+<li>Re-check location (fortunately this wasn't a problem even though the reservation wasn't confirmed)</li>
+<li>Smaller groups are better since you can support the developers way better than in a large group</li>
+<li>We should advertise the Flame better, there is a lot of interest!</li>
+</ul>
+
+</section>
+
+
+  <footer>
+  <section>
+    <h3>Michael Kohler</h3>
+    <p>
+      Software Engineer with a passion for Web Standards and DevOps
+    </p>
+    <p class="copyrights">
+      © 2016-2020 Michael Kohler - Design is an adapted version of a template by&nbsp;<a href="https://wrapbootstrap.com/user/alexeyka">alexeyka</a>
+    </p>
+  </section>
+  <section>
+    <h3>Follow me</h3>
+    <div class="follow">
+      <ul class="list-inline social">
+        <li><a target="_blank" aria-label="Michael on Twitter" title="foo" rel="noopener noreferrer" href="https://www.twitter.com/KohlerSolutions"><i class="fab fa-twitter"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's LinkedIn" rel="noopener noreferrer" href="https://www.linkedin.com/in/mkohlerdev"><i class="fab fa-linkedin"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's Blog RSS" rel="noopener noreferrer" href="/feed.xml"><i class="fas fa-rss"></i></a></li>
+        <li><a target="_blank" aria-label="Michael on GitHub" rel="noopener noreferrer" href="https://www.github.com/MichaelKohler"><i class="fab fa-github"></i></a></li>
+        <li><a target="_blank" aria-label="Michael's Email" rel="noopener noreferrer" href="mailto:me@michaelkohler.info"><i class="fas fa-envelope"></i></a></li>
+        <li><a target="_blank" aria-label="Michael on Xing" rel="noopener noreferrer" href="https://www.xing.com/profile/Michael_Kohler36"><i class="fab fa-xing"></i></a></li>
+      </ul>
+    </div>
+  </section>
+</footer>
+
+</body>
+</html>

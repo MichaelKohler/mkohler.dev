@@ -420,8 +420,11 @@ nav li:nth-child(6) {
   color: #3f3f3f;
 }
 
+#notfound,
 #talks,
-#opensource {
+#opensource,
+#blog,
+#blogpost {
   margin: 30px 30px;
 }
 
@@ -459,6 +462,19 @@ nav li:nth-child(6) {
   min-height: 400px;
   max-height: 400px;
   object-fit: cover;
+}
+
+#blog a,
+#blogpost a {
+ text-decoration: underline;
+}
+
+#blogpost img {
+  max-width: 90%;
+}
+
+.date {
+  font-style: italic;
 }
 
 footer {
