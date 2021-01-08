@@ -94,7 +94,6 @@ All these talks will be available on [air.mozilla.org](air.mozilla.org) once the
 
 > Awesome talk about [@firefox](https://twitter.com/firefox) OS by [@sonnenkiste](https://twitter.com/sonnenkiste) at [#mozweekend](https://twitter.com/hashtag/mozweekend?src=hash) [@mozilla](https://twitter.com/mozilla) [pic.twitter.com/fcd39pdK6R](http://t.co/fcd39pdK6R)
 > — Mario Behling (@mariobehling) [July 11, 2015](https://twitter.com/mariobehling/status/619834739541868544)
-<script src="//platform.twitter.com/widgets.js" async="" charset="utf-8"></script>
 
 > What an eye-opening talk about Women in the Tech industry by [@KristiProgri](https://twitter.com/KristiProgri) [#mozweekend](https://twitter.com/hashtag/mozweekend?src=hash) [pic.twitter.com/LaCGMJ2dIY](http://t.co/LaCGMJ2dIY)
 > — TheOne (@wagnerand) [July 11, 2015](https://twitter.com/wagnerand/status/619859490192642048)
