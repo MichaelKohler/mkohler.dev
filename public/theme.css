@@ -463,6 +463,14 @@ nav li:nth-child(6) {
   object-fit: cover;
 }
 
+#blogpost a {
+ text-decoration: underline;
+}
+
+#blogpost img {
+  max-width: 90%;
+}
+
 .date {
   font-style: italic;
 }
