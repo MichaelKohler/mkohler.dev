@@ -1,0 +1,18 @@
+---
+title: "Michael's Blog"
+layout: "base.liquid"
+permalink: /blog/
+---
+
+<section id="blog">
+  <h1>{{title}}</h1>
+
+  {%- for post in collections.blogposts %}
+    <h2><a href="{{post.url | url}}">{{post.data.title}}</a></h2>
+    <p class="date">{{post.data.date | date: "%Y-%m-%d at %H:%M:%S"}}</p>
+
+    <p>{{post.data.page.excerpt|md|safe}}</p>
+
+    <p><a href="{{post.url | url}}">Read more!</a></p>
+  {% endfor -%}
+</section>
