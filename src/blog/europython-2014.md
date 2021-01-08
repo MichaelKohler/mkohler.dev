@@ -8,6 +8,8 @@ Disclaimer: this is an event report from [Marco Perez](https://mozillians.org/en
 
 Even though we were very happy to see that Mozilla was a sponsor of "EuroPython 2014" and even got its own booth, it felt somehow strange to see it all empty. We hoped that maybe it would be equipped and manned in the afternoon or maybe on tuesday.
 
+<!-- excerpt -->
+
 But wednesday arrived and the booth remained empty. So I contacted Michael, our rep of the swiss Mozilla community. After he asked me to get some swag from the local Mozilla office in Berlin, Marcel and I formed a plan.
 
 [![moz_ch](/images/2014/11/moz_ch.jpg)](/images/2014/11/moz_ch.jpg)

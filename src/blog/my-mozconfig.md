@@ -4,7 +4,11 @@ permalink: /blog/2010/04/{{title | slug}}/
 date: 2010-04-14 17:55:11
 ---
 
-As you probably know I have already fixed a few bugs in Mozilla Firefox. For this I need to build Firefox from the source files. Therefore I need a "mozconfig" which sets some general options how to build Firefox. Feel free to copy it if you want to use it too:
+As you probably know I have already fixed a few bugs in Mozilla Firefox. For this I need to build Firefox from the source files. Therefore I need a "mozconfig" which sets some general options how to build Firefox.
+
+<!-- excerpt -->
+
+Feel free to copy it if you want to use it too:
 
 ```
 ac_add_options --enable-application=browser

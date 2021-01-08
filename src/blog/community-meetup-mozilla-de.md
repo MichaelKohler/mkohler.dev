@@ -8,6 +8,8 @@ date: 2014-02-23 23:34:25
 
 On the 8th of February 2014 we had our second "German-speaking Mozilla Community" Meetup after rebooting the community. In this blog post I'd like to review the event and tell you about our 2014 goals.
 
+<!-- excerpt -->
+
 ## Not 100% achieved 2013 goals
 
 *   Not a lot of new faces on this year's meetup

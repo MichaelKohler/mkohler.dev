@@ -6,6 +6,8 @@ date: 2014-05-26 22:58:32
 
 On the 10th May I went to the MobileCamp in Dresden, Germany to give a keynote about Firefox OS. One of our community members was asked if Mozilla wants to do the keynote and we thought that this is a great opportunity to tell people in Germany about our mission and our goals we have with Firefox OS.
 
+<!-- excerpt -->
+
 ## Keynote
 
 I held the keynote right after the introduction and session planning on Monday morning. I talked about our Mission, why we're doing Firefox OS and the current state of it. At the end I gave a quick overview of new features to come. After the keynote a few people instantly came to me and asked if they could play with my Firefox OS devices.

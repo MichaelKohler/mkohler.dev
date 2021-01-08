@@ -6,6 +6,8 @@ date: 2015-07-19 19:24:18
 
 At the Community Meetup of the German-speaking community back in February we decided to organize a Mozilla Day or Mozilla Weekend in 2015 to get more visible in Berlin, tell people about Mozilla's mission and projects, and recruit new Mozillians.
 
+<!-- excerpt -->
+
 ## Preparation
 
 First we had a "Call for Speakers" which did not turn out as hoped, since we didn't have a lot of proposal for talks. Further we were missing quite a few people to facilitate the workshops. Fortunately there was a Mozilla Leadership Meetup on July 10 in Berlin, so we contacted the Leadership team and asked, if they wanted to participate and have a few talks about Mozilla and its projects. This worked out really well and it was great to have part of the Leadership Team at the event as well. I think this helped to get contributors as well.

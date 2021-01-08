@@ -6,6 +6,8 @@ date: 2016-04-24 13:04:27
 
 On April 2nd 2016 we held a small [IoT Hackathon in Lausanne](http://www.meetup.com/Mozilla-Meetup-Romandie/events/229797456/) to brainstorm about the Web and IoT. This was aligned with the [new direction that Mozilla is taking on](https://blog.mozilla.org/futurereleases/2016/03/01/update-on-connected-devices/).
 
+<!-- excerpt -->
+
 ## Preparation
 
 We started to organize the [Hackathon on Github](https://github.com/mozillach/participation/issues/12), so everyone can participate. Geoffroy was really helpful to organize the space for it at [Liip.ch](https://www.liip.ch). Thanks a lot to them, without them organizing our events would be way harder!

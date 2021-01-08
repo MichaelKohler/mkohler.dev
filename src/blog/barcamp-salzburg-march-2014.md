@@ -6,6 +6,8 @@ date: 2014-04-13 17:29:55
 
 On the 15th of March I organized a Firefox OS workshop at the [Barcamp Salzburg](http://lanyrd.com/2014/barcamp-salzburg-next-web-march-2014/). But let's start from the beginning.
 
+<!-- excerpt -->
+
 ## Friday evening
 On Friday evening I demoed my Firefox OS devices and had some really nice talks with the students from the FH Salzburg.
 

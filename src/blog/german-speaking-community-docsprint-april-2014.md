@@ -6,6 +6,8 @@ date: 2014-04-13 18:11:18
 
 Am 5. und 6. April  traffen wir uns in Berlin für einen Mozilla DocSprint der deutschspachigen Community. Es konnten leider nicht alle Core-Contributors dabei sein, aber wir hatten trotzdem ein schönes und produktives Wochenende.
 
+<!-- excerpt -->
+
 [![docsprint](/images/2014/04/docsprint.jpg)](/images/2014/04/docsprint.jpg)
 
 Am Freitag traffen wir uns im Mozilla Office in Berlin, um an einer Mozilla-Town-Hall teilzunehmen. Danach haben wir über diverse Themen diskutiert und uns auf die beiden bevorstehenden Tage vorbereitet.

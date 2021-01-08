@@ -8,6 +8,8 @@ _(English version below every paragraph)_
 
 Das ist der dritte Eintrag zum [Treffen der deutschsprachigen Mozilla Gemeinschaft](https://wiki.mozilla.org/De:Meeting:2015). Insgesamt werden drei Teile veröffentlicht. Die vorherigen Teile findest du hier: [Tag 0](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0), [Tag 1](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1), [Tag 2](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2) .
 
+<!-- excerpt -->
+
 _This is the third post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all previous parts here: [day 0](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0), [day 1](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1), [day 2](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2) ._
 
 Das Treffen fand vom 20\. bis am 22\. Februar 2015 statt. Um die Koordination unter den Freiwilligen im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu gewährleisten, treffen wir uns jährlich um unsere Pläne und Ziele für das jeweilige Jahr zu definieren. Zusätzlich ist es natürlich auch wichtig, sich von Zeit zu Zeit zu treffen, da einige Diskussionen einfacher und schneller in einem Gespräch vor Ort geführt werden können. Insgesamt haben 27 Personen teilgenommen.

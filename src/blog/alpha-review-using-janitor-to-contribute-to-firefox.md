@@ -6,6 +6,8 @@ date: 2016-05-05 15:02:12
 
 At the [Firefox Hackathon in Zurich](/blog/2016/firefox-hackathon-zurich-april-2016) we used [The Janitor](http://janitor.technology/) to contribute to Firefox. It's important to note that it's still in alpha and invite-only.
 
+<!-- excerpt -->
+
 [![Screen Shot 2016-05-05 at 14.37.23](/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png)](/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png)
 
 The Janitor was started by [Jan Keromnes](https://mozillians.org/en-US/u/janx/), a Mozilla employee. While still in an alpha state, Jan gave us access to it so we could test run it at our hackathon. Many thanks to him for spending his Saturday on IRC and helping us out with everything!

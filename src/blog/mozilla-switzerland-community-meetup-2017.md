@@ -6,6 +6,8 @@ date: 2017-01-28 21:55:40
 
 On the 28th of January we, the Mozilla Switzerland, community held another community meetup to organize ourselves for the next few months in 2017.
 
+<!-- excerpt -->
+
 ![](/images/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.jpeg)
 
 We did a start/stop/continue analysis of our work in 2016. Here's the result:

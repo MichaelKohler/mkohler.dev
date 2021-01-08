@@ -6,6 +6,8 @@ date: 2014-11-25 22:58:29
 
 On the 22nd of November we met in Frankfurt am Main (Germany) to have a Firefox OS App Day. This is an event where we have talks in the morning to explain Firefox OS and Web APIs and then we hack for the rest of the day creating amazing apps for Firefox OS (and the open web).
 
+<!-- excerpt -->
+
 ## Preparation
 
 I asked Jan Bambach if he wanted to help out to organize a Firefox OS App Day. He gladly accepted even though he had some stress in school since he has to write exams. After figuring out a date, we started to plan the event. We started with the agenda.

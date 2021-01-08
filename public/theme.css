@@ -463,6 +463,7 @@ nav li:nth-child(6) {
   object-fit: cover;
 }
 
+#blog a,
 #blogpost a {
  text-decoration: underline;
 }

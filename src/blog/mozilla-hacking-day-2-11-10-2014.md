@@ -6,6 +6,8 @@ date: 2014-11-20 21:32:40
 
 On the 11th of October we organized a "Mozilla Hacking Day 2" in Berlin. This was the follow up of the first Hacking Day in Berlin in April.
 
+<!-- excerpt -->
+
 On Friday we met and went to dinner and talked about the next day. Since we had to wake up early on Saturday we didn't stay up long (*cough*). On Saturday we had a quick delay since we couldn't have our room at TU Berlin yet at 9am. Fortunately we could have it at 9:30am and had interesting talks before that while waiting. This was organized together with [MeshCon](http://meshcon.net/), so we could talk to a lot of people that generally don't get in touch with Mozilla.
 
 ![Table picture](https://farm4.staticflickr.com/3956/14931192133_c3c0114762.jpg)

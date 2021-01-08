@@ -6,6 +6,8 @@ date: 2015-05-17 09:01:16
 
 On April 25 and 26 the 7th edition of the [MobileCamp](http://www.mobilecamp.de) was organized in Dresden, Germany. Mobilecamp is a barcamp with "Mobile" as topic. It's probably the most important barcamp regarding mobile in the German-speaking countries. Therefore the German-speaking Mozilla community decided to host a Firefox OS day on Saturday. The organizers of the barcamp were kind enough to lend us a room specific for that.
 
+<!-- excerpt -->
+
 Since the MobileCamp was mostly dominated by Android, iOS and Windows Phone in the past, we decided to do a Firefox OS day to educate people about the power of the Web. On Saturday I held a talk ([slides 1](https://mkohler.dev/presentations/mozilla-mobilecamp-dresden-2015/index.html), [slides 2](https://mkohler.dev/presentations/mozilla-mobilecamp-dresden-2015-hacking/index.html)) about Firefox OS and showed how to create open web apps. Since this was a barcamp I left enough room for discussion and there were some quite interesting questions.
 
 ![](http://michaelkohler.info/mozilla/mobilecamp_2015_talk.jpg)

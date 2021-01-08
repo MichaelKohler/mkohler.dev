@@ -6,6 +6,8 @@ date: 2016-02-07 15:43:26
 
 Back in November we had a Community Meetup. The goal was to get a current status on the Community and define plans and goals for 2016\. To do that, we started with a [SWOT-Analysis](https://en.wikipedia.org/wiki/SWOT_analysis). You can find it [here](https://docs.google.com/spreadsheets/d/1CtC9L1VR3uE3wcO90sIXgdRnqKyQGHPsBbIJQn-3qVY/edit#gid=0).
 
+<!-- excerpt -->
+
 With these remarks in mind, we started to define goals for 2016\. Since there are a lot of changes within one year, the goals will currently only focus on the first part of the year. Then we can evaluate them, shift metrics if needed, and define new goals. This allows us to be more flexible.
 
 ![](/images/2016/02/CRgk487XIAAwpkg.jpg)

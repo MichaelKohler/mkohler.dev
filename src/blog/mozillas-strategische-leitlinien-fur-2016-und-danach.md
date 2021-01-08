@@ -8,6 +8,8 @@ Dieser Beitrag wurde zuerst im Blog auf [https://blog.mozilla.org/community](htt
 
 Auf der ganzen Welt arbeiten leidenschaftliche Mozillianer am Fortschritt für Mozillas Mission. Aber fragt man fünf verschiedene Mozillianer, was die Mission ist, erhält man womöglich sieben verschiedene Antworten.
 
+<!-- excerpt -->
+
 Am Ende des letzten Jahres legte Mozillas CEO Chris Beard klare Vorstellungen über Mozillas Mission, Vision und Rolle dar und zeigte auf, wie unsere Produkte uns diesem Ziel in den nächsten fünf Jahren näher bringen. Das Ziel dieser strategischen Leitlinien besteht darin, für Mozilla insgesamt ein prägnantes, gemeinsames Verständnis unserer Ziele zu entwickeln, die uns als Individuen das Treffen von Entscheidungen und Erkennen von Möglichkeiten erleichtert, mit denen wir Mozilla voranbringen.
 
 Mozillas Mission können wir nicht alleine erreichen. Die Tausenden von Mozillianern auf der ganzen Welt müssen dahinter stehen, damit wir zügig und mit lauterer Stimme als je zuvor Unglaubliches erreichen können.

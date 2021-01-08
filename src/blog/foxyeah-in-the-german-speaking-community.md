@@ -6,6 +6,8 @@ date: 2015-07-19 18:19:22
 
 Back in the beginning of June Mozilla has released [Firefox 38.0.5](https://www.mozilla.org/en-US/firefox/38.0.5/releasenotes/), together with a campaign to [promote Firefox all over the world](https://foxyeah.mozilla.org/). This also included offline events, which we did in Zurich, Bern and Berlin.
 
+<!-- excerpt -->
+
 ## Zurich
 
 On June 3rd we [met in Zurich](https://mozilla.github.io/reps-archive/e/why-should-you-use-firefox/) to talk about new Firefox features and why you should use Firefox. Unfortunately my planning wasn't that good and we picked a date where there were 4 other meetups going on in Zurich. This is one thing we definitely need to keep an eye on for the next events. Nevertheless we could talk to a few people and have great discussions about Firefox and the Open Web. We basically hijacked a work session at [liip.ch](https://www.liip.ch) (amazing company which hosts us for our Zurich based meetups) and involved them in the discussion.

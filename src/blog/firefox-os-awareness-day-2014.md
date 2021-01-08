@@ -6,6 +6,8 @@ date: 2015-02-08 16:05:31
 
 On the 13.12.2014 we've met in Cologne, Germany to have a "Firefox OS Awareness Day". The goal of this event was to promote Firefox OS in Germany, a very difficult task as it turns out.
 
+<!-- excerpt -->
+
 ## Some words about the mobile phone market in Germany
 
 Most of the people under 50 years old in Germany own a smartphone. This is either an Android, iOS, Windows Phone or BlackBerry, but not a lot of Firefox OS devices around. Firefox OS devices are sold at Congstar (online) and O2 (they have shops, but haven't seen any Firefox OS devices in the shops yet). There are probably three different segments where Firefox OS devices could be considered:

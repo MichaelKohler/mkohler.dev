@@ -6,6 +6,7 @@ date: 2016-05-05 14:31:47
 
 Last Saturday we've held a [Firefox Hackathon](https://mozilla.github.io/reps-archive/e/firefox-hackathon-zurich-april-2015/) in Zurich, Switzerland. We've had 12 people joining us.
 
+<!-- excerpt -->
 ## Introduction
 
 At first I gave an [introduction to Firefox](https://docs.google.com/presentation/d/11euVpPoJ7kKO1OcWTYCqA3XOmUC_DAoGi1rJEeQtOS8/edit) and introduced the agenda of the hackathon.

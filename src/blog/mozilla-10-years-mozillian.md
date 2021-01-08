@@ -7,6 +7,8 @@ date: 2018-04-09 19:29:11
 
 March 10th, 2018 marked my 10 year anniversary as a Mozilla volunteer. I wanted to write this blog post for quite some time now, but as you might know, writing is not one of my capabilities I’m exercising a lot. With this blog post I’d like to give a quick wrap up of the past 10 years and share the story on how I came to Mozilla. Upfront I’d like to thank everyone who made this journey as amazing as it was, to many more years!
 
+<!-- excerpt -->
+
 [![](/images/2018/04/10years.png)](/images/2018/04/10years.png)
 
 # Statistics

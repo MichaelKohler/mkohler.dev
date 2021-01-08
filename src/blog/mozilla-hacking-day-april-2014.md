@@ -4,9 +4,9 @@ permalink: /blog/2014/05/{{title | slug}}/
 date: 2014-05-26 22:57:03
 ---
 
-<div class="moz-text-html" lang="x-unicode">
-
 On the 26th of April we met in Berlin to have a "Mozilla Hacking Day". After several month of planning, we had a good session plan which sounded interesting. On [meetup.com](http://meetup.com), 55 people rsvp'd and about 17 Mozillians registered to help us out at the event itself.
+
+<!-- excerpt -->
 
 ## Mozillians Dinner on Friday
 

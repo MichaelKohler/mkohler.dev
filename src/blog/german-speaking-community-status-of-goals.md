@@ -6,6 +6,8 @@ date: 2015-04-28 00:04:38
 
 At the German-speaking community [meetup in February](http://www.michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1) we set some goals to reach in 2015\. In our [last bi-weekly meeting](https://air.mozilla.org/german-speaking-community-bi-weekly-meeting-20150423/) we discussed the current status of those goals. Here's a quick summary:
 
+<!-- excerpt -->
+
 ## Completed
 
 *   Write to all "Localizers in Training" that have added themselves to the wiki and were never contacted -> done, but no feedback yet
