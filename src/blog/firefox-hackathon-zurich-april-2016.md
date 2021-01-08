@@ -5,7 +5,7 @@ layout: "blogpost.liquid"
 date: 2016-05-05 14:31:47
 ---
 
-Last Saturday we've held a [Firefox Hackathon](https://reps.mozilla.org/e/firefox-hackathon-zurich-april-2015/) in Zurich, Switzerland. We've had 12 people joining us.
+Last Saturday we've held a [Firefox Hackathon](https://mozilla.github.io/reps-archive/e/firefox-hackathon-zurich-april-2015/) in Zurich, Switzerland. We've had 12 people joining us.
 
 ## Introduction
 
@@ -15,7 +15,7 @@ At first I gave an [introduction to Firefox](https://docs.google.com/presentatio
 
 ## Dev Tools Talk
 
-After my talk we heard an amazing talk from [Daniele](https://reps.mozilla.org/u/Mte90) who came from Italy to attend this hackathon. [He talked about the Dev Tools](http://mte90.github.io/Talk-DevTools) and gave a nice introduction to new features!
+After my talk we heard an amazing talk from [Daniele](https://mozilla.github.io/reps-archive/u/Mte90) who came from Italy to attend this hackathon. [He talked about the Dev Tools](http://mte90.github.io/Talk-DevTools) and gave a nice introduction to new features!
 
 ![](https://c5.staticflickr.com/8/7446/26736586972_51c7593fdf_z.jpg)
 

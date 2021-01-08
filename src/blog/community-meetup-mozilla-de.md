@@ -26,11 +26,11 @@ We splitted up in different groups: L10N/Support, Hacking and a "miscellaneous" 
 *   Goal: Find more contributors
 *   Goal: Improve the German articles on SUMO, MDN
 *   Goal: Improve the German translation of Firefox, Firefox OS
-*   Solution: organize different Sprints during the year. The next sprint will be on the [5th and 6th of April](https://reps.mozilla.org/e/docsprint-berlin-april-2014/) in Berlin
+*   Solution: organize different Sprints during the year. The next sprint will be on the [5th and 6th of April](https://mozilla.github.io/reps-archive/e/docsprint-berlin-april-2014/) in Berlin
 **Hacking:**
 
 *   Goal: Find more contributors
-*   Solution: organize multiple "Mozilla Hacking Days". The next event will be on the [26th of April in Berlin](https://reps.mozilla.org/e/mozilla-hacking-day-germany/) (to be definitely confirmed)
+*   Solution: organize multiple "Mozilla Hacking Days". The next event will be on the [26th of April in Berlin](https://mozilla.github.io/reps-archive/e/mozilla-hacking-day-germany/) (to be definitely confirmed)
 *   Solution: use the momentum of the first Hacking Day to organize a second Hacking Day. At the second event we fully go "non-Mozillians", i.e. as many interested, possible contributors as possible
 **Miscellaneous:**
 
