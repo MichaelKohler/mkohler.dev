@@ -15,16 +15,11 @@ Das Treffen fand vom 20\. bis am 22\. Februar 2015 statt. Um die Koordination un
 
 _The meetup was held on February 20 to February 22 2015\. To facilitate the coordination between all volonteers and staff living/working in the German speaking countries (Germany, Austria, Switzerland) we meet once a year to discuss any topics, plans and goals for the year. Further it's important to meet regularly to have certain discussions in person since these are faster and more efficient. In total 27 persons attended this meetup._
 
-&nbsp;
-
 ![](https://c1.staticflickr.com/9/8645/16405536767_d3cf70ccec_b.jpg)
 
-_ (Foto/Photo: Hagen Halbach)_
+_(Foto/Photo: Hagen Halbach)_
 
-&nbsp;
-
-**Vorbereitung _/ Preparation_
-**
+## Vorbereitung _/ Preparation_
 
 Da es sich dieses Jahr um ein zweitägiges Treffen gehandelt hat, war dementsprechend auch die Vorbereitung aufwändiger. Durch die Hilfe von Hagen Halbach konnten wir das aber ohne grössere Probleme bewältigen. Wichtig war hierbei auch, dass wir mit der Planung bereits im Oktober begonnen haben und so Zeit hatten, alles zu buchen und zu planen.
 
@@ -38,28 +33,21 @@ Hiermit ein grosses Dankeschön an Hagen (Mithilfe bei der Gesamtorganisation), 
 
 _A big "Thank you" to Hagen (help with the organization), Martyna (all office and food catering inquiries), Robert (responsible for the office during the time) and Brian (Community Manager at Mozilla). Further also a "Thank you" to everyone else who was involved in the planning._
 
-&nbsp;
-
-**Ziele des Treffens _/ Goals_
-**
+## Ziele des Treffens _/ Goals_
 
 *   Stand der Gemeinschaft besprechen _/ discuss the current state of the community_
 *   Pläne und Ziele für 2015 definieren _/ define plans and goals for 2015_
 *   Zusammenhalt stärken und persönliche Gespräche führen _/ increase the atmosphere and have time for personal discussions_
+
 Ich denke, dass wir diese Ziele wunderbar erfüllt haben.
 
 _I think we've succeeded very well with these goals for the meetup._
-
-&nbsp;
 
 ![](https://c1.staticflickr.com/9/8639/16612818695_88540f287e_b.jpg)
 
 _ (Foto/Photo: Hagen Halbach)_
 
-_ _
-
-**Tag 0 / Day 0
-**
+## Tag 0 / Day 0
 
 Da einige bereits am Freitag angereist sind, haben wir einen (inoffiziellen) "Tag 0" abgehalten. Im Vorfeld haben wir einige kleine Präsentationen geplant. Diese wurden aber auf den späteren Nachmittag geschoben, da sich sofort interessante Gespräche entwickelt haben.
 

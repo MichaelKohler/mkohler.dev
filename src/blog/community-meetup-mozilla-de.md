@@ -9,19 +9,19 @@ date: 2014-02-23 23:34:25
 
 On the 8th of February 2014 we had our second "German-speaking Mozilla Community" Meetup after rebooting the community. In this blog post I'd like to review the event and tell you about our 2014 goals.
 
-**Not 100% achieved 2013 goals:**
+## Not 100% achieved 2013 goals
 
 *   Not a lot of new faces on this year's meetup
 *   Even though there was a lot going on, the coordination within the groups was not great. Also overall communication can be improved.
-*   "Contribute" form is hard to process -&gt; almost no visible new contributors
+*   "Contribute" form is hard to process -> almost no visible new contributors
 *   It's hard to find new contributors for Marketing and Localization
 We splitted up in different groups: L10N/Support, Hacking and a "miscellaneous" group.
 
 ![](https://farm8.staticflickr.com/7337/12417462025_b9dba8c0c4.jpg)
 
-**Let's review our goals for 2014:**
+## Let's review our goals for 2014
 
-**L10N/Support:**
+### L10N/Support
 
 *   Goal: Find more contributors
 *   Goal: Improve the German articles on SUMO, MDN
@@ -34,7 +34,7 @@ We splitted up in different groups: L10N/Support, Hacking and a "miscellaneous" 
 *   Solution: use the momentum of the first Hacking Day to organize a second Hacking Day. At the second event we fully go "non-Mozillians", i.e. as many interested, possible contributors as possible
 **Miscellaneous:**
 
-Firefox OS:
+### Firefox OS
 
 *   Goal: find new app developers and create localized apps
 *   Goal: promote Firefox OS in Germany
@@ -53,8 +53,10 @@ Webmaker:
 *   Goal: organize a OpenBadges event in Switzerland
 *   Goal: organize a "All Things Web" bi-weekly course in Switzerland (probably in cooperation with the Open Tech School)
 *   Solution: Meeting with Michelle Thorne on the 4th of April to discuss the ideas
-&nbsp;
 
+The different groups will inform about the progress in the #deMeeting on the 5th of March.
+
+## Community Building Brainstorming
 At the end of the day we had a **"Community Building"** session. Here's the outcome/brainstorming:
 
 *   Use badges for contributors
@@ -64,11 +66,6 @@ At the end of the day we had a **"Community Building"** session. Here's the outc
 *   Better integration of Mozilla employees
 *   Inform other communities about our next events (JS groups, user groups, ...)
 *   Big Mozilla Hacking Days (see above)
-&nbsp;
-
-The different groups will inform about the progress in the #deMeeting on the 5th of March.
-
-&nbsp;
 
 ![](https://farm6.staticflickr.com/5492/12417492125_fa4430da73_z.jpg)
 

@@ -17,13 +17,14 @@ _The meetup was held on February 20 to February 22 2015\. To facilitate the coor
 
 ![](https://c1.staticflickr.com/9/8592/16611675751_2775ba0ee5_b.jpg)
 
-_ (Foto/Photo: Hagen Halbach)_
+_(Foto/Photo: Hagen Halbach)_
 
-**Tag 2 _/ day 2_**
+## Tag 2 _/ day 2_
 
 Am Sonntag starteten wir auch um 10:00 Uhr im Berliner Büro.
 
 _On Sunday we once again started at 10am at the Berlin Office._
+
 <table cellpadding="2">
 <tbody>
 <tr>
@@ -63,6 +64,7 @@ _On Sunday we once again started at 10am at the Berlin Office._
 </tr>
 </tbody>
 </table>
+
 Zuerst trafen wir uns wieder in den Gruppen, um die Ziele zu besprechen. Danach versammelten wir uns wieder, um diese gemeinsam zu besprechen und zu notieren.
 
 _At first we had the same breakout groups again, this time to evaluate goals for 2015\. After that we discussed those together with the whole group and decided on goals._
@@ -159,17 +161,15 @@ _At the end we talked about our weekly meeting and drafted a proposal how to mak
 *   nicht mehr nur IRC, sondern Vidyo (Videochat-Programm) _/ Vidyo instead of IRC_
 *   Alles wird wie gewohnt in einem Etherpad dokumentiert, so dass auch andere mitdiskutieren können _/ document everything on the Etherpad so everybody can join without Vidyo_
 
-    *   Workflow: Etherpad -&gt; Meeting -&gt; Etherpad
+    *   Workflow: Etherpad -> Meeting -> Etherpad
 
 *   Die finalen Einträge aus dem Etherpad werden ins Wiki abgelegt, da diese dort durchsuchbar sind _/ the final meeting notes will be copied to the Wiki from the Etherpad_
-&nbsp;
 
 **Feedback / Lessions learned (nur Englisch, da nur für Mozilla Reps relevant)**
 
 *   planning long-term before events makes sense
 *   the office is a good location for these kind of meetups, but not for bigger ones
 *   there is never enough time to discuss everything together, so individual breakouts are necessary
-&nbsp;
 
 Ich möchte mich bei allen Teilnehmer für die informativen und konstruktiven Diskussionen bedanken. Ich glaube, dass wir einiges zu tun haben im 2015, wenn wir jedoch die Motivation vom Treffen mitnehmen können und unsere Pläne und Ziele umsetzen können, wird dies ein sehr erfolgreiches Jahr. Alle Fotos vom Treffen findet ihr auf [flickr](https://wiki.mozilla.org/De:Meeting:2015#Fotos).
 

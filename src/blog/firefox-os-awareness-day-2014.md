@@ -7,7 +7,7 @@ date: 2015-02-08 16:05:31
 
 On the 13.12.2014 we've met in Cologne, Germany to have a "Firefox OS Awareness Day". The goal of this event was to promote Firefox OS in Germany, a very difficult task as it turns out.
 
-**Some words about the mobile phone market in Germany**
+## Some words about the mobile phone market in Germany
 
 Most of the people under 50 years old in Germany own a smartphone. This is either an Android, iOS, Windows Phone or BlackBerry, but not a lot of Firefox OS devices around. Firefox OS devices are sold at Congstar (online) and O2 (they have shops, but haven't seen any Firefox OS devices in the shops yet). There are probably three different segments where Firefox OS devices could be considered:
 
@@ -18,7 +18,7 @@ Most of the people under 50 years old in Germany own a smartphone. This is eithe
 
 This time we decided to use AirBnB since the hotel costs before Christmas in Cologne are almost insane. We've found a nice appartment with enough space to host 4 persons (6 wouldn't have been a problem either) for a good price. The host was very nice and the checkin was painless. For events with about 4 to 6 Mozillians attending we can look into AirBnB again!
 
-**The event on Saturday**
+## The event on Saturday
 
 Thanks to the great help from the local O2 flagship store (thanks Robert et al!) everything was ready when we arrived at the store a few minutes before opening. Martyna from the Berlin office sent the Firefox costume directly to Cologne. Sören, Philipp, his wife and I we're ready to show Firefox OS to people within the store and people passing by the store. Sebastian from the German Firefox OS launch team unfortunately couldn't attend, so we were quite happy to see Philipp's wife helping us out.
 
@@ -32,7 +32,7 @@ With the Firefox costume we got a lot of attention and a lot of people wanted to
 
 You can find the other pictures we took [on Flickr](https://www.flickr.com/photos/128655475@N02/sets/72157650287330397/)!
 
-**Lessons learned**
+## Lessons learned
 
 *   The German phone market is almost saturated with Android/iOS
 *   Astonishingly a lot of people that do not have a smartphone are happy with it and wouldn't change for an easy "beginner-friendly" smartphone. This is mostly the population above 60 years.

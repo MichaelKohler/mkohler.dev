@@ -5,17 +5,9 @@ layout: "blogpost.liquid"
 date: 2015-12-04 23:49:05
 ---
 
-<div class="document">
-<div>
-<div id="mozcoffee-framework-wie-organisiere-ich-ein-meetup" class="section">
-<div id="einfuhrung" class="section">
-
 ## Einführung
 
 Dieses Dokument soll als kurzes Tutorial dienen, um ein erfolgreiches Meetup zu organisieren. In diesem Dokument werden die wichtisten Punkte erläutert und einige Tipps gegeben, wie das ganze organisiert werden kann. Es besteht kein Anspruch auf Vollständigkeit. Zudem ist allen Mozillians selbst überlassen, wie die Organisation stattfindet.
-
-</div>
-<div id="was-ist-das-ziel-des-meetups" class="section">
 
 ## Was ist das Ziel des Meetups?
 
@@ -26,9 +18,6 @@ Als erstes sollte man sich überlegen, was das Ziel für das Meetup ist. Möglic
 *   Soll dies “generell Mozilla” oder ist es eine Serie von möglichen, verschiedenen Themen?
 *   Wem will ich was bieten? Dies kann Mitarbeiter im Büro, Kollegen/Freunde oder auch Fremde sein.
 Anhand dieser Fragen, kann die Agenda mit möglichen Themen zusammengestellt werden.
-
-</div>
-<div id="mogliche-themen-formate" class="section">
 
 ## Mögliche Themen / Formate
 
@@ -46,9 +35,6 @@ Mögliche Themen für Vorträge (kann von 10 bis 60 Minuten reichen):
 *   Netzneutralität, Privatsphäre
 Für beide Formate gilt: es macht nichts, wenn du auf eine Frage nicht antworten kannst. Auch “ich weiss, wen ich da fragen kann und ich werde mich bei dir melden” ist eine gute Antwort.
 
-</div>
-<div id="mogliche-agenda-mit-vortragen" class="section">
-
 ## Mögliche Agenda mit Vorträgen
 
 *   18:30 Eintreffen
@@ -57,9 +43,6 @@ Für beide Formate gilt: es macht nichts, wenn du auf eine Frage nicht antworten
 *   xx:xx Fragerunde
 *   danach gemütliches Beisammensein und Diskussionsrunde
 Dies ist natürlich nur ein Vorschlag. Wenn es sich herausstellt, dass ein Treffen über den Mittag besser geeignet wäre, kann dies natürlich auch gemacht werden.
-
-</div>
-<div id="was-ist-das-gewunschte-resultat-des-meetups" class="section">
 
 ## Was ist das gewünschte Resultat des Meetups?
 
@@ -74,17 +57,12 @@ Um die weitere Planung zu vereinfachen, sollte hier 2-3 Ziele definiert werden. 
 *   Am Ende des Meetups sind 2 Personen interessiert bei Mozilla mitzumachen und wissen, wo sie beginnen können
 *   10 neue Personen werden Firefox zuhause runterladen und ausprobieren
 *   2 Personen erzählen ihren Freunden vom Meetup und laden diese zum nächsten Treffen ein
-</div>
-<div id="grosse" class="section">
 
 ## Grösse
 
 Anhand des Themas kann die Grösse des Meetups ungefähr abgeschätzt werden. Am Anfang werden die Meetups etwas kleiner ausfallen, da diese noch nicht so bekannt sind. Dies ist aber absolut kein Problem! Auch kleinere Meetups können Spass machen und andere Personen wichtige Informationen über Mozilla vermitteln.
 
 Die Grösse gegen oben ist offen, benötigt aber mehr Organisationsaufwand, je grösser das Meetup wird.
-
-</div>
-<div id="geeignete-location-finden" class="section">
 
 ## Geeignete Location finden
 
@@ -96,15 +74,9 @@ Level 2 (für Vorträge oder ab 10 Personen): Für Vorträge oder bei grösseren
 
 Level 3 (längerfristig): wenn absehbar ist, dass es in Zukunft weitere, regelässige Meetups geben wird, ist es sinnvoll, sich nach einer längerfristigen Lösung umzusehen. Falls in “Level 2” eine Möglichkeit gefunden wurde, kann man den Anbieter des Raums fragen, ob man mit einer Frist von n Wochen da jederzeit (sofern verfügbar) den Raum haben dürfte.
 
-</div>
-<div id="meetup-durchfuhren" class="section">
-
 ## Meetup durchführen
 
 Hier gibt es nur etwas zu sagen: habt Spass! Die Durchführung soll kein Zwang sein, sondern euch und den Teilnehmer Spass machen.
-
-</div>
-<div id="nachfolgende-arbeiten" class="section">
 
 ## Nachfolgende Arbeiten
 
@@ -112,28 +84,17 @@ Um Teilnehmer über neue Meetups zu informieren, ist es nötig, eine Kontaktmög
 
 Damit potentielle Mitwirkende optimal unterstützt werden können, ist es am Anfang nötig, eine nahe Beziehung mit ihnen zu führen und so gut wie möglich zu unterstützen.
 
-</div>
-<div id="periodizitat" class="section">
-
 ## Periodizität
 
 Solange die Meetups regelmässig stattfinden, spielt es keine Rolle, wie oft dies der Fall ist. Dies kann einmal im Quartal sein, oder einmal im Monat. Dies ist abhängig von der Zeit, die man für die Organisation aufwenden kann.
 
-</div>
-<div id="werkzeuge-promotion" class="section">
-
 ## Werkzeuge / Promotion
-
-<div id="gibt-es-andere-stammtische-meetups-etc-in-dieser-stadt" class="section">
 
 ### Gibt es andere Stammtische, Meetups, etc in dieser Stadt?
 
 Gibt es in deiner Stadt andere Stammtische oder Meetups? Das findest du u.a. über meetup.com raus. Falls es welche gibt, wäre es sinnvoll, einen davon zu besuchen, um zu sehen, wie das da gehandhabt wird. Ist bereits ein Datum für ein Mozilla Meetup bekannt, kann an diesen anderen Meetups auch Werbung dafür gemacht werden.
 
 Gegebenenfalls gibt es auch die Möglichkeit, Vorträge bei anderen Meetups zu halten, um zu sehen, ob in dieser Stadt überhaupt Interesse besteht.
-
-</div>
-<div id="meetup-com" class="section">
 
 ### Meetup.com
 
@@ -144,29 +105,15 @@ Beispiele:
 *   [http://www.meetup.com/Mozilla-Meetup-Switzerland/](http://www.meetup.com/Mozilla-Meetup-Switzerland/)
 *   [http://www.meetup.com/Bremen-Mozilla-Meetup/](http://www.meetup.com/Bremen-Mozilla-Meetup/)
 *   [http://www.meetup.com/Berlin-Mozilla-Meetup/](http://www.meetup.com/Berlin-Mozilla-Meetup/)
-</div>
-<div id="twitter-soziale-medien" class="section">
 
 ### Twitter / Soziale Medien
 
 Die Promotion kann, sofern für diese Stadt überhaupt sinnvoll, über Twitter und andere soziale Medien gemacht werden. Dabei ist es wichtig, dass man irgendwo eine Seite hat, die man in den Beiträgen verlinken kann. Diese Seite sollte mind. eine Beschreibung, Datum und Ort erwähnen.
 
-</div>
-<div id="budget" class="section">
-
 ### Budget
 
 Normalerweise sollte es nicht nötig sein, für ein Meetup Budget zu erhalten. Sollte dies aber trotzdem nötig sein, meldest du dich bei Michael Kohler, da dies über Reps läuft.
 
-</div>
-<div id="swag" class="section">
-
 ### Swag
 
 Sticker sind ein gutes Mittel, um Leuten eine Freude zu bereiten. Wenn diese auf einem Laptop landen und Firefox promoten, umso besser. Falls ihr für ein Meetup Swag benötigt, meldet euch bei Michael Kohler, da dies über Reps läuft.
-
-</div>
-</div>
-</div>
-</div>
-</div>

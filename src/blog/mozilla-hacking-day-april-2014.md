@@ -9,13 +9,13 @@ date: 2014-05-26 22:57:03
 
 On the 26th of April we met in Berlin to have a "Mozilla Hacking Day". After several month of planning, we had a good session plan which sounded interesting. On [meetup.com](http://meetup.com), 55 people rsvp'd and about 17 Mozillians registered to help us out at the event itself.
 
-**Mozillians Dinner on Friday:**
+## Mozillians Dinner on Friday
 
 On Friday we met at the hotel and went out for Tapas to plan the last few things for Saturday and have some Mozilla discussions.
 
 [![Berlin_20140425_016_1280](/images/2014/05/Berlin_20140425_016_1280.jpg)](/images/2014/05/Berlin_20140425_016_1280.jpg)
 
-**Hacking Day on Saturday:**
+## Hacking Day on Saturday
 
 On Saturday around 40 people showed up to get to know Mozilla and hack on its projects.
 
@@ -138,16 +138,12 @@ In conclusion we can happily say that this was a great event and we'll follow up
 
 [![Berlin_20140426_02_1280](/images/2014/05/Berlin_20140426_02_1280.jpg)](/images/2014/05/Berlin_20140426_02_1280.jpg)
 
-**Lessions learned:**
+## Lessions learned
 
 *   We knew we'll have a few "no show", but we didn't expect it to be almost 40%. We need to find a way to improve that.
-
 *   Better calculate the food: we had some Pizzas and bread left. At the end we gave it away to people needing it more than we do, but nevertheless this could be improved. But this also has to do with the first lession.
-
 *   Better plan the sessions and ask people about their interests earlier to not have empty session tables.
 
 A big "Thanks!" goes out to everyone who helped organize it and supported us at the event itself. Also, I'd like to thank co.up which sponsered the venue.
 
 I'm currently planning to do a second Mozilla Hacking Day. This time with more people and all the lessions learned applied. Stay tuned!
-
-</div>

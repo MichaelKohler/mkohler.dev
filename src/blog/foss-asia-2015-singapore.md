@@ -5,7 +5,7 @@ layout: "blogpost.liquid"
 date: 2015-03-16 23:15:59
 ---
 
-**About FOSS Asia**
+## About FOSS Asia
 
 [FOSS Asia](http://fossasia.org/) is a yearly FOSS community meetup in Asia. This year it was held from 13<sup>th</sup> to 15<sup>th</sup> of March in Singapore. Previous events were i.e. in Cambodia and Vietnam. You can find the schedule of the conference on [their website](http://2015.fossasia.org/#schedule).
 
@@ -13,27 +13,28 @@ Disclaimer: Mozilla was a sponsor of this event.
 
 Disclaimer 2: I wasn’t sponsored by Mozilla, nevertheless helped out at the booth and on the track.
 
-**Singapore**
+## Singapore
 
 I arrived in Singapore on Wednesday (directly from Mexico, where I left on Monday) and did some sightseeing to get to know the neighborhood. In the evening I went to the [hackerspace.sg](http://hackerspace.sg/) where they had a meetup and talks. It was very interesting and I had the chance to get to know the local cuisine after the meetup.
 
-**Friday**
+## Friday
 
 On Friday we were at the venue at about 8:30am to prepare our booth. But since our swag hadn’t arrived, we didn’t have much to put there. Therefore we decided to show Firefox OS to people. I showed it to Vivian Balakrishnan, Singapore's Minister for the Environment and Water Resources. He had a lot of great knowledge so I didn't need to explain a lot.
 
-[![demo](/images/2015/03/demo-768x1024.jpg)](/images/2015/03/demo.jpg)
+[![demo](/images/2015/03/demo.jpg)](/images/2015/03/demo.jpg)
 
 (Photo: [Darwin Gosal](https://twitter.com/gosaldar))
 
 So we listened to the talks and engaged with other attendees during the breaks. With a booth with some stickers, we could have had a bigger impact since all the people would have been in the same room.
 
-[![demofirefoxos](/images/2015/03/demofirefoxos-1024x768.jpg)](/images/2015/03/demofirefoxos.jpg)
+[![demofirefoxos](/images/2015/03/demofirefoxos.jpg)](/images/2015/03/demofirefoxos.jpg)
 
 Gen Kenai talked about Firefox OS on the main track. I think it was great to have a talk about Firefox OS there since it was the only day we had everyone in the same room. Later Jan held a talk about [JanOS](http://janos.io/) on the main track as well. He's doing a great job with it. You should definitely check that out!
 
-**Saturday**
+## Saturday
 
 On Saturday we had our own [Mozilla track](http://fossasia.org/track/FOSSASIA-Mozilla.pdf).
+
 <table width="552">
 <tbody>
 <tr>
@@ -108,6 +109,7 @@ On Saturday we had our own [Mozilla track](http://fossasia.org/track/FOSSASIA-Mo
 </tr>
 </tbody>
 </table>
+
 Our room was on Level 5 and wasn’t very easily discoverable, the registration desk had an overview of all locations though. Since no other tracks were located there, there were no “pass-by-and-maybe-stay-there”, but people actually needed to actively come to one of our sessions. We didn’t know that beforehand.
 
 Nevertheless a few people showed up to our talks. Some talks were full, for some we had almost nobody attending.
@@ -118,9 +120,10 @@ Nevertheless a few people showed up to our talks. Some talks were full, for some
 
 In the evening all of the Mozillians went for a Chinese dinner together. After dinner we joined the pub crawl at Brewerkz at Clark Quay.
 
-**Sunday**
+## Sunday
 
 On Sunday we continued with our track with workshops.
+
 <table width="763">
 <tbody>
 <tr>
@@ -181,6 +184,7 @@ On Sunday we continued with our track with workshops.
 </tr>
 </tbody>
 </table>
+
 We learned from Saturday and this time actively went up to people and asked them if they’re interested in our workshops and if they’d like to come. This resulted in a better attendance, but we couldn’t fill all the workshops.
 
 [![realworkshop](/images/2015/03/realworkshop.jpg)](/images/2015/03/realworkshop.jpg)
@@ -201,7 +205,7 @@ Yofie did a great job with designing and printing out flyers with the schedule. 
 
 Further we promoted the [Bug Sprint](https://mozbugsprints.org/e/fossasia-2015) over Twitter and with flyers on the walls. At least one person came to the Mozilla track and asked for more information. We later got the feedback from him, that he looked at the bugs, but they seemed to be “too big” to do then in a couple of hours.
 
-**Lessons learned** (these are just my points, we need to have a more broad discussion with all the people involved):
+## Lessons learned (these are just my points, we need to have a more broad discussion with all the people involved)
 
 *   Next time we should have a general overview of the location before the event (is there a main booth room? Where are the tracks located exactly?)
 *   Swag should arrive in time. I did not check what exactly the problem was, but at conferences it’s critical to have at least some stickers. Also you need to have something to mark the booth with (table cloth would be perfect).
@@ -209,9 +213,10 @@ Further we promoted the [Bug Sprint](https://mozbugsprints.org/e/fossasia-2015) 
 *   Having a “Web” and “Mozilla” track is difficult. Non-Mozillians will often choose the web track since it’s more general. Maybe we could “inject” a few talks into the other tracks? Maybe we could move all technical presentations to the different tracks and have only “evangelism” talks at our track? (this is not solely my idea, Deb and all others helped a lot last night)
 *   Aggressively advertising workshops helps.
 *   People are interested in Mozilla, maybe we could do even more outreach during the breaks.
+
 We have started a discussion about the “lessons learned” on [Discourse](https://discourse.mozilla-community.org/t/fossasia-possible-improvements/1830). Join in if you have attended #fossasia (or otherwise if you have good input).
 
-You can find all Mozilla-related tweets from FOSSAsia with the hastag [#MozAsia](https://twitter.com/hashtag/mozasia).
+You can find all Mozilla-related tweets from FOSSAsia with the hashtag [#MozAsia](https://twitter.com/hashtag/mozasia).
 
 I’d like to thank all the organizers for their great work. Well done! It was a pleasure to be there. I certainly had a lot of fun in South East Asia and I could imagine coming back!
 

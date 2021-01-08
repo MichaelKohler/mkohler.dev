@@ -7,12 +7,12 @@ date: 2014-04-13 17:29:55
 
 On the 15th of March I organized a Firefox OS workshop at the [Barcamp Salzburg](http://lanyrd.com/2014/barcamp-salzburg-next-web-march-2014/). But let's start from the beginning.
 
-**Friday evening**
+## Friday evening
 On Friday evening I demoed my Firefox OS devices and had some really nice talks with the students from the FH Salzburg.
 
 I could even try Googles Glasses in exchange with my Firefox OS device :)
 
-**Saturday**
+## Saturday
 After some very interesting talks we could start with our workshop in the afternoon. We had a time slot of about 2 hours. Even though about 15 persons registered for the event, only 8 showed up. Nevertheless we had a great workshop!
 
 At the beginning I hold a short talk about Firefox OS explaining its way and our goals. No, I don't have slides to share, since I took the very popular slides from Christian Heilmann and deleted some of the slides to fit it to our time slot.

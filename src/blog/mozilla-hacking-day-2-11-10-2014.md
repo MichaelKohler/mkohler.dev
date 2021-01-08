@@ -31,5 +31,3 @@ According to the feedback we have decided the following:
 All in all, it was a great day and we'll certainly provide this opportunity to learn in 2015.
 
 ![Group picture](https://farm6.staticflickr.com/5603/15550641365_0b52e6de93.jpg)
-
-Hacking Day &amp; MeshCon

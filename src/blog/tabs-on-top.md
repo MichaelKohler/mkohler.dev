@@ -13,7 +13,7 @@ It is well known that good design is getting more and more important (e.g. the i
 
 Coming back to the actual discussion I think it is difficult to get to a good decision. There are pros and cons which I will explain now.
 
-**Pros:**
+## Pros
 Often tabs indicate that the content will change. Already with tabs on bottom the content of the tab changes when clicking on another tab. This will not change. But have you ever thought about other things that change when focusing another tab? The first thing that comes to mind is the location bar. Sure, that was logical, wasn't it? The other thing are the forward/back-arrows. The location bar indicates the URL you are currently on, the arrows represent the history. Even though you don't see the change of the arrows right away, their content changes. In my opinion it would be more intuitive having the tabs on top (even though a few things are constant like the home button).
 
 [![](http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_tablevel-1024x211.png "bookmarksbar_on_tablevel")](http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_tablevel.png)
@@ -28,7 +28,8 @@ An important fact in user-centered UI design has always been [Fitt's Law](http:/
 
 Further it is better to have the tabs on top because they do not disturb the vision of the user when watching away from the location bar to the tab's content. Every feature has its disadvantages, though.
 
-**Contras:**
+## Contras
+
 As mentioned above a lot of users don't maximize their windows, so Fitt's Law doesn't work. I cannot mention this enough times: Fitt's Law is still important! It is probably better to place the tabs right on top of the content, like that there is at least less way to move the cursor.
 
 A question I always ask myself is why it would need a change. The most users know the current UI design, why should they get used to another layout? Sure if it was more comfortable it wouldn't be a problem. If a user has always used Google Chrome and now decided to use Firefox, he would probably want to have the tabs on top because he is used to that. But honestly, do we really want to copy Google Chrome? Is its design really that well done? In my opinion there is absolutely no reasons to do so. An unified browser design would be very indeed, but unfortunately that is something that will never be achieved..

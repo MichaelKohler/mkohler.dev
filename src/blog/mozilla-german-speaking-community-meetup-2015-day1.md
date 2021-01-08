@@ -19,13 +19,12 @@ _The meetup was held on February 20 to February 22 2015\. To facilitate the coor
 
 _ (Foto/Photo: Brian King)_
 
-&nbsp;
-
-**Tag 1 _/ day 1_**
+## Tag 1 _/ day 1_
 
 Am Samstag um 10:00 Uhr ging's los mit dem ersten offiziellen Tag.
 
 _On Saturday we started the first official day at 10am._
+
 <table cellpadding="2">
 <tbody>
 <tr>
@@ -93,6 +92,7 @@ _On Saturday we started the first official day at 10am._
 </tr>
 </tbody>
 </table>
+
 Wir eröffneten das Treffen mit einer kurzen Vorstellungsrunde, da sich noch nicht alle gekannt haben. Es war schön zu sehen, dass aus allen Ecken des Mozilla Projektes Leute angereist sind, um die Zukunft zu planen.
 
 _We began the meetup with a short introduction round since not all of the attendees knew each other. It was nice to see that from all around the Mozilla projects people came to Berlin to discuss and plan the future._
@@ -112,6 +112,7 @@ _To know where we currently stand with our community, we did a "SWOT" analysis (
 *   Wir hatten mehr Events als in 2013 _/ we had more (and more impactful) events in 2013_
 *   Spontanität _/ spontanous_
 *   ...
+
 **Schwächen _/ Weaknesses:_**
 
 *   Viel Arbeit _/ a lot of work_
@@ -120,6 +121,7 @@ _To know where we currently stand with our community, we did a "SWOT" analysis (
 *   Wenige Social Media Aktivitäten _/ not a lot of social media activities_
 *   Wöchentliche Meetings sind nicht effizient genug _/ weekly meetings aren't very efficient_
 *   ....
+
 **Möglichkeiten _/ Opportunities:_**
 
 *   Web Standards
@@ -127,14 +129,16 @@ _To know where we currently stand with our community, we did a "SWOT" analysis (
 *   Datenschutz_ / privacy_
 *   Firefox Student Ambassadors
 *   ...
+
 **Gefahren _/ Threats:_**
 
 *   Fragmentierung _/ fragmentation_
 *   Chrome + Google Services
 *   ...
+
 ![](https://c1.staticflickr.com/9/8672/15990641624_2dd6ac191e_b.jpg)
 
-_ (Foto/Photo: Hagen Halbach)_
+_(Foto/Photo: Hagen Halbach)_
 
 Danach haben wir uns in diverse Gruppen aufgeteilt, um gruppenspezifische Arbeiten zu erledigen und zu diskutieren. Dazu gehören "Lokalisierung", "Programming", "Community Building" und "Webseiten".
 
@@ -150,7 +154,7 @@ _Markus, a local developer from Berlin, came by on Saturday. He'd like to organi
 
 ![](https://c1.staticflickr.com/9/8657/16423487858_67a6158668_h.jpg)
 
-_ (Foto/Photo: Mario Behling)_
+_(Foto/Photo: Mario Behling)_
 
 Nach der Gruppendiskussion hatte Brian eine weitere Information: Participation. Hier verweise ich gerne auf den [Blogeintrag von Mark Surman](https://commonspace.wordpress.com/2015/01/09/what-is-radical-participation/), um das genauer zu erklären.
 
@@ -160,11 +164,7 @@ Als Abschluss des offiziellen Teil des Tages führten wir eine Diskussion über 
 
 _At the end of the official part of the day we had a discussion about the "Community Tile". When you open a new tab in a new Firefox profile you'll see an overview of different sites you can visit. One of these links is reserved for the community. We discussed our proposal and came to the conclusion that we should focus to tell everyone what the German speaking community does and especially that there are local people working on Mozilla projects._
 
-&nbsp;
-
 ![](https://c1.staticflickr.com/9/8656/16425623968_3a05a0f90d_b.jpg)
-
-_ _
 
 [![CommunityTiles](/images/2015/02/CommunityTiles-1024x636.jpg)](/images/2015/02/CommunityTiles.jpg)
 
@@ -174,11 +174,9 @@ Ihr fragt euch, wer alles mit dabei war? Seht selbst!
 
 _Want to see who was there? See for yourself!_
 
-&nbsp;
-
 ![](https://c1.staticflickr.com/9/8628/15990683374_64c5746a87_b.jpg)
 
-_ (Foto/Photo: Brian King)_
+_(Foto/Photo: Brian King)_
 
 Ich möchte mich bei allen Teilnehmer für die informativen und konstruktiven Diskussionen bedanken. Ich glaube, dass wir einiges zu tun haben im 2015, wenn wir jedoch die Motivation vom Treffen mitnehmen können und unsere Pläne und Ziele umsetzen können, wird dies ein sehr erfolgreiches Jahr. Alle Fotos vom Treffen findet ihr auf [flickr](https://wiki.mozilla.org/De:Meeting:2015#Fotos).
 

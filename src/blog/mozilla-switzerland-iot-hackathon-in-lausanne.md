@@ -7,10 +7,11 @@ date: 2016-04-24 13:04:27
 
 On April 2nd 2016 we held a small [IoT Hackathon in Lausanne](http://www.meetup.com/Mozilla-Meetup-Romandie/events/229797456/) to brainstorm about the Web and IoT. This was aligned with the [new direction that Mozilla is taking on](https://blog.mozilla.org/futurereleases/2016/03/01/update-on-connected-devices/).
 
-**Preparation**
+## Preparation
+
 We started to organize the [Hackathon on Github](https://github.com/mozillach/participation/issues/12), so everyone can participate. Geoffroy was really helpful to organize the space for it at [Liip.ch](https://www.liip.ch). Thanks a lot to them, without them organizing our events would be way harder!
 
-**The Hackathon**
+## The Hackathon
 We expected more people to come, but as mentioned above, this is our first self-organized event in the French speaking part of Switzerland. Nevertheless we were four persons with an interest in hacking something together.
 
 <video src="https://fat.gfycat.com/SereneSnappyAuk.webm" controls="controls" width="300" height="150"></video>
@@ -27,14 +28,14 @@ At this point, we decided we wanted to connect those two pieces and [create a We
 
 After all, we could achieve something together and definitely had some good learnings during that.
 
-**Lessions learned**
+## Lessions learned
 
 *   Organizing a hackathon for the first time in a new city is not easy
 *   We probably need to establish an "evening-only" meetup series first, so we can attract participants that identify with us
 *   We could use this opportunity to document the Liip space in Lausanne for future events on our [Events page on the wiki](https://wiki.mozilla.org/Switzerland/Events)
 *   Not all projects are well documented, we need to work on this!
 
-**After the Hackathon**
+## After the Hackathon
 
 Since I needed to do a project for my studies that involves hardware as well, I could take the opportunity and take the sensors for my project.
 

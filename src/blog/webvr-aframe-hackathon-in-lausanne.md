@@ -25,11 +25,11 @@ Then we did some demos with our gadgets and started hacking. With the help of Be
 
 Here are some projects that were created/started during this hackathon (click on the images to see it live in your browser):
 
-[![](/images/2017/07/Screen-Shot-2017-07-24-at-22.47.46-300x214.png)](https://grrd01.github.io/AFrame/)
+[![](/images/2017/07/Screen-Shot-2017-07-24-at-22.47.46.png)](https://grrd01.github.io/AFrame/)
 
-[![](/images/2017/07/Screen-Shot-2017-07-24-at-22.46.08-300x219.png)](https://gperriard.github.io/a-frame-object-import/)
+[![](/images/2017/07/Screen-Shot-2017-07-24-at-22.46.08.png)](https://gperriard.github.io/a-frame-object-import/)
 
-[![](/images/2017/07/Screen-Shot-2017-07-24-at-22.46.00-300x244.png)](https://michaelkohler.github.io/webvr-reps/)
+[![](/images/2017/07/Screen-Shot-2017-07-24-at-22.46.00.png)](https://michaelkohler.github.io/webvr-reps/)
 
 ### Another thank you - our preparation hero
 

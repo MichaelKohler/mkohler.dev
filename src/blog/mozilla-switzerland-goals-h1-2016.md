@@ -19,8 +19,9 @@ The goals are highly influenced by the [OKR (Objective - Key Results) Framework]
 *   [Objective 4](https://github.com/mozillach/participation/issues/6): The MozillaCH website is the place to link to for community topics
 *   [Objective 5](https://github.com/mozillach/participation/issues/7): With talks and events we increase our reach and provide a valuable information source regarding the Open Web
 *   [Objective 6](https://github.com/mozillach/participation/issues/8): Social Media is a crucial part of our activities providing valuable information about Mozilla and the Open Web
-![CRhvD5rWwAEDmGp](/images/2016/02/CRhvD5rWwAEDmGp.jpg)
+
+![](/images/2016/02/CRhvD5rWwAEDmGp.jpg)
 
 We know that not all of those goals are easily achievable, but this gives us a good way to be ambitious. To a successful first half of 2016, let's bring our community further and keep rocking the Open Web!
 
-![CL52IqpWIAAQN0Y](/images/2016/02/CL52IqpWIAAQN0Y.jpg)
+![](/images/2016/02/CL52IqpWIAAQN0Y.jpg)
