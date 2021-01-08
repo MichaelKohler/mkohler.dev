@@ -421,7 +421,9 @@ nav li:nth-child(6) {
 }
 
 #talks,
-#opensource {
+#opensource,
+#blog,
+#blogpost {
   margin: 30px 30px;
 }
 
@@ -459,6 +461,10 @@ nav li:nth-child(6) {
   min-height: 400px;
   max-height: 400px;
   object-fit: cover;
+}
+
+.date {
+  font-style: italic;
 }
 
 footer {
