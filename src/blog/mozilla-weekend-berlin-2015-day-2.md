@@ -1,5 +1,7 @@
 ---
 title: Mozilla Weekend Berlin - Day 2 / Feedback
+permalink: /blog/2015/07/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2015-07-19 20:38:51
 ---
 

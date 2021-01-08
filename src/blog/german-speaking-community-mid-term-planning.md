@@ -1,5 +1,7 @@
 ---
 title: German-speaking Community mid-term planning
+permalink: /blog/2015/12/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2015-12-24 18:44:26
 ---
 

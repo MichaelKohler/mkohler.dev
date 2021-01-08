@@ -1,5 +1,7 @@
 ---
 title: Mozilla Switzerland Goals H1 2016
+permalink: /blog/2016/02/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2016-02-07 15:43:26
 ---
 

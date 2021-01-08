@@ -1,5 +1,7 @@
 ---
 title: BackupSoft
+permalink: /blog/2010/05/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2010-05-30 20:09:58
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: Firefox OS App Day Frankfurt - 22.11.2014
+permalink: /blog/2014/11/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2014-11-25 22:58:29
 ---
 

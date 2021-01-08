@@ -1,5 +1,7 @@
 ---
 title: Treffen der deutschsprachigen Mozilla Gemeinschaft - Tag 2 (DE / EN)
+permalink: /blog/2015/02/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2015-02-27 04:33:44
 ---
 

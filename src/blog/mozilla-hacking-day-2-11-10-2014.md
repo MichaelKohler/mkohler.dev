@@ -1,5 +1,7 @@
 ---
 title: Mozilla Hacking Day 2 - 11.10.2014
+permalink: /blog/2014/20/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2014-11-20 21:32:40
 ---
 

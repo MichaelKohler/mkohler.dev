@@ -1,5 +1,7 @@
 ---
 title: Barcamp Salzburg March 2014
+permalink: /blog/2014/04/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2014-04-13 17:29:55
 ---
 

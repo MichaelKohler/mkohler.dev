@@ -1,5 +1,7 @@
 ---
 title: Firefox OS App Days - combined with Webmaker
+permalink: /blog/2013/06/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2013-06-23 23:20:59
 ---
 

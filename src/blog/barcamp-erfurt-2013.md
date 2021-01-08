@@ -1,5 +1,7 @@
 ---
 title: Barcamp Erfurt 2013
+permalink: /blog/2013/08/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2013-08-05 23:03:07
 ---
 

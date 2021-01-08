@@ -1,5 +1,7 @@
 ---
 title: FOSS Asia 2015 Singapore
+permalink: /blog/2015/03/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2015-03-16 23:15:59
 ---
 

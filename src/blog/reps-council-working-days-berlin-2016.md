@@ -1,5 +1,7 @@
 ---
 title: Reps Council Working Days Berlin 2016
+permalink: /blog/2016/04/{{title | slug}}/
+layout: "blogpost.liquid"
 date: 2016-04-24 14:10:43
 ---
 
