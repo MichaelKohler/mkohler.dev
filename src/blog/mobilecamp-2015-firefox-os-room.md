@@ -1,7 +1,6 @@
 ---
 title: MobileCamp 2015 - Firefox OS room
 permalink: /blog/2015/05/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2015-05-17 09:01:16
 ---
 

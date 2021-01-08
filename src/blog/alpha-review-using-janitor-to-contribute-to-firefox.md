@@ -1,7 +1,6 @@
 ---
 title: Alpha Review - Using Janitor to contribute to Firefox
 permalink: /blog/2016/05/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2016-05-05 15:02:12
 ---
 

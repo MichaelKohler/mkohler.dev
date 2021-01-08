@@ -1,7 +1,6 @@
 ---
 title: Mozilla Tech Weekend in Berlin - November 28th & 29th
 permalink: /blog/2015/11/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2015-11-14 16:02:14
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: Tabs-on-Top
 permalink: /blog/2010/04/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2010-04-18 21:30:48
 ---
 

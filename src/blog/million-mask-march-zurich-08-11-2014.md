@@ -1,7 +1,6 @@
 ---
 title: Million Mask March Zurich - 08.11.2014
 permalink: /blog/2014/11/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2014-11-20 21:35:03
 ---
 

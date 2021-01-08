@@ -1,7 +1,6 @@
 ---
 title: Mozilla Weekend Berlin 2015 - Preparation & Day 1
 permalink: /blog/2015/07/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2015-07-19 19:24:18
 ---
 

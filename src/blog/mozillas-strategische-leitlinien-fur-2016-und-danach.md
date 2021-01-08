@@ -1,7 +1,6 @@
 ---
 title: Mozillas strategische Leitlinien für 2016 und danach
 permalink: /blog/2016/01/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2016-01-19 17:27:24
 ---
 

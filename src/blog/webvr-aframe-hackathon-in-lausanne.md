@@ -1,7 +1,6 @@
 ---
 title: WebVR/A-Frame Hackathon in Lausanne
 permalink: /blog/2017/07/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2017-07-24 22:49:55
 ---
 

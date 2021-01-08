@@ -1,7 +1,6 @@
 ---
 title: OKCon 2013 in Geneva
 permalink: /blog/2013/11/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2013-11-03 12:39:52
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: German-speaking Mozilla Community Meetup February 2014
 permalink: /blog/2014/02/{{title | slug}}/
-layout: "blogpost.liquid"
 date: 2014-02-23 23:34:25
 ---
 
