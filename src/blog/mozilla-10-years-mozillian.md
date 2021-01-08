@@ -54,7 +54,7 @@ After this initial meeting, we started to meet more regularly in different place
 
 [![](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg)](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg)
 
-Our first event in Switzerland apart from regular MozCoffees was the “Weekend of Code 2012” event. Mozillians from Switzerland shared their knowledge about different areas they are contributing to. I’ve held a [Firefox Source Code talk](https://mkohler.codes/presentations/mozilla_weekend_of_code_2012.html), my first talk I’ve ever given about a Mozilla topic.
+Our first event in Switzerland apart from regular MozCoffees was the “Weekend of Code 2012” event. Mozillians from Switzerland shared their knowledge about different areas they are contributing to. I’ve held a [Firefox Source Code talk](https://mkohler.dev/presentations/mozilla_weekend_of_code_2012.html), my first talk I’ve ever given about a Mozilla topic.
 
 Over the recent years we got more and more organized, having regular meetups in Zurich and other cities of Switzerland. I don’t want to get into too much details about Mozilla Switzerland here, but you can check out [our Wiki page](http://wiki.mozilla.org/Switzerland) and [Twitter account](http://twitter.com/MozillaCH). Also a big “thank you” to everyone involved in the Swiss community, it’s always been a pleasure to organise all these events and make friends.
 
@@ -100,7 +100,7 @@ As Firefox OS was my new primary focus, I started organising events and talks ab
 * July 2014: [Talk at a Swiss meetup](https://www.meetup.com/TechUP-Luzern/events/177492792/)
 * October 2014: [Firefox OS Hackathon in Berlin](https://www.meetup.com/Berlin-Mozilla-Meetup/events/200778982/)
 
-You can find all my talks I’ve ever given [on my website](https://mkohler.codes/talks).
+You can find all my talks I’ve ever given [on my website](https://mkohler.dev/talks/).
 
 ![](/images/2014/04/salzburg1.png)
 
@@ -113,11 +113,9 @@ I was involved with Firefox OS until the [decision to pivot to Connected Devices
 # Reps Governance & Participation
 Thanks to my involvement in the Reps program on a strategic level and my interest in continuing this, I’ve applied to the [Reps Council elections in 2015](https://blog.mozilla.org/mozillareps/2015/05/08/council-elections-know-your-candidates/) in May 2015. This allowed me to shape the conversation and strategy about the Reps program on a more impactful level. This included being invited to several [Mozilla All Hands](https://wiki.mozilla.org/All_Hands) where we spent a week discussing everything about Participation. Some people might not understand why I would take a week off my work to go “work” for Mozilla in my free time, but well, that’s who I am.
 
-[![](https://mkohler.codes/images/me.webp)](https://mkohler.codes/assets/images/me.webp)
+[![](https://mkohler.dev/images/userpic01.webp)](https://mkohler.dev/assets/images/userpic01.webp)
 
 As my first term came to an end, I like having these conversations so much that I [decided to apply for another term](https://discourse.mozilla.org/t/council-elections-september-2016-nominee-q-a/10650). Crazy, I know. We went through the whole “Reps Next” project and introduced a few improvements to the program which were overdue for a long time. This term lasted until November 2017. You might ask why two terms amount to about one and a half year? We had a little delay on the second elections and therefore were not fully on schedule anymore. Happens :)
-
-[![](https://mkohler.codes/images/reps_group.webp)](https://mkohler.codes/assets/images/reps_group.webp)
 
 After my second term on Council I decided to accept Ioana’s proposal to become a Peer. This was officially announced in December 2017. I hope to bring the same valuable inputs to strategic discussions about the program to the broader group as I have been in Council. Let’s see what comes next :)
 
