@@ -1,0 +1,37 @@
+{
+  "short_name": "Michael CV",
+  "name": "Michael Kohler's CV and Blog",
+  "description": "mkohler.dev - Michael Kohler's CV and Blog",
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#23395B",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#23395B",
+  "shortcuts": [
+    {
+      "name": "Open Source",
+      "url": "/opensource/"
+    },
+    {
+      "name": "Talks",
+      "url": "/talks/"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog/"
+    }
+  ]
+}
