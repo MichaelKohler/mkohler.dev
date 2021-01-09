@@ -1,20 +1,28 @@
-const CACHE_STATIC_NAME = 'static-v1';
-const CACHE_DYNAMIC_NAME = 'dynamic-v1';
+const CACHE_NAME = 'cache::v1';
 
 self.addEventListener('install', (event) => {
-  console.log('Installing Service Worker...', event);
-
   event.waitUntil(
-    caches.open(CACHE_STATIC_NAME)
+    caches.open(CACHE_NAME)
       .then((cache) => {
-        console.log('Precaching...');
         cache.addAll([
+          // General
+          '/favicon.ico',
+          '/fa-all.min.css',
           '/theme.css',
           '/data/resume.json',
           '/images/userpic01.webp',
-          '/images/favicon.ico',
           '/offline/',
+          '/fonts/dosis.woff2',
+          '/fonts/fa-brands-400.woff2',
+          '/fonts/fa-solid-900.woff2',
+          '/fonts/raleway.woff2',
+
+          // Subpages
           '/opensource/',
+          '/images/me.webp',
+          '/images/me_community_building.webp',
+          '/images/me_firefox.webp',
+          '/images/reps_group.webp',
           '/talks/',
         ]);
       })
@@ -23,14 +31,11 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('activate', (event) => {
-  console.log('Activating Service Worker...', event);
-
   event.waitUntil(
     caches.keys()
       .then((keyList) => {
         return Promise.all(keyList.map((key) => {
-          if (key !== CACHE_STATIC_NAME && key !== CACHE_DYNAMIC_NAME) {
-            console.log('Removing old cache...', key);
+          if (key !== CACHE_NAME) {
             return caches.delete(key);
           }
         }));
@@ -44,7 +49,7 @@ self.addEventListener('fetch', (event) => {
   event.respondWith(
     fetch(event.request)
       .then((res) => {
-        return caches.open(CACHE_DYNAMIC_NAME)
+        return caches.open(CACHE_NAME)
           .then((cache) => {
             cache.put(event.request.url, res.clone());
             return res;
@@ -55,7 +60,7 @@ self.addEventListener('fetch', (event) => {
       })
       .then((res) => {
         if (!res) {
-          return caches.match('/offline');
+          return caches.match('/offline/');
         }
 
         return res;
