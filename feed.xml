@@ -4,7 +4,7 @@
   <subtitle>I am writing about different topics that relate to me.</subtitle>
   <link href="https://mkohler.dev/feed.xml" rel="self"/>
   <link href="https://mkohler.dev/blog/"/>
-  <updated>2018-04-09T19:29:11+00:00</updated>
+  <updated>2018-04-09T19:29:11Z</updated>
   <id>https://mkohler.dev/blog/</id>
   <author>
     <name>Michael Kohler</name>
@@ -14,10 +14,10 @@
   <entry>
     <title>10 Years as a Mozilla Volunteer</title>
     <link href="https://mkohler.dev/blog/2018/04/10-years-as-a-mozilla-volunteer/"/>
-    <updated>2018-04-09T19:29:11+00:00</updated>
+    <updated>2018-04-09T19:29:11Z</updated>
     <id>https://mkohler.dev/blog/2018/04/10-years-as-a-mozilla-volunteer/</id>
     <content type="html">&lt;p&gt;March 10th, 2018 marked my 10 year anniversary as a Mozilla volunteer. I wanted to write this blog post for quite some time now, but as you might know, writing is not one of my capabilities I’m exercising a lot. With this blog post I’d like to give a quick wrap up of the past 10 years and share the story on how I came to Mozilla. Upfront I’d like to thank everyone who made this journey as amazing as it was, to many more years!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/10years.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/10years.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/10years.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/10years.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Statistics&lt;/h1&gt;
 &lt;p&gt;If you only care about numbers, here they are. These were measured until early March 2018 and taken from Mozilla’s Community Analytics tool.&lt;/p&gt;
 &lt;ul&gt;
@@ -43,18 +43,18 @@
 &lt;h1&gt;First patch&lt;/h1&gt;
 &lt;p&gt;I didn’t work on my first Firefox patch until about a year later. Funny enough, I went back to the first bug I filed and tried to fix it. Getting the development environment up and running and getting used to the Firefox coding style took me some time, and it’s probably also the patch I needed to revise the most times till now. I remember being on IRC and asking all kinds of questions that are still turning up on IRC nowadays. I remember being very happy once the patch was done and got merged into Firefox itself.&lt;/p&gt;
 &lt;p&gt;I have to admit, I’ve done probably less coding on Mozilla projects between 2008 and 2013 than I have done in the past 2 months.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/commits.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/commits.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/commits.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/commits.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;First contact with the community&lt;/h1&gt;
 &lt;p&gt;In 2009 I added myself to the &lt;a href=&quot;https://wiki.mozilla.org/Contributors/Germany_Austria_Switzerland&quot;&gt;Germany/Austria/Switzerland contributors wiki page&lt;/a&gt;. This is how my real-life interaction with the community started - I’m not counting my Math teacher in high school here - for reasons. Henrik, my dear mentor eversince, was working in Switzerland in 2011, and he checked out the mentioned Wiki page and found my name. He contacted me and asked if I’d like to have a coffee and talk about Mozilla and meet eachother. Of course I was in! We’ve met in Bern on a summer evening, 22nd of August 2011 to be exact. Yes, that was the &lt;a href=&quot;https://wiki.mozilla.org/Firefox_6_Release_Party_in_Bern&quot;&gt;Firefox 6 launch party in Bern&lt;/a&gt;. I even got my first Firefox stickers!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/me.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/me.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/me.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/me.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;Mozilla Switzerland&lt;/h1&gt;
 &lt;p&gt;After this initial meeting, we started to meet more regularly in different places in Switzerland. We organised “MozCoffees” in Bern and Zurich, slowly but steadily growing and building the Mozilla Switzerland community.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg&quot;&gt;&lt;img src=&quot;https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg&quot;&gt;&lt;img src=&quot;https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Our first event in Switzerland apart from regular MozCoffees was the “Weekend of Code 2012” event. Mozillians from Switzerland shared their knowledge about different areas they are contributing to. I’ve held a &lt;a href=&quot;https://mkohler.dev/presentations/mozilla_weekend_of_code_2012.html&quot;&gt;Firefox Source Code talk&lt;/a&gt;, my first talk I’ve ever given about a Mozilla topic.&lt;/p&gt;
 &lt;p&gt;Over the recent years we got more and more organized, having regular meetups in Zurich and other cities of Switzerland. I don’t want to get into too much details about Mozilla Switzerland here, but you can check out &lt;a href=&quot;http://wiki.mozilla.org/Switzerland&quot;&gt;our Wiki page&lt;/a&gt; and &lt;a href=&quot;http://twitter.com/MozillaCH&quot;&gt;Twitter account&lt;/a&gt;. Also a big “thank you” to everyone involved in the Swiss community, it’s always been a pleasure to organise all these events and make friends.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/ch.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/ch.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/ch.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/ch.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Henrik also introduced me to &lt;a href=&quot;https://mozillafestival.org/&quot;&gt;MozFest&lt;/a&gt; which I attended the first time together with Henrik in 2011. Since then I’ve attended all MozFests and I don’t plan to stop doing that!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/mozfest.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/mozfest.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/mozfest.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/mozfest.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(Mozilla Switzerland reunited at MozFest 2014 - photo credits to Henrik)&lt;/p&gt;
 &lt;p&gt;The Mozilla Switzerland crew also attended the &lt;a href=&quot;https://wiki.mozilla.org/MozCampEU2012&quot;&gt;MozCamp in Warsaw&lt;/a&gt; in 2012. This was my second interaction point with the international community which helped me a lot to get around! That’s also the first time I’ve met Ioana, our lovely Mozilla Reps module owner.&lt;/p&gt;
 &lt;h1&gt;The Reps era&lt;/h1&gt;
@@ -62,12 +62,12 @@
 &lt;p&gt;I think my contributions through the Reps program would deserve a completely independent blog post, so I’m not gonna go into details here. You can find all 44 pages of reports since then in the &lt;a href=&quot;https://mozilla.github.io/reps-archive/reps/michaelkohler.html&quot;&gt;Reps archive&lt;/a&gt;. Have fun! I was also featured as &lt;a href=&quot;https://twitter.com/hmitsch/status/441253990211538946&quot;&gt;“Rep of the Month” in March 2014&lt;/a&gt;, I was really happy about that!&lt;/p&gt;
 &lt;h1&gt;Trying to build the German speaking community&lt;/h1&gt;
 &lt;p&gt;A big part of my Reps life was devoted to the German-speaking community. This includes Germany, Austria and parts of Switzerland. I was invited to the &lt;a href=&quot;http://brian.kingsonline.net/talk/2013/01/german-community-reboot/&quot;&gt;“Community Reboot”&lt;/a&gt; event in January 2013 which marked the &lt;a href=&quot;https://www.soeren-hentzschel.at/mozilla/ein-neuanfang-fur-die-deutschsprachige-mozilla-community/&quot;&gt;start&lt;/a&gt; of my little project to nurture the German-speaking community and bring it closer together. We did several experiments with the regular &lt;a href=&quot;https://wiki.mozilla.org/De/Meetings&quot;&gt;online meetings of the community&lt;/a&gt; and also introduced regular video meetings.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/demeeting.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/demeeting.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/demeeting.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/demeeting.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I’ve organized a &lt;a href=&quot;https://mozilla.github.io/reps-archive/e/german-speaking-community-meeting-2014/&quot;&gt;followup real-life meeting in February 2014&lt;/a&gt; to bring the community together and talk about everything community related. In 2015 we’ve organized the &lt;a href=&quot;https://mozilla.github.io/reps-archive/e/mozilla-tech-weekend-berlin/&quot;&gt;first Mozilla Tech Weekend&lt;/a&gt; which gave a good initial boost to the Berlin community. A big shoutout goes to Florian Merz for talking it into his own hands to build a community in Berlin. Well done! A big &amp;quot;thank you&amp;quot; goes to Axel Hecht as well, as he has been guiding and mentoring me along the way. I think I would have abandoned this project earlier without him.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/hacking.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/hacking.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/demeeting2.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/demeeting2.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/hacking.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/hacking.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/demeeting2.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/demeeting2.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;All my efforts lasted until around early 2016, when I decided that the whole project doesn’t meet my high expectations and I didn’t see any progress within the German-speaking community for quite some time. There were other reasons I’d like not to mention here, that’s why I’m keeping this section of the blog post quite small. All in all, it was a good opportunity for me to build skills and capabilities and I think it’s always good to learn from unsuccessful projects. I definitely did!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/monument.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/monument.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2018/04/monument.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/monument.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;The Firefox OS era&lt;/h1&gt;
 &lt;p&gt;When I first heard about Firefox OS I was excited. At one of the Mozilla Switzerland meetups Henrik tried to get it running on a Samsung Galaxy and we had a lot of fun. This was before the Geeksphone devices came out. I remember the day when I ordered my first Firefox OS phone so I can play around with it. Turned out, I very quickly switched to it as my primary phone and until it’s end always used a Firefox OS phone as primary phone. Sometime with experimental builds on it, but that was nothing new as I was using Firefox Nightly as my main browser as well (same people might say I like to live dangerously..). Dogfooding (or as we called it, Foxfooding) was very important to provide a stable and working platform and I didn’t see another way apart from using it daily. Up to now I’m missing the “switch apps by swiping from the very edge of the phone” feature, that was amazing!&lt;/p&gt;
 &lt;p&gt;As Firefox OS was my new primary focus, I started organising events and talks about it. Together with other amazing contributors around Germany, Austria and Switzerland I’ve organized App hackathons, to name a few (not a full list):&lt;/p&gt;
@@ -80,13 +80,13 @@
 &lt;li&gt;October 2014: &lt;a href=&quot;https://www.meetup.com/Berlin-Mozilla-Meetup/events/200778982/&quot;&gt;Firefox OS Hackathon in Berlin&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You can find all my talks I’ve ever given &lt;a href=&quot;https://mkohler.dev/talks/&quot;&gt;on my website&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/salzburg1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/chhackathon.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/salzburg1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2018/04/chhackathon.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Once Firefox OS launched in Germany, I was part of the launch team. We did a &lt;a href=&quot;https://wiki.mozilla.org/De/Firefox_OS_Promotion_Cologne_2014&quot;&gt;promotion event in Cologne&lt;/a&gt; which was something new to me. I was used to &amp;quot;selling&amp;quot; Firefox to people, but there was no actual sale involved. With Firefox OS, potential users had to buy a phone to actually use it. I think we had some traction with the Firefox costume, but not really with Firefox OS. Well, I guess that was to be expected in hindsight.&lt;/p&gt;
 &lt;p&gt;I was involved with Firefox OS until the &lt;a href=&quot;https://blog.mozilla.org/blog/2015/12/09/firefox-os-pivot-to-connected-devices/&quot;&gt;decision to pivot to Connected Devices&lt;/a&gt;. After that I was more focused on Reps specific tasks.&lt;/p&gt;
 &lt;h1&gt;Reps Governance &amp;amp; Participation&lt;/h1&gt;
 &lt;p&gt;Thanks to my involvement in the Reps program on a strategic level and my interest in continuing this, I’ve applied to the &lt;a href=&quot;https://blog.mozilla.org/mozillareps/2015/05/08/council-elections-know-your-candidates/&quot;&gt;Reps Council elections in 2015&lt;/a&gt; in May 2015. This allowed me to shape the conversation and strategy about the Reps program on a more impactful level. This included being invited to several &lt;a href=&quot;https://wiki.mozilla.org/All_Hands&quot;&gt;Mozilla All Hands&lt;/a&gt; where we spent a week discussing everything about Participation. Some people might not understand why I would take a week off my work to go “work” for Mozilla in my free time, but well, that’s who I am.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/assets/images/userpic01.webp&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/userpic01.webp&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/assets/images/userpic01.webp&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/userpic01.webp&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;As my first term came to an end, I like having these conversations so much that I &lt;a href=&quot;https://discourse.mozilla.org/t/council-elections-september-2016-nominee-q-a/10650&quot;&gt;decided to apply for another term&lt;/a&gt;. Crazy, I know. We went through the whole “Reps Next” project and introduced a few improvements to the program which were overdue for a long time. This term lasted until November 2017. You might ask why two terms amount to about one and a half year? We had a little delay on the second elections and therefore were not fully on schedule anymore. Happens :)&lt;/p&gt;
 &lt;p&gt;After my second term on Council I decided to accept Ioana’s proposal to become a Peer. This was officially announced in December 2017. I hope to bring the same valuable inputs to strategic discussions about the program to the broader group as I have been in Council. Let’s see what comes next :)&lt;/p&gt;
 &lt;h1&gt;What is next&lt;/h1&gt;
@@ -101,25 +101,25 @@
   <entry>
     <title>WebVR/A-Frame Hackathon in Lausanne</title>
     <link href="https://mkohler.dev/blog/2017/07/webvra-frame-hackathon-in-lausanne/"/>
-    <updated>2017-07-24T22:49:55+00:00</updated>
+    <updated>2017-07-24T22:49:55Z</updated>
     <id>https://mkohler.dev/blog/2017/07/webvra-frame-hackathon-in-lausanne/</id>
     <content type="html">&lt;p&gt;Last Saturday the &lt;a href=&quot;http://mozilla.ch/&quot;&gt;Mozilla Switzerland community&lt;/a&gt;, together with &lt;a href=&quot;https://www.liip.ch/en&quot;&gt;Liip&lt;/a&gt;, has organized a &lt;a href=&quot;https://mkohler.dev/blog/2017/07/webvra-frame-hackathon-in-lausanne/mozilla.github.io/reps-archive/e/webvr-a-frame-hackathon/&quot;&gt;WebVR/A-Frame Hackathon&lt;/a&gt; in Lausanne, Switzerland. As always (also in Zurich), we turned to Liip for support regarding a venue, and as always they were happy to host us in Lausanne. At this point, a big &amp;quot;thank you&amp;quot; to them! Without their support we couldn&#39;t organize events as easy as we can now.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://aframe.io/&quot;&gt;A-Frame&lt;/a&gt; is a framework for WebVR, making it easy to create scenes and components that can be viewed in the browser, with Cardboard, the HTC Vive and other VR devices. A-Frame even includes an Inspector that makes it easy to develop VR applications in the browser without having to test it constantly on a real VR device.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2017/07/L0086.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/L0086.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2017/07/L0086.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/L0086.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;About the event&lt;/h3&gt;
 &lt;p&gt;We gathered at 10 o&#39;clock to have some initial talks and a light breakfast. It also took some time to set up the Vive and making sure we can demo &lt;a href=&quot;https://aframe.io/a-painter&quot;&gt;A-Painter&lt;/a&gt; and other VR applications. At around 10:30 we started with a quick intro by Geoffroy and me. We &lt;a href=&quot;https://docs.google.com/presentation/d/1udTkTO9qn76qwNlW3g5IhOCFpS_2eqv8RGfQOUdOaKk&quot;&gt;explained the agenda and some general information about Mozilla&lt;/a&gt;. After that, Ben gave an &lt;a href=&quot;https://docs.google.com/presentation/d/1UzDvBJno6CR-fsuVQzXvBS1RnvHY9Xe8NRYl-yVFWwg/edit#slide=id.g24a51ed3a8_0_16&quot;&gt;intro to WebVR&lt;/a&gt; and how they are using A-Frame at &lt;a href=&quot;https://spaces.archilogic.com/explore&quot;&gt;Archilogic&lt;/a&gt;. It&#39;s amazing to see how it is being used in the wild for really amazing and helpful projects! Thank you for your time to come to Lausanne and present to us!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://twitter.com/MozillaCH/status/888679520970186752&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/DFU5S_nWAAAbxFi.jpg_large.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://twitter.com/MozillaCH/status/888679520970186752&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/DFU5S_nWAAAbxFi.jpg_large.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Then we did some demos with our gadgets and started hacking. With the help of Ben it was easy to create our own first projects. What struck me most is that my creativity and design skills came to end quite quickly, but nevertheless I could easily create a good Proof of Concept for a future iteration (through skilled people and Pull Requests). :)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2017/07/DFa5E_2XYAAtCwi.jpg_large.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/DFa5E_2XYAAtCwi.jpg_large.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2017/07/L0065.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/L0065.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2017/07/DFa5E_2XYAAtCwi.jpg_large.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/DFa5E_2XYAAtCwi.jpg_large.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2017/07/L0065.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/L0065.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Here are some projects that were created/started during this hackathon (click on the images to see it live in your browser):&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://grrd01.github.io/AFrame/&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/Screen-Shot-2017-07-24-at-22.47.46.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://gperriard.github.io/a-frame-object-import/&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/Screen-Shot-2017-07-24-at-22.46.08.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://michaelkohler.github.io/webvr-reps/&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/Screen-Shot-2017-07-24-at-22.46.00.png&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://grrd01.github.io/AFrame/&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/Screen-Shot-2017-07-24-at-22.47.46.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://gperriard.github.io/a-frame-object-import/&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/Screen-Shot-2017-07-24-at-22.46.08.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://michaelkohler.github.io/webvr-reps/&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/Screen-Shot-2017-07-24-at-22.46.00.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Another thank you - our preparation hero&lt;/h3&gt;
 &lt;p&gt;A big &amp;quot;thank you&amp;quot; goes to &lt;a href=&quot;https://twitter.com/gperriard&quot;&gt;Geoffroy&lt;/a&gt;, who has helped us out with the whole coordination with the venue and did an amazing job promoting the event to his network. We are so happy to have people like Geoffroy who are helping us keep the Open Web public and accessible to all!&lt;/p&gt;
 &lt;p&gt;Honestly, the only thing I did was the administration parts of creating event pages on the Reps portal and Meetup, coordinate for having a speaker and giving a short intro talk about the agenda (with his help). Everything about the venue, food, gadgets was organized by him. He even went as far as traveling to Zurich to get an HTC Vive so we can show case that as well!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2017/07/L0294.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/L0294.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2017/07/L0294.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2017/07/L0294.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h3&gt;Conclusion&lt;/h3&gt;
 &lt;p&gt;We had a lot of fun, and we hope our attendees did too! The verbal feedback was good, however we couldn&#39;t get a lot of responses through the feedback form, even though I reminded all participants after the event through email to please fill out the feedback form. Additionally we need to do better in terms of diversity!&lt;/p&gt;
 &lt;p&gt;All photos are used with permission by Liip or their respective owners if linked to a tweet.&lt;/p&gt;
@@ -129,12 +129,12 @@
   <entry>
     <title>Mozilla Switzerland Community Meetup 2017</title>
     <link href="https://mkohler.dev/blog/2017/01/mozilla-switzerland-community-meetup-2017/"/>
-    <updated>2017-01-28T21:55:40+00:00</updated>
+    <updated>2017-01-28T21:55:40Z</updated>
     <id>https://mkohler.dev/blog/2017/01/mozilla-switzerland-community-meetup-2017/</id>
     <content type="html">&lt;p&gt;On the 28th of January we, the Mozilla Switzerland, community held another community meetup to organize ourselves for the next few months in 2017.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.jpeg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We did a start/stop/continue analysis of our work in 2016. Here&#39;s the result:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://michaelkohler.info/mozilla/mozillach-start-top-continue.jpg&quot;&gt;&lt;img src=&quot;https://michaelkohler.info/mozilla/mozillach-start-top-continue.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://michaelkohler.info/mozilla/mozillach-start-top-continue.jpg&quot;&gt;&lt;img src=&quot;https://michaelkohler.info/mozilla/mozillach-start-top-continue.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;With that in mind, we came up with a few goals for the first half of the year. Since we all agreed on stopping to do unrealistic goals we focused on the most voted ones from above. Of course this doesn&#39;t mean that we will only do those, so everyone is encouraged to also do their own initiatives and we will still have our monthly meetups to bring topics forward.&lt;/p&gt;
 &lt;p&gt;These are our goals for the first half of 2017. Our motto is: Complete goals and do more instead of running after goal completion and not succeed like we did in the past year.&lt;/p&gt;
 &lt;ul&gt;
@@ -179,10 +179,10 @@
   <entry>
     <title>Mozilla Switzerland - Community Meetup June 2016</title>
     <link href="https://mkohler.dev/blog/2016/09/mozilla-switzerland-community-meetup-june-2016/"/>
-    <updated>2016-09-06T21:05:47+00:00</updated>
+    <updated>2016-09-06T21:05:47Z</updated>
     <id>https://mkohler.dev/blog/2016/09/mozilla-switzerland-community-meetup-june-2016/</id>
     <content type="html">&lt;p&gt;On June 20th the Swiss Mozillians met in Zurich to discuss the second half of the year. The goal was to come up with objectives for &lt;a href=&quot;https://mozilla.ch/&quot;&gt;mozilla.ch&lt;/a&gt; that are aligned with the current Mozilla strategy and the Participation Team and Mozilla Reps goals.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/2016/09/mozillach_logo_cutout-sky_twitterheader.jpeg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.jpeg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/2016/09/mozillach_logo_cutout-sky_twitterheader.jpeg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;At first we did a retrospective, here are the key results:&lt;/p&gt;
 &lt;h2&gt;What should we stop doing?&lt;/h2&gt;
 &lt;ul&gt;
@@ -237,22 +237,22 @@ With that in mind, we came up with two objectives. Both are aligned with overall
   <entry>
     <title>Alpha Review - Using Janitor to contribute to Firefox</title>
     <link href="https://mkohler.dev/blog/2016/05/alpha-review-using-janitor-to-contribute-to-firefox/"/>
-    <updated>2016-05-05T15:02:12+00:00</updated>
+    <updated>2016-05-05T15:02:12Z</updated>
     <id>https://mkohler.dev/blog/2016/05/alpha-review-using-janitor-to-contribute-to-firefox/</id>
     <content type="html">&lt;p&gt;At the &lt;a href=&quot;https://mkohler.dev/blog/2016/firefox-hackathon-zurich-april-2016&quot;&gt;Firefox Hackathon in Zurich&lt;/a&gt; we used &lt;a href=&quot;http://janitor.technology/&quot;&gt;The Janitor&lt;/a&gt; to contribute to Firefox. It&#39;s important to note that it&#39;s still in alpha and invite-only.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.37.23&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.37.23&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The Janitor was started by &lt;a href=&quot;https://mozillians.org/en-US/u/janx/&quot;&gt;Jan Keromnes&lt;/a&gt;, a Mozilla employee. While still in an alpha state, Jan gave us access to it so we could test run it at our hackathon. Many thanks to him for spending his Saturday on IRC and helping us out with everything!&lt;/p&gt;
 &lt;p&gt;Once you&#39;re signed up, you can click on &amp;quot;Open in Cloud9&amp;quot; and directly get to the &lt;a href=&quot;http://c9.io/&quot;&gt;Cloud9 editor&lt;/a&gt; who kindly sponsor the premium accounts for this project. Cloud9 is a pure-web IDE based on real Linux environments, with an insanely fast editor.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.38.23&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.38.50&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.38.23&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.38.50&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;At the hackathon we ran into a Cloud9 &amp;quot;create workspace&amp;quot; limitation, but according to Jan this should be fixed now.&lt;/p&gt;
 &lt;h2&gt;Setting up&lt;/h2&gt;
 &lt;p&gt;After an initial &amp;quot;git pull origin master&amp;quot; in the Cloud9 editor terminal, you can start to build Firefox in there. Simply running &amp;quot;./mach build&amp;quot; is enough. For me this took about 12 minutes for the first time, while my laptop still needs more than 50 minutes to compile Firefox. This is definitely an improvement. Further you won&#39;t need anything else than a browser!&lt;/p&gt;
 &lt;p&gt;I had my environment ready in about 15 minutes if you count the time to compile Firefox. Comparing this to my previous setups, this solves a lot of dependency-hell problems and is also way faster.&lt;/p&gt;
 &lt;h2&gt;Running the newly compiled Firefox&lt;/h2&gt;
 &lt;p&gt;The Janitor includes a VNC viewer which opens a new tab and you can run your compiled Firefox in there. You can start a shell and run &amp;quot;./mach run&amp;quot; in the Firefox directory and you can start testing your changes.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.49.08&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.50.20&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.49.08&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.png&quot; alt=&quot;Screen Shot 2016-05-05 at 14.50.20&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Running ESLint&lt;/h2&gt;
 &lt;p&gt;For some of the bugs we tackled at the hackathon, we needed to run ESLint (well, would be good to run this anyway, no matter what part of the code base you&#39;re changing). The command looks like this:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;    user@e49de5f6914e:~/firefox$ ./mach eslint --no-ignore devtools/client/webconsole/test/browser_webconsole_live_filtering_of_message_types.js
@@ -285,18 +285,18 @@ With that in mind, we came up with two objectives. Both are aligned with overall
   <entry>
     <title>Firefox Hackathon Zurich April 2016</title>
     <link href="https://mkohler.dev/blog/2016/05/firefox-hackathon-zurich-april-2016/"/>
-    <updated>2016-05-05T14:31:47+00:00</updated>
+    <updated>2016-05-05T14:31:47Z</updated>
     <id>https://mkohler.dev/blog/2016/05/firefox-hackathon-zurich-april-2016/</id>
     <content type="html">&lt;p&gt;Last Saturday we&#39;ve held a &lt;a href=&quot;https://mozilla.github.io/reps-archive/e/firefox-hackathon-zurich-april-2015/&quot;&gt;Firefox Hackathon&lt;/a&gt; in Zurich, Switzerland. We&#39;ve had 12 people joining us.&lt;/p&gt;
 &lt;h2&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;At first I gave an &lt;a href=&quot;https://docs.google.com/presentation/d/11euVpPoJ7kKO1OcWTYCqA3XOmUC_DAoGi1rJEeQtOS8/edit&quot;&gt;introduction to Firefox&lt;/a&gt; and introduced the agenda of the hackathon.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c7.staticflickr.com/8/7753/26557746230_9362c332c9_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c7.staticflickr.com/8/7753/26557746230_9362c332c9_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Dev Tools Talk&lt;/h2&gt;
 &lt;p&gt;After my talk we heard an amazing talk from &lt;a href=&quot;https://mozilla.github.io/reps-archive/u/Mte90&quot;&gt;Daniele&lt;/a&gt; who came from Italy to attend this hackathon. &lt;a href=&quot;http://mte90.github.io/Talk-DevTools&quot;&gt;He talked about the Dev Tools&lt;/a&gt; and gave a nice introduction to new features!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c5.staticflickr.com/8/7446/26736586972_51c7593fdf_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c5.staticflickr.com/8/7446/26736586972_51c7593fdf_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Hackathon&lt;/h2&gt;
 &lt;p&gt;Before the hackathon we created a list of &amp;quot;good first bugs&amp;quot; that we could work on. This was a great thing to do, since we could give the list to the attendees and they could pick a bug to work on. Setting up the environment to hack was pretty easy. We&#39;ve used &amp;quot;The Janitor&amp;quot; to hack on Firefox, I&#39;ll write a second blog post introducing you to this amazing tool! We ran into a few problems with it, but at the end we all could hack on Firefox!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c5.staticflickr.com/8/7791/26736583812_e110d0bebb_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c5.staticflickr.com/8/7791/26736583812_e110d0bebb_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We worked on about 13 different bugs, and we finished 10 patches! This is a great achievement, we probably couldn&#39;t have done that if we needed more time to set up a traditional Firefox environment. Here&#39;s the full list:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=1031956&quot;&gt;https://bugzilla.mozilla.org/show_bug.cgi?id=1031956&lt;/a&gt; (Colin, Patch done, but not yet uploaded)&lt;/li&gt;
@@ -311,12 +311,12 @@ With that in mind, we came up with two objectives. Both are aligned with overall
 &lt;li&gt;&lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=1256854&quot;&gt;https://bugzilla.mozilla.org/show_bug.cgi?id=1256854&lt;/a&gt; (Michael, patch was checked in)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Thanks to everybody who contributed, great work! Also a big thanks to Julian Descolette, a Dev Tools employee from Switzerland who supported us as a really good mentor. Without him we probably couldn&#39;t have fixed some of the bugs in that time!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c5.staticflickr.com/8/7137/26736578932_68c48cf246_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c5.staticflickr.com/8/7137/26736578932_68c48cf246_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Feedback&lt;/h2&gt;
 &lt;p&gt;At the end of the hackathon we did a round of feedback. In general the feedback was rated pretty well, though we might have some things to improve for the next time.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/hackathon1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/hackathon1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;40% of the attendees had their first interaction with our community at this hackathon! And guess what, 100% of the attendees who filled out the survey would be joining another hackathon in 6 months:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/hackathon2.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/05/hackathon2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;For the next hackathon, we might want to have a talk about the Firefox Architecture in general to give some context to the different modules. Also for the next hackathon we probably will have a fully working Janitor (meaning not alpha status anymore) which will help even more as well.&lt;/p&gt;
 &lt;h2&gt;Lessions learned&lt;/h2&gt;
 &lt;ul&gt;
@@ -324,7 +324,7 @@ With that in mind, we came up with two objectives. Both are aligned with overall
 &lt;li&gt;The mix of talk + then directly start hacking works out&lt;/li&gt;
 &lt;li&gt;The participants are happy if they can create a patch in a few minutes to learn the process (Creating Patch, Bugzilla, Review, etc) and I think they are more motivated for future patches&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://c4.staticflickr.com/8/7164/26830426435_816408ddb3_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c4.staticflickr.com/8/7164/26830426435_816408ddb3_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;All in all I think this was a great success. Janitor will make every contributor&#39;s life way easier, keep it going! You can find the &lt;a href=&quot;https://www.flickr.com/photos/128655475@N02/albums/72157665608923543&quot;&gt;full album on Flickr&lt;/a&gt; (thanks to Daniele for the great pictures!).&lt;/p&gt;
 </content>
   </entry>
@@ -332,15 +332,15 @@ With that in mind, we came up with two objectives. Both are aligned with overall
   <entry>
     <title>Reps Council Working Days Berlin 2016</title>
     <link href="https://mkohler.dev/blog/2016/04/reps-council-working-days-berlin-2016/"/>
-    <updated>2016-04-24T14:10:43+00:00</updated>
+    <updated>2016-04-24T14:10:43Z</updated>
     <id>https://mkohler.dev/blog/2016/04/reps-council-working-days-berlin-2016/</id>
     <content type="html">&lt;p&gt;From April 15th through April 17th the &lt;a href=&quot;https://wiki.mozilla.org/ReMo/Council&quot;&gt;Mozilla Reps Council&lt;/a&gt; met in Berlin together with the &lt;a href=&quot;http://wiki.mozilla.org/Participation&quot;&gt;Participation Team&lt;/a&gt; to discuss the Working groups and overall strategy topics. Unfortunately I couldn&#39;t attend on Friday (working day 1) since I had to take my exams. Therefore I could only attend Saturday and Sunday. Nevertheless I think I could help out a lot and definitely learned a lot doing this :) This blog posts reflects my personal opinions, the others will write a blog post as well to give you a more concise view of this weekend.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c3.staticflickr.com/2/1646/26511239466_c573cc66ca_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c3.staticflickr.com/2/1646/26511239466_c573cc66ca_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Alignment Working Group&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://c4.staticflickr.com/2/1475/26537195435_5d8245682f_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c4.staticflickr.com/2/1475/26537195435_5d8245682f_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The first session on Saturday was about the Alignment WG. Before the weekend we (more or less) finished the &lt;a href=&quot;https://discourse.mozilla-community.org/t/working-group-alignment-with-participation-team-and-mozilla-organisation/7013&quot;&gt;proposal&lt;/a&gt;. This allowed us to discuss the last few open questions, which are now all integrated in the proposal. This will only need review by Konstantina to make sure I haven&#39;t forgotten to add anything from the session and then we can start implementing it. We are sure that this will formalize the interaction between Mozilla goals and Reps goals, stay tuned for more information, we&#39;re currently working on a communication strategy for all the RepsNext changes to make it easier and more fun for you to get informed about the changes.&lt;/p&gt;
 &lt;h2&gt;Meta Working Group&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://c4.staticflickr.com/2/1533/26537201035_397edf66a9_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c4.staticflickr.com/2/1533/26537201035_397edf66a9_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;For the Meta Working Group we had more open questions and therefore decided to do brainstorming in three teams. The questions were:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Who can join Council?&lt;/li&gt;
@@ -350,14 +350,14 @@ With that in mind, we came up with two objectives. Both are aligned with overall
 &lt;p&gt;We&#39;re currently documenting the findings in the &lt;a href=&quot;https://docs.google.com/document/d/1nasMyLtDj9YV0Dk_pqhMyw75ETCJqU9MSgJqS3Uirgk/edit#&quot;&gt;Meta working group working proposal&lt;/a&gt;, but we probably will need some more time to figure out everything perfectly. Keep an eye out on the &lt;a href=&quot;https://discourse.mozilla-community.org/t/working-group-meta/7051&quot;&gt;Discourse topic&lt;/a&gt; in case we&#39;ll need more feedback from you all!&lt;/p&gt;
 &lt;h2&gt;Identity Working Group&lt;/h2&gt;
 &lt;p&gt;A new working group? As you see, I didn&#39;t believe it at first and Rara was visibly shocked!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/2/1467/25932254064_8663f96947_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/2/1467/25932254064_8663f96947_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Fun aside, yes, we&#39;ll start a new Working group around the topics of outwards communication and the Rep program&#39;s image. During our discussions on Saturday, we came up with a few questions that we will need to answer. This Friday we had our first call, follow us in the &lt;a href=&quot;https://discourse.mozilla-community.org/t/reps-identity-comms-working-group/8174/7&quot;&gt;Discourse topic&lt;/a&gt; and it&#39;s not too late to help out here! Please get involved as soon as possible to shape the future of Reps!&lt;/p&gt;
 &lt;h2&gt;Communication Session&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/04/council-notes.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/04/council-notes.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;On Sunday we ran a joint session with the rest of the Participation team around the topic &amp;quot;How we work together&amp;quot;. We came up with the questions above and let those be answered / brainstormed in groups. I started to document the findings yesterday, but this is not yet in a state where it will be useful for anybody. Stay tuned for more communication around this (communication about communication, isn&#39;t it fun? :)). The last question around &amp;quot;How might we improve the communication between the Participation-Team and the Council?&amp;quot; is already documented in the Alignment Working group proposal. Further the Identity working group will tackle and elaborate further the question around visibility.&lt;/p&gt;
 &lt;h2&gt;Reps Roadmap for 2016&lt;/h2&gt;
 &lt;p&gt;Wait, there is a roadmap?&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c2.staticflickr.com/2/1523/25934141553_f098480a41_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c2.staticflickr.com/2/1523/25934141553_f098480a41_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Yes!&lt;/p&gt;
 &lt;p&gt;At the end of our sessions we put up a timeline for Reps for all our different initiatives on a wall. Within the next days we&#39;ll work on this to have it digitally per months. For now, we have started to create GitHub issues in the &lt;a href=&quot;https://github.com/mozilla/reps/issues&quot;&gt;Reps repo&lt;/a&gt;. Stay tuned for more information about this, the current information might confuse you since we haven&#39;t updated all issues yet! It basically includes everything from RepsNext proposal implementations to London Work Week preparations to Council elections.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
@@ -371,7 +371,7 @@ With that in mind, we came up with two objectives. Both are aligned with overall
   <entry>
     <title>Mozilla Switzerland IoT Hackathon in Lausanne</title>
     <link href="https://mkohler.dev/blog/2016/04/mozilla-switzerland-iot-hackathon-in-lausanne/"/>
-    <updated>2016-04-24T13:04:27+00:00</updated>
+    <updated>2016-04-24T13:04:27Z</updated>
     <id>https://mkohler.dev/blog/2016/04/mozilla-switzerland-iot-hackathon-in-lausanne/</id>
     <content type="html">&lt;p&gt;On April 2nd 2016 we held a small &lt;a href=&quot;http://www.meetup.com/Mozilla-Meetup-Romandie/events/229797456/&quot;&gt;IoT Hackathon in Lausanne&lt;/a&gt; to brainstorm about the Web and IoT. This was aligned with the &lt;a href=&quot;https://blog.mozilla.org/futurereleases/2016/03/01/update-on-connected-devices/&quot;&gt;new direction that Mozilla is taking on&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Preparation&lt;/h2&gt;
@@ -381,9 +381,9 @@ With that in mind, we came up with two objectives. Both are aligned with overall
 &lt;p&gt;&lt;video src=&quot;https://fat.gfycat.com/SereneSnappyAuk.webm&quot; controls=&quot;controls&quot; width=&quot;300&quot; height=&quot;150&quot;&gt;&lt;/video&gt;&lt;/p&gt;
 &lt;p&gt;Geoffroy and Paul started to have a look at &lt;a href=&quot;https://github.com/mozilla/vaani.iot&quot;&gt;Vaani.iot&lt;/a&gt;, one of the projects that Mozilla is currently pushing on. They started to build it on their laptops, unfortunately the Vaani documentation is not good enough yet to see the full picture and what you could do with it. We&#39;re planning to &lt;a href=&quot;https://github.com/mozillach/participation/issues/37&quot;&gt;send some feedback&lt;/a&gt; regarding that to the Vaani team.&lt;/p&gt;
 &lt;p&gt;In the meantime Martin and I set up my Raspberry Pi and started to write a small script together that reads out the temperature from one of the sensors. Once we&#39;ve done that, I created a small API to have the temperature returned in JSON format.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/04/iot1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/04/iot1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;At this point, we decided we wanted to connect those two pieces and &lt;a href=&quot;https://github.com/mozillach/mozilla-iot-hackaton&quot;&gt;create a Web app&lt;/a&gt; to read out the temperature and announce it through voice. Since we couldn&#39;t get Vaani working, we decided to use the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API&quot;&gt;WebSpeech API&lt;/a&gt; for this. The voice output part is available in Firefox and Chrome right now, therefore we could achieve this goal without using any non-standard APIs. After that Geoffroy played around with the voice input feature of this API. This is currently only working in Chrome, but there is a &lt;a href=&quot;https://bugzilla.mozilla.org/show_bug.cgi?id=1248897&quot;&gt;bug to implement it in Firefox&lt;/a&gt; as well. In the spirit of the open web, we decided to ignore the fact that we need to use Chrome for now, and create a feature that is built on Web standards that are on track to standardization.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/04/iot2.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/04/iot2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;After all, we could achieve something together and definitely had some good learnings during that.&lt;/p&gt;
 &lt;h2&gt;Lessions learned&lt;/h2&gt;
 &lt;ul&gt;
@@ -394,7 +394,7 @@ With that in mind, we came up with two objectives. Both are aligned with overall
 &lt;/ul&gt;
 &lt;h2&gt;After the Hackathon&lt;/h2&gt;
 &lt;p&gt;Since I needed to do a project for my studies that involves hardware as well, I could take the opportunity and take the sensors for my project.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/04/iot3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/04/iot3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;You can find the Source Code on the &lt;a href=&quot;https://github.com/mozillach/raspberry-temp-motion&quot;&gt;MozillaCH github organization&lt;/a&gt;. It currently regularly reads out the two temperature sensors and checks if there is any movement registered by the movement sensor. If the temperature difference is too high it sends an alarm to the NodeJS backend. The same goes for the situation where it detects movement. I see this as a first step into my own take on a smart home, it would need a lot of work and more sensors to be completely useful though.&lt;/p&gt;
 </content>
   </entry>
@@ -402,11 +402,11 @@ With that in mind, we came up with two objectives. Both are aligned with overall
   <entry>
     <title>Mozilla Switzerland Goals H1 2016</title>
     <link href="https://mkohler.dev/blog/2016/02/mozilla-switzerland-goals-h1-2016/"/>
-    <updated>2016-02-07T15:43:26+00:00</updated>
+    <updated>2016-02-07T15:43:26Z</updated>
     <id>https://mkohler.dev/blog/2016/02/mozilla-switzerland-goals-h1-2016/</id>
     <content type="html">&lt;p&gt;Back in November we had a Community Meetup. The goal was to get a current status on the Community and define plans and goals for 2016. To do that, we started with a &lt;a href=&quot;https://en.wikipedia.org/wiki/SWOT_analysis&quot;&gt;SWOT-Analysis&lt;/a&gt;. You can find it &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1CtC9L1VR3uE3wcO90sIXgdRnqKyQGHPsBbIJQn-3qVY/edit#gid=0&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;With these remarks in mind, we started to define goals for 2016. Since there are a lot of changes within one year, the goals will currently only focus on the first part of the year. Then we can evaluate them, shift metrics if needed, and define new goals. This allows us to be more flexible.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/02/CRgk487XIAAwpkg.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/02/CRgk487XIAAwpkg.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;The goals are highly influenced by the &lt;a href=&quot;http://eleganthack.com/the-art-of-the-okr/&quot;&gt;OKR (Objective - Key Results) Framework&lt;/a&gt;. To document open issues that support this goal, I have created &lt;a href=&quot;https://github.com/mozillach/participation&quot;&gt;a repository in our MozillaCH GitHub organization&lt;/a&gt;. The goal is to assign the &amp;quot;overall goal&amp;quot; label to each issue. You can find a good documentation on GitHub issues &lt;a href=&quot;https://help.github.com/articles/about-issues/&quot;&gt;in their documentation&lt;/a&gt;. There is &lt;a href=&quot;https://github.com/mozillach/participation/issues/1&quot;&gt;a template&lt;/a&gt; you can use for new issues.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/mozillach/participation/issues/3&quot;&gt;Objective 1&lt;/a&gt;: The community is vibrant and active due to structured contribution areas&lt;/li&gt;
@@ -416,23 +416,23 @@ With that in mind, we came up with two objectives. Both are aligned with overall
 &lt;li&gt;&lt;a href=&quot;https://github.com/mozillach/participation/issues/7&quot;&gt;Objective 5&lt;/a&gt;: With talks and events we increase our reach and provide a valuable information source regarding the Open Web&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://github.com/mozillach/participation/issues/8&quot;&gt;Objective 6&lt;/a&gt;: Social Media is a crucial part of our activities providing valuable information about Mozilla and the Open Web&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/02/CRhvD5rWwAEDmGp.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/02/CRhvD5rWwAEDmGp.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We know that not all of those goals are easily achievable, but this gives us a good way to be ambitious. To a successful first half of 2016, let&#39;s bring our community further and keep rocking the Open Web!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/02/CL52IqpWIAAQN0Y.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2016/02/CL52IqpWIAAQN0Y.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 </content>
   </entry>
   
   <entry>
     <title>Mozillas strategische Leitlinien für 2016 und danach</title>
     <link href="https://mkohler.dev/blog/2016/01/mozillas-strategische-leitlinien-fur-2016-und-danach/"/>
-    <updated>2016-01-19T17:27:24+00:00</updated>
+    <updated>2016-01-19T17:27:24Z</updated>
     <id>https://mkohler.dev/blog/2016/01/mozillas-strategische-leitlinien-fur-2016-und-danach/</id>
     <content type="html">&lt;p&gt;Dieser Beitrag wurde zuerst im Blog auf &lt;a href=&quot;https://blog.mozilla.org/community&quot;&gt;https://blog.mozilla.org/community&lt;/a&gt; veröffentlicht. Herzlichen Dank an Aryx und Coce für die Übersetzung!&lt;/p&gt;
 &lt;p&gt;Auf der ganzen Welt arbeiten leidenschaftliche Mozillianer am Fortschritt für Mozillas Mission. Aber fragt man fünf verschiedene Mozillianer, was die Mission ist, erhält man womöglich sieben verschiedene Antworten.&lt;/p&gt;
 &lt;p&gt;Am Ende des letzten Jahres legte Mozillas CEO Chris Beard klare Vorstellungen über Mozillas Mission, Vision und Rolle dar und zeigte auf, wie unsere Produkte uns diesem Ziel in den nächsten fünf Jahren näher bringen. Das Ziel dieser strategischen Leitlinien besteht darin, für Mozilla insgesamt ein prägnantes, gemeinsames Verständnis unserer Ziele zu entwickeln, die uns als Individuen das Treffen von Entscheidungen und Erkennen von Möglichkeiten erleichtert, mit denen wir Mozilla voranbringen.&lt;/p&gt;
 &lt;p&gt;Mozillas Mission können wir nicht alleine erreichen. Die Tausenden von Mozillianern auf der ganzen Welt müssen dahinter stehen, damit wir zügig und mit lauterer Stimme als je zuvor Unglaubliches erreichen können.&lt;/p&gt;
 &lt;p&gt;Deswegen ist eine der sechs&lt;a href=&quot;https://docs.google.com/presentation/d/1A3Ma9gNawAYYGbYC2bUW0wUwcpHuvyMiZvHNiMLriw0/edit#slide=id.gdaa7a0bd0_1_0&quot;&gt; strategischen Initiativen&lt;/a&gt; des Participation Teams für die erste Jahreshälfte, möglichst viele Mozillianer über diese Leitlinien aufzuklären, damit wir 2016 den bisher wesentlichsten Einfluss erzielen können. Wir werden einen weiteren Beitrag veröffentlichen, der sich näher mit der Strategie des Participation Teams für das Jahr 2016 befassen wird.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/community/files/2016/01/Screen-Shot-2015-12-18-at-2.02.07-PM-600x335.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/community/files/2016/01/Screen-Shot-2015-12-18-at-2.02.07-PM-600x335.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Das Verstehen dieser Strategie wird unabdingbar sein für jeden, der bei Mozilla in diesem Jahr etwas bewirken möchte, denn sie wird bestimmen, wofür wir eintreten, wo wir unsere Ressourcen einsetzen und auf welche Projekte wir uns 2016 konzentrieren werden.&lt;/p&gt;
 &lt;p&gt;Zu Jahresbeginn werden wir näher auf diese Strategie eingehen und weitere Details dazu bekanntgeben, wie die diversen Teams und Projekte bei Mozilla auf diese Ziele hinarbeiten.&lt;/p&gt;
 &lt;p&gt;Der aktuelle Aufruf zum Handeln besteht darin, im Kontext Ihrer Arbeit über diese Ziele nachzudenken und darüber, wie Sie im kommenden Jahr bei Mozilla mitwirken möchten. Dies hilft, Ihre Innovationen, Ambitionen und Ihren Einfluss im Jahr 2016 zu gestalten.&lt;/p&gt;
@@ -465,7 +465,7 @@ Wir wir positive Veränderungen in Zukunft anpacken wollen&lt;/li&gt;
   <entry>
     <title>German-speaking Community mid-term planning</title>
     <link href="https://mkohler.dev/blog/2015/12/german-speaking-community-mid-term-planning/"/>
-    <updated>2015-12-24T18:44:26+00:00</updated>
+    <updated>2015-12-24T18:44:26Z</updated>
     <id>https://mkohler.dev/blog/2015/12/german-speaking-community-mid-term-planning/</id>
     <content type="html">&lt;p&gt;Mozilla&#39;s &lt;a href=&quot;https://wiki.mozilla.org/Participation&quot;&gt;Participation Team&lt;/a&gt; has started to do &amp;quot;mid-term plannings&amp;quot; with a few focus communities back in September. The goal was to identify potential and goals for a six month plan which would then be implemented with the help of all the community. Since Germany is one of the focus markets for Firefox, it&#39;s clear that the German-speaking community was part of that as well.&lt;/p&gt;
 &lt;p&gt;Everything started out at the &lt;a href=&quot;https://groups.google.com/forum/#!topic/mozilla.community.german/d4RehRw08uo&quot;&gt;end of September&lt;/a&gt;, when we formed a focus group. Everybody was invited to join the focus group to brainstorm about possible plans we can set in stone to drive Mozilla&#39;s mission forward. I&#39;d like to thank everybody who chimed in with their ideas and thoughts on the German-speaking community and its future in our &lt;a href=&quot;https://discourse.mozilla-community.org/c/communities/german-vision&quot;&gt;own Discourse category&lt;/a&gt;:&lt;/p&gt;
@@ -481,7 +481,7 @@ Wir wir positive Veränderungen in Zukunft anpacken wollen&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://mozillians.org/en-US/u/soeren.hentzschel/&quot;&gt;Sören Hentzschel&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;After the &lt;a href=&quot;http://www.michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0&quot;&gt;community meetup at the beginning of the year&lt;/a&gt; we had a lot of momentum which enabled us to get quite a lot done. Unfortunately this momentum has decreased over time, with a low since September (my opinion). Therefore our main areas we picked for our mid-term plans focused on internal improvements we can make, so we can focus on Mozilla top-organizational goals once we have implemented our improvements. This doesn&#39;t mean that the German-speaking community won&#39;t focus on product or mission, but it&#39;s just not where we can commit as a whole community right now.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/736/22650181676_fa012408d4_z_d.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm1.staticflickr.com/736/22650181676_fa012408d4_z_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We have &lt;a href=&quot;https://discourse.mozilla-community.org/t/auswahl-der-ziele/5047/3&quot;&gt;identified four areas&lt;/a&gt; we&#39;d like to focus, which I will explain in detail below. Those are documented (in German) on a &lt;a href=&quot;https://wiki.mozilla.org/De/2016&quot;&gt;Wiki page&lt;/a&gt; as well to be as transparent as possible. We also asked for feedback through the community list and didn&#39;t get any responses that would say anything against this plan.&lt;/p&gt;
 &lt;h2&gt;Community Structure&lt;/h2&gt;
 &lt;p&gt;In 6 months it&#39;s clear for new and existing contributors who is working in which functional area and who to contact if there are any questions. New contributors know which areas need help and know about good first contributions to do.&lt;/p&gt;
@@ -520,7 +520,7 @@ Wir wir positive Veränderungen in Zukunft anpacken wollen&lt;/li&gt;
 &lt;li&gt;We keep users engaged and updated with at least 8 tweets per month per channel&lt;/li&gt;
 &lt;li&gt;There are at least 3 maintainers for the different accounts&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8605/16404178707_c37bd448af_z_d.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm9.staticflickr.com/8605/16404178707_c37bd448af_z_d.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;To track the progress &lt;a href=&quot;https://github.com/MozillaDE/ziele2016/issues&quot;&gt;we created a GitHub repository&lt;/a&gt; in our organization, where everybody can create issues to track a certain task. There are four labels which make it possible to filter for a specific improvement area. Of course, feel free to create your own issues in this GitHub repo as well, even if it might not be 100% tied to the goals, but every contribution counts!&lt;/p&gt;
 &lt;p&gt;I have put together a &lt;a href=&quot;https://docs.google.com/presentation/d/1v4Lfo4ypGMj2N-oGXbnrpSEt8gOMAFF5bvmdZQx5Ahs/edit?usp=sharing&quot;&gt;share-able summary slides&lt;/a&gt; for easy consumption in case you don&#39;t want to forward the link to this blog post.&lt;/p&gt;
 &lt;p&gt;Even though I&#39;m going to focus my time on the Mozilla Switzerland community, I will still help with and track the progress we&#39;re doing with the mid-term plan implementations.&lt;/p&gt;
@@ -531,7 +531,7 @@ Wir wir positive Veränderungen in Zukunft anpacken wollen&lt;/li&gt;
   <entry>
     <title>MozCoffee Framework - Wie organisiere ich ein Meetup?</title>
     <link href="https://mkohler.dev/blog/2015/12/mozcoffee-framework-wie-organisiere-ich-ein-meetup/"/>
-    <updated>2015-12-04T23:49:05+00:00</updated>
+    <updated>2015-12-04T23:49:05Z</updated>
     <id>https://mkohler.dev/blog/2015/12/mozcoffee-framework-wie-organisiere-ich-ein-meetup/</id>
     <content type="html">&lt;h2&gt;Einführung&lt;/h2&gt;
 &lt;p&gt;Dieses Dokument soll als kurzes Tutorial dienen, um ein erfolgreiches Meetup zu organisieren. In diesem Dokument werden die wichtisten Punkte erläutert und einige Tipps gegeben, wie das ganze organisiert werden kann. Es besteht kein Anspruch auf Vollständigkeit. Zudem ist allen Mozillians selbst überlassen, wie die Organisation stattfindet.&lt;/p&gt;
@@ -631,7 +631,7 @@ Um die weitere Planung zu vereinfachen, sollte hier 2-3 Ziele definiert werden. 
   <entry>
     <title>Mozilla Tech Weekend in Berlin - November 28th &amp; 29th</title>
     <link href="https://mkohler.dev/blog/2015/11/mozilla-tech-weekend-in-berlin-november-28th-and-29th/"/>
-    <updated>2015-11-14T16:02:14+00:00</updated>
+    <updated>2015-11-14T16:02:14Z</updated>
     <id>https://mkohler.dev/blog/2015/11/mozilla-tech-weekend-in-berlin-november-28th-and-29th/</id>
     <content type="html">&lt;p&gt;The Berlin Mozilla Community would like to invite all of you to the &lt;strong&gt;Mozilla Tech Weekend&lt;/strong&gt; on &lt;strong&gt;November 28th 2015&lt;/strong&gt;. There will be &lt;strong&gt;tech talks&lt;/strong&gt; on Saturday and &lt;strong&gt;workshops&lt;/strong&gt; on Sunday.&lt;/p&gt;
 &lt;h2&gt;Location&lt;/h2&gt;
@@ -657,7 +657,7 @@ The Berlin Mozilla Community
   <entry>
     <title>Mozilla Weekend Berlin - Day 2 / Feedback</title>
     <link href="https://mkohler.dev/blog/2015/07/mozilla-weekend-berlin-day-2-feedback/"/>
-    <updated>2015-07-19T20:38:51+00:00</updated>
+    <updated>2015-07-19T20:38:51Z</updated>
     <id>https://mkohler.dev/blog/2015/07/mozilla-weekend-berlin-day-2-feedback/</id>
     <content type="html">&lt;p&gt;At the Community Meetup of the German-speaking community back in February we decided to organize a Mozilla Day or Mozilla Weekend in 2015 to get more visible in Berlin, tell people about Mozilla’s mission and projects, and recruit new Mozillians. We did this on July 11th and 12th. This is the post about Day 2. You can read about &lt;a href=&quot;http://www.michaelkohler.info/2015/mozilla-weekend-berlin-2015-preparation-day-1&quot;&gt;Day 1 in a previous blog post&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
@@ -757,13 +757,13 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
   <entry>
     <title>Mozilla Weekend Berlin 2015 - Preparation &amp; Day 1</title>
     <link href="https://mkohler.dev/blog/2015/07/mozilla-weekend-berlin-2015-preparation-and-day-1/"/>
-    <updated>2015-07-19T19:24:18+00:00</updated>
+    <updated>2015-07-19T19:24:18Z</updated>
     <id>https://mkohler.dev/blog/2015/07/mozilla-weekend-berlin-2015-preparation-and-day-1/</id>
     <content type="html">&lt;p&gt;At the Community Meetup of the German-speaking community back in February we decided to organize a Mozilla Day or Mozilla Weekend in 2015 to get more visible in Berlin, tell people about Mozilla&#39;s mission and projects, and recruit new Mozillians.&lt;/p&gt;
 &lt;h2&gt;Preparation&lt;/h2&gt;
 &lt;p&gt;First we had a &amp;quot;Call for Speakers&amp;quot; which did not turn out as hoped, since we didn&#39;t have a lot of proposal for talks. Further we were missing quite a few people to facilitate the workshops. Fortunately there was a Mozilla Leadership Meetup on July 10 in Berlin, so we contacted the Leadership team and asked, if they wanted to participate and have a few talks about Mozilla and its projects. This worked out really well and it was great to have part of the Leadership Team at the event as well. I think this helped to get contributors as well.&lt;/p&gt;
 &lt;p&gt;It was the first time we created a website for an event in the German-speaking community. We decided on &lt;a href=&quot;http://mozweekend.de/&quot;&gt;mozweekend.de&lt;/a&gt; which we will be able to use also for future Mozilla Weekends in Germany. I think we need to do that as well for future, big events since we had quite a lot of visitors and registrations. Until one day before the event we had about 120 registrations.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/CI6ryViWcAALYGP.png_large.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/CI6ryViWcAALYGP.png_large.png&quot; alt=&quot;CI6ryViWcAALYGP.png_large&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/CI6ryViWcAALYGP.png_large.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/CI6ryViWcAALYGP.png_large.png&quot; alt=&quot;CI6ryViWcAALYGP.png_large&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Day 1 - July 11&lt;/h2&gt;
 &lt;p&gt;For the first day, we had planned talks to introduce Mozilla, and dive deeper into the different projects. Since we had about 120 registrations we applied our standard 33% no-show rate and expected about 80 participants. In the end, we had around 55 participants, but nevertheless the attendees were very interested. This is a sign that quantity is not always the goal, quality is way more important.&lt;/p&gt;
 &lt;table cellpadding=&quot;2&quot;&gt;
@@ -866,25 +866,25 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
   <entry>
     <title>#FoxYeah in the German-speaking community</title>
     <link href="https://mkohler.dev/blog/2015/07/foxyeah-in-the-german-speaking-community/"/>
-    <updated>2015-07-19T18:19:22+00:00</updated>
+    <updated>2015-07-19T18:19:22Z</updated>
     <id>https://mkohler.dev/blog/2015/07/foxyeah-in-the-german-speaking-community/</id>
     <content type="html">&lt;p&gt;Back in the beginning of June Mozilla has released &lt;a href=&quot;https://www.mozilla.org/en-US/firefox/38.0.5/releasenotes/&quot;&gt;Firefox 38.0.5&lt;/a&gt;, together with a campaign to &lt;a href=&quot;https://foxyeah.mozilla.org/&quot;&gt;promote Firefox all over the world&lt;/a&gt;. This also included offline events, which we did in Zurich, Bern and Berlin.&lt;/p&gt;
 &lt;h2&gt;Zurich&lt;/h2&gt;
 &lt;p&gt;On June 3rd we &lt;a href=&quot;https://mozilla.github.io/reps-archive/e/why-should-you-use-firefox/&quot;&gt;met in Zurich&lt;/a&gt; to talk about new Firefox features and why you should use Firefox. Unfortunately my planning wasn&#39;t that good and we picked a date where there were 4 other meetups going on in Zurich. This is one thing we definitely need to keep an eye on for the next events. Nevertheless we could talk to a few people and have great discussions about Firefox and the Open Web. We basically hijacked a work session at &lt;a href=&quot;https://www.liip.ch/&quot;&gt;liip.ch&lt;/a&gt; (amazing company which hosts us for our Zurich based meetups) and involved them in the discussion.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/CGl8b8cXIAA6ilS.jpg_large.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/CGl8b8cXIAA6ilS.jpg_large.jpg&quot; alt=&quot;CGl8b8cXIAA6ilS.jpg_large&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/CGl8b8cXIAA6ilS.jpg_large.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/CGl8b8cXIAA6ilS.jpg_large.jpg&quot; alt=&quot;CGl8b8cXIAA6ilS.jpg_large&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For this meetup I baked some cupcakes and &lt;strong&gt;tried&lt;/strong&gt; to decorate them with a Firefox logo. I won&#39;t share any pictures of this, since it was not really that good. Nevertheless the attendees liked them. But hey, I knew I had a second chance for the Bern meetup!&lt;/p&gt;
 &lt;h2&gt;Bern&lt;/h2&gt;
 &lt;p&gt;5 days later I organized the next event in Bern, my hometown, to talk about how &lt;a href=&quot;https://mozilla.github.io/reps-archive/e/mozilla-bern-how-firefox-benefits-the-open-web/&quot;&gt;Firefox and Mozilla impacts the Open Web&lt;/a&gt;. You can find the &lt;a href=&quot;http://mkohler.dev/presentations/mozillaCH-how-mozilla-protect-web/index.html#1&quot;&gt;slides on my other website&lt;/a&gt;. We had about 10 attendees, most of them not familiar with Mozilla and Firefox. I thought that I can take this chance to begin an &lt;a href=&quot;http://www.meetup.com/Bern-Open-Web-Meetup/&quot;&gt;&amp;quot;Open Web Meetup&amp;quot;&lt;/a&gt; group in Bern. This is also how the event was promoted.&lt;/p&gt;
 &lt;p&gt;There were a lot of interesting questions, which I tried to answer to my knowledge. I&#39;m sure we can have another Open Web Meetup after the summer break to discuss more on Open Web technologies and Mozilla.&lt;/p&gt;
 &lt;p&gt;For this event I had my second chance to bake cupcakes, this time I had some advice on how to improve from a professional. I took Marzipan, colored it and cut out the Firefox logo out of it. Since it was quite hot, the Marzipan was not easily cutable without breaking, so not all of the logos looked like a fox. Nevertheless it was still recognizable. This took about 4 hours in total, but it was totally worth the effort! But psst, let&#39;s not show that to the Brand Engagement team ;)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/CHDl2EWUQAAa-Qv.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/CHDl2EWUQAAa-Qv.png&quot; alt=&quot;CHDl2EWUQAAa-Qv&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/CHDl2EWUQAAa-Qv.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/CHDl2EWUQAAa-Qv.png&quot; alt=&quot;CHDl2EWUQAAa-Qv&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Also many thanks to &lt;a href=&quot;http://www.netcase.ch/&quot;&gt;netcase.ch&lt;/a&gt; (my employer) for hosting us there!&lt;/p&gt;
 &lt;h2&gt;Berlin&lt;/h2&gt;
 &lt;p&gt;Since I&#39;m not based in Berlin, I delegated this event to &lt;a href=&quot;https://mozillians.org/en-US/u/fiji/&quot;&gt;Florian Merz&lt;/a&gt;, who did a great job on June. Here&#39;s his recap:&lt;/p&gt;
 &lt;p&gt;We held a nice meetup with a talk about &lt;a href=&quot;https://mozilla.github.io/reps-archive/e/whats-new-in-firefox/&quot;&gt;&amp;quot;What&#39;s new in Firefox&amp;quot;&lt;/a&gt;. Located in the Berlin Mozilla office we gathered a round of diverse people, regarding both background and motivation to attend this meetup. From addon developer, contributor, to &amp;quot;I just wanted to see what&#39;s going on with Firefox, since I switched to another browser a couple of years ago&amp;quot;. During the talk we saw some of the newer features of Firefox like &amp;quot;Firefox Hello&amp;quot; or the Pocket integration. Furthermore, we discussed the privacy implications of such features and Mozilla&#39;s contribution to the users ability to maintain its privacy in general.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/talk.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/talk.jpg&quot; alt=&quot;talk&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/talk.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/talk.jpg&quot; alt=&quot;talk&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Florian also baked amazing Firefox cupcakes, which I&#39;m sure they tasted fantastic!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/cupcake.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/cupcake.jpg&quot; alt=&quot;cupcake&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/07/cupcake.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/07/cupcake.jpg&quot; alt=&quot;cupcake&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;After the talk we had some time left for discussion and some cold beer along with home made firefox cupcakes. Thanks for a great evening to all attendees. And also a great &amp;quot;Thanks&amp;quot; to Florian for pulling this off all by himself, great job!&lt;/p&gt;
 &lt;p&gt;Even though there are reports for #FoxYeah from other countries which were a lot more focused on #FoxYeah graphics, I still think that we had quite some impact in Switzerland and Berlin. If you would like to spread the world even though the #FoxYeah campaign is over, you can do this on &lt;a href=&quot;http://friends.mozilla.org/&quot;&gt;friends.mozilla.org&lt;/a&gt;! Let&#39;s keep rocking the free Web together!&lt;/p&gt;
 </content>
@@ -893,13 +893,13 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
   <entry>
     <title>MobileCamp 2015 - Firefox OS room</title>
     <link href="https://mkohler.dev/blog/2015/05/mobilecamp-2015-firefox-os-room/"/>
-    <updated>2015-05-17T09:01:16+00:00</updated>
+    <updated>2015-05-17T09:01:16Z</updated>
     <id>https://mkohler.dev/blog/2015/05/mobilecamp-2015-firefox-os-room/</id>
     <content type="html">&lt;p&gt;On April 25 and 26 the 7th edition of the &lt;a href=&quot;http://www.mobilecamp.de/&quot;&gt;MobileCamp&lt;/a&gt; was organized in Dresden, Germany. Mobilecamp is a barcamp with &amp;quot;Mobile&amp;quot; as topic. It&#39;s probably the most important barcamp regarding mobile in the German-speaking countries. Therefore the German-speaking Mozilla community decided to host a Firefox OS day on Saturday. The organizers of the barcamp were kind enough to lend us a room specific for that.&lt;/p&gt;
 &lt;p&gt;Since the MobileCamp was mostly dominated by Android, iOS and Windows Phone in the past, we decided to do a Firefox OS day to educate people about the power of the Web. On Saturday I held a talk (&lt;a href=&quot;https://mkohler.dev/presentations/mozilla-mobilecamp-dresden-2015/index.html&quot;&gt;slides 1&lt;/a&gt;, &lt;a href=&quot;https://mkohler.dev/presentations/mozilla-mobilecamp-dresden-2015-hacking/index.html&quot;&gt;slides 2&lt;/a&gt;) about Firefox OS and showed how to create open web apps. Since this was a barcamp I left enough room for discussion and there were some quite interesting questions.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://michaelkohler.info/mozilla/mobilecamp_2015_talk.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://michaelkohler.info/mozilla/mobilecamp_2015_talk.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;For the rest of the day we were available for helping out with creating apps and doing demos. The schedule of the Mobilecamp was quite dense and very interesting, so people didn&#39;t stay long in our room. Nevertheless a lot of people came by quickly to check out Firefox OS. We did a lot of demos showing off the newest features and having discussions with interested attendees. We did not only show Firefox OS on phones, but also a build of the emulator showing the GUI for TVs. That looked quite well on the big TV we had in our room, a real Panasonic TV with Firefox OS would actually have been better for this to show all the features. But it was great nevertheless :)&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://michaelkohler.info/mozilla/mobilecamp_2015_tv.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://michaelkohler.info/mozilla/mobilecamp_2015_tv.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;One person came back from time to time to figure out WebNFC and building Firefox OS by himself together with &lt;a href=&quot;https://mozillians.org/en-US/u/michaesc/&quot;&gt;Michael Schloh von Bennewitz&lt;/a&gt; who gladly assisted me at this event. Thanks a lot to Michael for the great help!&lt;/p&gt;
 &lt;p&gt;For the whole weekend we also talked to Android users to make them download Firefox for Android. Many didn&#39;t know that Firefox is also available for Android and therefore were using Chrome on mobile. I think we will have at least 30 new Firefox for Android users now. One person showed up in our room and told me that it would be great if Firefox would also have tabs-on-top on mobile. At first I was quite confused, since I&#39;ve been using that for quite some time but wasn&#39;t sure if it was Nightly/Beta only. It turned out that he just had an old Firefox installation and everything was good after an update through the Play Store.&lt;/p&gt;
 &lt;p&gt;For pictures it&#39;s probably best to check out the &lt;a href=&quot;https://twitter.com/hashtag/mcdd15?src=hash&quot;&gt;Twitter timeline&lt;/a&gt;.&lt;/p&gt;
@@ -910,7 +910,7 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
   <entry>
     <title>German-speaking Community - Status of goals</title>
     <link href="https://mkohler.dev/blog/2015/04/german-speaking-community-status-of-goals/"/>
-    <updated>2015-04-28T00:04:38+00:00</updated>
+    <updated>2015-04-28T00:04:38Z</updated>
     <id>https://mkohler.dev/blog/2015/04/german-speaking-community-status-of-goals/</id>
     <content type="html">&lt;p&gt;At the German-speaking community &lt;a href=&quot;http://www.michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1&quot;&gt;meetup in February&lt;/a&gt; we set some goals to reach in 2015. In our &lt;a href=&quot;https://air.mozilla.org/german-speaking-community-bi-weekly-meeting-20150423/&quot;&gt;last bi-weekly meeting&lt;/a&gt; we discussed the current status of those goals. Here&#39;s a quick summary:&lt;/p&gt;
 &lt;h2&gt;Completed&lt;/h2&gt;
@@ -979,24 +979,24 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
   <entry>
     <title>German speaking Mozilla Community - Meeting Feedback</title>
     <link href="https://mkohler.dev/blog/2015/03/german-speaking-mozilla-community-meeting-feedback/"/>
-    <updated>2015-03-22T22:21:15+00:00</updated>
+    <updated>2015-03-22T22:21:15Z</updated>
     <id>https://mkohler.dev/blog/2015/03/german-speaking-mozilla-community-meeting-feedback/</id>
     <content type="html">&lt;p&gt;On the 21st and 22nd of February 2015 we held the &lt;a href=&quot;http://www.michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1&quot;&gt;annual Meetup of the German speaking community&lt;/a&gt;. With this blog post I&#39;d like to share the opinions of the participants, so others can benefit form our experience.&lt;/p&gt;
 &lt;p&gt;For the following graphs, 5 is &amp;quot;perfect&amp;quot; and 1 is &amp;quot;bad&amp;quot;.&lt;/p&gt;
 &lt;h2&gt;Overall&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.51.43.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.51.43.png&quot; alt=&quot;Screen Shot 2015-03-22 at 20.51.43&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.51.43.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.51.43.png&quot; alt=&quot;Screen Shot 2015-03-22 at 20.51.43&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Overall we got quite good feedback for the whole event. Most of the attendees were happy with the meetup. This is also reflected in the work all contributors have done since the meetup. There are certainly a few things we can improve, but it&#39;s good to know that it wasn&#39;t a failure.&lt;/p&gt;
 &lt;h2&gt;Discussions / Breakout sessions&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.57.41.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.57.41.png&quot; alt=&quot;Screen Shot 2015-03-22 at 20.57.41&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.57.49.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.57.49.png&quot; alt=&quot;Screen Shot 2015-03-22 at 20.57.49&quot;&gt;&lt;/a&gt;For the general discussions the overall feeling is reflected again.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.57.41.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.57.41.png&quot; alt=&quot;Screen Shot 2015-03-22 at 20.57.41&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.57.49.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-20.57.49.png&quot; alt=&quot;Screen Shot 2015-03-22 at 20.57.49&quot; /&gt;&lt;/a&gt;For the general discussions the overall feeling is reflected again.&lt;/p&gt;
 &lt;p&gt;The breakout sessions were quite short. This might be one point attendees didn&#39;t like about it. I think we&#39;ll get further input for the breakout sessions next time to make sure that all participants can benefit from them. But since we&#39;re over &amp;quot;3&amp;quot; on average, there is no need to complete question our format of the breakout sessions.&lt;/p&gt;
 &lt;h2&gt;Organization&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.00.55.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.00.55.png&quot; alt=&quot;Screen Shot 2015-03-22 at 21.00.55&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.01.00.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.01.00.png&quot; alt=&quot;Screen Shot 2015-03-22 at 21.01.00&quot;&gt;&lt;/a&gt;Thanks to the great organizational help from Hagen Halbach, we could achieve our goal to give participants as much information about the event as possible before they traveled to Berlin. 78.6% saying that it was &amp;quot;perfect&amp;quot; says a lot. Thanks again to everyone who was involved with the organization!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.00.55.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.00.55.png&quot; alt=&quot;Screen Shot 2015-03-22 at 21.00.55&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.01.00.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.01.00.png&quot; alt=&quot;Screen Shot 2015-03-22 at 21.01.00&quot; /&gt;&lt;/a&gt;Thanks to the great organizational help from Hagen Halbach, we could achieve our goal to give participants as much information about the event as possible before they traveled to Berlin. 78.6% saying that it was &amp;quot;perfect&amp;quot; says a lot. Thanks again to everyone who was involved with the organization!&lt;/p&gt;
 &lt;p&gt;Even though we shifted almost everything right before the event (on Saturday morning), the participants were happy with the time management. Great to see spontaneous people! ;)&lt;/p&gt;
 &lt;h2&gt;Location / Food&lt;/h2&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.08.45.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.08.45.png&quot; alt=&quot;Screen Shot 2015-03-22 at 21.08.45&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.08.52.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.08.52.png&quot; alt=&quot;Screen Shot 2015-03-22 at 21.08.52&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.08.45.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.08.45.png&quot; alt=&quot;Screen Shot 2015-03-22 at 21.08.45&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.08.52.png&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/Screen-Shot-2015-03-22-at-21.08.52.png&quot; alt=&quot;Screen Shot 2015-03-22 at 21.08.52&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Since almost 93% answered that the Mozilla office in Berlin was suited for the event, we will probably do it there the next time too. This might change if we get a lot of new contributors and grow a lot. The biggest meeting room was full during our general discussions, so it might be worth to have a look at any other bigger venue for more people.&lt;/p&gt;
 &lt;p&gt;The same goes for the food format we used. We had deliveries twice and went for dinner in a restaurant on Saturday. With more people delivery might get more confusing and might not work as well. Sorry again for my confusing instructions regarding lunch on Sunday, this can certainly be improved so everyone actually gets food. We also got a feedback that next time we should consider to have one order per person instead of doing a &amp;quot;buffet&amp;quot; style lunch as we did on Saturday to meet everyone&#39;s taste.&lt;/p&gt;
 &lt;h2&gt;Other input&lt;/h2&gt;
@@ -1017,7 +1017,7 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
   <entry>
     <title>FOSS Asia 2015 Singapore</title>
     <link href="https://mkohler.dev/blog/2015/03/foss-asia-2015-singapore/"/>
-    <updated>2015-03-16T23:15:59+00:00</updated>
+    <updated>2015-03-16T23:15:59Z</updated>
     <id>https://mkohler.dev/blog/2015/03/foss-asia-2015-singapore/</id>
     <content type="html">&lt;h2&gt;About FOSS Asia&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://fossasia.org/&quot;&gt;FOSS Asia&lt;/a&gt; is a yearly FOSS community meetup in Asia. This year it was held from 13&lt;sup&gt;th&lt;/sup&gt; to 15&lt;sup&gt;th&lt;/sup&gt; of March in Singapore. Previous events were i.e. in Cambodia and Vietnam. You can find the schedule of the conference on &lt;a href=&quot;http://2015.fossasia.org/#schedule&quot;&gt;their website&lt;/a&gt;.&lt;/p&gt;
@@ -1027,10 +1027,10 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
 &lt;p&gt;I arrived in Singapore on Wednesday (directly from Mexico, where I left on Monday) and did some sightseeing to get to know the neighborhood. In the evening I went to the &lt;a href=&quot;http://hackerspace.sg/&quot;&gt;hackerspace.sg&lt;/a&gt; where they had a meetup and talks. It was very interesting and I had the chance to get to know the local cuisine after the meetup.&lt;/p&gt;
 &lt;h2&gt;Friday&lt;/h2&gt;
 &lt;p&gt;On Friday we were at the venue at about 8:30am to prepare our booth. But since our swag hadn’t arrived, we didn’t have much to put there. Therefore we decided to show Firefox OS to people. I showed it to Vivian Balakrishnan, Singapore&#39;s Minister for the Environment and Water Resources. He had a lot of great knowledge so I didn&#39;t need to explain a lot.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/demo.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/demo.jpg&quot; alt=&quot;demo&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/demo.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/demo.jpg&quot; alt=&quot;demo&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(Photo: &lt;a href=&quot;https://twitter.com/gosaldar&quot;&gt;Darwin Gosal&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;So we listened to the talks and engaged with other attendees during the breaks. With a booth with some stickers, we could have had a bigger impact since all the people would have been in the same room.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/demofirefoxos.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/demofirefoxos.jpg&quot; alt=&quot;demofirefoxos&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/demofirefoxos.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/demofirefoxos.jpg&quot; alt=&quot;demofirefoxos&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Gen Kenai talked about Firefox OS on the main track. I think it was great to have a talk about Firefox OS there since it was the only day we had everyone in the same room. Later Jan held a talk about &lt;a href=&quot;http://janos.io/&quot;&gt;JanOS&lt;/a&gt; on the main track as well. He&#39;s doing a great job with it. You should definitely check that out!&lt;/p&gt;
 &lt;h2&gt;Saturday&lt;/h2&gt;
 &lt;p&gt;On Saturday we had our own &lt;a href=&quot;http://fossasia.org/track/FOSSASIA-Mozilla.pdf&quot;&gt;Mozilla track&lt;/a&gt;.&lt;/p&gt;
@@ -1110,7 +1110,7 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
 &lt;/table&gt;
 &lt;p&gt;Our room was on Level 5 and wasn’t very easily discoverable, the registration desk had an overview of all locations though. Since no other tracks were located there, there were no “pass-by-and-maybe-stay-there”, but people actually needed to actively come to one of our sessions. We didn’t know that beforehand.&lt;/p&gt;
 &lt;p&gt;Nevertheless a few people showed up to our talks. Some talks were full, for some we had almost nobody attending.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/talk.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/talk.jpg&quot; alt=&quot;talk&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/talk.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/talk.jpg&quot; alt=&quot;talk&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(Photo: &lt;a href=&quot;https://twitter.com/nhie22&quot;&gt;Nhie&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;In the evening all of the Mozillians went for a Chinese dinner together. After dinner we joined the pub crawl at Brewerkz at Clark Quay.&lt;/p&gt;
 &lt;h2&gt;Sunday&lt;/h2&gt;
@@ -1176,13 +1176,13 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;We learned from Saturday and this time actively went up to people and asked them if they’re interested in our workshops and if they’d like to come. This resulted in a better attendance, but we couldn’t fill all the workshops.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/realworkshop.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/realworkshop.jpg&quot; alt=&quot;realworkshop&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/realworkshop.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/realworkshop.jpg&quot; alt=&quot;realworkshop&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(Photo: Yofie)&lt;/p&gt;
 &lt;p&gt;Additionally we set up a second booth in the “main” room to attract more people. This certainly helped a lot.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/booth.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/booth.jpg&quot; alt=&quot;booth&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/booth.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/booth.jpg&quot; alt=&quot;booth&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(Photo: Yofie)&lt;/p&gt;
 &lt;p&gt;Yofie did a great job with designing and printing out flyers with the schedule. After about 1 hour we had hung them all around the building (even in the elevators) to make people to come to our track.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/schedule.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/schedule.jpg&quot; alt=&quot;schedule&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/schedule.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/schedule.jpg&quot; alt=&quot;schedule&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(Photo: Yofie)&lt;/p&gt;
 &lt;p&gt;Further we promoted the &lt;a href=&quot;https://mozbugsprints.org/e/fossasia-2015&quot;&gt;Bug Sprint&lt;/a&gt; over Twitter and with flyers on the walls. At least one person came to the Mozilla track and asked for more information. We later got the feedback from him, that he looked at the bugs, but they seemed to be “too big” to do then in a couple of hours.&lt;/p&gt;
 &lt;h2&gt;Lessons learned (these are just my points, we need to have a more broad discussion with all the people involved)&lt;/h2&gt;
@@ -1197,7 +1197,7 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
 &lt;p&gt;We have started a discussion about the “lessons learned” on &lt;a href=&quot;https://discourse.mozilla-community.org/t/fossasia-possible-improvements/1830&quot;&gt;Discourse&lt;/a&gt;. Join in if you have attended #fossasia (or otherwise if you have good input).&lt;/p&gt;
 &lt;p&gt;You can find all Mozilla-related tweets from FOSSAsia with the hashtag &lt;a href=&quot;https://twitter.com/hashtag/mozasia&quot;&gt;#MozAsia&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;I’d like to thank all the organizers for their great work. Well done! It was a pleasure to be there. I certainly had a lot of fun in South East Asia and I could imagine coming back!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/photo160510594824383048.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/photo160510594824383048.jpg&quot; alt=&quot;photo160510594824383048&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/03/photo160510594824383048.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/03/photo160510594824383048.jpg&quot; alt=&quot;photo160510594824383048&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(Photo: Yofie)&lt;/p&gt;
 </content>
   </entry>
@@ -1205,14 +1205,14 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
   <entry>
     <title>Treffen der deutschsprachigen Mozilla Gemeinschaft - Tag 2 (DE / EN)</title>
     <link href="https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/"/>
-    <updated>2015-02-27T04:33:44+00:00</updated>
+    <updated>2015-02-27T04:33:44Z</updated>
     <id>https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;(English version below every paragraph)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Das ist der dritte Eintrag zum &lt;a href=&quot;https://wiki.mozilla.org/De:Meeting:2015&quot;&gt;Treffen der deutschsprachigen Mozilla Gemeinschaft&lt;/a&gt;. Insgesamt werden drei Teile veröffentlicht. Die vorherigen Teile findest du hier: &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0&quot;&gt;Tag 0&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1&quot;&gt;Tag 1&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2&quot;&gt;Tag 2&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This is the third post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all previous parts here: &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0&quot;&gt;day 0&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1&quot;&gt;day 1&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2&quot;&gt;day 2&lt;/a&gt; .&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Das Treffen fand vom 20. bis am 22. Februar 2015 statt. Um die Koordination unter den Freiwilligen im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu gewährleisten, treffen wir uns jährlich um unsere Pläne und Ziele für das jeweilige Jahr zu definieren. Zusätzlich ist es natürlich auch wichtig, sich von Zeit zu Zeit zu treffen, da einige Diskussionen einfacher und schneller in einem Gespräch vor Ort geführt werden können. Insgesamt haben 27 Personen teilgenommen.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The meetup was held on February 20 to February 22 2015. To facilitate the coordination between all volonteers and staff living/working in the German speaking countries (Germany, Austria, Switzerland) we meet once a year to discuss any topics, plans and goals for the year. Further it&#39;s important to meet regularly to have certain discussions in person since these are faster and more efficient. In total 27 persons attended this meetup.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8592/16611675751_2775ba0ee5_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8592/16611675751_2775ba0ee5_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Foto/Photo: Hagen Halbach)&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Tag 2 &lt;em&gt;/ day 2&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;Am Sonntag starteten wir auch um 10:00 Uhr im Berliner Büro.&lt;/p&gt;
@@ -1308,7 +1308,7 @@ Florian will send out an invitation for a follow up in Berlin later this week. S
 Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello.com/b/jycYCGlR/mozilla-deutschsprachige-gemeinschaft&quot;&gt;Trello-Board&lt;/a&gt; zusammengefasst. Jeder der deutschsprachigen Gemeinschaft kann sich da einem Eintrag zuordnen und daran arbeiten. Mit diesem wollen wir die verschiedenen Pläne und Ziele übers Jahr hindurch verfolgen und abarbeiten.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;All these plans and goals are summarized in our Trello board. All German speaking community members can self-assign a task and work on it. With this board we want to track and work on all our plans.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8667/16612791035_d850aa541f_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8667/16612791035_d850aa541f_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;_ (Foto/Photo: Hagen Halbach)_&lt;/p&gt;
 &lt;p&gt;Danach haben wir uns über den Inhalt von mozilla.de unterhalten. Grundsätzlich wird der Inhalt komplett überarbeitet. Hier die Liste an Funktionen, die die neue Seite haben soll.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;After that we discussed what features should be on the mozilla.de website. In general, all the content will be updated.&lt;/em&gt;&lt;/p&gt;
@@ -1324,7 +1324,7 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
 &lt;li&gt;Social Media&lt;/li&gt;
 &lt;li&gt;Prominenter Link auf SUMO &lt;em&gt;/ prominent link to SUMO for help&lt;/em&gt;&lt;/li&gt;
 &lt;li&gt;Link Wörterbücher &lt;em&gt;/ link to the dictionaries&lt;/em&gt;
-&lt;img src=&quot;https://c1.staticflickr.com/9/8605/16404178707_a1cf9486dd_h.jpg&quot; alt=&quot;&quot;&gt;&lt;/li&gt;
+&lt;img src=&quot;https://c1.staticflickr.com/9/8605/16404178707_a1cf9486dd_h.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;em&gt;(Foto/Photo: Hagen Halbach)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Am Ende haben wir uns über das wöchentliche Meeting unterhalten und einen Vorschlag ausgearbeitet, um dieses effizienter zu machen. Folgende Anpassungen werden durchgeführt, sobald die Einzelheiten geklärt sind (wird über die Mailingliste diskutiert). Bis dahin bleibt alles beim Alten.&lt;/p&gt;
@@ -1360,14 +1360,14 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
   <entry>
     <title>Treffen der deutschsprachigen Mozilla Gemeinschaft - Tag 1 (DE / EN)</title>
     <link href="https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/"/>
-    <updated>2015-02-27T04:33:11+00:00</updated>
+    <updated>2015-02-27T04:33:11Z</updated>
     <id>https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;(English version below every paragraph)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Das ist der zweite Eintrag zum &lt;a href=&quot;https://wiki.mozilla.org/De:Meeting:2015&quot;&gt;Treffen der deutschsprachigen Mozilla Gemeinschaft&lt;/a&gt;. Insgesamt werden drei Teile veröffentlicht. Die weiteren findest du hier: &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0&quot;&gt;Tag 0&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1&quot;&gt;Tag 1&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2&quot;&gt;Tag 2&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This is the second post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all other parts here: &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0&quot;&gt;day 0&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1&quot;&gt;day 1&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2&quot;&gt;day 2&lt;/a&gt; .&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Das Treffen fand vom 20. bis am 22. Februar 2015 statt. Um die Koordination unter den Freiwilligen im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu gewährleisten, treffen wir uns jährlich um unsere Pläne und Ziele für das jeweilige Jahr zu definieren. Zusätzlich ist es natürlich auch wichtig, sich von Zeit zu Zeit zu treffen, da einige Diskussionen einfacher und schneller in einem Gespräch vor Ort geführt werden können. Insgesamt haben 27 Personen teilgenommen.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The meetup was held on February 20 to February 22 2015. To facilitate the coordination between all volonteers and staff living/working in the German speaking countries (Germany, Austria, Switzerland) we meet once a year to discuss any topics, plans and goals for the year. Further it&#39;s important to meet regularly to have certain discussions in person since these are faster and more efficient. In total 27 persons attended this meetup.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c4.staticflickr.com/8/7413/15980191113_e450885b65_k.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c4.staticflickr.com/8/7413/15980191113_e450885b65_k.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;_ (Foto/Photo: Brian King)_&lt;/p&gt;
 &lt;h2&gt;Tag 1 &lt;em&gt;/ day 1&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;Am Samstag um 10:00 Uhr ging&#39;s los mit dem ersten offiziellen Tag.&lt;/p&gt;
@@ -1476,7 +1476,7 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
 &lt;li&gt;Chrome + Google Services&lt;/li&gt;
 &lt;li&gt;...&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8672/15990641624_2dd6ac191e_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8672/15990641624_2dd6ac191e_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Foto/Photo: Hagen Halbach)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Danach haben wir uns in diverse Gruppen aufgeteilt, um gruppenspezifische Arbeiten zu erledigen und zu diskutieren. Dazu gehören &amp;quot;Lokalisierung&amp;quot;, &amp;quot;Programming&amp;quot;, &amp;quot;Community Building&amp;quot; und &amp;quot;Webseiten&amp;quot;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;We splitted up in different groups to discuss group-specific topics and report back to everybody. We had &amp;quot;Localization&amp;quot;, &amp;quot;Developer Engagement / Programming&amp;quot;, &amp;quot;Community Building&amp;quot; and &amp;quot;Websites&amp;quot;.&lt;/em&gt;&lt;/p&gt;
@@ -1484,18 +1484,18 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
 &lt;p&gt;&lt;em&gt;We discussed the first outcomes of the groups together. Please refer to &lt;a href=&quot;https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2&quot;&gt;day 2&lt;/a&gt; to see the results.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Am Samstag kam Markus vorbei. Markus möchte regelmässige Veranstaltungen in Berlin durchführen, um die Präsenz von Mozilla in Berlin zu vergrössern und eine lokale Gemeinschaft zu gründen. Wir begrüssen diese Idee natürlich und werden in 2015 Markus mit dabei unterstützen!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Markus, a local developer from Berlin, came by on Saturday. He&#39;d like to organize regular events in Berlin to increase the presence of Mozilla in the city and to build a local community. We like this idea and will support him in 2015!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8657/16423487858_67a6158668_h.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8657/16423487858_67a6158668_h.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Foto/Photo: Mario Behling)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Nach der Gruppendiskussion hatte Brian eine weitere Information: Participation. Hier verweise ich gerne auf den &lt;a href=&quot;https://commonspace.wordpress.com/2015/01/09/what-is-radical-participation/&quot;&gt;Blogeintrag von Mark Surman&lt;/a&gt;, um das genauer zu erklären.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;After the group discussions Brian had further information: Participation. Please refer to &lt;a href=&quot;https://commonspace.wordpress.com/2015/01/09/what-is-radical-participation/&quot;&gt;Mark Surman&#39;s blogpost&lt;/a&gt; to get more information about that.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Als Abschluss des offiziellen Teil des Tages führten wir eine Diskussion über das sogenannte &lt;a href=&quot;https://wiki.mozilla.org/De:CommunityTile&quot;&gt;&amp;quot;Community Tile&amp;quot;&lt;/a&gt;. Bei Firefox wird bei neuen Profilen beim Öffnen von neuen Tabs eine Übersicht an diversen Kacheln angezeigt. Eine dieser Kacheln ist für die Gemeinschaft reserviert und kann dafür verwendet werden. Wir diskutierten und sind zum Schluss gekommen, dass es sich bei diesem Link um eine Seite handeln sollte, welche die deutschsprachige Gemeinschaft erklärt und den Benutzern mitteilt, wer Mozilla ist und dass auch Leute aus dem deutschsprachigen Teil der Welt daran mitarbeiten.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;At the end of the official part of the day we had a discussion about the &amp;quot;Community Tile&amp;quot;. When you open a new tab in a new Firefox profile you&#39;ll see an overview of different sites you can visit. One of these links is reserved for the community. We discussed our proposal and came to the conclusion that we should focus to tell everyone what the German speaking community does and especially that there are local people working on Mozilla projects.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8656/16425623968_3a05a0f90d_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/02/CommunityTiles.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/02/CommunityTiles-1024x636.jpg&quot; alt=&quot;CommunityTiles&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8656/16425623968_3a05a0f90d_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/02/CommunityTiles.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/02/CommunityTiles-1024x636.jpg&quot; alt=&quot;CommunityTiles&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Foto/Photo: Hagen Halbach)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Ihr fragt euch, wer alles mit dabei war? Seht selbst!&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Want to see who was there? See for yourself!&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8628/15990683374_64c5746a87_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8628/15990683374_64c5746a87_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Foto/Photo: Brian King)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Ich möchte mich bei allen Teilnehmer für die informativen und konstruktiven Diskussionen bedanken. Ich glaube, dass wir einiges zu tun haben im 2015, wenn wir jedoch die Motivation vom Treffen mitnehmen können und unsere Pläne und Ziele umsetzen können, wird dies ein sehr erfolgreiches Jahr. Alle Fotos vom Treffen findet ihr auf &lt;a href=&quot;https://wiki.mozilla.org/De:Meeting:2015#Fotos&quot;&gt;flickr&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;I&#39;d like to thank all attendees who participated in very informative and constructive discussions during the weekend. I think that we have a lot to do in 2015. If we can save the motivation from this meetup and work on our defined plans and goals, we&#39;ll have a very successful year. You can find all pictures of the meetup on &lt;a href=&quot;https://wiki.mozilla.org/De:Meeting:2015#Fotos&quot;&gt;flickr&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
@@ -1507,14 +1507,14 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
   <entry>
     <title>Treffen der deutschsprachigen Mozilla Gemeinschaft - Tag 0 (DE / EN)</title>
     <link href="https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/"/>
-    <updated>2015-02-27T04:32:52+00:00</updated>
+    <updated>2015-02-27T04:32:52Z</updated>
     <id>https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/</id>
     <content type="html">&lt;p&gt;&lt;em&gt;(English version below every paragraph)&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Das ist der erste Eintrag zum &lt;a href=&quot;https://wiki.mozilla.org/De:Meeting:2015&quot;&gt;Treffen der deutschsprachigen Mozilla Gemeinschaft&lt;/a&gt;. Insgesamt werden drei Teile veröffentlicht. Die weiteren findest du hier: &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0&quot;&gt;Tag 0&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1&quot;&gt;Tag 1&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2&quot;&gt;Tag 2&lt;/a&gt; .&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;This is the first post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all other parts here: &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0&quot;&gt;day 0&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1&quot;&gt;day 1&lt;/a&gt;, &lt;a href=&quot;http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2&quot;&gt;day 2&lt;/a&gt; .&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Das Treffen fand vom 20. bis am 22. Februar 2015 statt. Um die Koordination unter den Freiwilligen im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu gewährleisten, treffen wir uns jährlich um unsere Pläne und Ziele für das jeweilige Jahr zu definieren. Zusätzlich ist es natürlich auch wichtig, sich von Zeit zu Zeit zu treffen, da einige Diskussionen einfacher und schneller in einem Gespräch vor Ort geführt werden können. Insgesamt haben 27 Personen teilgenommen.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;The meetup was held on February 20 to February 22 2015. To facilitate the coordination between all volonteers and staff living/working in the German speaking countries (Germany, Austria, Switzerland) we meet once a year to discuss any topics, plans and goals for the year. Further it&#39;s important to meet regularly to have certain discussions in person since these are faster and more efficient. In total 27 persons attended this meetup.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8645/16405536767_d3cf70ccec_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8645/16405536767_d3cf70ccec_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;(Foto/Photo: Hagen Halbach)&lt;/em&gt;&lt;/p&gt;
 &lt;h2&gt;Vorbereitung &lt;em&gt;/ Preparation&lt;/em&gt;&lt;/h2&gt;
 &lt;p&gt;Da es sich dieses Jahr um ein zweitägiges Treffen gehandelt hat, war dementsprechend auch die Vorbereitung aufwändiger. Durch die Hilfe von Hagen Halbach konnten wir das aber ohne grössere Probleme bewältigen. Wichtig war hierbei auch, dass wir mit der Planung bereits im Oktober begonnen haben und so Zeit hatten, alles zu buchen und zu planen.&lt;/p&gt;
@@ -1531,7 +1531,7 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
 &lt;/ul&gt;
 &lt;p&gt;Ich denke, dass wir diese Ziele wunderbar erfüllt haben.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;I think we&#39;ve succeeded very well with these goals for the meetup.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8639/16612818695_88540f287e_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://c1.staticflickr.com/9/8639/16612818695_88540f287e_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;_ (Foto/Photo: Hagen Halbach)_&lt;/p&gt;
 &lt;h2&gt;Tag 0 / Day 0&lt;/h2&gt;
 &lt;p&gt;Da einige bereits am Freitag angereist sind, haben wir einen (inoffiziellen) &amp;quot;Tag 0&amp;quot; abgehalten. Im Vorfeld haben wir einige kleine Präsentationen geplant. Diese wurden aber auf den späteren Nachmittag geschoben, da sich sofort interessante Gespräche entwickelt haben.&lt;/p&gt;
@@ -1550,7 +1550,7 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
   <entry>
     <title>Firefox OS Awareness Day 2014</title>
     <link href="https://mkohler.dev/blog/2015/02/firefox-os-awareness-day-2014/"/>
-    <updated>2015-02-08T16:05:31+00:00</updated>
+    <updated>2015-02-08T16:05:31Z</updated>
     <id>https://mkohler.dev/blog/2015/02/firefox-os-awareness-day-2014/</id>
     <content type="html">&lt;p&gt;On the 13.12.2014 we&#39;ve met in Cologne, Germany to have a &amp;quot;Firefox OS Awareness Day&amp;quot;. The goal of this event was to promote Firefox OS in Germany, a very difficult task as it turns out.&lt;/p&gt;
 &lt;h2&gt;Some words about the mobile phone market in Germany&lt;/h2&gt;
@@ -1564,10 +1564,10 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
 &lt;p&gt;This time we decided to use AirBnB since the hotel costs before Christmas in Cologne are almost insane. We&#39;ve found a nice appartment with enough space to host 4 persons (6 wouldn&#39;t have been a problem either) for a good price. The host was very nice and the checkin was painless. For events with about 4 to 6 Mozillians attending we can look into AirBnB again!&lt;/p&gt;
 &lt;h2&gt;The event on Saturday&lt;/h2&gt;
 &lt;p&gt;Thanks to the great help from the local O2 flagship store (thanks Robert et al!) everything was ready when we arrived at the store a few minutes before opening. Martyna from the Berlin office sent the Firefox costume directly to Cologne. Sören, Philipp, his wife and I we&#39;re ready to show Firefox OS to people within the store and people passing by the store. Sebastian from the German Firefox OS launch team unfortunately couldn&#39;t attend, so we were quite happy to see Philipp&#39;s wife helping us out.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/02/DSC_0126.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/02/DSC_0126.jpg&quot; alt=&quot;Team picture&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/02/DSC_0126.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/02/DSC_0126.jpg&quot; alt=&quot;Team picture&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The O2 flagship store is in the middle of the city of Cologne. This also means a lot of people on the street. Since Cologne is quite strict with their rules in public space, we had to make sure that we&#39;re not blocking the street too much. So most of the time we stood in the door of the store without blocking the second entrance. We quickly figured out that this is the best option since for some reason there we&#39;re never a lot of people inside the store. For the people inside the store we had a table with flyers and some Firefox OS swag and several demo phones we could present. There were quite a lot of interested people, but most of them wouldn&#39;t want to exchange their smartphone for a Firefox OS device.&lt;/p&gt;
 &lt;p&gt;With the Firefox costume we got a lot of attention and a lot of people wanted to shoot pictures with the fox - &lt;a href=&quot;https://www.flickr.com/search/?tags=fx10mozber&quot;&gt;the same as in Berlin in November&lt;/a&gt;. If we didn&#39;t have enough impact for Firefox OS yet, we certainly made a lot of people smile because of us :)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/02/DSC_0019.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/02/DSC_0019.jpg&quot; alt=&quot;DSC_0019&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2015/02/DSC_0019.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2015/02/DSC_0019.jpg&quot; alt=&quot;DSC_0019&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;You can find the other pictures we took &lt;a href=&quot;https://www.flickr.com/photos/128655475@N02/sets/72157650287330397/&quot;&gt;on Flickr&lt;/a&gt;!&lt;/p&gt;
 &lt;h2&gt;Lessons learned&lt;/h2&gt;
 &lt;ul&gt;
@@ -1583,7 +1583,7 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
   <entry>
     <title>Firefox OS App Day Frankfurt - 22.11.2014</title>
     <link href="https://mkohler.dev/blog/2014/11/firefox-os-app-day-frankfurt-22.11.2014/"/>
-    <updated>2014-11-25T22:58:29+00:00</updated>
+    <updated>2014-11-25T22:58:29Z</updated>
     <id>https://mkohler.dev/blog/2014/11/firefox-os-app-day-frankfurt-22.11.2014/</id>
     <content type="html">&lt;p&gt;On the 22nd of November we met in Frankfurt am Main (Germany) to have a Firefox OS App Day. This is an event where we have talks in the morning to explain Firefox OS and Web APIs and then we hack for the rest of the day creating amazing apps for Firefox OS (and the open web).&lt;/p&gt;
 &lt;h2&gt;Preparation&lt;/h2&gt;
@@ -1600,7 +1600,7 @@ Alle diese Ideen, Pläne und Ziele sind in einem &lt;a href=&quot;https://trello
 &lt;li&gt;17:30 - 18:15 App presentations&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;We did a lot of advertisement for the event, but unfortunately that didn&#39;t turn out as we expected. We only heard about another event taking place the same day a few days before the event. This was too late to reschedule. Next time we&#39;ll check better and avoid having an event at the same day as a big Barcamp going on. I&#39;m sure that we&#39;d have more participants if it was on another day. Additionally we found out that asking Universities to advertise it to their students doesn&#39;t scale as well as it should. We didn&#39;t get any feedback from them.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg&quot; alt=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg&quot;&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;App Day&lt;/h2&gt;
 &lt;p&gt;On Saturday we were 9 persons. We expected to have 25 persons, but I&#39;m going to explain to you why this is actually not as bad as it sounds.&lt;/p&gt;
 &lt;p&gt;After a talk about the Mozilla community and Firefox OS from me, Colin talked about Web APIs and showed some examples. This was very interesting to all the participants since most of them were native App developers and not web developers. There were some &amp;quot;I can do X on Android, is that possible with Firefox OS too?&amp;quot;.&lt;/p&gt;
@@ -1614,7 +1614,7 @@ Apps created:&lt;/p&gt;
 &lt;li&gt;A quiz app where you need to find out the capital or country by identifying the flag of the country (this was already developed before, but he did a lot of fixes and adapted it to Firefox OS)&lt;/li&gt;
 &lt;li&gt;An app to upload Creative Commons pictures to the Wikimedia Commons page. Unfortunately we had a problem with the Wikimedia API and couldn&#39;t finish the app. He promised to finish it once it&#39;s possible. The Wikimedia Commons API doesn&#39;t send a CORS header, so systemXHR doesn&#39;t work if cookies are sent.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.jpg&quot; alt=&quot;B3Jr9DnIMAAlbvK.jpg_large&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.jpg&quot; alt=&quot;B3Jr9DnIMAAlbvK.jpg_large&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;At the end we showed how to upload an App to the Marketplace. Let&#39;s hope that everybody else uploads their app too once it has a better state and is not a prototype :)&lt;/p&gt;
 &lt;p&gt;Thanks to everybody who attended, great event!&lt;/p&gt;
 &lt;h2&gt;Lessons learned&lt;/h2&gt;
@@ -1630,20 +1630,20 @@ Apps created:&lt;/p&gt;
   <entry>
     <title>EuroPython 2014</title>
     <link href="https://mkohler.dev/blog/2014/11/europython-2014/"/>
-    <updated>2014-11-20T21:39:39+00:00</updated>
+    <updated>2014-11-20T21:39:39Z</updated>
     <id>https://mkohler.dev/blog/2014/11/europython-2014/</id>
     <content type="html">&lt;p&gt;Disclaimer: this is an event report from &lt;a href=&quot;https://mozillians.org/en-US/u/another_loco/&quot;&gt;Marco Perez&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Even though we were very happy to see that Mozilla was a sponsor of &amp;quot;EuroPython 2014&amp;quot; and even got its own booth, it felt somehow strange to see it all empty. We hoped that maybe it would be equipped and manned in the afternoon or maybe on tuesday.&lt;/p&gt;
 &lt;p&gt;But wednesday arrived and the booth remained empty. So I contacted Michael, our rep of the swiss Mozilla community. After he asked me to get some swag from the local Mozilla office in Berlin, Marcel and I formed a plan.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/11/moz_ch.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/11/moz_ch.jpg&quot; alt=&quot;moz_ch&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/11/moz_ch.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/11/moz_ch.jpg&quot; alt=&quot;moz_ch&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;After the last talks we went to the office at Voltastr. Fortunately not everybody had gone home yet. Georg showed us around and provided us with an ample supply of stickers and pins. We even got an original Mozilla lanyard each.&lt;/p&gt;
 &lt;p&gt;So armed with all those goodies as well as some stuff I had brought to Berlin (a t-shirt, a hoodie and the grand-daddy of all B2G phones (a Samsung Galaxy S2, modified to dual-boot a heavily patched nightly build of Firefox OS)) we prepared a surprise in the attic of the bcc.&lt;/p&gt;
 &lt;p&gt;Thursday saw a slightly different Mozilla booth with a variety of stickers, pins, a Firefox OS mobile phone, posters with some hints (mozilla.org, getfirefox.com, mozillians.org) and QR codes. Unfortunately we couldn&#39;t attend the booth all the time, since there were so many interesting talks we didn&#39;t want to miss.&lt;/p&gt;
 &lt;p&gt;But the stickers and the pins disappeared almost as fast as I could resupply the booth. I began to suspect that maybe just a few afficionados helped themselves very generously. So in order to spread the remaining pins and a few hundred stickers as effectively as possiblr i had to switch tactics: Welcome to guerilla style! :-)&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/11/pins.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/11/pins.jpg&quot; alt=&quot;pins&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/11/pins.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/11/pins.jpg&quot; alt=&quot;pins&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;During the breaks i wandered around on all three floors and discretely placed some stickers on the tables where folks were working, reading, coding, eating, drinking, discussing or having fun. Some didn&#39;t want them while others asked for a few more to give away.&lt;/p&gt;
 &lt;p&gt;On friday afternoon I gave the last remaing stickers to the volunteers that had helped keep everything going smoothly and we went to clean up the booth.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/11/stickers.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/11/stickers.jpg&quot; alt=&quot;stickers&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/11/stickers.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/11/stickers.jpg&quot; alt=&quot;stickers&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Lessons learned&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We must always assume that Mozilla is a sponsor of such events and that there may be no official Mozilla staff available to prepare a booth, especially if there&#39;s some &amp;quot;competing&amp;quot; event (e.g. OSCON).&lt;/li&gt;
@@ -1656,12 +1656,12 @@ Apps created:&lt;/p&gt;
   <entry>
     <title>Million Mask March Zurich - 08.11.2014</title>
     <link href="https://mkohler.dev/blog/2014/11/million-mask-march-zurich-08.11.2014/"/>
-    <updated>2014-11-20T21:35:03+00:00</updated>
+    <updated>2014-11-20T21:35:03Z</updated>
     <id>https://mkohler.dev/blog/2014/11/million-mask-march-zurich-08.11.2014/</id>
     <content type="html">&lt;p&gt;On the 8th of November (yes, 2 days before #fx10), we met in Zurich to provide a tea booth for protesters. There is a new law coming up in Switzerland which would negatively influence everybody&#39;s privacy, which was the reason for the protest. A few days before the event I asked Martin and Gion-Andri from the Swiss community if they&#39;d like to help out with the tea since two other members couldn&#39;t make it that day. Fortunately they said yes and did a great job!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5616/15741239816_159004e0a9_c.jpg&quot; alt=&quot;Team&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5616/15741239816_159004e0a9_c.jpg&quot; alt=&quot;Team&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Reminder for everyone who wants to serve tea some time: cooking 28 liters of water for the tea is easy. It took us only about an hour to finish the tea. But since nobody of us is allowed to drive a car (we don&#39;t need to have a car in Switzerland), we had to think about transportation. Since we also had to transport a table we needed a car and couldn&#39;t use public transport. We didn&#39;t find anybody with a car, so we took a taxi. The taxi driver did a great job driving steady to not spill anything. Making any other driver believe that it&#39;s a weird taxi driver driving so slowly? We did it!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5612/15764950625_e85255849d_c.jpg&quot; alt=&quot;Tea booth&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5612/15764950625_e85255849d_c.jpg&quot; alt=&quot;Tea booth&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;There we&#39;re about 80 to 100 people attending. Since Switzerland is quite cold these days, our tea was greatly appreciated. We had a great evening and we&#39;re surprised how many people don&#39;t know the values of Mozilla. We need to have more events like this and show that Mozilla stands for Privacy.&lt;/p&gt;
 </content>
   </entry>
@@ -1669,15 +1669,15 @@ Apps created:&lt;/p&gt;
   <entry>
     <title>Mozilla Hacking Day 2 - 11.10.2014</title>
     <link href="https://mkohler.dev/blog/2014/20/mozilla-hacking-day-2-11.10.2014/"/>
-    <updated>2014-11-20T21:32:40+00:00</updated>
+    <updated>2014-11-20T21:32:40Z</updated>
     <id>https://mkohler.dev/blog/2014/20/mozilla-hacking-day-2-11.10.2014/</id>
     <content type="html">&lt;p&gt;On the 11th of October we organized a &amp;quot;Mozilla Hacking Day 2&amp;quot; in Berlin. This was the follow up of the first Hacking Day in Berlin in April.&lt;/p&gt;
 &lt;p&gt;On Friday we met and went to dinner and talked about the next day. Since we had to wake up early on Saturday we didn&#39;t stay up long (&lt;em&gt;cough&lt;/em&gt;). On Saturday we had a quick delay since we couldn&#39;t have our room at TU Berlin yet at 9am. Fortunately we could have it at 9:30am and had interesting talks before that while waiting. This was organized together with &lt;a href=&quot;http://meshcon.net/&quot;&gt;MeshCon&lt;/a&gt;, so we could talk to a lot of people that generally don&#39;t get in touch with Mozilla.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3956/14931192133_c3c0114762.jpg&quot; alt=&quot;Table picture&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3956/14931192133_c3c0114762.jpg&quot; alt=&quot;Table picture&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;We devided the tables into &amp;quot;Firefox&amp;quot;, &amp;quot;Firefox OS&amp;quot;, &amp;quot;Firefox Addons&amp;quot; and &amp;quot;Other&amp;quot;. All hacking tables had attendees present. Many of them didn&#39;t know what to hack on, so we helped them out. Someone asked me about Popcorn.js and I could show him how to fix a bug (he found it himself!) in Popcorn Maker. On the other tables people were busy hacking on other stuff. I think most people enjoyed this day.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5602/15365218438_78e41ee487.jpg&quot; alt=&quot;Table picture&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5602/15365218438_78e41ee487.jpg&quot; alt=&quot;Table picture&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;At lunch we had great quiches from Florian, who suggested to cook them for us. These were amazing, thanks again to you, Florian!&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3927/15363165469_437f5db76e.jpg&quot; alt=&quot;Lunch picture&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm4.staticflickr.com/3927/15363165469_437f5db76e.jpg&quot; alt=&quot;Lunch picture&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;From the around 35 attendees, 2 said that they will continue contributing to Mozilla (Add-ons) and one even registered to be an add-on reviewer.&lt;/p&gt;
 &lt;p&gt;According to the feedback we have decided the following:&lt;/p&gt;
 &lt;ul&gt;
@@ -1687,14 +1687,14 @@ Apps created:&lt;/p&gt;
 &lt;li&gt;The next time, prepare a &amp;quot;Good First Bug&amp;quot; list beforehand instead of using the bugzilla search&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;All in all, it was a great day and we&#39;ll certainly provide this opportunity to learn in 2015.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5603/15550641365_0b52e6de93.jpg&quot; alt=&quot;Group picture&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5603/15550641365_0b52e6de93.jpg&quot; alt=&quot;Group picture&quot; /&gt;&lt;/p&gt;
 </content>
   </entry>
   
   <entry>
     <title>MobileCamp Dresden May 2014</title>
     <link href="https://mkohler.dev/blog/2014/05/mobilecamp-dresden-may-2014/"/>
-    <updated>2014-05-26T22:58:32+00:00</updated>
+    <updated>2014-05-26T22:58:32Z</updated>
     <id>https://mkohler.dev/blog/2014/05/mobilecamp-dresden-may-2014/</id>
     <content type="html">&lt;p&gt;On the 10th May I went to the MobileCamp in Dresden, Germany to give a keynote about Firefox OS. One of our community members was asked if Mozilla wants to do the keynote and we thought that this is a great opportunity to tell people in Germany about our mission and our goals we have with Firefox OS.&lt;/p&gt;
 &lt;h2&gt;Keynote&lt;/h2&gt;
@@ -1714,16 +1714,16 @@ Apps created:&lt;/p&gt;
   <entry>
     <title>Mozilla Hacking Day April 2014</title>
     <link href="https://mkohler.dev/blog/2014/05/mozilla-hacking-day-april-2014/"/>
-    <updated>2014-05-26T22:57:03+00:00</updated>
+    <updated>2014-05-26T22:57:03Z</updated>
     <id>https://mkohler.dev/blog/2014/05/mozilla-hacking-day-april-2014/</id>
     <content type="html">&lt;p&gt;On the 26th of April we met in Berlin to have a &amp;quot;Mozilla Hacking Day&amp;quot;. After several month of planning, we had a good session plan which sounded interesting. On &lt;a href=&quot;http://meetup.com/&quot;&gt;meetup.com&lt;/a&gt;, 55 people rsvp&#39;d and about 17 Mozillians registered to help us out at the event itself.&lt;/p&gt;
 &lt;h2&gt;Mozillians Dinner on Friday&lt;/h2&gt;
 &lt;p&gt;On Friday we met at the hotel and went out for Tapas to plan the last few things for Saturday and have some Mozilla discussions.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/05/Berlin_20140425_016_1280.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/05/Berlin_20140425_016_1280.jpg&quot; alt=&quot;Berlin_20140425_016_1280&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/05/Berlin_20140425_016_1280.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/05/Berlin_20140425_016_1280.jpg&quot; alt=&quot;Berlin_20140425_016_1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Hacking Day on Saturday&lt;/h2&gt;
 &lt;p&gt;On Saturday around 40 people showed up to get to know Mozilla and hack on its projects.&lt;/p&gt;
 &lt;p&gt;Our schedule:&lt;/p&gt;
-&lt;table dir=&quot;ltr&quot; style=&quot;table-layout: fixed; font-size: 13px; font-family: arial,sans,sans-serif; border-collapse: collapse; border: 1px solid #ccc;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;120&quot;&gt;&lt;col width=&quot;252&quot;&gt;&lt;col width=&quot;341&quot;&gt;&lt;col width=&quot;147&quot;&gt;&lt;/colgroup&gt;
+&lt;table dir=&quot;ltr&quot; style=&quot;table-layout: fixed; font-size: 13px; font-family: arial,sans,sans-serif; border-collapse: collapse; border: 1px solid #ccc;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;120&quot; /&gt;&lt;col width=&quot;252&quot; /&gt;&lt;col width=&quot;341&quot; /&gt;&lt;col width=&quot;147&quot; /&gt;&lt;/colgroup&gt;
 &lt;tbody&gt;
 &lt;tr style=&quot;height: 23px;&quot;&gt;
 &lt;td style=&quot;padding: 0px 3px 0px 3px; vertical-align: middle; background-color: #efefef; color: #000000; text-align: center; direction: ltr;&quot;&gt;9:00 - 9:45&lt;/td&gt;
@@ -1793,7 +1793,7 @@ Apps created:&lt;/p&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;table dir=&quot;ltr&quot; style=&quot;table-layout: fixed; font-size: 13px; font-family: arial,sans,sans-serif; border-collapse: collapse; border: 1px solid #ccc;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;120&quot;&gt;&lt;col width=&quot;252&quot;&gt;&lt;col width=&quot;341&quot;&gt;&lt;col width=&quot;147&quot;&gt;&lt;/colgroup&gt;
+&lt;table dir=&quot;ltr&quot; style=&quot;table-layout: fixed; font-size: 13px; font-family: arial,sans,sans-serif; border-collapse: collapse; border: 1px solid #ccc;&quot; border=&quot;1&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;120&quot; /&gt;&lt;col width=&quot;252&quot; /&gt;&lt;col width=&quot;341&quot; /&gt;&lt;col width=&quot;147&quot; /&gt;&lt;/colgroup&gt;
 &lt;tbody&gt;
 &lt;tr style=&quot;height: 17px;&quot;&gt;
 &lt;td style=&quot;padding: 0px 3px 0px 3px; vertical-align: middle; color: #000000; text-align: center; direction: ltr;&quot;&gt;afternoon&lt;/td&gt;
@@ -1831,9 +1831,9 @@ full featured replacement to the C++ libical used in our product, Lightning. Thi
 &lt;/table&gt;
 &lt;p&gt;Since we had some overlapping sessions (e.g. talks during other sessions), the attendees needed to choose what they wanted to do after lunch. Some decided to hear the rest of the talks, others went upstairs to hack on the projects. Unfortunately most of the people downstairs didn&#39;t come upstairs to hack on something after the talks.&lt;/p&gt;
 &lt;p&gt;Those hacking upstairs splitted up to the different session tables with Firefox OS being the most popular. Some other tables, unfortunately, were empty. This is one point we need to address for future events (see &amp;quot;Lessions learned&amp;quot; below).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/05/Berlin_20140426_01_1280.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/05/Berlin_20140426_01_1280.jpg&quot; alt=&quot;Berlin_20140426_01_1280&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/05/Berlin_20140426_01_1280.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/05/Berlin_20140426_01_1280.jpg&quot; alt=&quot;Berlin_20140426_01_1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;In conclusion we can happily say that this was a great event and we&#39;ll follow up on that in autumn. We had a lot of discussions with interested people, mostly about Firefox OS. This was one of the first events where a lot of Mozilla emplyees were present, this is a big advantage and also helps to further improve the coorporation between employees and volunteers.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/05/Berlin_20140426_02_1280.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/05/Berlin_20140426_02_1280.jpg&quot; alt=&quot;Berlin_20140426_02_1280&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/05/Berlin_20140426_02_1280.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/05/Berlin_20140426_02_1280.jpg&quot; alt=&quot;Berlin_20140426_02_1280&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;h2&gt;Lessions learned&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;We knew we&#39;ll have a few &amp;quot;no show&amp;quot;, but we didn&#39;t expect it to be almost 40%. We need to find a way to improve that.&lt;/li&gt;
@@ -1848,20 +1848,20 @@ full featured replacement to the C++ libical used in our product, Lightning. Thi
   <entry>
     <title>German-speaking Community DocSprint April 2014</title>
     <link href="https://mkohler.dev/blog/2014/04/german-speaking-community-docsprint-april-2014/"/>
-    <updated>2014-04-13T18:11:18+00:00</updated>
+    <updated>2014-04-13T18:11:18Z</updated>
     <id>https://mkohler.dev/blog/2014/04/german-speaking-community-docsprint-april-2014/</id>
     <content type="html">&lt;p&gt;Am 5. und 6. April  traffen wir uns in Berlin für einen Mozilla DocSprint der deutschspachigen Community. Es konnten leider nicht alle Core-Contributors dabei sein, aber wir hatten trotzdem ein schönes und produktives Wochenende.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/04/docsprint.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/docsprint.jpg&quot; alt=&quot;docsprint&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://mkohler.dev/images/2014/04/docsprint.jpg&quot;&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/docsprint.jpg&quot; alt=&quot;docsprint&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Am Freitag traffen wir uns im Mozilla Office in Berlin, um an einer Mozilla-Town-Hall teilzunehmen. Danach haben wir über diverse Themen diskutiert und uns auf die beiden bevorstehenden Tage vorbereitet.&lt;/p&gt;
 &lt;h2&gt;Samstag&lt;/h2&gt;
 &lt;p&gt;Am Samstag war unsere Aufmerksamkeit vollständig auf &lt;a href=&quot;http://support.mozilla.org/&quot;&gt;SUMO&lt;/a&gt; gerichtet. Thomas hat uns eine &lt;a href=&quot;https://support.mozilla.org/de/kb/how-translate-sumo-kb-articles-german&quot;&gt;Einführung&lt;/a&gt; gegeben, so dass wir danach selbständig Artikel übersetzen konnten. Mit der super Hilfe von Thomas und anderen Lokalisierern konnten wir viele Artikel zum Thema &amp;quot;Firefox 29&amp;quot; übersetzen. Andy und andere haben jeweils die neuen Australis-Screenshots auf Deutsch dazu beigetragen.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2824/13704874205_095564a31b_c.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2824/13704874205_095564a31b_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Nach ungefähr 11 Stunden Arbeit konnten wir guten Gewisses chinesisch essen gehen.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7337/13705701444_5aafa4145c_c.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7337/13705701444_5aafa4145c_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Sonntag&lt;/h2&gt;
 &lt;p&gt;Am Sonntag &lt;a href=&quot;http://florianscholz.com/2014/03/arewedocumentedyet/&quot;&gt;führte uns Florian in MDN ein&lt;/a&gt;, da sich die beiden Systeme unterscheiden. Wir fokussierten uns auf die &amp;quot;Developer Tools&amp;quot; Artikel von MDN.&lt;/p&gt;
 &lt;p&gt;Am Nachmittag erhielten wir eine kurze &lt;a href=&quot;https://etherpad.mozilla.org/V5uqlqvJ0O&quot;&gt;Einführung&lt;/a&gt; in &amp;quot;Produkt-Lokalisierung&amp;quot; von Kadir. Mit dieser Einführung sollten nun alle in der Lage sein, die verschiedenen Produkte zu lokalisieren und die deutschsprachige Übersetzung auf dem aktuellen Stand zu halten. Da Sebastian bereits viele Bugs im Vorfeld korrigiert hatte, blieben uns nur noch 2 Bugs, die wir bearbeiten konnten. An dieser Stelle auch einen herzlichen Dank an Sebastian und Andy, welche zwar nicht dabei sein konnten, aber trotzdem massgeblich am Erfolg dieses Wochenendes beigetragen haben.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2856/13705238234_09a7601522_c.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm3.staticflickr.com/2856/13705238234_09a7601522_c.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Die erledigten Arbeiten könnt ihr nachfolgend einsehen.&lt;/p&gt;
 &lt;h2&gt;Erledigte Arbeiten (über alle 2 Tage verteilt)&lt;/h2&gt;
 &lt;h3&gt;SUMO&lt;/h3&gt;
@@ -1907,7 +1907,7 @@ Nachher:&lt;/p&gt;
   <entry>
     <title>Barcamp Salzburg March 2014</title>
     <link href="https://mkohler.dev/blog/2014/04/barcamp-salzburg-march-2014/"/>
-    <updated>2014-04-13T17:29:55+00:00</updated>
+    <updated>2014-04-13T17:29:55Z</updated>
     <id>https://mkohler.dev/blog/2014/04/barcamp-salzburg-march-2014/</id>
     <content type="html">&lt;p&gt;On the 15th of March I organized a Firefox OS workshop at the &lt;a href=&quot;http://lanyrd.com/2014/barcamp-salzburg-next-web-march-2014/&quot;&gt;Barcamp Salzburg&lt;/a&gt;. But let&#39;s start from the beginning.&lt;/p&gt;
 &lt;h2&gt;Friday evening&lt;/h2&gt;
@@ -1916,12 +1916,12 @@ Nachher:&lt;/p&gt;
 &lt;h2&gt;Saturday&lt;/h2&gt;
 &lt;p&gt;After some very interesting talks we could start with our workshop in the afternoon. We had a time slot of about 2 hours. Even though about 15 persons registered for the event, only 8 showed up. Nevertheless we had a great workshop!&lt;/p&gt;
 &lt;p&gt;At the beginning I hold a short talk about Firefox OS explaining its way and our goals. No, I don&#39;t have slides to share, since I took the very popular slides from Christian Heilmann and deleted some of the slides to fit it to our time slot.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/salzburg1.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/salzburg1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;After that &lt;a href=&quot;https://twitter.com/codekee&quot;&gt;Ankit&lt;/a&gt; took over and explained how to use the Firefox OS Simulator.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/salzburg3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/salzburg3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Since Ankit showed how to debug the standard applications already installed on the simulator, a lot of participants instantly opened the editor and played with the Developer Tools.&lt;/p&gt;
 &lt;p&gt;Since the time didn&#39;t allow us to do a lot of application programming the participants just played with the simulator and we answered some questions. One guy took his already existing web app and ported it to Firefox OS.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/salzburg3.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://mkohler.dev/images/2014/04/salzburg3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;After all, the participants had a great time playing with Firefox OS. Additionally they all now have amazing Firefox OS swag. The orange Firefox OS glasses are a great give-away and at the end we could have given away even more than we had!&lt;/p&gt;
 </content>
   </entry>
@@ -1929,7 +1929,7 @@ Nachher:&lt;/p&gt;
   <entry>
     <title>German-speaking Mozilla Community Meetup February 2014</title>
     <link href="https://mkohler.dev/blog/2014/02/german-speaking-mozilla-community-meetup-february-2014/"/>
-    <updated>2014-02-23T23:34:25+00:00</updated>
+    <updated>2014-02-23T23:34:25Z</updated>
     <id>https://mkohler.dev/blog/2014/02/german-speaking-mozilla-community-meetup-february-2014/</id>
     <content type="html">&lt;p&gt;&lt;strong&gt;TL;DR:&lt;/strong&gt; Great meetup, let&#39;s work on our defined goals for 2014!&lt;/p&gt;
 &lt;p&gt;On the 8th of February 2014 we had our second &amp;quot;German-speaking Mozilla Community&amp;quot; Meetup after rebooting the community. In this blog post I&#39;d like to review the event and tell you about our 2014 goals.&lt;/p&gt;
@@ -1941,7 +1941,7 @@ Nachher:&lt;/p&gt;
 &lt;li&gt;It&#39;s hard to find new contributors for Marketing and Localization
 We splitted up in different groups: L10N/Support, Hacking and a &amp;quot;miscellaneous&amp;quot; group.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7337/12417462025_b9dba8c0c4.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm8.staticflickr.com/7337/12417462025_b9dba8c0c4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;h2&gt;Let&#39;s review our goals for 2014&lt;/h2&gt;
 &lt;h3&gt;L10N/Support&lt;/h3&gt;
 &lt;ul&gt;
@@ -2025,7 +2025,7 @@ Webmaker:&lt;/p&gt;
 &lt;li&gt;Inform other communities about our next events (JS groups, user groups, ...)&lt;/li&gt;
 &lt;li&gt;Big Mozilla Hacking Days (see above)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5492/12417492125_fa4430da73_z.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5492/12417492125_fa4430da73_z.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Thanks again for joining us! See all photos on &lt;a href=&quot;https://secure.flickr.com/photos/henx/sets/72157640739919535/&quot;&gt;Henrik&#39;s flickr page&lt;/a&gt;.&lt;/p&gt;
 </content>
   </entry>
@@ -2033,7 +2033,7 @@ Webmaker:&lt;/p&gt;
   <entry>
     <title>OKCon 2013 in Geneva</title>
     <link href="https://mkohler.dev/blog/2013/11/okcon-2013-in-geneva/"/>
-    <updated>2013-11-03T12:39:52+00:00</updated>
+    <updated>2013-11-03T12:39:52Z</updated>
     <id>https://mkohler.dev/blog/2013/11/okcon-2013-in-geneva/</id>
     <content type="html">&lt;p&gt;Mid of September I attended the &lt;a href=&quot;http://okcon.org/&quot;&gt;Open Knowledge Conference 2013&lt;/a&gt; in Geneva. To be honest, I had never heard of the Open Knowledge Foundation before (or I just don&#39;t recall), so I was quite happy to see that this year&#39;s conference was in Geneva.  I just found out about it, because &lt;a href=&quot;https://mozillians.org/en-US/u/kaythaney/&quot;&gt;Kaitlin Thaney&lt;/a&gt;, Director Mozilla Science Lab had a talk there.&lt;/p&gt;
 &lt;p&gt;I had heard of Open Data and seen some examples before, but I didn&#39;t know, that there was a whole conference about it. Open Data, Open Government, Open Science, you name it. I tried to go to an &lt;a href=&quot;http://opendata.ch/&quot;&gt;OpenData.ch&lt;/a&gt; event last spring, but unfortunately I couldn&#39;t make it. Otherwise I would have been involved with OpenData before, since it&#39;s a great cause. At the Open Knowledge Conference the Swiss government announced their &lt;a href=&quot;http://opendata.admin.ch/&quot;&gt;Open Data Portal&lt;/a&gt;, which (in my opinion) needs a lot of improvement and more different datasets.&lt;/p&gt;
@@ -2045,7 +2045,7 @@ Webmaker:&lt;/p&gt;
   <entry>
     <title>Barcamp Erfurt 2013</title>
     <link href="https://mkohler.dev/blog/2013/08/barcamp-erfurt-2013/"/>
-    <updated>2013-08-05T23:03:07+00:00</updated>
+    <updated>2013-08-05T23:03:07Z</updated>
     <id>https://mkohler.dev/blog/2013/08/barcamp-erfurt-2013/</id>
     <content type="html">&lt;p&gt;On the 15th and 16th of June (long time ago, I know), I was invited to the Barcamp Erfurt 2013. Since I had never been at a Barcamp before, I didn&#39;t exactly know what it will be like. I gotta say: Barcamps are awesome!&lt;/p&gt;
 &lt;p&gt;This year&#39;s theme was &amp;quot;youth media&amp;quot;, so I had the possibility to talk to tv youth program creators, youth educators and other interesting persons. On Saturday I had the opportunity to talk about Webmaker. My goal was to give an intro and then do an interactive workshop, but unfortunately the participants didn&#39;t have a laptop with them. So I did an extended demo and showed the capabilities of the Popcorn Maker, X-Ray Goggles and Thimble.&lt;/p&gt;
@@ -2059,7 +2059,7 @@ Webmaker:&lt;/p&gt;
   <entry>
     <title>Firefox OS App Days - combined with Webmaker</title>
     <link href="https://mkohler.dev/blog/2013/06/firefox-os-app-days-combined-with-webmaker/"/>
-    <updated>2013-06-23T23:20:59+00:00</updated>
+    <updated>2013-06-23T23:20:59Z</updated>
     <id>https://mkohler.dev/blog/2013/06/firefox-os-app-days-combined-with-webmaker/</id>
     <content type="html">&lt;p&gt;In late May 2013 we (Mozilla Switzerland) organized a Firefox OS App Day in Zurich. At this event we wanted to give local developers a chance to play with Firefox OS and write some apps for it. It was a great event, which I don&#39;t need to blog about further since it has been documented &lt;a href=&quot;http://blog.zuehlke.com/firefoxos-app-day-switzerland-was-great/&quot;&gt;very&lt;/a&gt; &lt;a href=&quot;https://blog.liip.ch/archive/2013/05/28/firefox-os-app-day.html&quot;&gt;well&lt;/a&gt; &lt;a href=&quot;http://blog.utou.ch/2013/mozilla-firefox-os-app-day/&quot;&gt;elsewhere&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;In the beginning of May 2013 I attended the Vienna Firefox OS App Day. This event was awesome and got me to think about combining Firefox OS with &lt;a href=&quot;http://www.webmaker.org/&quot;&gt;Webmaker&lt;/a&gt;.&lt;/p&gt;
@@ -2083,7 +2083,7 @@ Webmaker:&lt;/p&gt;
   <entry>
     <title>BackupSoft</title>
     <link href="https://mkohler.dev/blog/2010/05/backupsoft/"/>
-    <updated>2010-05-30T20:09:58+00:00</updated>
+    <updated>2010-05-30T20:09:58Z</updated>
     <id>https://mkohler.dev/blog/2010/05/backupsoft/</id>
     <content type="html">&lt;p&gt;Our backup application &amp;quot;BackupSoft&amp;quot; is now officially available for download. You can download it on the &amp;quot;Downloads&amp;quot; page of this website. Currently there is only the Linux version available, because the Windows version takes up to 50MB. I&#39;m sorry you need to compile it for yourself. You need to download the linux version if you want to have the source code. Further Qt needs to be installed.&lt;/p&gt;
 </content>
@@ -2092,7 +2092,7 @@ Webmaker:&lt;/p&gt;
   <entry>
     <title>Tabs-on-Top</title>
     <link href="https://mkohler.dev/blog/2010/04/tabs-on-top/"/>
-    <updated>2010-04-18T21:30:48+00:00</updated>
+    <updated>2010-04-18T21:30:48Z</updated>
     <id>https://mkohler.dev/blog/2010/04/tabs-on-top/</id>
     <content type="html">&lt;p&gt;Currently there is a discussion about the Tabs-on-Top feature in the &lt;a href=&quot;http://groups.google.de/group/mozilla.dev.apps.firefox/browse_thread/thread/29849697fc8f53f5#&quot;&gt;mozilla.dev.apps.firefox newsgroup&lt;/a&gt;. Tabs-on-tops has been &lt;a href=&quot;http://hg.mozilla.org/mozilla-central/log?rev=544815&quot;&gt;pushed&lt;/a&gt; to the nightly (trunk) development branch of firefox on April 6th 2010. Pretty much every new feature introduced to Firefox leads to a more or less active discussion but this time it is very important to find the right decision since this is a major change in the front UI. Of course there will never be an agreement because GUIs are still a matter of subjective. Now the FF UI design team needs to find a decision which is best for most of the users.&lt;/p&gt;
 &lt;p&gt;Firefox is currently used by millions of users. This means a lot of people who need to be satisfied. Otherwise they will just think about changing the browser. But wait, is there a good browser which has the option to place tabs on the bottom of the location bar? Yes, it is Firefox. Of course there will be an option to place tabs on the bottom. It is just about where to place the tabs by &lt;em&gt;default&lt;/em&gt;.&lt;/p&gt;
@@ -2100,9 +2100,9 @@ Webmaker:&lt;/p&gt;
 &lt;p&gt;Coming back to the actual discussion I think it is difficult to get to a good decision. There are pros and cons which I will explain now.&lt;/p&gt;
 &lt;h2&gt;Pros&lt;/h2&gt;
 &lt;p&gt;Often tabs indicate that the content will change. Already with tabs on bottom the content of the tab changes when clicking on another tab. This will not change. But have you ever thought about other things that change when focusing another tab? The first thing that comes to mind is the location bar. Sure, that was logical, wasn&#39;t it? The other thing are the forward/back-arrows. The location bar indicates the URL you are currently on, the arrows represent the history. Even though you don&#39;t see the change of the arrows right away, their content changes. In my opinion it would be more intuitive having the tabs on top (even though a few things are constant like the home button).&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_tablevel.png&quot;&gt;&lt;img src=&quot;http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_tablevel-1024x211.png&quot; alt=&quot;&quot; title=&quot;bookmarksbar_on_tablevel&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_tablevel.png&quot;&gt;&lt;img src=&quot;http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_tablevel-1024x211.png&quot; alt=&quot;&quot; title=&quot;bookmarksbar_on_tablevel&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Wait, the bookmarks toolbar doesn&#39;t change. So why should it be below the location bar? It would be way better if it was right on top of the tabs (i.e. right below the window title bar). So just move it on top, so the bookmarks toolbar doesn&#39;t disturb the user&#39;s view.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_browserlevel.png&quot;&gt;&lt;img src=&quot;http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_browserlevel-1024x211.png&quot; alt=&quot;&quot; title=&quot;bookmarksbar_on_browserlevel&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_browserlevel.png&quot;&gt;&lt;img src=&quot;http://www.webdesign-portal.net/wp-content/uploads/2010/04/bookmarksbar_on_browserlevel-1024x211.png&quot; alt=&quot;&quot; title=&quot;bookmarksbar_on_browserlevel&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;(thanks to &lt;a href=&quot;http://blog.mozilla.com/faaborg/&quot;&gt;Alex Faaborg&lt;/a&gt; for these &lt;a href=&quot;http://people.mozilla.com/~faaborg/files/daf/bookmarksBarLevel.png&quot;&gt;mockups&lt;/a&gt;)&lt;/p&gt;
 &lt;p&gt;An important fact in user-centered UI design has always been &lt;a href=&quot;http://en.wikipedia.org/wiki/Fitts%27s_law&quot;&gt;Fitt&#39;s Law&lt;/a&gt;. I don&#39;t want to explain it here, but one aspect of it is really important: It is easier to click on an element which is located at the top of the screen than on one that is somewhere in the middle of the screen. This is because you can move your cursor straight to the top and it automatically stops there and then you can move it a few pixels down and you are right over the element to click on. Unfortunately nowadays the screen resolutions are very high and a lot of users don&#39;t have the windows maximized. Due to this fact Fitt&#39;s Law doesn&#39;t work here anymore.&lt;/p&gt;
 &lt;p&gt;Further it is better to have the tabs on top because they do not disturb the vision of the user when watching away from the location bar to the tab&#39;s content. Every feature has its disadvantages, though.&lt;/p&gt;
@@ -2117,7 +2117,7 @@ Webmaker:&lt;/p&gt;
   <entry>
     <title>my mozconfig</title>
     <link href="https://mkohler.dev/blog/2010/04/my-mozconfig/"/>
-    <updated>2010-04-14T17:55:11+00:00</updated>
+    <updated>2010-04-14T17:55:11Z</updated>
     <id>https://mkohler.dev/blog/2010/04/my-mozconfig/</id>
     <content type="html">&lt;p&gt;As you probably know I have already fixed a few bugs in Mozilla Firefox. For this I need to build Firefox from the source files. Therefore I need a &amp;quot;mozconfig&amp;quot; which sets some general options how to build Firefox.&lt;/p&gt;
 &lt;p&gt;Feel free to copy it if you want to use it too:&lt;/p&gt;
