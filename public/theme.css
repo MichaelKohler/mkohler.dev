@@ -591,6 +591,16 @@ footer .copyrights a {
   header .svg-inline--fa {
     font-size: 32px;
   }
+
+  header .name,
+  header .position {
+    padding-left: 30px;
+  }
+
+  footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 
 @media (max-width: 600px) {
