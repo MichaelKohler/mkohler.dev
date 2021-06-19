@@ -465,6 +465,7 @@ nav li:nth-child(6) {
   object-fit: cover;
 }
 
+#opensource a,
 #blog a,
 #blogpost a {
  text-decoration: underline;
