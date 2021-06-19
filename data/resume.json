@@ -43,8 +43,12 @@
     "website": "https://klarna.com",
     "startDate": "2021-01-15",
     "endDate": "2099-01-01",
-    "summary": "Senior Engineer, Card Management Team",
-    "highlights": []
+    "summary": "Senior Engineer, Klarna Card Payment Options / Card Management",
+    "highlights": [
+      "Klarna Card Payment Methods (React Native, TypeScript, Node.js)",
+      "Klarna Card Pre-purchase Financing (React Native, TypeScript, Node.js)",
+      "Klarna Card Controls (React Native, TypeScript, Node.js)"
+    ]
   }, {
     "company": "Control4 + SnapAV (acquired NEEO)",
     "position": "Senior Software Development Engineer",
@@ -130,7 +134,9 @@
       "Improved and maintained the Common Voice Sentence Extractor (Rust)",
       "Implemented several GitHub Actions to automate processes for Common Voice",
       "Created several volunteer campaign websites to boost volunteer involvement",
-      "Wrote several patches for Firefox (JavaScript, XUL)"
+      "Contributions to Firefox (Testing, Coding)",
+      "Contributions to Firefox OS (Testing, Coding, Evangelism, Apps)",
+      "Contributions to Webmaker (Teaching)"
     ]
   }],
   "education": [{
