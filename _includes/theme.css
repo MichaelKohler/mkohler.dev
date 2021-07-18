@@ -11,19 +11,11 @@
 }
 
 @font-face {
-  font-family: "Font Awesome 5 Brands";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url(./fonts/fa-brands-400.woff2) format("woff2");
-}
-
-@font-face {
   font-family: "Font Awesome 5 Free";
   font-style: normal;
   font-weight: 900;
   font-display: block;
-  src: url(./fonts/fa-solid-900.woff2) format("woff2");
+  src: url(./fonts/fa.woff2) format("woff2");
 }
 
 .fa, .fab, .fad, .fal, .far, .fas {
@@ -36,11 +28,7 @@
   line-height: 1
 }
 
-.fab {
-  font-family: "Font Awesome 5 Brands"
-}
-
-.fa, .far, .fas {
+.fa, .far, .fas, .fab {
   font-family: "Font Awesome 5 Free"
 }
 
