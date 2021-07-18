@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cache::v1';
+const CACHE_NAME = 'cache::v2';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -7,14 +7,11 @@ self.addEventListener('install', (event) => {
         cache.addAll([
           // General
           '/favicon.ico',
-          '/fa-all.min.css',
-          '/theme.css',
           '/data/resume.json',
           '/images/userpic01.webp',
           '/offline/',
           '/fonts/dosis.woff2',
-          '/fonts/fa-brands-400.woff2',
-          '/fonts/fa-solid-900.woff2',
+          '/fonts/fa.woff2',
           '/fonts/raleway.woff2',
 
           // Subpages
@@ -26,7 +23,7 @@ self.addEventListener('install', (event) => {
           '/talks/',
         ]);
       })
-    .catch(console.error)
+      .catch(console.error)
   );
 });
 

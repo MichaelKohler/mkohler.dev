@@ -10,6 +10,44 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Font Awesome 5 Brands";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url(./fonts/fa-brands-400.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url(./fonts/fa-solid-900.woff2) format("woff2");
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1
+}
+
+.fab {
+  font-family: "Font Awesome 5 Brands"
+}
+
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free"
+}
+
+.fa, .fas {
+  font-weight: 900
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -59,9 +97,7 @@ h5 {
   font-weight: 400;
 }
 
-a,
-a i,
-a i:before {
+a, a i, a i:before {
   cursor: pointer;
   text-decoration: none;
   color: #2f2f2f;
@@ -71,8 +107,7 @@ a i:before {
   -o-transition: all 0.25s ease 0s;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
   text-decoration: underline;
 }
 
@@ -122,13 +157,16 @@ header .nav-container {
   flex-grow: 2;
 }
 
-header h1,
-header h2 {
+header .nav-container i {
+  color: #e7e7e7;
+  font-size: 2.5rem;
+}
+
+header h1, header h2 {
   margin: 0;
 }
 
-header .name,
-header .position {
+header .name, header .position {
   padding: 0px 40px;
   min-height: 120px;
   max-height: 120px;
@@ -191,9 +229,7 @@ nav li a i:before {
   margin: 0;
 }
 
-nav li a:hover i:before,
-nav li a:active i:before,
-nav li a:focus i:before {
+nav li a:hover i:before, nav li a:active i:before, nav li a:focus i:before {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -277,8 +313,7 @@ nav li:nth-child(6) {
   color: #000;
 }
 
-.pro-experience h3,
-.sidebar h3 {
+.pro-experience h3, .sidebar h3 {
   padding-bottom: 20px;
 }
 
@@ -378,9 +413,7 @@ nav li:nth-child(6) {
   margin-top: 10px;
 }
 
-.pro-experience a,
-.pro-experience a:hover,
-.pro-experience a:focus {
+.pro-experience a, .pro-experience a:hover, .pro-experience a:focus {
   text-decoration: none;
   color: #ffffff;
 }
@@ -420,17 +453,11 @@ nav li:nth-child(6) {
   color: #3f3f3f;
 }
 
-#offline,
-#notfound,
-#talks,
-#opensource,
-#blog,
-#blogpost {
+#offline, #notfound, #talks, #opensource, #blog, #blogpost {
   margin: 30px 30px;
 }
 
-#talks h2,
-#opensource h2 {
+#talks h2, #opensource h2 {
   padding-top: 0;
 }
 
@@ -465,10 +492,8 @@ nav li:nth-child(6) {
   object-fit: cover;
 }
 
-#opensource a,
-#blog a,
-#blogpost a {
- text-decoration: underline;
+#opensource a, #blog a, #blogpost a {
+  text-decoration: underline;
 }
 
 #blogpost img {
@@ -528,9 +553,7 @@ footer .follow .social li a i:before {
   color: #efefef;
 }
 
-footer .follow .social li a:hover i:before,
-footer .follow .social li a:focus i:before,
-footer .follow .social li a:active i:before {
+footer .follow .social li a:hover i:before, footer .follow .social li a:focus i:before, footer .follow .social li a:active i:before {
   color: #fff;
 }
 
@@ -547,37 +570,29 @@ footer .copyrights a {
   .details {
     flex-direction: column;
   }
-
   .experience-info {
     flex-direction: column-reverse;
   }
-
   footer {
     flex-direction: column-reverse;
   }
-
-  .pro-experience,
-  .pro-experience .experience {
+  .pro-experience, .pro-experience .experience {
     max-width: 100%;
     min-width: unset;
   }
   .pro-experience .experience ul li ul {
     margin-left: 23px;
   }
-
   .skills {
     max-width: 100%;
   }
-
   #opensource .areas {
     flex-direction: column;
   }
-
   #opensource .area {
     max-width: unset;
     width: 100%;
   }
-
   #opensource img {
     max-width: 100%;
     min-width: 100%;
@@ -588,16 +603,12 @@ footer .copyrights a {
   header .photo {
     display: none;
   }
-
   header .svg-inline--fa {
     font-size: 32px;
   }
-
-  header .name,
-  header .position {
+  header .name, header .position {
     padding-left: 30px;
   }
-
   footer {
     padding-left: 30px;
     padding-right: 30px;
@@ -610,12 +621,10 @@ footer .copyrights a {
     padding-left: 0;
     margin-left: 0;
   }
-
   .pro-experience .experience ul {
     margin-top: 0;
     margin-left: 0;
   }
-
   .pro-experience li.company a:before {
     display: none;
   }
@@ -625,123 +634,86 @@ footer .copyrights a {
   body {
     font-size: 12px;
   }
-
   h1 {
     font-size: 24px;
   }
-
   h3 {
     font-size: 18px;
   }
-
-  header img,
-  nav,
-  .about,
-  .details .sidebar h3,
-  .pro-experience h3:nth-of-type(2),
-  footer {
+  header img, nav, .about, .details .sidebar h3, .pro-experience h3:nth-of-type(2), footer {
     display: none;
   }
-
   header {
     color: #000;
   }
-
-  header,
-  header .position,
-  .experience-info,
-  .sidebar {
+  header, header .position, .experience-info, .sidebar {
     background-color: #fff;
   }
-
-  h1, h2, h3, h4, h5, h6,
-  header .name,
-  header .position,
-  .details .sidebar,
-  .pro-experience h3 {
+  h1, h2, h3, h4, h5, h6, header .name, header .position, .details .sidebar, .pro-experience h3 {
     margin: 0;
     padding: 0;
     min-height: unset;
   }
-
   header .position {
     margin-bottom: 5px;
     padding-bottom: 15px;
     border-bottom: 1px solid #8EA8C3;
   }
-
   header .position h2 {
     font-size: 16px;
   }
-
   header .position h2:after {
     content: "  - https://mkohler.dev";
     text-transform: lowercase;
   }
-
   /* Remove Name */
   .details .sidebar-info .row:nth-of-type(1) {
     display: none;
   }
-
   .experience-info {
     display: block;
   }
-
   .experience-info .skills {
     min-width: 100%;
   }
-
-  .skills h3,
-  .pro-experience h3 {
+  .skills h3, .pro-experience h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 0;
   }
-
-  .skills,
-  .pro-experience {
+  .skills, .pro-experience {
     padding-left: 0;
     margin-left: 0;
   }
-
   .pro-experience .experience ul {
     break-inside: avoid;
   }
-
   .pro-experience .experience ul:nth-child(n+4) .responsibilities {
     display: none;
   }
-
   .pro-experience li.date {
     font-size: 12px;
   }
-
   .pro-experience .experience li.company {
     margin-top: 5px;
     margin-bottom: 5px;
   }
-
   .pro-experience .experience li.company a {
     font-size: 14px;
   }
-
   .pro-experience li.position {
     line-height: 12px;
   }
-
   /* Remove Eduction */
   .pro-experience .experience:nth-of-type(2) {
     display: none;
   }
-
   .sidebar .row {
     border-bottom: none;
     margin-bottom: 0;
     margin-top: 15px;
     padding-bottom: 0;
   }
-
   .sidebar-info .row div:first-child {
     margin-bottom: 5px;
   }
