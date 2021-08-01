@@ -4,7 +4,7 @@ permalink: /blog/2015/03/{{title | slug}}/
 date: 2015-03-22 22:21:15
 ---
 
-On the 21st and 22nd of February 2015 we held the [annual Meetup of the German speaking community](http://www.michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1). With this blog post I'd like to share the opinions of the participants, so others can benefit form our experience.
+On the 21st and 22nd of February 2015 we held the [annual Meetup of the German speaking community](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/). With this blog post I'd like to share the opinions of the participants, so others can benefit form our experience.
 
 <!-- excerpt -->
 

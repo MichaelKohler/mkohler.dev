@@ -6,11 +6,11 @@ date: 2015-02-27 04:32:52
 
 _(English version below every paragraph)_
 
-Das ist der erste Eintrag zum [Treffen der deutschsprachigen Mozilla Gemeinschaft](https://wiki.mozilla.org/De:Meeting:2015). Insgesamt werden drei Teile veröffentlicht. Die weiteren findest du hier: [Tag 0](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0), [Tag 1](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1), [Tag 2](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2) .
+Das ist der erste Eintrag zum [Treffen der deutschsprachigen Mozilla Gemeinschaft](https://wiki.mozilla.org/De:Meeting:2015). Insgesamt werden drei Teile veröffentlicht. Die weiteren findest du hier: [Tag 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/), [Tag 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/), [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/) .
 
 <!-- excerpt -->
 
-_This is the first post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all other parts here: [day 0](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0), [day 1](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1), [day 2](http://michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day2) ._
+_This is the first post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all other parts here: [day 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/), [day 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/), [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/) ._
 
 Das Treffen fand vom 20\. bis am 22\. Februar 2015 statt. Um die Koordination unter den Freiwilligen im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu gewährleisten, treffen wir uns jährlich um unsere Pläne und Ziele für das jeweilige Jahr zu definieren. Zusätzlich ist es natürlich auch wichtig, sich von Zeit zu Zeit zu treffen, da einige Diskussionen einfacher und schneller in einem Gespräch vor Ort geführt werden können. Insgesamt haben 27 Personen teilgenommen.
 
@@ -66,6 +66,6 @@ Ich möchte mich bei allen Teilnehmer für die informativen und konstruktiven Di
 
 _I'd like to thank all attendees who participated in very informative and constructive discussions during the weekend. I think that we have a lot to do in 2015\. If we can save the motivation from this meetup and work on our defined plans and goals, we'll have a very successfull year. You can find all pictures of the meetup on [flickr](https://wiki.mozilla.org/De:Meeting:2015#Fotos)._
 
-Nun geht es weiter mit dem [Tag 1](michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1).
+Nun geht es weiter mit dem [Tag 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/).
 
-_Now continue reading [day 1](michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day1)._
+_Now continue reading [day 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/)._

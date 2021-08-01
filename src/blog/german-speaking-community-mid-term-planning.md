@@ -20,7 +20,7 @@ Everything started out at the [end of September](https://groups.google.com/forum
 *   [Sebastian Hengst](https://mozillians.org/en-US/u/Archaeopteryx/)
 *   [Sören Hentzschel](https://mozillians.org/en-US/u/soeren.hentzschel/)
 
-After the [community meetup at the beginning of the year](http://www.michaelkohler.info/2015/mozilla-german-speaking-community-meetup-2015-day0) we had a lot of momentum which enabled us to get quite a lot done. Unfortunately this momentum has decreased over time, with a low since September (my opinion). Therefore our main areas we picked for our mid-term plans focused on internal improvements we can make, so we can focus on Mozilla top-organizational goals once we have implemented our improvements. This doesn't mean that the German-speaking community won't focus on product or mission, but it's just not where we can commit as a whole community right now.
+After the [community meetup at the beginning of the year](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/) we had a lot of momentum which enabled us to get quite a lot done. Unfortunately this momentum has decreased over time, with a low since September (my opinion). Therefore our main areas we picked for our mid-term plans focused on internal improvements we can make, so we can focus on Mozilla top-organizational goals once we have implemented our improvements. This doesn't mean that the German-speaking community won't focus on product or mission, but it's just not where we can commit as a whole community right now.
 
 ![](https://farm1.staticflickr.com/736/22650181676_fa012408d4_z_d.jpg)
 

@@ -111,6 +111,6 @@ You can find all the pictures and tweets with the hashtag [#mozweekend](https://
 > [#mozweekend](https://twitter.com/hashtag/mozweekend?src=hash) [#berlin](https://twitter.com/hashtag/berlin?src=hash) 2015 [pic.twitter.com/laK02rAP6Q](http://t.co/laK02rAP6Q)
 > — ANIL KUMAR (@anilbms75) [July 16, 2015](https://twitter.com/anilbms75/status/621781127188115456)
 
-Go ahead and read about [Day 2](http://www.michaelkohler.info/2015/mozilla-weekend-berlin-2015-day-2) as well!
+Go ahead and read about [Day 2](https://mkohler.dev/blog/2015/07/mozilla-weekend-berlin-day-2-feedback/) as well!
 
 A big thanks goes out to the organization team and the 10 speakers, you all did great work! And thanks to everyone who showed up even though it didn't rain!
