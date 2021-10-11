@@ -1,0 +1,30 @@
+name: Fetch
+
+on:
+  schedule:
+    # every hour
+    - cron: "0 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@9a3a9ade8222dcdf9d3c77710b10df47ee7c7c89
+    - name: Use Node.js 16
+      uses: actions/setup-node@v1
+      with:
+        node-version: 16
+    - name: Install Dependencies
+      run: npm ci
+    - name: Fetch
+      run: npm run fetch
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Set Git Author
+      run: git config --global user.name "github-actions[bot]"
+    - name: Set Git Email
+      run: git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Commit Changes
+      run: git commit -m "Update data"
+    - name: Push
+      run: git push origin main

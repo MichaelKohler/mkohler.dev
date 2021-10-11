@@ -1,12 +1,9 @@
 {
   "parser": "babel-eslint",
-  "extends": "airbnb",
+  "extends": "airbnb-base",
   "rules": {
-    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "react/prefer-stateless-function": 1,
-    "react/forbid-prop-types": [1, { "forbid": ["any", "object"] }],
     "arrow-body-style": 0,
     "comma-dangle": 0,
-    "react/jsx-one-expression-per-line": 0,
+    "no-use-before-define": 0
   }
 }
