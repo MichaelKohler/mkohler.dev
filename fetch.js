@@ -50,7 +50,7 @@ async function fetchAll() {
   }
 
   uniqueContributions.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
-  await fs.writeFile(CONTRIBUTION_FILE, JSON.stringify(uniqueContributions));
+  await fs.writeFile(CONTRIBUTION_FILE, JSON.stringify(uniqueContributions, null, 2) + '\n');
   debug('FILE_WRITTEN');
 }
 
