@@ -28,7 +28,9 @@ async function fetchAll() {
     discourse.TOPICS_CATEGORY,
     wiki.WIKI_CATEGORY,
   ];
-  const existingContributionsToSave = existingContributions.filter((activity) => !ALWAYS_FULL_FETCH_SOURCE_ENTRIES.includes(activity.source));
+  const existingContributionsToSave = existingContributions.filter((activity) => {
+    return !ALWAYS_FULL_FETCH_SOURCE_ENTRIES.includes(activity.source);
+  });
   debug('ALREADY_EXISTING_CONTRIBUTIONS', existingContributionsToSave.length);
 
   const uniqueContributions = Array.from(new Set([
@@ -50,7 +52,7 @@ async function fetchAll() {
   }
 
   uniqueContributions.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
-  await fs.writeFile(CONTRIBUTION_FILE, JSON.stringify(uniqueContributions, null, 2) + '\n');
+  await fs.writeFile(CONTRIBUTION_FILE, `${JSON.stringify(uniqueContributions, null, 2)}\n`);
   debug('FILE_WRITTEN');
 }
 
