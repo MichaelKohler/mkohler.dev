@@ -33,6 +33,8 @@ async function fetchAll() {
   });
   debug('ALREADY_EXISTING_CONTRIBUTIONS', existingContributionsToSave.length);
 
+  debug('NEW_GITHUB_CONTRIBUTIONS', githubResult);
+
   const uniqueContributions = Array.from(new Set([
     ...existingContributionsToSave,
     ...communityPortalResult, // always a new fetch (previous entries removed above)
