@@ -10,11 +10,7 @@ On April 25 and 26 the 7th edition of the [MobileCamp](http://www.mobilecamp.de)
 
 Since the MobileCamp was mostly dominated by Android, iOS and Windows Phone in the past, we decided to do a Firefox OS day to educate people about the power of the Web. On Saturday I held a talk ([slides 1](https://mkohler.dev/presentations/mozilla-mobilecamp-dresden-2015/index.html), [slides 2](https://mkohler.dev/presentations/mozilla-mobilecamp-dresden-2015-hacking/index.html)) about Firefox OS and showed how to create open web apps. Since this was a barcamp I left enough room for discussion and there were some quite interesting questions.
 
-![](http://michaelkohler.info/mozilla/mobilecamp_2015_talk.jpg)
-
 For the rest of the day we were available for helping out with creating apps and doing demos. The schedule of the Mobilecamp was quite dense and very interesting, so people didn't stay long in our room. Nevertheless a lot of people came by quickly to check out Firefox OS. We did a lot of demos showing off the newest features and having discussions with interested attendees. We did not only show Firefox OS on phones, but also a build of the emulator showing the GUI for TVs. That looked quite well on the big TV we had in our room, a real Panasonic TV with Firefox OS would actually have been better for this to show all the features. But it was great nevertheless :)
-
-![](http://michaelkohler.info/mozilla/mobilecamp_2015_tv.jpg)
 
 One person came back from time to time to figure out WebNFC and building Firefox OS by himself together with [Michael Schloh von Bennewitz](https://mozillians.org/en-US/u/michaesc/) who gladly assisted me at this event. Thanks a lot to Michael for the great help!
 

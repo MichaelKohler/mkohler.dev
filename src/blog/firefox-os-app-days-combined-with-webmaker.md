@@ -16,8 +16,6 @@ At the App Day in Vienna I met three really brave women. You may ask why I call 
 
 With a little help from us they managed to connect to button to a music file with JavaScript and they got a Firefox OS App they made themself! It's a "laugh app". When you click the button it plays a laughter.
 
-You can see the full app at [http://michaelkohler.info/ffosday/](http://michaelkohler.info/ffosday/).
-
 ## Firefox OS App Day Zurich
 
 At the App Day in Zurich we were joined by a Java developer who has never written any HTML. This time it was easier to explain it since he already got enough knowledge to quickly understand the concepts. Nevertheless I stripped down the boilerplate app again and we started to create the app.

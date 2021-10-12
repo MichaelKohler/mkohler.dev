@@ -10,9 +10,7 @@ On the 28th of January we, the Mozilla Switzerland, community held another commu
 
 ![](/images/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.jpeg)
 
-We did a start/stop/continue analysis of our work in 2016. Here's the result:
-
-[![](https://michaelkohler.info/mozilla/mozillach-start-top-continue.jpg)](https://michaelkohler.info/mozilla/mozillach-start-top-continue.jpg)
+We did a start/stop/continue analysis of our work in 2016.
 
 With that in mind, we came up with a few goals for the first half of the year. Since we all agreed on stopping to do unrealistic goals we focused on the most voted ones from above. Of course this doesn't mean that we will only do those, so everyone is encouraged to also do their own initiatives and we will still have our monthly meetups to bring topics forward.
 
