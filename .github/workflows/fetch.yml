@@ -25,6 +25,6 @@ jobs:
     - name: Set Git Email
       run: git config --global user.email "github-actions[bot]@users.noreply.github.com"
     - name: Commit Changes
-      run: git commit -m "Update data"
+      run: git commit -m "Update data" || true
     - name: Push
       run: git push origin main
