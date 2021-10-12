@@ -1,0 +1,8 @@
+name: Manual Fetch
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-fetch:
+    uses: MichaelKohler/mkohler.dev/.github/workflows/fetch.yml@main
