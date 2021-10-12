@@ -4,6 +4,7 @@ on:
   schedule:
     # every hour
     - cron: "0 * * * *"
+  workflow_call:
 
 jobs:
   build:
