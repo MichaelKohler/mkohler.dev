@@ -6,7 +6,7 @@ const discourse = require('./lib/discourse');
 const github = require('./lib/github');
 const wiki = require('./lib/wiki');
 
-const CONTRIBUTION_FILE = `${__dirname}/src/_data/contributions.json`;
+const CONTRIBUTION_FILE = `${__dirname}/_data/contributions.json`;
 
 async function fetchAll() {
   debug('fetching...');

@@ -29,6 +29,31 @@ permalink: "/opensource/"
     I&apos;m also involved in the Mozilla Reps (Representative) program.
   </p>
 
+  <h3>Recent Contributions</h3>
+  <table class="contributions">
+    <thead>
+      <th>Date</th>
+      <th>Type</th>
+      <th>Description</th>
+    </thead>
+    <tbody>
+      {% for contribution in contributions limit:5 %}
+        <tr>
+          <td>{{ contribution.createdAt | date: "%Y-%m-%d" }}</td>
+          <td>
+            {% if contribution.link == "" %}
+              {{ contribution.type }}
+            {% else %}
+              <a href="{{ contribution.link }}">{{ contribution.type }}</a>
+            {% endif %}
+          </td>
+          <td>{{ contribution.description }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <a href="/contributions">See all contributions</a>
+
   <h3>Profiles</h3>
   <ul>
     <li>

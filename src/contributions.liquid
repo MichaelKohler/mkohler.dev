@@ -1,0 +1,39 @@
+---
+layout: "base.liquid"
+permalink: "/contributions/"
+---
+
+<section id="contributions">
+  <h2>Contributions</h2>
+
+  <p>
+    This report includes data sources which can be queried automatically.
+    Of course there are many contributions which can't be tracked automatically,
+    so they have been omitted here. Most data sources are related to Mozilla.
+    Most notably this doesn't include GitHub comments, eMails, chat messages,
+    ad-hoc meetings or working documents that never got posted on Discourse.
+  </p>
+
+  <table class="contributions">
+    <thead>
+      <th>Date</th>
+      <th>Type</th>
+      <th>Description</th>
+    </thead>
+    <tbody>
+      {% for contribution in contributions %}
+        <tr>
+          <td>{{ contribution.createdAt | date: "%Y-%m-%d" }}</td>
+          <td>
+            {% if contribution.link == "" %}
+              {{ contribution.type }}
+            {% else %}
+              <a href="{{ contribution.link }}">{{ contribution.type }}</a>
+            {% endif %}
+          </td>
+          <td>{{ contribution.description }}</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
