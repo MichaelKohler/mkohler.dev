@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-12T16:15:05.495Z",
+    "description": "Re-running extractions from Wikipedia since last extraction",
+    "link": "https://discourse.mozilla.org/t/re-running-extractions-from-wikipedia-since-last-extraction/87168/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2021-10-11T17:40:28.000Z",
     "description": "Commit in private repository",
     "link": "",
@@ -126,7 +133,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-10-05T14:00:00.000Z",
+    "createdAt": "2021-10-05T16:00:00.000Z",
     "description": "Reps Weekly Call 05/10/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-05-10-2021/",
     "type": "Participated in an event",
@@ -196,7 +203,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-09-21T14:00:00.000Z",
+    "createdAt": "2021-09-21T16:00:00.000Z",
     "description": "Reps Weekly Call 21-09-2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-21-09-2021/",
     "type": "Participated in an event",
@@ -273,7 +280,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-09-14T14:00:00.000Z",
+    "createdAt": "2021-09-14T16:00:00.000Z",
     "description": "Reps Council Weekly meeting 14/09/2021",
     "link": "https://community.mozilla.org/en/events/reps-council-weekly-meeting-14-09-2021/",
     "type": "Participated in an event",
@@ -287,7 +294,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-09-12T22:00:00.000Z",
+    "createdAt": "2021-09-13T00:00:00.000Z",
     "description": "Foxfooding Focus for Android and iOS",
     "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
     "type": "Participated in a campaign",
@@ -665,7 +672,7 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2021-08-05T14:00:00.000Z",
+    "createdAt": "2021-08-05T16:00:00.000Z",
     "description": "Reps Weekly Call 05/08/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-05-08-2021/",
     "type": "Participated in an event",
@@ -1071,7 +1078,7 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2021-06-14T10:00:00.000Z",
+    "createdAt": "2021-06-14T12:00:00.000Z",
     "description": "10 Years of the Reps Program Celebration!",
     "link": "https://community.mozilla.org/en/events/10-years-of-the-reps-program-celebration/",
     "type": "Participated in an event",
@@ -1491,14 +1498,14 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2021-04-30T22:00:00.000Z",
+    "createdAt": "2021-05-01T00:00:00.000Z",
     "description": "German Common Voice contribution competition",
     "link": "https://community.mozilla.org/en/events/german-common-voice-contribution-competition/",
     "type": "Participated in an event",
     "source": "community-portal-events"
   },
   {
-    "createdAt": "2021-04-29T14:00:00.000Z",
+    "createdAt": "2021-04-29T16:00:00.000Z",
     "description": "Reps Weekly Call 29/04/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-29-04-2021/",
     "type": "Participated in an event",
@@ -1750,7 +1757,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-04-11T22:00:00.000Z",
+    "createdAt": "2021-04-12T00:00:00.000Z",
     "description": "Firefox Foxfooding Campaign",
     "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
     "type": "Participated in a campaign",
@@ -1890,7 +1897,7 @@
     "source": "discourse-topics"
   },
   {
-    "createdAt": "2021-04-08T14:00:00.000Z",
+    "createdAt": "2021-04-08T16:00:00.000Z",
     "description": "Reps Weekly Call 08/04/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-08-04-2021/",
     "type": "Participated in an event",
@@ -1974,7 +1981,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-04-01T14:00:00.000Z",
+    "createdAt": "2021-04-01T16:00:00.000Z",
     "description": "Reps Weekly call 01/04/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-01-04-2021/",
     "type": "Participated in an event",
@@ -2121,7 +2128,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-03-18T15:00:00.000Z",
+    "createdAt": "2021-03-18T16:00:00.000Z",
     "description": "Reps Weekly call 18/03/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-18-03-2021/",
     "type": "Participated in an event",
@@ -2541,14 +2548,14 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-03-03T07:00:00.000Z",
+    "createdAt": "2021-03-03T08:00:00.000Z",
     "description": "Reps Peers Call",
     "link": "https://community.mozilla.org/en/events/reps-peers-call-2/",
     "type": "Participated in an event",
     "source": "community-portal-events"
   },
   {
-    "createdAt": "2021-03-03T07:00:00.000Z",
+    "createdAt": "2021-03-03T08:00:00.000Z",
     "description": "Reps Peers Call",
     "link": "https://community.mozilla.org/en/events/reps-peers-call-2/",
     "type": "Participated in an event",
@@ -2639,7 +2646,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-03-01T10:15:00.000Z",
+    "createdAt": "2021-03-01T11:15:00.000Z",
     "description": "Reps Council / Peers diversity meeting",
     "link": "https://community.mozilla.org/en/events/reps-council-peers-diversity-meeting/",
     "type": "Participated in an event",
@@ -2821,7 +2828,7 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2021-02-11T15:00:00.000Z",
+    "createdAt": "2021-02-11T16:00:00.000Z",
     "description": "Reps Weekly call 11/02/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-11-02-2021/",
     "type": "Participated in an event",
@@ -2849,7 +2856,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-01-28T15:00:00.000Z",
+    "createdAt": "2021-01-28T16:00:00.000Z",
     "description": "Reps Weekly Call 28/01/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-28-01-2021/",
     "type": "Participated in an event",
@@ -2933,7 +2940,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-01-21T15:00:00.000Z",
+    "createdAt": "2021-01-21T16:00:00.000Z",
     "description": "Reps Weekly Call 21/01/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-21-01-2021/",
     "type": "Participated in an event",
@@ -2947,7 +2954,7 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2021-01-07T15:00:00.000Z",
+    "createdAt": "2021-01-07T16:00:00.000Z",
     "description": "Reps Weekly Call 07/01/2021",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-07-01-2021/",
     "type": "Participated in an event",
@@ -3115,7 +3122,7 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2020-12-10T15:00:00.000Z",
+    "createdAt": "2020-12-10T16:00:00.000Z",
     "description": "Reps Weekly Call 10/12/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-10-12-2020/",
     "type": "Participated in an event",
@@ -3360,6 +3367,13 @@
     "source": "github"
   },
   {
+    "createdAt": "2020-12-03T16:00:00.000Z",
+    "description": "Reps Weekly Call 03-12-2020",
+    "link": "https://community.mozilla.org/en/events/reps-weekly-call-03-12-2020/",
+    "type": "Participated in an event",
+    "source": "community-portal-events"
+  },
+  {
     "createdAt": "2020-12-03T15:50:09.000Z",
     "description": "Commit in private repository",
     "link": "",
@@ -3379,13 +3393,6 @@
     "link": "",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-12-03T15:00:00.000Z",
-    "description": "Reps Weekly Call 03-12-2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-03-12-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-12-03T13:19:33.000Z",
@@ -3710,14 +3717,14 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-11-19T15:00:00.000Z",
+    "createdAt": "2020-11-19T16:00:00.000Z",
     "description": "Reps Weekly Call 19/11/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-19-11-2020/",
     "type": "Participated in an event",
     "source": "community-portal-events"
   },
   {
-    "createdAt": "2020-11-09T23:00:00.000Z",
+    "createdAt": "2020-11-10T00:00:00.000Z",
     "description": "Unfck the Internet Campaign",
     "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
     "type": "Participated in a campaign",
@@ -3773,7 +3780,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-10-29T15:00:00.000Z",
+    "createdAt": "2020-10-29T16:00:00.000Z",
     "description": "Reps Weekly Call 29/10/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-29-10-2020/",
     "type": "Participated in an event",
@@ -3997,7 +4004,7 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2020-10-22T14:00:00.000Z",
+    "createdAt": "2020-10-22T16:00:00.000Z",
     "description": "Reps Weekly Call 22/10/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-22-10-2020/",
     "type": "Participated in an event",
@@ -4305,7 +4312,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-10-08T14:00:00.000Z",
+    "createdAt": "2020-10-08T16:00:00.000Z",
     "description": "Reps Weekly Call 08/10/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-08-10-2020/",
     "type": "Participated in an event",
@@ -4655,14 +4662,14 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-09-24T14:00:00.000Z",
+    "createdAt": "2020-09-24T16:00:00.000Z",
     "description": "Reps Weekly Call 24/09/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-24-09-2020/",
     "type": "Participated in an event",
     "source": "community-portal-events"
   },
   {
-    "createdAt": "2020-09-23T22:00:00.000Z",
+    "createdAt": "2020-09-24T00:00:00.000Z",
     "description": "Firefox Omnibus Foxfooding experiment",
     "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
     "type": "Participated in a campaign",
@@ -4830,7 +4837,7 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-09-17T14:00:00.000Z",
+    "createdAt": "2020-09-17T16:00:00.000Z",
     "description": "Reps Weekly Call 17/09/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-17-09-2020/",
     "type": "Participated in an event",
@@ -4879,7 +4886,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-09-10T14:00:00.000Z",
+    "createdAt": "2020-09-10T16:00:00.000Z",
     "description": "Reps Weekly Call 10/09/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-10-09-2020/",
     "type": "Participated in an event",
@@ -5215,7 +5222,7 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-08-27T14:00:00.000Z",
+    "createdAt": "2020-08-27T16:00:00.000Z",
     "description": "Reps Weekly Call 27/08/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-27-08-2020/",
     "type": "Participated in an event",
@@ -5257,14 +5264,14 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-08-20T14:00:00.000Z",
+    "createdAt": "2020-08-20T16:00:00.000Z",
     "description": "Reps Weekly Call 20/08/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-20-08-2020/",
     "type": "Participated in an event",
     "source": "community-portal-events"
   },
   {
-    "createdAt": "2020-08-18T09:00:00.000Z",
+    "createdAt": "2020-08-18T11:00:00.000Z",
     "description": "Reps Council Meeting 18/08/2020",
     "link": "https://community.mozilla.org/en/events/reps-council-meeting-18-08-2020/",
     "type": "Participated in an event",
@@ -5719,7 +5726,7 @@
     "source": "discourse-topics"
   },
   {
-    "createdAt": "2020-08-06T14:00:00.000Z",
+    "createdAt": "2020-08-06T16:00:00.000Z",
     "description": "Reps Weekly Call 06/08/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-06-08-2020/",
     "type": "Participated in an event",
@@ -6020,7 +6027,7 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2020-07-02T14:00:00.000Z",
+    "createdAt": "2020-07-02T16:00:00.000Z",
     "description": "Reps Weekly Call 02/07/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-02-07-2020/",
     "type": "Participated in an event",
@@ -6097,7 +6104,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-06-25T14:00:00.000Z",
+    "createdAt": "2020-06-25T16:00:00.000Z",
     "description": "Reps Weekly Call 25/06/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-25-06-2020/",
     "type": "Participated in an event",
@@ -6223,7 +6230,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-06-18T14:30:00.000Z",
+    "createdAt": "2020-06-18T16:30:00.000Z",
     "description": "Virtual All-Hands reps meeting: mentorship",
     "link": "https://community.mozilla.org/en/events/virtual-all-hands-reps-meeting-mentorship/",
     "type": "Participated in an event",
@@ -6279,21 +6286,21 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-06-15T16:00:00.000Z",
+    "createdAt": "2020-06-15T18:00:00.000Z",
     "description": "Virtual All-Hands reps meeting: Communication 1",
     "link": "https://community.mozilla.org/en/events/virtual-all-hands-reps-meeting-communication-1/",
     "type": "Participated in an event",
     "source": "community-portal-events"
   },
   {
-    "createdAt": "2020-06-15T11:00:00.000Z",
+    "createdAt": "2020-06-15T13:00:00.000Z",
     "description": "Reps Peers Call",
     "link": "https://community.mozilla.org/en/events/reps-peers-call/",
     "type": "Participated in an event",
     "source": "community-portal-events"
   },
   {
-    "createdAt": "2020-06-15T11:00:00.000Z",
+    "createdAt": "2020-06-15T13:00:00.000Z",
     "description": "Reps Peers Call",
     "link": "https://community.mozilla.org/en/events/reps-peers-call/",
     "type": "Participated in an event",
@@ -6405,7 +6412,7 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-06-04T14:00:00.000Z",
+    "createdAt": "2020-06-04T16:00:00.000Z",
     "description": "Reps Weekly Call 04/06/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-04-06-2020/",
     "type": "Participated in an event",
@@ -6636,7 +6643,7 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2020-05-28T14:00:00.000Z",
+    "createdAt": "2020-05-28T16:00:00.000Z",
     "description": "Reps Weekly Call 28/05/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-28-05-2020/",
     "type": "Participated in an event",
@@ -6734,7 +6741,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-05-21T22:00:00.000Z",
+    "createdAt": "2020-05-22T00:00:00.000Z",
     "description": "Common Voice Single Word Sprint",
     "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
     "type": "Participated in a campaign",
@@ -7462,7 +7469,7 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-04-30T02:00:00.000Z",
+    "createdAt": "2020-04-30T04:00:00.000Z",
     "description": "Reps Weekly Call 30/04/2020",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-30-04-2020/",
     "type": "Participated in an event",
@@ -8120,7 +8127,7 @@
     "source": "reps"
   },
   {
-    "createdAt": "2020-04-05T22:00:00.000Z",
+    "createdAt": "2020-04-06T00:00:00.000Z",
     "description": "Hunt from Home: Phase 1",
     "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
     "type": "Participated in a campaign",
@@ -9079,7 +9086,7 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-02-27T18:00:00.000Z",
+    "createdAt": "2020-02-27T19:00:00.000Z",
     "description": "Mozilla Open Night - 2020-02-27",
     "link": "https://community.mozilla.org/en/events/mozilla-open-night-2020-02-27/",
     "type": "Participated in an event",
