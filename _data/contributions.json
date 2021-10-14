@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-10-14T21:13:08.000Z",
+    "description": "common-voice/cv-sentence-extractor: Use more idomatic check for empty HashSet",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/1998b6c2fa9220653177ffd7370bb039e1f89d82",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-14T21:06:17.000Z",
+    "description": "common-voice/cv-sentence-extractor: Update dependencies",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/293bab3f323a50971211b6538d765f02982b1703",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-14T20:55:46.699Z",
     "description": "When I start Firefox in private mode, I would like to see a completely blank page",
     "link": "https://discourse.mozilla.org/t/when-i-start-firefox-in-private-mode-i-would-like-to-see-a-completely-blank-page/87307/2",
@@ -21,11 +35,81 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2021-10-14T15:44:20.000Z",
+    "description": "common-voice/common-voice: Add Esperanto (eo) Wikipedia Extract re-run on new articles (#3298)",
+    "link": "https://github.com/common-voice/common-voice/commit/1cf47eaa5ab7d0d1e1c270a636c2606c9759e9c3",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-14T07:51:16.000Z",
+    "description": "mozilla/gecko-dev: Bug 1672486 - Remove browser.toolbars.bookmarks.2h2020 pref from firefox.js r=mak,Gijs\n\nDepends on D127590\n\nDifferential Revision: https://phabricator.services.mozilla.com/D127591",
+    "link": "https://github.com/mozilla/gecko-dev/commit/d00eca313281b0d41eeb7fd352c979ab61378212",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-14T07:51:15.000Z",
+    "description": "mozilla/gecko-dev: Bug 1672486 - Remove browser.toolbars.bookmarks.2h2020 pref in migration r=mak\n\nDepends on D127589\n\nDifferential Revision: https://phabricator.services.mozilla.com/D127590",
+    "link": "https://github.com/mozilla/gecko-dev/commit/0081d252a0d9df81038554cbcac44c656057516a",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-14T07:51:15.000Z",
+    "description": "mozilla/gecko-dev: Bug 1672486 - Remove browser.toolbars.bookmarks.2h2020 pref in policies r=mak\n\nDepends on D127588\n\nDifferential Revision: https://phabricator.services.mozilla.com/D127589",
+    "link": "https://github.com/mozilla/gecko-dev/commit/94e39dce35264c6fbe7f1e26a4af17d59ec9dc50",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-14T07:51:14.000Z",
+    "description": "mozilla/gecko-dev: Bug 1672486 - Remove browser.toolbars.bookmarks.2h2020 pref from browser/customizableui/places r=mak\n\nDifferential Revision: https://phabricator.services.mozilla.com/D127588",
+    "link": "https://github.com/mozilla/gecko-dev/commit/c84c59e032ccdba13b3f4efa9516f566b31d5ae5",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-13T21:28:40.000Z",
+    "description": "Improvement for best practices for EN rules file (fixes #156)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/159",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-13T21:24:24.000Z",
+    "description": "common-voice/cv-sentence-extractor: Cleanup rules descriptions in README",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/25c9973535d88682b44d539df81ccf2273765f28",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-13T20:25:43.000Z",
+    "description": "Add Esperanto (eo) Wikipedia Extract re-run on new articles",
+    "link": "https://github.com/common-voice/common-voice/pull/3298",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-12T16:15:05.495Z",
     "description": "Re-running extractions from Wikipedia since last extraction",
     "link": "https://discourse.mozilla.org/t/re-running-extractions-from-wikipedia-since-last-extraction/87168/3",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2021-10-12T16:05:33.000Z",
+    "description": "common-voice/common-voice: Add Italian Wikipedia extraction on new artiles created since last extract (#3294)\n\nI have implemented the necessary checks and automation to allow re-running extractions from Wikipedia. This only takes sentences from articles created since the last extraction. As the rules had been previously reviewed, I don't think this needs any additional review (however Daniele had a quick look and said it seemed okay).\r\n\r\nExtraction pipeline run: https://github.com/common-voice/cv-sentence-extractor/runs/3853821625?check_suite_focus=true",
+    "link": "https://github.com/common-voice/common-voice/commit/bf8b703cac3555dac65d800d22115c6840d6d6bf",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-11T23:20:33.000Z",
+    "description": "Use best practice in English rules file",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/issues/156",
+    "type": "Created Issue Report",
+    "source": "github-issues"
   },
   {
     "createdAt": "2021-10-11T17:40:28.000Z",
