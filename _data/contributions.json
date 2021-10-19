@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-10-19T17:28:59.000Z",
+    "description": "mozilla/campaign-form: Decommision foxfooding campaign (fixes #7)",
+    "link": "https://github.com/mozilla/campaign-form/commit/dc44381671c43a5aa33fbd5ae2a7064215c5f26f",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-19T17:28:36.000Z",
+    "description": "mozilla/campaign-form: Minor CSS fixes for footer and no horizontal overflow",
+    "link": "https://github.com/mozilla/campaign-form/commit/4433f14c17247687ca61f6fa89545ffc19947fd5",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-15T08:52:39.751Z",
     "description": "Tokenizer trennt häufig Sätze auf",
     "link": "https://discourse.mozilla.org/t/tokenizer-trennt-haufig-satze-auf/87288/11",
