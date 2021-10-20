@@ -4,7 +4,7 @@ permalink: /blog/2013/06/{{title | slug}}/
 date: 2013-06-23 23:20:59
 ---
 
-In late May 2013 we (Mozilla Switzerland) organized a Firefox OS App Day in Zurich. At this event we wanted to give local developers a chance to play with Firefox OS and write some apps for it. It was a great event, which I don't need to blog about further since it has been documented [very](http://blog.zuehlke.com/firefoxos-app-day-switzerland-was-great/) [well](https://blog.liip.ch/archive/2013/05/28/firefox-os-app-day.html) [elsewhere](http://blog.utou.ch/2013/mozilla-firefox-os-app-day/).
+In late May 2013 we (Mozilla Switzerland) organized a Firefox OS App Day in Zurich. At this event we wanted to give local developers a chance to play with Firefox OS and write some apps for it. It was a great event, which I don't need to blog about further since it has been documented [very](https://web.archive.org/web/20160918205030/http://blog.zuehlke.com/en/firefoxos-app-day-switzerland-was-great/) [well](https://blog.liip.ch/archive/2013/05/28/firefox-os-app-day.html) [elsewhere](http://blog.utou.ch/2013/mozilla-firefox-os-app-day/).
 
 <!-- excerpt -->
 
