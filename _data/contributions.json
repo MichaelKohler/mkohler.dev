@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-20T20:33:18.000Z",
+    "description": "Re-add fluent syntax dependency to fix import-locales script",
+    "link": "https://github.com/common-voice/common-voice/pull/3309",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-19T17:28:59.000Z",
     "description": "mozilla/campaign-form: Decommision foxfooding campaign (fixes #7)",
     "link": "https://github.com/mozilla/campaign-form/commit/dc44381671c43a5aa33fbd5ae2a7064215c5f26f",
