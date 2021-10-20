@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-10-20T21:33:44.000Z",
+    "description": "common-voice/sentence-collector: chore: explicitely pass secrets for export workflow call",
+    "link": "https://github.com/common-voice/sentence-collector/commit/aa65dd143dd1742bdfd8e4bc3530f437a4b32608",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-20T21:24:42.000Z",
+    "description": "common-voice/sentence-collector: chore: fix typo in file name",
+    "link": "https://github.com/common-voice/sentence-collector/commit/c9f43411b1e234e1db1e847b9e620218f3516682",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-20T21:23:25.000Z",
+    "description": "common-voice/sentence-collector: chore: add manual export trigger action",
+    "link": "https://github.com/common-voice/sentence-collector/commit/960e7d809a7bb8c868e9701d8a02aaf62110a987",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-20T21:16:53.000Z",
+    "description": "common-voice/common-voice: Re-add fluent-syntax dependency to fix import-locales script (#3309)",
+    "link": "https://github.com/common-voice/common-voice/commit/f8d222399fa1148bc4de87cdd05a5ecebfa2a342",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-20T20:33:18.000Z",
     "description": "Re-add fluent syntax dependency to fix import-locales script",
     "link": "https://github.com/common-voice/common-voice/pull/3309",
