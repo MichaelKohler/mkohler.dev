@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-22T16:53:42.473Z",
+    "description": "Weekly Update: New Language Workflow - 22nd October 2021",
+    "link": "https://discourse.mozilla.org/t/weekly-update-new-language-workflow-22nd-october-2021/87617/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2021-10-20T21:33:44.000Z",
     "description": "common-voice/sentence-collector: chore: explicitely pass secrets for export workflow call",
     "link": "https://github.com/common-voice/sentence-collector/commit/aa65dd143dd1742bdfd8e4bc3530f437a4b32608",
