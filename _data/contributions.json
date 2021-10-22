@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-22T22:51:47.000Z",
+    "description": "Use @fluent/syntax instead of fluent-syntax",
+    "link": "https://github.com/common-voice/common-voice/pull/3319",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-22T16:53:42.473Z",
     "description": "Weekly Update: New Language Workflow - 22nd October 2021",
     "link": "https://discourse.mozilla.org/t/weekly-update-new-language-workflow-22nd-october-2021/87617/2",
