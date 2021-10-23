@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2021-10-23T14:52:49.000Z",
+    "description": "Localization: Handle validation error messages",
+    "link": "https://github.com/common-voice/sentence-collector/issues/494",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-23T14:51:53.000Z",
+    "description": "Localization: Support RTL",
+    "link": "https://github.com/common-voice/sentence-collector/issues/493",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-23T14:51:12.000Z",
+    "description": "Localization: Handle Language names",
+    "link": "https://github.com/common-voice/sentence-collector/issues/492",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-23T14:49:53.000Z",
+    "description": "Localization: Set up Pontoon infrastructure and release schedule",
+    "link": "https://github.com/common-voice/sentence-collector/issues/491",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-23T14:48:06.000Z",
+    "description": "Localization: Setup initial localization wrapping code",
+    "link": "https://github.com/common-voice/sentence-collector/issues/490",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-22T22:51:47.000Z",
     "description": "Use @fluent/syntax instead of fluent-syntax",
     "link": "https://github.com/common-voice/common-voice/pull/3319",
