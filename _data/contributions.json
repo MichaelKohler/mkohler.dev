@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-25T17:15:18.000Z",
+    "description": "Replacements should be done before segmentation",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/161",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-25T15:51:46.000Z",
     "description": "Set up basic localization structure (issue #490)",
     "link": "https://github.com/common-voice/sentence-collector/pull/495",
