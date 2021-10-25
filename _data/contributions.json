@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-25T15:51:46.000Z",
+    "description": "Set up basic localization structure (issue #490)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/495",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-23T14:52:49.000Z",
     "description": "Localization: Handle validation error messages",
     "link": "https://github.com/common-voice/sentence-collector/issues/494",
