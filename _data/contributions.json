@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-10-25T18:02:59.000Z",
+    "description": "Localization: Correctly apply localization in tests",
+    "link": "https://github.com/common-voice/sentence-collector/issues/496",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-25T17:30:00.000Z",
+    "description": "common-voice/cv-sentence-extractor: Replacements should be done before segmentation (#161)\n\n* Replacements should be done before segmentation\r\n\r\n* Extend comment on why we want to replace before segmentation",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/668cfb41733851ee183d158f7555f1e6f6087654",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-25T17:15:18.000Z",
     "description": "Replacements should be done before segmentation",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/161",
