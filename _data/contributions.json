@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-10-25T18:54:22.000Z",
+    "description": "Actions: Rebase seems to break sample extraction",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/issues/163",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-25T18:42:35.000Z",
+    "description": "common-voice/sentence-collector: chore: set up basic localization structure (issue #490) (#495)\n\n* feat: set up basic localization structure (issue #490)\r\n* fix: adjust formatting and add note for available locales\r\n* chore: mock l10n in tests for now",
+    "link": "https://github.com/common-voice/sentence-collector/commit/e80132c9247f3c3e6dab3236c27e29fdac9c54bf",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-25T18:41:14.000Z",
+    "description": "Improvement for best practices for EN rules file (fixes #156)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/162",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-25T18:23:34.000Z",
+    "description": "common-voice/common-voice: Use @fluent/syntax instead of fluent-syntax (#3319)",
+    "link": "https://github.com/common-voice/common-voice/commit/6eece83656723045aa05946f9804111b35087df0",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-25T18:02:59.000Z",
     "description": "Localization: Correctly apply localization in tests",
     "link": "https://github.com/common-voice/sentence-collector/issues/496",
