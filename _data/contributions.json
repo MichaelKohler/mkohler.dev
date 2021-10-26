@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-26T18:03:02.000Z",
+    "description": "Test only: remove abbreviation rules to test rust-punkt behavior",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/166",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-26T17:12:41.406Z",
     "description": "Tokenizer trennt häufig Sätze auf",
     "link": "https://discourse.mozilla.org/t/tokenizer-trennt-haufig-satze-auf/87288/16",
