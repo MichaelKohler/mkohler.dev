@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-26T20:38:21.000Z",
+    "description": "common-voice/cv-sentence-extractor: Remove extra newline",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/b87386115a8ff5f6b8c0b1696634cee03027b202",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-26T19:11:39.000Z",
     "description": "common-voice/sentence-collector: Add locale to URL (fixes #490) (#497)\n\n* fix: set lang and dir on HTML document\r\n* chore: add route redirects to EN\r\n* chore: add routes with locale\r\n* chore: ignore coverage for basic glue components",
     "link": "https://github.com/common-voice/sentence-collector/commit/1937f997ca0d25f7ccaf858aa2da4d94b35c32eb",
