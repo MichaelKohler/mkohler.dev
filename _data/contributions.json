@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-10-26T23:11:00.000Z",
+    "description": "common-voice/cv-sentence-extractor: GitHub Action: use latest release tag commit for setup-rust-action",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/7a414f81173d18709e3acaa211f738b648b8073f",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-26T22:50:05.000Z",
+    "description": "common-voice/cv-sentence-extractor: Better GitHub Actions versioning",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/8130548ee6681d1711153819d55d4dd7be0df46b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-26T22:43:42.000Z",
+    "description": "common-voice/cv-sentence-extractor: Format Workflow files - no logic change",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/6319f6ee2919159dde2a49dc164bbfb99d110bea",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-26T22:38:04.000Z",
+    "description": "Add Wikipedia extract for Igbo",
+    "link": "https://github.com/common-voice/common-voice/pull/3323",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-26T20:38:21.000Z",
     "description": "common-voice/cv-sentence-extractor: Remove extra newline",
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/b87386115a8ff5f6b8c0b1696634cee03027b202",
