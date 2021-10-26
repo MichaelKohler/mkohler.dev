@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-10-26T19:11:39.000Z",
+    "description": "common-voice/sentence-collector: Add locale to URL (fixes #490) (#497)\n\n* fix: set lang and dir on HTML document\r\n* chore: add route redirects to EN\r\n* chore: add routes with locale\r\n* chore: ignore coverage for basic glue components",
+    "link": "https://github.com/common-voice/sentence-collector/commit/1937f997ca0d25f7ccaf858aa2da4d94b35c32eb",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-26T19:08:49.000Z",
+    "description": "Add locale to URL (fixes #490)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/497",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-26T18:03:02.000Z",
     "description": "Test only: remove abbreviation rules to test rust-punkt behavior",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/166",
