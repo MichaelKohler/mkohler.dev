@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-27T17:37:07.000Z",
+    "description": "common-voice/sentence-collector: fix: only expose error codes",
+    "link": "https://github.com/common-voice/sentence-collector/commit/2114b38af691e623eacaa6d678859e97e5bc7ce1",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-26T23:11:00.000Z",
     "description": "common-voice/cv-sentence-extractor: GitHub Action: use latest release tag commit for setup-rust-action",
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/7a414f81173d18709e3acaa211f738b648b8073f",
