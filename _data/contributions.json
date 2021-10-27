@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-27T21:58:26.000Z",
+    "description": "common-voice/cv-sentence-extractor: Improve variable handle in GitHub Actions",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/1eac5d488b66ec722132254c41d266880050bb23",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-27T18:49:40.000Z",
     "description": "common-voice/cv-sentence-extractor: Use newly implemented DE segmenter for test",
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/1fc6754511ba435ee80eab574ad594619c1140a6",
