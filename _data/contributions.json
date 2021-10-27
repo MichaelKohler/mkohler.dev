@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-10-27T18:49:40.000Z",
+    "description": "common-voice/cv-sentence-extractor: Use newly implemented DE segmenter for test",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/1fc6754511ba435ee80eab574ad594619c1140a6",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-27T18:42:48.000Z",
+    "description": "common-voice/cv-sentence-extractor: Adjust DE test cases",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/0a42a0f38aabd1f2b11578da37670fe1e3287ad7",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-27T18:35:34.000Z",
+    "description": "common-voice/cv-sentence-extractor: Re-add relevant rule parts",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/ac28dfe0ada6cbfae6e7eac7fbc7ddab22a449a4",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-27T17:37:07.000Z",
     "description": "common-voice/sentence-collector: fix: only expose error codes",
     "link": "https://github.com/common-voice/sentence-collector/commit/2114b38af691e623eacaa6d678859e97e5bc7ce1",
