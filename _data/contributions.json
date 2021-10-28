@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-10-28T21:56:48.000Z",
+    "description": "common-voice/sentence-collector: chore: fix test",
+    "link": "https://github.com/common-voice/sentence-collector/commit/cb35f40ace57084f2a3689e6886efd226c682f98",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-28T21:52:29.000Z",
+    "description": "common-voice/sentence-collector: fix: move LocalizationProvider outwards to not request language on every page navigation",
+    "link": "https://github.com/common-voice/sentence-collector/commit/6a5967eda26a273aeb89524a46389fe536830851",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-28T17:55:30.000Z",
     "description": "Move strings in reducer to where they belong",
     "link": "https://github.com/common-voice/sentence-collector/issues/499",
