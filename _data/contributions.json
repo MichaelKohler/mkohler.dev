@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-10-29T19:19:03.000Z",
+    "description": "Localization: fix active header",
+    "link": "https://github.com/common-voice/sentence-collector/issues/504",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-29T17:45:45.000Z",
     "description": "common-voice/common-voice: Add Wikipedia extract for Igbo (#3323)",
     "link": "https://github.com/common-voice/common-voice/commit/c10913f30e9fc136af52126f0d5098f91b06b3f2",
