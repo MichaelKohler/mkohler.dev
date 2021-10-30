@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-10-30T11:40:48.000Z",
+    "description": "common-voice/sentence-collector: fix: do not use locale prefixed URLs for login/logout (#506)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/02053a42ac2779d32903bef6eb7ae8ffe02af31c",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-30T11:39:03.000Z",
+    "description": "common-voice/sentence-collector: fix: slight font adjustments (#505)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/25ca2e0cb2647437d724c8aea8cf66f11da37855",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-30T11:38:44.000Z",
+    "description": "fix: do not use locale prefixed URLs for login/logout",
+    "link": "https://github.com/common-voice/sentence-collector/pull/506",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-30T11:28:49.000Z",
+    "description": "Slight font adjustments",
+    "link": "https://github.com/common-voice/sentence-collector/pull/505",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-29T19:19:03.000Z",
     "description": "Localization: fix active header",
     "link": "https://github.com/common-voice/sentence-collector/issues/504",
