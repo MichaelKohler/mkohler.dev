@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-10-31T16:24:17.000Z",
+    "description": "chore: move strings from reducers to components (fixes 499)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/513",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-31T15:49:53.000Z",
+    "description": "common-voice/sentence-collector: fix: always link to localized URL (fixes #504) (#512)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/6e665285f90eb7a189898726570621eb82869269",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-31T15:47:43.000Z",
+    "description": "Always link to localized URL (fixes #504)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/512",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-31T11:59:24.000Z",
     "description": "common-voice/sentence-collector: fix: make duplicate sentences use plural rules (#511)",
     "link": "https://github.com/common-voice/sentence-collector/commit/ab2c69617f1465fbab58c7d83f680ed18b8a5d8a",
