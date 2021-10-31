@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-10-31T11:59:24.000Z",
+    "description": "common-voice/sentence-collector: fix: make duplicate sentences use plural rules (#511)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/ab2c69617f1465fbab58c7d83f680ed18b8a5d8a",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-31T11:40:58.000Z",
+    "description": "fix: make duplicate sentences use plural rules",
+    "link": "https://github.com/common-voice/sentence-collector/pull/511",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-31T11:31:22.000Z",
+    "description": "common-voice/sentence-collector: chore: fix locale fetching in docker container as base path is different (#510)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/97544d4ed2e847f95b9ccdc7f23d11328d8ac3dc",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-31T11:29:45.000Z",
+    "description": "chore: fix locale fetching in docker container as base path is different",
+    "link": "https://github.com/common-voice/sentence-collector/pull/510",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-31T11:10:49.000Z",
     "description": "common-voice/sentence-collector: chore: mock more test strings (#509)",
     "link": "https://github.com/common-voice/sentence-collector/commit/d88d44a2dfa6dbcbb1805e606a38e6cc02260507",
