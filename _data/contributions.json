@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-10-31T16:47:25.691Z",
+    "description": "Sentence Collector Localization Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
+    "createdAt": "2021-10-31T16:40:02.000Z",
+    "description": "common-voice/sentence-collector: fix: show native language name only in stats (issue #492) (#514)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/0086c64d8fab4d0ec9d33ea5c4369f86909d18d0",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-31T16:37:22.000Z",
+    "description": "fix: show native language name only in stats (issue #492)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/514",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-31T16:26:34.000Z",
+    "description": "common-voice/sentence-collector: chore: move strings from reducers to components (fixes 499) (#513)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/893aa897c7fd2799050752559dd03fe3e907689a",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-31T16:24:17.000Z",
     "description": "chore: move strings from reducers to components (fixes 499)",
     "link": "https://github.com/common-voice/sentence-collector/pull/513",
