@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2021-10-31T19:48:05.000Z",
+    "description": "common-voice/sentence-collector: fix: show 'Add more sentences' link in stats when no more to review for user (#516)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/ae9f1cf1a1f20946955f37a0e1a6370f15c6a290",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-31T19:46:06.000Z",
+    "description": "common-voice/sentence-collector: fix: fix typo in sc-lang-info-left-for-you (#515)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/313273f6811d36c3b1c9caf4daefeb9ad058668b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-10-31T19:45:56.000Z",
+    "description": "fix: show 'Add more sentences' link in stats when no more to review for user",
+    "link": "https://github.com/common-voice/sentence-collector/pull/516",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-31T19:39:23.000Z",
+    "description": "fix: fix typo in sc-lang-info-left-for-you",
+    "link": "https://github.com/common-voice/sentence-collector/pull/515",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-10-31T19:32:23.000Z",
+    "description": "common-voice/sentence-collector: chore: set default values for sentences in review",
+    "link": "https://github.com/common-voice/sentence-collector/commit/d9b539fe38eea3c59e553db03f814f2281268801",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-10-31T16:47:25.691Z",
     "description": "Sentence Collector Localization Update",
     "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904",
