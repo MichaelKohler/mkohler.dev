@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-11-01T18:16:01.000Z",
+    "description": "common-voice/sentence-collector: fix: slight adjustment of confirm form to better convey message on what is reviewed and what not (#517)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/96afece2e388927dee2c71eabd999d4f88eb1e25",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-01T18:15:25.000Z",
+    "description": "Localization: Remove placeholder strings",
+    "link": "https://github.com/common-voice/sentence-collector/issues/518",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-01T18:11:45.000Z",
+    "description": "fix: slight adjustment of confirm form to better convey message on what is reviewed and what not",
+    "link": "https://github.com/common-voice/sentence-collector/pull/517",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-10-31T19:48:05.000Z",
     "description": "common-voice/sentence-collector: fix: show 'Add more sentences' link in stats when no more to review for user (#516)",
     "link": "https://github.com/common-voice/sentence-collector/commit/ae9f1cf1a1f20946955f37a0e1a6370f15c6a290",
