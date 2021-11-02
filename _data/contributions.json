@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-11-02T22:15:40.000Z",
+    "description": "common-voice/sentence-collector: fix: rename Nyankole to Runyankore (fixes #519) (#522)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/2fd2da5f4a75083b13a8729b8eb624cda7c46076",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-02T22:13:33.000Z",
+    "description": "common-voice/sentence-collector: fix: fix review selection with multiple languages (#521)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/05c9fa94e8eee8f284166ffbbebbbb8f6dbde4b0",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-02T22:12:58.000Z",
+    "description": "fix: rename Nyankole to Runyankore (fixes #519)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/522",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-02T22:10:36.000Z",
+    "description": "fix: fix review selection with multiple languages",
+    "link": "https://github.com/common-voice/sentence-collector/pull/521",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-01T18:16:01.000Z",
     "description": "common-voice/sentence-collector: fix: slight adjustment of confirm form to better convey message on what is reviewed and what not (#517)",
     "link": "https://github.com/common-voice/sentence-collector/commit/96afece2e388927dee2c71eabd999d4f88eb1e25",
