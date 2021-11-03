@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-03T17:52:00.000Z",
+    "description": "chore: use real localization in tests (fixes #496)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/523",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-02T22:15:40.000Z",
     "description": "common-voice/sentence-collector: fix: rename Nyankole to Runyankore (fixes #519) (#522)",
     "link": "https://github.com/common-voice/sentence-collector/commit/2fd2da5f4a75083b13a8729b8eb624cda7c46076",
