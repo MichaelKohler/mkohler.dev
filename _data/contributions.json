@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-03T20:11:03.704Z",
+    "description": "Sentence Collector Localization Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2021-11-03T19:24:05.000Z",
+    "description": "common-voice/sentence-collector: chore: use real localization in tests (fixes #496) (#523)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/73d2147b3fba3428a6aadc0420041e353d8323ad",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-03T17:52:00.000Z",
     "description": "chore: use real localization in tests (fixes #496)",
     "link": "https://github.com/common-voice/sentence-collector/pull/523",
