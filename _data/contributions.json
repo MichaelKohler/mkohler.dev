@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-11-06T11:55:56.000Z",
+    "description": "Pull localizations when building and deploying",
+    "link": "https://github.com/common-voice/sentence-collector/issues/526",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-06T11:53:25.000Z",
+    "description": "Export localization file on sentence export to CV",
+    "link": "https://github.com/common-voice/sentence-collector/issues/525",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-06T11:50:52.000Z",
+    "description": "Document localization process for Sentence Collector",
+    "link": "https://github.com/common-voice/sentence-collector/issues/524",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-05T23:28:41.901Z",
     "description": "Sentence Collector Localization Update",
     "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/7",
