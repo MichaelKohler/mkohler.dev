@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-11-06T13:45:54.000Z",
+    "description": "common-voice/sentence-collector: chore: add localization documentation (fixes #524) (#527)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/15e95b82b72c54386b86d82a413afb825f1aa81d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-06T13:45:44.000Z",
+    "description": "common-voice/sentence-collector: chore: rename sentence-collector.ftl to messages.ftl to match with Common Voice (#528)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/58ffad1384bcd7a07112cb330199ca6735e5f852",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-06T13:39:23.000Z",
+    "description": "chore: rename sentence-collector.ftl to messages.ftl to match with Common Voice",
+    "link": "https://github.com/common-voice/sentence-collector/pull/528",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-06T13:22:19.000Z",
+    "description": "chore: add localization documentation (fixes #524)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/527",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-06T11:55:56.000Z",
     "description": "Pull localizations when building and deploying",
     "link": "https://github.com/common-voice/sentence-collector/issues/526",
