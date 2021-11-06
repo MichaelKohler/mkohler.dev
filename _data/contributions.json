@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-06T14:18:23.000Z",
+    "description": "common-voice/sentence-collector: Fix typo",
+    "link": "https://github.com/common-voice/sentence-collector/commit/04f69a6b44e41adcc956b19f0ce15f7e08384045",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-06T13:45:54.000Z",
     "description": "common-voice/sentence-collector: chore: add localization documentation (fixes #524) (#527)",
     "link": "https://github.com/common-voice/sentence-collector/commit/15e95b82b72c54386b86d82a413afb825f1aa81d",
