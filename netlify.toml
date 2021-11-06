@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/.well-known/matrix/client"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
