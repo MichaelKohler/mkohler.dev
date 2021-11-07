@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-07T00:56:06.489Z",
+    "description": "Sentence collector copyright issues",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/45",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2021-11-07T00:48:45.000Z",
+    "description": "common-voice/sentence-collector: fix: remove nb-NO tatoeba sentences",
+    "link": "https://github.com/common-voice/sentence-collector/commit/d7047d1dcbb8ea136b1c841827211895f01f1a7d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-06T14:18:23.000Z",
     "description": "common-voice/sentence-collector: Fix typo",
     "link": "https://github.com/common-voice/sentence-collector/commit/04f69a6b44e41adcc956b19f0ce15f7e08384045",
