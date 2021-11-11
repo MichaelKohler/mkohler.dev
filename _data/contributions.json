@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-11T19:27:29.909Z",
+    "description": "Sentence collector copyright issues",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/47",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2021-11-11T19:14:45.000Z",
+    "description": "common-voice/sentence-collector: fix: remove PL opensubtitles",
+    "link": "https://github.com/common-voice/sentence-collector/commit/887bd99d117c132d4c4f798e8447484377835fa7",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-11T18:58:16.000Z",
     "description": "Concept to adapt to language handling",
     "link": "https://github.com/common-voice/sentence-collector/issues/531",
