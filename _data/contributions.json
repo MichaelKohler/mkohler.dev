@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-11-12T21:48:04.000Z",
+    "description": "Add link to Pontoon to footer",
+    "link": "https://github.com/common-voice/sentence-collector/issues/535",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-12T21:37:52.000Z",
+    "description": "Only enable languages that are also enabled on Common Voice",
+    "link": "https://github.com/common-voice/sentence-collector/issues/534",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-12T21:31:10.000Z",
+    "description": "UI Language selection",
+    "link": "https://github.com/common-voice/sentence-collector/issues/533",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-12T21:29:58.000Z",
+    "description": "Inform user if profile language is not enabled",
+    "link": "https://github.com/common-voice/sentence-collector/issues/532",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-12T20:40:44.000Z",
     "description": "Tigre is added as \"Tig\" on Pontoon",
     "link": "https://github.com/common-voice/common-voice/issues/3341",
