@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-12T20:40:44.000Z",
+    "description": "Tigre is added as \"Tig\" on Pontoon",
+    "link": "https://github.com/common-voice/common-voice/issues/3341",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-11T19:27:29.909Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/47",
