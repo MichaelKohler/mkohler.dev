@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-13T10:26:28.000Z",
+    "description": "Edited Reps/Council/History",
+    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1239046",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
     "createdAt": "2021-11-12T21:48:04.000Z",
     "description": "Add link to Pontoon to footer",
     "link": "https://github.com/common-voice/sentence-collector/issues/535",
