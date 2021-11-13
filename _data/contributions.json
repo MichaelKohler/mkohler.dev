@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-13T13:32:08.000Z",
+    "description": "Add Sentence Collector EN strings export section",
+    "link": "https://github.com/common-voice/common-voice/pull/3342",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-13T13:30:19.000Z",
+    "description": "chore: adjust export to also export Sentence Collector FTL source file to CV (fixes #525)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/536",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-13T10:26:28.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1239046",
