@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-15T18:05:51.000Z",
+    "description": "common-voice/common-voice: Add Sentence Collector EN strings export section (#3342)",
+    "link": "https://github.com/common-voice/common-voice/commit/516e3d2bc59cf4c18af3bee5388f0df89269ca91",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-14T14:18:15.426Z",
     "description": "FOSDEM 2022 online - DevRoom proposal submitted",
     "link": "https://discourse.mozilla.org/t/fosdem-2022-online-devroom-proposal-submitted/88558",
