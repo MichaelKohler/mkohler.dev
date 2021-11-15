@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-15T18:44:17.000Z",
+    "description": "common-voice/sentence-collector: chore: adjust export to also export Sentence Collector FTL source file to CV (fixes #525) (#536)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/4820830671bede64cb7c8af7f5138dd382eefa0d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-15T18:05:51.000Z",
     "description": "common-voice/common-voice: Add Sentence Collector EN strings export section (#3342)",
     "link": "https://github.com/common-voice/common-voice/commit/516e3d2bc59cf4c18af3bee5388f0df89269ca91",
