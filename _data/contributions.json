@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-11-16T18:21:12.000Z",
+    "description": "common-voice/sentence-collector: feat: pull localizations from CV when deploying (fixes #526) (#537)\n\n* chore: add locales folder for Common Voice info\r\n* chore: add script to pull locale info\r\n* chore: add note about pull-cv-locales-info in README\r\n* chore: add translations pull script\r\n* chore: use CV locale info files for available languages and RTL\r\n* chore: do not use import directly because of typing\r\n* chore: explicitly type JSON imports",
+    "link": "https://github.com/common-voice/sentence-collector/commit/81f057a99156ec866c687bb13838fb9af833c062",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-16T17:59:45.000Z",
+    "description": "feat: pull localizations from CV when deploying (fixes #526)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/537",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-16T17:51:47.000Z",
+    "description": "Delete Tig locales directory",
+    "link": "https://github.com/common-voice/common-voice/pull/3348",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-15T18:44:17.000Z",
     "description": "common-voice/sentence-collector: chore: adjust export to also export Sentence Collector FTL source file to CV (fixes #525) (#536)",
     "link": "https://github.com/common-voice/sentence-collector/commit/4820830671bede64cb7c8af7f5138dd382eefa0d",
