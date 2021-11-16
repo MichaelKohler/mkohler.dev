@@ -1,5 +1,54 @@
 [
   {
+    "createdAt": "2021-11-16T20:20:02.473Z",
+    "description": "Sentence Collector Localization Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/8",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2021-11-16T20:15:19.000Z",
+    "description": "common-voice/sentence-collector: fix: add translation link to footer (fixes #535) (#542)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/9639186f30cad670a4fb329268dc27e7253ab31e",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-16T20:13:31.000Z",
+    "description": "fix: add translation link to footer (fixes #535)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/542",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-16T19:27:30.000Z",
+    "description": "common-voice/sentence-collector: fix: add Meetei Lon language (#541)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/78d0a1729d0889e05cb5ea1365b031e6eb936708",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-16T19:23:36.000Z",
+    "description": "common-voice/sentence-collector: chore: update server dependencies (#540)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/1f4aa2df1205224b46a0076622f261c1adcd6d39",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-16T19:14:49.000Z",
+    "description": "common-voice/sentence-collector: chore: update web dependencies (#539)\n\n* chore: update web dependencies\r\n\r\n* chore: update ts-jest and ts-loader as well",
+    "link": "https://github.com/common-voice/sentence-collector/commit/3c1d7974936857c56c7bdab961d57479a9cefb85",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-16T19:14:26.000Z",
+    "description": "common-voice/sentence-collector: chore: drop Node 12 support (#538)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/e8900ace303ddab25e5f0003f88b1491c459f96d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-16T19:07:00.000Z",
     "description": "common-voice/common-voice: Delete Tig locales directory (#3348)\n\nWith #3341 `Tig` has been renamed to `tig`. The new folder is set up correctly, however we can now remove the old folder.",
     "link": "https://github.com/common-voice/common-voice/commit/a315e22ba70f652b01f472985403a9fe6fdf55a9",
