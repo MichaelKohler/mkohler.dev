@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2021-11-16T19:07:00.000Z",
+    "description": "common-voice/common-voice: Delete Tig locales directory (#3348)\n\nWith #3341 `Tig` has been renamed to `tig`. The new folder is set up correctly, however we can now remove the old folder.",
+    "link": "https://github.com/common-voice/common-voice/commit/a315e22ba70f652b01f472985403a9fe6fdf55a9",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-16T19:03:36.000Z",
+    "description": "fix: add Meetei Lon language",
+    "link": "https://github.com/common-voice/sentence-collector/pull/541",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-16T18:56:16.000Z",
+    "description": "chore: update server dependencies",
+    "link": "https://github.com/common-voice/sentence-collector/pull/540",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-16T18:49:37.000Z",
+    "description": "chore: update web dependencies",
+    "link": "https://github.com/common-voice/sentence-collector/pull/539",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-16T18:35:15.000Z",
+    "description": "chore: drop Node 12 support",
+    "link": "https://github.com/common-voice/sentence-collector/pull/538",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-16T18:21:12.000Z",
     "description": "common-voice/sentence-collector: feat: pull localizations from CV when deploying (fixes #526) (#537)\n\n* chore: add locales folder for Common Voice info\r\n* chore: add script to pull locale info\r\n* chore: add note about pull-cv-locales-info in README\r\n* chore: add translations pull script\r\n* chore: use CV locale info files for available languages and RTL\r\n* chore: do not use import directly because of typing\r\n* chore: explicitly type JSON imports",
     "link": "https://github.com/common-voice/sentence-collector/commit/81f057a99156ec866c687bb13838fb9af833c062",
