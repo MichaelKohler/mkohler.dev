@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-17T18:49:48.659Z",
+    "description": "Sentence Collector Localization Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/11",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2021-11-17T09:57:48.000Z",
     "description": "common-voice/sentence-collector: Fix script name typo in export workflow",
     "link": "https://github.com/common-voice/sentence-collector/commit/9a6f3a039a187792ec55b5a58d9e38823457e605",
