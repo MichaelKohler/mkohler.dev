@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2021-11-18T18:52:06.000Z",
+    "description": "common-voice/sentence-collector: chore: add redux devtools middleware (#551)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/75a763968299b2fcf225bea3f7fc74c65726b0d0",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-18T18:47:40.000Z",
+    "description": "chore: add redux devtools middleware",
+    "link": "https://github.com/common-voice/sentence-collector/pull/551",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-18T18:31:50.000Z",
+    "description": "Do not persist language list or sentences to review",
+    "link": "https://github.com/common-voice/sentence-collector/issues/550",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-18T18:29:07.000Z",
+    "description": "Make sure user profile languages are up to date in the store",
+    "link": "https://github.com/common-voice/sentence-collector/issues/549",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-18T18:25:14.000Z",
+    "description": "Re-trigger stats update if language list changed",
+    "link": "https://github.com/common-voice/sentence-collector/issues/548",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-18T17:42:17.480Z",
     "description": "Sentence Collector Localization Update",
     "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/38",
