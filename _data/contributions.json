@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-11-18T23:15:34.000Z",
+    "description": "common-voice/sentence-collector: fix: use default validator and translate its error message (fixes #494) (#554)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/5a1b95dc2b6a6709e4a5d3c4c2854d1de0e66f5c",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-18T23:13:50.000Z",
+    "description": "chore: use default validator and translate its error message (fixes #494)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/554",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-18T22:17:46.000Z",
+    "description": "common-voice/sentence-collector: chore: add variable documentation for strings (#553)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/7d58d539909aa47f1eef83b00e7b9ce71b2e096c",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-18T22:15:54.000Z",
     "description": "chore: add variable documentation for strings",
     "link": "https://github.com/common-voice/sentence-collector/pull/553",
