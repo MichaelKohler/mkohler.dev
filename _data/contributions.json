@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-11-18T21:03:15.000Z",
+    "description": "Better integration into Pontoon",
+    "link": "https://github.com/common-voice/sentence-collector/pull/552",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-18T21:00:26.000Z",
+    "description": "common-voice/sentence-collector: chore: add localization note for keyboard shortcuts",
+    "link": "https://github.com/common-voice/sentence-collector/commit/2159d5ebcb7022eb307e65075b34e3a330b5147a",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-18T20:59:11.000Z",
+    "description": "common-voice/sentence-collector: chore: also export comments to FTL file",
+    "link": "https://github.com/common-voice/sentence-collector/commit/614822cae48dd17442934f6bd98726c44c4d6dfa",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-18T20:03:19.000Z",
+    "description": "common-voice/sentence-collector: chore: add group headers for FTL file so Pontoon can show it",
+    "link": "https://github.com/common-voice/sentence-collector/commit/2139ed72298dcc2505d2bcb5040728ef2340a2d2",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-18T18:52:06.000Z",
     "description": "common-voice/sentence-collector: chore: add redux devtools middleware (#551)",
     "link": "https://github.com/common-voice/sentence-collector/commit/75a763968299b2fcf225bea3f7fc74c65726b0d0",
