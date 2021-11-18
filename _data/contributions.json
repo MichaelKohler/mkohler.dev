@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-18T22:15:54.000Z",
+    "description": "chore: add variable documentation for strings",
+    "link": "https://github.com/common-voice/sentence-collector/pull/553",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-18T21:03:15.000Z",
     "description": "Better integration into Pontoon",
     "link": "https://github.com/common-voice/sentence-collector/pull/552",
