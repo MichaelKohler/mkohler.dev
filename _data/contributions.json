@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-11-19T16:50:57.129Z",
+    "description": "Sentence Collector Localization Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/41",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2021-11-19T16:50:15.000Z",
+    "description": "Update Staging more often for localizations",
+    "link": "https://github.com/common-voice/sentence-collector/issues/557",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-19T16:37:28.000Z",
+    "description": "Improve Stats Mechanism",
+    "link": "https://github.com/common-voice/sentence-collector/issues/555",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-18T23:15:34.000Z",
     "description": "common-voice/sentence-collector: fix: use default validator and translate its error message (fixes #494) (#554)",
     "link": "https://github.com/common-voice/sentence-collector/commit/5a1b95dc2b6a6709e4a5d3c4c2854d1de0e66f5c",
