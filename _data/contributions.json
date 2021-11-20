@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-20T14:08:26.000Z",
+    "description": "common-voice/sentence-collector: feat: only enable languages also enabled on Pontoon (#558)\n\n* chore: only enable languages that are also enabled on Pontoon (fixes #534)\r\n* chore: sort language dropdown by localized language name\r\n* chore: always use same Language object structure\r\n* chore: use language code as fallback for title if needed\r\n* chore: add cache to language fetch\r\n* chore: use language code as fallback for stats and profile as well\r\n* chore: only return valid languages for user profile",
+    "link": "https://github.com/common-voice/sentence-collector/commit/0da87d0d2cf999eeb906b459b770d22fc70b86a7",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-20T13:49:44.000Z",
+    "description": "Only enable languages also enabled on Pontoon",
+    "link": "https://github.com/common-voice/sentence-collector/pull/558",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-19T16:50:57.129Z",
     "description": "Sentence Collector Localization Update",
     "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/41",
