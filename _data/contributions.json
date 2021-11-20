@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-20T15:30:22.000Z",
+    "description": "common-voice/cv-sentence-extractor: Improvement for best practices for EN rules file (fixes #156) (#162)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/69221af72661ce8cffb1172b239eb0a43c6da55b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-20T14:40:07.000Z",
     "description": "common-voice/sentence-collector: fix: do not persist allLanguages, languages, router and review sentences from store (fixes #550) (#559)",
     "link": "https://github.com/common-voice/sentence-collector/commit/97e52174aa79d17e0c2791d4666a5af625bd1323",
