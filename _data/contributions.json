@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-11-20T17:51:05.000Z",
+    "description": "common-voice/sentence-collector:  fix: add note for addition process to language addition section (fixes #474) (#561)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/3ab0cf17fdc28788cd3a3199b1fab87f269b2328",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-20T17:48:35.000Z",
+    "description": "fix: add note for addition process to language addition section (fixes #474)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/561",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-20T17:35:17.000Z",
+    "description": "common-voice/sentence-collector: chore: group components into subfolders (#560)\n\n* chore: remove truthyFilter\r\n* chore: group components in folders",
+    "link": "https://github.com/common-voice/sentence-collector/commit/700a0c9f318e47438d9fdf9b96fc29ec796d3c9f",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-20T17:32:49.000Z",
+    "description": "Group components into subfolders",
+    "link": "https://github.com/common-voice/sentence-collector/pull/560",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-20T15:30:22.000Z",
     "description": "common-voice/cv-sentence-extractor: Improvement for best practices for EN rules file (fixes #156) (#162)",
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/69221af72661ce8cffb1172b239eb0a43c6da55b",
