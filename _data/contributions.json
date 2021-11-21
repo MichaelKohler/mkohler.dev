@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-21T18:57:51.000Z",
+    "description": "common-voice/sentence-collector: chore: fix CV path env var",
+    "link": "https://github.com/common-voice/sentence-collector/commit/982324547e9ab2a8c74b89fbb1a59d6ef6f16988",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-21T18:13:53.000Z",
     "description": "common-voice/sentence-collector: chore: fix filename typo",
     "link": "https://github.com/common-voice/sentence-collector/commit/54246ceed351d916039515696d31948a9f3f2f3a",
