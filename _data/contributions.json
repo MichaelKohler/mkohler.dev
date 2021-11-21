@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-20T23:22:52.000Z",
+    "description": "common-voice/sentence-collector: chore: cleanup language download (#562)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/c4ebbd6946959822d2ff429a001b8735e8bf5c87",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-20T23:21:24.000Z",
+    "description": "Cleanup language download",
+    "link": "https://github.com/common-voice/sentence-collector/pull/562",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-20T17:51:05.000Z",
     "description": "common-voice/sentence-collector:  fix: add note for addition process to language addition section (fixes #474) (#561)",
     "link": "https://github.com/common-voice/sentence-collector/commit/3ab0cf17fdc28788cd3a3199b1fab87f269b2328",
