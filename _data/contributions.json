@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-11-21T18:13:53.000Z",
+    "description": "common-voice/sentence-collector: chore: fix filename typo",
+    "link": "https://github.com/common-voice/sentence-collector/commit/54246ceed351d916039515696d31948a9f3f2f3a",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-21T18:04:23.000Z",
+    "description": "common-voice/sentence-collector: chore: correctly add export-source-strings script to Docker image",
+    "link": "https://github.com/common-voice/sentence-collector/commit/9184e78551ddb93c992955c50facdcdcc910e57c",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-21T17:51:03.000Z",
+    "description": "common-voice/sentence-collector: chore: fix translation pull for docker image (#565)\n\nDo not override EN translation file when deploying, but rather export SC strings to CV translations file and then use the combined translation file.",
+    "link": "https://github.com/common-voice/sentence-collector/commit/d9345d1a342556b46b14396a47d0d2f69932bfdb",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-21T17:47:05.000Z",
+    "description": "chore: fix translation pull for docker image",
+    "link": "https://github.com/common-voice/sentence-collector/pull/565",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-21T17:15:22.000Z",
     "description": "common-voice/sentence-collector: chore: add GitHub Action cronjob to deploy staging 4 times a day (fixes #557) (#564)",
     "link": "https://github.com/common-voice/sentence-collector/commit/d0da72f5168d1cd2a865ac17e78a645177f70bc1",
