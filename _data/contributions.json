@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-21T20:14:37.000Z",
+    "description": "common-voice/common-voice: Pontoon: Update German (de) localization of Common Voice\n\nCo-authored-by: Michael Kohler <me@michaelkohler.info>",
+    "link": "https://github.com/common-voice/common-voice/commit/09aa153c22ba80fe0872b8e3572c0d3daeaa9cba",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-21T18:57:51.000Z",
     "description": "common-voice/sentence-collector: chore: fix CV path env var",
     "link": "https://github.com/common-voice/sentence-collector/commit/982324547e9ab2a8c74b89fbb1a59d6ef6f16988",
