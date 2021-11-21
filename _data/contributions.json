@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2021-11-21T17:15:22.000Z",
+    "description": "common-voice/sentence-collector: chore: add GitHub Action cronjob to deploy staging 4 times a day (fixes #557) (#564)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/d0da72f5168d1cd2a865ac17e78a645177f70bc1",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-21T17:13:30.000Z",
+    "description": "chore: add GitHub Action cronjob to deploy staging 4 times a day (fixes #557)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/564",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-21T16:59:58.000Z",
+    "description": "common-voice/sentence-collector: feat: add UI language selector to profile (fixes #533) (#563)\n\nThis adds a UI language selector to the profile. It will show all the languages for now. We can't reliably use translated.json as it really does not give much information on how much of Sentence Collector is actually translated. Therefore I went with that approach. However, if a locale is not in translated.json we show a warning with a link to Pontoon to help out with translation.",
+    "link": "https://github.com/common-voice/sentence-collector/commit/de59b70d21c311a10763987d4a5fe79fd413c08d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-21T16:28:17.000Z",
+    "description": "feat: add UI language selector to profile (fixes #533)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/563",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-21T13:49:17.317Z",
     "description": "What does the Reps program mean for you?",
     "link": "https://discourse.mozilla.org/t/what-does-the-reps-program-mean-for-you/88880/3",
