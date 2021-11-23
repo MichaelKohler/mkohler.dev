@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-23T19:20:15.000Z",
+    "description": "Bio/location fields are not shown in public profile",
+    "link": "https://github.com/mozilla/community-portal/issues/716",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-23T19:12:43.000Z",
     "description": "Update Leadership page to reflect latest Reps Council (H2 2021)",
     "link": "https://github.com/mozilla/bedrock/pull/10812",
