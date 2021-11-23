@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-23T22:27:39.000Z",
+    "description": "mozilla/bedrock: Update Leadership page to reflect latest Reps Council (H2 2021) (#10812)",
+    "link": "https://github.com/mozilla/bedrock/commit/39d9fae015fe1b02339de62c58117bebd43c65ab",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-23T19:20:15.000Z",
     "description": "Bio/location fields are not shown in public profile",
     "link": "https://github.com/mozilla/community-portal/issues/716",
