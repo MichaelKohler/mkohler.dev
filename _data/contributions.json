@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-23T19:12:43.000Z",
+    "description": "Update Leadership page to reflect latest Reps Council (H2 2021)",
+    "link": "https://github.com/mozilla/bedrock/pull/10812",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2021-11-23T18:30:51.602Z",
+    "description": "Sentence Collector need help to remove",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-need-help-to-remove/88934/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2021-11-21T20:14:37.000Z",
     "description": "common-voice/common-voice: Pontoon: Update German (de) localization of Common Voice\n\nCo-authored-by: Michael Kohler <me@michaelkohler.info>",
     "link": "https://github.com/common-voice/common-voice/commit/09aa153c22ba80fe0872b8e3572c0d3daeaa9cba",
