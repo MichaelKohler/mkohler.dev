@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-24T20:18:41.000Z",
+    "description": "common-voice/common-voice: Add Wikipedia EN re-run - 2021-11-23 (#3352)",
+    "link": "https://github.com/common-voice/common-voice/commit/2ba7fc457358e58883c1bff0ee5e4e2a6d02c9c0",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-24T19:35:16.450Z",
+    "description": "Sentence Collector Localization Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/43",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2021-11-24T19:10:05.000Z",
     "description": "Add Wikipedia EN re-run - 2021-11-23",
     "link": "https://github.com/common-voice/common-voice/pull/3352",
