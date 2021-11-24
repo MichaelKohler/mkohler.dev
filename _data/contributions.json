@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-11-24T19:10:05.000Z",
+    "description": "Add Wikipedia EN re-run - 2021-11-23",
+    "link": "https://github.com/common-voice/common-voice/pull/3352",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-24T10:08:00.906Z",
     "description": "Sentence Collector need help to remove",
     "link": "https://discourse.mozilla.org/t/sentence-collector-need-help-to-remove/88934/4",
