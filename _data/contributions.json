@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-11-25T20:38:34.391Z",
+    "description": "Sentence Collector - Localization and Language Handling Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-and-language-handling-update/89338",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
+    "createdAt": "2021-11-25T20:27:51.000Z",
+    "description": "common-voice/sentence-collector: fix: fix ui language dropdown not being shown without also having skipped sentences (#566)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/767cdec79b8a81509be0ad567dc91a5f798aaa0b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-11-25T20:25:48.000Z",
+    "description": "fix: fix ui language dropdown not being shown without also having skipped sentences",
+    "link": "https://github.com/common-voice/sentence-collector/pull/566",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-11-25T19:25:15.359Z",
     "description": "Sentence Collector Localization Update",
     "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/45",
