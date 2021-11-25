@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-11-25T19:25:15.359Z",
+    "description": "Sentence Collector Localization Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/45",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2021-11-25T19:24:22.000Z",
+    "description": "common-voice/sentence-collector: chore: compare against 'main' as github.event depends on how the workflow is triggered",
+    "link": "https://github.com/common-voice/sentence-collector/commit/d4d93f7422aebbe2cc644a1afe7ce53ae077f37c",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-11-24T20:18:41.000Z",
     "description": "common-voice/common-voice: Add Wikipedia EN re-run - 2021-11-23 (#3352)",
     "link": "https://github.com/common-voice/common-voice/commit/2ba7fc457358e58883c1bff0ee5e4e2a6d02c9c0",
