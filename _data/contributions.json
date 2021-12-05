@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2021-12-05T16:36:04.000Z",
+    "description": "fix: add CKB validation file",
+    "link": "https://github.com/common-voice/sentence-collector/pull/569",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-12-05T16:18:42.000Z",
     "description": "common-voice/sentence-collector: fix: remove CKB sentences",
     "link": "https://github.com/common-voice/sentence-collector/commit/d5679cf61fe45eaa397c171b92ecc3977043fea1",
