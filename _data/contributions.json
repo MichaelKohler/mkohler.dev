@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-12-07T18:41:54.715Z",
+    "description": "Sentence Collector need help to remove",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-need-help-to-remove/88934/10",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2021-12-07T18:37:44.000Z",
+    "description": "common-voice/sentence-collector: fix: add more validations to Uzbek and remove some sentences",
+    "link": "https://github.com/common-voice/sentence-collector/commit/9f2e98a3eb6a85decdc1d92e2e22c5ec8c9fe91e",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-12-07T17:43:05.000Z",
     "description": "common-voice/sentence-collector: fix: do not allow %",
     "link": "https://github.com/common-voice/sentence-collector/commit/839bc13a0e3e8226cd98f8ac256e851a402ba5a9",
