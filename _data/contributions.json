@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-12-07T17:43:05.000Z",
+    "description": "common-voice/sentence-collector: fix: do not allow %",
+    "link": "https://github.com/common-voice/sentence-collector/commit/839bc13a0e3e8226cd98f8ac256e851a402ba5a9",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-12-07T17:40:29.000Z",
+    "description": "common-voice/sentence-collector: fix: add CKB validation file (fixes #568) (#569)\n\n* fix: add CKB validation file\r\n* fix: do not allow % and add translations",
+    "link": "https://github.com/common-voice/sentence-collector/commit/02f90318acc3a1a684e40b0267e34b9bd6dfc411",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-12-05T16:36:04.000Z",
     "description": "fix: add CKB validation file",
     "link": "https://github.com/common-voice/sentence-collector/pull/569",
