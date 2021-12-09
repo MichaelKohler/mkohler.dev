@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-12-09T16:30:41.000Z",
+    "description": "common-voice/sentence-collector: fix: add more letters to UZ validation (#570)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/a11236da9fa21162edfcdf4e8daa286759264336",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-12-09T16:27:41.000Z",
+    "description": "fix: add more letters to UZ validation",
+    "link": "https://github.com/common-voice/sentence-collector/pull/570",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2021-12-07T18:41:54.715Z",
     "description": "Sentence Collector need help to remove",
     "link": "https://discourse.mozilla.org/t/sentence-collector-need-help-to-remove/88934/10",
