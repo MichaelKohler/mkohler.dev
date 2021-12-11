@@ -2,3 +2,9 @@
   for = "/.well-known/matrix/client"
     [headers.values]
     Access-Control-Allow-Origin = "*"
+  for = "/*"
+    [headers.values]
+      Content-Security-Policy: default-src https:
+      X-Content-Type-Options: "nosniff"
+      X-Frame-Options = "DENY"
+      X-XSS-Protection: 1; mode=block
