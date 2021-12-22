@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2021-12-22T18:05:18.000Z",
+    "description": "mozilla/campaign-form: Remove link",
+    "link": "https://github.com/mozilla/campaign-form/commit/2c834a7fe9a9513b164d3ed02fb83feb8a0b1d9b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-12-22T18:03:28.000Z",
+    "description": "mozilla/campaign-form: Deactivate current campaign",
+    "link": "https://github.com/mozilla/campaign-form/commit/fafdf0abd33d35925d253dea30626f6175cae5fa",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-12-19T12:14:51.564Z",
     "description": "FOSDEM 2022 - Call for Proposals/Talks",
     "link": "https://discourse.mozilla.org/t/fosdem-2022-call-for-proposals-talks/89700/3",
