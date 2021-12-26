@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2021-12-26T16:32:26.000Z",
+    "description": "common-voice/sentence-collector: fix: better padding for main (fixes #572)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/5acdb6a863742c12c81568f7fa61ea7cc8b527ca",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-12-26T16:26:46.000Z",
+    "description": "common-voice/sentence-collector: fix: avoid overscroll (fixes #573)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/f2e209ec8ac6f4013a7d1471b5aa4ca812ed7f55",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2021-12-26T16:10:42.000Z",
+    "description": "common-voice/sentence-collector: fix: remove yue sentences",
+    "link": "https://github.com/common-voice/sentence-collector/commit/3273693edcde55fd5edaff63c2c72a72ef24d6aa",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-12-22T18:05:18.000Z",
     "description": "mozilla/campaign-form: Remove link",
     "link": "https://github.com/mozilla/campaign-form/commit/2c834a7fe9a9513b164d3ed02fb83feb8a0b1d9b",
