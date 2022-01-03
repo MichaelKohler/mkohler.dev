@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-01-03T17:57:52.000Z",
+    "description": "common-voice/sentence-collector: Fix Localization documentation link in README (fixes #577)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/322b7f80578036d37f1e18f5129219a2117dcdcb",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2021-12-31T17:52:56.580Z",
     "description": "Wo kommen die Sätze für den Korpus eigentlich her?",
     "link": "https://discourse.mozilla.org/t/wo-kommen-die-satze-fur-den-korpus-eigentlich-her/90962/2",
