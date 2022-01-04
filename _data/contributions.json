@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-01-04T20:10:34.000Z",
+    "description": "mozillach/mozilla-watcher: Convert to ESM and update dependencies",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/9606cdfd2788dd23f2fa03e70ec83a116a94edf3",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-04T18:48:24.000Z",
+    "description": "mozillach/mozilla-watcher: Update dependencies",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/a8766b7b2dc4e7ca676afab95d82a3fe7cbc0886",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-01-03T17:57:52.000Z",
     "description": "common-voice/sentence-collector: Fix Localization documentation link in README (fixes #577)",
     "link": "https://github.com/common-voice/sentence-collector/commit/322b7f80578036d37f1e18f5129219a2117dcdcb",
