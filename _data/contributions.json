@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2022-01-07T20:43:29.360Z",
+    "description": "Reprise: The Gamepad API works in Chrome but not in Firefox?",
+    "link": "https://discourse.mozilla.org/t/reprise-the-gamepad-api-works-in-chrome-but-not-in-firefox/91077/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-01-07T20:39:44.710Z",
+    "description": "Is there a \"generic\" gamepad event for \"SOMETHING happened\"?",
+    "link": "https://discourse.mozilla.org/t/is-there-a-generic-gamepad-event-for-something-happened/90874/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-01-07T20:35:32.337Z",
+    "description": "How to create an enhancement request for the Gamepad API?",
+    "link": "https://discourse.mozilla.org/t/how-to-create-an-enhancement-request-for-the-gamepad-api/91181/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-01-07T20:24:46.473Z",
+    "description": "Perfect movie to promote Digital Privacy",
+    "link": "https://discourse.mozilla.org/t/perfect-movie-to-promote-digital-privacy/91178/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-01-04T20:10:34.000Z",
     "description": "mozillach/mozilla-watcher: Convert to ESM and update dependencies",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/9606cdfd2788dd23f2fa03e70ec83a116a94edf3",
