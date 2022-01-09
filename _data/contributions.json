@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-01-09T19:13:29.000Z",
+    "description": "Sample Extraction Pipeline: only use shuffled file",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/issues/171",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-09T15:33:49.000Z",
     "description": "Additional DE rules improvements",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/170",
