@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-01-09T15:33:49.000Z",
+    "description": "Additional DE rules improvements",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/170",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-07T20:43:29.360Z",
     "description": "Reprise: The Gamepad API works in Chrome but not in Firefox?",
     "link": "https://discourse.mozilla.org/t/reprise-the-gamepad-api-works-in-chrome-but-not-in-firefox/91077/2",
