@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-01-09T19:30:50.000Z",
+    "description": "Shuffle sample extract to not include sentences in article order (fixes #171)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/172",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-01-09T19:26:16.000Z",
+    "description": "common-voice/cv-sentence-extractor: Additional DE rules improvements (#170)\n\n* More abbreviations added\r\n* Do not only check for A-Z but also include Umlauts",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/e9af2a6c748c801739762767e9a84c68c5bac87c",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-01-09T19:13:29.000Z",
     "description": "Sample Extraction Pipeline: only use shuffled file",
     "link": "https://github.com/common-voice/cv-sentence-extractor/issues/171",
