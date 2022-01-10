@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-01-10T20:27:41.000Z",
+    "description": "Add Wikipedia DE re-run - 2022-01-09",
+    "link": "https://github.com/common-voice/common-voice/pull/3395",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-09T21:07:42.000Z",
     "description": "common-voice/cv-sentence-extractor: Shuffle sample extract to not include sentences in article order (fixes #171) (#172)",
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/3935b8a4a9de70dd610fcf5c07d03366f952a8b5",
