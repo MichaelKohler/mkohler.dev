@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-01-11T16:00:00.000Z",
+    "description": "Reps Weekly Call 11/01/2022",
+    "link": "https://community.mozilla.org/en/events/reps-weekly-call-11-01-2022/",
+    "type": "Participated in an event",
+    "source": "community-portal-events"
+  },
+  {
     "createdAt": "2022-01-10T20:27:41.000Z",
     "description": "Add Wikipedia DE re-run - 2022-01-09",
     "link": "https://github.com/common-voice/common-voice/pull/3395",
