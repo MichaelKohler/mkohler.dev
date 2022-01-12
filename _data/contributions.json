@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2022-01-12T18:10:26.000Z",
+    "description": "common-voice/sentence-collector: feat: make review keyboard shortcuts localizeable (fixes #547) (#580)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/840c6b9ef85a9ebe1898ce74f19dcf698f38c3b5",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-12T18:08:59.000Z",
+    "description": "feat: make review keyboard shortcuts localizeable (fixes #547)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/580",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-01-12T17:48:53.000Z",
+    "description": "common-voice/sentence-collector: fix: minor design adjustments for Review page (#579)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/70954960cef64755edf76498459b7618ee41d427",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-12T17:46:46.000Z",
+    "description": "fix: minor design adjustments for Review page",
+    "link": "https://github.com/common-voice/sentence-collector/pull/579",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-11T16:00:00.000Z",
     "description": "Reps Weekly Call 11/01/2022",
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-11-01-2022/",
