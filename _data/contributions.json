@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-01-16T19:37:56.402Z",
+    "description": "Sentence Collector Localization Update",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/46",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-01-16T19:25:43.000Z",
+    "description": "common-voice/sentence-collector: fix: add localeId index (#582)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/372666712545b41d9c044f8e38dd0e50c40917bf",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-16T19:19:04.000Z",
+    "description": "fix: add localeId index",
+    "link": "https://github.com/common-voice/sentence-collector/pull/582",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-16T15:27:20.000Z",
     "description": "Add Bengali Wikipedia extract",
     "link": "https://github.com/common-voice/common-voice/pull/3405",
