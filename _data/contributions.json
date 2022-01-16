@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-01-16T15:27:20.000Z",
+    "description": "Add Bengali Wikipedia extract",
+    "link": "https://github.com/common-voice/common-voice/pull/3405",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-12T18:10:26.000Z",
     "description": "common-voice/sentence-collector: feat: make review keyboard shortcuts localizeable (fixes #547) (#580)",
     "link": "https://github.com/common-voice/sentence-collector/commit/840c6b9ef85a9ebe1898ce74f19dcf698f38c3b5",
