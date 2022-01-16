@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-01-16T22:03:46.000Z",
+    "description": "common-voice/sentence-collector: fix: do not show translation warning for EN (#583)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/84f811b49fa4c65b8a0eb6a190733d1e9eb3b6ff",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-16T22:02:12.000Z",
+    "description": "fix: do not show translation warning for EN",
+    "link": "https://github.com/common-voice/sentence-collector/pull/583",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-16T19:37:56.402Z",
     "description": "Sentence Collector Localization Update",
     "link": "https://discourse.mozilla.org/t/sentence-collector-localization-update/87904/46",
