@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-01-19T01:43:27.000Z",
+    "description": "common-voice/common-voice: Add Bengali Wikipedia extract (#3405)",
+    "link": "https://github.com/common-voice/common-voice/commit/082da6623569c879285de4f88b4f51cab91a23f7",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-19T01:41:18.000Z",
+    "description": "common-voice/common-voice: Add Wikipedia DE re-run - 2022-01-09 (#3395)",
+    "link": "https://github.com/common-voice/common-voice/commit/0b41b41458afe212cab59fbccc692c0092dba022",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-01-16T22:03:46.000Z",
     "description": "common-voice/sentence-collector: fix: do not show translation warning for EN (#583)",
     "link": "https://github.com/common-voice/sentence-collector/commit/84f811b49fa4c65b8a0eb6a190733d1e9eb3b6ff",
