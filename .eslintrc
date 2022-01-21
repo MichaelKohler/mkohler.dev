@@ -1,6 +1,13 @@
 {
-  "parser": "babel-eslint",
   "extends": "airbnb-base",
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["lib"],
+        "extensions": [".js", ".ts", ".d.ts", ".tsx"]
+      }
+    }
+  },
   "rules": {
     "arrow-body-style": 0,
     "comma-dangle": 0,

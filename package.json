@@ -17,9 +17,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-plugin-rss": "^1.1.2",
-    "@ava/babel": "^2.0.0",
-    "ava": "^3.13.0",
-    "babel-eslint": "^10.1.0",
+    "ava": "^4.0.1",
     "clean-css": "^5.2.2",
     "eslint": "^7.14.0",
     "eslint-config-airbnb-base": "^14.2.1",
@@ -36,7 +34,7 @@
   "nyc": {
     "check-coverage": true,
     "statements": 20,
-    "branches": 13,
+    "branches": 12,
     "functions": 16,
     "lines": 20,
     "include": [
@@ -52,11 +50,6 @@
     "files": [
       "lib/**/*.test.js"
     ],
-    "timeout": "10s",
-    "babel": {
-      "compileAsTests": [
-        "lib/**/*.js"
-      ]
-    }
+    "timeout": "10s"
   }
 }
