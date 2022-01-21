@@ -9,9 +9,9 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@octokit/rest": "^18.12.0",
-    "axios": "^0.22.0",
-    "debug": "^4.3.2",
-    "jsdom": "^18.0.0",
+    "axios": "^0.25.0",
+    "debug": "^4.3.3",
+    "jsdom": "^19.0.0",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {
@@ -20,11 +20,11 @@
     "@ava/babel": "^2.0.0",
     "ava": "^3.13.0",
     "babel-eslint": "^10.1.0",
-    "clean-css": "^5.2.1",
+    "clean-css": "^5.2.2",
     "eslint": "^7.14.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "nyc": "^15.1.0",
-    "sinon": "^9.2.1"
+    "sinon": "^12.0.1"
   },
   "scripts": {
     "build": "eleventy",
