@@ -1,6 +1,6 @@
 ---
 title: Firefox OS Awareness Day 2014
-permalink: /blog/2015/02/{{title | slug}}/
+permalink: /blog/2015/02/{{title | slugify}}/
 date: 2015-02-08 16:05:31
 ---
 

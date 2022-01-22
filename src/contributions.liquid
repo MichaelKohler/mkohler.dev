@@ -21,7 +21,7 @@ permalink: "/contributions/"
       <th>Description</th>
     </thead>
     <tbody>
-      {% for contribution in contributions %}
+      {% for contribution in contributions limit: 1000 %}
         <tr>
           <td>{{ contribution.createdAt | date: "%Y-%m-%d" }}</td>
           <td>

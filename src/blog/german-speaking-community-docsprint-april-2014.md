@@ -1,6 +1,6 @@
 ---
 title: German-speaking Community DocSprint April 2014
-permalink: /blog/2014/04/{{title | slug}}/
+permalink: /blog/2014/04/{{title | slugify}}/
 date: 2014-04-13 18:11:18
 ---
 

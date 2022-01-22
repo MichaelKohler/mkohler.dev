@@ -1,6 +1,6 @@
 ---
 title: German-speaking Community - Status of goals
-permalink: /blog/2015/04/{{title | slug}}/
+permalink: /blog/2015/04/{{title | slugify}}/
 date: 2015-04-28 00:04:38
 ---
 

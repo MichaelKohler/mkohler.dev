@@ -1,6 +1,6 @@
 ---
 title: Mozilla Hacking Day 2 - 11.10.2014
-permalink: /blog/2014/20/{{title | slug}}/
+permalink: /blog/2014/20/{{title | slugify}}/
 date: 2014-11-20 21:32:40
 ---
 

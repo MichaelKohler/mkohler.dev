@@ -1,6 +1,6 @@
 ---
 title: Firefox Hackathon Zurich April 2016
-permalink: /blog/2016/05/{{title | slug}}/
+permalink: /blog/2016/05/{{title | slugify}}/
 date: 2016-05-05 14:31:47
 ---
 

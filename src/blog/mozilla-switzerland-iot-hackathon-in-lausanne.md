@@ -1,6 +1,6 @@
 ---
 title: Mozilla Switzerland IoT Hackathon in Lausanne
-permalink: /blog/2016/04/{{title | slug}}/
+permalink: /blog/2016/04/{{title | slugify}}/
 date: 2016-04-24 13:04:27
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Mozilla Switzerland - Community Meetup June 2016
-permalink: /blog/2016/09/{{title | slug}}/
+permalink: /blog/2016/09/{{title | slugify}}/
 date: 2016-09-06 21:05:47
 ---
 

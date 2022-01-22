@@ -1,6 +1,6 @@
 ---
 title: '#FoxYeah in the German-speaking community'
-permalink: /blog/2015/07/{{title | slug}}/
+permalink: /blog/2015/07/{{title | slugify}}/
 date: 2015-07-19 18:19:22
 ---
 

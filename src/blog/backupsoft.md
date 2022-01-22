@@ -1,6 +1,6 @@
 ---
 title: BackupSoft
-permalink: /blog/2010/05/{{title | slug}}/
+permalink: /blog/2010/05/{{title | slugify}}/
 date: 2010-05-30 20:09:58
 ---
 

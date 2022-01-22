@@ -1,6 +1,6 @@
 ---
 title: Mozilla Switzerland Community Meetup 2017
-permalink: /blog/2017/01/{{title | slug}}/
+permalink: /blog/2017/01/{{title | slugify}}/
 date: 2017-01-28 21:55:40
 ---
 

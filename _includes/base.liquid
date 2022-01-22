@@ -18,19 +18,19 @@
   <link rel="manifest" href="/manifest.webmanifest">
 
   {% capture css %}
-    {% include theme.css %}
+    {% include "theme.css" %}
   {% endcapture %}
   <style>
-    {{ css | cssmin | safe }}
+    {{ css | cssmin }}
   </style>
 </head>
 
 <body>
-  {% include header.html %}
+  {% include "header.html" %}
 
   {{content}}
 
-  {% include footer.html %}
+  {% include "footer.html" %}
 
   <script src="/main.js" defer async></script>
 </body>

@@ -1,6 +1,6 @@
 ---
 title: Treffen der deutschsprachigen Mozilla Gemeinschaft - Tag 0 (DE / EN)
-permalink: /blog/2015/02/{{title | slug}}/
+permalink: /blog/2015/02/{{title | slugify}}/
 date: 2015-02-27 04:32:52
 ---
 

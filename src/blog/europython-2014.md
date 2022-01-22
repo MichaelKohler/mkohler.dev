@@ -1,6 +1,6 @@
 ---
 title: EuroPython 2014
-permalink: /blog/2014/11/{{title | slug}}/
+permalink: /blog/2014/11/{{title | slugify}}/
 date: 2014-11-20 21:39:39
 ---
 

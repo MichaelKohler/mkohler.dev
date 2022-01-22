@@ -1,6 +1,6 @@
 ---
 title: Mozillas strategische Leitlinien für 2016 und danach
-permalink: /blog/2016/01/{{title | slug}}/
+permalink: /blog/2016/01/{{title | slugify}}/
 date: 2016-01-19 17:27:24
 ---
 

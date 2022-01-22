@@ -1,6 +1,6 @@
 ---
 title: my mozconfig
-permalink: /blog/2010/04/{{title | slug}}/
+permalink: /blog/2010/04/{{title | slugify}}/
 date: 2010-04-14 17:55:11
 ---
 

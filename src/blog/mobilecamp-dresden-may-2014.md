@@ -1,6 +1,6 @@
 ---
 title: MobileCamp Dresden May 2014
-permalink: /blog/2014/05/{{title | slug}}/
+permalink: /blog/2014/05/{{title | slugify}}/
 date: 2014-05-26 22:58:32
 ---
 

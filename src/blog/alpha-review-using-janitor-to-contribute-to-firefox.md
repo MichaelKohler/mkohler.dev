@@ -1,6 +1,6 @@
 ---
 title: Alpha Review - Using Janitor to contribute to Firefox
-permalink: /blog/2016/05/{{title | slug}}/
+permalink: /blog/2016/05/{{title | slugify}}/
 date: 2016-05-05 15:02:12
 ---
 

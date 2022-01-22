@@ -1,6 +1,6 @@
 ---
 title: Barcamp Erfurt 2013
-permalink: /blog/2013/08/{{title | slug}}/
+permalink: /blog/2013/08/{{title | slugify}}/
 date: 2013-08-05 23:03:07
 ---
 

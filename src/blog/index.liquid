@@ -11,7 +11,7 @@ permalink: /blog/
     <h2><a href="{{post.url | url}}">{{post.data.title}}</a></h2>
     <p class="date">{{post.data.date | date: "%Y-%m-%d at %H:%M:%S"}}</p>
 
-    <p>{{post.data.page.excerpt|md|safe}}</p>
+    <p>{{post.data.page.excerpt|md}}</p>
 
     <p><a href="{{post.url | url}}">Read more!</a></p>
   {% endfor -%}

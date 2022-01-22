@@ -1,6 +1,6 @@
 ---
 title: German speaking Mozilla Community - Meeting Feedback
-permalink: /blog/2015/03/{{title | slug}}/
+permalink: /blog/2015/03/{{title | slugify}}/
 date: 2015-03-22 22:21:15
 ---
 

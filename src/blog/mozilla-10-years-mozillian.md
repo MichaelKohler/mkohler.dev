@@ -1,6 +1,6 @@
 ---
 title: 10 Years as a Mozilla Volunteer
-permalink: /blog/2018/04/{{title | slug}}/
+permalink: /blog/2018/04/{{title | slugify}}/
 date: 2018-04-09 19:29:11
 ---
 
