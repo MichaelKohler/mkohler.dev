@@ -1,10 +1,15 @@
 ---
 layout: "base.liquid"
-permalink: "/contributions/"
+permalink: "/contributions/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/{% endif %}index.html"
+
+pagination:
+  data: contributions
+  size: 500
+  resolve: values
 ---
 
 <section id="contributions">
-  <h2>Contributions</h2>
+  <h2>Contributions - Page {{ pagination.pageNumber | plus: 1 }}</h2>
 
   <p>
     This report includes data sources which can be queried automatically.
@@ -14,6 +19,16 @@ permalink: "/contributions/"
     ad-hoc meetings or working documents that never got posted on Discourse.
   </p>
 
+  <div class="pagination">
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}">< Previous Page</a>
+    {% endif %}
+
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">Next Page ></a>
+    {% endif %}
+  </div>
+
   <table class="contributions">
     <thead>
       <th>Date</th>
@@ -21,7 +36,7 @@ permalink: "/contributions/"
       <th>Description</th>
     </thead>
     <tbody>
-      {% for contribution in contributions limit: 1000 %}
+      {% for contribution in pagination.items %}
         <tr>
           <td>{{ contribution.createdAt | date: "%Y-%m-%d" }}</td>
           <td>
@@ -36,4 +51,14 @@ permalink: "/contributions/"
       {% endfor %}
     </tbody>
   </table>
+
+  <div class="pagination">
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}">< Previous Page</a>
+    {% endif %}
+
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">Next Page ></a>
+    {% endif %}
+  </div>
 </section>

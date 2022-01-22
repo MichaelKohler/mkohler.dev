@@ -492,6 +492,15 @@ nav li:nth-child(6) {
   font-style: italic;
 }
 
+.pagination {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pagination a {
+  margin-right: 20px;
+}
+
 table.contributions {
   margin-bottom: 15px;
   border-collapse: collapse;
@@ -516,9 +525,16 @@ table.contributions td:not(:first-child) {
   padding-left: 30px;
 }
 
+table.contributions th:nth-child(1),
+table.contributions td:nth-child(1) {
+  min-width: 100px;
+  max-width: 100px;
+}
+
 table.contributions th:nth-child(2),
 table.contributions td:nth-child(2) {
   min-width: 300px;
+  max-width: 300px;
 }
 
 footer {
