@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-01-23T12:18:06.000Z",
+    "description": "Event location is getting emptied when editing",
+    "link": "https://github.com/mozilla/community-portal/issues/721",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-01-23T12:06:23.000Z",
+    "description": "Showing upcoming events?",
+    "link": "https://github.com/mozilla/community-portal/issues/720",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-01-23T12:05:21.000Z",
+    "description": "Redirect to event after creating it",
+    "link": "https://github.com/mozilla/community-portal/issues/719",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-21T18:01:43.000Z",
     "description": "mozilla/campaign-form: Update dependencies",
     "link": "https://github.com/mozilla/campaign-form/commit/bc7e42966ac3a5f76ed7cd6d1cb6b0f5bf288e64",
