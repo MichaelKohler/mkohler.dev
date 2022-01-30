@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-01-30T21:07:35.000Z",
+    "description": "Improve loading and error messages",
+    "link": "https://github.com/common-voice/sentence-collector/issues/594",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-01-30T21:07:35.000Z",
+    "description": "Improve loading and error messages",
+    "link": "https://github.com/common-voice/sentence-collector/issues/594",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-30T19:57:58.000Z",
     "description": "common-voice/sentence-collector: feat: statistics improvements\n\n* Every load of the stats component fetches the data from the backend\r\n* Absolutely no caching on the client\r\n* Initially also no caching on the backend, so up-to-date information is returned - if that turns out to be a general performance issue, we can introduce a backend cache\r\n* Include language dropdown in stats page like we have for the review for example\r\n* Some other small performance improvements",
     "link": "https://github.com/common-voice/sentence-collector/commit/9e1fba4c6011ee53906e6c4d74264b8ab5b48d5b",
