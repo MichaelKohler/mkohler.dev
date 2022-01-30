@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2022-01-30T19:57:58.000Z",
+    "description": "common-voice/sentence-collector: feat: statistics improvements\n\n* Every load of the stats component fetches the data from the backend\r\n* Absolutely no caching on the client\r\n* Initially also no caching on the backend, so up-to-date information is returned - if that turns out to be a general performance issue, we can introduce a backend cache\r\n* Include language dropdown in stats page like we have for the review for example\r\n* Some other small performance improvements",
+    "link": "https://github.com/common-voice/sentence-collector/commit/9e1fba4c6011ee53906e6c4d74264b8ab5b48d5b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-30T19:57:58.000Z",
+    "description": "common-voice/sentence-collector: feat: statistics improvements\n\n* Every load of the stats component fetches the data from the backend\r\n* Absolutely no caching on the client\r\n* Initially also no caching on the backend, so up-to-date information is returned - if that turns out to be a general performance issue, we can introduce a backend cache\r\n* Include language dropdown in stats page like we have for the review for example\r\n* Some other small performance improvements",
+    "link": "https://github.com/common-voice/sentence-collector/commit/9e1fba4c6011ee53906e6c4d74264b8ab5b48d5b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-30T19:56:14.000Z",
+    "description": "Statistics Improvements",
+    "link": "https://github.com/common-voice/sentence-collector/pull/592",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-01-30T19:56:14.000Z",
+    "description": "Statistics Improvements",
+    "link": "https://github.com/common-voice/sentence-collector/pull/592",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-01-30T17:04:30.000Z",
     "description": "common-voice/sentence-collector: chore: add seeder (#586)",
     "link": "https://github.com/common-voice/sentence-collector/commit/672b6d8fb750280bf0a92ce00b794a5c40652506",
