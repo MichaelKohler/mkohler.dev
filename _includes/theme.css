@@ -551,7 +551,6 @@ footer h3 {
 }
 
 footer p {
-  padding-top: 30px;
   color: #ffffff;
 }
 
@@ -559,10 +558,6 @@ footer ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-footer .follow {
-  margin-top: 21px;
 }
 
 footer .follow .social {
@@ -590,11 +585,12 @@ footer .follow .social li a:hover i:before, footer .follow .social li a:focus i:
   color: #fff;
 }
 
-footer .copyrights p {
-  margin-top: 2rem;
+footer .design {
+  margin-top: 1rem;
+  font-size: 0.8rem;
 }
 
-footer .copyrights a {
+footer .design a {
   color: #F8FFE9;
   text-decoration: underline;
 }
