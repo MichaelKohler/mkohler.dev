@@ -599,29 +599,37 @@ footer .design a {
   .details {
     flex-direction: column;
   }
+
   .experience-info {
     flex-direction: column-reverse;
   }
+
   footer {
     flex-direction: column-reverse;
   }
+
   .pro-experience, .pro-experience .experience {
     max-width: 100%;
     min-width: unset;
   }
+
   .pro-experience .experience ul li ul {
     margin-left: 23px;
   }
+
   .skills {
     max-width: 100%;
   }
+
   #opensource .areas {
     flex-direction: column;
   }
+
   #opensource .area {
     max-width: unset;
     width: 100%;
   }
+
   #opensource img {
     max-width: 100%;
     min-width: 100%;
@@ -631,10 +639,12 @@ footer .design a {
   table.contributions td:not(:first-child) {
     padding-left: 10px;
   }
+
   table.contributions td:nth-child(2) {
     width: 50%;
     min-width: unset;
   }
+
   table.contributions th:nth-child(3),
   table.contributions td:nth-child(3) {
     display: none;
@@ -642,15 +652,24 @@ footer .design a {
 }
 
 @media (max-width: 768px) {
-  header .photo {
-    display: none;
+  header {
+    flex-direction: column;
   }
+
+  header .photo {
+    max-height: unset;
+    min-width: unset;
+    max-width: unset;
+  }
+
   header .svg-inline--fa {
     font-size: 32px;
   }
+
   header .name, header .position {
     padding-left: 30px;
   }
+
   footer {
     padding-left: 30px;
     padding-right: 30px;
@@ -663,10 +682,12 @@ footer .design a {
     padding-left: 0;
     margin-left: 0;
   }
+
   .pro-experience .experience ul {
     margin-top: 0;
     margin-left: 0;
   }
+
   .pro-experience li.company a:before {
     display: none;
   }
@@ -676,86 +697,109 @@ footer .design a {
   body {
     font-size: 12px;
   }
+
   h1 {
     font-size: 24px;
   }
+
   h3 {
     font-size: 18px;
   }
+
   header img, nav, .about, .details .sidebar h3, .pro-experience h3:nth-of-type(2), footer {
     display: none;
   }
+
   header {
     color: #000;
   }
+
   header, header .position, .experience-info, .sidebar {
     background-color: #fff;
   }
+
   h1, h2, h3, h4, h5, h6, header .name, header .position, .details .sidebar, .pro-experience h3 {
     margin: 0;
     padding: 0;
     min-height: unset;
   }
+
   header .position {
     margin-bottom: 5px;
     padding-bottom: 15px;
     border-bottom: 1px solid #8EA8C3;
   }
+
   header .position h2 {
     font-size: 16px;
   }
+
   header .position h2:after {
     content: "  - https://mkohler.dev";
     text-transform: lowercase;
   }
+
   /* Remove Name */
   .details .sidebar-info .row:nth-of-type(1) {
     display: none;
   }
+
   .experience-info {
     display: block;
   }
+
   .experience-info .skills {
     min-width: 100%;
   }
+
   .skills h3, .pro-experience h3 {
     margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 0;
   }
+
   .skills, .pro-experience {
     padding-left: 0;
     margin-left: 0;
   }
+
   .pro-experience .experience ul {
     break-inside: avoid;
   }
+
   .pro-experience .experience ul:nth-child(n+4) .responsibilities {
     display: none;
   }
+
   .pro-experience li.date {
     font-size: 12px;
   }
+
   .pro-experience .experience li.company {
     margin-top: 5px;
     margin-bottom: 5px;
   }
+
   .pro-experience .experience li.company a {
     font-size: 14px;
   }
+
   .pro-experience li.position {
     line-height: 12px;
   }
+
   /* Remove Eduction */
   .pro-experience .experience:nth-of-type(2) {
     display: none;
   }
+
   .sidebar .row {
     border-bottom: none;
     margin-bottom: 0;
     margin-top: 15px;
     padding-bottom: 0;
   }
+
   .sidebar-info .row div:first-child {
     margin-bottom: 5px;
   }
