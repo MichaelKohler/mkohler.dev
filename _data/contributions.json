@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-01-30T23:56:24.000Z",
+    "description": "common-voice/sentence-collector: chore: update more dependencies",
+    "link": "https://github.com/common-voice/sentence-collector/commit/c998308b35f1fe54aa5eaea0cea515c8f73ec962",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-01-30T23:56:24.000Z",
+    "description": "common-voice/sentence-collector: chore: update more dependencies",
+    "link": "https://github.com/common-voice/sentence-collector/commit/c998308b35f1fe54aa5eaea0cea515c8f73ec962",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-01-30T21:07:35.000Z",
     "description": "Improve loading and error messages",
     "link": "https://github.com/common-voice/sentence-collector/issues/594",
