@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-02-03T21:56:51.000Z",
+    "description": "common-voice/sentence-collector: chore: remove unused k8s deployment file",
+    "link": "https://github.com/common-voice/sentence-collector/commit/cd86d73c3be6801620884819bcc9b49e8eb7aa60",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-01-30T23:56:24.000Z",
     "description": "common-voice/sentence-collector: chore: update more dependencies",
     "link": "https://github.com/common-voice/sentence-collector/commit/c998308b35f1fe54aa5eaea0cea515c8f73ec962",
