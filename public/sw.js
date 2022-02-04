@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cache::v2';
+const CACHE_NAME = 'cache::v3';
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
@@ -8,7 +8,6 @@ self.addEventListener('install', (event) => {
           // General
           '/favicon.ico',
           '/data/resume.json',
-          '/images/userpic01.webp',
           '/offline/',
           '/fonts/dosis.woff2',
           '/fonts/fa.woff2',
@@ -19,6 +18,7 @@ self.addEventListener('install', (event) => {
           '/images/me.webp',
           '/images/me_community_building.webp',
           '/images/me_firefox.webp',
+          '/images/profile.webp',
           '/images/reps_group.webp',
           '/talks/',
         ]);
