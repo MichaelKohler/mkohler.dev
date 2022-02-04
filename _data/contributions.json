@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-02-04T17:36:20.000Z",
+    "description": "mozilla/campaign-form: Temp: re-enable form for FOSDEM demo",
+    "link": "https://github.com/mozilla/campaign-form/commit/573477b2a715636ad6bdf9343d342ed6d49c4f7b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-02-03T21:56:51.000Z",
     "description": "common-voice/sentence-collector: chore: remove unused k8s deployment file",
     "link": "https://github.com/common-voice/sentence-collector/commit/cd86d73c3be6801620884819bcc9b49e8eb7aa60",
