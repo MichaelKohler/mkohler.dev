@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-02-05T11:00:00.000Z",
+    "description": "FOSDEM 22 Mozilla DevRoom",
+    "link": "https://community.mozilla.org/en/events/fosdem-22-mozilla-devroom/",
+    "type": "Participated in an event",
+    "source": "community-portal-events"
+  },
+  {
+    "createdAt": "2022-02-05T11:00:00.000Z",
+    "description": "FOSDEM 22 Mozilla DevRoom",
+    "link": "https://community.mozilla.org/en/events/fosdem-22-mozilla-devroom/",
+    "type": "Participated in an event",
+    "source": "community-portal-events"
+  },
+  {
     "createdAt": "2022-02-04T17:36:20.000Z",
     "description": "mozilla/campaign-form: Temp: re-enable form for FOSDEM demo",
     "link": "https://github.com/mozilla/campaign-form/commit/573477b2a715636ad6bdf9343d342ed6d49c4f7b",
