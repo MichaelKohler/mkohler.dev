@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-02-06T12:03:37.000Z",
+    "description": "common-voice/sentence-collector: fix: fix index creation",
+    "link": "https://github.com/common-voice/sentence-collector/commit/0d5806e4b318122ecbcb48551bd4b2fba38bd37d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-02-05T11:30:00.000Z",
     "description": "Collecting Sentences for Common Voice - Talk - FOSDEM 2022",
     "link": "https://community.mozilla.org/en/events/collecting-sentence-for-common-voice-talk-fosdem-2022/",
