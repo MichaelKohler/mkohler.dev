@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-02-10T20:08:33.000Z",
+    "description": "common-voice/sentence-collector: chore: adjust tests",
+    "link": "https://github.com/common-voice/sentence-collector/commit/46c1cdde05325550969a75f7828fdfc384c00c25",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-10T20:03:07.000Z",
+    "description": "common-voice/sentence-collector: fix: use GET for GraphQL query",
+    "link": "https://github.com/common-voice/sentence-collector/commit/ff8e26fce4fdf2351d41c66bb3ec6a8c74d9c94c",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-02-06T12:03:37.000Z",
     "description": "common-voice/sentence-collector: fix: fix index creation",
     "link": "https://github.com/common-voice/sentence-collector/commit/0d5806e4b318122ecbcb48551bd4b2fba38bd37d",
