@@ -1,5 +1,61 @@
 [
   {
+    "createdAt": "2022-02-10T23:02:25.933Z",
+    "description": "Recordings of FOSDEM Mozilla Developer Room talks now available",
+    "link": "https://discourse.mozilla.org/t/recordings-of-fosdem-mozilla-developer-room-talks-now-available/92800",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
+    "createdAt": "2022-02-10T22:55:57.032Z",
+    "description": "Invitation: Three talks on Common Voice on FOSDEM'22 tomorrow (Feb. 5th)",
+    "link": "https://discourse.mozilla.org/t/invitation-three-talks-on-common-voice-on-fosdem22-tomorrow-feb-5th/92410/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-02-10T22:47:45.000Z",
+    "description": "Add references to Common Voice FOSDEM talks",
+    "link": "https://github.com/common-voice/community-playbook/pull/17",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-02-10T22:13:18.000Z",
+    "description": "common-voice/sentence-collector: fix: remove locale from cookies link and directly open cookie section (fixes #595, fixes #596) (#598)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/1b804470f85b5c55d692d0257d04c15dd1d219c9",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-10T22:11:56.000Z",
+    "description": "common-voice/sentence-collector: fix: correctly handle language fetch error and inform user (#597)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/65a991a35b2aa5661961682ad6e561eff5bbbffc",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-10T22:10:55.000Z",
+    "description": "fix: remove locale from cookies link and directly open cookie section (fixes #595, fixes #596)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/598",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-02-10T22:04:51.000Z",
+    "description": "common-voice/sentence-collector: fix: use replacements for queries",
+    "link": "https://github.com/common-voice/sentence-collector/commit/079ccb48234d70b01754287fc0c9897040ce2dd3",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-10T22:03:27.000Z",
+    "description": "fix: correctly handle language fetch error and inform user",
+    "link": "https://github.com/common-voice/sentence-collector/pull/597",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-02-10T20:08:33.000Z",
     "description": "common-voice/sentence-collector: chore: adjust tests",
     "link": "https://github.com/common-voice/sentence-collector/commit/46c1cdde05325550969a75f7828fdfc384c00c25",
