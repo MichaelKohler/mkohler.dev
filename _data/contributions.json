@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2022-02-12T01:40:20.000Z",
+    "description": "Minor cleanup",
+    "link": "https://github.com/common-voice/sentence-collector/pull/602",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-02-12T01:39:40.000Z",
+    "description": "common-voice/sentence-collector: chore: generalize box layout",
+    "link": "https://github.com/common-voice/sentence-collector/commit/e35138f8284c10e5965e0d8ecacaad057a349288",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-12T01:33:29.000Z",
+    "description": "common-voice/sentence-collector: chore: sort CSS variables alphabetically",
+    "link": "https://github.com/common-voice/sentence-collector/commit/61739c52d0df333fb80bb13c5800eb6d2a39847c",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-12T01:31:58.000Z",
+    "description": "common-voice/sentence-collector: fix: better differentiation for loading and error states (fixes #594) (#601)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/3b47a8705161ab81a8a662adc59cdb21556dbfa9",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-12T01:21:11.000Z",
+    "description": "fix: better differentiation for loading and error states (fixes #594)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/601",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-02-11T22:07:04.000Z",
     "description": "common-voice/sentence-collector: fix: never overflow card box (fixes #585) (#600)",
     "link": "https://github.com/common-voice/sentence-collector/commit/db7fc2162112e2cb94c77473e97384e9139f9cc1",
