@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-02-18T16:18:54.818Z",
+    "description": "Sentence collector copyright issues",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/49",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-02-12T01:40:20.000Z",
     "description": "Minor cleanup",
     "link": "https://github.com/common-voice/sentence-collector/pull/602",
