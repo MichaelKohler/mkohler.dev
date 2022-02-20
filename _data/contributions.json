@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-02-20T16:04:12.000Z",
+    "description": "common-voice/sentence-collector: fix: use correct env variable",
+    "link": "https://github.com/common-voice/sentence-collector/commit/abff409b1dc2fc5764c7dba72788a8d97b2b7ef3",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-20T15:49:37.000Z",
+    "description": "common-voice/sentence-collector: fix: add X-RELEASE-VERSION header (#608)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/71e723e9babe8bb1926cbffbbf5858f795e6cdbc",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-20T15:44:49.000Z",
+    "description": "fix: add X-RELEASE-VERSION header",
+    "link": "https://github.com/common-voice/sentence-collector/pull/608",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-02-20T14:58:28.112Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/52",
