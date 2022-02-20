@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-02-20T14:58:28.112Z",
+    "description": "Sentence collector copyright issues",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/52",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-02-20T14:18:17.000Z",
+    "description": "common-voice/sentence-collector: fix: remove certain sentences for tok language (#607)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/7aa6ad72a5b081df5dbf24b23e6c881668f09f96",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-02-20T14:14:16.000Z",
+    "description": "fix: remove certain sentences for tok language",
+    "link": "https://github.com/common-voice/sentence-collector/pull/607",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-02-18T16:18:54.818Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/49",
