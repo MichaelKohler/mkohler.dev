@@ -56,6 +56,13 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2022-02-17T16:00:00.000Z",
+    "description": "Reps Weekly Call 17/02/2022",
+    "link": "https://community.mozilla.org/en/events/reps-weekly-call-17-02-2022/",
+    "type": "Participated in an event",
+    "source": "community-portal-events"
+  },
+  {
     "createdAt": "2022-02-12T01:40:20.000Z",
     "description": "Minor cleanup",
     "link": "https://github.com/common-voice/sentence-collector/pull/602",
