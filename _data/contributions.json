@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-02-27T18:32:02.461Z",
+    "description": "Connecting the Community",
+    "link": "https://discourse.mozilla.org/t/connecting-the-community/93763/8",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-02-20T17:10:22.000Z",
     "description": "mozilla/campaign-form: Revert \"Temp: re-enable form for FOSDEM demo\"\n\nThis reverts commit 573477b2a715636ad6bdf9343d342ed6d49c4f7b.",
     "link": "https://github.com/mozilla/campaign-form/commit/93b2a272007182d8ec9dcc5e28a4d4e9acddf271",
