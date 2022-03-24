@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-03-24T17:42:50.000Z",
+    "description": "Reps Council Elections - H1 2022",
+    "link": "https://github.com/mozilla/Reps/issues/434",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-03-13T15:21:20.752Z",
     "description": "Recent Persian sample sentence submissions",
     "link": "https://discourse.mozilla.org/t/recent-persian-sample-sentence-submissions/94396/4",
