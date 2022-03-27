@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-03-27T00:04:49.000Z",
+    "description": "common-voice/sentence-collector: chore: use yarn for CV parts of export",
+    "link": "https://github.com/common-voice/sentence-collector/commit/a040b74ad4c0c4659de9ba239963f790d7b0f92b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-03-26T23:59:15.000Z",
+    "description": "Future of Import Locales and Sentence Collector export",
+    "link": "https://github.com/common-voice/common-voice/issues/3636",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-03-26T16:43:01.611Z",
     "description": "Upcoming Reps Council Election - H1 2022 Timeline",
     "link": "https://discourse.mozilla.org/t/upcoming-reps-council-election-h1-2022-timeline/95101",
