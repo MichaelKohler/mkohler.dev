@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-03-27T13:37:37.000Z",
+    "description": "common-voice/sentence-collector: fix: update dependencies",
+    "link": "https://github.com/common-voice/sentence-collector/commit/30bb4a9aba6a1db01b3b1523cd309f29c1f01d7d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-03-27T00:04:49.000Z",
     "description": "common-voice/sentence-collector: chore: use yarn for CV parts of export",
     "link": "https://github.com/common-voice/sentence-collector/commit/a040b74ad4c0c4659de9ba239963f790d7b0f92b",
