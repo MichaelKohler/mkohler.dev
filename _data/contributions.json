@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-03-29T19:48:17.772Z",
+    "description": "Sentence collector copyright issues",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/54",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-03-28T17:25:39.000Z",
     "description": "common-voice/sentence-collector: chore: also adjust CV commit message for export",
     "link": "https://github.com/common-voice/sentence-collector/commit/9837bac9e75013fcfbf3c257aebe715766a5949e",
