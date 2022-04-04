@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-04-04T20:51:23.000Z",
+    "description": "common-voice/sentence-collector: fix: massively simplify language handling (#618)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/5f997b0d1e3da22649d41b1c599f7e0059a76f54",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-04-04T20:47:36.000Z",
+    "description": "fix: massively simplify language handling",
+    "link": "https://github.com/common-voice/sentence-collector/pull/618",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-03-29T19:48:17.772Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/54",
