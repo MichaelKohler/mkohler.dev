@@ -7,6 +7,13 @@
     "source": "community-portal-events"
   },
   {
+    "createdAt": "2022-04-05T00:00:00.000Z",
+    "description": "This is a test",
+    "link": "https://community.mozilla.org/en/events/this-is-a-test/",
+    "type": "Participated in an event",
+    "source": "community-portal-events"
+  },
+  {
     "createdAt": "2022-04-04T20:51:23.000Z",
     "description": "common-voice/sentence-collector: fix: massively simplify language handling (#618)",
     "link": "https://github.com/common-voice/sentence-collector/commit/5f997b0d1e3da22649d41b1c599f7e0059a76f54",
