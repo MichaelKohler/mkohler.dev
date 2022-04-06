@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-04-06T11:00:00.000Z",
+    "description": "Mentors Call 05/04/2022",
+    "link": "https://community.mozilla.org/en/events/mentors-call-05-04-2022/",
+    "type": "Participated in an event",
+    "source": "community-portal-events"
+  },
+  {
     "createdAt": "2022-04-04T20:51:23.000Z",
     "description": "common-voice/sentence-collector: fix: massively simplify language handling (#618)",
     "link": "https://github.com/common-voice/sentence-collector/commit/5f997b0d1e3da22649d41b1c599f7e0059a76f54",
