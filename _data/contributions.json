@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-04-25T09:53:43.000Z",
+    "description": "MichaelKohler/reps-voting-analysis: Add 2022-1 election data",
+    "link": "https://github.com/MichaelKohler/reps-voting-analysis/commit/d6d9a8b7066bd5e778e3ba0f8ebf4d6e9d49c139",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-04-25T09:48:00.000Z",
+    "description": "MichaelKohler/reps-voting-analysis: Update some dependencies",
+    "link": "https://github.com/MichaelKohler/reps-voting-analysis/commit/d160fbe688a388471d033794ee5fe78a7b1f775f",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-04-25T09:14:53.000Z",
+    "description": "Edited Reps/Council/History",
+    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1242033",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
     "createdAt": "2022-04-15T22:09:44.503Z",
     "description": "Council Elections H1 2022 - Voting is now open!",
     "link": "https://discourse.mozilla.org/t/council-elections-h1-2022-voting-is-now-open/96002",
