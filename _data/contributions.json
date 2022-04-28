@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-04-28T17:03:27.000Z",
+    "description": "Update Reps Council on Leadership page after H1 2022 elections",
+    "link": "https://github.com/mozilla/bedrock/pull/11556",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-04-28T17:02:49.782Z",
+    "description": "[IMPORTANT] ⚠️ Council Elections - H1 2022 - 🎉 Results Announcement 🎉",
+    "link": "https://discourse.mozilla.org/t/important-council-elections-h1-2022-results-announcement/96411/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-04-28T10:13:05.000Z",
     "description": "Add initial workflow files",
     "link": "https://github.com/mozillach/tweets/pull/194",
