@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-04-28T10:13:05.000Z",
+    "description": "Add initial workflow files",
+    "link": "https://github.com/mozillach/tweets/pull/194",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-04-25T11:52:42.000Z",
     "description": "MichaelKohler/reps-voting-analysis: Add vue config to fix relative path on GitHub Pages",
     "link": "https://github.com/MichaelKohler/reps-voting-analysis/commit/4554123a50a6dcd1d4470da51b1e9e50f595a4a6",
