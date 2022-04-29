@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-04-29T15:03:20.000Z",
+    "description": "mozilla/bedrock: Update Reps Council on Leadership page after H1 2022 elections (#11556)",
+    "link": "https://github.com/mozilla/bedrock/commit/61ed58836ef70a7ce319443b378d7f362bc82b1b",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-04-29T14:00:48.000Z",
     "description": "mozillach/tweets: Add initial workflow and issue template files (#194)",
     "link": "https://github.com/mozillach/tweets/commit/badbc6bdc424339a3410dbbb14260bb32653484d",
