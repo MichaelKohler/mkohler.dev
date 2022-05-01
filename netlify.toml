@@ -11,7 +11,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'none'; style-src 'unsafe-inline'; script-src 'self' https://view.michael.network/; object-src 'self'; base-uri 'self'; manifest-src 'self'; connect-src 'self'; form-action 'self'; img-src https:; frame-ancestors 'none'; font-src 'self'"
+    Content-Security-Policy = "default-src 'none'; style-src 'unsafe-inline'; script-src 'self' https://view.michael.network/; object-src 'self'; base-uri 'self'; manifest-src 'self'; connect-src 'self' https://view.michael.network/; form-action 'self'; img-src https:; frame-ancestors 'none'; font-src 'self'"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "DENY"
     X-XSS-Protection = "1; mode=block"
