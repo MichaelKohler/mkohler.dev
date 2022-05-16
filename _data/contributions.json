@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-05-16T20:14:14.000Z",
+    "description": "Adjust image size for Siddhartha's image on the leadership page",
+    "link": "https://github.com/mozilla/bedrock/pull/11645",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
     "createdAt": "2022-05-16T19:39:21.000Z",
     "description": "mozilla/campaign-form: Adjust for Firefox Translations campaign",
     "link": "https://github.com/mozilla/campaign-form/commit/ee4e827e21fbbb72193633f9127215106b2a3724",
