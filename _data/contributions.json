@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-05-16T19:39:21.000Z",
+    "description": "mozilla/campaign-form: Adjust for Firefox Translations campaign",
+    "link": "https://github.com/mozilla/campaign-form/commit/ee4e827e21fbbb72193633f9127215106b2a3724",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-05-01T15:18:27.000Z",
     "description": "mozillach/mozilla-watcher: Also fetch before deploying on main",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/e997ab5e35707ae23ce159c3716e69411d9502bc",
