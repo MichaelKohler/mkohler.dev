@@ -6,14 +6,10 @@ self.addEventListener('install', (event) => {
       .then((cache) => {
         cache.addAll([
           // General
-          '/favicon.ico',
           '/data/resume.json',
-          '/offline/',
-          '/fonts/dosis.woff2',
-          '/fonts/fa.woff2',
-          '/fonts/raleway.woff2',
 
           // Subpages
+          '/offline/',
           '/opensource/',
           '/images/me.webp',
           '/images/me_community_building.webp',
