@@ -660,6 +660,7 @@ footer .design a {
     max-height: unset;
     min-width: unset;
     max-width: unset;
+    aspect-ratio: 1/1;
   }
 
   header .svg-inline--fa {
