@@ -1,5 +1,103 @@
 [
   {
+    "createdAt": "2022-06-30T17:29:10.000Z",
+    "description": "Profile picture not working",
+    "link": "https://github.com/mozilla/community-portal/issues/744",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-06-30T17:26:46.000Z",
+    "description": "Visibility settings do not work anymore",
+    "link": "https://github.com/mozilla/community-portal/issues/743",
+    "type": "Created Issue Report",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-06-30T11:44:30.000Z",
+    "description": "mozilla/gecko-dev: Bug 1761513 - Remove Engine(about:preferences#search) should be disabled for current Default Engine r=Standard8\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148389",
+    "link": "https://github.com/mozilla/gecko-dev/commit/beec44fed675317874706daec4dd768cd9e0a979",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-22T16:15:24.000Z",
+    "description": "mozilla/campaign-form: Close campaign form",
+    "link": "https://github.com/mozilla/campaign-form/commit/572f61aa086c5ef4272d592613528db6fb6a6524",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-21T07:20:58.000Z",
+    "description": "mozilla/gecko-dev: Bug 1704003 - Remove expired Telemetry probe idb.failure.fileinfo_error r=dom-storage-reviewers,jstutte\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148380",
+    "link": "https://github.com/mozilla/gecko-dev/commit/de91a0e718b58d128865dce7656f312047cd6ac6",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-18T15:52:45.391Z",
+    "description": "Brackets in sentences",
+    "link": "https://discourse.mozilla.org/t/brackets-in-sentences/98597/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-06-17T09:04:27.000Z",
+    "description": "mozilla/gecko-dev: Bug 1672427 - Remove FX_URLBAR_SELECTED_RESULT_INDEX, FX_URLBAR_SELECTED_RESULT_TYPE_2 and FX_URLBAR_SELECTED_RESULT_INDEX_BY_TYPE_2 histograms r=mak\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148359",
+    "link": "https://github.com/mozilla/gecko-dev/commit/dbb779b7422989695b08dc54de05efad988c00b8",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-16T09:43:25.000Z",
+    "description": "mozilla/gecko-dev: Bug 1704740 - Removed expired telemetry probe preferences.created_new_user_prefs_file r=chutten,KrisWright DONTBUILD\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148381",
+    "link": "https://github.com/mozilla/gecko-dev/commit/025231a20e66548f36ac4880216e8e610f63c32f",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-13T11:18:27.000Z",
+    "description": "mozilla/gecko-dev: Bug 1704108 - Remove expired Telemetry probe browser_home_page_count r=Gijs,preferences-reviewers\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148984",
+    "link": "https://github.com/mozilla/gecko-dev/commit/626ab8dc0c9c169318337cc07e7695f9b024a487",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-13T09:39:44.000Z",
+    "description": "mozilla/gecko-dev: Bug 1704740 - Removed expired telemetry probe preferences.created_new_user_prefs_file r=chutten DONTBUILD\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148381",
+    "link": "https://github.com/mozilla/gecko-dev/commit/d9efe29695d7e9e259ba1e73b03778e1aa16c408",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-07T11:14:32.000Z",
+    "description": "mozilla/gecko-dev: Bug 1696233 - Remove expired Telemetry probe a11y.indicator_acted_on r=Jamie DONTBUILD\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148379",
+    "link": "https://github.com/mozilla/gecko-dev/commit/303678dceaf42f2f18fa3b2c79bc5f6fcd259c35",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-07T11:14:04.000Z",
+    "description": "mozilla/gecko-dev: Bug 1683099 - Remove expired probe webrtc.ui.show_indicator#show_indicator r=mconley DONTBUILD\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148355",
+    "link": "https://github.com/mozilla/gecko-dev/commit/42ca47797534bd605cc4e86993c0b979a7508a21",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-07T11:13:33.000Z",
+    "description": "mozilla/gecko-dev: Bug 1703132 - Remove expired Telemetry probe preferences.browser_home_page_change r=preferences-reviewers,mstriemer DONTBUILD\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148354",
+    "link": "https://github.com/mozilla/gecko-dev/commit/65ebeae6b556e9e8eb1486b1beaab9ce9f6aee4d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
+    "createdAt": "2022-06-07T11:11:50.000Z",
+    "description": "mozilla/gecko-dev: Bug 1769086 - Update metadata for layout/xul/ files to not point to Firefox Menus component r=emilio DONTBUILD\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148352",
+    "link": "https://github.com/mozilla/gecko-dev/commit/0bdaaea795c7e7f0d7d53cca53558d6cd62b362d",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-05-26T13:19:57.000Z",
     "description": "mozilla/bedrock: Adjust image size for Siddhartha's image on the leadership page (#11645)",
     "link": "https://github.com/mozilla/bedrock/commit/a1fbfcf49e430aaf7b4685ce6245d09d0068603e",
@@ -2618,6 +2716,13 @@
     "source": "community-portal-campaigns"
   },
   {
+    "createdAt": "2021-09-13T00:00:00.000Z",
+    "description": "Foxfooding Focus for Android and iOS",
+    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2021-09-12T10:57:42.149Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/41",
@@ -4072,6 +4177,13 @@
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/0c5a7ef9748e49ff886b77df43b4675a4421fdab",
     "type": "GitHub Commit",
     "source": "github"
+  },
+  {
+    "createdAt": "2021-04-12T00:00:00.000Z",
+    "description": "Firefox Foxfooding Campaign",
+    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2021-04-12T00:00:00.000Z",
@@ -6048,6 +6160,13 @@
     "source": "community-portal-campaigns"
   },
   {
+    "createdAt": "2020-11-10T00:00:00.000Z",
+    "description": "Unfck the Internet Campaign",
+    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2020-11-09T14:49:29.447Z",
     "description": "[ACTION REQUIRED] New Sentence Collector Infrastructure and Improvements",
     "link": "https://discourse.mozilla.org/t/action-required-new-sentence-collector-infrastructure-and-improvements/68759/10",
@@ -6984,6 +7103,13 @@
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-24-09-2020/",
     "type": "Participated in an event",
     "source": "community-portal-events"
+  },
+  {
+    "createdAt": "2020-09-24T00:00:00.000Z",
+    "description": "Firefox Omnibus Foxfooding experiment",
+    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-09-24T00:00:00.000Z",
@@ -9065,6 +9191,13 @@
     "source": "community-portal-campaigns"
   },
   {
+    "createdAt": "2020-05-22T00:00:00.000Z",
+    "description": "Common Voice Single Word Sprint",
+    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2020-05-21T12:09:12.000Z",
     "description": "common-voice/sentence-collector: chore: fix wrong return value",
     "link": "https://github.com/common-voice/sentence-collector/commit/6b557245c915dcd34e834f08c119e3960987cb67",
@@ -10442,6 +10575,13 @@
     "type": "Worked on program duties: Reviewed swag, budget, requests",
     "link": "",
     "source": "reps"
+  },
+  {
+    "createdAt": "2020-04-06T00:00:00.000Z",
+    "description": "Hunt from Home: Phase 1",
+    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-04-06T00:00:00.000Z",
@@ -34601,27 +34741,6 @@
     "source": "github"
   },
   {
-    "createdAt": "2017-08-05T15:49:25.024Z",
-    "description": "Support Request -- Finding My Notes",
-    "link": "https://discourse.mozilla.org/t/support-request-finding-my-notes/17736/3",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2017-08-05T15:48:16.997Z",
-    "description": "Support Request -- Finding My Notes",
-    "link": "https://discourse.mozilla.org/t/support-request-finding-my-notes/17736/2",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2017-08-03T22:13:48.450Z",
-    "description": "Is there an api for this feature?",
-    "link": "https://discourse.mozilla.org/t/is-there-an-api-for-this-feature/17689/2",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
     "createdAt": "2017-08-03T19:39:21.000Z",
     "description": "mozilla/gecko-dev: Bug 1366363 - Rename Compact Dark and Compact Light themes to just 'Dark' and 'Light' r=dao\n\nMozReview-Commit-ID: 3n1i0CXsvC8\n\n--HG--\nextra : rebase_source : 85c0d147a46fae033aa6f69557f831dd19b91519",
     "link": "https://github.com/mozilla/gecko-dev/commit/8117229d6644bd1a6e734d6b7490f472d9272876",
@@ -34737,20 +34856,6 @@
     "createdAt": "2017-08-03T16:03:04.824Z",
     "description": "Weekly Call 03-08-2017",
     "link": "https://discourse.mozilla.org/t/weekly-call-03-08-2017/17670/2",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2017-08-03T14:56:00.557Z",
-    "description": "Personal server instalation",
-    "link": "https://discourse.mozilla.org/t/personal-server-instalation/17669/2",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2017-08-03T14:54:12.904Z",
-    "description": "Encryption key in URL",
-    "link": "https://discourse.mozilla.org/t/encryption-key-in-url/17668/2",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
   },
