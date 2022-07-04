@@ -224,20 +224,6 @@
     "source": "discourse-topics"
   },
   {
-    "createdAt": "2022-04-06T11:00:00.000Z",
-    "description": "Mentors Call 05/04/2022",
-    "link": "https://community.mozilla.org/en/events/mentors-call-05-04-2022/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2022-04-05T00:00:00.000Z",
-    "description": "This is a test",
-    "link": "https://community.mozilla.org/en/events/this-is-a-test/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2022-04-04T20:51:23.000Z",
     "description": "common-voice/sentence-collector: fix: massively simplify language handling (#618)",
     "link": "https://github.com/common-voice/sentence-collector/commit/5f997b0d1e3da22649d41b1c599f7e0059a76f54",
@@ -406,13 +392,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2022-02-17T16:00:00.000Z",
-    "description": "Reps Weekly Call 17/02/2022",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-17-02-2022/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2022-02-12T01:40:20.000Z",
     "description": "Minor cleanup",
     "link": "https://github.com/common-voice/sentence-collector/pull/602",
@@ -537,34 +516,6 @@
     "link": "https://github.com/common-voice/sentence-collector/commit/0d5806e4b318122ecbcb48551bd4b2fba38bd37d",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2022-02-05T11:30:00.000Z",
-    "description": "Collecting Sentences for Common Voice - Talk - FOSDEM 2022",
-    "link": "https://community.mozilla.org/en/events/collecting-sentence-for-common-voice-talk-fosdem-2022/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2022-02-05T11:30:00.000Z",
-    "description": "Collecting Sentences for Common Voice - Talk - FOSDEM 2022",
-    "link": "https://community.mozilla.org/en/events/collecting-sentence-for-common-voice-talk-fosdem-2022/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2022-02-05T11:00:00.000Z",
-    "description": "FOSDEM 22 Mozilla DevRoom",
-    "link": "https://community.mozilla.org/en/events/fosdem-22-mozilla-devroom/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2022-02-05T11:00:00.000Z",
-    "description": "FOSDEM 22 Mozilla DevRoom",
-    "link": "https://community.mozilla.org/en/events/fosdem-22-mozilla-devroom/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2022-02-04T17:36:20.000Z",
@@ -775,13 +726,6 @@
     "link": "https://github.com/common-voice/sentence-collector/pull/579",
     "type": "Created PR",
     "source": "github-issues"
-  },
-  {
-    "createdAt": "2022-01-11T16:00:00.000Z",
-    "description": "Reps Weekly Call 11/01/2022",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-11-01-2022/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2022-01-10T20:27:41.000Z",
@@ -2548,13 +2492,6 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-10-05T16:00:00.000Z",
-    "description": "Reps Weekly Call 05/10/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-05-10-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2021-10-03T12:46:35.359Z",
     "description": "Can we name the private window start tab something other than \"about:privatebrowsing\"?",
     "link": "https://discourse.mozilla.org/t/can-we-name-the-private-window-start-tab-something-other-than-about-privatebrowsing/86703/4",
@@ -2616,13 +2553,6 @@
     "link": "https://github.com/common-voice/community-playbook/commit/ea6828baf0ea00ff0d849c97b5309e85438accd9",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2021-09-21T16:00:00.000Z",
-    "description": "Reps Weekly Call 21-09-2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-21-09-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2021-09-21T08:18:22.000Z",
@@ -2695,214 +2625,11 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-09-14T16:00:00.000Z",
-    "description": "Reps Council Weekly meeting 14/09/2021",
-    "link": "https://community.mozilla.org/en/events/reps-council-weekly-meeting-14-09-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2021-09-13T22:05:31.000Z",
     "description": "mozilla/campaign-form: Only submit a screenshot when there was one uploaded",
     "link": "https://github.com/mozilla/campaign-form/commit/bed2ceeab31352726fbb08e34b8885c5554f0f89",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2021-09-13T00:00:00.000Z",
@@ -3281,13 +3008,6 @@
     "link": "https://discourse.mozilla.org/t/add-user-to-suggest-text-sentences-for-other-users-to-speak/84166/2",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2021-08-05T16:00:00.000Z",
-    "description": "Reps Weekly Call 05/08/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-05-08-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2021-08-05T13:49:12.000Z",
@@ -3687,13 +3407,6 @@
     "link": "https://discourse.mozilla.org/t/introduction-new-community-manager/81687/3",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2021-06-14T12:00:00.000Z",
-    "description": "10 Years of the Reps Program Celebration!",
-    "link": "https://community.mozilla.org/en/events/10-years-of-the-reps-program-celebration/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2021-06-12T20:41:37.944Z",
@@ -4109,20 +3822,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2021-05-01T00:00:00.000Z",
-    "description": "German Common Voice contribution competition",
-    "link": "https://community.mozilla.org/en/events/german-common-voice-contribution-competition/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2021-04-29T16:00:00.000Z",
-    "description": "Reps Weekly Call 29/04/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-29-04-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2021-04-28T19:24:13.848Z",
     "description": "Q: Semi-synthetic sentences",
     "link": "https://discourse.mozilla.org/t/q-semi-synthetic-sentences/79438/2",
@@ -4375,202 +4074,6 @@
     "source": "community-portal-campaigns"
   },
   {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
     "createdAt": "2021-04-11T13:56:16.856Z",
     "description": "Need help with batch deleting (300k+) in sentence collector inappropriate samples",
     "link": "https://discourse.mozilla.org/t/need-help-with-batch-deleting-300k-in-sentence-collector-inappropriate-samples/78493/4",
@@ -4704,13 +4207,6 @@
     "source": "discourse-topics"
   },
   {
-    "createdAt": "2021-04-08T16:00:00.000Z",
-    "description": "Reps Weekly Call 08/04/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-08-04-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2021-04-06T17:14:37.949Z",
     "description": "[IMPORTANT] Council Elections - H1 2021 - please read",
     "link": "https://discourse.mozilla.org/t/important-council-elections-h1-2021-please-read/77076/11",
@@ -4786,13 +4282,6 @@
     "link": "https://github.com/mozillach/mozilla-watcher/commit/abf9a179c2e57f98227e6ce601e8a4cd1138ddec",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2021-04-01T16:00:00.000Z",
-    "description": "Reps Weekly call 01/04/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-01-04-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2021-03-31T22:06:19.000Z",
@@ -4933,13 +4422,6 @@
     "link": "https://github.com/mozilla/campaign-form/commit/161df5f6a976b69ab9ae8c389b4f69170d9f3b47",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2021-03-18T16:00:00.000Z",
-    "description": "Reps Weekly call 18/03/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-18-03-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2021-03-17T22:49:05.182Z",
@@ -5355,20 +4837,6 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-03-03T08:00:00.000Z",
-    "description": "Reps Peers Call",
-    "link": "https://community.mozilla.org/en/events/reps-peers-call-2/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2021-03-03T08:00:00.000Z",
-    "description": "Reps Peers Call",
-    "link": "https://community.mozilla.org/en/events/reps-peers-call-2/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2021-03-02T21:58:03.000Z",
     "description": "common-voice/sentence-collector: Merge pull request #415 from common-voice/cleanup-and-tests\n\nSplit up Profile into multiple components and add tests for these",
     "link": "https://github.com/common-voice/sentence-collector/commit/aff109427937537dd7f37129fb3edff36cea55e2",
@@ -5451,13 +4919,6 @@
     "link": "https://github.com/common-voice/sentence-collector/commit/d60226c02a935fe4f97281241a01c0ae3da4d756",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2021-03-01T11:15:00.000Z",
-    "description": "Reps Council / Peers diversity meeting",
-    "link": "https://community.mozilla.org/en/events/reps-council-peers-diversity-meeting/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2021-03-01T00:09:52.000Z",
@@ -5635,13 +5096,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2021-02-11T16:00:00.000Z",
-    "description": "Reps Weekly call 11/02/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-11-02-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2021-02-07T11:53:19.031Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/25",
@@ -5661,13 +5115,6 @@
     "link": "https://github.com/common-voice/sentence-collector/commit/91680445b228178b0d8baa02c3022f7be7fcbac4",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2021-01-28T16:00:00.000Z",
-    "description": "Reps Weekly Call 28/01/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-28-01-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2021-01-25T18:13:48.000Z",
@@ -5747,25 +5194,11 @@
     "source": "github"
   },
   {
-    "createdAt": "2021-01-21T16:00:00.000Z",
-    "description": "Reps Weekly Call 21/01/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-21-01-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2021-01-18T17:41:57.579Z",
     "description": "MQTT To Virtual Thing Adapter",
     "link": "https://discourse.mozilla.org/t/mqtt-to-virtual-thing-adapter/36786/6",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2021-01-07T16:00:00.000Z",
-    "description": "Reps Weekly Call 07/01/2021",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-07-01-2021/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-12-26T22:51:08.000Z",
@@ -5927,13 +5360,6 @@
     "link": "https://discourse.mozilla.org/t/questions-about-the-sentence-collecting-guidelines-for-cantonese-yue/72411/2",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2020-12-10T16:00:00.000Z",
-    "description": "Reps Weekly Call 10/12/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-10-12-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-12-07T19:50:53.000Z",
@@ -6172,13 +5598,6 @@
     "link": "",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-12-03T16:00:00.000Z",
-    "description": "Reps Weekly Call 03-12-2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-03-12-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-12-03T15:50:09.000Z",
@@ -6524,209 +5943,6 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-11-19T16:00:00.000Z",
-    "description": "Reps Weekly Call 19/11/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-19-11-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
     "createdAt": "2020-11-10T00:00:00.000Z",
     "description": "Unfck the Internet Campaign",
     "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
@@ -6781,13 +5997,6 @@
     "link": "https://github.com/common-voice/common-voice/commit/1d7f30b9950364a0234f5e4c4708ca00f3be4395",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-10-29T16:00:00.000Z",
-    "description": "Reps Weekly Call 29/10/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-29-10-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-10-27T21:42:33.000Z",
@@ -7005,13 +6214,6 @@
     "link": "https://discourse.mozilla.org/t/deprecation-of-reps-planet/68703/5",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2020-10-22T16:00:00.000Z",
-    "description": "Reps Weekly Call 22/10/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-22-10-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-10-20T17:46:33.183Z",
@@ -7313,13 +6515,6 @@
     "link": "https://github.com/common-voice/sentence-collector/commit/59e2fe97c91a10de647c8f6995f7b2759f710ca3",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-10-08T16:00:00.000Z",
-    "description": "Reps Weekly Call 08/10/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-08-10-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-10-07T18:13:14.000Z",
@@ -7665,209 +6860,6 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-09-24T16:00:00.000Z",
-    "description": "Reps Weekly Call 24/09/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-24-09-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
     "createdAt": "2020-09-24T00:00:00.000Z",
     "description": "Firefox Omnibus Foxfooding experiment",
     "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
@@ -8036,13 +7028,6 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-09-17T16:00:00.000Z",
-    "description": "Reps Weekly Call 17/09/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-17-09-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2020-09-14T16:32:24.000Z",
     "description": "common-voice/sentence-collector: chore: merge master",
     "link": "https://github.com/common-voice/sentence-collector/commit/7e8e96fb5da0a33ae7ecdfbcddcd4219761d9b10",
@@ -8083,13 +7068,6 @@
     "link": "https://github.com/common-voice/sentence-collector/commit/9ef4473d0bcd287fa64ec7b204dc50e233813553",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-09-10T16:00:00.000Z",
-    "description": "Reps Weekly Call 10/09/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-10-09-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-09-09T19:31:05.000Z",
@@ -8421,13 +7399,6 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-08-27T16:00:00.000Z",
-    "description": "Reps Weekly Call 27/08/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-27-08-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2020-08-26T20:51:33.000Z",
     "description": "common-voice/sentence-collector: chore: set Image Pull Policy to IfNotPresent",
     "link": "https://github.com/common-voice/sentence-collector/commit/f41138277f6f8d5c2ce906f81bedf46b8f177220",
@@ -8461,20 +7432,6 @@
     "link": "https://github.com/common-voice/sentence-collector/commit/499b53d0596947d427590aa32ff476f3f9eb7043",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-08-20T16:00:00.000Z",
-    "description": "Reps Weekly Call 20/08/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-20-08-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2020-08-18T11:00:00.000Z",
-    "description": "Reps Council Meeting 18/08/2020",
-    "link": "https://community.mozilla.org/en/events/reps-council-meeting-18-08-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-08-16T23:00:18.000Z",
@@ -8925,13 +7882,6 @@
     "source": "discourse-topics"
   },
   {
-    "createdAt": "2020-08-06T16:00:00.000Z",
-    "description": "Reps Weekly Call 06/08/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-06-08-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2020-08-04T17:50:06.671Z",
     "description": "Next steps for the reps mentorship program - Survey",
     "link": "https://discourse.mozilla.org/t/next-steps-for-the-reps-mentorship-program-survey/65118/2",
@@ -9226,13 +8176,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2020-07-02T16:00:00.000Z",
-    "description": "Reps Weekly Call 02/07/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-02-07-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2020-06-30T22:34:56.000Z",
     "description": "common-voice/common-voice: 2020-06-30 Sentence Collector Export (#2797)",
     "link": "https://github.com/common-voice/common-voice/commit/40a3dedef3b19cb936d3123a5ecf1d6755baf395",
@@ -9301,13 +8244,6 @@
     "link": "https://github.com/mozilla/reps-archive/commit/6ca7135dd4567b975b165c046f180be1ebc64e6a",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-06-25T16:00:00.000Z",
-    "description": "Reps Weekly Call 25/06/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-25-06-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-06-24T20:13:15.000Z",
@@ -9429,13 +8365,6 @@
     "source": "github"
   },
   {
-    "createdAt": "2020-06-18T16:30:00.000Z",
-    "description": "Virtual All-Hands reps meeting: mentorship",
-    "link": "https://community.mozilla.org/en/events/virtual-all-hands-reps-meeting-mentorship/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2020-06-15T22:10:51.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1228156",
@@ -9483,27 +8412,6 @@
     "link": "https://github.com/mozilla/community-portal/issues/581",
     "type": "Created Issue Report",
     "source": "github-issues"
-  },
-  {
-    "createdAt": "2020-06-15T18:00:00.000Z",
-    "description": "Virtual All-Hands reps meeting: Communication 1",
-    "link": "https://community.mozilla.org/en/events/virtual-all-hands-reps-meeting-communication-1/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2020-06-15T13:00:00.000Z",
-    "description": "Reps Peers Call",
-    "link": "https://community.mozilla.org/en/events/reps-peers-call/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
-    "createdAt": "2020-06-15T13:00:00.000Z",
-    "description": "Reps Peers Call",
-    "link": "https://community.mozilla.org/en/events/reps-peers-call/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-06-15T00:00:00.000Z",
@@ -9609,13 +8517,6 @@
     "link": "https://github.com/common-voice/common-voice/pull/2766",
     "type": "Created PR",
     "source": "github-issues"
-  },
-  {
-    "createdAt": "2020-06-04T16:00:00.000Z",
-    "description": "Reps Weekly Call 04/06/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-04-06-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-06-03T18:29:49.000Z",
@@ -9842,13 +8743,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2020-05-28T16:00:00.000Z",
-    "description": "Reps Weekly Call 28/05/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-28-05-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2020-05-27T07:47:00.335Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/10",
@@ -9938,202 +8832,6 @@
     "link": "https://github.com/common-voice/sentence-collector/commit/eeffba917d9e5347e39b7a125d7e0a348ad75c2b",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-05-22T00:00:00.000Z",
@@ -10864,13 +9562,6 @@
     "source": "github-issues"
   },
   {
-    "createdAt": "2020-04-30T04:00:00.000Z",
-    "description": "Reps Weekly Call 30/04/2020",
-    "link": "https://community.mozilla.org/en/events/reps-weekly-call-30-04-2020/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
-  },
-  {
     "createdAt": "2020-04-30T00:00:00.000Z",
     "description": "Watched the monthly internal call",
     "type": "Participated in a meeting",
@@ -11520,202 +10211,6 @@
     "type": "Worked on program duties: Reviewed swag, budget, requests",
     "link": "",
     "source": "reps"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-04-06T00:00:00.000Z",
@@ -12675,13 +11170,6 @@
     "link": "https://github.com/mozilla/activate.mozilla.community/commit/bd7e93bec30a6743e23fa29b1c56997c9e213a7f",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-02-27T19:00:00.000Z",
-    "description": "Mozilla Open Night - 2020-02-27",
-    "link": "https://community.mozilla.org/en/events/mozilla-open-night-2020-02-27/",
-    "type": "Participated in an event",
-    "source": "community-portal-events"
   },
   {
     "createdAt": "2020-02-27T00:00:00.000Z",
