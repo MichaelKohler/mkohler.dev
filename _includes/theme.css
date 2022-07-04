@@ -560,28 +560,33 @@ footer ul {
   padding: 0;
 }
 
-footer .follow .social {
+footer .social {
   display: flex;
+  flex-wrap: wrap;
 }
 
-footer .follow .social li {
-  padding: 20px;
+footer .social li {
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
 }
 
-footer .follow .social li:first-child {
-  padding-left: 0;
+footer .social li:last-child {
+  padding-right: 0;
 }
 
-footer .follow .social li a i {
+footer .social li a i {
   color: #efefef;
   font-size: 32px;
 }
 
-footer .follow .social li a i:before {
+footer .social li a i:before {
   color: #efefef;
 }
 
-footer .follow .social li a:hover i:before, footer .follow .social li a:focus i:before, footer .follow .social li a:active i:before {
+footer .social li a:hover i:before,
+footer .social li a:focus i:before,
+footer .social li a:active i:before {
   color: #fff;
 }
 
