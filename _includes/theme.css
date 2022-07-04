@@ -85,7 +85,9 @@ h5 {
   font-weight: 400;
 }
 
-a, a i, a i:before {
+a,
+a i,
+a i:before {
   cursor: pointer;
   text-decoration: none;
   color: #2f2f2f;
@@ -154,7 +156,8 @@ header h1, header h2 {
   margin: 0;
 }
 
-header .name, header .position {
+header .name,
+header .position {
   padding: 0px 40px;
   min-height: 120px;
   max-height: 120px;
@@ -175,10 +178,6 @@ header .position h2 {
   overflow: hidden;
   text-overflow: ellipsis;
   letter-spacing: 2px;
-}
-
-.Typist {
-  display: inline-block;
 }
 
 header .svg-inline--fa {
@@ -217,7 +216,9 @@ nav li a i:before {
   margin: 0;
 }
 
-nav li a:hover i:before, nav li a:active i:before, nav li a:focus i:before {
+nav li a:hover i:before,
+nav li a:active i:before,
+nav li a:focus i:before {
   color: rgba(255, 255, 255, 1);
 }
 
@@ -301,7 +302,8 @@ nav li:nth-child(6) {
   color: #000;
 }
 
-.pro-experience h3, .sidebar h3 {
+.pro-experience h3,
+.sidebar h3 {
   padding-bottom: 20px;
 }
 
@@ -337,6 +339,10 @@ nav li:nth-child(6) {
   padding: 0 30px 20px;
 }
 
+.pro-experience h3 {
+  color: #3f3f3f;
+}
+
 .pro-experience .experience {
   overflow: visible;
   position: relative;
@@ -345,63 +351,70 @@ nav li:nth-child(6) {
   margin-left: 16px;
 }
 
-.pro-experience .experience:first-child {
-  margin-bottom: 30px;
-}
-
 .pro-experience .experience ul {
   margin-bottom: 23px;
 }
 
-.pro-experience li.date {
+.pro-experience .experience ul li {
+  list-style-type: none;
+}
+
+.pro-experience .experience .date {
   font-size: 1rem;
   margin-bottom: 0;
-  color: #ffffff;
+  color: #3f3f3f;
   position: relative;
   display: block;
   font-weight: 400;
   line-height: 1.2em;
 }
 
-.pro-experience li.company {
+.pro-experience .experience .company {
   display: block;
   text-transform: uppercase;
+  margin-bottom: 0;
 }
 
-.pro-experience li.company a {
+.pro-experience .experience .company a {
   position: relative;
   font-weight: 700;
   font-size: 1.2rem;
-  color: #ffffff;
+  color: #3f3f3f;
 }
 
-.pro-experience li.company a:before {
+.pro-experience .experience .company a:hover {
+  color: #8EA8C3;
+}
+
+.pro-experience .experience .company a:before {
   position: absolute;
   width: 9px;
   height: 9px;
   border-radius: 4px;
   top: 5px;
   left: -29px;
-  background: #ffffff;
+  background: #8EA8C3;
   content: "";
 }
 
-.pro-experience li.position {
+.pro-experience .experience .position {
   margin: 0 0 0 0;
   display: block;
   line-height: 20px;
-  color: #ffffff;
+  color: #3f3f3f;
 }
 
-.pro-experience li.responsibilities {
-  list-style-type: none;
-}
-
-.pro-experience li.responsibilities ul {
+.pro-experience .experience .responsibilities {
   margin-top: 10px;
 }
 
-.pro-experience a, .pro-experience a:hover, .pro-experience a:focus {
+.pro-experience .experience .responsibilities li {
+  list-style-type: circle;
+}
+
+.pro-experience a,
+.pro-experience a:hover,
+.pro-experience a:focus {
   text-decoration: none;
   color: #ffffff;
 }
@@ -417,35 +430,12 @@ nav li:nth-child(6) {
   opacity: .5;
 }
 
-.pro-experience h3 {
-  color: #3f3f3f;
-}
-
-.pro-experience li.date {
-  color: #3f3f3f;
-}
-
-.pro-experience li.company a {
-  color: #3f3f3f;
-}
-
-.pro-experience li.company a:hover {
-  color: #8EA8C3;
-}
-
-.pro-experience li.company a:before {
-  background: #8EA8C3;
-}
-
-.pro-experience li.position {
-  color: #3f3f3f;
-}
-
 #offline, #notfound, #talks, #opensource, #contributions, #blog, #blogpost {
   margin: 30px 30px;
 }
 
-#talks h2, #opensource h2 {
+#talks h2,
+#opensource h2 {
   padding-top: 0;
 }
 
@@ -480,7 +470,10 @@ nav li:nth-child(6) {
   object-fit: cover;
 }
 
-#opensource a, #contributions a, #blog a, #blogpost a {
+#opensource a,
+#contributions a,
+#blog a,
+#blogpost a {
   text-decoration: underline;
 }
 
@@ -613,7 +606,8 @@ footer .design a {
     flex-direction: column-reverse;
   }
 
-  .pro-experience, .pro-experience .experience {
+  .pro-experience,
+  .pro-experience .experience {
     max-width: 100%;
     min-width: unset;
   }
@@ -694,7 +688,7 @@ footer .design a {
     margin-left: 0;
   }
 
-  .pro-experience li.company a:before {
+  .pro-experience .experience .company a:before {
     display: none;
   }
 }
@@ -712,7 +706,12 @@ footer .design a {
     font-size: 18px;
   }
 
-  header img, nav, .about, .details .sidebar h3, .pro-experience h3:nth-of-type(2), footer {
+  header img,
+  nav,
+  .about,
+  .details .sidebar h3,
+  .pro-experience h3:nth-of-type(2),
+  footer {
     display: none;
   }
 
@@ -720,11 +719,18 @@ footer .design a {
     color: #000;
   }
 
-  header, header .position, .experience-info, .sidebar {
+  header,
+  header .position,
+  .experience-info,
+  .sidebar {
     background-color: #fff;
   }
 
-  h1, h2, h3, h4, h5, h6, header .name, header .position, .details .sidebar, .pro-experience h3 {
+  h1, h2, h3, h4, h5, h6,
+  header .name,
+  header .position,
+  .details .sidebar,
+  .pro-experience h3 {
     margin: 0;
     padding: 0;
     min-height: unset;
@@ -769,28 +775,28 @@ footer .design a {
     margin-left: 0;
   }
 
-  .pro-experience .experience ul {
-    break-inside: avoid;
+  .pro-experience .experience ul li {
+    break-inside: avoid-page;
   }
 
   .pro-experience .experience ul:nth-child(n+4) .responsibilities {
     display: none;
   }
 
-  .pro-experience li.date {
+  .pro-experience .experience .date {
     font-size: 12px;
   }
 
-  .pro-experience .experience li.company {
+  .pro-experience .experience .company {
     margin-top: 5px;
     margin-bottom: 5px;
   }
 
-  .pro-experience .experience li.company a {
+  .pro-experience .experience .company a {
     font-size: 14px;
   }
 
-  .pro-experience li.position {
+  .pro-experience .experience .position {
     line-height: 12px;
   }
 
