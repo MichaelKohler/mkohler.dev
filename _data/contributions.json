@@ -2856,6 +2856,13 @@
     "source": "community-portal-campaigns"
   },
   {
+    "createdAt": "2021-09-13T00:00:00.000Z",
+    "description": "Foxfooding Focus for Android and iOS",
+    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2021-09-12T10:57:42.149Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/41",
@@ -4310,6 +4317,13 @@
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/0c5a7ef9748e49ff886b77df43b4675a4421fdab",
     "type": "GitHub Commit",
     "source": "github"
+  },
+  {
+    "createdAt": "2021-04-12T00:00:00.000Z",
+    "description": "Firefox Foxfooding Campaign",
+    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2021-04-12T00:00:00.000Z",
@@ -6566,6 +6580,13 @@
     "source": "community-portal-campaigns"
   },
   {
+    "createdAt": "2020-11-10T00:00:00.000Z",
+    "description": "Unfck the Internet Campaign",
+    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2020-11-09T14:49:29.447Z",
     "description": "[ACTION REQUIRED] New Sentence Collector Infrastructure and Improvements",
     "link": "https://discourse.mozilla.org/t/action-required-new-sentence-collector-infrastructure-and-improvements/68759/10",
@@ -7502,6 +7523,13 @@
     "link": "https://community.mozilla.org/en/events/reps-weekly-call-24-09-2020/",
     "type": "Participated in an event",
     "source": "community-portal-events"
+  },
+  {
+    "createdAt": "2020-09-24T00:00:00.000Z",
+    "description": "Firefox Omnibus Foxfooding experiment",
+    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-09-24T00:00:00.000Z",
@@ -9863,6 +9891,13 @@
     "source": "community-portal-campaigns"
   },
   {
+    "createdAt": "2020-05-22T00:00:00.000Z",
+    "description": "Common Voice Single Word Sprint",
+    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2020-05-21T12:09:12.000Z",
     "description": "common-voice/sentence-collector: chore: fix wrong return value",
     "link": "https://github.com/common-voice/sentence-collector/commit/6b557245c915dcd34e834f08c119e3960987cb67",
@@ -11240,6 +11275,13 @@
     "type": "Worked on program duties: Reviewed swag, budget, requests",
     "link": "",
     "source": "reps"
+  },
+  {
+    "createdAt": "2020-04-06T00:00:00.000Z",
+    "description": "Hunt from Home: Phase 1",
+    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-04-06T00:00:00.000Z",
