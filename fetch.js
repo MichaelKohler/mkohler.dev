@@ -22,6 +22,8 @@ async function fetchAll() {
   // We need to make sure we always will save the "reps" source entries, as we do not fetch those
   // anymore.
   const ALWAYS_FULL_FETCH_SOURCE_ENTRIES = [
+    communityPortal.EVENTS_CATEGORY,
+    communityPortal.CAMPAIGNS_CATEGORY,
     discourse.POSTS_CATEGORY,
     discourse.TOPICS_CATEGORY,
     wiki.WIKI_CATEGORY,
@@ -32,7 +34,7 @@ async function fetchAll() {
   debug('ALREADY_EXISTING_CONTRIBUTIONS', existingContributionsToSave.length);
 
   debug('NEW_GITHUB_CONTRIBUTIONS', githubResult);
-  debug('NEW_COMMUNITY_PORTAL_CONTRIBUTIONS', communityPortalResult.length);
+  debug('COMMUNITY_PORTAL_CONTRIBUTIONS', communityPortalResult.length);
   debug('DISCOURSE_CONTRIBUTIONS', discourseResult.length);
   debug('WIKI_CONTRIBUTIONS', wikiResult.length);
 
@@ -40,14 +42,9 @@ async function fetchAll() {
     ...existingContributionsToSave,
     ...discourseResult, // always a new fetch (previous entries removed above)
     ...wikiResult, // always a new fetch (previous entries removed above)
-    ...communityPortalResult,
+    ...communityPortalResult, // always a new fetch (previous entries removed above)
     ...githubResult,
   ]));
-
-  if (uniqueContributions.length < existingContributions.length) {
-    debug('LESS_ACTIVITIES_THAN_BEFORE_ABORTING');
-    return;
-  }
 
   if (uniqueContributions.length === existingContributions.length) {
     debug('NO_UPDATE_ABORTING');
