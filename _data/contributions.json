@@ -2641,7 +2641,7 @@
   {
     "createdAt": "2021-09-13T00:00:00.000Z",
     "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/campaigns/foxfooding-focus-for-android-and-ios",
+    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
     "type": "Participated in a campaign",
     "source": "community-portal-campaigns"
   },
@@ -4076,7 +4076,7 @@
   {
     "createdAt": "2021-04-12T00:00:00.000Z",
     "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/campaigns/firefox-foxfooding-campaign",
+    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
     "type": "Participated in a campaign",
     "source": "community-portal-campaigns"
   },
@@ -5952,7 +5952,7 @@
   {
     "createdAt": "2020-11-10T00:00:00.000Z",
     "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/campaigns/unfck-the-internet-campaign",
+    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
     "type": "Participated in a campaign",
     "source": "community-portal-campaigns"
   },
@@ -6869,7 +6869,7 @@
   {
     "createdAt": "2020-09-24T00:00:00.000Z",
     "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/campaigns/firefox-omnibus-foxfooding-experiment",
+    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
     "type": "Participated in a campaign",
     "source": "community-portal-campaigns"
   },
@@ -8843,7 +8843,7 @@
   {
     "createdAt": "2020-05-22T00:00:00.000Z",
     "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/campaigns/common-voice-single-word-sprint-2",
+    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
     "type": "Participated in a campaign",
     "source": "community-portal-campaigns"
   },
@@ -10222,7 +10222,7 @@
   {
     "createdAt": "2020-04-06T00:00:00.000Z",
     "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/campaigns/hunt-from-home-phase-1",
+    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
     "type": "Participated in a campaign",
     "source": "community-portal-campaigns"
   },
@@ -54514,13 +54514,6 @@
     "type": "Consulted for a functional area",
     "link": "https://github.com/mozilla/calculator",
     "source": "reps"
-  },
-  {
-    "createdAt": "2014-09-22T14:13:36.000Z",
-    "description": "Edited De",
-    "link": "https://wiki.mozilla.org/index.php?title=De&diff=1016903",
-    "type": "Wiki Edit",
-    "source": "wiki"
   },
   {
     "createdAt": "2014-09-22T00:00:00.000Z",
