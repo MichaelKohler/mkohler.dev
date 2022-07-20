@@ -33026,6 +33026,20 @@
     "source": "github"
   },
   {
+    "createdAt": "2017-08-30T17:40:28.000Z",
+    "description": "Edited Reps/Coaching",
+    "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching&diff=1179622",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
+    "createdAt": "2017-08-30T17:39:19.000Z",
+    "description": "Edited Reps/Coaching/Training",
+    "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching/Training&diff=1179621",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
     "createdAt": "2017-08-30T12:40:57.000Z",
     "description": "Move Countdown/Sites Tested counter to the sidebar belong the logo",
     "link": "https://github.com/mozilla/firefox57-sprint/issues/44",
@@ -34284,6 +34298,13 @@
     "type": "Attended an Event",
     "link": "https://reps.mozilla.org/e/reps-council-weekly-meeting-2017-08-08/",
     "source": "reps"
+  },
+  {
+    "createdAt": "2017-08-06T15:27:44.000Z",
+    "description": "Edited Reps/Application Process/Selection Criteria",
+    "link": "https://wiki.mozilla.org/index.php?title=Reps/Application_Process/Selection_Criteria&diff=1177455",
+    "type": "Wiki Edit",
+    "source": "wiki"
   },
   {
     "createdAt": "2017-08-05T18:41:04.000Z",
