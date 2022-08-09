@@ -9639,20 +9639,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2020-04-23T15:16:41.000Z",
-    "description": "Edited Reps/SOPs/Mentoring/Orientation",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1226448",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2020-04-23T15:16:21.000Z",
-    "description": "Edited Reps/SOPs/Mentoring/Orientation",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1226447",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
     "createdAt": "2020-04-23T00:00:00.000Z",
     "description": "ReMo Call 23-04-20: Mozilla Reps Weekly Call",
     "type": "Attended an Event",
@@ -9693,34 +9679,6 @@
     "link": "https://github.com/2xsaiko/mozilla-central/commit/8c6acbcf5196e67e916f392ae69ed55c206655e6",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-04-20T16:31:10.000Z",
-    "description": "Edited Reps/Council/Elections",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1226313",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2020-04-20T12:15:46.000Z",
-    "description": "Edited Reps/Council/Elections",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1226297",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2020-04-20T12:14:15.000Z",
-    "description": "Edited WeeklyUpdates/2020-04-20",
-    "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2020-04-20&diff=1226296",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2020-04-20T12:12:39.000Z",
-    "description": "Edited WeeklyUpdates/2020-04-20",
-    "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2020-04-20&diff=1226295",
-    "type": "Wiki Edit",
-    "source": "wiki"
   },
   {
     "createdAt": "2020-04-19T12:38:15.315Z",
@@ -9847,20 +9805,6 @@
     "link": "https://github.com/mozilla/bedrock/pull/8776",
     "type": "Created PR",
     "source": "github-issues"
-  },
-  {
-    "createdAt": "2020-04-14T16:35:24.000Z",
-    "description": "Edited Reps/Council/Elections",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1226161",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2020-04-14T16:33:51.000Z",
-    "description": "Edited Reps/Council/Elections",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1226160",
-    "type": "Wiki Edit",
-    "source": "wiki"
   },
   {
     "createdAt": "2020-04-14T09:02:08.000Z",
@@ -10204,13 +10148,6 @@
     "link": "https://github.com/MichaelKohler/reps-stats/commit/a227dec255d5b28f6f63d9bd35f1f43d84258a63",
     "type": "GitHub Commit",
     "source": "github"
-  },
-  {
-    "createdAt": "2020-04-06T21:16:37.000Z",
-    "description": "Edited Reps/Council/History",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1225966",
-    "type": "Wiki Edit",
-    "source": "wiki"
   },
   {
     "createdAt": "2020-04-06T21:12:37.000Z",
