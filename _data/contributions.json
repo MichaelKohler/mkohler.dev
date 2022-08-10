@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-08-10T19:20:11.115Z",
+    "description": "Sätze zum Vorlesen zu kompliziert",
+    "link": "https://discourse.mozilla.org/t/satze-zum-vorlesen-zu-kompliziert/100465/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-08-03T19:58:42.000Z",
     "description": "common-voice/sentence-collector: feat: add normalization for specific languages (#631)",
     "link": "https://github.com/common-voice/sentence-collector/commit/5a86a81a6da7533e9571d2411777ef058a4419bb",
