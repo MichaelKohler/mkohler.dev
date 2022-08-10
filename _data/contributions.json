@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-08-10T20:53:48.000Z",
+    "description": "Add more abbreviations for DE detected when running a re-export",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/177",
+    "type": "Created PR",
+    "source": "github-issues"
+  },
+  {
+    "createdAt": "2022-08-10T20:47:11.749Z",
+    "description": "Sätze zum Vorlesen zu kompliziert",
+    "link": "https://discourse.mozilla.org/t/satze-zum-vorlesen-zu-kompliziert/100465/5",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-08-10T19:20:11.115Z",
     "description": "Sätze zum Vorlesen zu kompliziert",
     "link": "https://discourse.mozilla.org/t/satze-zum-vorlesen-zu-kompliziert/100465/4",
