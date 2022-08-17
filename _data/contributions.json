@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-08-17T21:20:05.000Z",
+    "description": "common-voice/sentence-collector: fix: delete Danish sentences",
+    "link": "https://github.com/common-voice/sentence-collector/commit/cdc9a19709b45e65e32ec5655f0e7f282cd10858",
+    "type": "GitHub Commit",
+    "source": "github"
+  },
+  {
     "createdAt": "2022-08-17T20:27:41.000Z",
     "description": "mozilla/campaign-form: Adjust to Firefox Nightly 2022 campaign",
     "link": "https://github.com/mozilla/campaign-form/commit/29b2e5725a4630de68a5b833c9f67f0e44dffb0e",
