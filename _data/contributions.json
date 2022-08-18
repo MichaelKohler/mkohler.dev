@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-08-18T17:32:03.656Z",
+    "description": "Question about CV Sentence Extractor quality and your experience",
+    "link": "https://discourse.mozilla.org/t/question-about-cv-sentence-extractor-quality-and-your-experience/102911/5",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-08-17T21:20:05.000Z",
     "description": "common-voice/sentence-collector: fix: delete Danish sentences",
     "link": "https://github.com/common-voice/sentence-collector/commit/cdc9a19709b45e65e32ec5655f0e7f282cd10858",
