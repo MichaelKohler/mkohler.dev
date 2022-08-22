@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-08-22T00:00:00.000Z",
+    "description": "Firefox Nightly Foxfooding",
+    "link": "https://community.mozilla.org/en/campaigns/firefox-nightly-foxfooding/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2022-08-18T20:49:51.835Z",
     "description": "Question about CV Sentence Extractor quality and your experience",
     "link": "https://discourse.mozilla.org/t/question-about-cv-sentence-extractor-quality-and-your-experience/102911/7",
