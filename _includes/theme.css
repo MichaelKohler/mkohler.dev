@@ -256,6 +256,10 @@ nav li:nth-child(6) {
   background-color: #3a5a77;
 }
 
+.small {
+  font-size: 0.8rem;
+}
+
 .quote {
   color: #406E8E;
   margin: 0;
@@ -440,11 +444,77 @@ nav li:nth-child(6) {
 }
 
 .talks-list {
-  line-height: 2.5em;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-left: 0;
+}
+
+.talks-list li {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 10px;
+  margin: 10px 10px 10px 0;
+  width: 300px;
+}
+
+.talks-list li img {
+  aspect-ratio: 16 / 9;
+}
+
+.talks-list li .content {
+  padding: 10px;
+}
+
+.talks-list li a {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.talks-list li .tags {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  margin-bottom: 20px;
+}
+
+.tags span {
+  padding: 5px;
+  margin-top: 3px;
+  margin-right: 3px;
+  border-radius: 5px;
+  background-color: #b9ced5;
+}
+
+.tags .switzerland {
+  background-color: rgb(255, 192, 192);
+  color: black;
+}
+
+.tags .mozilla {
+  background-color: #cae2f3;
+  color: black;
+}
+
+.tags .firefox {
+  background-color: #ffcb42;
+  color: black;
+}
+
+.tags .firefox-os {
+  background-color: #c0e1c6;
+  color: black;
+}
+
+.tags .germany {
+  background-color: #bbc2f3;
+  color: black;
 }
 
 #opensource .areas {
-  display: flex;
+  display: flex;rgb(145, 173, 182)rgb(151, 171, 177)rgb(173, 199, 207)
   flex-wrap: wrap;
 }
 
@@ -620,6 +690,10 @@ footer .design a {
     max-width: 100%;
   }
 
+  .talks-list {
+    justify-content: center;
+  }
+
   #opensource .areas {
     flex-direction: column;
   }
@@ -694,6 +768,12 @@ footer .design a {
   }
 }
 
+@media (max-width: 682px) {
+  .talks-list li {
+    min-width: 100%;
+  }
+}
+
 @media (max-width: 600px) {
   .pro-experience .experience {
     border-left: none;
@@ -709,9 +789,7 @@ footer .design a {
   .pro-experience .experience .company a:before {
     display: none;
   }
-}
 
-@media (max-width: 600px) {
   table.contributions td:nth-child(2) {
     padding-left: 10px;
   }

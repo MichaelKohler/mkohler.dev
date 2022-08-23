@@ -1,0 +1,322 @@
+[
+  {
+    "date": "2022-02-05",
+    "title": "Collecting Sentences for Common Voice, FOSDEM 2022",
+    "description": "Talk at FOSDEM 2022 in the Mozilla DevRoom (Recording/Slides)",
+    "image": "/images/presentations/2022-02-05-fosdem.webp",
+    "url": "https://fosdem.org/2022/schedule/event/mozilla_sentence_collector/",
+    "tags": ["Mozilla", "Common Voice"]
+  },
+  {
+    "date": "2017-11-15",
+    "title": "Firefox - Quantum Release Party",
+    "description": "Firefox Quantum Release Party in Switzerland",
+    "image": "/images/presentations/2017-11-15-quantum.webp",
+    "url": "https://docs.google.com/presentation/d/1ibOydDQXqzSkdeFW3ycSv0AoUdO85huB/edit",
+    "tags": ["Mozilla", "Firefox", "Switzerland"]
+  },
+  {
+    "date": "2017-05-08",
+    "title": "Firefox - Quantum/Photon",
+    "description": "Presentation about the features of Firefox Quantum and Proton",
+    "image": "/images/presentations/2017-05-18-quantum.webp",
+    "url": "https://docs.google.com/presentation/d/1VmZU3kZ8uwpa0UFYI8w0Rce7GaVGZzpR/edit",
+    "tags": ["Mozilla", "Firefox", "Switzerland"]
+  },
+  {
+    "date": "2017-01-08",
+    "title": "Mozilla Switzerland Community Meetup",
+    "description": "Mozilla Switzerland Community Meetup introduction slides",
+    "image": "/images/presentations/2017-01-08-community.webp",
+    "url": "/presentations/mozillach-community-meetup-2017/",
+    "tags": ["Mozilla", "Switzerland"]
+  },
+  {
+    "date": "2016-04-30",
+    "title": "Firefox Hackathon",
+    "description": "Introduction slides for the Firefox Hackathon organized in Switzerland",
+    "image": "/images/presentations/2016-04-30-firefox-hackathon.webp",
+    "url": "https://docs.google.com/presentation/d/1NiL9NCDhBsxxSa4vfz3MYjlOahOFH37b/edit",
+    "tags": ["Mozilla", "Firefox", "Switzerland"]
+  },
+  {
+    "date": "2016-04-14",
+    "title": "FFHS Raspberry Pi Projektpräsentation",
+    "description": "Project presentation for my Raspberry Pi temperature monitoring project at University (German)",
+    "image": "/images/presentations/2016-04-14-raspberry.webp",
+    "url": "https://docs.google.com/presentation/d/1tJCivQrhJUjlEmbFt18UE6p2lyjDHCcQ/edit",
+    "tags": ["University"]
+  },
+  {
+    "date": "2016-04-13",
+    "title": "Mozilla Intro &amp; Update",
+    "description": "Introduction to Mozilla and updates about current initiatives at the TechUP meeting in Lucerne",
+    "image": "/images/presentations/2016-04-13-techup.webp",
+    "url": "/presentations/mozillaCH_intro_mozilla/",
+    "tags": ["Mozilla", "Switzerland"]
+  },
+  {
+    "date": "2016-03-31",
+    "title": "Connected Devices and Smart Home",
+    "description": "Talk about Connected Devices and Smart Home efforts by Mozilla at the TechMeetings in Fribourg",
+    "image": "/images/presentations/2016-03-31-connected-devices.webp",
+    "url": "https://docs.google.com/presentation/d/16ghoYqMVrh1eEcq4u8EInts3nBEji1qb/edit",
+    "tags": ["Mozilla", "Connected Devices", "Switzerland"]
+  },
+  {
+    "date": "2016-02-09",
+    "title": "Firefox OS and Connected Devices",
+    "description": "Talk about the future of Firefox OS in regards to Connected Devices initiatives",
+    "image": "/images/presentations/2016-02-09-connected-devices.webp",
+    "url": "https://docs.google.com/presentation/d/1BlFSnbVNFScAmcQ8zXUQcVz2n5BKLavY/edit",
+    "tags": ["Mozilla", "Firefox OS", "Connected Devices"]
+  },
+  {
+    "date": "2015-11-10",
+    "title": "WebMardi Lausanne 2015 - Intro to Mozilla / Firefox OS",
+    "description": "Introduction to Mozilla and Firefox OS at the WebMardi meetup in Lausanne",
+    "image": "/images/presentations/2015-11-10-webmardi.webp",
+    "url": "/presentations/mozillaCH-mozilla-intro-firefox-os/",
+    "tags": ["Mozilla", "Firefox OS", "Switzerland"]
+  },
+  {
+    "date": "2015-10-17",
+    "title": "Mozilla Day Switzerland 2015 - What's new in Mozilla?",
+    "description": "Mozilla Update at the Mozilla Day in Switzerland",
+    "image": "/images/presentations/2015-10-17-update.webp",
+    "url": "/presentations/mozillaCH-day-whats-new-in-mozilla/",
+    "tags": ["Mozilla", "Switzerland"]
+  },
+  {
+    "date": "2015-10-17",
+    "title": "Mozilla Day Switzerland 2015 - Firefox Dev Tools Demo",
+    "description": "Demo of the Firefox Dev Tools",
+    "image": "/images/presentations/2015-10-17-devtools.webp",
+    "url": "/presentations/mozillaCH-day-devtools-demo/",
+    "tags": ["Mozilla", "Firefox", "Switzerland"]
+  },
+  {
+    "date": "2015-07-11",
+    "title": "Mozilla Weekend Berlin 2015 - Contributing at Mozilla",
+    "description": "Introduction to Contributing at Mozilla for different projects at the Mozilla Weekend Berlin 2015",
+    "image": "/images/presentations/2015-07-11-contributing.webp",
+    "url": "/presentations/mozweekend-berlin-2015-contributing/",
+    "tags": ["Mozilla", "Germany"]
+  },
+  {
+    "date": "2015-07-11",
+    "title": "Mozilla Weekend Berlin 2015 - What's new in Firefox?",
+    "description": "Update about Firefox at the Mozilla Weekend Berlin 2015",
+    "image": "/images/presentations/2015-07-11-firefox.webp",
+    "url": "/presentations/mozweekend-berlin-2015-new-in-firefox/",
+    "tags": ["Mozilla", "Firefox", "Germany"]
+  },
+  {
+    "date": "2015-07-11",
+    "title": "Mozilla Weekend Berlin 2015 - Outro",
+    "description": "Outro slides Day 1 for the Mozilla Weekend Berlin 2015",
+    "image": "/images/presentations/2015-07-11-outro.webp",
+    "url": "/presentations/mozweekend-berlin-2015-outro/",
+    "tags": ["Mozilla", "Germany"]
+  },
+  {
+    "date": "2015-07-11",
+    "title": "Mozilla Weekend Berlin 2015 - Intro",
+    "description": "Intro slides Day 1 for the Mozilla Weekend Berlin 2015",
+    "image": "/images/presentations/2015-07-11-intro.webp",
+    "url": "/presentations/mozweekend-berlin-2015-intro/",
+    "tags": ["Mozilla", "Germany"]
+  },
+  {
+    "date": "2015-06-08",
+    "title": "How does Mozilla protect the open web?",
+    "description": "Talk about Mozilla's mission at a Mozilla meetup in Bern",
+    "image": "/images/presentations/2015-06-08-protect.webp",
+    "url": "/presentations/mozillaCH-how-mozilla-protect-web/",
+    "tags": ["Mozilla", "Switzerland"]
+  },
+  {
+    "date": "2015-06-03",
+    "title": "Why should you use Firefox?",
+    "description": "Talk about why you should use Firefox at the Mozilla meetup in Switzerland",
+    "image": "/images/presentations/2015-06-03-firefox.webp",
+    "url": "/presentations/mozillaCH-why-should-you-use-firefox/",
+    "tags": ["Mozilla", "Firefox", "Switzerland"]
+  },
+  {
+    "date": "2015-05-10",
+    "title": "Communities are easy to build but hard to maintain",
+    "description": "Talk at OSCAL 2015 about maintaining and growing communities by the example of Mozilla",
+    "image": "/images/presentations/2015-05-10-communities.webp",
+    "url": "/presentations/oscal-community-building/",
+    "tags": ["Mozilla", "Albania"]
+  },
+  {
+    "date": "2015-05-09",
+    "title": "Creating Firefox OS Apps and hacking Firefox OS itself!",
+    "description": "Slides for a Firefox OS Apps workshop at OSCAL 2015",
+    "image": "/images/presentations/2015-05-09-firefoxos.webp",
+    "url": "/presentations/oscal-firefoxos-hacking/",
+    "tags": ["Mozilla", "Firefox OS", "Albania"]
+  },
+  {
+    "date": "2015-04-25",
+    "title": "Firefox OS - Creating your own app and hack Firefox OS itself",
+    "description": "Firefox OS Apps workshop at the MobileCamp Dresden",
+    "image": "/images/presentations/2015-04-25-hacking.webp",
+    "url": "/presentations/mozilla-mobilecamp-dresden-2015-hacking/",
+    "tags": ["Mozilla", "Firefox OS", "Germany"]
+  },
+  {
+    "date": "2015-04-25",
+    "title": "Firefox OS - still advancing",
+    "description": "Keynote at the MobileCamp Dresden",
+    "image": "/images/presentations/2015-04-25-firefoxos.webp",
+    "url": "/presentations/mozilla-mobilecamp-dresden-2015/",
+    "tags": ["Mozilla", "Firefox OS", "Germany"]
+  },
+  {
+    "date": "2015-03-26",
+    "title": "Combining Firefox OS and Webmaker",
+    "description": "Talk about my efforts to combine Firefox OS and Webmaker to teach Web basics by the example of creating a Firefox OS app",
+    "image": "/images/presentations/2015-03-26-webmaker.webp",
+    "url": "/presentations/mozillach-combining-firefox-os-webmaker/",
+    "tags": ["Mozilla", "Firefox OS", "Webmaker", "Switzerland"]
+  },
+  {
+    "date": "2015-03-15",
+    "title": "Hacking on Gaia",
+    "description": "Talk about hacking on Gaia, the frontend for Firefox OS at FOSS Asia 2015",
+    "image": "/images/presentations/2015-03-15-gaia.webp",
+    "url": "http://slides.com/michaelkohler/hacking-on-gaia#/",
+    "tags": ["Mozilla", "Firefox OS", "Singapore"]
+  },
+  {
+    "date": "2015-03-14",
+    "title": "Combining Firefox OS and Webmaker",
+    "description": "Talk about my efforts to combine Firefox OS and Webmaker to teach Web basics by the example of creating a Firefox OS app at FOSS Asia 2015",
+    "image": "/images/presentations/2015-03-14-webmaker.webp",
+    "url": "/presentations/fossasia-combining-firefox-os-webmaker/",
+    "tags": ["Mozilla", "Firefox OS", "Webmaker", "Singapore"]
+  },
+  {
+    "date": "2015-02-20",
+    "title": "Some information about Mozilla Switzerland",
+    "description": "Update about the Mozilla Switzerland community at a Mozilla community meetup in Berlin",
+    "image": "/images/presentations/2015-02-20-mozch.webp",
+    "url": "/presentations/mozilla-switzerland/",
+    "tags": ["Mozilla", "Switzerland", "Germany"]
+  },
+  {
+    "date": "2014-11-22",
+    "title": "Firefox OS App Day Frankfurt",
+    "description": "Introduction slides for the Firefox OS App Day in Frankfurt",
+    "image": "/images/presentations/2014-11-22-ffos.webp",
+    "url": "/presentations/firefoxosappday-frankfurt/",
+    "tags": ["Mozilla", "Firefox OS", "Germany"]
+  },
+  {
+    "date": "2014-11-17",
+    "title": "10 Years of Firefox",
+    "description": "Celebration of Firefox turning 10, including cake!",
+    "image": "/images/presentations/2014-11-17-ff10.webp",
+    "url": "/presentations/fx10-zurich/",
+    "tags": ["Mozilla", "Firefox", "Switzerland"]
+  },
+  {
+    "date": "2014-10-11",
+    "title": "Introduction - Mozilla Hacking Day Berlin",
+    "description": "Introduction slides for the Mozilla Hacking Day in Berlin",
+    "image": "/images/presentations/2014-10-11-intro.webp",
+    "url": "/presentations/hacking-day-berlin-okt-2014/",
+    "tags": ["Mozilla", "Germany"]
+  },
+  {
+    "date": "2014-10-11",
+    "title": "Closing - Mozilla Hacking Day Berlin",
+    "description": "Closing slides",
+    "image": "/images/presentations/2014-10-11-outro.webp",
+    "url": "/presentations/hacking-day-berlin-okt-2014-closing/",
+    "tags": ["Mozilla", "Germany"]
+  },
+  {
+    "date": "2014-07-02",
+    "title": "Introduction to Firefox OS Development",
+    "description": "Introduction to Firefox OS Development at the TechUp July meeting in Lucerne",
+    "image": "/images/presentations/2014-07-02-ffos.webp",
+    "url": "/presentations/ffos-introduction-to-firefoxos-dev/",
+    "tags": ["Mozilla", "Firefox OS", "Switzerland"]
+  },
+  {
+    "date": "2014-06-14",
+    "title": "App Day 2014 - New in Firefox OS",
+    "description": "Updates about Firefox OS at the App Day 2014 in Zurich",
+    "image": "/images/presentations/2014-06-14-ffos.webp",
+    "url": "/presentations/new-in-firefoxos-appday2014/",
+    "tags": ["Mozilla", "Firefox OS", "Switzerland"]
+  },
+  {
+    "date": "2014-06-14",
+    "title": "Mozilla CH / App Day Intro",
+    "description": "Introduction for the Mozilla Firefox OS App Day Zurich",
+    "image": "/images/presentations/2014-06-14-mozch.webp",
+    "url": "/presentations/ffos-appday2014-switzerland-mozch/",
+    "tags": ["Mozilla", "Firefox OS", "Switzerland"]
+  },
+  {
+    "date": "2014-05-10",
+    "title": "Firefox OS - Introduction",
+    "description": "Introduction to Firefox OS at the MobileCamp Dresden",
+    "image": "/images/presentations/2014-05-10-ffos.webp",
+    "url": "/presentations/mobilecamp-dresden-2014/",
+    "tags": ["Mozilla", "Firefox OS", "Germany"]
+  },
+  {
+    "date": "2013-11-15",
+    "title": "History of Firefox OS",
+    "description": "Talk about the history of Firefox OS at the Firefox OS App Day in Düsseldorf",
+    "image": "/images/presentations/2013-11-15-ffos.webp",
+    "url": "/presentations/ffos-appday-duesseldorf/",
+    "tags": ["Mozilla", "Firefox OS", "Germany"]
+  },
+  {
+    "date": "2013-11-15",
+    "title": "Creating a Firefox OS App - Live coding",
+    "description": "Live coding session as an introduction at the Firefox OS App Day in Düsseldorf",
+    "image": "/images/presentations/2013-11-15-coding.webp",
+    "url": "/presentations/ffos-appday-duesseldorf-coding/",
+    "tags": ["Mozilla", "Firefox OS", "Germany"]
+  },
+  {
+    "date": "2013-08-02",
+    "title": "CERN Webfest - Mozilla Webmaker",
+    "description": "Introduction to Mozilla Webmaker at the CERN Webfest",
+    "image": "/images/presentations/2013-08-02-webfest.webp",
+    "url": "/presentations/cern-webfest/Webfest.html",
+    "tags": ["Mozilla", "Webmaker", "Switzerland"]
+  },
+  {
+    "date": "2013-05-25",
+    "title": "Firefox OS App Day Zurich - Event",
+    "description": "Firefox OS App Day introduction slides",
+    "image": "/images/presentations/2013-05-25-event.webp",
+    "url": "/presentations/ffos-appday-switzerland/ffosappday",
+    "tags": ["Mozilla", "Firefox OS", "Switzerland"]
+  },
+  {
+    "date": "2013-05-25",
+    "title": "Firefox OS App Day Zurich - MozillaCH",
+    "description": "Firefox OS App Day introduction to the Mozilla Switzerland community",
+    "image": "/images/presentations/2013-05-25-mozch.webp",
+    "url": "/presentations/ffos-appday-switzerland-mozch/mozillach",
+    "tags": ["Mozilla", "Switzerland"]
+  },
+  {
+    "date": "2012-06-23",
+    "title": "Firefox Source Code 101",
+    "description": "Introduction into the Firefox source code at the Weekend of Code in Switzerland",
+    "image": "/images/presentations/2012-06-23-ff.webp",
+    "url": "/presentations/mozilla_weekend_of_code_2012.html",
+    "tags": ["Mozilla", "Firefox", "Switzerland"]
+  }
+]
