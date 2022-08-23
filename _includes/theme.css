@@ -462,6 +462,8 @@ nav li:nth-child(6) {
 
 .talks-list li img {
   aspect-ratio: 16 / 9;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .talks-list li .content {
