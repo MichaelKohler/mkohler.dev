@@ -514,7 +514,7 @@ nav li:nth-child(6) {
 }
 
 #opensource .areas {
-  display: flex;rgb(145, 173, 182)rgb(151, 171, 177)rgb(173, 199, 207)
+  display: flex;
   flex-wrap: wrap;
 }
 
