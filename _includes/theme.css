@@ -698,6 +698,14 @@ footer .design a {
     flex-direction: column;
   }
 
+  #opensource .area:nth-child(n) {
+    padding-right: 0;
+  }
+
+  #opensource .area:nth-child(2n) {
+    padding-left: 0;
+  }
+
   #opensource .area {
     max-width: unset;
     width: 100%;
