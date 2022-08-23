@@ -33,10 +33,10 @@
   },
   "nyc": {
     "check-coverage": true,
-    "statements": 20,
-    "branches": 12,
-    "functions": 16,
-    "lines": 20,
+    "statements": 18,
+    "branches": 11,
+    "functions": 14,
+    "lines": 18,
     "include": [
       "lib/**/*.js"
     ],
