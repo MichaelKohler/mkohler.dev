@@ -16,7 +16,7 @@ const config = {
     topicType: 'Created Discourse Topic',
     postType: 'Posted on Discourse Topic',
   },
-  wiki: {
+  mediaWiki: {
     enabled: true,
     baseUrl: 'https://wiki.mozilla.org/api.php?action=feedcontributions',
     username: 'michaelkohler',
