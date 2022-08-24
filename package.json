@@ -1,6 +1,6 @@
 {
   "name": "mkohler.dev",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "description": "Michael Kohler's CV",
   "author": "Michael Kohler",
   "license": "MIT",
@@ -8,48 +8,16 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
-    "@octokit/rest": "^19.0.4",
-    "axios": "^0.27.2",
-    "debug": "^4.3.4",
-    "jsdom": "^20.0.0",
-    "xml2js": "^0.4.23"
+    "volunteer-contributions-fetch": "^1.0.1"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "ava": "^4.3.1",
-    "clean-css": "^5.3.1",
-    "eslint": "^8.22.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "nyc": "^15.1.0",
-    "sinon": "^14.0.0"
+    "clean-css": "^5.3.1"
   },
   "scripts": {
     "build": "eleventy",
-    "eslint": "eslint .",
     "fetch": "DEBUG=contributions* node fetch.js",
-    "start": "eleventy --serve",
-    "test": "nyc ava"
-  },
-  "nyc": {
-    "check-coverage": true,
-    "statements": 13,
-    "branches": 4,
-    "functions": 12,
-    "lines": 13,
-    "include": [
-      "lib/**/*.js"
-    ],
-    "all": true,
-    "reporter": [
-      "text-summary",
-      "lcov"
-    ]
-  },
-  "ava": {
-    "files": [
-      "lib/**/*.test.js"
-    ],
-    "timeout": "10s"
+    "start": "eleventy --serve"
   }
 }

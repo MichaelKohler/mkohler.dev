@@ -1,4 +1,4 @@
-const { fetchAll } = require('./lib/fetch');
+const { fetchAll } = require('volunteer-contributions-fetch');
 
 const config = {
   outputFile: `${__dirname}/_data/contributions.json`,
