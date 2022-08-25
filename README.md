@@ -18,6 +18,7 @@ Running the project
 To create a local webserver to serve the content of the repository run
 
 ```
+$ git submodule init && git submodule update
 $ npm start
 ```
 
