@@ -20,7 +20,7 @@ jobs:
     - name: Fetch
       run: npm run fetch
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PUBLIC_SCOPE_GH_TOKEN }}
     - name: Set Git Author
       run: git config --global user.name "github-actions[bot]"
     - name: Set Git Email
