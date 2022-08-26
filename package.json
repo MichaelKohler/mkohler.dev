@@ -8,7 +8,7 @@
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-brands-svg-icons": "^6.1.2",
     "@fortawesome/free-solid-svg-icons": "^6.1.2",
-    "volunteer-contributions-fetch": "^2.0.0"
+    "volunteer-contributions-fetch": "^2.1.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^1.0.2",
