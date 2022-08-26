@@ -7,4 +7,4 @@ jobs:
   call-fetch:
     uses: MichaelKohler/mkohler.dev/.github/workflows/fetch.yml@main
     secrets:
-        PUBLIC_SCOPE_GH_TOKEN: ${{ secrets.PUBLIC_SCOPE_GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.PUBLIC_SCOPE_GH_TOKEN }}
