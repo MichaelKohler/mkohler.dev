@@ -1,6 +1,13 @@
 [
   {
-    "createdAt": "2022-08-21T22:00:00.000Z",
+    "createdAt": "2022-08-26T08:16:04.000Z",
+    "description": "",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/171#pullrequestreview-1086586494",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-08-22T00:00:00.000Z",
     "description": "Firefox Nightly Foxfooding",
     "link": "https://community.mozilla.org/en/campaigns/firefox-nightly-foxfooding/",
     "type": "Participated in a campaign",
@@ -430,7 +437,6 @@
     "createdAt": "2022-04-25T09:14:53.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1242033",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -2138,7 +2144,6 @@
     "createdAt": "2021-11-13T10:26:28.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1239046",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -4249,7 +4254,7 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2021-09-12T22:00:00.000Z",
+    "createdAt": "2021-09-13T00:00:00.000Z",
     "description": "Foxfooding Focus for Android and iOS",
     "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
     "type": "Participated in a campaign",
@@ -6121,7 +6126,6 @@
     "createdAt": "2021-04-15T21:07:10.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1235022",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -6223,7 +6227,7 @@
     "source": "github-reviews"
   },
   {
-    "createdAt": "2021-04-11T22:00:00.000Z",
+    "createdAt": "2021-04-12T00:00:00.000Z",
     "description": "Firefox Foxfooding Campaign",
     "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
     "type": "Participated in a campaign",
@@ -8274,7 +8278,7 @@
     "source": "github-reviews"
   },
   {
-    "createdAt": "2020-11-09T23:00:00.000Z",
+    "createdAt": "2020-11-10T00:00:00.000Z",
     "description": "Unfck the Internet Campaign",
     "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
     "type": "Participated in a campaign",
@@ -8620,7 +8624,6 @@
     "createdAt": "2020-10-20T17:44:41.000Z",
     "description": "Edited Reps/SOPs/Planet",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Planet&diff=1231719",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -8676,7 +8679,6 @@
     "createdAt": "2020-10-15T20:48:57.000Z",
     "description": "Edited Reps/SOPs/Reports/Recruitment",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Reports/Recruitment&diff=1231614",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -8795,14 +8797,12 @@
     "createdAt": "2020-10-12T17:22:43.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1231520",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-10-12T17:22:10.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1231519",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -9096,14 +9096,12 @@
     "createdAt": "2020-10-05T17:37:57.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1231373",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-10-05T17:28:14.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1231372",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -9317,18 +9315,18 @@
     "source": "github-pr-created"
   },
   {
+    "createdAt": "2020-09-24T00:00:00.000Z",
+    "description": "Firefox Omnibus Foxfooding experiment",
+    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2020-09-23T22:21:33.000Z",
     "description": "",
     "link": "https://github.com/common-voice/common-voice/pull/2905#pullrequestreview-495089085",
     "type": "Approved a Pull Request",
     "source": "github-reviews"
-  },
-  {
-    "createdAt": "2020-09-23T22:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-09-23T08:50:48.733Z",
@@ -9404,49 +9402,42 @@
     "createdAt": "2020-09-20T13:46:25.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1230956",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-09-20T13:46:11.000Z",
     "description": "Edited Reps/SOPs/Swag Requests",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Swag_Requests&diff=1230955",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-09-20T13:44:55.000Z",
     "description": "Edited Reps/SOPs/Budget/Process",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget/Process&diff=1230954",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-09-20T13:03:10.000Z",
     "description": "Edited Reps/User Flow/Request Budget",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/User_Flow/Request_Budget&diff=1230953",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-09-20T12:59:01.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1230952",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-09-20T12:57:12.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Reassigning",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Reassigning&diff=1230951",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-09-20T12:54:40.000Z",
     "description": "Edited Reps/SOPs/Leaving",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Leaving&diff=1230950",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -9656,7 +9647,6 @@
     "createdAt": "2020-09-06T19:17:45.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1230663",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -10251,14 +10241,12 @@
     "createdAt": "2020-08-15T12:04:07.000Z",
     "description": "Edited Reps/Resources",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Resources&diff=1230114",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T12:01:51.000Z",
     "description": "Edited Reps/Resources",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Resources&diff=1230113",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -10279,168 +10267,144 @@
     "createdAt": "2020-08-15T11:33:44.000Z",
     "description": "Edited Reps/SOPs/Booth",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Booth&diff=1230112",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T11:31:39.000Z",
     "description": "Edited Reps/SOPs/Reports",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Reports&diff=1230111",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T11:30:51.000Z",
     "description": "Edited Reps/SOPs/Ordering Swag",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Ordering_Swag&diff=1230110",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T11:29:40.000Z",
     "description": "Edited Reps/SOPs/MozCoffee",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/MozCoffee&diff=1230109",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T11:27:37.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1230108",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T11:26:26.000Z",
     "description": "Edited Reps/SOPs/Mentoring",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring&diff=1230107",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T11:24:17.000Z",
     "description": "Edited Reps/SOPs/Event hosting",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Event_hosting&diff=1230106",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T11:20:28.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1230105",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:40:43.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1230104",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:39:46.000Z",
     "description": "Edited Reps/SOPs/Council onboarding",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Council_onboarding&diff=1230103",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:38:03.000Z",
     "description": "Edited Reps/Webinar",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar&diff=1230102",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:31:23.000Z",
     "description": "Edited Reps/SOPs/Planet",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Planet&diff=1230101",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:28:12.000Z",
     "description": "Edited Reps/SOPs/Editing Landing Page",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Editing_Landing_Page&diff=1230100",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:20:55.000Z",
     "description": "Edited Reps/SOPs/Attending an Event",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Attending_an_Event&diff=1230099",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:18:03.000Z",
     "description": "Edited Reps/Peers",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Peers&diff=1230098",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:15:05.000Z",
     "description": "Edited Reps/Material",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Material&diff=1230097",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:14:54.000Z",
     "description": "Edited Reps/Marketing",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Marketing&diff=1230096",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:12:35.000Z",
     "description": "Edited Reps/FAQ",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/FAQ&diff=1230095",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:11:31.000Z",
     "description": "Edited Reps/Events Calendar",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Events_Calendar&diff=1230094",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:10:55.000Z",
     "description": "Edited Reps/Events/orphans",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Events/orphans&diff=1230093",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:09:55.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1230092",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:04:15.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1230091",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:01:32.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1230090",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-08-15T10:00:11.000Z",
     "description": "Edited Reps/Coaching/Training",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching/Training&diff=1230089",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -10454,7 +10418,6 @@
     "createdAt": "2020-08-14T19:13:34.000Z",
     "description": "Edited Reps/Application Process/Selection Criteria",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Application_Process/Selection_Criteria&diff=1230080",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -10468,7 +10431,6 @@
     "createdAt": "2020-08-14T18:25:45.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1230079",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -11266,42 +11228,36 @@
     "createdAt": "2020-06-15T22:10:51.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1228156",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-06-15T22:07:24.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1228155",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-06-15T22:05:48.000Z",
     "description": "Edited Reps/SOPs/Council onboarding",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Council_onboarding&diff=1228154",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-06-15T22:04:05.000Z",
     "description": "Edited Reps/SOPs/CommunityIT",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/CommunityIT&diff=1228153",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-06-15T22:01:23.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1228152",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-06-15T21:59:10.000Z",
     "description": "Edited Reps/Tools and Resources/Workflow",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Tools_and_Resources/Workflow&diff=1228151",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -11753,7 +11709,7 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2020-05-21T22:00:00.000Z",
+    "createdAt": "2020-05-22T00:00:00.000Z",
     "description": "Common Voice Single Word Sprint",
     "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
     "type": "Participated in a campaign",
@@ -12561,14 +12517,12 @@
     "createdAt": "2020-04-23T15:16:41.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1226448",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-04-23T15:16:21.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1226447",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -12617,28 +12571,24 @@
     "createdAt": "2020-04-20T16:31:10.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1226313",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-04-20T12:15:46.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1226297",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-04-20T12:14:15.000Z",
     "description": "Edited WeeklyUpdates/2020-04-20",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2020-04-20&diff=1226296",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-04-20T12:12:39.000Z",
     "description": "Edited WeeklyUpdates/2020-04-20",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2020-04-20&diff=1226295",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -12778,14 +12728,12 @@
     "createdAt": "2020-04-14T16:35:24.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1226161",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-04-14T16:33:51.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1226160",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -13135,7 +13083,6 @@
     "createdAt": "2020-04-06T21:16:37.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1225966",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -13167,7 +13114,7 @@
     "source": "reps"
   },
   {
-    "createdAt": "2020-04-05T22:00:00.000Z",
+    "createdAt": "2020-04-06T00:00:00.000Z",
     "description": "Hunt from Home: Phase 1",
     "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
     "type": "Participated in a campaign",
@@ -13422,7 +13369,6 @@
     "createdAt": "2020-03-19T16:10:41.000Z",
     "description": "Edited Reps/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings&diff=1225248",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -13653,7 +13599,6 @@
     "createdAt": "2020-03-14T20:42:48.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1225106",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -13933,7 +13878,6 @@
     "createdAt": "2020-03-07T16:36:23.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1224791",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -14325,7 +14269,6 @@
     "createdAt": "2020-02-29T00:40:29.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1224378",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -14913,14 +14856,12 @@
     "createdAt": "2020-01-31T13:11:11.000Z",
     "description": "Edited Reps/Structure Governance",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Structure_Governance&diff=1223006",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2020-01-31T13:08:58.000Z",
     "description": "Edited Reps/Peers",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Peers&diff=1223005",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -17300,7 +17241,6 @@
     "createdAt": "2019-11-09T14:05:20.000Z",
     "description": "Edited Reps/SOPs/Council onboarding",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Council_onboarding&diff=1220050",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -17328,7 +17268,6 @@
     "createdAt": "2019-11-07T17:53:02.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1219962",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -17384,7 +17323,6 @@
     "createdAt": "2019-11-04T18:11:51.000Z",
     "description": "Edited Reps/Application Process/Selection Criteria",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Application_Process/Selection_Criteria&diff=1219817",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -17475,7 +17413,6 @@
     "createdAt": "2019-11-02T11:06:16.000Z",
     "description": "Edited Reps/Resources",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Resources&diff=1219774",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -18084,14 +18021,12 @@
     "createdAt": "2019-10-14T17:04:00.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1219024",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2019-10-14T17:03:28.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1219023",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -20310,28 +20245,24 @@
     "createdAt": "2019-05-05T13:53:37.000Z",
     "description": "Edited Modules/Mozilla Reps",
     "link": "https://wiki.mozilla.org/index.php?title=Modules/Mozilla_Reps&diff=1211739",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2019-05-05T13:50:33.000Z",
     "description": "Edited Reps/FAQ",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/FAQ&diff=1211738",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2019-05-05T13:44:06.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1211737",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2019-05-05T13:41:00.000Z",
     "description": "Edited Reps",
     "link": "https://wiki.mozilla.org/index.php?title=Reps&diff=1211736",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -20443,7 +20374,6 @@
     "createdAt": "2019-04-16T16:03:44.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1210758",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -20793,7 +20723,6 @@
     "createdAt": "2019-04-07T19:34:05.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1210126",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -21738,7 +21667,6 @@
     "createdAt": "2019-03-29T23:01:51.000Z",
     "description": "Edited Reps/Review Team",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Review_Team&diff=1209722",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -24636,14 +24564,12 @@
     "createdAt": "2019-01-07T18:30:25.000Z",
     "description": "Edited WeeklyUpdates/2019-01-07",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2019-01-07&diff=1205863",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2019-01-07T18:22:10.000Z",
     "description": "Edited WeeklyUpdates/2019-01-07",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2019-01-07&diff=1205861",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -24853,28 +24779,24 @@
     "createdAt": "2019-01-04T14:15:06.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1205744",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2019-01-04T14:12:47.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1205743",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2019-01-04T14:07:52.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1205742",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2019-01-04T14:06:55.000Z",
     "description": "Edited Reps/Application Process/Selection Criteria",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Application_Process/Selection_Criteria&diff=1205741",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -25497,14 +25419,12 @@
     "createdAt": "2018-12-15T16:49:27.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1205145",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-12-15T16:44:52.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1205144",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -25525,21 +25445,18 @@
     "createdAt": "2018-12-07T18:17:12.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1204870",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-12-04T20:30:45.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1204786",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-12-04T20:28:30.000Z",
     "description": "Edited File:V0.2 Reps Onboarding Diagram DrawIO Source.png",
     "link": "https://wiki.mozilla.org/index.php?title=File:V0.2_Reps_Onboarding_Diagram_DrawIO_Source.png&diff=1204783",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -25987,14 +25904,12 @@
     "createdAt": "2018-11-10T17:41:14.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1203679",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-11-10T17:38:58.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1203678",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -26288,7 +26203,6 @@
     "createdAt": "2018-10-30T13:55:32.000Z",
     "description": "Edited Telegram",
     "link": "https://wiki.mozilla.org/index.php?title=Telegram&diff=1203107",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -26309,7 +26223,6 @@
     "createdAt": "2018-10-26T15:09:58.000Z",
     "description": "Edited Modules/Mozilla Reps",
     "link": "https://wiki.mozilla.org/index.php?title=Modules/Mozilla_Reps&diff=1202943",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -26575,7 +26488,6 @@
     "createdAt": "2018-10-16T00:11:01.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1202413",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -26988,21 +26900,18 @@
     "createdAt": "2018-09-25T18:21:18.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1201558",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-09-25T18:18:24.000Z",
     "description": "Edited Reps/SOPs/Campaign video",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Campaign_video&diff=1201557",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-09-25T17:58:04.000Z",
     "description": "Edited Reps/Council/Elections/Questions",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections/Questions&diff=1201553",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -27079,7 +26988,6 @@
     "createdAt": "2018-09-20T13:45:38.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1201282",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -27282,7 +27190,6 @@
     "createdAt": "2018-09-05T11:19:29.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1200578",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -27800,14 +27707,12 @@
     "createdAt": "2018-08-26T15:53:15.000Z",
     "description": "Edited Reps/Peers",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Peers&diff=1200006",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-25T15:22:11.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1199982",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -27870,7 +27775,6 @@
     "createdAt": "2018-08-15T13:09:38.000Z",
     "description": "Edited Reps/Peers",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Peers&diff=1199544",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -27898,7 +27802,6 @@
     "createdAt": "2018-08-09T18:10:03.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1199234",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -27912,322 +27815,276 @@
     "createdAt": "2018-08-09T18:09:09.000Z",
     "description": "Edited Mozilla Reps",
     "link": "https://wiki.mozilla.org/index.php?title=Mozilla_Reps&diff=1199233",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:05:44.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1199232",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:05:32.000Z",
     "description": "Edited Reps/Meetings/Council-2015-09-30",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-09-30&diff=1199230",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:05:32.000Z",
     "description": "Edited ReMo/Meetings/Council-2015-09-30",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Meetings/Council-2015-09-30&diff=1199231",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:37.000Z",
     "description": "Edited ReMo/Website/Roadmap 2014",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Roadmap_2014&diff=1199229",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:37.000Z",
     "description": "Edited Reps/Website/Roadmap 2014",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Roadmap_2014&diff=1199228",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:28.000Z",
     "description": "Edited Reps/Website/Roadmap1",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Roadmap1&diff=1199226",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:28.000Z",
     "description": "Edited ReMo/Website/Roadmap1",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Roadmap1&diff=1199227",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:20.000Z",
     "description": "Edited Reps/Website/Releases/0.3",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Releases/0.3&diff=1199224",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:20.000Z",
     "description": "Edited ReMo/Website/Releases/0.3",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Releases/0.3&diff=1199225",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:10.000Z",
     "description": "Edited Reps/Website/Releases/0.2.5",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Releases/0.2.5&diff=1199222",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:10.000Z",
     "description": "Edited ReMo/Website/Releases/0.2.5",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Releases/0.2.5&diff=1199223",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:01.000Z",
     "description": "Edited Reps/Website/Releases/0.2",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Releases/0.2&diff=1199220",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:04:01.000Z",
     "description": "Edited ReMo/Website/Releases/0.2",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Releases/0.2&diff=1199221",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:53.000Z",
     "description": "Edited Reps/Website/Releases/0.1",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Releases/0.1&diff=1199218",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:53.000Z",
     "description": "Edited ReMo/Website/Releases/0.1",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Releases/0.1&diff=1199219",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:44.000Z",
     "description": "Edited Reps/Website/Ideas",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Ideas&diff=1199216",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:44.000Z",
     "description": "Edited ReMo/Website/Ideas",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Ideas&diff=1199217",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:36.000Z",
     "description": "Edited Reps/Website/Goals/2014",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Goals/2014&diff=1199214",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:36.000Z",
     "description": "Edited ReMo/Website/Goals/2014",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Goals/2014&diff=1199215",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:29.000Z",
     "description": "Edited Reps/Website/Goals/2013",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Goals/2013&diff=1199212",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:29.000Z",
     "description": "Edited ReMo/Website/Goals/2013",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Goals/2013&diff=1199213",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:21.000Z",
     "description": "Edited Reps/Website/Features/Reports",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Features/Reports&diff=1199210",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:21.000Z",
     "description": "Edited ReMo/Website/Features/Reports",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Features/Reports&diff=1199211",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:09.000Z",
     "description": "Edited Reps/Website/Features/Profile",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Features/Profile&diff=1199208",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:09.000Z",
     "description": "Edited ReMo/Website/Features/Profile",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Features/Profile&diff=1199209",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:02.000Z",
     "description": "Edited Reps/Website/Features/People page",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Features/People_page&diff=1199206",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:03:02.000Z",
     "description": "Edited ReMo/Website/Features/People page",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Features/People_page&diff=1199207",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:54.000Z",
     "description": "Edited Reps/Website/Features/Notifications",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Features/Notifications&diff=1199204",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:54.000Z",
     "description": "Edited ReMo/Website/Features/Notifications",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Features/Notifications&diff=1199205",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:46.000Z",
     "description": "Edited Reps/Website/Features/Main page",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Features/Main_page&diff=1199202",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:46.000Z",
     "description": "Edited ReMo/Website/Features/Main page",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Features/Main_page&diff=1199203",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:37.000Z",
     "description": "Edited Reps/Website/Features/Featured rep",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Features/Featured_rep&diff=1199200",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:37.000Z",
     "description": "Edited ReMo/Website/Features/Featured rep",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Features/Featured_rep&diff=1199201",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:29.000Z",
     "description": "Edited ReMo/Website/Features/Dashboard",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Features/Dashboard&diff=1199199",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:28.000Z",
     "description": "Edited Reps/Website/Features/Dashboard",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Features/Dashboard&diff=1199198",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:17.000Z",
     "description": "Edited Reps/Website/Features/Create account",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Website/Features/Create_account&diff=1199196",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:02:17.000Z",
     "description": "Edited ReMo/Website/Features/Create account",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Website/Features/Create_account&diff=1199197",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:01:30.000Z",
     "description": "Edited Reps/Structure Governance",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Structure_Governance&diff=1199192",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:01:30.000Z",
     "description": "Edited Reps/Structure Governance/Dismissal",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Structure_Governance/Dismissal&diff=1199194",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:01:30.000Z",
     "description": "Edited ReMo/Structure Governance",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Structure_Governance&diff=1199193",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:01:30.000Z",
     "description": "Edited ReMo/Structure Governance/Dismissal",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/Structure_Governance/Dismissal&diff=1199195",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:01:17.000Z",
     "description": "Edited Reps/SIGs/Evangelism Reps/Evangelism Reps Toolkit/Company Description",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SIGs/Evangelism_Reps/Evangelism_Reps_Toolkit/Company_Description&diff=1199190",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:01:17.000Z",
     "description": "Edited ReMo/SIGs/Evangelism Reps/Evangelism Reps Toolkit/Company Description",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/SIGs/Evangelism_Reps/Evangelism_Reps_Toolkit/Company_Description&diff=1199191",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:01:09.000Z",
     "description": "Edited Reps/SIGs/Evangelism Reps/Conference participation/Øredev",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SIGs/Evangelism_Reps/Conference_participation/%C3%98redev&diff=1199188",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-08-09T18:01:09.000Z",
     "description": "Edited ReMo/SIGs/Evangelism Reps/Conference participation/Øredev",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/SIGs/Evangelism_Reps/Conference_participation/%C3%98redev&diff=1199189",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -28360,14 +28217,12 @@
     "createdAt": "2018-07-29T10:46:22.000Z",
     "description": "Edited Reps/Peers",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Peers&diff=1198097",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-29T10:45:30.000Z",
     "description": "Edited Reps/Peers",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Peers&diff=1198096",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -28409,126 +28264,108 @@
     "createdAt": "2018-07-21T14:23:53.000Z",
     "description": "Edited Reps/Mailing list policy",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Mailing_list_policy&diff=1197687",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T14:23:11.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1197686",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T14:19:21.000Z",
     "description": "Edited Reps/SOPs/Mailing List Policy",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mailing_List_Policy&diff=1197685",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T14:15:41.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1197684",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T14:13:30.000Z",
     "description": "Edited Reps/SOPs/Mentoring Training",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring_Training&diff=1197683",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T14:11:51.000Z",
     "description": "Edited Reps/Mentors/SelectionProcess",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Mentors/SelectionProcess&diff=1197682",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T14:07:30.000Z",
     "description": "Edited Reps/SOPs/Budget",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget&diff=1197681",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T14:03:04.000Z",
     "description": "Edited Reps/SOPs/Swag",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Swag&diff=1197680",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T14:01:07.000Z",
     "description": "Edited Reps/SOPs",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs&diff=1197679",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:43:29.000Z",
     "description": "Edited Reps/SOPs/Swag Requests",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Swag_Requests&diff=1197678",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:42:01.000Z",
     "description": "Edited Reps/SOPs/Ordering Swag",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Ordering_Swag&diff=1197677",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:41:09.000Z",
     "description": "Edited Reps/SOPs/Ordering Swag",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Ordering_Swag&diff=1197676",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:39:34.000Z",
     "description": "Edited Reps/SOPs/Developer Engagement Events",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Developer_Engagement_Events&diff=1197675",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:38:40.000Z",
     "description": "Edited Reps/SOPs/Attending an Event",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Attending_an_Event&diff=1197674",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:37:38.000Z",
     "description": "Edited Reps/User Flow/Request Swag",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/User_Flow/Request_Swag&diff=1197673",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:33:44.000Z",
     "description": "Edited Reps/SOPs/Budget/Questions",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget/Questions&diff=1197672",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:32:13.000Z",
     "description": "Edited Reps/SOPs/Budget/Assessment-Criteria",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget/Assessment-Criteria&diff=1197671",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-21T13:31:47.000Z",
     "description": "Edited Reps/SOPs/Budget/Assessment-Criteria",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget/Assessment-Criteria&diff=1197670",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -28955,21 +28792,18 @@
     "createdAt": "2018-07-16T17:10:31.000Z",
     "description": "Edited Template:Remonav",
     "link": "https://wiki.mozilla.org/index.php?title=Template:Remonav&diff=1197321",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-16T17:06:45.000Z",
     "description": "Edited Websites/ReMo Mozilla Reps",
     "link": "https://wiki.mozilla.org/index.php?title=Websites/ReMo_Mozilla_Reps&diff=1197320",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-07-16T17:06:23.000Z",
     "description": "Edited File:MozRep-Final-Outline.png",
     "link": "https://wiki.mozilla.org/index.php?title=File:MozRep-Final-Outline.png&diff=1197319",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -32294,7 +32128,6 @@
     "createdAt": "2018-04-19T17:27:20.000Z",
     "description": "Edited Telegram",
     "link": "https://wiki.mozilla.org/index.php?title=Telegram&diff=1192547",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -32574,7 +32407,6 @@
     "createdAt": "2018-04-17T15:24:42.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1192452",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -34317,56 +34149,48 @@
     "createdAt": "2018-02-19T08:32:57.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1189149",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-02-19T04:07:19.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation/Call",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation/Call&diff=1189144",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-02-18T18:45:13.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1189142",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-02-18T18:44:44.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1189141",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-02-18T18:42:14.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation/Call",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation/Call&diff=1189140",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-02-18T18:34:07.000Z",
     "description": "Edited Reps/Webinar/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar/Communication&diff=1189139",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-02-18T18:34:01.000Z",
     "description": "Edited Reps/Webinar/Screening",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar/Screening&diff=1189138",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2018-02-18T18:31:51.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Screening",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Screening&diff=1189137",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -34583,7 +34407,6 @@
     "createdAt": "2018-02-07T09:16:45.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1188636",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -35360,7 +35183,6 @@
     "createdAt": "2017-12-14T23:03:46.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1185802",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -35458,14 +35280,12 @@
     "createdAt": "2017-11-16T22:28:15.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1184338",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-11-16T22:26:45.000Z",
     "description": "Edited Reps/Webinar/Screening",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar/Screening&diff=1184337",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -36655,7 +36475,6 @@
     "createdAt": "2017-10-23T19:48:59.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1182725",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -36865,7 +36684,6 @@
     "createdAt": "2017-10-13T08:56:54.000Z",
     "description": "Edited Reps/SOPs/Budget",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget&diff=1182178",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -39700,21 +39518,18 @@
     "createdAt": "2017-09-11T20:55:24.000Z",
     "description": "Edited Reps/Coaching/Practice Week",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching/Practice_Week&diff=1180241",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-09-11T20:53:41.000Z",
     "description": "Edited Reps/Coaching/Practice Week",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching/Practice_Week&diff=1180240",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-09-11T20:40:15.000Z",
     "description": "Edited Reps/Coaching/Training",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching/Training&diff=1180239",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -40176,14 +39991,12 @@
     "createdAt": "2017-08-30T17:40:28.000Z",
     "description": "Edited Reps/Coaching",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching&diff=1179622",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-08-30T17:39:19.000Z",
     "description": "Edited Reps/Coaching/Training",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching/Training&diff=1179621",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -41639,7 +41452,6 @@
     "createdAt": "2017-08-06T15:27:44.000Z",
     "description": "Edited Reps/Application Process/Selection Criteria",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Application_Process/Selection_Criteria&diff=1177455",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -41919,21 +41731,18 @@
     "createdAt": "2017-07-31T12:16:08.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1176911",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-07-31T12:15:07.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1176910",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-07-29T15:13:16.000Z",
     "description": "Edited Telegram",
     "link": "https://wiki.mozilla.org/index.php?title=Telegram&diff=1176852",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -41947,7 +41756,6 @@
     "createdAt": "2017-07-28T22:58:23.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1176831",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -41961,21 +41769,18 @@
     "createdAt": "2017-07-28T22:38:15.000Z",
     "description": "Edited Reps/Webinar",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar&diff=1176828",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-07-28T22:37:28.000Z",
     "description": "Edited Reps/Webinar",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar&diff=1176827",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-07-28T22:34:19.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1176826",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -42073,7 +41878,6 @@
     "createdAt": "2017-07-25T19:22:24.000Z",
     "description": "Edited Reps/Application Process/Selection Criteria",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Application_Process/Selection_Criteria&diff=1176482",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -42129,7 +41933,6 @@
     "createdAt": "2017-07-23T13:18:59.000Z",
     "description": "Edited Nightly",
     "link": "https://wiki.mozilla.org/index.php?title=Nightly&diff=1176326",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -42339,21 +42142,18 @@
     "createdAt": "2017-07-12T18:01:43.000Z",
     "description": "Edited Reps/Coaching/Training",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching/Training&diff=1175623",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-07-12T17:54:53.000Z",
     "description": "Edited Reps/Coaching",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching&diff=1175622",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-07-12T17:53:57.000Z",
     "description": "Edited Reps/Coaching",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Coaching&diff=1175621",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -42619,7 +42419,6 @@
     "createdAt": "2017-06-29T18:51:30.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1174781",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -42766,7 +42565,6 @@
     "createdAt": "2017-06-20T18:39:14.000Z",
     "description": "Edited Reps/Leadership",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Leadership&diff=1174258",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -42780,7 +42578,6 @@
     "createdAt": "2017-06-20T18:34:38.000Z",
     "description": "Edited Reps/Leadership",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Leadership&diff=1174255",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -43116,7 +42913,6 @@
     "createdAt": "2017-06-07T16:01:17.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1172912",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -43760,21 +43556,18 @@
     "createdAt": "2017-05-15T15:54:55.000Z",
     "description": "Edited Reps/Goals",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Goals&diff=1171121",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-15T15:50:48.000Z",
     "description": "Edited Reps/Resources/Budget Allocation",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Resources/Budget_Allocation&diff=1171120",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-15T15:48:09.000Z",
     "description": "Edited Reps/Resources",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Resources&diff=1171119",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -43788,28 +43581,24 @@
     "createdAt": "2017-05-15T07:25:10.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1171098",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-15T07:24:55.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Screening",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Screening&diff=1171097",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-15T07:18:15.000Z",
     "description": "Edited Reps/SOPs/Mentoring/Orientation",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Mentoring/Orientation&diff=1171095",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-15T07:12:58.000Z",
     "description": "Edited Reps/Application Process/Selection Criteria",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Application_Process/Selection_Criteria&diff=1171094",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -43921,49 +43710,42 @@
     "createdAt": "2017-05-12T12:55:47.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1171043",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-12T12:52:51.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1171042",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-12T12:49:21.000Z",
     "description": "Edited ReMo/User Flow/Join ReMo",
     "link": "https://wiki.mozilla.org/index.php?title=ReMo/User_Flow/Join_ReMo&diff=1171040",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-12T12:48:22.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1171039",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-12T12:41:43.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1171037",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-12T12:37:47.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1171034",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-05-11T14:00:46.000Z",
     "description": "Edited Reps/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings&diff=1170972",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -44271,14 +44053,12 @@
     "createdAt": "2017-04-25T20:40:25.000Z",
     "description": "Edited Reps/Webinar/2017-04-25",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar/2017-04-25&diff=1169360",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-04-25T20:27:13.000Z",
     "description": "Edited Reps/Webinar",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar&diff=1169357",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -44712,7 +44492,6 @@
     "createdAt": "2017-04-07T20:20:47.000Z",
     "description": "Edited Reps/Goals",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Goals&diff=1167800",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -44782,7 +44561,6 @@
     "createdAt": "2017-04-05T00:05:37.000Z",
     "description": "Edited Reps/Webinar/2017-04-04",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar/2017-04-04&diff=1167572",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -44838,35 +44616,30 @@
     "createdAt": "2017-04-04T17:04:08.000Z",
     "description": "Edited Reps/Webinar/2017-04-04",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar/2017-04-04&diff=1167533",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-04-04T16:29:30.000Z",
     "description": "Edited Reps/Webinar",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar&diff=1167523",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-04-04T16:21:48.000Z",
     "description": "Edited Reps/Webinar",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar&diff=1167522",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-04-04T16:17:33.000Z",
     "description": "Edited Reps/Webinar",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Webinar&diff=1167521",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-04-04T16:17:14.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1167520",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -44908,21 +44681,18 @@
     "createdAt": "2017-03-30T18:26:33.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1167163",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-03-30T18:17:32.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1167161",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-03-30T18:08:42.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1167159",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -45111,14 +44881,12 @@
     "createdAt": "2017-03-22T21:20:52.000Z",
     "description": "Edited Reps/SOPs",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs&diff=1166432",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-03-22T21:04:17.000Z",
     "description": "Edited Reps/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings&diff=1166431",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -45209,7 +44977,6 @@
     "createdAt": "2017-03-21T12:25:51.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1166288",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -45839,7 +45606,6 @@
     "createdAt": "2017-03-14T23:02:48.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1165718",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -46021,14 +45787,12 @@
     "createdAt": "2017-03-07T12:45:44.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1164877",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-03-07T12:44:38.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1164875",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -47050,35 +46814,30 @@
     "createdAt": "2017-02-16T17:35:29.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1163102",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-02-16T17:08:18.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1163100",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-02-16T17:05:47.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1163099",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-02-16T17:03:48.000Z",
     "description": "Edited File:966412cc-d900-11e6-80a4-16974c1c36c3.png",
     "link": "https://wiki.mozilla.org/index.php?title=File:966412cc-d900-11e6-80a4-16974c1c36c3.png&diff=1163098",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-02-16T16:47:36.000Z",
     "description": "Edited Reps/Application Process",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Application_Process&diff=1163097",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -47176,7 +46935,6 @@
     "createdAt": "2017-02-14T14:23:04.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1162891",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -47246,7 +47004,6 @@
     "createdAt": "2017-02-02T22:29:58.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1161763",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -47288,7 +47045,6 @@
     "createdAt": "2017-01-31T21:52:28.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1161563",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -47344,7 +47100,6 @@
     "createdAt": "2017-01-30T11:48:50.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1161338",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -47701,7 +47456,6 @@
     "createdAt": "2017-01-20T14:25:32.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1160151",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -47722,42 +47476,36 @@
     "createdAt": "2017-01-20T11:55:15.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1160132",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-01-20T11:54:43.000Z",
     "description": "Edited Reps",
     "link": "https://wiki.mozilla.org/index.php?title=Reps&diff=1160131",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-01-20T11:36:28.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1160129",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-01-20T11:32:53.000Z",
     "description": "Edited Reps/Communication",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1160128",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-01-20T10:38:05.000Z",
     "description": "Edited Reps/Council/Rep of the month",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Rep_of_the_month&diff=1160119",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2017-01-20T10:37:17.000Z",
     "description": "Edited Reps/Rep of the Month",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Rep_of_the_Month&diff=1160118",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -48506,14 +48254,12 @@
     "createdAt": "2016-12-29T13:02:40.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1158148",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-12-29T12:48:29.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1158109",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -48583,7 +48329,6 @@
     "createdAt": "2016-12-28T12:34:29.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1158025",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -48898,7 +48643,6 @@
     "createdAt": "2016-11-10T00:11:10.000Z",
     "description": "Edited Reps/SOPs/Budget/Petty Cash",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget/Petty_Cash&diff=1154195",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -49381,14 +49125,12 @@
     "createdAt": "2016-10-06T11:20:23.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1150438",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-10-06T11:09:37.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1150437",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -49437,14 +49179,12 @@
     "createdAt": "2016-10-04T10:16:08.000Z",
     "description": "Edited Reps/SOPs/Budget",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget&diff=1150070",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-10-04T10:13:39.000Z",
     "description": "Edited Reps/SOPs/Budget/Process",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget/Process&diff=1150069",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -49668,7 +49408,6 @@
     "createdAt": "2016-09-07T18:28:00.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1147034",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -49836,7 +49575,6 @@
     "createdAt": "2016-08-22T22:16:32.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1144960",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -50032,7 +49770,6 @@
     "createdAt": "2016-07-19T22:23:46.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1140363",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -50340,14 +50077,12 @@
     "createdAt": "2016-06-16T15:02:04.000Z",
     "description": "Edited ParticipationSystems/RepsPortal",
     "link": "https://wiki.mozilla.org/index.php?title=ParticipationSystems/RepsPortal&diff=1137080",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-06-16T15:01:26.000Z",
     "description": "Edited ParticipationSystems",
     "link": "https://wiki.mozilla.org/index.php?title=ParticipationSystems&diff=1137079",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -50431,7 +50166,6 @@
     "createdAt": "2016-06-01T17:51:46.000Z",
     "description": "Edited Reps/Goals",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Goals&diff=1135342",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -50599,7 +50333,6 @@
     "createdAt": "2016-05-23T19:34:45.000Z",
     "description": "Edited GitHub",
     "link": "https://wiki.mozilla.org/index.php?title=GitHub&diff=1133918",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -50690,14 +50423,12 @@
     "createdAt": "2016-05-21T16:39:44.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1133678",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-05-21T16:38:18.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1133677",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -50711,21 +50442,18 @@
     "createdAt": "2016-05-21T12:28:51.000Z",
     "description": "Edited Reps/Council/History",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/History&diff=1133664",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-05-21T12:22:00.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1133663",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-05-21T12:20:32.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1133662",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -50746,7 +50474,6 @@
     "createdAt": "2016-05-20T20:20:32.000Z",
     "description": "Edited Reps/SOPs/Event hosting",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Event_hosting&diff=1133593",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -50851,7 +50578,6 @@
     "createdAt": "2016-05-17T18:44:42.000Z",
     "description": "Edited Reps/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings&diff=1133041",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -52377,7 +52103,6 @@
     "createdAt": "2016-04-27T13:19:52.000Z",
     "description": "Edited IRC",
     "link": "https://wiki.mozilla.org/index.php?title=IRC&diff=1129630",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -52412,42 +52137,36 @@
     "createdAt": "2016-04-27T02:29:42.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1129581",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-04-27T01:41:02.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1129577",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-04-27T01:19:41.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1129575",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-04-27T01:15:02.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1129574",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-04-27T01:14:31.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1129573",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-04-27T00:22:09.000Z",
     "description": "Edited Reps/Cleanup",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Cleanup&diff=1129571",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -52475,7 +52194,6 @@
     "createdAt": "2016-04-24T19:33:30.000Z",
     "description": "Edited WeeklyUpdates/2016-04-25",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2016-04-25&diff=1129111",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -52587,7 +52305,6 @@
     "createdAt": "2016-04-23T19:49:38.000Z",
     "description": "Edited Switzerland/Events",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland/Events&diff=1129073",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -52657,7 +52374,6 @@
     "createdAt": "2016-04-18T12:56:03.000Z",
     "description": "Edited Switzerland/Events",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland/Events&diff=1128102",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -52909,7 +52625,6 @@
     "createdAt": "2016-04-02T16:28:21.000Z",
     "description": "Edited Switzerland/Events",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland/Events&diff=1125722",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -52958,14 +52673,12 @@
     "createdAt": "2016-04-02T07:09:25.000Z",
     "description": "Edited Switzerland/Events",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland/Events&diff=1125714",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-04-02T07:05:43.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1125713",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -53161,7 +52874,6 @@
     "createdAt": "2016-03-19T00:05:49.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1122986",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -53175,7 +52887,6 @@
     "createdAt": "2016-03-18T23:59:51.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1122985",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -53700,7 +53411,6 @@
     "createdAt": "2016-03-02T18:47:25.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1119621",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -53735,77 +53445,66 @@
     "createdAt": "2016-02-28T18:13:23.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1119035",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T16:14:51.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1119032",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T15:57:17.000Z",
     "description": "Edited CH",
     "link": "https://wiki.mozilla.org/index.php?title=CH&diff=1119031",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T15:54:58.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1119029",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T15:53:07.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1119028",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T15:28:46.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1119026",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T15:17:38.000Z",
     "description": "Edited Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1119025",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T15:15:09.000Z",
     "description": "Edited File:Mozillach white avatar.png",
     "link": "https://wiki.mozilla.org/index.php?title=File:Mozillach_white_avatar.png&diff=1119024",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T15:09:38.000Z",
     "description": "Edited File:Mozillach white avatar.png",
     "link": "https://wiki.mozilla.org/index.php?title=File:Mozillach_white_avatar.png&diff=1119023",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T14:59:47.000Z",
     "description": "Edited File:Mozillach white avatar.png",
     "link": "https://wiki.mozilla.org/index.php?title=File:Mozillach_white_avatar.png&diff=1119022",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2016-02-28T14:56:12.000Z",
     "description": "Edited File:MozillaCH Avatar.jpg",
     "link": "https://wiki.mozilla.org/index.php?title=File:MozillaCH_Avatar.jpg&diff=1119020",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -54442,7 +54141,6 @@
     "createdAt": "2016-01-06T23:11:37.000Z",
     "description": "Edited Reps/Meetings/Council-2015-12-23",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-12-23&diff=1111666",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -54512,35 +54210,30 @@
     "createdAt": "2015-12-22T15:29:30.000Z",
     "description": "Edited Reps/SOPs/Council onboarding",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Council_onboarding&diff=1110329",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-12-22T15:25:24.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1110326",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-12-22T07:20:28.000Z",
     "description": "Edited CH",
     "link": "https://wiki.mozilla.org/index.php?title=CH&diff=1110274",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-12-22T07:18:47.000Z",
     "description": "Edited CH",
     "link": "https://wiki.mozilla.org/index.php?title=CH&diff=1110272",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-12-22T07:11:34.000Z",
     "description": "Edited File:Mozillach.png",
     "link": "https://wiki.mozilla.org/index.php?title=File:Mozillach.png&diff=1110268",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -54659,7 +54352,6 @@
     "createdAt": "2015-12-02T18:00:49.000Z",
     "description": "Edited De/2016",
     "link": "https://wiki.mozilla.org/index.php?title=De/2016&diff=1108141",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -54813,7 +54505,6 @@
     "createdAt": "2015-11-18T21:56:47.000Z",
     "description": "Edited Reps/Meetings/Council-2015-11-11",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-11-11&diff=1106333",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -54890,7 +54581,6 @@
     "createdAt": "2015-11-12T13:59:45.000Z",
     "description": "Edited Reps/Meetings/Council-2015-11-04",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-11-04&diff=1105394",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -55149,42 +54839,36 @@
     "createdAt": "2015-10-28T21:18:03.000Z",
     "description": "Edited Reps/SOPs/Budget/Accouting-Rules",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget/Accouting-Rules&diff=1103099",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-28T21:16:37.000Z",
     "description": "Edited Reps/SOPs/Budget",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget&diff=1103097",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-28T21:15:09.000Z",
     "description": "Edited Reps/SOPs/Budget",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget&diff=1103096",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-28T21:12:31.000Z",
     "description": "Edited Reps/SOPs/Budget",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget&diff=1103095",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-28T21:02:15.000Z",
     "description": "Edited Reps/SOPs/Budget",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget&diff=1103090",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-28T20:49:44.000Z",
     "description": "Edited Reps/SOPs/Budget/Questions",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Budget/Questions&diff=1103082",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -55261,14 +54945,12 @@
     "createdAt": "2015-10-22T19:39:07.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1101933",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-22T19:37:40.000Z",
     "description": "Edited De/Meetings/2015-10-22",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-10-22&diff=1101931",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -55681,14 +55363,12 @@
     "createdAt": "2015-10-08T19:26:51.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1099815",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-08T19:23:25.000Z",
     "description": "Edited De/Meetings/2015-10-08",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-10-08&diff=1099814",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -55730,28 +55410,24 @@
     "createdAt": "2015-10-07T19:59:54.000Z",
     "description": "Edited Reps/Meetings/Council-2015-09-30",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-09-30&diff=1099617",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-07T14:37:07.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1099538",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-07T14:36:33.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1099537",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-10-07T09:52:52.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1099503",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -55807,7 +55483,6 @@
     "createdAt": "2015-10-03T11:19:01.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1099030",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -55828,7 +55503,6 @@
     "createdAt": "2015-09-30T18:18:22.000Z",
     "description": "Edited Reps/Meetings/Council-2015-09-23",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-09-23&diff=1098603",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -55926,21 +55600,18 @@
     "createdAt": "2015-09-24T19:53:48.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1097452",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-09-24T19:52:39.000Z",
     "description": "Edited De/Meetings/2015-09-24",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-09-24&diff=1097451",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-09-24T19:47:41.000Z",
     "description": "Edited De/Meetings/2015-09-24",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-09-24&diff=1097448",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -55989,28 +55660,24 @@
     "createdAt": "2015-09-21T17:26:56.000Z",
     "description": "Edited Reps/Meetings/Council-2015-09-16",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-09-16&diff=1096374",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-09-21T17:09:16.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1096361",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-09-21T17:08:58.000Z",
     "description": "Edited De/Meetings/2015-09-10",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-09-10&diff=1096360",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-09-21T17:04:32.000Z",
     "description": "Edited De/Meetings/2015-09-10",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-09-10&diff=1096357",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56073,7 +55740,6 @@
     "createdAt": "2015-09-16T19:11:44.000Z",
     "description": "Edited Reps/Meetings/Council-2015-09-09",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-09-09&diff=1095686",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56122,21 +55788,18 @@
     "createdAt": "2015-09-15T22:58:07.000Z",
     "description": "Edited Firefox/2015",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/2015&diff=1095486",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-09-15T22:52:41.000Z",
     "description": "Edited Firefox/2015",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/2015&diff=1095485",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-09-15T22:45:28.000Z",
     "description": "Edited Firefox/2015",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/2015&diff=1095484",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56220,7 +55883,6 @@
     "createdAt": "2015-09-07T08:53:17.000Z",
     "description": "Edited Reps/Meetings/Council-2015-09-02",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-09-02&diff=1093964",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56458,7 +56120,6 @@
     "createdAt": "2015-08-30T19:36:38.000Z",
     "description": "Edited Reps/Meetings/Council-2015-08-26",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-08-26&diff=1092796",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56472,21 +56133,18 @@
     "createdAt": "2015-08-30T11:03:10.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1092788",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-30T11:02:29.000Z",
     "description": "Edited De/Meetings/2015-08-27",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-08-27&diff=1092787",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-30T10:58:06.000Z",
     "description": "Edited De/Meetings/2015-08-27",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-08-27&diff=1092786",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56500,14 +56158,12 @@
     "createdAt": "2015-08-28T00:42:43.000Z",
     "description": "Edited WeeklyUpdates/2015-08-31",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2015-08-31&diff=1092408",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-28T00:39:46.000Z",
     "description": "Edited WeeklyUpdates/2015-08-31",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2015-08-31&diff=1092407",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56570,7 +56226,6 @@
     "createdAt": "2015-08-23T21:58:58.000Z",
     "description": "Edited Reps/Meetings/Council-2015-08-19",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-08-19&diff=1091430",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56668,42 +56323,36 @@
     "createdAt": "2015-08-16T20:42:05.000Z",
     "description": "Edited Reps/Meetings/Council-2015-08-12",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-08-12&diff=1090384",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-15T12:26:40.000Z",
     "description": "Edited Community Calendar",
     "link": "https://wiki.mozilla.org/index.php?title=Community_Calendar&diff=1090342",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-15T12:26:09.000Z",
     "description": "Edited Community Calendar",
     "link": "https://wiki.mozilla.org/index.php?title=Community_Calendar&diff=1090341",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-15T12:25:33.000Z",
     "description": "Edited Community Calendar",
     "link": "https://wiki.mozilla.org/index.php?title=Community_Calendar&diff=1090340",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-14T18:56:00.000Z",
     "description": "Edited De/Meetings/2015-08-13",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-08-13&diff=1090269",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-14T18:54:27.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1090268",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56717,14 +56366,12 @@
     "createdAt": "2015-08-13T19:29:38.000Z",
     "description": "Edited De/Meetings/2015-08-13",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-08-13&diff=1090112",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-13T19:27:01.000Z",
     "description": "Edited De/Meetings/2015-08-13",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-08-13&diff=1090111",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56801,7 +56448,6 @@
     "createdAt": "2015-08-09T17:10:30.000Z",
     "description": "Edited Reps/Meetings/Council-2015-08-05",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-08-05&diff=1089092",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56815,28 +56461,24 @@
     "createdAt": "2015-08-09T16:42:07.000Z",
     "description": "Edited Reps/Meetings/Council-2015-07-29",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-07-29&diff=1089091",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-09T16:35:04.000Z",
     "description": "Edited Reps/Meetings/Council-2015-07-22",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-07-22&diff=1089090",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-09T16:18:18.000Z",
     "description": "Edited Reps/Meetings/Council-2015-07-15",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-07-15&diff=1089089",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-09T16:15:53.000Z",
     "description": "Edited Reps/Meetings/Council-2015-07-08",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-07-08&diff=1089088",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56885,28 +56527,24 @@
     "createdAt": "2015-08-07T19:41:43.000Z",
     "description": "Edited Reps/Meetings/Council-2015-07-01",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-07-01&diff=1088959",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-07T19:36:42.000Z",
     "description": "Edited Reps/Meetings/Council-2015-07-01",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-07-01&diff=1088958",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-07T19:33:35.000Z",
     "description": "Edited Reps/Meetings/Council-2015-07-01",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Meetings/Council-2015-07-01&diff=1088957",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-08-07T19:19:41.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1088953",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -56997,7 +56635,6 @@
     "createdAt": "2015-08-01T16:06:31.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1087810",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -57011,14 +56648,12 @@
     "createdAt": "2015-07-31T18:39:10.000Z",
     "description": "Edited De/Meetings/2015-07-30",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-07-30&diff=1087717",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-07-31T18:32:10.000Z",
     "description": "Edited De/Meetings/2015-07-30",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-07-30&diff=1087716",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -57109,7 +56744,6 @@
     "createdAt": "2015-07-19T14:55:20.000Z",
     "description": "Edited De",
     "link": "https://wiki.mozilla.org/index.php?title=De&diff=1085575",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -57144,21 +56778,18 @@
     "createdAt": "2015-07-17T08:29:52.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1085310",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-07-17T08:27:17.000Z",
     "description": "Edited De/Meetings/2015-07-16",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-07-16&diff=1085309",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-07-17T08:23:53.000Z",
     "description": "Edited De/Meetings/2015-07-16",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-07-16&diff=1085308",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -57326,21 +56957,18 @@
     "createdAt": "2015-07-03T08:29:59.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1082902",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-07-03T08:27:19.000Z",
     "description": "Edited De/Meetings/2015-07-02",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-07-02&diff=1082900",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-07-02T19:50:44.000Z",
     "description": "Edited De/Meetings/2015-07-02",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-07-02&diff=1082789",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -57354,7 +56982,6 @@
     "createdAt": "2015-07-02T11:23:58.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1082635",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -57382,7 +57009,6 @@
     "createdAt": "2015-07-01T13:56:35.000Z",
     "description": "Edited Reps/Council",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1082329",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -57970,21 +57596,18 @@
     "createdAt": "2015-05-21T19:49:53.000Z",
     "description": "Edited De/Meetings/2015-05-21",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-05-21&diff=1075835",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-05-21T19:42:37.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1075834",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-05-21T19:40:35.000Z",
     "description": "Edited De/Meetings/2015-05-21",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-05-21&diff=1075833",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -58068,14 +57691,12 @@
     "createdAt": "2015-05-20T17:36:07.000Z",
     "description": "Edited Reps/SOPs/Council onboarding",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Council_onboarding&diff=1075566",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-05-20T17:34:33.000Z",
     "description": "Edited Reps/SOPs/Council onboarding",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Council_onboarding&diff=1075565",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -58243,7 +57864,6 @@
     "createdAt": "2015-05-08T05:45:05.000Z",
     "description": "Edited De/Meetings/2015-05-07",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-05-07&diff=1073393",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -58257,28 +57877,24 @@
     "createdAt": "2015-05-07T21:12:06.000Z",
     "description": "Edited De/Meetings/2015-05-07-FSA",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-05-07-FSA&diff=1073355",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-05-07T20:54:32.000Z",
     "description": "Edited De/Meetings/2015-05-07-FSA",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-05-07-FSA&diff=1073354",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-05-07T19:42:54.000Z",
     "description": "Edited De/Meetings/2015-05-07",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-05-07&diff=1073342",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-05-07T19:42:19.000Z",
     "description": "Edited De/Meetings/2015-05-07",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-05-07&diff=1073341",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -58390,7 +58006,6 @@
     "createdAt": "2015-05-04T16:29:06.000Z",
     "description": "Edited WeeklyUpdates/2015-05-04",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2015-05-04&diff=1071991",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -58551,14 +58166,12 @@
     "createdAt": "2015-04-23T20:19:18.000Z",
     "description": "Edited De/Meetings/2015-04-23",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-04-23&diff=1070043",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-04-23T20:15:55.000Z",
     "description": "Edited De/Meetings/2015-04-23",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings/2015-04-23&diff=1070042",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -58663,14 +58276,12 @@
     "createdAt": "2015-04-13T18:39:47.000Z",
     "description": "Edited L10n:Teams:de",
     "link": "https://wiki.mozilla.org/index.php?title=L10n:Teams:de&diff=1067938",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-04-13T18:39:18.000Z",
     "description": "Edited L10n:Teams:de/Dokumentation",
     "link": "https://wiki.mozilla.org/index.php?title=L10n:Teams:de/Dokumentation&diff=1067937",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -58684,21 +58295,18 @@
     "createdAt": "2015-04-09T21:30:29.000Z",
     "description": "Edited User:Michaelkohler",
     "link": "https://wiki.mozilla.org/index.php?title=User:Michaelkohler&diff=1067365",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-04-09T21:30:05.000Z",
     "description": "Edited User:Michaelkohler",
     "link": "https://wiki.mozilla.org/index.php?title=User:Michaelkohler&diff=1067364",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-04-09T21:28:26.000Z",
     "description": "Edited De/Meetings",
     "link": "https://wiki.mozilla.org/index.php?title=De/Meetings&diff=1067363",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59279,7 +58887,6 @@
     "createdAt": "2015-03-23T15:51:43.000Z",
     "description": "Edited Tiles/Community Involvement",
     "link": "https://wiki.mozilla.org/index.php?title=Tiles/Community_Involvement&diff=1063780",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59426,14 +59033,12 @@
     "createdAt": "2015-02-26T00:55:56.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1058399",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-26T00:54:42.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1058398",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59468,7 +59073,6 @@
     "createdAt": "2015-02-21T15:33:35.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1057356",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59489,21 +59093,18 @@
     "createdAt": "2015-02-20T15:40:12.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1057210",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-20T14:52:24.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1057205",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-20T14:49:46.000Z",
     "description": "Edited De:Meeting:2015/TODO",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015/TODO&diff=1057204",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59517,7 +59118,6 @@
     "createdAt": "2015-02-18T14:29:54.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1056637",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59629,42 +59229,36 @@
     "createdAt": "2015-02-11T22:35:36.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1055573",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-11T21:20:31.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1055564",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-11T20:36:23.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1055561",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-11T19:51:08.000Z",
     "description": "Edited De:CommunityTile",
     "link": "https://wiki.mozilla.org/index.php?title=De:CommunityTile&diff=1055551",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-11T19:50:39.000Z",
     "description": "Edited De:CommunityTile/VorschlagD",
     "link": "https://wiki.mozilla.org/index.php?title=De:CommunityTile/VorschlagD&diff=1055550",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-11T19:41:54.000Z",
     "description": "Edited De:CommunityTile/VorschlagC",
     "link": "https://wiki.mozilla.org/index.php?title=De:CommunityTile/VorschlagC&diff=1055548",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59699,35 +59293,30 @@
     "createdAt": "2015-02-08T18:32:36.000Z",
     "description": "Edited De:CommunityTile/VorschlagB",
     "link": "https://wiki.mozilla.org/index.php?title=De:CommunityTile/VorschlagB&diff=1054564",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-08T17:42:42.000Z",
     "description": "Edited De:CommunityTile",
     "link": "https://wiki.mozilla.org/index.php?title=De:CommunityTile&diff=1054562",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-08T17:40:04.000Z",
     "description": "Edited De:CommunityTile/VorschlagB",
     "link": "https://wiki.mozilla.org/index.php?title=De:CommunityTile/VorschlagB&diff=1054561",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-08T17:29:12.000Z",
     "description": "Edited De:CommunityTile/VorschlagA",
     "link": "https://wiki.mozilla.org/index.php?title=De:CommunityTile/VorschlagA&diff=1054560",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-02-08T17:16:44.000Z",
     "description": "Edited De:CommunityTile",
     "link": "https://wiki.mozilla.org/index.php?title=De:CommunityTile&diff=1054559",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59762,7 +59351,6 @@
     "createdAt": "2015-02-04T20:49:23.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1053725",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59797,7 +59385,6 @@
     "createdAt": "2015-01-26T17:13:35.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1050400",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59874,56 +59461,48 @@
     "createdAt": "2015-01-21T23:27:11.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1049637",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-21T23:09:15.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1049633",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-21T23:02:03.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1049631",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-21T22:58:23.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1049630",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-21T22:56:40.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1049629",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-21T22:00:02.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1049615",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-21T21:59:10.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1049614",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-21T21:52:12.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1049609",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -59986,21 +59565,18 @@
     "createdAt": "2015-01-17T10:32:20.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1048569",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-17T10:31:46.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1048568",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-17T10:30:49.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1048567",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60077,14 +59653,12 @@
     "createdAt": "2015-01-07T22:54:27.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1045619",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2015-01-07T22:53:18.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1045618",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60112,7 +59686,6 @@
     "createdAt": "2015-01-06T20:16:25.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1045221",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60161,7 +59734,6 @@
     "createdAt": "2014-12-26T11:51:07.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1044074",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60189,56 +59761,48 @@
     "createdAt": "2014-12-21T12:38:28.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1043316",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-12-21T12:11:05.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1043315",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-12-21T12:01:42.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1043314",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-12-21T12:01:15.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1043313",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-12-21T11:56:06.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1043312",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-12-21T11:48:31.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1043310",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-12-21T11:45:33.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1043309",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-12-19T12:25:02.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1043068",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60287,14 +59851,12 @@
     "createdAt": "2014-12-12T11:36:19.000Z",
     "description": "Edited De/Firefox OS Promotion Cologne 2014",
     "link": "https://wiki.mozilla.org/index.php?title=De/Firefox_OS_Promotion_Cologne_2014&diff=1040357",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-12-12T11:35:42.000Z",
     "description": "Edited De/Firefox OS Promotion Cologne 2014",
     "link": "https://wiki.mozilla.org/index.php?title=De/Firefox_OS_Promotion_Cologne_2014&diff=1040356",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60329,7 +59891,6 @@
     "createdAt": "2014-12-09T21:18:01.000Z",
     "description": "Edited De/Firefox OS Promotion Cologne 2014",
     "link": "https://wiki.mozilla.org/index.php?title=De/Firefox_OS_Promotion_Cologne_2014&diff=1039710",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60399,7 +59960,6 @@
     "createdAt": "2014-12-03T14:16:02.000Z",
     "description": "Edited De/Firefox OS Promotion Cologne 2014",
     "link": "https://wiki.mozilla.org/index.php?title=De/Firefox_OS_Promotion_Cologne_2014&diff=1038390",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60462,91 +60022,78 @@
     "createdAt": "2014-11-27T11:54:02.000Z",
     "description": "Edited De/Firefox OS Promotion Cologne 2014",
     "link": "https://wiki.mozilla.org/index.php?title=De/Firefox_OS_Promotion_Cologne_2014&diff=1037447",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-27T10:18:34.000Z",
     "description": "Edited De/Firefox OS Promotion Cologne 2014",
     "link": "https://wiki.mozilla.org/index.php?title=De/Firefox_OS_Promotion_Cologne_2014&diff=1037414",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-27T10:11:27.000Z",
     "description": "Edited De",
     "link": "https://wiki.mozilla.org/index.php?title=De&diff=1037410",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-27T10:00:45.000Z",
     "description": "Edited De/Firefox OS Promotion Cologne 2014",
     "link": "https://wiki.mozilla.org/index.php?title=De/Firefox_OS_Promotion_Cologne_2014&diff=1037409",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-27T09:53:25.000Z",
     "description": "Edited De",
     "link": "https://wiki.mozilla.org/index.php?title=De&diff=1037405",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-27T00:18:00.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1037319",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-27T00:10:59.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1037317",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-27T00:10:26.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1037316",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-25T21:59:33.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1036786",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-25T21:58:55.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1036785",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-25T21:54:11.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1036782",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-25T21:53:44.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1036781",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-25T21:41:22.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1036776",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60609,14 +60156,12 @@
     "createdAt": "2014-11-16T00:39:40.000Z",
     "description": "Edited WeeklyUpdates/2014-11-17",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2014-11-17&diff=1033893",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-16T00:37:29.000Z",
     "description": "Edited WeeklyUpdates/2014-11-17",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2014-11-17&diff=1033892",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -60672,28 +60217,24 @@
     "createdAt": "2014-11-10T14:07:32.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1032004",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-10T13:36:32.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1031997",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-10T12:55:56.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1031994",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-10T11:06:59.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1031975",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -61575,35 +61116,30 @@
     "createdAt": "2014-11-04T21:16:34.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1030659",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-04T21:12:47.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1030655",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-04T17:15:26.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1030573",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-03T16:50:42.000Z",
     "description": "Edited WeeklyUpdates/2014-11-03",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2014-11-03&diff=1030008",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-11-03T03:45:20.000Z",
     "description": "Edited WeeklyUpdates/2014-11-03",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2014-11-03&diff=1029835",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -61736,7 +61272,6 @@
     "createdAt": "2014-11-01T02:20:22.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1029749",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -61764,21 +61299,18 @@
     "createdAt": "2014-10-31T23:14:54.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1029738",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-10-31T22:28:06.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1029734",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-10-31T22:21:03.000Z",
     "description": "Edited De:Meeting:2015",
     "link": "https://wiki.mozilla.org/index.php?title=De:Meeting:2015&diff=1029733",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -61827,14 +61359,12 @@
     "createdAt": "2014-10-29T19:24:59.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1029293",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-10-29T19:04:50.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1029281",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -61869,14 +61399,12 @@
     "createdAt": "2014-10-21T22:10:22.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1027073",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-10-21T22:07:47.000Z",
     "description": "Edited Firefox/Decade",
     "link": "https://wiki.mozilla.org/index.php?title=Firefox/Decade&diff=1027072",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -61967,21 +61495,18 @@
     "createdAt": "2014-10-18T18:57:59.000Z",
     "description": "Edited Reps/Mozilla Festival 2014/Logistics",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Mozilla_Festival_2014/Logistics&diff=1026315",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-10-18T18:55:15.000Z",
     "description": "Edited Reps/Mozilla Festival 2014/Participants",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Mozilla_Festival_2014/Participants&diff=1026314",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-10-18T18:43:54.000Z",
     "description": "Edited Reps/Mozilla Festival 2014/Logistics",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Mozilla_Festival_2014/Logistics&diff=1026312",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -62009,7 +61534,6 @@
     "createdAt": "2014-10-13T20:00:57.000Z",
     "description": "Edited User:Hmitsch/MyReps",
     "link": "https://wiki.mozilla.org/index.php?title=User:Hmitsch/MyReps&diff=1024644",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -62709,7 +62233,6 @@
     "createdAt": "2014-09-22T14:13:36.000Z",
     "description": "Edited De",
     "link": "https://wiki.mozilla.org/index.php?title=De&diff=1016903",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -62898,7 +62421,6 @@
     "createdAt": "2014-04-29T10:49:00.000Z",
     "description": "Edited Webmaker/Whitepaper",
     "link": "https://wiki.mozilla.org/index.php?title=Webmaker/Whitepaper&diff=970654",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -62947,28 +62469,24 @@
     "createdAt": "2014-04-14T22:32:53.000Z",
     "description": "Edited De",
     "link": "https://wiki.mozilla.org/index.php?title=De&diff=964559",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-04-14T22:26:12.000Z",
     "description": "Edited De",
     "link": "https://wiki.mozilla.org/index.php?title=De&diff=964554",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-04-14T22:24:35.000Z",
     "description": "Edited De",
     "link": "https://wiki.mozilla.org/index.php?title=De&diff=964549",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
     "createdAt": "2014-04-14T22:23:15.000Z",
     "description": "Edited De",
     "link": "https://wiki.mozilla.org/index.php?title=De&diff=964548",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -64025,7 +63543,6 @@
     "createdAt": "2013-02-09T06:10:39.000Z",
     "description": "Edited GenOpen",
     "link": "https://wiki.mozilla.org/index.php?title=GenOpen&diff=515985",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -64088,7 +63605,6 @@
     "createdAt": "2012-11-14T22:12:32.000Z",
     "description": "Edited File:32114 1451333084257 4969932 n.jpg",
     "link": "https://wiki.mozilla.org/index.php?title=File:32114_1451333084257_4969932_n.jpg&diff=487643",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -64130,7 +63646,6 @@
     "createdAt": "2012-09-16T21:18:49.000Z",
     "description": "Edited MozCampEU2012/Participants",
     "link": "https://wiki.mozilla.org/index.php?title=MozCampEU2012/Participants&diff=470856",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
@@ -64144,7 +63659,6 @@
     "createdAt": "2012-07-27T11:04:11.000Z",
     "description": "Edited Contributors/Germany Austria Switzerland",
     "link": "https://wiki.mozilla.org/index.php?title=Contributors/Germany_Austria_Switzerland&diff=455392",
-    "type": "Wiki Edit",
     "source": "wiki"
   },
   {
