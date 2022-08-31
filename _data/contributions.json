@@ -28,7 +28,7 @@
     "source": "github-reviews"
   },
   {
-    "createdAt": "2022-08-21T22:00:00.000Z",
+    "createdAt": "2022-08-22T00:00:00.000Z",
     "description": "Firefox Nightly Foxfooding",
     "link": "https://community.mozilla.org/en/campaigns/firefox-nightly-foxfooding/",
     "type": "Participated in a campaign",
@@ -217,6 +217,13 @@
     "source": "bugzilla-comments"
   },
   {
+    "createdAt": "2022-07-16T12:18:34.000Z",
+    "description": "Put \"separate tags with commas\" below the tags text input in the Bookmarks Panel",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1702235#c6",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
     "createdAt": "2022-07-12T15:30:08.000Z",
     "description": "Single Groups pages are not openinig anymore",
     "link": "https://github.com/mozilla/community-portal/issues/745#issuecomment-1181912616",
@@ -269,6 +276,13 @@
     "createdAt": "2022-06-22T21:37:11.000Z",
     "description": "Intermittent TV browser/components/urlbar/tests/browser/browser_urlbar_telemetry_dynamic.js | Test timed out -",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1774778#c4",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
+    "createdAt": "2022-06-22T21:23:42.000Z",
+    "description": "Put \"separate tags with commas\" below the tags text input in the Bookmarks Panel",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1702235#c4",
     "type": "Commented on a Bug Report",
     "source": "bugzilla-comments"
   },
@@ -413,6 +427,20 @@
     "source": "bugzilla-comments"
   },
   {
+    "createdAt": "2022-06-06T12:32:25.000Z",
+    "description": "Remove Engine(about:preferences#search) should be disabled for current Default Engine",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1761513#c4",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
+    "createdAt": "2022-06-06T10:58:26.000Z",
+    "description": "Remove old browser.search.with_ads/browser.search.ad_click scalars in FF ~v88",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1688599#c2",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
     "createdAt": "2022-06-06T10:58:26.000Z",
     "description": "Remove old browser.search.with_ads/browser.search.ad_click scalars in FF ~v88",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1688599#c2",
@@ -462,6 +490,13 @@
     "source": "bugzilla-comments"
   },
   {
+    "createdAt": "2022-06-05T14:54:18.000Z",
+    "description": "Remove or update probes expiring in Firefox 87: webrtc.ui.show_indicator#show_indicator",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1683099#c2",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
     "createdAt": "2022-06-05T14:50:54.000Z",
     "description": "Remove expired Telemetry probe preferences.browser_home_page_change",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1703132#c6",
@@ -486,6 +521,20 @@
     "createdAt": "2022-06-05T13:55:41.000Z",
     "description": "Put \"separate tags with commas\" below the tags text input in the Bookmarks Panel",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1702235#c1",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
+    "createdAt": "2022-06-05T13:55:41.000Z",
+    "description": "Put \"separate tags with commas\" below the tags text input in the Bookmarks Panel",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1702235#c1",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
+    "createdAt": "2022-06-05T13:34:59.000Z",
+    "description": "Update metadata for layout/xul/ files to not point to frontend components like Firefox :: Menus",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1769086#c2",
     "type": "Commented on a Bug Report",
     "source": "bugzilla-comments"
   },
@@ -6188,7 +6237,7 @@
     "source": "github-comments"
   },
   {
-    "createdAt": "2021-09-12T22:00:00.000Z",
+    "createdAt": "2021-09-13T00:00:00.000Z",
     "description": "Foxfooding Focus for Android and iOS",
     "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
     "type": "Participated in a campaign",
@@ -8645,7 +8694,7 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2021-04-11T22:00:00.000Z",
+    "createdAt": "2021-04-12T00:00:00.000Z",
     "description": "Firefox Foxfooding Campaign",
     "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
     "type": "Participated in a campaign",
@@ -10899,7 +10948,7 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2020-11-09T23:00:00.000Z",
+    "createdAt": "2020-11-10T00:00:00.000Z",
     "description": "Unfck the Internet Campaign",
     "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
     "type": "Participated in a campaign",
@@ -12019,7 +12068,7 @@
     "source": "bugzilla-created"
   },
   {
-    "createdAt": "2020-09-23T22:00:00.000Z",
+    "createdAt": "2020-09-24T00:00:00.000Z",
     "description": "Firefox Omnibus Foxfooding experiment",
     "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
     "type": "Participated in a campaign",
@@ -14567,7 +14616,7 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2020-05-21T22:00:00.000Z",
+    "createdAt": "2020-05-22T00:00:00.000Z",
     "description": "Common Voice Single Word Sprint",
     "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
     "type": "Participated in a campaign",
@@ -16135,7 +16184,7 @@
     "source": "reps"
   },
   {
-    "createdAt": "2020-04-05T22:00:00.000Z",
+    "createdAt": "2020-04-06T00:00:00.000Z",
     "description": "Hunt from Home: Phase 1",
     "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
     "type": "Participated in a campaign",
@@ -84098,6 +84147,13 @@
     "source": "bugzilla-comments"
   },
   {
+    "createdAt": "2010-05-13T17:10:02.000Z",
+    "description": "Treehydra 'make check' failures on x86-64",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=436525#c7",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
     "createdAt": "2010-05-13T17:10:01.000Z",
     "description": "Testing script for places location bar performance",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=479528#c2",
@@ -84406,6 +84462,20 @@
     "source": "bugzilla-comments"
   },
   {
+    "createdAt": "2010-05-13T17:08:09.000Z",
+    "description": "Analyze SpiderMonkey Push/pop for tvr & lock/unlock/etc",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=432915#c13",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
+    "createdAt": "2010-05-13T17:08:04.000Z",
+    "description": "Setup buildbot(Linux + OSX) for dehydra and treehydra",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=430321#c21",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
     "createdAt": "2010-05-13T17:08:04.000Z",
     "description": "Setup buildbot(Linux + OSX) for dehydra and treehydra",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=430321#c21",
@@ -84500,6 +84570,13 @@
     "createdAt": "2010-05-13T17:07:21.000Z",
     "description": "[MSFT-7594] Firefox does not associate with .url files when set as the default browser",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=489248#c3",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
+    "createdAt": "2010-05-13T17:07:18.000Z",
+    "description": "Implement GC-safety checks for spidermonkey",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=421934#c16",
     "type": "Commented on a Bug Report",
     "source": "bugzilla-comments"
   },
@@ -84966,6 +85043,13 @@
     "source": "bugzilla-comments"
   },
   {
+    "createdAt": "2010-05-13T17:04:07.000Z",
+    "description": "[meta] |static nsCOMPtr| considered harmful",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=60697#c11",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
     "createdAt": "2010-05-13T17:04:01.000Z",
     "description": "<font size=\"+.5\"> interpreted as <font size=\"5\">",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=52019#c62",
@@ -85102,6 +85186,13 @@
     "createdAt": "2010-05-13T17:02:51.000Z",
     "description": "favicons are placed into cache with \"expire immediately\" expiration date",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=120466#c16",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
+    "createdAt": "2010-05-13T17:02:48.000Z",
+    "description": "Sync search plugins",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=444284#c3",
     "type": "Commented on a Bug Report",
     "source": "bugzilla-comments"
   },
