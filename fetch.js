@@ -24,6 +24,12 @@ const config = {
     stopDate: '2008-01-01',
     filter: 'mozilla|common-voice|reps|remo|sc-scripts|webmaker|firefox|activate|surprisera|fxos|foxfooding|arewetenyet|asknot|community_dashboard_participation|appday',
   },
+  bugzilla: {
+    enabled: true,
+    baseUrl: 'https://bugzilla.mozilla.org',
+    username: 'me@michaelkohler.info',
+    stopDate: '2008-01-01',
+  },
 };
 
 fetchAll(config);
