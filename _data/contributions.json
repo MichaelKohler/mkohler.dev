@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-08-31T08:23:43.000Z",
+    "description": "chore(deps): bump moment-timezone from 0.5.33 to 0.5.37 in /server",
+    "link": "https://github.com/common-voice/sentence-collector/pull/633#pullrequestreview-1091484582",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-08-31T08:23:43.000Z",
+    "description": "chore(deps): bump moment-timezone from 0.5.33 to 0.5.37 in /server",
+    "link": "https://github.com/common-voice/sentence-collector/pull/633#pullrequestreview-1091484582",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-08-26T17:54:14.000Z",
     "description": "Events do not appear in People profiles",
     "link": "https://github.com/mozilla/community-portal/issues/748#issuecomment-1228767334",
@@ -14,7 +28,7 @@
     "source": "github-reviews"
   },
   {
-    "createdAt": "2022-08-21T22:00:00.000Z",
+    "createdAt": "2022-08-22T00:00:00.000Z",
     "description": "Firefox Nightly Foxfooding",
     "link": "https://community.mozilla.org/en/campaigns/firefox-nightly-foxfooding/",
     "type": "Participated in a campaign",
@@ -5978,7 +5992,7 @@
     "source": "github-comments"
   },
   {
-    "createdAt": "2021-09-12T22:00:00.000Z",
+    "createdAt": "2021-09-13T00:00:00.000Z",
     "description": "Foxfooding Focus for Android and iOS",
     "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
     "type": "Participated in a campaign",
@@ -8386,7 +8400,7 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2021-04-11T22:00:00.000Z",
+    "createdAt": "2021-04-12T00:00:00.000Z",
     "description": "Firefox Foxfooding Campaign",
     "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
     "type": "Participated in a campaign",
@@ -10563,7 +10577,7 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2020-11-09T23:00:00.000Z",
+    "createdAt": "2020-11-10T00:00:00.000Z",
     "description": "Unfck the Internet Campaign",
     "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
     "type": "Participated in a campaign",
@@ -11676,7 +11690,7 @@
     "source": "github-pr-created"
   },
   {
-    "createdAt": "2020-09-23T22:00:00.000Z",
+    "createdAt": "2020-09-24T00:00:00.000Z",
     "description": "Firefox Omnibus Foxfooding experiment",
     "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
     "type": "Participated in a campaign",
@@ -14196,7 +14210,7 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2020-05-21T22:00:00.000Z",
+    "createdAt": "2020-05-22T00:00:00.000Z",
     "description": "Common Voice Single Word Sprint",
     "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
     "type": "Participated in a campaign",
@@ -15736,7 +15750,7 @@
     "source": "reps"
   },
   {
-    "createdAt": "2020-04-05T22:00:00.000Z",
+    "createdAt": "2020-04-06T00:00:00.000Z",
     "description": "Hunt from Home: Phase 1",
     "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
     "type": "Participated in a campaign",
