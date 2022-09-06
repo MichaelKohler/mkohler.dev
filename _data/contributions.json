@@ -32942,20 +32942,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2018-11-10T17:41:14.000Z",
-    "description": "Edited Reps/Council/Elections",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1203679",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2018-11-10T17:38:58.000Z",
-    "description": "Edited Reps/Council",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council&diff=1203678",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
     "createdAt": "2018-11-10T15:51:41.000Z",
     "description": " Publish RoM for October 2018 ",
     "link": "https://github.com/mozilla/Reps/issues/355#issuecomment-437593329",
