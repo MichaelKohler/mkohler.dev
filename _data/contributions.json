@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-09-07T15:14:56.000Z",
+    "description": "Remove sentences containing foreign-language proper nouns / last names",
+    "link": "https://github.com/common-voice/common-voice/pull/3786#pullrequestreview-1099368651",
+    "type": "Requested changes on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-08-31T08:23:43.000Z",
     "description": "chore(deps): bump moment-timezone from 0.5.33 to 0.5.37 in /server",
     "link": "https://github.com/common-voice/sentence-collector/pull/633#pullrequestreview-1091484582",
