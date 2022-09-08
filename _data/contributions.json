@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-09-08T14:34:07.270Z",
+    "description": "Question about CV Sentence Extractor quality and your experience",
+    "link": "https://discourse.mozilla.org/t/question-about-cv-sentence-extractor-quality-and-your-experience/102911/9",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-09-07T15:14:56.000Z",
     "description": "Remove sentences containing foreign-language proper nouns / last names",
     "link": "https://github.com/common-voice/common-voice/pull/3786#pullrequestreview-1099368651",
