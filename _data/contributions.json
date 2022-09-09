@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-09-09T19:37:39.000Z",
+    "description": "[BUG] migration failed to run during server deployment",
+    "link": "https://github.com/common-voice/common-voice/issues/3775#issuecomment-1242387884",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2022-09-09T09:23:31.832Z",
     "description": "Question about CV Sentence Extractor quality and your experience",
     "link": "https://discourse.mozilla.org/t/question-about-cv-sentence-extractor-quality-and-your-experience/102911/12",
