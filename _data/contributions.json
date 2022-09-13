@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-09-13T21:45:25.639Z",
+    "description": "Question about CV Sentence Extractor quality and your experience",
+    "link": "https://discourse.mozilla.org/t/question-about-cv-sentence-extractor-quality-and-your-experience/102911/15",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-09-13T15:01:50.000Z",
+    "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
+    "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1105920463",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-09-12T13:51:08.000Z",
     "description": "[BUG] The API doesn't found the sentence in Thai.",
     "link": "https://github.com/common-voice/sentence-collector/issues/634#issuecomment-1243774965",
