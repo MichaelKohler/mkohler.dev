@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2022-09-13T22:40:24.000Z",
+    "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
+    "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1106525272",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-09-13T22:37:39.000Z",
+    "description": "The API doesn't find the sentence in Thai",
+    "link": "https://github.com/common-voice/sentence-collector/issues/634#issuecomment-1246017177",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2022-09-13T22:37:22.536Z",
+    "description": "Sentence Collector - Cleanup before export vs. cleanup on upload",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
+    "createdAt": "2022-09-13T22:21:17.000Z",
+    "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
+    "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1106489921",
+    "type": "Requested changes on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-09-13T21:45:25.639Z",
     "description": "Question about CV Sentence Extractor quality and your experience",
     "link": "https://discourse.mozilla.org/t/question-about-cv-sentence-extractor-quality-and-your-experience/102911/15",
