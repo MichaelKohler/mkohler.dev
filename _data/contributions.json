@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-09-14T06:36:02.825Z",
+    "description": "Sentence Collector - Cleanup before export vs. cleanup on upload",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-09-13T22:40:24.000Z",
     "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
     "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1106525272",
