@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2022-09-14T08:51:40.000Z",
+    "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
+    "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1107062576",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-09-14T08:50:14.000Z",
+    "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
+    "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1107060310",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-09-14T08:48:46.000Z",
+    "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
+    "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1107058034",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-09-14T08:38:47.000Z",
+    "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
+    "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1107042288",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-09-14T06:36:02.825Z",
     "description": "Sentence Collector - Cleanup before export vs. cleanup on upload",
     "link": "https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/4",
