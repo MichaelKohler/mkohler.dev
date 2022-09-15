@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-09-15T20:52:49.817Z",
+    "description": "Question about CV Sentence Extractor quality and your experience",
+    "link": "https://discourse.mozilla.org/t/question-about-cv-sentence-extractor-quality-and-your-experience/102911/18",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-09-15T20:42:04.397Z",
+    "description": "Sentence Collector - Cleanup before export vs. cleanup on upload",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/10",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-09-15T20:32:38.000Z",
+    "description": "chore: add documentation for overall flow in README (fixes #636)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/637",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2022-09-15T12:32:49.000Z",
     "description": "[WIP] additionnal lib/cleanup for French language to improve quality of inputs",
     "link": "https://github.com/common-voice/sentence-collector/pull/635#pullrequestreview-1109104887",
