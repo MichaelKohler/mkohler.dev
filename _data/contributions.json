@@ -1,5 +1,47 @@
 [
   {
+    "createdAt": "2022-09-17T10:31:52.000Z",
+    "description": "common-voice/sentence-collector: chore: add documentation for overall flow in README (fixes #636) (#637)\n\n* chore: add documentation for overall flow in README (fixes #636)\r\n* chore: add small note about how to edit diagram\r\n* chore: adjust documentation based on suggestions",
+    "link": "https://github.com/common-voice/sentence-collector/commit/a41e83f31edac18791aabb1396200d161eda1709",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2022-09-17T10:25:04.000Z",
+    "description": "chore: add documentation for overall flow in README (fixes #636)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/637#pullrequestreview-1111423971",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-09-17T10:22:37.000Z",
+    "description": "chore: add documentation for overall flow in README (fixes #636)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/637#pullrequestreview-1111423805",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-09-17T10:20:01.000Z",
+    "description": "chore: add documentation for overall flow in README (fixes #636)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/637#pullrequestreview-1111423638",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-09-17T10:18:05.859Z",
+    "description": "Sentence Collector - Cleanup before export vs. cleanup on upload",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/15",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-09-16T12:27:08.000Z",
+    "description": "chore: add documentation for overall flow in README (fixes #636)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/637#pullrequestreview-1110423552",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-09-15T22:18:00.823Z",
     "description": "Sentence Collector - Cleanup before export vs. cleanup on upload",
     "link": "https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/12",
