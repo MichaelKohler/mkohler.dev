@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-09-18T16:26:57.000Z",
+    "description": "mozillach/mozilla-watcher: Update dependencies",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/b0a47f218c45b1133de57584c224c13721f2069d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2022-09-17T10:31:52.000Z",
     "description": "common-voice/sentence-collector: chore: add documentation for overall flow in README (fixes #636) (#637)\n\n* chore: add documentation for overall flow in README (fixes #636)\r\n* chore: add small note about how to edit diagram\r\n* chore: adjust documentation based on suggestions",
     "link": "https://github.com/common-voice/sentence-collector/commit/a41e83f31edac18791aabb1396200d161eda1709",
