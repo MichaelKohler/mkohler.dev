@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-09-21T19:49:44.000Z",
+    "description": "Clarify purposes and processes in the Sentences documentation",
+    "link": "https://github.com/common-voice/common-voice/pull/3804#pullrequestreview-1115995281",
+    "type": "Requested changes on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2022-09-21T19:35:49.000Z",
+    "description": "Clarify purposes and processes in the Sentences documentation",
+    "link": "https://github.com/common-voice/common-voice/pull/3804#pullrequestreview-1115993809",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-09-21T08:29:14.000Z",
     "description": "Clarify purposes and processes in the Sentences documentation",
     "link": "https://github.com/common-voice/common-voice/pull/3804#pullrequestreview-1114987857",
