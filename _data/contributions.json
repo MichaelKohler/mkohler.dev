@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-09-21T08:04:20.000Z",
+    "description": "Clarify purposes and processes in the Sentences documentation",
+    "link": "https://github.com/common-voice/common-voice/pull/3804#pullrequestreview-1114950892",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-09-19T21:21:12.000Z",
     "description": "Clarify purposes and processes in the Sentences documentation",
     "link": "https://github.com/common-voice/common-voice/pull/3804#pullrequestreview-1112895653",
