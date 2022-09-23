@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-09-23T17:51:46.518Z",
+    "description": "Trying to create a 'Common Voice overview' for newbies, SVG drawin' style",
+    "link": "https://discourse.mozilla.org/t/trying-to-create-a-common-voice-overview-for-newbies-svg-drawin-style/105771/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-09-23T13:10:29.000Z",
     "description": "Clarify purposes and processes in the Sentences documentation",
     "link": "https://github.com/common-voice/common-voice/pull/3804#pullrequestreview-1118441650",
