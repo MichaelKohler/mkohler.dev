@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-10-01T13:47:39.878Z",
+    "description": "Common rule files for Sentence Collector / Sentence Extractor",
+    "link": "https://discourse.mozilla.org/t/common-rule-files-for-sentence-collector-sentence-extractor/106080",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
+    "createdAt": "2022-10-01T13:03:48.074Z",
+    "description": "Sentence Collector - Cleanup before export vs. cleanup on upload",
+    "link": "https://discourse.mozilla.org/t/sentence-collector-cleanup-before-export-vs-cleanup-on-upload/105411/17",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-10-01T12:47:02.000Z",
+    "description": "Italian has Chinese in it",
+    "link": "https://github.com/common-voice/sentence-collector/issues/638#issuecomment-1264354296",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2022-09-25T21:51:22.586Z",
     "description": "Trying to create a 'Common Voice overview' for newbies, SVG drawin' style",
     "link": "https://discourse.mozilla.org/t/trying-to-create-a-common-voice-overview-for-newbies-svg-drawin-style/105771/6",
