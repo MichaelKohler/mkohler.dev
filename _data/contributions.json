@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-10-02T09:42:20.000Z",
+    "description": "Reps Council Elections - H2 2022",
+    "link": "https://github.com/mozilla/Reps/issues/436",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
     "createdAt": "2022-10-01T13:47:39.878Z",
     "description": "Common rule files for Sentence Collector / Sentence Extractor",
     "link": "https://discourse.mozilla.org/t/common-rule-files-for-sentence-collector-sentence-extractor/106080",
