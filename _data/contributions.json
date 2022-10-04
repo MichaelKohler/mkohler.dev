@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-10-04T18:07:04.000Z",
+    "description": "after configuration Oops!, something went wrong",
+    "link": "https://github.com/common-voice/sentence-collector/issues/639#issuecomment-1267368830",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2022-10-03T18:04:29.000Z",
     "description": "Edited Reps/Council/Elections",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Elections&diff=1244083",
