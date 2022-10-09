@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-10-09T13:20:55.110Z",
+    "description": "FOSDEM 2023 Presence - Who wants to organize?",
+    "link": "https://discourse.mozilla.org/t/fosdem-2023-presence-who-wants-to-organize/106389",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
     "createdAt": "2022-10-04T18:07:04.000Z",
     "description": "after configuration Oops!, something went wrong",
     "link": "https://github.com/common-voice/sentence-collector/issues/639#issuecomment-1267368830",
