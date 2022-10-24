@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-10-24T21:55:42.000Z",
+    "description": "mozilla/campaign-form: Close form (fixes #11)",
+    "link": "https://github.com/mozilla/campaign-form/commit/0081663b65f9eb64891793a1b6ade227ed5aa04d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2022-10-24T16:14:30.000Z",
     "description": "Update de.toml",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/179#pullrequestreview-1153419167",
