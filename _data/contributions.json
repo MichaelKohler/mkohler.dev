@@ -1,5 +1,47 @@
 [
   {
+    "createdAt": "2022-10-27T21:44:48.000Z",
+    "description": "Improving the introduction README file with very simple TLDR",
+    "link": "https://github.com/common-voice/sentence-collector/issues/636#issuecomment-1294106686",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2022-10-27T21:44:45.000Z",
+    "description": "Remove sentences in the `oc` locale",
+    "link": "https://github.com/common-voice/sentence-collector/issues/641#issuecomment-1294106590",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2022-10-27T21:43:15.000Z",
+    "description": "common-voice/sentence-collector: fix: remove all oc sentences (#642)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/9203e4f3eb634169a12ee9f70ab91fe95798bd94",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2022-10-27T21:41:35.000Z",
+    "description": "fix: remove all oc sentences",
+    "link": "https://github.com/common-voice/sentence-collector/pull/642",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2022-10-27T21:34:15.114Z",
+    "description": "FOSDEM 2023 Presence - Who wants to organize?",
+    "link": "https://discourse.mozilla.org/t/fosdem-2023-presence-who-wants-to-organize/106389/18",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-10-27T21:25:18.000Z",
+    "description": "Update de.toml",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/179#pullrequestreview-1159062957",
+    "type": "Requested changes on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-10-24T21:55:42.000Z",
     "description": "mozilla/campaign-form: Close form (fixes #11)",
     "link": "https://github.com/mozilla/campaign-form/commit/0081663b65f9eb64891793a1b6ade227ed5aa04d",
