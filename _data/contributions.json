@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-10-28T17:23:27.473Z",
+    "description": "Niqqud in Hebrew",
+    "link": "https://discourse.mozilla.org/t/niqqud-in-hebrew/107141/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-10-27T21:44:48.000Z",
     "description": "Improving the introduction README file with very simple TLDR",
     "link": "https://github.com/common-voice/sentence-collector/issues/636#issuecomment-1294106686",
