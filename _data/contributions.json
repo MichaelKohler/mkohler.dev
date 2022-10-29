@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2022-10-29T11:25:51.000Z",
+    "description": "Switching Interface Language from English to Spanish",
+    "link": "https://github.com/common-voice/sentence-collector/issues/645#issuecomment-1295808413",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2022-10-29T11:18:06.000Z",
+    "description": "Possible way to re-audit entries for Persian language",
+    "link": "https://github.com/common-voice/sentence-collector/issues/640#issuecomment-1295806789",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2022-10-28T18:42:35.000Z",
     "description": "Switching Interface Language from English to Spanish",
     "link": "https://github.com/common-voice/sentence-collector/issues/645#issuecomment-1295335462",
