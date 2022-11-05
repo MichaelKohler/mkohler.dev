@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-11-05T12:39:20.000Z",
+    "description": "Possible way to re-audit entries for Persian language",
+    "link": "https://github.com/common-voice/sentence-collector/issues/640#issuecomment-1304539146",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2022-11-03T19:17:21.696Z",
     "description": "[IMPORTANT] Council Elections - H2-2022 - Results and next steps",
     "link": "https://discourse.mozilla.org/t/important-council-elections-h2-2022-results-and-next-steps/107323/5",
