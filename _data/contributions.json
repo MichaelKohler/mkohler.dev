@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-11-05T23:24:18.000Z",
+    "description": "mozilla/campaign-form: Prepare form for next campaign",
+    "link": "https://github.com/mozilla/campaign-form/commit/7a35344d150f40047b4074bbc5a583b12a13955f",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2022-11-05T12:39:20.000Z",
     "description": "Possible way to re-audit entries for Persian language",
     "link": "https://github.com/common-voice/sentence-collector/issues/640#issuecomment-1304539146",
