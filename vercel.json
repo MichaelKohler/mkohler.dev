@@ -65,5 +65,8 @@
         }
       ]
     }
+  ],
+  "rewrites": [
+    { "source": "/.well-known/webfinger", "destination": "/api/webfinger" }
   ]
 }
