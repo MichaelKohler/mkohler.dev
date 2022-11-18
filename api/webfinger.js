@@ -1,7 +1,6 @@
 const KNOWN_USERS = {
   mastodon: {
     mkohler: 'fosstodon.org',
-    foo: 'example.org',
   },
 };
 
