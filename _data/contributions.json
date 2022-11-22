@@ -21,6 +21,13 @@
     "source": "github-pr-created"
   },
   {
+    "createdAt": "2022-11-13T13:26:10.000Z",
+    "description": "mozilla/bedrock: Update Reps Council on Leadership page after H2 2022 elections",
+    "link": "https://github.com/mozilla/bedrock/commit/f69ea016b24d5ecfe258ff5f51eab453b8d911f5",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2022-11-07T11:41:36.000Z",
     "description": "mozilla/gecko-dev: Bug 1688599 - Remove old browser.search.with_ads/browser.search.ad_clicks scalars r=Standard8\n\nDifferential Revision: https://phabricator.services.mozilla.com/D148383",
     "link": "https://github.com/mozilla/gecko-dev/commit/3a66f0e8ecd55d6b8c6a6d35763a7ad4efb1daea",
