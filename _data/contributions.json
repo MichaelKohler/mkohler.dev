@@ -58877,13 +58877,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2017-01-31T21:52:28.000Z",
-    "description": "Edited Reps/Communication",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1161563",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
     "createdAt": "2017-01-31T14:28:40.294Z",
     "description": "Firefox Mobilizers Facebook groups",
     "link": "https://discourse.mozilla.org/t/firefox-mobilizers-facebook-groups/13311/8",
@@ -58952,13 +58945,6 @@
     "link": "https://github.com/mozillach/mozilla.ch/issues/89#issuecomment-276043492",
     "type": "Commented on an Issue",
     "source": "github-comments"
-  },
-  {
-    "createdAt": "2017-01-30T11:48:50.000Z",
-    "description": "Edited Switzerland",
-    "link": "https://wiki.mozilla.org/index.php?title=Switzerland&diff=1161338",
-    "type": "Wiki Edit",
-    "source": "wiki"
   },
   {
     "createdAt": "2017-01-30T11:46:00.000Z",
@@ -59479,13 +59465,6 @@
     "source": "discourse-topics"
   },
   {
-    "createdAt": "2017-01-20T14:25:32.000Z",
-    "description": "Edited Reps/Communication",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1160151",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
     "createdAt": "2017-01-20T14:22:23.821Z",
     "description": "Communication Channels Survey",
     "link": "https://discourse.mozilla.org/t/communication-channels-survey/11943/10",
@@ -59528,39 +59507,11 @@
     "source": "github-comments"
   },
   {
-    "createdAt": "2017-01-20T11:55:15.000Z",
-    "description": "Edited Reps/Communication",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1160132",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2017-01-20T11:54:43.000Z",
-    "description": "Edited Reps",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps&diff=1160131",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
     "createdAt": "2017-01-20T11:37:18.000Z",
     "description": "Improve outgoing communication",
     "link": "https://github.com/mozilla/Reps/issues/73#issuecomment-274052466",
     "type": "Commented on an Issue",
     "source": "github-comments"
-  },
-  {
-    "createdAt": "2017-01-20T11:36:28.000Z",
-    "description": "Edited Reps/Communication",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1160129",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2017-01-20T11:32:53.000Z",
-    "description": "Edited Reps/Communication",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Communication&diff=1160128",
-    "type": "Wiki Edit",
-    "source": "wiki"
   },
   {
     "createdAt": "2017-01-20T10:43:03.000Z",
@@ -59582,20 +59533,6 @@
     "link": "https://github.com/mozilla/Reps/issues/117#issuecomment-274040273",
     "type": "Commented on an Issue",
     "source": "github-comments"
-  },
-  {
-    "createdAt": "2017-01-20T10:38:05.000Z",
-    "description": "Edited Reps/Council/Rep of the month",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Council/Rep_of_the_month&diff=1160119",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
-    "createdAt": "2017-01-20T10:37:17.000Z",
-    "description": "Edited Reps/Rep of the Month",
-    "link": "https://wiki.mozilla.org/index.php?title=Reps/Rep_of_the_Month&diff=1160118",
-    "type": "Wiki Edit",
-    "source": "wiki"
   },
   {
     "createdAt": "2017-01-19T21:03:54.495Z",
