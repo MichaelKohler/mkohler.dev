@@ -81949,13 +81949,6 @@
     "source": "bugzilla-comments"
   },
   {
-    "createdAt": "2012-09-16T21:18:49.000Z",
-    "description": "Edited MozCampEU2012/Participants",
-    "link": "https://wiki.mozilla.org/index.php?title=MozCampEU2012/Participants&diff=470856",
-    "type": "Wiki Edit",
-    "source": "wiki"
-  },
-  {
     "createdAt": "2012-09-15T17:33:31.000Z",
     "description": "sessionStore starts observe browser.sessionstore.max_tabs_undo only after tab closed",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=758138#c1",
