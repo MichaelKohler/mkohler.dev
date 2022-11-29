@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-11-29T20:21:38.000Z",
+    "description": "Add validator for Lao (lo)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/651#pullrequestreview-1198301224",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-11-24T08:10:05.000Z",
     "description": "Reps Council Elections - H2 2022",
     "link": "https://github.com/mozilla/Reps/issues/436#issuecomment-1326090560",
