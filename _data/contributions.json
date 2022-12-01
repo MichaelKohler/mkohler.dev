@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2022-12-01T17:52:04.000Z",
+    "description": "Removal Request: Turkish",
+    "link": "https://github.com/common-voice/sentence-collector/issues/650#issuecomment-1334136181",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2022-12-01T17:31:19.000Z",
+    "description": "common-voice/sentence-collector: fix: remove Turkish sentences from a specific source (fixes #650) (#652)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/34fd2be34d0e7dd461243998f33b74096f200e19",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2022-12-01T17:29:31.000Z",
+    "description": "fix: remove Turkish sentences from a specific source (fixes #650)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/652",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2022-12-01T17:12:02.000Z",
+    "description": "Add validator for Lao (lo)",
+    "link": "https://github.com/common-voice/sentence-collector/pull/651#pullrequestreview-1201383984",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2022-11-29T20:21:38.000Z",
     "description": "Add validator for Lao (lo)",
     "link": "https://github.com/common-voice/sentence-collector/pull/651#pullrequestreview-1198301224",
