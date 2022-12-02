@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2022-12-02T16:51:00.548Z",
+    "description": "High amount of low quality submissions in Sentence Collector makes reviewing boring",
+    "link": "https://discourse.mozilla.org/t/high-amount-of-low-quality-submissions-in-sentence-collector-makes-reviewing-boring/108368/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2022-12-01T17:52:04.000Z",
     "description": "Removal Request: Turkish",
     "link": "https://github.com/common-voice/sentence-collector/issues/650#issuecomment-1334136181",
