@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-12-08T22:46:50.463Z",
+    "description": "High amount of low quality submissions in Sentence Collector makes reviewing boring",
+    "link": "https://discourse.mozilla.org/t/high-amount-of-low-quality-submissions-in-sentence-collector-makes-reviewing-boring/108368/6",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2022-12-08T22:44:57.000Z",
+    "description": "common-voice/sentence-collector: fix: remove unapproved sv-SE Gutenberg sentences (#656)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/06de170d95fa3f3bed2ec376996952f01bb7d75f",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2022-12-08T22:43:17.000Z",
+    "description": "fix: remove unapproved sv-SE Gutenberg sentences",
+    "link": "https://github.com/common-voice/sentence-collector/pull/656",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2022-12-05T18:55:04.129Z",
     "description": "High amount of low quality submissions in Sentence Collector makes reviewing boring",
     "link": "https://discourse.mozilla.org/t/high-amount-of-low-quality-submissions-in-sentence-collector-makes-reviewing-boring/108368/4",
