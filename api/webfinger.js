@@ -21,7 +21,7 @@ export default function handler(request, response) {
         href: `https://fosstodon.org/users/mkohler`,
       }, {
         rel: 'http://ostatus.org/schema/1.0/subscribe',
-        template: 'https://${instance}/authorize_interaction?uri={uri}',
+        template: 'https://fosstodon.org/authorize_interaction?uri={uri}',
       }],
     };
 
