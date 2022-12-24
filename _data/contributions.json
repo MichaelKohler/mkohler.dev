@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2022-12-24T11:59:56.000Z",
+    "description": "remove all pending-review sentences on nan-tw from a specific source",
+    "link": "https://github.com/common-voice/sentence-collector/issues/657#issuecomment-1364518044",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2022-12-24T11:30:09.000Z",
+    "description": "remove all pending-review sentences on nan-tw from a specific source",
+    "link": "https://github.com/common-voice/sentence-collector/issues/657#issuecomment-1364514196",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2022-12-24T11:26:49.000Z",
+    "description": "common-voice/sentence-collector: fix: remove specific source from nan-TW (fixes #657)",
+    "link": "https://github.com/common-voice/sentence-collector/commit/c816fbfbcc997e682baa92c37b52f290df3f475f",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2022-12-08T22:46:50.463Z",
     "description": "High amount of low quality submissions in Sentence Collector makes reviewing boring",
     "link": "https://discourse.mozilla.org/t/high-amount-of-low-quality-submissions-in-sentence-collector-makes-reviewing-boring/108368/6",
