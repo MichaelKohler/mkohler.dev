@@ -2,30 +2,59 @@
 <html lang="en">
   <head>
     <title>Michael Kohler</title>
-    <meta charset="UTF-8"/>
+    <meta charset="UTF-8" />
     <meta name="description" content="Michael is a Senior Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#23395B">
 
-    <meta property="og:title" content="Michael Kohler - Software Engineer - CV"/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://mkohler.dev"/>
-    <meta property="og:description" content="Michael is a Senior Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008."/>
-    <meta property="og:image" content="https://mkohler.dev/images/profile.webp"/>
-    <meta property="og:image:alt" content="Preview of the website with Michael's profile image"/>
+    <link
+      rel="preload"
+      href="/images/profile.webp"
+      as="image" />
+    <link
+      rel="preload"
+      href="/fonts/raleway.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    <link
+      rel="preload"
+      href="/fonts/dosis.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    <link
+      rel="preload"
+      href="/fonts/fa-v6.1.2.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    <link
+      rel="preload"
+      href="/fonts/fa-brands-v6.1.2.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
 
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/images/icon-192.png" sizes="196x196">
+    <meta property="og:title" content="Michael Kohler - Software Engineer - CV" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mkohler.dev" />
+    <meta property="og:description" content="Michael is a Senior Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008." />
+    <meta property="og:image" content="https://mkohler.dev/images/profile.webp" />
+    <meta property="og:image:alt" content="Preview of the website with Michael's profile image" />
+
+    <link
+      rel="shortcut icon"
+      href="/favicon.ico"
+      type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/images/icon-192.png"
+      sizes="196x196">
     <link rel="apple-touch-icon" href="/images/icon-192.png">
     <link rel="manifest" href="/manifest.webmanifest">
 
-    <link rel="preload" href="/images/profile.webp"/>
-    <link rel="preload" href="/images/raleway.woff"/>
-    <link rel="preload" href="/images/dosis.woff"/>
-    <link rel="preload" href="/images/fa-v6.1.2.woff"/>
-    <link rel="preload" href="/images/fa-brands-v6.1.2.woff"/>
-
-    <link rel="me" href="https://fosstodon.org/@mkohler"/>
+    <link rel="me" href="https://fosstodon.org/@mkohler" />
 
     {% capture css %}
       {% include "theme.css" %}
@@ -38,11 +67,20 @@
   <body>
     {% include "header.html" %}
 
-    {{content}}
+    {{ content }}
 
     {% include "footer.html" %}
 
-    <script src="/main.js" defer async></script>
-    <script async defer data-website-id="c54b101d-cbfd-402b-ad2c-9d8a1399a050" data-domains="mkohler.dev" data-do-not-track="true" src="https://view.michael.network/umami.js"></script>
+    <script
+      src="/main.js"
+      defer
+      async></script>
+    <script
+      async
+      defer
+      data-website-id="c54b101d-cbfd-402b-ad2c-9d8a1399a050"
+      data-domains="mkohler.dev"
+      data-do-not-track="true"
+      src="https://view.michael.network/umami.js"></script>
   </body>
 </html>
