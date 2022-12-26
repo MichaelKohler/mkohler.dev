@@ -899,6 +899,16 @@ footer .design a {
     margin-left: 0;
   }
 
+  .pro-experience .experience {
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
+  }
+
+  .pro-experience .experience ul {
+    margin-left: 0;
+  }
+
   .pro-experience .experience ul li {
     break-inside: avoid-page;
   }
