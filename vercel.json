@@ -51,19 +51,6 @@
           "value": "application/json"
         }
       ]
-    },
-    {
-      "source": "/data/resume.json",
-      "headers": [
-        {
-          "key": "Access-Control-Allow-Origin",
-          "value": "*"
-        },
-        {
-          "key": "Content-Type",
-          "value": "application/json"
-        }
-      ]
     }
   ],
   "rewrites": [
