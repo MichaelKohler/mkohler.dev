@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-01-05T20:35:48.000Z",
+    "description": "[BUG] Sentence Collector export failing due to push permissions",
+    "link": "https://github.com/common-voice/common-voice/issues/3897",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
     "createdAt": "2022-12-24T11:59:56.000Z",
     "description": "remove all pending-review sentences on nan-tw from a specific source",
     "link": "https://github.com/common-voice/sentence-collector/issues/657#issuecomment-1364518044",
