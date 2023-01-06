@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-01-06T17:11:38.000Z",
+    "description": "[BUG] Sentence Collector export failing due to push permissions",
+    "link": "https://github.com/common-voice/common-voice/issues/3897#issuecomment-1373907455",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-01-05T21:13:37.000Z",
     "description": "Add Esperanto (eo) Wikipedia Extract re-run on new articles since 2021",
     "link": "https://github.com/common-voice/common-voice/pull/3898",
