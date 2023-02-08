@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-02-08T20:48:53.000Z",
+    "description": "mozilla/campaign-form: Adjust to next campaign",
+    "link": "https://github.com/mozilla/campaign-form/commit/e2ac32bdc386dbf4ea648ed5553cef2a4401ff99",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-01-12T16:56:17.000Z",
     "description": "mozilla/campaign-form: Fix title as well",
     "link": "https://github.com/mozilla/campaign-form/commit/c7e513fbe5d5d10b6c5f680f7d3544d08fc035bc",
