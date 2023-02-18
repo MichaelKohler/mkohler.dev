@@ -11,13 +11,13 @@
     "volunteer-contributions-fetch": "^2.3.4"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
+    "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "clean-css": "^5.3.1"
   },
   "scripts": {
     "build": "eleventy",
     "fetch": "DEBUG=contributions* node fetch.js",
-    "start": "eleventy --serve"
+    "start": "eleventy --serve --incremental"
   }
 }
