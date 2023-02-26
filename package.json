@@ -5,15 +5,15 @@
   "author": "Michael Kohler",
   "license": "MIT",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
-    "@fortawesome/free-brands-svg-icons": "^6.2.1",
-    "@fortawesome/free-solid-svg-icons": "^6.2.1",
-    "volunteer-contributions-fetch": "^2.3.4"
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-brands-svg-icons": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "volunteer-contributions-fetch": "^2.3.5"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
-    "clean-css": "^5.3.1"
+    "clean-css": "^5.3.2"
   },
   "scripts": {
     "build": "eleventy",
