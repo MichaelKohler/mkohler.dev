@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-02-27T18:27:58.000Z",
+    "description": "mozilla/campaign-form: Adjust campaign title",
+    "link": "https://github.com/mozilla/campaign-form/commit/8457fe163b0ab68250fa43f5076877de80992d10",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-02-18T15:34:45.000Z",
     "description": "common-voice/sentence-collector: feat: empty commit to release previous AM validation commit",
     "link": "https://github.com/common-voice/sentence-collector/commit/f885df417af8f434c69cbb164da4e79fb4f5a9e4",
