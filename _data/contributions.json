@@ -7,6 +7,13 @@
     "source": "github-commit"
   },
   {
+    "createdAt": "2023-02-23T00:00:00.000Z",
+    "description": "Zero-Prefix Weather Suggestions",
+    "link": "https://community.mozilla.org/en/campaigns/zero-prefix-weather-suggestions/",
+    "type": "Participated in a campaign",
+    "source": "community-portal-campaigns"
+  },
+  {
     "createdAt": "2023-02-18T15:34:45.000Z",
     "description": "common-voice/sentence-collector: feat: empty commit to release previous AM validation commit",
     "link": "https://github.com/common-voice/sentence-collector/commit/f885df417af8f434c69cbb164da4e79fb4f5a9e4",
