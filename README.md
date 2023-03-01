@@ -36,4 +36,6 @@ This will create a few folder ```_site``` which will include all necessary files
 LICENSE
 -----
 
-In general this project is published under the MIT license. However you might not be able to use the design, as I bought it and adjusted it. It's not freely available.
+In general this project is published under the MIT license.
+
+However you might not be able to use the design, as I bought it and adjusted it. It's not freely available.
