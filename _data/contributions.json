@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-03-14T18:11:02.139Z",
+    "description": "The Sentence Collector is going to change!",
+    "link": "https://discourse.mozilla.org/t/the-sentence-collector-is-going-to-change/112163/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2023-03-02T19:01:09.000Z",
     "description": "mozillach/mozilla-watcher: Adjust website ID for umami",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/5a2c3d7a8ebd3344855d08e1419ecc667f7dd963",
