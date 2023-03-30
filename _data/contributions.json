@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-03-30T18:47:02.000Z",
+    "description": "[dataset] French, proper nouns. garbage sentence removal ",
+    "link": "https://github.com/common-voice/common-voice/issues/3785#issuecomment-1490764595",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-03-29T14:00:54.000Z",
     "description": "common-voice/common-voice: bulk submission: Add Esperanto (eo) Wikipedia Extract re-run on new articles since 2021 (#3898)",
     "link": "https://github.com/common-voice/common-voice/commit/0a8ef9ff114bcd8f516811f6863beb5cdfd41a24",
