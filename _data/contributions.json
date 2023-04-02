@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2023-04-02T10:31:06.000Z",
+    "description": "common-voice/sentence-collector: fix: remove a sv-SE sentences batch",
+    "link": "https://github.com/common-voice/sentence-collector/commit/320f783d52053ee2e3b7b5322b1f13aa9ca6e4af",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-04-02T10:16:17.000Z",
+    "description": "common-voice/sentence-collector: fix: fix AM validation",
+    "link": "https://github.com/common-voice/sentence-collector/commit/9b83d2929aa518235f1fd9325fc2a13f34854f28",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-03-30T19:48:27.890Z",
     "description": "High amount of low quality submissions in Sentence Collector makes reviewing boring",
     "link": "https://discourse.mozilla.org/t/high-amount-of-low-quality-submissions-in-sentence-collector-makes-reviewing-boring/108368/8",
