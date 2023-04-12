@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-04-12T10:45:15.000Z",
+    "description": "fix: remove fr garbage sentences",
+    "link": "https://github.com/common-voice/sentence-collector/pull/668#pullrequestreview-1381037126",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-04-02T10:31:06.000Z",
     "description": "common-voice/sentence-collector: fix: remove a sv-SE sentences batch",
     "link": "https://github.com/common-voice/sentence-collector/commit/320f783d52053ee2e3b7b5322b1f13aa9ca6e4af",
