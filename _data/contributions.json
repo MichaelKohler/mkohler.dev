@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-04-14T09:17:31.000Z",
+    "description": "fix: escape quotes",
+    "link": "https://github.com/common-voice/sentence-collector/pull/669#pullrequestreview-1385042534",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-04-12T10:45:15.000Z",
     "description": "fix: remove fr garbage sentences",
     "link": "https://github.com/common-voice/sentence-collector/pull/668#pullrequestreview-1381037126",
