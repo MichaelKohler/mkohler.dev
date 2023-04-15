@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2023-04-15T15:46:06.000Z",
+    "description": "[BUG] Development - Broken migration",
+    "link": "https://github.com/common-voice/common-voice/issues/4004",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
+    "createdAt": "2023-04-15T15:40:05.000Z",
+    "description": "[BUG] Development - Can't start docker container",
+    "link": "https://github.com/common-voice/common-voice/issues/4003",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
     "createdAt": "2023-04-15T08:22:29.000Z",
     "description": "common-voice/sentence-collector: fix: fix migration to have proper escape mechanism (#670)",
     "link": "https://github.com/common-voice/sentence-collector/commit/df5b508acbb4fa50cfea29d1557b6a3f6d221004",
