@@ -1,5 +1,61 @@
 [
   {
+    "createdAt": "2023-05-10T21:05:05.000Z",
+    "description": "Documentation - How to Cite",
+    "link": "https://github.com/common-voice/sentence-collector/issues/672#issuecomment-1542808920",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2023-05-10T20:55:25.000Z",
+    "description": "Question: Process for already exported sentences?",
+    "link": "https://github.com/common-voice/sentence-collector/issues/632#issuecomment-1542798313",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2023-05-10T20:54:25.000Z",
+    "description": "The API doesn't find the sentence in Thai",
+    "link": "https://github.com/common-voice/sentence-collector/issues/634#issuecomment-1542797157",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2023-05-10T20:54:12.000Z",
+    "description": "Adding and rejecting only 1 sentence results in unresponsive confirm button (Vanadium)(android13)",
+    "link": "https://github.com/common-voice/sentence-collector/issues/660#issuecomment-1542796808",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2023-05-10T20:52:01.000Z",
+    "description": "common-voice/sentence-collector: chore: fix typo",
+    "link": "https://github.com/common-voice/sentence-collector/commit/ea325e9fe3441371387c8ae985288590b94682ed",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-05-10T20:50:15.000Z",
+    "description": "common-voice/sentence-collector: chore: add archive notice to README",
+    "link": "https://github.com/common-voice/sentence-collector/commit/cbdd24ad7331c2745570e957c9cc15d6e9939aff",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-05-10T20:47:41.000Z",
+    "description": "common-voice/sentence-collector: chore: remove automatically triggered jobs",
+    "link": "https://github.com/common-voice/sentence-collector/commit/b02435e7d478c75a63d126cd301f413350406152",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-05-10T20:16:10.285Z",
+    "description": "Common Voice New Sentence Collector",
+    "link": "https://discourse.mozilla.org/t/common-voice-new-sentence-collector/114216/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2023-04-28T19:41:56.000Z",
     "description": "Documentation - How to Cite",
     "link": "https://github.com/common-voice/sentence-collector/issues/672#issuecomment-1528009827",
