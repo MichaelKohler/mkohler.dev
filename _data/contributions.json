@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2023-05-10T21:14:41.000Z",
+    "description": "[BUG] Development - Can't start docker container",
+    "link": "https://github.com/common-voice/common-voice/issues/4003#issuecomment-1542818358",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2023-05-10T21:13:18.000Z",
+    "description": "[BUG] Guidelines: Remove Announcement",
+    "link": "https://github.com/common-voice/common-voice/issues/4034",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
+    "createdAt": "2023-05-10T21:11:55.000Z",
+    "description": "[BUG] Sentence Collection can't be linked to",
+    "link": "https://github.com/common-voice/common-voice/issues/4033",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
     "createdAt": "2023-05-10T21:05:05.000Z",
     "description": "Documentation - How to Cite",
     "link": "https://github.com/common-voice/sentence-collector/issues/672#issuecomment-1542808920",
