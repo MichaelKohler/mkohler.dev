@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-05-22T22:21:45.000Z",
+    "description": "Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation",
+    "link": "https://github.com/common-voice/common-voice/pull/4058",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2023-05-11T22:24:39.194Z",
     "description": "Common Voice New Sentence Collector",
     "link": "https://discourse.mozilla.org/t/common-voice-new-sentence-collector/114216/6",
