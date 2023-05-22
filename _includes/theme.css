@@ -101,16 +101,12 @@ a,
 a i,
 a i:before {
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: underline;
   color: #2f2f2f;
   transition: all 0.25s ease 0s;
   -moz-transition: all 0.25s ease 0s;
   -webkit-transition: all 0.25s ease 0s;
   -o-transition: all 0.25s ease 0s;
-}
-
-a:hover, a:focus {
-  text-decoration: underline;
 }
 
 p {
@@ -195,6 +191,10 @@ header .position h2 {
 header .svg-inline--fa {
   font-size: 40px;
   opacity: 0.7;
+}
+
+nav a i {
+  text-decoration: none;;
 }
 
 nav ul {
@@ -398,10 +398,6 @@ nav li:nth-child(6) {
   color: #3f3f3f;
 }
 
-.pro-experience .experience .company a:hover {
-  color: #8EA8C3;
-}
-
 .pro-experience .experience .company a:before {
   position: absolute;
   width: 9px;
@@ -426,13 +422,6 @@ nav li:nth-child(6) {
 
 .pro-experience .experience .responsibilities li {
   list-style-type: circle;
-}
-
-.pro-experience a,
-.pro-experience a:hover,
-.pro-experience a:focus {
-  text-decoration: none;
-  color: #ffffff;
 }
 
 .pro-experience a i::before {
@@ -554,13 +543,6 @@ nav li:nth-child(6) {
   object-fit: cover;
 }
 
-#opensource a,
-#contributions a,
-#blog a,
-#blogpost a {
-  text-decoration: underline;
-}
-
 #blogpost img {
   max-width: 90%;
 }
@@ -655,6 +637,7 @@ footer .social li:last-child {
 footer .social li a i {
   color: #efefef;
   font-size: 32px;
+  text-decoration: none;
 }
 
 footer .social li a i:before {
@@ -674,7 +657,6 @@ footer .design {
 
 footer .design a {
   color: #F8FFE9;
-  text-decoration: underline;
 }
 
 @media (max-width: 1200px) {
