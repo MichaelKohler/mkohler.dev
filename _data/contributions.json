@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-05-23T17:35:02.000Z",
+    "description": "Documentation - How to Cite - comment",
+    "link": "https://github.com/common-voice/common-voice/issues/4059#issuecomment-1559874244",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-05-22T22:21:45.000Z",
     "description": "Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation",
     "link": "https://github.com/common-voice/common-voice/pull/4058",
