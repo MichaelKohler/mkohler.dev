@@ -1,5 +1,47 @@
 [
   {
+    "createdAt": "2023-05-23T21:33:55.000Z",
+    "description": "matrix-org/matrix-spec: Remove age_ts from reference hash calculation (#1536)\n\n* Remove age_ts from reference hash calculation\r\n\r\nSigned-off-by: Michael Kohler <me@michaelkohler.info>\r\n\r\n* Add newsfragment\r\n\r\n* Fix newsfragment number\r\n\r\n* Update changelogs/server_server/newsfragments/1536.clarification\r\n\r\nCo-authored-by: Travis Ralston <travpc@gmail.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Michael Kohler <me@michaelkohler.info>\r\nCo-authored-by: Travis Ralston <travpc@gmail.com>",
+    "link": "https://github.com/matrix-org/matrix-spec/commit/c6348c9f78ac1a987f94dbed89e4f383117209f7",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-05-23T20:44:29.000Z",
+    "description": "Remove age_ts from reference hash calculation",
+    "link": "https://github.com/matrix-org/matrix-spec/pull/1536",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2023-05-23T19:40:32.000Z",
+    "description": "matrix-org/matrix-spec: Add knock_restricted to m.room.join_rules enum (#1535)\n\n* Add knock_restricted to m.room.join_rules enum\r\n\r\nSigned-off-by: Michael Kohler <me@michaelkohler.info>\r\n\r\nFixes #1491\r\n\r\n* Add changelog",
+    "link": "https://github.com/matrix-org/matrix-spec/commit/c94bebc98385ab2be1c37f7a2bb1ed7e86ace6af",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-05-23T19:00:29.000Z",
+    "description": "Add knock_restricted to m.room.join_rules enum",
+    "link": "https://github.com/matrix-org/matrix-spec/pull/1535",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2023-05-23T18:28:46.000Z",
+    "description": "matrix-org/matrix-spec: Fix ASCII art alignment (#1534)\n\n* Fix ASCII art alignment\r\n\r\nSigned-off-by: Michael Kohler <me@michaelkohler.info>\r\n\r\nFixes #1430\r\n\r\n* Add changelog\r\n\r\n---------\r\n\r\nCo-authored-by: Travis Ralston <travpc@gmail.com>",
+    "link": "https://github.com/matrix-org/matrix-spec/commit/17ebdf7c863b96db8c6ebe3eb075494ac3fc4064",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-05-23T18:23:25.000Z",
+    "description": "Fix ASCII art alignment",
+    "link": "https://github.com/matrix-org/matrix-spec/pull/1534",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2023-05-23T17:35:02.000Z",
     "description": "Documentation - How to Cite - comment",
     "link": "https://github.com/common-voice/common-voice/issues/4059#issuecomment-1559874244",
