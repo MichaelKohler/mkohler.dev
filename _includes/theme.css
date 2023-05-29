@@ -68,6 +68,11 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   margin: 0;
   padding-top: 1.7rem;
+  padding-bottom: 0.8rem;
+}
+
+h4, h5, h6 {
+  padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
@@ -121,6 +126,7 @@ ul {
   padding-left: 0;
   list-style-type: circle;
   margin-left: 20px;
+  line-height: 1.5rem;
 }
 
 ul li {
@@ -274,8 +280,6 @@ nav li:nth-child(6) {
 
 .quote {
   color: #406E8E;
-  margin: 0;
-  padding-top: 4px;
 }
 
 .details {
@@ -368,6 +372,7 @@ nav li:nth-child(6) {
 }
 
 .pro-experience .experience ul {
+  margin-top: 0;
   margin-bottom: 23px;
 }
 
@@ -417,7 +422,8 @@ nav li:nth-child(6) {
 }
 
 .pro-experience .experience .responsibilities {
-  margin-top: 10px;
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .pro-experience .experience .responsibilities li {
@@ -436,12 +442,7 @@ nav li:nth-child(6) {
 }
 
 #offline, #notfound, #talks, #opensource, #contributions, #blog, #blogpost {
-  margin: 30px 30px;
-}
-
-#talks h2,
-#opensource h2 {
-  padding-top: 0;
+  margin: 15px 30px;
 }
 
 .talks-list {
@@ -514,6 +515,10 @@ nav li:nth-child(6) {
 .tags .germany {
   background-color: #bbc2f3;
   color: black;
+}
+
+#opensource .contributions + a + h3 {
+  padding-top: 2rem;
 }
 
 #opensource .areas {
@@ -719,7 +724,7 @@ footer .design a {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
   header {
     flex-direction: column;
   }
