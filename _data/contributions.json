@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2023-05-31T21:27:03.000Z",
+    "description": "common-voice/cv-sentence-extractor: Update node-fetch",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/0acaea9c81bc4207e762822c3bc49ec047b6b022",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-05-31T21:27:03.000Z",
+    "description": "common-voice/cv-sentence-extractor: Update node-fetch",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/0acaea9c81bc4207e762822c3bc49ec047b6b022",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-05-31T21:20:20.000Z",
+    "description": "Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation",
+    "link": "https://github.com/common-voice/common-voice/pull/4058#pullrequestreview-1454189216",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2023-05-31T21:20:20.000Z",
+    "description": "Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation",
+    "link": "https://github.com/common-voice/common-voice/pull/4058#pullrequestreview-1454189216",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-05-23T21:33:55.000Z",
     "description": "matrix-org/matrix-spec: Remove age_ts from reference hash calculation (#1536)\n\n* Remove age_ts from reference hash calculation\r\n\r\nSigned-off-by: Michael Kohler <me@michaelkohler.info>\r\n\r\n* Add newsfragment\r\n\r\n* Fix newsfragment number\r\n\r\n* Update changelogs/server_server/newsfragments/1536.clarification\r\n\r\nCo-authored-by: Travis Ralston <travpc@gmail.com>\r\n\r\n---------\r\n\r\nSigned-off-by: Michael Kohler <me@michaelkohler.info>\r\nCo-authored-by: Travis Ralston <travpc@gmail.com>",
     "link": "https://github.com/matrix-org/matrix-spec/commit/c6348c9f78ac1a987f94dbed89e4f383117209f7",
