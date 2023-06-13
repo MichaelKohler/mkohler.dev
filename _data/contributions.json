@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-06-13T17:37:25.000Z",
+    "description": "Add max_characters to rules",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/183#pullrequestreview-1477695106",
+    "type": "Requested changes on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-06-13T15:22:34.000Z",
     "description": "max_characters in rules",
     "link": "https://github.com/common-voice/cv-sentence-extractor/issues/182#issuecomment-1589533776",
