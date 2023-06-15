@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-06-15T15:33:48.000Z",
+    "description": "mozillach/mozilla-watcher: Adjust new umami ID",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/89fb0b9493aee6ee021687c589f82cbf4a45eaf5",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-06-14T19:54:13.000Z",
     "description": "Is there a limit to the audio duration?",
     "link": "https://github.com/common-voice/cv-sentence-extractor/issues/181#issuecomment-1591885792",
