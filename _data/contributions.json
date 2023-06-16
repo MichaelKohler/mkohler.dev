@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-06-16T20:25:26.021Z",
+    "description": "Some questions on cv-sentence-extractor",
+    "link": "https://discourse.mozilla.org/t/some-questions-on-cv-sentence-extractor/120371/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2023-06-15T15:33:48.000Z",
     "description": "mozillach/mozilla-watcher: Adjust new umami ID",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/89fb0b9493aee6ee021687c589f82cbf4a45eaf5",
