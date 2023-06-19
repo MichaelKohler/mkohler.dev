@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-06-19T14:30:22.000Z",
+    "description": "Replacements not considering whitespace",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/issues/186#issuecomment-1597294601",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-06-19T11:12:13.000Z",
     "description": "Weird bug in replace",
     "link": "https://github.com/common-voice/cv-sentence-extractor/issues/186#issuecomment-1596992746",
