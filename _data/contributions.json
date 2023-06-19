@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-06-19T11:12:13.000Z",
+    "description": "Weird bug in replace",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/issues/186#issuecomment-1596992746",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-06-17T11:21:37.249Z",
     "description": "Some questions on cv-sentence-extractor",
     "link": "https://discourse.mozilla.org/t/some-questions-on-cv-sentence-extractor/120371/6",
