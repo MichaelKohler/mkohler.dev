@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-06-25T17:04:50.000Z",
+    "description": "common-voice/cv-sentence-extractor: Update dependencies except major updates (#192)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/2ff7eb1495cc04f94a4e01bdda37ffec9170eb89",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-06-25T16:02:17.000Z",
     "description": "Update dependencies except major updates",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/192",
