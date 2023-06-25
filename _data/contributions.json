@@ -1,5 +1,47 @@
 [
   {
+    "createdAt": "2023-06-25T16:02:17.000Z",
+    "description": "Update dependencies except major updates",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/192",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2023-06-25T15:25:07.000Z",
+    "description": "Add a new rule - stem_separator_regex",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/187#pullrequestreview-1497114829",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2023-06-25T15:13:39.000Z",
+    "description": "common-voice/cv-sentence-extractor: Fix warnings (#191)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/33439b6db1c423e7c9e38f24aa24ebac5dd9230a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-06-25T15:10:29.000Z",
+    "description": "Fix warnings",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/191",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2023-06-25T15:06:10.000Z",
+    "description": "common-voice/cv-sentence-extractor: Update Python and Node.js in pipeline (#190)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/5a507cf7e686e6ce7b64ea3f771b732b8d122e69",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-06-25T15:05:25.000Z",
+    "description": "Add a new rule - stem_separator_regex",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/187#pullrequestreview-1497109877",
+    "type": "Requested changes on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-06-25T14:58:09.000Z",
     "description": "Update Python and Node.js in pipeline",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/190",
