@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-06-25T10:47:53.869Z",
+    "description": "Some questions on cv-sentence-extractor",
+    "link": "https://discourse.mozilla.org/t/some-questions-on-cv-sentence-extractor/120371/9",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2023-06-19T14:30:22.000Z",
     "description": "Replacements not considering whitespace",
     "link": "https://github.com/common-voice/cv-sentence-extractor/issues/186#issuecomment-1597294601",
