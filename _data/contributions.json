@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2023-06-25T14:58:09.000Z",
+    "description": "Update Python and Node.js in pipeline",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/190",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2023-06-25T14:56:53.000Z",
+    "description": "common-voice/cv-sentence-extractor: Update used actions in pipeline (#189)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/04143e93bece351bce633b55b030ef54c8251fbc",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-06-25T14:52:47.000Z",
+    "description": "Update used actions in pipeline",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/189",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2023-06-25T13:41:36.000Z",
     "description": "Add a new rule - stem_separator_regex",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/187#pullrequestreview-1497075814",
