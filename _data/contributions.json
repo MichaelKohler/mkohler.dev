@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-06-30T16:38:22.000Z",
+    "description": "common-voice/cv-sentence-extractor: Fix toolchain to nightly-2023-07-28 (#195)\n\n* Fix toolchain to nightly-2023-07-28\r\n* Adjust workflows as well",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/0a37168d553e5a7257f9097bdd40a9e3818cd074",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-06-30T15:51:29.000Z",
     "description": "Update python-inline to 0.11.0",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/196",
