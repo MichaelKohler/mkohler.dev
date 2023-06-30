@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2023-06-30T15:51:29.000Z",
+    "description": "Update python-inline to 0.11.0",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/196",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2023-06-30T15:50:33.000Z",
+    "description": "Fix toolchain to nightly-2023-07-28",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/195",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2023-06-29T17:26:08.000Z",
     "description": "Fix: stem_separator_regex does not work on real data",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/194#pullrequestreview-1505781004",
