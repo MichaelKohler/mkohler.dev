@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-07-01T13:28:02.000Z",
+    "description": "common-voice/cv-sentence-extractor: Upgrade clap (#197)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/fef72ab03a5e514a8e6d931fdb7f3bc5e6c1164d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-07-01T09:28:26.000Z",
     "description": "Upgrade clap",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/197",
