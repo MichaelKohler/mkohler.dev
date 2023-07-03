@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-07-03T14:15:07.000Z",
+    "description": "[BUG] Complete text-corpora not accessible anymore",
+    "link": "https://github.com/common-voice/common-voice/issues/4100#issuecomment-1618399921",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-07-01T13:28:02.000Z",
     "description": "common-voice/cv-sentence-extractor: Upgrade clap (#197)",
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/fef72ab03a5e514a8e6d931fdb7f3bc5e6c1164d",
