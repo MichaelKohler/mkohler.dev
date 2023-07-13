@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-07-13T17:56:14.000Z",
+    "description": "Feature/rule remove parentheses",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/199#pullrequestreview-1528948014",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-07-03T14:15:07.000Z",
     "description": "[BUG] Complete text-corpora not accessible anymore",
     "link": "https://github.com/common-voice/common-voice/issues/4100#issuecomment-1618399921",
