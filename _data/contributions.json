@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-07-22T09:03:55.000Z",
+    "description": "Bad behavior in wikiextractor",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/issues/200#issuecomment-1646535320",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-07-13T17:56:14.000Z",
     "description": "Feature/rule remove parentheses",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/199#pullrequestreview-1528948014",
