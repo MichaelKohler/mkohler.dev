@@ -64568,13 +64568,6 @@
     "source": "github-comments"
   },
   {
-    "createdAt": "2016-06-08T02:04:19.152Z",
-    "description": "Same origin policy and CORS : how to handle it with \"W3C\" webapps",
-    "link": "https://discourse.mozilla.org/t/same-origin-policy-and-cors-how-to-handle-it-with-w3c-webapps/9131/3",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
     "createdAt": "2016-06-08T00:00:00.000Z",
     "description": "Participated in the weekly Reps Council call",
     "type": "Participated in a meeting",
@@ -67718,20 +67711,6 @@
     "source": "github-comments"
   },
   {
-    "createdAt": "2016-04-26T16:35:27.823Z",
-    "description": "Nightly Testers Group on Telegram App",
-    "link": "https://discourse.mozilla.org/t/nightly-testers-group-on-telegram-app/8316/4",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2016-04-25T22:44:38.664Z",
-    "description": "Nightly Testers Group on Telegram App",
-    "link": "https://discourse.mozilla.org/t/nightly-testers-group-on-telegram-app/8316/2",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
     "createdAt": "2016-04-24T19:33:30.000Z",
     "description": "Edited WeeklyUpdates/2016-04-25",
     "link": "https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2016-04-25&diff=1129111",
@@ -69650,13 +69629,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2016-03-01T18:35:40.827Z",
-    "description": "Update on B2G OS for smartphones transition",
-    "link": "https://discourse.mozilla.org/t/update-on-b2g-os-for-smartphones-transition/7364/5",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
     "createdAt": "2016-03-01T09:31:07.000Z",
     "description": "Organize the March monthly Meetup in Zurich",
     "link": "https://github.com/mozillach/participation/issues/25#issuecomment-190632517",
@@ -70875,13 +70847,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2016-02-07T00:29:44.134Z",
-    "description": "Firefox OS/Connected Devices Announcement",
-    "link": "https://discourse.mozilla.org/t/firefox-os-connected-devices-announcement/6864/88",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
     "createdAt": "2016-02-07T00:00:00.000Z",
     "description": "Wrote up my blog post for the mozilla.ch goals for the first half of 2016",
     "type": "Wrote an article",
@@ -70894,13 +70859,6 @@
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1246376#c0",
     "type": "Created a Bug Report",
     "source": "bugzilla-created"
-  },
-  {
-    "createdAt": "2016-02-04T09:24:29.378Z",
-    "description": "Firefox OS/Connected Devices Announcement",
-    "link": "https://discourse.mozilla.org/t/firefox-os-connected-devices-announcement/6864/3",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
   },
   {
     "createdAt": "2016-02-04T00:00:00.000Z",
@@ -71204,13 +71162,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-12-14T14:21:10.391Z",
-    "description": "Add-ons we would like to see",
-    "link": "https://discourse.mozilla.org/t/add-ons-we-would-like-to-see/5599/22",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
     "createdAt": "2015-12-11T18:59:35.000Z",
     "description": "Write-up Mid-term planning goals for German-speaking community",
     "link": "https://github.com/mozilla/community-development/issues/246#issuecomment-164017975",
@@ -71477,13 +71428,6 @@
     "source": "discourse-posts"
   },
   {
-    "createdAt": "2015-11-25T08:26:32.091Z",
-    "description": "2015-11-24 Aries 2.6 build (master)",
-    "link": "https://discourse.mozilla.org/t/2015-11-24-aries-2-6-build-master/5571/3",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
     "createdAt": "2015-11-25T00:00:00.000Z",
     "description": "Had a chat with Manuela to talk about an upcoming event and she had a few questions.",
     "type": "Communicated with my mentee/mentor",
@@ -71594,13 +71538,6 @@
     "type": "Organized an Event",
     "link": "https://reps.mozilla.org/e/mozillach-community-meetup/",
     "source": "reps"
-  },
-  {
-    "createdAt": "2015-11-14T14:36:01.614Z",
-    "description": "Mozvr on foxfooding build?",
-    "link": "https://discourse.mozilla.org/t/mozvr-on-foxfooding-build/5318/2",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
   },
   {
     "createdAt": "2015-11-14T14:29:08.093Z",
@@ -71839,20 +71776,6 @@
     "link": "https://github.com/mozillach/mozilla.ch/issues/50#issuecomment-152830942",
     "type": "Commented on an Issue",
     "source": "github-comments"
-  },
-  {
-    "createdAt": "2015-11-01T14:29:24.155Z",
-    "description": "When will the next update come?",
-    "link": "https://discourse.mozilla.org/t/when-will-the-next-update-come/5027/4",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
-    "createdAt": "2015-11-01T14:17:03.632Z",
-    "description": "When will the next update come?",
-    "link": "https://discourse.mozilla.org/t/when-will-the-next-update-come/5027/2",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
   },
   {
     "createdAt": "2015-10-31T23:27:44.000Z",
@@ -72996,13 +72919,6 @@
     "source": "github-comments"
   },
   {
-    "createdAt": "2015-09-16T00:09:19.344Z",
-    "description": "September 28-29 Firefox OS Participation Workshop - Streaming information",
-    "link": "https://discourse.mozilla.org/t/september-28-29-firefox-os-participation-workshop-streaming-information/4077/2",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
-  },
-  {
     "createdAt": "2015-09-16T00:00:00.000Z",
     "description": "Attended the Fall Campaign Cross Functional meeting",
     "type": "Participated in a campaign",
@@ -73925,13 +73841,6 @@
     "type": "Completed post-event metrics",
     "link": "https://reps.mozilla.org/e/mozilla-switzerland-barbeque-1/",
     "source": "reps"
-  },
-  {
-    "createdAt": "2015-08-08T22:17:35.970Z",
-    "description": "No more builds available after 20150701?",
-    "link": "https://discourse.mozilla.org/t/no-more-builds-available-after-20150701/3100/4",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
   },
   {
     "createdAt": "2015-08-08T22:13:58.739Z",
@@ -80211,13 +80120,6 @@
     "type": "Organized an Event",
     "link": "https://reps.mozilla.org/e/firefox-addons-sdk-talk/",
     "source": "reps"
-  },
-  {
-    "createdAt": "2014-10-07T22:33:04.403Z",
-    "description": "People selling tablets",
-    "link": "https://discourse.mozilla.org/t/people-selling-tablets/645/6",
-    "type": "Posted on Discourse Topic",
-    "source": "discourse-posts"
   },
   {
     "createdAt": "2014-10-06T20:27:00.100Z",
