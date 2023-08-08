@@ -3,7 +3,7 @@ name: Fetch
 on:
   schedule:
     # every hour
-    - cron: "0 * * * *"
+    - cron: "0 4 * * *"
   workflow_dispatch:
 
 jobs:
