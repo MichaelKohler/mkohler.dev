@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-08-08T22:06:36.000Z",
+    "description": "Add rule to remove content between brackets",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/199#pullrequestreview-1568307840",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-08-08T21:52:15.000Z",
     "description": "Bad behavior in wikiextractor",
     "link": "https://github.com/common-voice/cv-sentence-extractor/issues/200#issuecomment-1670356977",
