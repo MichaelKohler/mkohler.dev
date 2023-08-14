@@ -82,7 +82,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding-top: 1.7rem;
   padding-bottom: 0.8rem;
-  line-height: 1.5rem;
 }
 
 h4, h5, h6 {
@@ -93,20 +92,24 @@ h4, h5, h6 {
 h1 {
   font-size: 2.5rem;
   font-weight: 500;
+  line-height: 3rem;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 3rem;
 }
 
 h3 {
   font-size: 1.7rem;
   font-weight: 700;
+  line-height: 2.5rem;
 }
 
 h4 {
   font-size: 1.4rem;
+  line-height: 2rem;
   letter-spacing: 3px;
   font-weight: 400;
 }
