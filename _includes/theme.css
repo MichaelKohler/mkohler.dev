@@ -82,6 +82,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding-top: 1.7rem;
   padding-bottom: 0.8rem;
+  line-height: 1.5rem;
 }
 
 h4, h5, h6 {
