@@ -28826,6 +28826,13 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2019-03-27T09:52:56.353Z",
+    "description": "Reps Portal Release Notes - 2019-03-27 - Crosspost",
+    "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2019-03-27-crosspost/37487",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
     "createdAt": "2019-03-27T09:51:32.323Z",
     "description": "Reps Portal Release Notes - 2019-03-27",
     "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2019-03-27/37486",
@@ -39550,6 +39557,13 @@
     "source": "github-commit"
   },
   {
+    "createdAt": "2018-06-28T19:20:13.200Z",
+    "description": "Mozilla Discourse release 2018-06-28",
+    "link": "https://discourse.mozilla.org/t/mozilla-discourse-release-2018-06-28/29689/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2018-06-28T00:00:00.000Z",
     "description": "Reps Peers Call 2018-06-27",
     "type": "Completed post-event metrics",
@@ -40675,6 +40689,13 @@
     "link": "https://github.com/mozilla/bedrock/pull/5734",
     "type": "Created PR",
     "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2018-05-23T16:46:00.285Z",
+    "description": "Reps Portal Release Notes - 2018-05-23 - Crosspost",
+    "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2018-05-23-crosspost/28823",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
   },
   {
     "createdAt": "2018-05-23T16:42:27.161Z",
@@ -43036,6 +43057,13 @@
     "source": "discourse-topics"
   },
   {
+    "createdAt": "2018-04-01T13:10:34.010Z",
+    "description": "Reps Portal Release Notes - 2018-03-29 - Crosspost",
+    "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2018-03-29-crosspost/27254",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
     "createdAt": "2018-04-01T13:09:27.324Z",
     "description": "Reps Portal Release Notes - 2018-03-29",
     "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2018-03-29/27253",
@@ -43204,6 +43232,13 @@
     "source": "github-commit"
   },
   {
+    "createdAt": "2018-03-22T20:58:56.311Z",
+    "description": "Reps Portal Release Notes 2018-03-21 - Crosspost",
+    "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2018-03-21-crosspost/26855",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
     "createdAt": "2018-03-22T20:58:16.227Z",
     "description": "Reps Portal Release Notes - 2018-03-21",
     "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2018-03-21/26854",
@@ -43274,6 +43309,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2018-03-15T23:38:07.995Z",
+    "description": "Reps Portal Release Notes 2018-03-14 - Crosspost",
+    "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2018-03-14-crosspost/26616",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
     "createdAt": "2018-03-15T23:37:15.050Z",
     "description": "Reps Portal Release Notes - 2018-03-14",
     "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-2018-03-14/26615",
@@ -43321,6 +43363,13 @@
     "link": "https://github.com/mozilla/reps-tweets/issues/49#issuecomment-372018929",
     "type": "Commented on an Issue",
     "source": "github-comments"
+  },
+  {
+    "createdAt": "2018-03-09T19:23:10.294Z",
+    "description": "NDA renewal procedure",
+    "link": "https://discourse.mozilla.org/t/nda-renewal-procedure/26414/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2018-03-08T00:00:00.000Z",
@@ -43552,6 +43601,13 @@
     "type": "Completed post-event metrics",
     "link": "https://reps.mozilla.org/e/informal-mozilla-meetup-bern-january-2018/",
     "source": "reps"
+  },
+  {
+    "createdAt": "2018-02-14T17:16:27.090Z",
+    "description": "Reps Portal Release Notes - Crosspost",
+    "link": "https://discourse.mozilla.org/t/reps-portal-release-notes-crosspost/25631",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
   },
   {
     "createdAt": "2018-02-14T17:15:54.672Z",
@@ -44744,6 +44800,13 @@
     "source": "github-comments"
   },
   {
+    "createdAt": "2018-01-08T18:45:37.384Z",
+    "description": "Securing GitHub pages with Terraform, CloudFront and Lambda",
+    "link": "https://discourse.mozilla.org/t/securing-github-pages-with-terraform-cloudfront-and-lambda/24215/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2018-01-08T16:06:45.000Z",
     "description": "Web Speech API not accesible",
     "link": "https://github.com/mozilla/firefox57-sprint/issues/117#issuecomment-356010056",
@@ -45449,6 +45512,13 @@
     "link": "https://github.com/mozilla/newfirefox.mozilla.community/commit/2c97a167d912b6a0ca25ca66af4b20cf9f2e6fc7",
     "type": "GitHub Commit",
     "source": "github-commit"
+  },
+  {
+    "createdAt": "2017-11-12T14:19:57.930Z",
+    "description": "Mozilla.org locale redirects",
+    "link": "https://discourse.mozilla.org/t/mozilla-org-locale-redirects/22225/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2017-11-12T12:37:23.413Z",
@@ -49805,6 +49875,13 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2017-09-01T13:37:18.018Z",
+    "description": "Need of FSA section in discourse",
+    "link": "https://discourse.mozilla.org/t/need-of-fsa-section-in-discourse/18705/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2017-09-01T10:20:58.000Z",
     "description": "Improve Design",
     "link": "https://github.com/mozilla/firefox57-sprint/issues/36#issuecomment-326545856",
@@ -50230,6 +50307,13 @@
     "link": "https://github.com/mozilla/Reps/issues/249",
     "type": "Created Issue Report",
     "source": "github-issues-created"
+  },
+  {
+    "createdAt": "2017-08-29T20:43:50.187Z",
+    "description": "Mozilla Discourse release 2017-08-29",
+    "link": "https://discourse.mozilla.org/t/mozilla-discourse-release-2017-08-29/18537/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2017-08-29T14:31:39.000Z",
@@ -52122,6 +52206,13 @@
     "source": "github-pr-created"
   },
   {
+    "createdAt": "2017-08-02T21:07:21.232Z",
+    "description": "Mozilla Discourse release 2017-08-02",
+    "link": "https://discourse.mozilla.org/t/mozilla-discourse-release-2017-08-02/17627/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2017-08-02T18:21:42.000Z",
     "description": "mozilla/remo: Update texts to reflect recent changes in the program (#1369)\n\n* Update texts to reflect recent changes in the program\r\n\r\n* Fix markup",
     "link": "https://github.com/mozilla/remo/commit/a5bfe16d334071ee9ab19e305848dad06a9d3ac1",
@@ -52402,6 +52493,13 @@
     "source": "github-comments"
   },
   {
+    "createdAt": "2017-07-27T19:27:01.403Z",
+    "description": "Mozilla Discourse release 2017-07-25",
+    "link": "https://discourse.mozilla.org/t/mozilla-discourse-release-2017-07-25/17383/8",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2017-07-27T18:41:56.000Z",
     "description": "Add new Reps to \"New Reps\" website",
     "link": "https://github.com/mozilla/Reps/issues/224#issuecomment-318450814",
@@ -52496,6 +52594,13 @@
     "createdAt": "2017-07-25T23:10:41.817Z",
     "description": "When will be able to see some statistics about the project?",
     "link": "https://discourse.mozilla.org/t/when-will-be-able-to-see-some-statistics-about-the-project/17392/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2017-07-25T21:50:25.931Z",
+    "description": "Mozilla Discourse release 2017-07-25",
+    "link": "https://discourse.mozilla.org/t/mozilla-discourse-release-2017-07-25/17383/7",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
   },
@@ -53511,6 +53616,13 @@
     "createdAt": "2017-06-24T00:52:10.203Z",
     "description": "Strategy on converting people to Nightly users",
     "link": "https://discourse.mozilla.org/t/strategy-on-converting-people-to-nightly-users/16139/7",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2017-06-23T17:52:23.324Z",
+    "description": "Mozillians.org search refactor",
+    "link": "https://discourse.mozilla.org/t/mozillians-org-search-refactor/16637/2",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
   },
@@ -55293,6 +55405,13 @@
     "source": "github-commit"
   },
   {
+    "createdAt": "2017-05-09T19:52:00.482Z",
+    "description": "Mozilla Tech Speakers program update",
+    "link": "https://discourse.mozilla.org/t/mozilla-tech-speakers-program-update/15484/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2017-05-09T19:46:28.566Z",
     "description": "WebVR Workshop in Lausanne",
     "link": "https://discourse.mozilla.org/t/webvr-workshop-in-lausanne/15500",
@@ -55662,6 +55781,13 @@
     "link": "https://github.com/mozilla/Reps/issues/154#issuecomment-297148161",
     "type": "Commented on an Issue",
     "source": "github-comments"
+  },
+  {
+    "createdAt": "2017-04-25T19:44:26.963Z",
+    "description": "Mozilla Discourse release 2017-04-25",
+    "link": "https://discourse.mozilla.org/t/mozilla-discourse-release-2017-04-25/15222/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2017-04-25T17:58:23.000Z",
@@ -56229,6 +56355,13 @@
     "link": "https://github.com/mozilla/remo/commit/2b24e2b64da36d222cbe015c03e47d66e26aa1c1",
     "type": "GitHub Commit",
     "source": "github-commit"
+  },
+  {
+    "createdAt": "2017-04-07T22:08:16.222Z",
+    "description": "Q2/2017 OKRs for Participation Systems",
+    "link": "https://discourse.mozilla.org/t/q2-2017-okrs-for-participation-systems/14905/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2017-04-07T21:56:16.000Z",
@@ -60081,6 +60214,13 @@
     "source": "github-comments"
   },
   {
+    "createdAt": "2017-01-23T11:16:25.702Z",
+    "description": "Applying for Regional Coordinator",
+    "link": "https://discourse.mozilla.org/t/applying-for-regional-coordinator/13131/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2017-01-23T10:54:30.000Z",
     "description": "Need to understand the Data extracted from Reps API and the formatting ",
     "link": "https://github.com/mozilla/participation-metrics-org/issues/74#issuecomment-274456718",
@@ -60149,6 +60289,13 @@
     "link": "https://github.com/mozillach/mozilla-watcher/commit/e63a4c25e365261b5ea27cf4f864ac01f141dde4",
     "type": "GitHub Commit",
     "source": "github-commit"
+  },
+  {
+    "createdAt": "2017-01-20T22:35:41.463Z",
+    "description": "ParSys Sprint 17 (\"Autopilot\") - Forecast",
+    "link": "https://discourse.mozilla.org/t/parsys-sprint-17-autopilot-forecast/13051/5",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2017-01-20T16:48:59.825Z",
@@ -60401,6 +60548,20 @@
     "link": "https://github.com/mozilla/Reps/issues/118#issuecomment-273556880",
     "type": "Commented on an Issue",
     "source": "github-comments"
+  },
+  {
+    "createdAt": "2017-01-17T18:15:12.375Z",
+    "description": "ParSys Sprint 16 - Impact Evaluation",
+    "link": "https://discourse.mozilla.org/t/parsys-sprint-16-impact-evaluation/13050/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2017-01-17T18:12:48.520Z",
+    "description": "ParSys Sprint 17 (\"Autopilot\") - Forecast",
+    "link": "https://discourse.mozilla.org/t/parsys-sprint-17-autopilot-forecast/13051/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2017-01-17T18:06:36.000Z",
@@ -60695,6 +60856,27 @@
     "type": "Attended an Event",
     "link": "https://reps.mozilla.org/e/remo-call-12-01-17/",
     "source": "reps"
+  },
+  {
+    "createdAt": "2017-01-10T23:43:17.014Z",
+    "description": "ParSys Sprint 16 (\"CES 2017\") - Forecast",
+    "link": "https://discourse.mozilla.org/t/parsys-sprint-16-ces-2017-forecast/12899/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2017-01-10T23:41:27.277Z",
+    "description": "ParSys Sprint Communication Update",
+    "link": "https://discourse.mozilla.org/t/parsys-sprint-communication-update/12911/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2017-01-10T23:40:26.833Z",
+    "description": "ParSys Sprint Communication Update",
+    "link": "https://discourse.mozilla.org/t/parsys-sprint-communication-update/12911/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2017-01-10T14:21:08.000Z",
@@ -61369,6 +61551,13 @@
     "source": "github-commit"
   },
   {
+    "createdAt": "2016-12-28T13:01:08.888Z",
+    "description": "ReMo portal releases 496 to 498",
+    "link": "https://discourse.mozilla.org/t/remo-portal-releases-496-to-498/12582/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2016-12-28T12:34:29.000Z",
     "description": "Edited Reps/SOPs/Joining",
     "link": "https://wiki.mozilla.org/index.php?title=Reps/SOPs/Joining&diff=1158025",
@@ -61479,6 +61668,20 @@
     "link": "https://github.com/mozilla/Reps/issues/88#issuecomment-268585472",
     "type": "Commented on an Issue",
     "source": "github-comments"
+  },
+  {
+    "createdAt": "2016-12-20T20:57:54.306Z",
+    "description": "ReMo portal releases 496 to 498",
+    "link": "https://discourse.mozilla.org/t/remo-portal-releases-496-to-498/12582/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2016-12-20T20:53:18.162Z",
+    "description": "ParSys Sprint 14 (\"Gift Guide\") started",
+    "link": "https://discourse.mozilla.org/t/parsys-sprint-14-gift-guide-started/12579/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2016-12-20T00:00:00.000Z",
@@ -61680,6 +61883,13 @@
     "createdAt": "2016-11-21T20:39:25.922Z",
     "description": "Event Topic Suggestions",
     "link": "https://discourse.mozilla.org/t/event-topic-suggestions/9339/8",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2016-11-21T20:35:10.376Z",
+    "description": "ParSys Sprint 12 (\"Mekamon\") started",
+    "link": "https://discourse.mozilla.org/t/parsys-sprint-12-mekamon-started/12141/2",
     "type": "Posted on Discourse Topic",
     "source": "discourse-posts"
   },
@@ -64603,6 +64813,13 @@
     "source": "github-comments"
   },
   {
+    "createdAt": "2016-06-08T02:04:19.152Z",
+    "description": "Same origin policy and CORS : how to handle it with \"W3C\" webapps",
+    "link": "https://discourse.mozilla.org/t/same-origin-policy-and-cors-how-to-handle-it-with-w3c-webapps/9131/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2016-06-08T00:00:00.000Z",
     "description": "Participated in the weekly Reps Council call",
     "type": "Participated in a meeting",
@@ -66752,6 +66969,13 @@
     "source": "github-comments"
   },
   {
+    "createdAt": "2016-05-05T10:46:40.125Z",
+    "description": "Vaani.iot documentation",
+    "link": "https://discourse.mozilla.org/t/vaani-iot-documentation/8500",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
+  },
+  {
     "createdAt": "2016-05-05T10:46:07.000Z",
     "description": "Get a Rust intro by Rust Switzerland Community in June",
     "link": "https://github.com/mozillach/participation/issues/33#issuecomment-217122722",
@@ -67744,6 +67968,20 @@
     "link": "https://github.com/mozillach/participation/issues/30#issuecomment-214827309",
     "type": "Commented on an Issue",
     "source": "github-comments"
+  },
+  {
+    "createdAt": "2016-04-26T16:35:27.823Z",
+    "description": "Nightly Testers Group on Telegram App",
+    "link": "https://discourse.mozilla.org/t/nightly-testers-group-on-telegram-app/8316/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2016-04-25T22:44:38.664Z",
+    "description": "Nightly Testers Group on Telegram App",
+    "link": "https://discourse.mozilla.org/t/nightly-testers-group-on-telegram-app/8316/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2016-04-24T19:33:30.000Z",
@@ -69664,6 +69902,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2016-03-01T18:35:40.827Z",
+    "description": "Update on B2G OS for smartphones transition",
+    "link": "https://discourse.mozilla.org/t/update-on-b2g-os-for-smartphones-transition/7364/5",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2016-03-01T09:31:07.000Z",
     "description": "Organize the March monthly Meetup in Zurich",
     "link": "https://github.com/mozillach/participation/issues/25#issuecomment-190632517",
@@ -70882,6 +71127,13 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2016-02-07T00:29:44.134Z",
+    "description": "Firefox OS/Connected Devices Announcement",
+    "link": "https://discourse.mozilla.org/t/firefox-os-connected-devices-announcement/6864/88",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2016-02-07T00:00:00.000Z",
     "description": "Wrote up my blog post for the mozilla.ch goals for the first half of 2016",
     "type": "Wrote an article",
@@ -70894,6 +71146,13 @@
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1246376#c0",
     "type": "Created a Bug Report",
     "source": "bugzilla-created"
+  },
+  {
+    "createdAt": "2016-02-04T09:24:29.378Z",
+    "description": "Firefox OS/Connected Devices Announcement",
+    "link": "https://discourse.mozilla.org/t/firefox-os-connected-devices-announcement/6864/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2016-02-04T00:00:00.000Z",
@@ -71197,6 +71456,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-12-14T14:21:10.391Z",
+    "description": "Add-ons we would like to see",
+    "link": "https://discourse.mozilla.org/t/add-ons-we-would-like-to-see/5599/22",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2015-12-11T18:59:35.000Z",
     "description": "Write-up Mid-term planning goals for German-speaking community",
     "link": "https://github.com/mozilla/community-development/issues/246#issuecomment-164017975",
@@ -71463,6 +71729,13 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2015-11-25T08:26:32.091Z",
+    "description": "2015-11-24 Aries 2.6 build (master)",
+    "link": "https://discourse.mozilla.org/t/2015-11-24-aries-2-6-build-master/5571/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2015-11-25T00:00:00.000Z",
     "description": "Had a chat with Manuela to talk about an upcoming event and she had a few questions.",
     "type": "Communicated with my mentee/mentor",
@@ -71573,6 +71846,13 @@
     "type": "Organized an Event",
     "link": "https://reps.mozilla.org/e/mozillach-community-meetup/",
     "source": "reps"
+  },
+  {
+    "createdAt": "2015-11-14T14:36:01.614Z",
+    "description": "Mozvr on foxfooding build?",
+    "link": "https://discourse.mozilla.org/t/mozvr-on-foxfooding-build/5318/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2015-11-14T14:29:08.093Z",
@@ -71811,6 +72091,20 @@
     "link": "https://github.com/mozillach/mozilla.ch/issues/50#issuecomment-152830942",
     "type": "Commented on an Issue",
     "source": "github-comments"
+  },
+  {
+    "createdAt": "2015-11-01T14:29:24.155Z",
+    "description": "When will the next update come?",
+    "link": "https://discourse.mozilla.org/t/when-will-the-next-update-come/5027/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
+    "createdAt": "2015-11-01T14:17:03.632Z",
+    "description": "When will the next update come?",
+    "link": "https://discourse.mozilla.org/t/when-will-the-next-update-come/5027/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2015-10-31T23:27:44.000Z",
@@ -72709,6 +73003,13 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2015-09-28T20:03:41.250Z",
+    "description": "FSA Business Cards",
+    "link": "https://discourse.mozilla.org/t/fsa-business-cards/4267/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2015-09-28T18:56:18.442Z",
     "description": "Council Meeting Notes - 2015-09-23",
     "link": "https://discourse.mozilla.org/t/council-meeting-notes-2015-09-23/4302",
@@ -72952,6 +73253,13 @@
     "link": "https://github.com/mozillach/mozilla.ch/issues/17#issuecomment-140722752",
     "type": "Commented on an Issue",
     "source": "github-comments"
+  },
+  {
+    "createdAt": "2015-09-16T00:09:19.344Z",
+    "description": "September 28-29 Firefox OS Participation Workshop - Streaming information",
+    "link": "https://discourse.mozilla.org/t/september-28-29-firefox-os-participation-workshop-streaming-information/4077/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2015-09-16T00:00:00.000Z",
@@ -73876,6 +74184,13 @@
     "type": "Completed post-event metrics",
     "link": "https://reps.mozilla.org/e/mozilla-switzerland-barbeque-1/",
     "source": "reps"
+  },
+  {
+    "createdAt": "2015-08-08T22:17:35.970Z",
+    "description": "No more builds available after 20150701?",
+    "link": "https://discourse.mozilla.org/t/no-more-builds-available-after-20150701/3100/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2015-08-08T22:13:58.739Z",
@@ -75465,6 +75780,13 @@
     "type": "Worked on project planning",
     "link": "",
     "source": "reps"
+  },
+  {
+    "createdAt": "2015-05-20T22:16:15.537Z",
+    "description": "The fight between Google and Mozilla in Ivory Coast",
+    "link": "https://discourse.mozilla.org/t/the-fight-between-google-and-mozilla-in-ivory-coast/2158/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2015-05-20T20:16:03.000Z",
@@ -80155,6 +80477,13 @@
     "type": "Organized an Event",
     "link": "https://reps.mozilla.org/e/firefox-addons-sdk-talk/",
     "source": "reps"
+  },
+  {
+    "createdAt": "2014-10-07T22:33:04.403Z",
+    "description": "People selling tablets",
+    "link": "https://discourse.mozilla.org/t/people-selling-tablets/645/6",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
   },
   {
     "createdAt": "2014-10-06T20:27:00.100Z",
