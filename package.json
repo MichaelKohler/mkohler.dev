@@ -5,7 +5,7 @@
   "author": "Michael Kohler",
   "license": "MIT",
   "dependencies": {
-    "volunteer-contributions-fetch": "^2.3.8"
+    "volunteer-contributions-fetch": "^2.4.0"
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",

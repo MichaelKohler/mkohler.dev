@@ -11,6 +11,7 @@ const config = {
     enabled: true,
     baseUrl: 'https://discourse.mozilla.org',
     username: 'mkohler',
+    keepDeletedPost: true,
   },
   mediaWiki: {
     enabled: true,
