@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2023-08-19T13:15:41.000Z",
+    "description": "common-voice/cv-sentence-extractor: Fix command position of arguments and make title-filter-list optional (#201)\n\n* Make --title-filter-list optional\r\n* Fix position of arguments in scripts\r\n* Also adjust README",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/commit/75b59496445f02b2c325788fe5cc7fc1552bb84e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-08-19T13:10:15.000Z",
+    "description": "Fix command position of arguments and make title-filter-list optional",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/201",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2023-08-17T16:27:31.000Z",
     "description": "\"Public\" view doesn't work",
     "link": "https://github.com/mozilla-iam/dino-park-front-end/issues/704#issuecomment-1682598612",
