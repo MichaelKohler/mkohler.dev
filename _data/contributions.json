@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2023-08-22T18:54:55.000Z",
+    "description": "[BUG] Outdated Sentence Collector guideline on About page",
+    "link": "https://github.com/common-voice/common-voice/issues/4152",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
+    "createdAt": "2023-08-22T18:50:43.000Z",
+    "description": "[BUG] Several outdated documentation parts",
+    "link": "https://github.com/common-voice/common-voice/issues/4151",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
+    "createdAt": "2023-08-22T18:34:57.000Z",
+    "description": "Bulk Upload: Add Turkish Wikipedia extract",
+    "link": "https://github.com/common-voice/common-voice/pull/4150",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2023-08-22T10:51:59.000Z",
+    "description": "Add Turkish support (2023-08 finalized)",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/185#pullrequestreview-1589154151",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-08-19T13:15:41.000Z",
     "description": "common-voice/cv-sentence-extractor: Fix command position of arguments and make title-filter-list optional (#201)\n\n* Make --title-filter-list optional\r\n* Fix position of arguments in scripts\r\n* Also adjust README",
     "link": "https://github.com/common-voice/cv-sentence-extractor/commit/75b59496445f02b2c325788fe5cc7fc1552bb84e",
