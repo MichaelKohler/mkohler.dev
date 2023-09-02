@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-09-01T16:21:43.176Z",
+    "description": "Important Announcement: ⚠️ Decommissioning of the Mozilla Reps Program ⚠️",
+    "link": "https://discourse.mozilla.org/t/important-announcement-decommissioning-of-the-mozilla-reps-program/122291/7",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2023-08-22T18:54:55.000Z",
     "description": "[BUG] Outdated Sentence Collector guideline on About page",
     "link": "https://github.com/common-voice/common-voice/issues/4152",
