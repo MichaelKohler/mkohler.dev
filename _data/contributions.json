@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-09-05T09:49:28.000Z",
+    "description": "Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation",
+    "link": "https://github.com/common-voice/common-voice/pull/4058#pullrequestreview-1610670144",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-09-01T16:21:43.176Z",
     "description": "Important Announcement: ⚠️ Decommissioning of the Mozilla Reps Program ⚠️",
     "link": "https://discourse.mozilla.org/t/important-announcement-decommissioning-of-the-mozilla-reps-program/122291/7",
