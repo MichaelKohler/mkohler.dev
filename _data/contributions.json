@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-09-07T07:42:41.000Z",
+    "description": "common-voice/common-voice: Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation (#4058)\n\n* Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation\r\n\r\n* Slightly adjust wording and fix link",
+    "link": "https://github.com/common-voice/common-voice/commit/4b9c899f63be79925564806b2c30ef774c558015",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-09-05T09:49:28.000Z",
     "description": "Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation",
     "link": "https://github.com/common-voice/common-voice/pull/4058#pullrequestreview-1610670144",
