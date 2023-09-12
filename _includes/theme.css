@@ -320,13 +320,13 @@ nav li:nth-child(6) {
 
 .about {
   flex-grow: 1;
-  padding: 0 30px 20px;
+  padding: 20px 30px 20px;
 }
 
 .sidebar {
   flex-grow: 1;
   background-color: #f2faff;
-  padding: 0 30px;
+  padding: 20px 30px 30px;
 }
 
 .sidebar a {
@@ -367,7 +367,7 @@ nav li:nth-child(6) {
 
 .pro-experience {
   flex-grow: 2;
-  padding: 0 30px 20px;
+  padding: 20px 30px 20px;
 }
 
 .pro-experience h3 {
@@ -410,6 +410,7 @@ nav li:nth-child(6) {
   position: relative;
   font-weight: 700;
   font-size: 1.2rem;
+  line-height: 2.3rem;
   color: #3f3f3f;
 }
 
@@ -450,7 +451,7 @@ nav li:nth-child(6) {
 }
 
 #offline, #notfound, #talks, #opensource, #contributions, #blog, #blogpost {
-  margin: 15px 30px;
+  margin: 20px 30px;
 }
 
 .talks-list {
