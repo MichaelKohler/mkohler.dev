@@ -19,7 +19,7 @@ permalink: "/talks/"
           {% endfor %}
         </div>
         <a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a>
-        <p class="small">{{ talk.date | date: "%Y-%m-%d" }}</p>
+        <p>{{ talk.date | date: "%Y-%m-%d" }}</p>
         <p>{{ talk.description }}</p>
       </div>
     </li>

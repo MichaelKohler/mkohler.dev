@@ -287,8 +287,8 @@ nav li:nth-child(6) {
   background-color: #3a5a77;
 }
 
-.small {
-  font-size: 0.8rem;
+#offline, #notfound, #talks, #opensource, #contributions, #blog, #blogpost {
+  margin: 20px 30px;
 }
 
 .quote {
@@ -335,11 +335,6 @@ nav li:nth-child(6) {
   color: #000;
 }
 
-.pro-experience h3,
-.sidebar h3 {
-  padding-bottom: 20px;
-}
-
 .sidebar-info .row {
   margin-bottom: 15px;
   padding-bottom: 15px;
@@ -352,6 +347,8 @@ nav li:nth-child(6) {
 
 .sidebar-info .row:last-child {
   border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .sidebar-info .row div:first-child {
@@ -394,12 +391,8 @@ nav li:nth-child(6) {
 }
 
 .pro-experience .experience .date {
-  font-size: 1rem;
   margin-bottom: 0;
   color: #3f3f3f;
-  position: relative;
-  display: block;
-  font-weight: 400;
 }
 
 .pro-experience .experience .company {
@@ -450,10 +443,6 @@ nav li:nth-child(6) {
 
 .pro-experience a:hover i::before {
   opacity: .5;
-}
-
-#offline, #notfound, #talks, #opensource, #contributions, #blog, #blogpost {
-  margin: 20px 30px;
 }
 
 .talks-list {
@@ -561,10 +550,6 @@ nav li:nth-child(6) {
 
 #blogpost img {
   max-width: 90%;
-}
-
-.date {
-  font-style: italic;
 }
 
 .pagination {
@@ -818,6 +803,7 @@ footer .design a {
 @media print {
   body {
     font-size: 12px;
+    line-height: 14px;
   }
 
   h1 {
@@ -893,14 +879,18 @@ footer .design a {
   }
 
   .skills, .pro-experience {
-    padding-left: 0;
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
   }
 
   .pro-experience .experience {
     border-left: none;
-    padding-left: 0;
-    margin-left: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .pro-experience .experience .company a {
+    line-height: 1.5rem;
   }
 
   .pro-experience .experience ul {
@@ -917,6 +907,7 @@ footer .design a {
 
   .pro-experience .experience .date {
     font-size: 12px;
+    font-style: italic;
   }
 
   .pro-experience .experience .company {
