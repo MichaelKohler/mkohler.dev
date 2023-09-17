@@ -57,7 +57,7 @@
     <link rel="me" href="https://fosstodon.org/@mkohler" />
 
     {% capture css %}
-      {% include "theme.css" %}
+      {% include "../_includes/theme.css" %}
     {% endcapture %}
     <style>
       {{ css | cssmin }}
@@ -65,11 +65,11 @@
   </head>
 
   <body>
-    {% include "header.html" %}
+    {% include "../_includes/header.html" %}
 
     {{ content }}
 
-    {% include "footer.html" %}
+    {% include "../_includes/footer.html" %}
 
     <script
       src="/main.js"

@@ -25,4 +25,10 @@ module.exports = (eleventyConfig) => {
   });
 
   eleventyConfig.addPlugin(pluginRss);
+
+  return {
+    dir: {
+      includes: '_layouts',
+    },
+  };
 };
