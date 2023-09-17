@@ -21,7 +21,7 @@ module.exports = (eleventyConfig) => {
   });
 
   eleventyConfig.addCollection('blogposts', (collectionApi) => {
-    return collectionApi.getFilteredByGlob('src/blog/*.md').reverse();
+    return collectionApi.getFilteredByGlob('src/blog/posts/*.md').reverse();
   });
 
   eleventyConfig.addPlugin(pluginRss);
