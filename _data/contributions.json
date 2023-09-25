@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2023-09-24T11:14:51.000Z",
+    "description": "mozillach/mozilla-watcher: Add MozillaSocial organization (#229)",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/11a8a58fbb59959ca5a8a18aab8c06e56334e01c",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-09-24T11:10:43.000Z",
+    "description": "Add MozillaSocial organization",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/229",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2023-09-07T07:42:41.000Z",
     "description": "common-voice/common-voice: Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation (#4058)\n\n* Adjust sentences documentation to account for latest Sentence Collector changes and already existing bulk submission documentation\r\n\r\n* Slightly adjust wording and fix link",
     "link": "https://github.com/common-voice/common-voice/commit/4b9c899f63be79925564806b2c30ef774c558015",
