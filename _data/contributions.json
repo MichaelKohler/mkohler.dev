@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2023-09-25T20:00:41.000Z",
+    "description": "mozillach/mozilla-watcher: Update dependencies (#233)\n\n* Update dependencies\r\n* Use secondary rate limit",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/847baa09343ec9f2ccc709a0314278834ac0b696",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-09-25T19:54:31.000Z",
+    "description": "Update dependencies",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/233",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2023-09-25T19:27:05.965Z",
+    "description": "Sätze hören mitten im Wort auf",
+    "link": "https://discourse.mozilla.org/t/satze-horen-mitten-im-wort-auf/122612/4",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2023-09-24T11:14:51.000Z",
     "description": "mozillach/mozilla-watcher: Add MozillaSocial organization (#229)",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/11a8a58fbb59959ca5a8a18aab8c06e56334e01c",
