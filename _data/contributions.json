@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2023-10-11T17:17:06.000Z",
+    "description": "Add note and close reps repos",
+    "link": "https://github.com/mozilla/Reps/issues/447#issuecomment-1758143352",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2023-10-11T17:14:38.000Z",
+    "description": "Bugzilla assets are closed",
+    "link": "https://github.com/mozilla/Reps/issues/443#issuecomment-1758139847",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-09-27T19:42:54.000Z",
     "description": "ReMo Sunset - Reps Council GDrive",
     "link": "https://github.com/mozilla/Reps/issues/438#issuecomment-1737976253",
