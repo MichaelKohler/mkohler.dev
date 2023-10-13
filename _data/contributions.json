@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2023-10-12T10:57:31.000Z",
+    "description": "common-voice/common-voice: Bulk Upload: Add Turkish Wikipedia extract (#4150)",
+    "link": "https://github.com/common-voice/common-voice/commit/4ffebb94f2812e500dcad24bebf271ab28a0f9e5",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2023-10-12T10:15:20.000Z",
+    "description": "common-voice/common-voice: Add Wikipedia DE re-run - 2022-08-16 (#3777)",
+    "link": "https://github.com/common-voice/common-voice/commit/e983ce07e3f4a935b7958c77224c77b7bdc8079a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-10-11T17:17:06.000Z",
     "description": "Add note and close reps repos",
     "link": "https://github.com/mozilla/Reps/issues/447#issuecomment-1758143352",
