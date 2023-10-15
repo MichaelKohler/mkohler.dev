@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-10-14T14:21:50.000Z",
+    "description": "No bug - Remove REMO extension as Reps forms are no longer needed",
+    "link": "https://github.com/mozilla-bteam/bmo/pull/2130",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2023-10-12T10:57:31.000Z",
     "description": "common-voice/common-voice: Bulk Upload: Add Turkish Wikipedia extract (#4150)",
     "link": "https://github.com/common-voice/common-voice/commit/4ffebb94f2812e500dcad24bebf271ab28a0f9e5",
