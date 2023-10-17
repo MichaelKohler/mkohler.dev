@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2023-10-16T17:27:25.000Z",
+    "description": "mozillach/mozilla-watcher: Update organizations to remove deleted mozilla-prototypes org",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/ffd29c184d208d0ca02ff277a6e2e9e04978e810",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2023-10-15T20:23:19.000Z",
     "description": "mozilla-bteam/bmo: Bug 1853465 - [EXT_CLEANUP] Remove REMO extension as it is no longer being used",
     "link": "https://github.com/mozilla-bteam/bmo/commit/9d9e30276800d4561a704ad76e2b02ffea5c9705",
