@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2023-10-31T22:01:24.000Z",
+    "description": "Adding regex replacement feature",
+    "link": "https://github.com/common-voice/cv-sentence-extractor/pull/202#pullrequestreview-1707278908",
+    "type": "Requested changes on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2023-10-31T21:22:14.000Z",
+    "description": "Update thunderbird organization",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/239#pullrequestreview-1707260140",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2023-10-28T13:16:24.000Z",
     "description": "Will update instructions to use latest wikiextractor",
     "link": "https://github.com/common-voice/cv-sentence-extractor/pull/203#pullrequestreview-1702788623",
