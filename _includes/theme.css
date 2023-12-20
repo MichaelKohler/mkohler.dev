@@ -79,6 +79,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Dosis", "Dosis-fallback", sans-serif;
   text-transform: uppercase;
+  line-height: 1.3;
   margin: 0;
   padding-top: 1.7rem;
   padding-bottom: 0.8rem;
@@ -87,17 +88,16 @@ h1, h2, h3, h4, h5, h6 {
 h4, h5, h6 {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  font-weight: 400;
 }
 
 h1 {
   font-size: 2.5rem;
-  line-height: 3rem;
   font-weight: 500;
 }
 
 h2 {
   font-size: 2rem;
-  line-height: 2.5rem;
   font-weight: 700;
 }
 
@@ -108,13 +108,6 @@ h3 {
 
 h4 {
   font-size: 1.4rem;
-  letter-spacing: 3px;
-  font-weight: 400;
-}
-
-h5 {
-  letter-spacing: 3px;
-  font-weight: 400;
 }
 
 a,
