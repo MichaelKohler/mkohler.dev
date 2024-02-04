@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2024-02-03T12:54:24.000Z",
+    "description": "Add note and close reps repos",
+    "link": "https://github.com/mozilla/Reps/issues/447#issuecomment-1925313449",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2024-02-03T12:52:54.000Z",
+    "description": "mozilla/Reps: Add sunset note",
+    "link": "https://github.com/mozilla/Reps/commit/5a50be83b8f0f28f2d1a5cca259932b0f5a33cfe",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2024-02-03T12:51:31.000Z",
+    "description": "Bugzilla assets are closed",
+    "link": "https://github.com/mozilla/Reps/issues/443#issuecomment-1925312865",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2024-02-03T12:50:11.000Z",
+    "description": "ReMo Sunset - Reps Council GDrive",
+    "link": "https://github.com/mozilla/Reps/issues/438#issuecomment-1925312636",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2024-02-03T09:56:56.000Z",
+    "description": "Close down social media accounts related to Reps",
+    "link": "https://github.com/mozilla/Reps/issues/442#issuecomment-1925251099",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2023-12-01T07:54:58.000Z",
     "description": "mozillach/mozilla-watcher: Add Mozilla-Ocho (#241)",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/2044116487f7d77735ac759edfb65a30b3bb58d9",
