@@ -88,11 +88,6 @@ body {
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
   letter-spacing: 1px;
-  -webkit-font-smoothing: antialiased;
-  -webkit-backface-visibility: hidden;
-  -moz-backface-visibility: hidden;
-  -ms-backface-visibility: hidden;
-  backface-visibility: hidden;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -131,9 +126,6 @@ a i:before {
   text-decoration: underline;
   color: #2f2f2f;
   transition: all 0.25s ease 0s;
-  -moz-transition: all 0.25s ease 0s;
-  -webkit-transition: all 0.25s ease 0s;
-  -o-transition: all 0.25s ease 0s;
 }
 
 p {
