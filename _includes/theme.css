@@ -207,9 +207,11 @@ header {
           flex-grow: 1;
 
           & a {
-            width: 100%;
+            width: calc(100% - 6px);
             text-decoration: none;
             color: var(--text-inverse);
+            padding-block-start: 3px;
+            padding-block-end: 3px;
 
 
             & i {
