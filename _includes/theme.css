@@ -489,6 +489,7 @@ nav li:nth-child(5) {
 #opensource .areas {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #opensource .area {
