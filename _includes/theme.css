@@ -124,7 +124,7 @@ a i,
 a i:before {
   cursor: pointer;
   text-decoration: underline;
-  color: #2f2f2f;
+  color: var(--text-default);
   transition: all 0.25s ease 0s;
 }
 
