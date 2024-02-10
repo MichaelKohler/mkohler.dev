@@ -3,7 +3,7 @@ layout: "base.liquid"
 permalink: /blog/
 ---
 
-<section id="blog">
+<section id="blog" class="page">
   {%- for post in collections.blogposts %}
     <h2><a href="{{post.url | url}}">{{post.data.title}}</a></h2>
     <p class="date">{{post.data.date | date: "%Y-%m-%d at %H:%M:%S"}}</p>
