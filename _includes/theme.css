@@ -176,6 +176,12 @@ header {
       align-items: center;
     }
 
+    & .name {
+      & h1 {
+        padding: 0;
+      }
+    }
+
     & .position {
       background-color: var(--brand-primary);
 
@@ -183,6 +189,7 @@ header {
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
+        padding: 0;
       }
     }
 
