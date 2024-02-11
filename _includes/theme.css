@@ -650,7 +650,7 @@ footer {
     padding-inline-start: 0;
   }
 
-  #opensource .area {
+  #opensource .areas .area {
     max-width: unset;
     width: 100%;
   }
