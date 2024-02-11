@@ -765,14 +765,13 @@ footer {
   nav,
   .about,
   .details .sidebar h3,
-  .pro-experience h3:nth-of-type(2),
   footer {
     display: none;
   }
 
   h1, h2, h3, h4, h5, h6,
-  header .name,
-  header .position,
+  header .nav-container .name,
+  header .nav-container .position,
   .details .sidebar,
   .pro-experience h3 {
     margin: 0;
@@ -794,75 +793,86 @@ footer {
       }
     }
   }
+  #homesection {
+    & .details {
+      & .sidebar-info {
+        padding: 0;
 
-  /* Remove Name */
-  .details .sidebar-info .row:nth-of-type(1) {
-    display: none;
-  }
-
-  .sidebar {
-    & .row {
-      border-bottom: none;
-      margin-block-end: 0;
-      margin-block-start: 15px;
-      padding-block-end: 0;
-
-      & div:first-child {
-        margin-block-end: 5px;
-      }
-    }
-  }
-
-  .experience-info {
-    display: block;
-
-    & .skills {
-      min-width: 100%;
-      padding: 0;
-      margin: 0;
-
-      & h3 {
-        margin-block-start: 20px;
-        margin-block-end: 10px;
-        padding-block-end: 0;
+        & .row {
+          /* Remove Name */
+          &:nth-of-type(1) {
+            display: none;
+          }
+        }
       }
     }
 
-    & .pro-experience {
+    & .sidebar {
       padding: 0;
-      margin: 0;
 
-      & h3 {
-        margin-block-start: 20px;
-        margin-block-end: 10px;
+      & .row {
+        border-bottom: none;
+        margin-block-end: 0;
+        margin-block-start: 15px;
         padding-block-end: 0;
-      }
 
-      & .experience {
-        border-left: none;
+        & div:first-child {
+          margin-block-end: 5px;
+        }
+      }
+    }
+
+    & .experience-info {
+      display: block;
+
+      & .skills {
+        min-width: 100%;
         padding: 0;
         margin: 0;
 
-        & ul {
-          margin-inline-start: 0;
+        & h3 {
+          margin-block-start: 20px;
+          margin-block-end: 10px;
+          padding-block-end: 0;
+        }
+      }
 
-          & li {
-            break-inside: avoid-page;
+      & .pro-experience {
+        padding: 0;
+        margin: 0;
+
+        & h3 {
+          margin-block-start: 20px;
+          margin-block-end: 10px;
+          padding-block-end: 0;
+        }
+
+        & .experience {
+          border-left: none;
+          padding: 0;
+          margin: 0;
+
+          & ul {
+            margin-inline-start: 0;
+
+            & li {
+              break-inside: avoid-page;
+            }
           }
-        }
 
-        & .date {
-          font-size: 12px;
-          font-style: italic;
-        }
+          & .date {
+            font-size: 12px;
+            font-style: italic;
+          }
 
-        & .company {
-          margin-block-start: 5px;
-          margin-block-end: 5px;
+          & .company {
+            margin-block-start: 5px;
+            margin-block-end: 5px;
 
-          & a {
-            font-size: 14px;
-            line-height: 1.5rem;
+            & a {
+              font-size: 14px;
+              line-height: 1.5rem;
+            }
           }
         }
       }
