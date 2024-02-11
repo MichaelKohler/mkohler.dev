@@ -77,6 +77,7 @@
   --accent-minor-500: #3C5E7C;
   --accent-light-100: #F2FAFF;
   --accent-light-200: #DCF3FB;
+  --accent-light-300: #87C1DF;
 }
 
 body {
@@ -326,7 +327,7 @@ header {
     & .row {
       margin-block-end: 20px;
       padding-block-end: 20px;
-      border-bottom: 1px solid var(--accent-minor-100);
+      border-bottom: 1px solid var(--accent-light-200);
 
       &:last-child {
         border-bottom: none;
@@ -370,7 +371,7 @@ header {
       & .experience {
         overflow: visible;
         position: relative;
-        border-left: 1px solid var(--accent-minor-100);
+        border-left: 1px solid var(--accent-light-300);
         padding-inline-start: 4px;
         margin-inline-start: 16px;
 
@@ -427,7 +428,7 @@ header {
               border-radius: 4px;
               top: 7px;
               left: -29px;
-              background-color: var(--accent-minor-100);
+              background-color: var(--accent-light-300);
               content: "";
             }
 
@@ -793,6 +794,7 @@ footer {
       }
     }
   }
+
   #homesection {
     & .details {
       & .sidebar-info {
