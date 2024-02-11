@@ -77,7 +77,7 @@
   --accent-minor-500: #3C5E7C;
   --accent-light-100: #F2FAFF;
   --accent-light-200: #DCF3FB;
-  --accent-light-300: #87C1DF;
+  --accent-light-300: #9AD6F5;
 }
 
 body {
@@ -327,7 +327,7 @@ header {
     & .row {
       margin-block-end: 20px;
       padding-block-end: 20px;
-      border-bottom: 1px solid var(--accent-light-200);
+      border-bottom: 1px solid var(--accent-light-300);
 
       &:last-child {
         border-bottom: none;
