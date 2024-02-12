@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2024-02-11T14:01:33.439Z",
+    "description": "Mozilla Community Events",
+    "link": "https://discourse.mozilla.org/t/mozilla-community-events/127837/3",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2024-02-03T12:54:24.000Z",
     "description": "Add note and close reps repos",
     "link": "https://github.com/mozilla/Reps/issues/447#issuecomment-1925313449",
