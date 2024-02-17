@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2024-02-16T21:04:30.000Z",
+    "description": "mozillach/mozilla-watcher: Remove inexistent mozillakolkata",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/11f06712a9f8eac797f071a7983579dd8b77495e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2024-02-11T14:01:33.439Z",
     "description": "Mozilla Community Events",
     "link": "https://discourse.mozilla.org/t/mozilla-community-events/127837/3",
