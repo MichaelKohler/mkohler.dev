@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2024-03-25T20:57:30.000Z",
+    "description": "Set up DMARC records on @mozilla.ro",
+    "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1839077#c2",
+    "type": "Commented on a Bug Report",
+    "source": "bugzilla-comments"
+  },
+  {
     "createdAt": "2024-03-17T08:49:22.000Z",
     "description": "Is there a limit to the audio duration?",
     "link": "https://github.com/common-voice/cv-sentence-extractor/issues/181#issuecomment-2002367438",
