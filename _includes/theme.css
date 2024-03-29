@@ -61,7 +61,7 @@
 }
 
 :root {
-  --background: #fff;
+  --background: #FFF;
   --brand-primary: #1F3352;
   --brand-secondary: #23395B;
   --text-default: #2F2F2F;
@@ -78,6 +78,7 @@
   --accent-light-100: #F2FAFF;
   --accent-light-200: #DCF3FB;
   --accent-light-300: #9AD6F5;
+  --white: #fefefe;
 }
 
 body {
@@ -251,6 +252,7 @@ header {
               text-align: center;
               text-transform: uppercase;
               margin-block-start: 20px;
+              color: var(--white);
             }
           }
 
