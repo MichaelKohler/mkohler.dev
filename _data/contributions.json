@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2024-04-05T21:29:52.000Z",
+    "description": "mozillach/mozilla-watcher: Octokit plugin updates (#261)\n\n* Update @octokit/retry\r\n\r\n* Update @octokit/plugin-throttling",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/c48c4ef3c5f17ac101b3e66749ec013c4da7726e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2024-04-05T21:29:11.000Z",
+    "description": "Octokit plugin updates",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/261",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2024-03-25T20:57:30.000Z",
     "description": "Set up DMARC records on @mozilla.ro",
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1839077#c2",
