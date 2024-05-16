@@ -1,5 +1,47 @@
 [
   {
+    "createdAt": "2024-05-15T18:27:53.000Z",
+    "description": "Update Sentence Collector references to point to actual CV website",
+    "link": "https://github.com/common-voice/community-playbook/pull/19",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2024-05-15T18:12:01.000Z",
+    "description": "Edited Webdev/GetInvolved/reps.mozilla.org",
+    "link": "https://wiki.mozilla.org/index.php?title=Webdev/GetInvolved/reps.mozilla.org&diff=1250820",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
+    "createdAt": "2024-05-15T18:11:40.000Z",
+    "description": "Edited Webdev/GetInvolved/reps.mozilla.org",
+    "link": "https://wiki.mozilla.org/index.php?title=Webdev/GetInvolved/reps.mozilla.org&diff=1250819",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
+    "createdAt": "2024-05-15T18:08:29.000Z",
+    "description": "Edited Webdev/GetInvolved",
+    "link": "https://wiki.mozilla.org/index.php?title=Webdev/GetInvolved&diff=1250817",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
+    "createdAt": "2024-05-15T18:05:07.000Z",
+    "description": "Edited Contribute/Why Contribute",
+    "link": "https://wiki.mozilla.org/index.php?title=Contribute/Why_Contribute&diff=1250816",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
+    "createdAt": "2024-05-15T18:02:22.000Z",
+    "description": "Edited Contribute",
+    "link": "https://wiki.mozilla.org/index.php?title=Contribute&diff=1250815",
+    "type": "Wiki Edit",
+    "source": "wiki"
+  },
+  {
     "createdAt": "2024-04-15T19:26:36.653Z",
     "description": "Question about project plans",
     "link": "https://discourse.mozilla.org/t/question-about-project-plans/122681/5",
