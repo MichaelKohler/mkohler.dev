@@ -7,6 +7,13 @@
     "source": "github-pr-created"
   },
   {
+    "createdAt": "2024-05-15T18:27:10.000Z",
+    "description": "common-voice/community-playbook: Update Sentence Collector references to point to actual CV website",
+    "link": "https://github.com/common-voice/community-playbook/commit/0d840ac048b7d3525e16baccee0f0f1a01020544",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2024-05-15T18:12:01.000Z",
     "description": "Edited Webdev/GetInvolved/reps.mozilla.org",
     "link": "https://wiki.mozilla.org/index.php?title=Webdev/GetInvolved/reps.mozilla.org&diff=1250820",
