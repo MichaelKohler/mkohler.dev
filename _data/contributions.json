@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2024-06-25T17:44:29.000Z",
+    "description": "Delete Sentence Collector",
+    "link": "https://github.com/mozilla-frontend-infra/codetribute/pull/622",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2024-06-25T17:44:18.000Z",
+    "description": "mozilla-frontend-infra/codetribute: Delete Sentence Collector\n\nThe Common Voice Sentence Collector was integrated into the Common Voice platform some time ago. Therefore the separate repository was archived.",
+    "link": "https://github.com/mozilla-frontend-infra/codetribute/commit/03308d7c47d5b56375cd04564402cd939b38b805",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2024-05-15T18:27:53.000Z",
     "description": "Update Sentence Collector references to point to actual CV website",
     "link": "https://github.com/common-voice/community-playbook/pull/19",
