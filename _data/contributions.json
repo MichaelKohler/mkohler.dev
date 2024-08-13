@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2024-08-12T17:21:32.806Z",
+    "description": "Bulk sentences submission from Wikipedia",
+    "link": "https://discourse.mozilla.org/t/bulk-sentences-submission-from-wikipedia/134428/6",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2024-06-25T17:44:29.000Z",
     "description": "Delete Sentence Collector",
     "link": "https://github.com/mozilla-frontend-infra/codetribute/pull/622",
