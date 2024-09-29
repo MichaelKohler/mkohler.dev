@@ -54,6 +54,6 @@
   ],
   "rewrites": [
     { "source": "/.well-known/webfinger", "destination": "/api/webfinger" },
-    { "source": "/.well-known/pay", "destination": "https://ilp.gatehub.net/941671735/EUR" }
+    { "source": "/.well-known/pay", "destination": "/api/pay" }
   ]
 }
