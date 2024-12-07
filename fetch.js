@@ -13,12 +13,6 @@ const config = {
     username: 'mkohler',
     keepDeletedPost: true,
   },
-  mediaWiki: {
-    enabled: true,
-    baseUrl: 'https://wiki.mozilla.org/api.php?action=feedcontributions',
-    username: 'michaelkohler',
-    stopDate: '2012-05-01',
-  },
   github: {
     enabled: true,
     allowPrivate: true, // needed due to using fine-grained PAT
