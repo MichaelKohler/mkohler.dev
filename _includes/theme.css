@@ -56,10 +56,6 @@
   font-family: "Font Awesome 6 Brands"
 }
 
-.fa, .fas {
-  font-weight: 900
-}
-
 :root {
   --background: #FFF;
   --brand-primary: #1F3352;
@@ -79,6 +75,7 @@
   --accent-light-200: #DCF3FB;
   --accent-light-300: #cddae0;
   --white: #fefefe;
+  --header-height: 40px;
 }
 
 body {
@@ -147,11 +144,45 @@ ul {
 
 header {
   color: var(--text-inverse);
-  background-color: var(--brand-secondary);
   display: flex;
+  flex-direction: column;
 
-  @media (max-width: 820px) {
-    flex-direction: column;
+  & nav {
+    font-family: "Dosis", "Dosis-fallback", sans-serif;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(2px);
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.15);
+    width: 100%;
+    height: var(--header-height);
+    z-index: 100;
+
+    & ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      gap: 4rem;
+      margin: 0.4rem;
+
+      @media (max-width: 820px) {
+        width: 100%;
+        justify-content: space-between;
+        gap: 0;
+        margin-inline: 3rem;
+      }
+
+      & a {
+        text-decoration: none;
+        font-weight: 600;
+
+        &:hover {
+          color: var(--accent-minor-100);
+        }
+      }
+    }
   }
 
   & .photo {
@@ -168,7 +199,17 @@ header {
     }
   }
 
-  & .nav-container {
+  & .info-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: var(--header-height);
+
+    @media (max-width: 820px) {
+      flex-direction: column;
+    }
+  }
+
+  & .info-container {
     display: flex;
     flex-direction: column;
     flex-grow: 2;
@@ -181,8 +222,8 @@ header {
     & .name,
     & .position {
       padding: 0px 40px;
-      min-height: 120px;
-      max-height: 120px;
+      min-height: 180px;
+      max-height: 180px;
       overflow: hidden;
       font-size: 40px;
       display: flex;
@@ -190,10 +231,14 @@ header {
 
       @media (max-width: 820px) {
         padding-inline-start: 30px;
+        min-height: 100px;
+        max-height: 100px;
       }
     }
 
     & .name {
+      background-color: var(--brand-secondary);
+
       & h1 {
         padding: 0;
       }
@@ -207,75 +252,6 @@ header {
         overflow: hidden;
         text-overflow: ellipsis;
         padding: 0;
-      }
-    }
-
-    & nav {
-      & a {
-        & i {
-          text-decoration: none;
-        }
-      }
-
-      & ul {
-        display: flex;
-        flex-direction: row;
-        margin: 0;
-
-        & li {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          min-height: 120px;
-          text-align: center;
-          flex-grow: 1;
-
-          & a {
-            width: calc(100% - 6px);
-            text-decoration: none;
-            color: var(--text-inverse);
-            padding-block-start: 3px;
-            padding-block-end: 3px;
-
-
-            & i {
-              &:before {
-                color: var(--text-inverse);
-                font-size: 40px;
-                margin: 0;
-              }
-            }
-
-            & span {
-              display: block;
-              width: 100%;
-              text-align: center;
-              text-transform: uppercase;
-              margin-block-start: 20px;
-              color: var(--white);
-            }
-          }
-
-          &:nth-child(1) {
-            background-color: var(--accent-minor-100);
-          }
-
-          &:nth-child(2) {
-            background-color: var(--accent-minor-200);
-          }
-
-          &:nth-child(3) {
-            background-color: var(--accent-minor-300);
-          }
-
-          &:nth-child(4) {
-            background-color: var(--accent-minor-400);
-          }
-
-          &:nth-child(5) {
-            background-color: var(--accent-minor-500);
-          }
-        }
       }
     }
   }
@@ -716,7 +692,6 @@ footer {
     padding: 0;
 
     & li {
-      padding-block-start: 20px;
       padding-inline-end: 30px;
       padding-block-end: 20px;
 
@@ -731,11 +706,6 @@ footer {
         }
       }
     }
-  }
-
-  & .design {
-    margin-block-start: 1rem;
-    font-size: 0.8rem;
   }
 }
 
@@ -773,8 +743,8 @@ footer {
   }
 
   h1, h2, h3, h4, h5, h6,
-  header .nav-container .name,
-  header .nav-container .position,
+  header .info-container .name,
+  header .info-container .position,
   .details .sidebar,
   .pro-experience h3 {
     margin: 0;
