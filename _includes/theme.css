@@ -23,19 +23,11 @@
 }
 
 @font-face {
-  font-family: "Font Awesome 6 Free";
+  font-family: "Font Awesome 6 Free Extended";
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url("/fonts/fa-v6.1.2.woff2") format("woff2");
-}
-
-@font-face {
-  font-family: "Font Awesome 6 Brands";
-  font-style: normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("/fonts/fa-brands-v6.1.2.woff2") format("woff2");
+  src: url("/fonts/fa-v6.1.2-mini-extended.woff2") format("woff2");
 }
 
 .fa, .fab, .fad, .fal, .far, .fas {
@@ -49,11 +41,7 @@
 }
 
 .fa, .far, .fas, .fab {
-  font-family: "Font Awesome 6 Free"
-}
-
-.fab {
-  font-family: "Font Awesome 6 Brands"
+  font-family: "Font Awesome 6 Free Extended"
 }
 
 :root {
