@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2025-01-04T11:28:31.000Z",
+    "description": "mozillach/mozilla-watcher: Use internal fetch",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/247cbad4851df81e11bd72b34fcc2ff3da080110",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-04T10:04:03.000Z",
+    "description": "mozillach/mozilla-watcher: Bring package-lock.json in line with package.json",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/e53a4c2cdaba4e4dab18bdbb8644e6d96a3d8965",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2024-12-09T21:47:24.000Z",
     "description": "mozillach/mozilla-watcher: Rename stylesheet",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/c22f4f7c83521be756896854245d584d7bd21a0a",
