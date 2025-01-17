@@ -26,6 +26,11 @@ const config = {
     username: 'me@michaelkohler.info',
     stopDate: '2008-01-01',
   },
+  osm: {
+    enabled: true,
+    displayName: 'cyphix1',
+    stopDate: '2024-11-01',
+  }
 };
 
 fetchAll(config);
