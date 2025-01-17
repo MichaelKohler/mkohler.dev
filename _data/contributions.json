@@ -1,5 +1,117 @@
 [
   {
+    "createdAt": "2025-01-17T14:54:15.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(index): fix missing extension on export",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/5bf591c2d0033853b70c1cdb6688f78a39e44a02",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-17T12:49:20.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: feat(source): add OpenStreetMap as source",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/e4c6a13d9010d3a32a483073fd3807f2c2d17db6",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T16:12:23.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): rename action to reflect test workflow",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/1d71d7ec920b0f8b86156537ee2ee9c16fa55b55",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T16:11:19.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(eslint): ignore resolving issue",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/0feea646558bda8d7d22f75c948d240fbd19e51d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T16:04:55.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): run eslint before release",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d8e1a72be798ffc1ad2057bb86ec7fe4578b273b",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T16:03:08.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(fetch): use global fetch instead of axios",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/eaca6a1da241e542012dd04b2f1d07c7b79f6990",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T15:23:34.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(dev): modernize husky init",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/898492851163644c3d76aad908e3fe9faa28e04d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T15:18:05.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(deps): update dependencies",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/35f7e557636aac6491341bcec863544ff1ab5a56",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T15:13:00.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): bump Node to version 20",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/2a6c17699bb6cf3439bb14555a8d8458806c1093",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T15:12:22.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): bump GitHub action dependencies",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/3b9dda9aa4ebafbf43176e09d17ebbd64a7010ca",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T15:11:38.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): use ubuntu-lastest for release as well",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/1d2b07a1d32de5aa0aab8042170e35c5cce3ff98",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-16T15:10:38.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(tests): migrate ava/sinon to vitest",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d7ce6ee7db883deec6102abd2eadce8899c54b04",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-11T09:15:46.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(env): use ESM\n\nBREAKING CHANGE: This library now only supports ESM.",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/2aa0883ca09b4067935000576cd89d4a5004d566",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-11T08:15:34.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(env): use .env file for local development",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/9c114ac3949688f40cbf8e873af9bd61edf6d75b",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-11T08:11:42.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(example): create an example to make it easier to run locally",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/6ded33b84d349d6939e191f2389e42bbeca28988",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-01-11T07:44:53.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: docs(readme): update README to clarify plans and using existing contributions with outputFile",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/555c4fb5c96a24ed3c4ab87d7d39429854f703f6",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-01-04T11:28:31.000Z",
     "description": "mozillach/mozilla-watcher: Use internal fetch",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/247cbad4851df81e11bd72b34fcc2ff3da080110",
@@ -12,6 +124,83 @@
     "link": "https://github.com/mozillach/mozilla-watcher/commit/e53a4c2cdaba4e4dab18bdbb8644e6d96a3d8965",
     "type": "GitHub Commit",
     "source": "github-commit"
+  },
+  {
+    "createdAt": "2024-12-29T12:53:41.000Z",
+    "description": "Marked initial part of bicycle lane on Petersburger Str. as construction as well. Removed non-existing bike parking spots due to construction.",
+    "link": "https://www.openstreetmap.org/changeset/160748944",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-24T11:34:57.000Z",
+    "description": "The shop is closed permanently",
+    "link": "https://www.openstreetmap.org/changeset/160572103",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-22T18:25:13.000Z",
+    "description": "Add garbage bins on Strassmannstr. tram station",
+    "link": "https://www.openstreetmap.org/changeset/160511502",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-22T18:22:28.000Z",
+    "description": "Move Strassmannstr. tram stop shelter to the correct place",
+    "link": "https://www.openstreetmap.org/changeset/160511441",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-22T18:19:09.000Z",
+    "description": "Remove removed pedestrian crossing due to construction",
+    "link": "https://www.openstreetmap.org/changeset/160511339",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-22T18:17:36.000Z",
+    "description": "Delete inaccessible bicycle parking space due to constructions",
+    "link": "https://www.openstreetmap.org/changeset/160511304",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-22T18:16:20.000Z",
+    "description": "Deleted removed parking spots due to construction",
+    "link": "https://www.openstreetmap.org/changeset/160511273",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-22T17:42:19.000Z",
+    "description": "Marked Petersburger Str. east-side of street as construction as they have started building and nothing can use it anymore. Additionally deleted all the driveways and marked sidestreets where they stop.",
+    "link": "https://www.openstreetmap.org/changeset/160510346",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-22T15:38:42.000Z",
+    "description": "Fix length of Strassmannstr. which is blocked",
+    "link": "https://www.openstreetmap.org/changeset/160506076",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-21T17:42:27.000Z",
+    "description": "Letter box does not exist anymore, was removed as part of ongoing construction",
+    "link": "https://www.openstreetmap.org/changeset/160478131",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
+  },
+  {
+    "createdAt": "2024-12-21T17:40:53.000Z",
+    "description": "Ambavi does not exist anymore",
+    "link": "https://www.openstreetmap.org/changeset/160478082",
+    "type": "OpenStreetMaps Edit",
+    "source": "osm"
   },
   {
     "createdAt": "2024-12-09T21:47:24.000Z",
