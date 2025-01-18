@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2025-01-17T15:02:56.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): update to Node 22",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/f3a65ff901e289c025dd6fde501e5accb8b08e43",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-01-17T14:54:15.000Z",
     "description": "MichaelKohler/volunteer-contributions-fetch: fix(index): fix missing extension on export",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/5bf591c2d0033853b70c1cdb6688f78a39e44a02",
