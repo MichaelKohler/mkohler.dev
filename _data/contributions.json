@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2025-02-01T11:25:12.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(commit): run eslint on pre-commit",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/6af11a0ea5ee57d108dcce2f5ee695a49dadd23a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-02-01T11:21:35.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(validation): use zod for validation",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/b663715f7f78232b6d917ffaf46ff4695a1a6e8d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-01-17T15:02:56.000Z",
     "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): update to Node 22",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/f3a65ff901e289c025dd6fde501e5accb8b08e43",
