@@ -2,6 +2,7 @@ const INTERNAL_SERVER_ERROR_CODE = 'INTERNAL_SERVER_ERROR';
 const PAYMENT_POINTER = "https://ilp.gatehub.net/941671735/EUR";
 
 export default async function handler(request, response) {
+  console.log("Request headers", request.headers);
   const acceptHeaderValue = request.headers["accept"] ?? "application/json";
 
   const res = await fetch(PAYMENT_POINTER, {
