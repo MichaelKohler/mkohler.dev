@@ -1,25 +1,7 @@
 @font-face {
-  font-family: "Raleway";
-  src: url("/fonts/raleway.woff2") format("woff2");
+  font-family: "NebulaSansLight";
+  src: url("/fonts/nebulasans-light.woff2") format("woff2");
   font-display: swap;
-}
-
-@font-face {
-  font-family: "Raleway-fallback";
-  size-adjust: 104.09%;
-  src: local("Arial");
-}
-
-@font-face {
-  font-family: "Dosis";
-  src: url("/fonts/dosis.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Dosis-fallback";
-  size-adjust: 84.82%;
-  src: local("Arial");
 }
 
 @font-face {
@@ -56,10 +38,10 @@
   --brand-secondary: #23395B;
   --text-default: #2F2F2F;
   --text-inverse: #E7E7E7;
-  --title-font-family: "Dosis", "Dosis-fallback", sans-serif;
-  --body-font-family: "Raleway", "Raleway-fallback", sans-serif;
+  --title-font-family: "NebulaSansLight", sans-serif;
+  --body-font-family: "NebulaSansLight", sans-serif;
   --body-font-weight: 400;
-  --body-line-height: 1.5rem;
+  --body-line-height: 1.6rem;
   --accent-minor-100: #406E8E;
   --accent-minor-200: #3F6988;
   --accent-minor-300: #3D6584;
@@ -79,7 +61,6 @@ body {
   font-family: var(--body-font-family);
   font-weight: var(--body-font-weight);
   line-height: var(--body-line-height);
-  letter-spacing: 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,23 +73,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 2.5rem;
-  font-weight: 500;
-}
-
-h2 {
   font-size: 2rem;
   font-weight: 500;
 }
 
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 h3 {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
 }
 
 h4, h5, h6 {
   padding-block-start: 1rem;
   padding-block-end: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 a,
@@ -141,7 +122,6 @@ header {
   flex-direction: column;
 
   & nav {
-    font-family: "Dosis", "Dosis-fallback", sans-serif;
     position: fixed;
     display: flex;
     flex-direction: row;
@@ -379,6 +359,7 @@ header {
 
         & .date {
           margin-block-end: 0;
+          font-size: 0.9rem;
         }
 
         & .company {
