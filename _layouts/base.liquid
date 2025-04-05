@@ -64,8 +64,14 @@
       async></script>
 
     <script>
-      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      async function injectAnalytics() {
+        await import("/_vercel/insights/script.js");
+        window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+      }
+
+      if (!navigator.globalPrivacyControl) {
+        injectAnalytics()
+      }
     </script>
-    <script defer src="/_vercel/insights/script.js"></script>
   </body>
 </html>
