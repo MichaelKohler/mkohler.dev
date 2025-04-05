@@ -66,7 +66,6 @@
   --accent-minor-400: #3C6280;
   --accent-minor-500: #3C5E7C;
   --accent-light-100: #F2FAFF;
-  --accent-light-200: #DCF3FB;
   --accent-light-300: #cddae0;
   --white: #fefefe;
   --header-height: 40px;
@@ -317,7 +316,7 @@ header {
 
   & .experience-info {
     display: flex;
-    background-color: var(--accent-light-200);
+    background-color: var(--accent-light-100);
 
     @media (max-width: 1200px) {
       flex-direction: column-reverse;
@@ -608,7 +607,7 @@ table.contributions {
 
   & :not(thead) {
     & tr {
-      border-bottom: 1px solid var(--accent-light-200);
+      border-bottom: 1px solid var(--accent-light-300);
     }
 
     & td {
