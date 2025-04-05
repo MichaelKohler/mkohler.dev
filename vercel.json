@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'none'; style-src 'unsafe-inline'; script-src 'self'; object-src 'self'; base-uri 'self'; manifest-src 'self'; connect-src 'self'; form-action 'self'; img-src https:; frame-ancestors 'none'; font-src 'self'"
+          "value": "default-src 'none'; style-src 'unsafe-inline'; script-src 'self' 'sha256-QUK5d54I58EhhznLVaI510QLLDJLNplSKBhiG7IrowM='; object-src 'self'; base-uri 'self'; manifest-src 'self'; connect-src 'self'; form-action 'self'; img-src https:; frame-ancestors 'none'; font-src 'self'"
         },
         {
           "key": "Permissions-Policy",
