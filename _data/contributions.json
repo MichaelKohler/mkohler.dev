@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2025-04-24T11:20:04.000Z",
+    "description": "feat(PostInstall): list GateHub as supported wallet",
+    "link": "https://github.com/interledger/web-monetization-extension/pull/1025#pullrequestreview-2790723403",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2025-04-07T09:55:44.000Z",
     "description": "Expose `MonetizationCurrencyAmount`",
     "link": "https://github.com/interledger/web-monetization-extension/issues/501#issuecomment-2782761623",
