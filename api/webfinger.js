@@ -9,19 +9,19 @@ export default function handler(request, response) {
   // Mastodon
   if (resource === 'acct:mkohler@mkohler.dev') {
     const mastodonResponse = {
-      subject: `acct:mkohler@fosstodon.org`,
-      aliases: [`https://fosstodon.org/@mkohler`, `https://fosstodon.org/users/mkohler`],
+      subject: `acct:mkohler@chaos.social`,
+      aliases: [`https://chaos.social/@mkohler`, `https://chaos.social/users/mkohler`],
       links: [{
         rel: 'http://webfinger.net/rel/profile-page',
         type: 'text/html',
-        href: `https://fosstodon.org/@mkohler`,
+        href: `https://chaos.social/@mkohler`,
       }, {
         rel: 'self',
         type: 'application/activity+json',
-        href: `https://fosstodon.org/users/mkohler`,
+        href: `https://chaos.social/users/mkohler`,
       }, {
         rel: 'http://ostatus.org/schema/1.0/subscribe',
-        template: 'https://fosstodon.org/authorize_interaction?uri={uri}',
+        template: 'https://chaos.social/authorize_interaction?uri={uri}',
       }],
     };
 
