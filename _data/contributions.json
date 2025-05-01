@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2025-04-30T11:35:43.000Z",
+    "description": "mozillach/mozilla-watcher: Add mozilla-firefox org",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/b7e2654be1d2c43f137f2c038fb0c25c325a3ebd",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-04-24T11:20:04.000Z",
     "description": "feat(PostInstall): list GateHub as supported wallet",
     "link": "https://github.com/interledger/web-monetization-extension/pull/1025#pullrequestreview-2790723403",
