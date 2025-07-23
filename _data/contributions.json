@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2025-07-22T12:38:47.000Z",
+    "description": "Spontaneous Speech New Language: German",
+    "link": "https://github.com/common-voice/common-voice/issues/4970#issuecomment-3102541163",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2025-04-30T11:35:43.000Z",
     "description": "mozillach/mozilla-watcher: Add mozilla-firefox org",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/b7e2654be1d2c43f137f2c038fb0c25c325a3ebd",
