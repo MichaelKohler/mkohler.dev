@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2025-08-08T10:39:27.000Z",
+    "description": "mozillach/mozilla-watcher: Fix vulnerability in dependency",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/387ec8c4af9e24a5fc786289ee0eba7ebf0f12eb",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-08-08T10:03:45.000Z",
+    "description": "Fix release: update to trusted publisher",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/issues/27",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
+    "createdAt": "2025-08-08T09:52:02.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(dependencies): update dependencies",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/a1d73c7429ec0bdeb6783f81f5085d5629fcd946",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-08-08T09:50:10.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): remove NPM token from release to use trusted publisher",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/c0e46b7a5d4163f3a242e629806e19069dbac09d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-07-22T12:38:47.000Z",
     "description": "Spontaneous Speech New Language: German",
     "link": "https://github.com/common-voice/common-voice/issues/4970#issuecomment-3102541163",
