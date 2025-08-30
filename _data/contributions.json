@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2025-08-28T16:38:51.000Z",
+    "description": "Requesting Design Guidance on \"No Data Collection\" Message in Add-ons",
+    "link": "https://github.com/mozilla/OpenDesign/issues/257#issuecomment-3234203174",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2025-08-08T10:39:27.000Z",
     "description": "mozillach/mozilla-watcher: Fix vulnerability in dependency",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/387ec8c4af9e24a5fc786289ee0eba7ebf0f12eb",
@@ -1407,13 +1414,6 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2023-02-23T00:00:00.000Z",
-    "description": "Zero-Prefix Weather Suggestions",
-    "link": "https://community.mozilla.org/en/campaigns/zero-prefix-weather-suggestions/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
     "createdAt": "2023-02-18T15:34:45.000Z",
     "description": "common-voice/sentence-collector: feat: empty commit to release previous AM validation commit",
     "link": "https://github.com/common-voice/sentence-collector/commit/f885df417af8f434c69cbb164da4e79fb4f5a9e4",
@@ -2294,13 +2294,6 @@
     "link": "https://github.com/mozillach/mozilla-watcher/pull/171#pullrequestreview-1086586494",
     "type": "Approved a Pull Request",
     "source": "github-reviews"
-  },
-  {
-    "createdAt": "2022-08-22T00:00:00.000Z",
-    "description": "Firefox Nightly Foxfooding",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-nightly-foxfooding/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2022-08-18T20:49:51.835Z",
@@ -8512,13 +8505,6 @@
     "source": "github-comments"
   },
   {
-    "createdAt": "2021-09-13T00:00:00.000Z",
-    "description": "Foxfooding Focus for Android and iOS",
-    "link": "https://community.mozilla.org/en/campaigns/foxfooding-focus-for-android-and-ios/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
     "createdAt": "2021-09-12T10:57:42.149Z",
     "description": "Sentence collector copyright issues",
     "link": "https://discourse.mozilla.org/t/sentence-collector-copyright-issues/52767/41",
@@ -10962,13 +10948,6 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2021-04-12T00:00:00.000Z",
-    "description": "Firefox Foxfooding Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-foxfooding-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
     "createdAt": "2021-04-11T13:56:16.856Z",
     "description": "Need help with batch deleting (300k+) in sentence collector inappropriate samples",
     "link": "https://discourse.mozilla.org/t/need-help-with-batch-deleting-300k-in-sentence-collector-inappropriate-samples/78493/4",
@@ -13216,13 +13195,6 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2020-11-10T00:00:00.000Z",
-    "description": "Unfck the Internet Campaign",
-    "link": "https://community.mozilla.org/en/campaigns/unfck-the-internet-campaign/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
     "createdAt": "2020-11-09T14:49:29.447Z",
     "description": "[ACTION REQUIRED] New Sentence Collector Infrastructure and Improvements",
     "link": "https://discourse.mozilla.org/t/action-required-new-sentence-collector-infrastructure-and-improvements/68759/10",
@@ -14292,13 +14264,6 @@
     "link": "https://bugzilla.mozilla.org/show_bug.cgi?id=1667201#c0",
     "type": "Created a Bug Report",
     "source": "bugzilla-created"
-  },
-  {
-    "createdAt": "2020-09-24T00:00:00.000Z",
-    "description": "Firefox Omnibus Foxfooding experiment",
-    "link": "https://community.mozilla.org/en/campaigns/firefox-omnibus-foxfooding-experiment/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-09-23T09:00:03.000Z",
@@ -16548,13 +16513,6 @@
     "source": "github-commit"
   },
   {
-    "createdAt": "2020-05-22T00:00:00.000Z",
-    "description": "Common Voice Single Word Sprint",
-    "link": "https://community.mozilla.org/en/campaigns/common-voice-single-word-sprint-2/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
-  },
-  {
     "createdAt": "2020-05-21T12:09:12.000Z",
     "description": "common-voice/sentence-collector: chore: fix wrong return value",
     "link": "https://github.com/common-voice/sentence-collector/commit/6b557245c915dcd34e834f08c119e3960987cb67",
@@ -18051,13 +18009,6 @@
     "type": "Worked on program duties: Reviewed swag, budget, requests",
     "link": "",
     "source": "reps"
-  },
-  {
-    "createdAt": "2020-04-06T00:00:00.000Z",
-    "description": "Hunt from Home: Phase 1",
-    "link": "https://community.mozilla.org/en/campaigns/hunt-from-home-phase-1/",
-    "type": "Participated in a campaign",
-    "source": "community-portal-campaigns"
   },
   {
     "createdAt": "2020-04-05T15:30:33.000Z",
