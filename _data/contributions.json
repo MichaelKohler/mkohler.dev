@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2025-09-05T06:24:05.000Z",
+    "description": "build(deps-dev): bump serve from 14.2.4 to 14.2.5",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/309#pullrequestreview-3188146356",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2025-08-31T19:48:32.000Z",
     "description": "Requesting Design Guidance on \"No Data Collection\" Message in Add-ons",
     "link": "https://github.com/mozilla/OpenDesign/issues/257#issuecomment-3240370706",
