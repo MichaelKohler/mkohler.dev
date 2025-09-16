@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2025-09-15T05:35:22.000Z",
+    "description": "build(deps): bump debug from 4.4.1 to 4.4.3",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/310#pullrequestreview-3222972051",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2025-09-05T06:24:05.000Z",
     "description": "build(deps-dev): bump serve from 14.2.4 to 14.2.5",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/309#pullrequestreview-3188146356",
