@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2025-09-20T11:05:27.000Z",
+    "description": "mozillach/mozilla-watcher: Sequentialize repo fetching by org",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/c3b6dd5c0762f0292d1c47fc66f12f5c08e383a8",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-09-15T05:35:22.000Z",
     "description": "build(deps): bump debug from 4.4.1 to 4.4.3",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/310#pullrequestreview-3222972051",
