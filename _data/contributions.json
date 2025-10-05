@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2025-10-04T13:26:34.000Z",
+    "description": "mozillach/mozilla-watcher: Fix font location",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/4306040146e8840a8a349b94cd368b4f5fd44b88",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-10-04T13:23:36.000Z",
+    "description": "mozillach/mozilla-watcher: Do not use absolute paths",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/ecafbccf9524ba08d48df24c2f537cbb0a3b3b36",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-10-04T13:22:38.000Z",
+    "description": "mozillach/mozilla-watcher: Remove CNAME from deploy",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/e4563d8908a31e7a13319b5769c11ca97616797c",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-09-20T11:05:27.000Z",
     "description": "mozillach/mozilla-watcher: Sequentialize repo fetching by org",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/c3b6dd5c0762f0292d1c47fc66f12f5c08e383a8",
