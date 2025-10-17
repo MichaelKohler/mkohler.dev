@@ -5,11 +5,11 @@
   "author": "Michael Kohler",
   "license": "MIT",
   "dependencies": {
-    "volunteer-contributions-fetch": "^3.1.1"
+    "volunteer-contributions-fetch": "^3.1.2"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
-    "@11ty/eleventy-plugin-rss": "^2.0.3",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-plugin-rss": "^2.0.4",
     "clean-css": "^5.3.3"
   },
   "scripts": {
