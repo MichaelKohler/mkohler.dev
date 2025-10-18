@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2025-10-17T13:11:14.000Z",
+    "description": "Fix release: update to trusted publisher",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/issues/27#issuecomment-3415569129",
+    "type": "Commented on an Issue",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2025-10-17T13:08:42.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(release): use beta version of semantic release",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/929775c5a914d06075f81699c0fff1865f0f486e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-10-17T13:02:55.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(workflows): use Node 24 and update actions",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/9d12d4284773c5dcff3efd2bcb4a3df6e3e18f96",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-10-17T13:01:22.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(dependencies): npm audit fix",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/37c23c1111a79feee9e48929407a036285c0fd3a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-10-17T13:00:12.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(dependencies): update dependencies",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/9bd3c2cf4fdfeffc10217d409b8a6282c1bb29e6",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-10-04T13:26:34.000Z",
     "description": "mozillach/mozilla-watcher: Fix font location",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/4306040146e8840a8a349b94cd368b4f5fd44b88",
