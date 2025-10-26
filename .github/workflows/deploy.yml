@@ -1,0 +1,28 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Install Node.js
+        uses: actions/setup-node@v5
+        with:
+          node-version: 24
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Deploy
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.PRIVATE_KEY }}" >> ~/.ssh/id
+          chmod 600 ~/.ssh/id
+          echo "${{ vars.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
+          scp -r -i ~/.ssh/id _site/* ${{ vars.DEPLOY_USER_NAME }}@${{ vars.DEPLOY_HOST }}:${{ vars.DEPLOY_PATH }}
