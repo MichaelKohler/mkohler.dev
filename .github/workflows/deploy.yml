@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          submodules: true
       - name: Install Node.js
         uses: actions/setup-node@v5
         with:
@@ -28,3 +30,6 @@ jobs:
           rsync -chrlvzi --delete \
             -e 'ssh -i ~/.ssh/id -p 22' \
             _site/* ${{ vars.DEPLOY_USER_NAME }}@${{ vars.DEPLOY_HOST }}:${{ vars.DEPLOY_PATH }}
+          rsync -chrlvzi --delete \
+            -e 'ssh -i ~/.ssh/id -p 22' \
+            presentations ${{ vars.DEPLOY_USER_NAME }}@${{ vars.DEPLOY_HOST }}:${{ vars.DEPLOY_PATH }}
