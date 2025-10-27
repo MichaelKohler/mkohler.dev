@@ -1,6 +1,6 @@
 import Fastify from 'fastify';
-import payHandler from './pay.js';
-import webfingerHandler from './webfinger.js';
+import payHandler from './lib/pay.js';
+import webfingerHandler from './lib/webfinger.js';
 
 const fastify = Fastify({
   logger: true,
