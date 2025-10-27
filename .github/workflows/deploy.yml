@@ -30,6 +30,3 @@ jobs:
           rsync -chrlvzi --delete \
             -e 'ssh -i ~/.ssh/id -p 22' \
             _site/* ${{ vars.DEPLOY_USER_NAME }}@${{ vars.DEPLOY_HOST }}:${{ vars.DEPLOY_PATH }}
-          rsync -chrlvzi --delete \
-            -e 'ssh -i ~/.ssh/id -p 22' \
-            presentations ${{ vars.DEPLOY_USER_NAME }}@${{ vars.DEPLOY_HOST }}:${{ vars.DEPLOY_PATH }}
