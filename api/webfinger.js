@@ -1,8 +1,8 @@
-export default function handler(request, response) {
+export default function handler(request, reply) {
   const resource = request.query.resource;
 
   if (!resource) {
-    response.status(400).json({ error: 'MISSING_RESOURCE_QUERY_PARAM'});
+    reply.code(400).type('application/json').send({ error: 'MISSING_RESOURCE_QUERY_PARAM'});
     return;
   }
 
@@ -25,9 +25,9 @@ export default function handler(request, response) {
       }],
     };
 
-    response.status(200).json(mastodonResponse);
+    reply.code(200).type('application/json').send(mastodonResponse);
     return;
   }
 
-  response.status(404).send();
+  reply.code(404).send();
 }

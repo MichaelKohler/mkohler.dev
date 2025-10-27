@@ -3,6 +3,7 @@ const markdownIt = require('markdown-it');
 
 module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({
+    'api': '/api',
     'public': '/',
   });
 

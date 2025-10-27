@@ -13,8 +13,9 @@
     "clean-css": "^5.3.3"
   },
   "scripts": {
-    "build": "eleventy",
+    "build": "npm run setup:api && eleventy",
     "fetch": "DEBUG=contributions* node fetch.mjs",
+    "setup:api": "cd api && npm install && cd ..",
     "start": "eleventy --serve --incremental"
   }
 }

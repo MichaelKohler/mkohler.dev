@@ -3,7 +3,7 @@ const PAYMENT_POINTER = "https://ilp.gatehub.net/941671735/EUR";
 
 const DEFAULT_ACCEPT_HEADER = "application/json";
 
-export default async function handler(request, response) {
+export default async function handler(request, reply) {
   const acceptHeaderValue = request.headers["accept"];
   const spspHeaders = [
     'application/spsp4+json',
@@ -18,13 +18,13 @@ export default async function handler(request, response) {
   });
 
   if (!res.ok) {
-    return response.status(500).json({ error: INTERNAL_SERVER_ERROR_CODE });
+    return reply.code(500).type('application/json').send({ error: INTERNAL_SERVER_ERROR_CODE });
   }
 
   try {
     const data = await res.json();
-    return response.status(200).json(data);
+    return reply.code(200).type('application/json').send(data);
   } catch (error) {
-    return response.status(500).json({ error: INTERNAL_SERVER_ERROR_CODE });
+    return reply.code(500).type('application/json').send({ error: INTERNAL_SERVER_ERROR_CODE });
   }
 }
