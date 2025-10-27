@@ -25,4 +25,6 @@ jobs:
           echo "${{ secrets.PRIVATE_KEY }}" >> ~/.ssh/id
           chmod 600 ~/.ssh/id
           echo "${{ vars.KNOWN_HOSTS }}" > ~/.ssh/known_hosts
-          scp -r -i ~/.ssh/id _site/* ${{ vars.DEPLOY_USER_NAME }}@${{ vars.DEPLOY_HOST }}:${{ vars.DEPLOY_PATH }}
+          rsync -chrlvzi --delete \
+            -e 'ssh -i ~/.ssh/id -p 22' \
+            _site/* ${{ vars.DEPLOY_USER_NAME }}@${{ vars.DEPLOY_HOST }}:${{ vars.DEPLOY_PATH }}
