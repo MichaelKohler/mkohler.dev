@@ -116,6 +116,16 @@ ul {
   }
 }
 
+@keyframes greyOut {
+  from {
+    filter: grayscale(0);
+  }
+
+  to {
+    filter: grayscale(1);
+  }
+}
+
 header {
   color: var(--text-inverse);
 
@@ -159,6 +169,10 @@ header {
     min-width: 360px;
     max-width: 360px;
     flex-grow: 1;
+
+    animation: greyOut;
+    animation-timeline: view();
+    animation-range: exit;
 
     @media (max-width: 820px) {
       max-height: unset;
