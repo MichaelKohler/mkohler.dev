@@ -668,7 +668,7 @@ footer {
         }
 
         a {
-          box-shadow: 0 2px var(--text-inverse);
+          box-shadow: none;
         }
       }
     }
