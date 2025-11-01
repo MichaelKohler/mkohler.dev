@@ -33,23 +33,18 @@
 }
 
 :root {
-  --background: #FFF;
-  --brand-primary: #1F3352;
-  --brand-secondary: #23395B;
-  --text-default: #2F2F2F;
-  --text-inverse: #E7E7E7;
+  --background: oklch(1 0 0);
+  --brand-primary: oklch(0.31 0.06 260);
+  --brand-secondary: oklch(0.36 0.06 260);
+  --text-default: oklch(0.305 0 0);
+  --text-inverse: oklch(0.93 0 0);
   --title-font-family: "NebulaSansLight", sans-serif;
   --body-font-family: "NebulaSansLight", sans-serif;
   --body-font-weight: 400;
   --body-line-height: 1.6rem;
-  --accent-minor-100: #406E8E;
-  --accent-minor-200: #3F6988;
-  --accent-minor-300: #3D6584;
-  --accent-minor-400: #3C6280;
-  --accent-minor-500: #3C5E7C;
-  --accent-light-100: #F2FAFF;
-  --accent-light-300: #cddae0;
-  --white: #fefefe;
+  --accent-minor-100: oklch(0.52 0.07 240);
+  --accent-light-100: oklch(0.98 0.011 235);
+  --accent-light-300: oklch(0.88 0.016 227);
 }
 
 body {
@@ -468,27 +463,27 @@ header {
         margin-block-start: 3px;
         margin-inline-end: 3px;
         border-radius: 5px;
-        background-color: #b9ced5;
+        background-color: oklch(0.9 0.05 210);
       }
 
-      &.switzerland {
-        background-color: #ffc0c0;
+      & .switzerland {
+        background-color: oklch(0.9 0.05 80);
       }
 
-      &.mozilla {
-        background-color: #cae2f3;
+      & .mozilla {
+        background-color: oklch(0.9 0.05 120);
       }
 
-      &.firefox {
-        background-color: #ffcb42;
+      & .firefox {
+        background-color: oklch(0.9 0.05 160);
       }
 
-      &.firefox-os {
-        background-color: #c0e1c6;
+      & .firefox-os {
+        background-color: oklch(0.9 0.05 0);
       }
 
-      &.germany {
-        background-color: #bbc2f3;
+      & .germany {
+        background-color: oklch(0.9 0.05 40);
       }
     }
   }
@@ -723,8 +718,8 @@ footer {
  */
 @media print {
   * {
-    background-color: #fff !important;
-    color: #000 !important;
+    background-color: oklch(1 0 0) !important;
+    color: oklch(0 0 0) !important;
   }
 
   body {
@@ -761,7 +756,6 @@ footer {
   header .position {
     margin-block-end: 5px;
     padding-block-end: 15px;
-    border-block-end: 1px solid var(--accent-minor-100);
 
     & h2 {
       font-size: 16px;
