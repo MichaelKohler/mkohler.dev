@@ -186,6 +186,10 @@ header {
     @media (max-width: 820px) {
       flex-direction: column;
     }
+
+    a {
+      box-shadow: none;
+    }
   }
 
   & .info-container {
