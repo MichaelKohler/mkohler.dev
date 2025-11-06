@@ -1,19 +1,22 @@
 name: Test
 
-on: push
+on:
+  push:
+    branches-ignore:
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v4
-      with:
-        submodules: 'recursive'
-    - name: Use Node.js 22
-      uses: actions/setup-node@v4
-      with:
-        node-version: 22
-    - name: Install Dependencies
-      run: npm ci
-    - name: Build
-      run: npm run build
+      - uses: actions/checkout@v4
+        with:
+          submodules: "recursive"
+      - name: Use Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
