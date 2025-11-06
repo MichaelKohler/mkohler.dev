@@ -24,3 +24,12 @@ jobs:
         run: npx playwright install --with-deps
       - name: Run Playwright Screenshot Tests
         run: npm test
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report-test
+          path: |
+            test-results/
+            playwright-report/
+          retention-days: 30
