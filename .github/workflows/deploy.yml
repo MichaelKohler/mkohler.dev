@@ -21,6 +21,10 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+      - name: Install Playwright Browsers
+        run: npx playwright install --with-deps
+      - name: Run Playwright Screenshot Tests
+        run: npm test
       - name: Deploy
         run: |
           mkdir -p ~/.ssh
