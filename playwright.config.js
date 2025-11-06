@@ -23,6 +23,15 @@ module.exports = defineConfig({
     trace: 'on-first-retry',
   },
 
+  expect: {
+    toHaveScreenshot: {
+      threshold: 0.2,
+      mode: 'default'
+    }
+  },
+
+  snapshotPathTemplate: '{testDir}/{testFileDir}/{testFileName}-snapshots/{arg}-{projectName}{ext}',
+
   /* Configure projects for major browsers */
   projects: [
     {
