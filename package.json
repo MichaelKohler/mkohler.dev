@@ -10,12 +10,17 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
+    "@playwright/test": "^1.40.0",
     "clean-css": "^5.3.3"
   },
   "scripts": {
     "build": "npm run setup:api && eleventy",
     "fetch": "DEBUG=contributions* node fetch.mjs",
     "setup:api": "cd api && npm install && cd ..",
-    "start": "eleventy --serve --incremental"
+    "start": "eleventy --serve --incremental",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:update": "playwright test --update-snapshots"
   }
 }

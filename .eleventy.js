@@ -24,7 +24,8 @@ module.exports = (eleventyConfig) => {
 
   return {
     dir: {
-      includes: '_layouts',
+      includes: '_includes',
+      layouts: '_layouts',
     },
   };
 };
