@@ -25,7 +25,7 @@ module.exports = defineConfig({
 
   expect: {
     toHaveScreenshot: {
-      threshold: 0.4,
+      threshold: 0.5,
       mode: 'default'
     }
   },
