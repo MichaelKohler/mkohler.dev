@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2025-12-28T22:07:44.000Z",
+    "description": "build(deps): bump actions/checkout from 4 to 6",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/320#pullrequestreview-3614852435",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2025-12-28T22:07:21.000Z",
+    "description": "build(deps): bump actions/setup-node from 4 to 6",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/321#pullrequestreview-3614852341",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2025-12-28T22:04:09.000Z",
+    "description": "build(deps): bump actions/checkout from 5 to 6",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/31#pullrequestreview-3614851380",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2025-12-28T21:35:50.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(deps): add dependabot",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/ff3d801dacb3333e282b995431c69be4688e1e1e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-12-28T21:33:00.000Z",
+    "description": "mozillach/mozilla-watcher: Use standardized dependabot setup",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/59f655227af16acdf0e6e7042797ddab6b7e8a5e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-10-17T13:11:14.000Z",
     "description": "Fix release: update to trusted publisher",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/issues/27#issuecomment-3415569129",
