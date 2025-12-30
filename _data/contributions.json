@@ -1,5 +1,40 @@
 [
   {
+    "createdAt": "2025-12-29T22:05:53.000Z",
+    "description": "mozillach/mozilla-watcher: Add pages write permission",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/2aee663ad4c7c22d4c1cf17842437d17bcfa20cb",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-12-29T22:02:59.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(deps): update dependencies",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/7c4e0e06005731340f9f8ab434503ef959a2daad",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-12-29T21:58:06.000Z",
+    "description": "mozillach/mozilla-watcher: Add id-token permission to update action",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/c3340fa7487280be83a5b44ec382832c94d6c413",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-12-29T21:40:50.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(lint): upgrade to ESLint 9",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/2a6e13385f7c6b93513a27a6c5b3a45948047dfb",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-12-29T21:11:18.000Z",
+    "description": "mozillach/mozilla-watcher: Use GitHub's actions to deploy to GitHub Pages",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/62160785c4aef2bdef05a0fd2d772808be186993",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2025-12-28T22:07:44.000Z",
     "description": "build(deps): bump actions/checkout from 4 to 6",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/320#pullrequestreview-3614852435",
