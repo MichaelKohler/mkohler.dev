@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-01-14T18:46:25.000Z",
+    "description": "mozillach/mozilla-watcher: Reapply \"Disable Wiki fetching for now\" as fetching is not allowed\nagain anymore\n\nThis reverts commit 26fef2317d77925dcbd9cc98a291f6fdcc7d4e2f.",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/495b91ca9d3c93a5245adca12c6248b361d607bb",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2026-01-01T18:42:01.000Z",
     "description": "mozillach/mozilla-watcher: Revert \"Disable Wiki fetching for now\"\n\nThis reverts commit 16f91f0d912906f35cd59cb61e24bdccf4aa2ab2.",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/26fef2317d77925dcbd9cc98a291f6fdcc7d4e2f",
