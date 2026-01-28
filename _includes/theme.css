@@ -748,7 +748,8 @@ footer {
     font-size: 18px;
   }
 
-  header img,
+  header .menu-button,
+  header .photo,
   nav,
   .about,
   .details .sidebar h3,
@@ -806,16 +807,21 @@ footer {
         & div:first-child {
           margin-block-end: 5px;
         }
+
+        a {
+          box-shadow: none;
+        }
       }
     }
 
     & .experience-info {
-      display: block;
+      flex-direction: column;
 
       & .skills {
         min-width: 100%;
         padding: 0;
         margin: 0;
+        order: 2;
 
         & h3 {
           margin-block-start: 20px;
@@ -825,6 +831,7 @@ footer {
       }
 
       & .pro-experience {
+        order: 1;
         padding: 0;
         margin: 0;
 
