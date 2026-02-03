@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "dependencies": {
-    "fastify": "^5.6.1"
+    "fastify": "^5.7.3"
   },
   "scripts": {
     "start": "node index.js"
