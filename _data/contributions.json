@@ -7406,6 +7406,13 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2021-10-26T16:01:49.978Z",
+    "description": "Say hello to 4 new mentors!",
+    "link": "https://discourse.mozilla.org/t/say-hello-to-4-new-mentors/87722/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2021-10-25T21:52:33.000Z",
     "description": "Actions: Rebase seems to break sample extraction",
     "link": "https://github.com/common-voice/cv-sentence-extractor/issues/163#issuecomment-951360401",
@@ -36939,6 +36946,13 @@
     "source": "github-commit"
   },
   {
+    "createdAt": "2018-08-28T18:40:51.545Z",
+    "description": "Proposal to improve the Mentor selection process",
+    "link": "https://discourse.mozilla.org/t/proposal-to-improve-the-mentor-selection-process/31276/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2018-08-28T16:05:40.000Z",
     "description": "List of Reps without NDA access group",
     "link": "https://github.com/mozilla/Reps/issues/340#issuecomment-416644612",
@@ -54628,6 +54642,13 @@
     "source": "discourse-posts"
   },
   {
+    "createdAt": "2017-05-12T17:18:59.502Z",
+    "description": "May meeting",
+    "link": "https://discourse.mozilla.org/t/may-meeting/15566/2",
+    "type": "Posted on Discourse Topic",
+    "source": "discourse-posts"
+  },
+  {
     "createdAt": "2017-05-12T17:00:22.000Z",
     "description": "MichaelKohler/reps-role-tracking: Make sure to compare lowercase",
     "link": "https://github.com/MichaelKohler/reps-role-tracking/commit/d4a1b7cb0e0d8de0548379bae571063de9894af3",
@@ -58840,6 +58861,13 @@
     "type": "Attended an Event",
     "link": "https://reps.mozilla.org/e/reps-council-weekly-meeting-2017-02-07/",
     "source": "reps"
+  },
+  {
+    "createdAt": "2017-02-03T22:38:38.217Z",
+    "description": "Please help circulate in your communities",
+    "link": "https://discourse.mozilla.org/t/please-help-circulate-in-your-communities/13393",
+    "type": "Created Discourse Topic",
+    "source": "discourse-topics"
   },
   {
     "createdAt": "2017-02-03T22:15:43.650Z",
