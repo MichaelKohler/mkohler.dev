@@ -4,10 +4,11 @@ node_modules
 _site
 coverage
 .nyc_output
-.playwright-mcp
 
 # Playwright
+.playwright-mcp
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+.vercel
