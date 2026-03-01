@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-03-01T08:31:26.000Z",
+    "description": "build(deps): bump rollup from 4.57.0 to 4.59.0",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/52#pullrequestreview-3871730754",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-02-05T07:07:23.939Z",
     "description": "The Big Discourse Tidy Up!",
     "link": "https://discourse.mozilla.org/t/the-big-discourse-tidy-up/147280/12",
