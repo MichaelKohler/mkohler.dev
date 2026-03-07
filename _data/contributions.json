@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-03-06T14:13:01.000Z",
+    "description": "build(deps-dev): bump tar from 7.5.9 to 7.5.10",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/328#pullrequestreview-3903943215",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-03-01T08:31:26.000Z",
     "description": "build(deps): bump rollup from 4.57.0 to 4.59.0",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/52#pullrequestreview-3871730754",
