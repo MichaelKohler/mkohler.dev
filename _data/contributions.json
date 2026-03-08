@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-03-07T07:25:30.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: Adjust Dependabot cooldown days for minor and patch updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/08ffac72890952e76a43ca887e208a1717d409a2",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2026-03-06T14:13:01.000Z",
     "description": "build(deps-dev): bump tar from 7.5.9 to 7.5.10",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/328#pullrequestreview-3903943215",
