@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-03-10T06:19:48.000Z",
+    "description": "build(deps-dev): bump serve from 14.2.5 to 14.2.6 in the development-dependencies group",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/329#pullrequestreview-3920048928",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-03-07T07:25:30.000Z",
     "description": "MichaelKohler/volunteer-contributions-fetch: Adjust Dependabot cooldown days for minor and patch updates",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/08ffac72890952e76a43ca887e208a1717d409a2",
