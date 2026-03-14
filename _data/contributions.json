@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-03-13T15:33:40.000Z",
+    "description": "build(deps): bump tar and npm",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/54#pullrequestreview-3944948763",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-03-13T15:09:42.000Z",
+    "description": "build(deps-dev): bump tar from 7.5.10 to 7.5.11",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/330#pullrequestreview-3944750348",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-03-10T06:19:48.000Z",
     "description": "build(deps-dev): bump serve from 14.2.5 to 14.2.6 in the development-dependencies group",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/329#pullrequestreview-3920048928",
