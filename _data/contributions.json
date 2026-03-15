@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-03-14T07:55:50.000Z",
+    "description": "build(deps-dev): bump undici from 7.16.0 to 7.24.1",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/331#pullrequestreview-3948379846",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-03-14T07:54:38.000Z",
+    "description": "build(deps): bump undici and @actions/http-client",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/56#pullrequestreview-3948379212",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-03-13T15:33:40.000Z",
     "description": "build(deps): bump tar and npm",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/54#pullrequestreview-3944948763",
