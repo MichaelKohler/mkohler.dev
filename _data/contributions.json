@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-03-17T09:17:40.000Z",
+    "description": "build(deps): bump pug from 3.0.3 to 3.0.4 in the production-dependencies group",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/332#pullrequestreview-3959244015",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-03-17T09:15:54.000Z",
+    "description": "build(deps-dev): bump ava from 6.4.1 to 7.0.0 in the development-dependencies group",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/333#pullrequestreview-3959234003",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-03-14T07:55:50.000Z",
     "description": "build(deps-dev): bump undici from 7.16.0 to 7.24.1",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/331#pullrequestreview-3948379846",
