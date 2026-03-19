@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-03-18T06:02:57.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group across 1 directory with 4 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/53#pullrequestreview-3965313240",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-03-17T09:17:40.000Z",
     "description": "build(deps): bump pug from 3.0.3 to 3.0.4 in the production-dependencies group",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/332#pullrequestreview-3959244015",
