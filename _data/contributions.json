@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-03-19T19:17:27.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(dependencies): update dependencies and run npm audit fix (#58)",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d5d8ee1577660fc49c50ea2102d754c496446fd0",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-03-19T19:17:11.000Z",
+    "description": "fix(dependencies): update dependencies and run npm audit fix",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/58",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2026-03-18T06:02:57.000Z",
     "description": "build(deps-dev): bump the development-dependencies group across 1 directory with 4 updates",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/53#pullrequestreview-3965313240",
