@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-03-26T20:02:06.000Z",
+    "description": "build(deps): bump picomatch",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/59#pullrequestreview-4017040297",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-03-26T17:22:44.000Z",
+    "description": "build(deps): bump actions/deploy-pages from 4 to 5",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/335#pullrequestreview-4016005034",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-03-19T19:17:27.000Z",
     "description": "MichaelKohler/volunteer-contributions-fetch: fix(dependencies): update dependencies and run npm audit fix (#58)",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d5d8ee1577660fc49c50ea2102d754c496446fd0",
