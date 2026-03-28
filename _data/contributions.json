@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-03-27T08:13:14.000Z",
+    "description": "mozillach/mozilla-watcher: Upgrade to Node 24 (#336)",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/66dcf2527718493a15cd61e6b37eab8d037f0b12",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-03-27T08:12:37.000Z",
+    "description": "Upgrade to Node 24",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/336",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2026-03-26T20:02:06.000Z",
     "description": "build(deps): bump picomatch",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/59#pullrequestreview-4017040297",
