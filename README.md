@@ -9,7 +9,7 @@ Setting up
 After cloning the repository change to the newly created folder and install the third-party dependencies.
 
 ```
-$ npm ci
+$ pnpm install
 ```
 
 Running the project
@@ -19,7 +19,7 @@ To create a local webserver to serve the content of the repository run
 
 ```
 $ git submodule init && git submodule update
-$ npm start
+$ pnpm start
 ```
 
 This project includes a watcher to pick up changes on files and directly reloads the page or injects the appropriate changes.
@@ -28,7 +28,7 @@ Building the project
 -----
 
 ```
-$ npm run build
+$ pnpm build
 ```
 
 This will create a few folder ```_site``` which will include all necessary files to upload to a web server.
