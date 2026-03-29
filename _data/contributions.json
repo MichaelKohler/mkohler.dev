@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-03-28T13:13:38.000Z",
+    "description": "build(deps-dev): bump handlebars from 4.7.8 to 4.7.9",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/60#pullrequestreview-4025573977",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-03-27T08:13:14.000Z",
     "description": "mozillach/mozilla-watcher: Upgrade to Node 24 (#336)",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/66dcf2527718493a15cd61e6b37eab8d037f0b12",
