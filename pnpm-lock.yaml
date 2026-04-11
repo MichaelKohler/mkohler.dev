@@ -24,6 +24,9 @@ importers:
       clean-css:
         specifier: ^5.3.3
         version: 5.3.3
+      markdown-it:
+        specifier: ^14.1.1
+        version: 14.1.1
 
 packages:
 

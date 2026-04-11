@@ -1,7 +1,7 @@
-const pluginRss = require('@11ty/eleventy-plugin-rss');
-const markdownIt = require('markdown-it');
+import pluginRss from '@11ty/eleventy-plugin-rss';
+import markdownIt from 'markdown-it';
 
-module.exports = (eleventyConfig) => {
+export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({
     'public': '/',
   });
