@@ -10,9 +10,9 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",
     "@11ty/eleventy-plugin-rss": "^3.0.0",
-    "@playwright/test": "^1.61.0",
+    "@playwright/test": "^1.61.1",
     "clean-css": "^5.3.3",
-    "markdown-it": "^14.2.0"
+    "markdown-it": "^14.3.0"
   },
   "packageManager": "pnpm@11.0.4",
   "scripts": {
