@@ -30,7 +30,7 @@
       ]
     },
     {
-      "source": "/webmonetization(.*)",
+      "source": "/webmonetization/:path*",
       "headers": [
         {
           "key": "X-Content-Type-Options",
