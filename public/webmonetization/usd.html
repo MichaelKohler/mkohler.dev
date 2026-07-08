@@ -1,0 +1,106 @@
+<!-- shamelessly stolen from https://raw.githubusercontent.com/sidvishnoi/test.sidvishnoi.com/refs/heads/main/web-monetization/basic.html-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Web Monetization Events & Counter - Testnet</title>
+
+    <link
+      rel="monetization"
+      href="https://ilp.interledger-test.dev/mkohler-wm-extension"
+    />
+
+    <style>
+      body {
+        line-height: 1.5;
+        font-family:
+          Bahnschrift, "DIN Alternate", "Franklin Gothic Medium",
+          "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
+      }
+    </style>
+
+    <style>
+      pre {
+        font-size: small;
+        height: 8rem;
+        overflow: auto;
+        padding: 1em;
+        border: 1px solid currentColor;
+        border-radius: 4px;
+        background: light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Web Monetization Events & Counter - Testnet</h1>
+
+    <p>
+      This page is testing Web Monetization for
+      <a href="https://wallet.interledger-test.dev/">testnet</a> USD wallet
+      address:
+      <a href="https://ilp.interledger-test.dev/mkohler-wm-extension"
+        >https://ilp.interledger-test.dev/mkohler-wm-extension</a
+      >.
+    </p>
+
+    <p>
+      Make sure your Web Monetization extension is connected to a testnet wallet
+      address for this page to receive monetization events.
+    </p>
+
+    <hr />
+
+    <p>
+      Received amount:
+      <output
+        id="amount"
+        style="font-variant-numeric: tabular-nums; font-weight: bold"
+        >$0.00</output
+      >
+    </p>
+
+    <strong>Monetization Events:</strong>
+    <pre id="events-log"></pre>
+
+    <script>
+      let totalAmountReceived = 0;
+
+      const ts = () => new Date().toLocaleTimeString();
+      const log = (msg) =>
+        logEl.prepend(document.createTextNode(`${ts()}: ${msg}\n`));
+
+      const amountEl = document.getElementById("amount");
+      const logEl = document.getElementById("events-log");
+
+      if (!document.createElement("link").relList.supports("monetization")) {
+        log("Web Monetization is not supported");
+      }
+
+      document
+        .querySelector('link[rel="monetization"]')
+        .addEventListener("load", () => {
+          log("Load event firedO");
+        });
+
+      const fmt = new Intl.NumberFormat(undefined, {
+        style: "currency",
+        currency: "USD",
+      });
+
+      window.addEventListener("monetization", (ev) => {
+        console.log(ev);
+        const amountSent = ev.amountSent.value;
+        const currency = ev.amountSent.currency;
+        const amount = Number(amountSent);
+        totalAmountReceived = Number(totalAmountReceived) + amount;
+        amountEl.textContent = fmt.format(totalAmountReceived);
+
+        log(currency + " " + amountSent);
+      });
+    </script>
+  </body>
+</html>
