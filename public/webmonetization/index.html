@@ -40,7 +40,7 @@
 
     <p>
       This page is testing Web Monetization for
-      <a href="https://wallet.interledger-test.dev/">testnet</a> MXN wallet
+      <a href="https://wallet.interledger-test.dev/">testnet</a> EUR wallet
       address:
       <a href="https://ilp.interledger-test.dev/31ffa24"
         >https://ilp.interledger-test.dev/31ffa24</a
@@ -59,7 +59,7 @@
       <output
         id="amount"
         style="font-variant-numeric: tabular-nums; font-weight: bold"
-        >MX$0.00</output
+        >€0.00</output
       >
     </p>
 
@@ -88,7 +88,7 @@
 
       const fmt = new Intl.NumberFormat(undefined, {
         style: "currency",
-        currency: "MXN",
+        currency: "EUR",
       });
 
       window.addEventListener("monetization", (ev) => {
