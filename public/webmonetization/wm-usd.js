@@ -14,7 +14,7 @@ if (!document.createElement("link").relList.supports("monetization")) {
 document
   .querySelector('link[rel="monetization"]')
   .addEventListener("load", () => {
-    log("Load event firedO");
+    log("Load event fired");
   });
 
 const fmt = new Intl.NumberFormat(undefined, {
