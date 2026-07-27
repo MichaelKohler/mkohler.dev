@@ -43,14 +43,18 @@ self.addEventListener('fetch', (event) => {
             return res;
           });
       })
-      .catch(() => {
+      .catch((error) => {
+        console.error('Fetch failed; returning cached page instead.', error);
+        console.debug('Original request was:', event.request);
         return caches.match(event.request)
       })
       .then((res) => {
         if (!res) {
+          console.error('No cached page found; returning offline page instead.');
           return caches.match('/offline/');
         }
 
+        console.log('Found cached page, returning that instead.');
         return res;
       })
   );
