@@ -1,5 +1,404 @@
 [
   {
+    "createdAt": "2026-08-19T05:29:54.000Z",
+    "description": "build(deps-dev): bump semantic-release from 25.0.8 to 25.0.9 in the development-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/97#pullrequestreview-4968702407",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-12T12:39:14.000Z",
+    "description": "build(deps-dev): bump js-yaml from 4.3.0 to 4.3.1",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/96#pullrequestreview-4916555436",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-11T05:59:15.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/353#pullrequestreview-4903329119",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-04T16:22:10.000Z",
+    "description": "build(deps-dev): bump postcss from 8.5.19 to 8.5.25",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/93#pullrequestreview-4856693870",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-04T16:21:49.000Z",
+    "description": "build(deps): bump undici and jsdom",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/94#pullrequestreview-4856690775",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-04T16:21:15.000Z",
+    "description": "build(deps-dev): bump fast-uri from 3.1.4 to 3.1.5",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/95#pullrequestreview-4856685226",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-04T16:20:59.000Z",
+    "description": "build(deps-dev): bump fast-uri from 3.1.4 to 3.1.5",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/352#pullrequestreview-4856682536",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-04T15:46:37.000Z",
+    "description": "build(deps-dev): bump undici from 7.28.0 to 7.29.0",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/351#pullrequestreview-4856376002",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-04T15:46:09.000Z",
+    "description": "build(deps): bump undici",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/92#pullrequestreview-4856371969",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-31T15:33:04.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/91#pullrequestreview-4829925479",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-25T10:07:18.000Z",
+    "description": "build(deps-dev): bump tar from 7.5.16 to 7.5.22",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/350#pullrequestreview-4779089116",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-25T10:05:07.000Z",
+    "description": "build(deps-dev): bump fast-uri from 3.1.2 to 3.1.4",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/349#pullrequestreview-4779085782",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-23T10:15:19.000Z",
+    "description": "build(deps-dev): bump undici from 6.24.0 to 6.27.0",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/90#pullrequestreview-4763068859",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-22T16:51:09.000Z",
+    "description": "build(deps-dev): bump fast-uri from 3.1.3 to 3.1.4",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/88#pullrequestreview-4756698420",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-22T16:50:00.000Z",
+    "description": "build(deps): bump tar and npm",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/89#pullrequestreview-4756689896",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-22T05:18:20.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 4 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/87#pullrequestreview-4751222825",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-17T07:03:35.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/85#pullrequestreview-4720146228",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-17T07:01:30.000Z",
+    "description": "build(deps): bump actions/setup-node from 6 to 7",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/348#pullrequestreview-4720131132",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-17T07:00:36.000Z",
+    "description": "build(deps): bump actions/setup-node from 6 to 7",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/86#pullrequestreview-4720124448",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-11T06:51:18.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 3 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/84#pullrequestreview-4676899359",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-07-01T06:04:24.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/83#pullrequestreview-4606161949",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-24T07:03:51.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/82#pullrequestreview-4559842174",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-19T14:23:44.000Z",
+    "description": "build(deps-dev): bump tar from 7.5.15 to 7.5.16",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/346#pullrequestreview-4533527984",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-19T14:13:04.000Z",
+    "description": "build(deps-dev): bump undici from 7.24.1 to 7.28.0",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/347#pullrequestreview-4533465673",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-19T09:50:41.000Z",
+    "description": "build(deps): bump actions/checkout from 6 to 7",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/345#pullrequestreview-4531881395",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-19T09:47:11.000Z",
+    "description": "build(deps): bump actions/checkout from 6 to 7",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/81#pullrequestreview-4531858830",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-17T14:18:53.000Z",
+    "description": "build(deps): bump tar and npm",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/80#pullrequestreview-4516498852",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-17T14:01:51.000Z",
+    "description": "build(deps-dev): bump js-yaml from 4.1.1 to 4.2.0",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/79#pullrequestreview-4516344125",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-17T05:32:28.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/78#pullrequestreview-4512640976",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-10T07:09:20.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 5 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/77#pullrequestreview-4465395963",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-06-04T10:04:28.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/76#pullrequestreview-4426818120",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-27T05:23:30.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/75#pullrequestreview-4369612655",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-26T16:32:26.000Z",
+    "description": "build(deps-dev): bump ava from 8.0.0 to 8.0.1 in the development-dependencies group",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/344#pullrequestreview-4365640692",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-20T07:31:15.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/74#pullrequestreview-4326142612",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-13T05:02:14.000Z",
+    "description": "build(deps): bump the production-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/72#pullrequestreview-4278442615",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-13T05:01:40.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/73#pullrequestreview-4278439803",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-12T05:31:45.000Z",
+    "description": "build(deps-dev): bump ava from 7.0.0 to 8.0.0 in the development-dependencies group",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/343#pullrequestreview-4269398367",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-12T05:29:57.000Z",
+    "description": "build(deps-dev): bump fast-uri from 3.1.0 to 3.1.2",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/342#pullrequestreview-4269388870",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-06T06:35:49.000Z",
+    "description": "build(deps): bump jsdom from 29.0.2 to 29.1.0 in the production-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/70#pullrequestreview-4233772531",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-05-06T06:34:54.000Z",
+    "description": "build(deps-dev): bump @commitlint/cli from 20.5.0 to 20.5.2 in the development-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/71#pullrequestreview-4233767638",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-29T05:06:13.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/69#pullrequestreview-4194254806",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-22T05:43:04.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 3 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/68#pullrequestreview-4152296236",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-15T08:58:13.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/67#pullrequestreview-4112190803",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-14T06:05:11.000Z",
+    "description": "build(deps): bump actions/upload-pages-artifact from 4 to 5",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/341#pullrequestreview-4103656026",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-09T20:39:54.000Z",
+    "description": "build(deps): bump picomatch",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/334#pullrequestreview-4085274490",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-09T20:38:31.000Z",
+    "description": "mozillach/mozilla-watcher: Remove MozillaDataScience from organizations (#340)\n\nRemoved 'MozillaDataScience' from the organizations list as it doesn't exist anymore",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/faec1d391cd44c3435c88bb22f0a2f1f232c453c",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-04-09T20:20:11.000Z",
+    "description": "Remove MozillaDataScience from organizations",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/340",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-04-08T14:04:38.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group across 1 directory with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/65#pullrequestreview-4075696269",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-08T14:00:57.000Z",
+    "description": "build(deps-dev): bump lodash from 4.17.23 to 4.18.1",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/339#pullrequestreview-4075668844",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-08T13:59:41.000Z",
+    "description": "build(deps): bump vite from 8.0.3 to 8.0.5",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/64#pullrequestreview-4075658278",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-04T10:17:15.000Z",
+    "description": "build(deps-dev): bump lodash-es from 4.17.23 to 4.18.1",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/63#pullrequestreview-4058400191",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-01T05:12:47.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/62#pullrequestreview-4041713611",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-04-01T05:11:26.000Z",
+    "description": "build(deps): bump jsdom from 29.0.0 to 29.0.1 in the production-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/61#pullrequestreview-4041710206",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-03-29T07:21:42.000Z",
+    "description": "mozillach/mozilla-watcher: Add 'mozilla-ai' to organizations (#338)",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/27fb3b10358a7d1434fcac1907911d247a54fb27",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-03-29T07:21:08.000Z",
+    "description": "Add 'mozilla-ai' to organizations",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/338",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-03-29T07:20:21.000Z",
+    "description": "mozillach/mozilla-watcher: Remove inexistent mozillafa org (#337)\n\nRemoved 'Mozillafa' from the organizations list.",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/2559da46037f93aba166562d2306ee2e251950a6",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-03-29T07:19:51.000Z",
+    "description": "Remove inexistent mozillafa org",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/337",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2026-03-28T13:13:38.000Z",
     "description": "build(deps-dev): bump handlebars from 4.7.8 to 4.7.9",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/60#pullrequestreview-4025573977",
@@ -607,83 +1006,6 @@
     "link": "https://github.com/mozillach/mozilla-watcher/commit/e53a4c2cdaba4e4dab18bdbb8644e6d96a3d8965",
     "type": "GitHub Commit",
     "source": "github-commit"
-  },
-  {
-    "createdAt": "2024-12-29T12:53:41.000Z",
-    "description": "Marked initial part of bicycle lane on Petersburger Str. as construction as well. Removed non-existing bike parking spots due to construction.",
-    "link": "https://www.openstreetmap.org/changeset/160748944",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-24T11:34:57.000Z",
-    "description": "The shop is closed permanently",
-    "link": "https://www.openstreetmap.org/changeset/160572103",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-22T18:25:13.000Z",
-    "description": "Add garbage bins on Strassmannstr. tram station",
-    "link": "https://www.openstreetmap.org/changeset/160511502",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-22T18:22:28.000Z",
-    "description": "Move Strassmannstr. tram stop shelter to the correct place",
-    "link": "https://www.openstreetmap.org/changeset/160511441",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-22T18:19:09.000Z",
-    "description": "Remove removed pedestrian crossing due to construction",
-    "link": "https://www.openstreetmap.org/changeset/160511339",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-22T18:17:36.000Z",
-    "description": "Delete inaccessible bicycle parking space due to constructions",
-    "link": "https://www.openstreetmap.org/changeset/160511304",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-22T18:16:20.000Z",
-    "description": "Deleted removed parking spots due to construction",
-    "link": "https://www.openstreetmap.org/changeset/160511273",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-22T17:42:19.000Z",
-    "description": "Marked Petersburger Str. east-side of street as construction as they have started building and nothing can use it anymore. Additionally deleted all the driveways and marked sidestreets where they stop.",
-    "link": "https://www.openstreetmap.org/changeset/160510346",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-22T15:38:42.000Z",
-    "description": "Fix length of Strassmannstr. which is blocked",
-    "link": "https://www.openstreetmap.org/changeset/160506076",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-21T17:42:27.000Z",
-    "description": "Letter box does not exist anymore, was removed as part of ongoing construction",
-    "link": "https://www.openstreetmap.org/changeset/160478131",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
-  },
-  {
-    "createdAt": "2024-12-21T17:40:53.000Z",
-    "description": "Ambavi does not exist anymore",
-    "link": "https://www.openstreetmap.org/changeset/160478082",
-    "type": "OpenStreetMaps Edit",
-    "source": "osm"
   },
   {
     "createdAt": "2024-12-09T21:47:24.000Z",
