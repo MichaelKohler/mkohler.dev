@@ -20,7 +20,7 @@ jobs:
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
       - name: Fetch
-        run: pnpm fetch
+        run: pnpm run fetch
         env:
           GITHUB_TOKEN: ${{ secrets.PUBLIC_SCOPE_GH_TOKEN }}
       - name: Set Git Author
