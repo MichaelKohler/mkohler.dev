@@ -27,7 +27,7 @@ const config = {
     stopDate: '2008-01-01',
   },
   osm: {
-    enabled: true,
+    enabled: false,
     displayName: 'cyphix1',
     stopDate: '2024-11-01',
   }
