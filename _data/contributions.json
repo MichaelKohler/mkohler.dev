@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-08-26T12:12:27.000Z",
+    "description": "build(deps): bump brace-expansion",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/99#pullrequestreview-5030193033",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-08-26T04:27:18.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 4 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/98#pullrequestreview-5026780351",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-08-19T05:29:54.000Z",
     "description": "build(deps-dev): bump semantic-release from 25.0.8 to 25.0.9 in the development-dependencies group",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/97#pullrequestreview-4968702407",
