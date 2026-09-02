@@ -1,5 +1,47 @@
 [
   {
+    "createdAt": "2026-09-01T12:55:36.000Z",
+    "description": "Addressing open Dependabot vulnerabilities",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/101#pullrequestreview-5078265279",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-09-01T12:53:57.000Z",
+    "description": "Addressing open Dependabot vulnerabilities",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/101",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-09-01T12:35:50.000Z",
+    "description": "fix: resolve high-severity npm audit vulnerabilities",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/354#pullrequestreview-5078079152",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-09-01T12:30:56.000Z",
+    "description": "fix: resolve high-severity npm audit vulnerabilities",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/354",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-09-01T12:25:24.000Z",
+    "description": "build: update npm dependencies to latest",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/100#pullrequestreview-5077984113",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-09-01T12:11:43.000Z",
+    "description": "build: update npm dependencies to latest",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/100",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2026-08-26T12:12:27.000Z",
     "description": "build(deps): bump brace-expansion",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/99#pullrequestreview-5030193033",
