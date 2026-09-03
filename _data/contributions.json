@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-09-03T07:19:14.000Z",
+    "description": "build(deps-dev): bump fast-uri from 3.1.5 to 3.1.7",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/102#pullrequestreview-5098954266",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-09-01T12:55:36.000Z",
     "description": "Addressing open Dependabot vulnerabilities",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/101#pullrequestreview-5078265279",
