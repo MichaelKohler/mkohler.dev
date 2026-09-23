@@ -8,10 +8,10 @@ On the 8th of November (yes, 2 days before #fx10), we met in Zurich to provide a
 
 <!-- excerpt -->
 
-![Team](https://farm6.staticflickr.com/5616/15741239816_159004e0a9_c.jpg)
+![Team](https://farm6.staticflickr.com/5616/15741239816_159004e0a9_c.webp)
 
 Reminder for everyone who wants to serve tea some time: cooking 28 liters of water for the tea is easy. It took us only about an hour to finish the tea. But since nobody of us is allowed to drive a car (we don't need to have a car in Switzerland), we had to think about transportation. Since we also had to transport a table we needed a car and couldn't use public transport. We didn't find anybody with a car, so we took a taxi. The taxi driver did a great job driving steady to not spill anything. Making any other driver believe that it's a weird taxi driver driving so slowly? We did it!
 
-![Tea booth](https://farm6.staticflickr.com/5612/15764950625_e85255849d_c.jpg)
+![Tea booth](https://farm6.staticflickr.com/5612/15764950625_e85255849d_c.webp)
 
 There we're about 80 to 100 people attending. Since Switzerland is quite cold these days, our tea was greatly appreciated. We had a great evening and we're surprised how many people don't know the values of Mozilla. We need to have more events like this and show that Mozilla stands for Privacy.

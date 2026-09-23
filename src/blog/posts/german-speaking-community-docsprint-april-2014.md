@@ -8,7 +8,7 @@ Am 5. und 6. April  traffen wir uns in Berlin für einen Mozilla DocSprint der 
 
 <!-- excerpt -->
 
-[![docsprint](/images/2014/04/docsprint.jpg)](/images/2014/04/docsprint.jpg)
+[![docsprint](/images/2014/04/docsprint.webp)](/images/2014/04/docsprint.webp)
 
 Am Freitag traffen wir uns im Mozilla Office in Berlin, um an einer Mozilla-Town-Hall teilzunehmen. Danach haben wir über diverse Themen diskutiert und uns auf die beiden bevorstehenden Tage vorbereitet.
 
@@ -16,11 +16,11 @@ Am Freitag traffen wir uns im Mozilla Office in Berlin, um an einer Mozilla-Town
 
 Am Samstag war unsere Aufmerksamkeit vollständig auf [SUMO](http://support.mozilla.org/) gerichtet. Thomas hat uns eine [Einführung](https://support.mozilla.org/de/kb/how-translate-sumo-kb-articles-german) gegeben, so dass wir danach selbständig Artikel übersetzen konnten. Mit der super Hilfe von Thomas und anderen Lokalisierern konnten wir viele Artikel zum Thema "Firefox 29" übersetzen. Andy und andere haben jeweils die neuen Australis-Screenshots auf Deutsch dazu beigetragen.
 
-![](https://farm3.staticflickr.com/2824/13704874205_095564a31b_c.jpg)
+![](https://farm3.staticflickr.com/2824/13704874205_095564a31b_c.webp)
 
 Nach ungefähr 11 Stunden Arbeit konnten wir guten Gewisses chinesisch essen gehen.
 
-![](https://farm8.staticflickr.com/7337/13705701444_5aafa4145c_c.jpg)
+![](https://farm8.staticflickr.com/7337/13705701444_5aafa4145c_c.webp)
 
 ## Sonntag
 
@@ -28,7 +28,7 @@ Am Sonntag [führte uns Florian in MDN ein](http://florianscholz.com/2014/03/are
 
 Am Nachmittag erhielten wir eine kurze [Einführung](https://etherpad.mozilla.org/V5uqlqvJ0O) in "Produkt-Lokalisierung" von Kadir. Mit dieser Einführung sollten nun alle in der Lage sein, die verschiedenen Produkte zu lokalisieren und die deutschsprachige Übersetzung auf dem aktuellen Stand zu halten. Da Sebastian bereits viele Bugs im Vorfeld korrigiert hatte, blieben uns nur noch 2 Bugs, die wir bearbeiten konnten. An dieser Stelle auch einen herzlichen Dank an Sebastian und Andy, welche zwar nicht dabei sein konnten, aber trotzdem massgeblich am Erfolg dieses Wochenendes beigetragen haben.
 
-![](https://farm3.staticflickr.com/2856/13705238234_09a7601522_c.jpg)
+![](https://farm3.staticflickr.com/2856/13705238234_09a7601522_c.webp)
 
 Die erledigten Arbeiten könnt ihr nachfolgend einsehen.
 

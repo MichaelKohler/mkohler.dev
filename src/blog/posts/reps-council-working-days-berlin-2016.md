@@ -8,17 +8,17 @@ From April 15th through April 17th the [Mozilla Reps Council](https://wiki.mozil
 
 <!-- excerpt -->
 
-![](https://c3.staticflickr.com/2/1646/26511239466_c573cc66ca_z.jpg)
+![](https://c3.staticflickr.com/2/1646/26511239466_c573cc66ca_z.webp)
 
 ## Alignment Working Group
 
-![](https://c4.staticflickr.com/2/1475/26537195435_5d8245682f_z.jpg)
+![](https://c4.staticflickr.com/2/1475/26537195435_5d8245682f_z.webp)
 
 The first session on Saturday was about the Alignment WG. Before the weekend we (more or less) finished the [proposal](https://discourse.mozilla-community.org/t/working-group-alignment-with-participation-team-and-mozilla-organisation/7013). This allowed us to discuss the last few open questions, which are now all integrated in the proposal. This will only need review by Konstantina to make sure I haven't forgotten to add anything from the session and then we can start implementing it. We are sure that this will formalize the interaction between Mozilla goals and Reps goals, stay tuned for more information, we're currently working on a communication strategy for all the RepsNext changes to make it easier and more fun for you to get informed about the changes.
 
 ## Meta Working Group
 
-![](https://c4.staticflickr.com/2/1533/26537201035_397edf66a9_z.jpg)
+![](https://c4.staticflickr.com/2/1533/26537201035_397edf66a9_z.webp)
 
 For the Meta Working Group we had more open questions and therefore decided to do brainstorming in three teams. The questions were:
 
@@ -32,13 +32,13 @@ We're currently documenting the findings in the [Meta working group working prop
 
 A new working group? As you see, I didn't believe it at first and Rara was visibly shocked!
 
-![](https://c1.staticflickr.com/2/1467/25932254064_8663f96947_z.jpg)
+![](https://c1.staticflickr.com/2/1467/25932254064_8663f96947_z.webp)
 
 Fun aside, yes, we'll start a new Working group around the topics of outwards communication and the Rep program's image. During our discussions on Saturday, we came up with a few questions that we will need to answer. This Friday we had our first call, follow us in the [Discourse topic](https://discourse.mozilla-community.org/t/reps-identity-comms-working-group/8174/7) and it's not too late to help out here! Please get involved as soon as possible to shape the future of Reps!
 
 ## Communication Session
 
-![](/images/2016/04/council-notes.jpg)
+![](/images/2016/04/council-notes.webp)
 
 On Sunday we ran a joint session with the rest of the Participation team around the topic "How we work together". We came up with the questions above and let those be answered / brainstormed in groups. I started to document the findings yesterday, but this is not yet in a state where it will be useful for anybody. Stay tuned for more communication around this (communication about communication, isn't it fun? :)). The last question around "How might we improve the communication between the Participation-Team and the Council?" is already documented in the Alignment Working group proposal. Further the Identity working group will tackle and elaborate further the question around visibility.
 
@@ -46,7 +46,7 @@ On Sunday we ran a joint session with the rest of the Participation team around 
 
 Wait, there is a roadmap?
 
-![](https://c2.staticflickr.com/2/1523/25934141553_f098480a41_z.jpg)
+![](https://c2.staticflickr.com/2/1523/25934141553_f098480a41_z.webp)
 
 Yes!
 

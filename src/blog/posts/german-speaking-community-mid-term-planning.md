@@ -22,7 +22,7 @@ Everything started out at the [end of September](https://groups.google.com/forum
 
 After the [community meetup at the beginning of the year](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/) we had a lot of momentum which enabled us to get quite a lot done. Unfortunately this momentum has decreased over time, with a low since September (my opinion). Therefore our main areas we picked for our mid-term plans focused on internal improvements we can make, so we can focus on Mozilla top-organizational goals once we have implemented our improvements. This doesn't mean that the German-speaking community won't focus on product or mission, but it's just not where we can commit as a whole community right now.
 
-![](https://farm1.staticflickr.com/736/22650181676_fa012408d4_z_d.jpg)
+![](https://farm1.staticflickr.com/736/22650181676_fa012408d4_z_d.webp)
 
 We have [identified four areas](https://discourse.mozilla-community.org/t/auswahl-der-ziele/5047/3) we'd like to focus, which I will explain in detail below. Those are documented (in German) on a [Wiki page](https://wiki.mozilla.org/De/2016) as well to be as transparent as possible. We also asked for feedback through the community list and didn't get any responses that would say anything against this plan.
 
@@ -71,7 +71,7 @@ Goals:
 *   We keep users engaged and updated with at least 8 tweets per month per channel
 *   There are at least 3 maintainers for the different accounts
 
-![](https://farm9.staticflickr.com/8605/16404178707_c37bd448af_z_d.jpg)
+![](https://farm9.staticflickr.com/8605/16404178707_c37bd448af_z_d.webp)
 
 To track the progress [we created a GitHub repository](https://github.com/MozillaDE/ziele2016/issues) in our organization, where everybody can create issues to track a certain task. There are four labels which make it possible to filter for a specific improvement area. Of course, feel free to create your own issues in this GitHub repo as well, even if it might not be 100% tied to the goals, but every contribution counts!
 

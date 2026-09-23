@@ -16,7 +16,7 @@ Mozillas Mission können wir nicht alleine erreichen. Die Tausenden von Mozillia
 
 Deswegen ist eine der sechs[ strategischen Initiativen](https://docs.google.com/presentation/d/1A3Ma9gNawAYYGbYC2bUW0wUwcpHuvyMiZvHNiMLriw0/edit#slide=id.gdaa7a0bd0_1_0) des Participation Teams für die erste Jahreshälfte, möglichst viele Mozillianer über diese Leitlinien aufzuklären, damit wir 2016 den bisher wesentlichsten Einfluss erzielen können. Wir werden einen weiteren Beitrag veröffentlichen, der sich näher mit der Strategie des Participation Teams für das Jahr 2016 befassen wird.
 
-![](https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/community/files/2016/01/Screen-Shot-2015-12-18-at-2.02.07-PM-600x335.png)
+![](https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/community/files/2016/01/Screen-Shot-2015-12-18-at-2.02.07-PM-600x335.webp)
 
 Das Verstehen dieser Strategie wird unabdingbar sein für jeden, der bei Mozilla in diesem Jahr etwas bewirken möchte, denn sie wird bestimmen, wofür wir eintreten, wo wir unsere Ressourcen einsetzen und auf welche Projekte wir uns 2016 konzentrieren werden.
 

@@ -14,7 +14,7 @@ First we had a "Call for Speakers" which did not turn out as hoped, since we did
 
 It was the first time we created a website for an event in the German-speaking community. We decided on [mozweekend.de](http://mozweekend.de/) which we will be able to use also for future Mozilla Weekends in Germany. I think we need to do that as well for future, big events since we had quite a lot of visitors and registrations. Until one day before the event we had about 120 registrations.
 
-[![CI6ryViWcAALYGP.png_large](/images/2015/07/CI6ryViWcAALYGP.png_large.png)](/images/2015/07/CI6ryViWcAALYGP.png_large.png)
+[![CI6ryViWcAALYGP.png_large](/images/2015/07/CI6ryViWcAALYGP.png_large.webp)](/images/2015/07/CI6ryViWcAALYGP.png_large.webp)
 
 ## Day 1 - July 11
 

@@ -18,16 +18,16 @@ After some very interesting talks we could start with our workshop in the aftern
 
 At the beginning I hold a short talk about Firefox OS explaining its way and our goals. No, I don't have slides to share, since I took the very popular slides from Christian Heilmann and deleted some of the slides to fit it to our time slot.
 
-![](/images/2014/04/salzburg1.png)
+![](/images/2014/04/salzburg1.webp)
 
 After that [Ankit](https://twitter.com/codekee) took over and explained how to use the Firefox OS Simulator.
 
-![](/images/2014/04/salzburg3.png)
+![](/images/2014/04/salzburg3.webp)
 
 Since Ankit showed how to debug the standard applications already installed on the simulator, a lot of participants instantly opened the editor and played with the Developer Tools.
 
 Since the time didn't allow us to do a lot of application programming the participants just played with the simulator and we answered some questions. One guy took his already existing web app and ported it to Firefox OS.
 
-![](/images/2014/04/salzburg3.png)
+![](/images/2014/04/salzburg3.webp)
 
 After all, the participants had a great time playing with Firefox OS. Additionally they all now have amazing Firefox OS swag. The orange Firefox OS glasses are a great give-away and at the end we could have given away even more than we had!

@@ -8,15 +8,15 @@ At the [Firefox Hackathon in Zurich](https://mkohler.dev/blog/2016/05/firefox-ha
 
 <!-- excerpt -->
 
-[![Screen Shot 2016-05-05 at 14.37.23](/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png)](/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.png)
+[![Screen Shot 2016-05-05 at 14.37.23](/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.webp)](/images/2016/05/Screen-Shot-2016-05-05-at-14.37.23.webp)
 
 The Janitor was started by [Jan Keromnes](https://mozillians.org/en-US/u/janx/), a Mozilla employee. While still in an alpha state, Jan gave us access to it so we could test run it at our hackathon. Many thanks to him for spending his Saturday on IRC and helping us out with everything!
 
 Once you're signed up, you can click on "Open in Cloud9" and directly get to the [Cloud9 editor](http://c9.io/) who kindly sponsor the premium accounts for this project. Cloud9 is a pure-web IDE based on real Linux environments, with an insanely fast editor.
 
-[![Screen Shot 2016-05-05 at 14.38.23](/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.png)](/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.png)
+[![Screen Shot 2016-05-05 at 14.38.23](/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.webp)](/images/2016/05/Screen-Shot-2016-05-05-at-14.38.23.webp)
 
-[![Screen Shot 2016-05-05 at 14.38.50](/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.png)](/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.png)
+[![Screen Shot 2016-05-05 at 14.38.50](/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.webp)](/images/2016/05/Screen-Shot-2016-05-05-at-14.38.50.webp)
 
 At the hackathon we ran into a Cloud9 "create workspace" limitation, but according to Jan this should be fixed now.
 
@@ -30,9 +30,9 @@ I had my environment ready in about 15 minutes if you count the time to compile 
 
 The Janitor includes a VNC viewer which opens a new tab and you can run your compiled Firefox in there. You can start a shell and run "./mach run" in the Firefox directory and you can start testing your changes.
 
-[![Screen Shot 2016-05-05 at 14.49.08](/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.png)](/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.png)
+[![Screen Shot 2016-05-05 at 14.49.08](/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.webp)](/images/2016/05/Screen-Shot-2016-05-05-at-14.49.08.webp)
 
-[![Screen Shot 2016-05-05 at 14.50.20](/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.png)](/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.png)
+[![Screen Shot 2016-05-05 at 14.50.20](/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.webp)](/images/2016/05/Screen-Shot-2016-05-05-at-14.50.20.webp)
 
 ## Running ESLint
 

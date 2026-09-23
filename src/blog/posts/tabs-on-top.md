@@ -19,7 +19,7 @@ Often tabs indicate that the content will change. Already with tabs on bottom th
 
 Wait, the bookmarks toolbar doesn't change. So why should it be below the location bar? It would be way better if it was right on top of the tabs (i.e. right below the window title bar). So just move it on top, so the bookmarks toolbar doesn't disturb the user's view.
 
-(thanks to [Alex Faaborg](http://blog.mozilla.com/faaborg/) for these [mockups](http://people.mozilla.com/~faaborg/files/daf/bookmarksBarLevel.png))
+(thanks to [Alex Faaborg](http://blog.mozilla.com/faaborg/) for these [mockups](http://people.mozilla.com/~faaborg/files/daf/bookmarksBarLevel.webp))
 
 An important fact in user-centered UI design has always been [Fitt's Law](http://en.wikipedia.org/wiki/Fitts%27s_law). I don't want to explain it here, but one aspect of it is really important: It is easier to click on an element which is located at the top of the screen than on one that is somewhere in the middle of the screen. This is because you can move your cursor straight to the top and it automatically stops there and then you can move it a few pixels down and you are right over the element to click on. Unfortunately nowadays the screen resolutions are very high and a lot of users don't have the windows maximized. Due to this fact Fitt's Law doesn't work here anymore.
 

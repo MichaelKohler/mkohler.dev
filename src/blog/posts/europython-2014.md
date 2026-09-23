@@ -12,7 +12,7 @@ Even though we were very happy to see that Mozilla was a sponsor of "EuroPython 
 
 But wednesday arrived and the booth remained empty. So I contacted Michael, our rep of the swiss Mozilla community. After he asked me to get some swag from the local Mozilla office in Berlin, Marcel and I formed a plan.
 
-[![moz_ch](/images/2014/11/moz_ch.jpg)](/images/2014/11/moz_ch.jpg)
+[![moz_ch](/images/2014/11/moz_ch.webp)](/images/2014/11/moz_ch.webp)
 
 After the last talks we went to the office at Voltastr. Fortunately not everybody had gone home yet. Georg showed us around and provided us with an ample supply of stickers and pins. We even got an original Mozilla lanyard each.
 
@@ -22,13 +22,13 @@ Thursday saw a slightly different Mozilla booth with a variety of stickers, pins
 
 But the stickers and the pins disappeared almost as fast as I could resupply the booth. I began to suspect that maybe just a few afficionados helped themselves very generously. So in order to spread the remaining pins and a few hundred stickers as effectively as possiblr i had to switch tactics: Welcome to guerilla style! :-)
 
-[![pins](/images/2014/11/pins.jpg)](/images/2014/11/pins.jpg)
+[![pins](/images/2014/11/pins.webp)](/images/2014/11/pins.webp)
 
 During the breaks i wandered around on all three floors and discretely placed some stickers on the tables where folks were working, reading, coding, eating, drinking, discussing or having fun. Some didn't want them while others asked for a few more to give away.
 
 On friday afternoon I gave the last remaing stickers to the volunteers that had helped keep everything going smoothly and we went to clean up the booth.
 
-[![stickers](/images/2014/11/stickers.jpg)](/images/2014/11/stickers.jpg)
+[![stickers](/images/2014/11/stickers.webp)](/images/2014/11/stickers.webp)
 
 ## Lessons learned
 

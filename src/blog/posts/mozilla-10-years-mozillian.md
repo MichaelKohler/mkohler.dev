@@ -9,7 +9,7 @@ March 10th, 2018 marked my 10 year anniversary as a Mozilla volunteer. I wanted 
 
 <!-- excerpt -->
 
-[![](/images/2018/04/10years.png)](/images/2018/04/10years.png)
+[![](/images/2018/04/10years.webp)](/images/2018/04/10years.webp)
 
 # Statistics
 
@@ -43,27 +43,27 @@ I didn’t work on my first Firefox patch until about a year later. Funny enough
 
 I have to admit, I’ve done probably less coding on Mozilla projects between 2008 and 2013 than I have done in the past 2 months.
 
-[![](/images/2018/04/commits.png)](/images/2018/04/commits.png)
+[![](/images/2018/04/commits.webp)](/images/2018/04/commits.webp)
 
 # First contact with the community
 In 2009 I added myself to the [Germany/Austria/Switzerland contributors wiki page](https://wiki.mozilla.org/Contributors/Germany_Austria_Switzerland). This is how my real-life interaction with the community started - I’m not counting my Math teacher in high school here - for reasons. Henrik, my dear mentor eversince, was working in Switzerland in 2011, and he checked out the mentioned Wiki page and found my name. He contacted me and asked if I’d like to have a coffee and talk about Mozilla and meet eachother. Of course I was in! We’ve met in Bern on a summer evening, 22nd of August 2011 to be exact. Yes, that was the [Firefox 6 launch party in Bern](https://wiki.mozilla.org/Firefox_6_Release_Party_in_Bern). I even got my first Firefox stickers!
 
-[![](/images/2018/04/me.jpg)](/images/2018/04/me.jpg)
+[![](/images/2018/04/me.webp)](/images/2018/04/me.webp)
 
 # Mozilla Switzerland
 After this initial meeting, we started to meet more regularly in different places in Switzerland. We organised “MozCoffees” in Bern and Zurich, slowly but steadily growing and building the Mozilla Switzerland community.
 
-[![](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg)](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg)
+[![](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.webp)](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.webp)
 
 Our first event in Switzerland apart from regular MozCoffees was the “Weekend of Code 2012” event. Mozillians from Switzerland shared their knowledge about different areas they are contributing to. I’ve held a [Firefox Source Code talk](https://mkohler.dev/presentations/mozilla_weekend_of_code_2012.html), my first talk I’ve ever given about a Mozilla topic.
 
 Over the recent years we got more and more organized, having regular meetups in Zurich and other cities of Switzerland. I don’t want to get into too much details about Mozilla Switzerland here, but you can check out [our Wiki page](http://wiki.mozilla.org/Switzerland) and [Twitter account](http://twitter.com/MozillaCH). Also a big “thank you” to everyone involved in the Swiss community, it’s always been a pleasure to organise all these events and make friends.
 
-[![](/images/2018/04/ch.jpg)](/images/2018/04/ch.jpg)
+[![](/images/2018/04/ch.webp)](/images/2018/04/ch.webp)
 
 Henrik also introduced me to [MozFest](https://mozillafestival.org/) which I attended the first time together with Henrik in 2011. Since then I’ve attended all MozFests and I don’t plan to stop doing that!
 
-[![](/images/2018/04/mozfest.png)](/images/2018/04/mozfest.png)
+[![](/images/2018/04/mozfest.webp)](/images/2018/04/mozfest.webp)
 
 (Mozilla Switzerland reunited at MozFest 2014 - photo credits to Henrik)
 
@@ -77,17 +77,17 @@ I think my contributions through the Reps program would deserve a completely ind
 # Trying to build the German speaking community
 A big part of my Reps life was devoted to the German-speaking community. This includes Germany, Austria and parts of Switzerland. I was invited to the [“Community Reboot”](http://brian.kingsonline.net/talk/2013/01/german-community-reboot/) event in January 2013 which marked the [start](https://www.soeren-hentzschel.at/mozilla/ein-neuanfang-fur-die-deutschsprachige-mozilla-community/) of my little project to nurture the German-speaking community and bring it closer together. We did several experiments with the regular [online meetings of the community](https://wiki.mozilla.org/De/Meetings) and also introduced regular video meetings.
 
-[![](/images/2018/04/demeeting.png)](/images/2018/04/demeeting.png)
+[![](/images/2018/04/demeeting.webp)](/images/2018/04/demeeting.webp)
 
 I’ve organized a [followup real-life meeting in February 2014](https://mozilla.github.io/reps-archive/e/german-speaking-community-meeting-2014/) to bring the community together and talk about everything community related. In 2015 we’ve organized the [first Mozilla Tech Weekend](https://mozilla.github.io/reps-archive/e/mozilla-tech-weekend-berlin/) which gave a good initial boost to the Berlin community. A big shoutout goes to Florian Merz for talking it into his own hands to build a community in Berlin. Well done! A big "thank you" goes to Axel Hecht as well, as he has been guiding and mentoring me along the way. I think I would have abandoned this project earlier without him.
 
-[![](/images/2018/04/hacking.png)](/images/2018/04/hacking.png)
+[![](/images/2018/04/hacking.webp)](/images/2018/04/hacking.webp)
 
-[![](/images/2018/04/demeeting2.png)](/images/2018/04/demeeting2.png)
+[![](/images/2018/04/demeeting2.webp)](/images/2018/04/demeeting2.webp)
 
 All my efforts lasted until around early 2016, when I decided that the whole project doesn’t meet my high expectations and I didn’t see any progress within the German-speaking community for quite some time. There were other reasons I’d like not to mention here, that’s why I’m keeping this section of the blog post quite small. All in all, it was a good opportunity for me to build skills and capabilities and I think it’s always good to learn from unsuccessful projects. I definitely did!
 
-[![](/images/2018/04/monument.jpg)](/images/2018/04/monument.jpg)
+[![](/images/2018/04/monument.webp)](/images/2018/04/monument.webp)
 
 # The Firefox OS era
 When I first heard about Firefox OS I was excited. At one of the Mozilla Switzerland meetups Henrik tried to get it running on a Samsung Galaxy and we had a lot of fun. This was before the Geeksphone devices came out. I remember the day when I ordered my first Firefox OS phone so I can play around with it. Turned out, I very quickly switched to it as my primary phone and until it’s end always used a Firefox OS phone as primary phone. Sometime with experimental builds on it, but that was nothing new as I was using Firefox Nightly as my main browser as well (same people might say I like to live dangerously..). Dogfooding (or as we called it, Foxfooding) was very important to provide a stable and working platform and I didn’t see another way apart from using it daily. Up to now I’m missing the “switch apps by swiping from the very edge of the phone” feature, that was amazing!
@@ -103,9 +103,9 @@ As Firefox OS was my new primary focus, I started organising events and talks ab
 
 You can find all my talks I’ve ever given [on my website](https://mkohler.dev/talks/).
 
-![](/images/2014/04/salzburg1.png)
+![](/images/2014/04/salzburg1.webp)
 
-![](/images/2018/04/chhackathon.png)
+![](/images/2018/04/chhackathon.webp)
 
 Once Firefox OS launched in Germany, I was part of the launch team. We did a [promotion event in Cologne](https://wiki.mozilla.org/De/Firefox_OS_Promotion_Cologne_2014) which was something new to me. I was used to "selling" Firefox to people, but there was no actual sale involved. With Firefox OS, potential users had to buy a phone to actually use it. I think we had some traction with the Firefox costume, but not really with Firefox OS. Well, I guess that was to be expected in hindsight.
 

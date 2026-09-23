@@ -8,7 +8,7 @@ On the 28th of January we, the Mozilla Switzerland, community held another commu
 
 <!-- excerpt -->
 
-![](/images/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.jpeg)
+![](/images/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.webp)
 
 We did a start/stop/continue analysis of our work in 2016.
 

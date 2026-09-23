@@ -20,13 +20,13 @@ I arrived in Singapore on Wednesday (directly from Mexico, where I left on Monda
 
 On Friday we were at the venue at about 8:30am to prepare our booth. But since our swag hadn’t arrived, we didn’t have much to put there. Therefore we decided to show Firefox OS to people. I showed it to Vivian Balakrishnan, Singapore's Minister for the Environment and Water Resources. He had a lot of great knowledge so I didn't need to explain a lot.
 
-[![demo](/images/2015/03/demo.jpg)](/images/2015/03/demo.jpg)
+[![demo](/images/2015/03/demo.webp)](/images/2015/03/demo.webp)
 
 (Photo: [Darwin Gosal](https://twitter.com/gosaldar))
 
 So we listened to the talks and engaged with other attendees during the breaks. With a booth with some stickers, we could have had a bigger impact since all the people would have been in the same room.
 
-[![demofirefoxos](/images/2015/03/demofirefoxos.jpg)](/images/2015/03/demofirefoxos.jpg)
+[![demofirefoxos](/images/2015/03/demofirefoxos.webp)](/images/2015/03/demofirefoxos.webp)
 
 Gen Kenai talked about Firefox OS on the main track. I think it was great to have a talk about Firefox OS there since it was the only day we had everyone in the same room. Later Jan held a talk about [JanOS](http://janos.io/) on the main track as well. He's doing a great job with it. You should definitely check that out!
 
@@ -113,7 +113,7 @@ Our room was on Level 5 and wasn’t very easily discoverable, the registration 
 
 Nevertheless a few people showed up to our talks. Some talks were full, for some we had almost nobody attending.
 
-[![talk](/images/2015/03/talk.jpg)](/images/2015/03/talk.jpg)
+[![talk](/images/2015/03/talk.webp)](/images/2015/03/talk.webp)
 
 (Photo: [Nhie](https://twitter.com/nhie22))
 
@@ -186,19 +186,19 @@ On Sunday we continued with our track with workshops.
 
 We learned from Saturday and this time actively went up to people and asked them if they’re interested in our workshops and if they’d like to come. This resulted in a better attendance, but we couldn’t fill all the workshops.
 
-[![realworkshop](/images/2015/03/realworkshop.jpg)](/images/2015/03/realworkshop.jpg)
+[![realworkshop](/images/2015/03/realworkshop.webp)](/images/2015/03/realworkshop.webp)
 
 (Photo: Yofie)
 
 Additionally we set up a second booth in the “main” room to attract more people. This certainly helped a lot.
 
-[![booth](/images/2015/03/booth.jpg)](/images/2015/03/booth.jpg)
+[![booth](/images/2015/03/booth.webp)](/images/2015/03/booth.webp)
 
 (Photo: Yofie)
 
 Yofie did a great job with designing and printing out flyers with the schedule. After about 1 hour we had hung them all around the building (even in the elevators) to make people to come to our track.
 
-[![schedule](/images/2015/03/schedule.jpg)](/images/2015/03/schedule.jpg)
+[![schedule](/images/2015/03/schedule.webp)](/images/2015/03/schedule.webp)
 
 (Photo: Yofie)
 
@@ -219,6 +219,6 @@ You can find all Mozilla-related tweets from FOSSAsia with the hashtag [#MozAsia
 
 I’d like to thank all the organizers for their great work. Well done! It was a pleasure to be there. I certainly had a lot of fun in South East Asia and I could imagine coming back!
 
-[![photo160510594824383048](/images/2015/03/photo160510594824383048.jpg)](/images/2015/03/photo160510594824383048.jpg)
+[![photo160510594824383048](/images/2015/03/photo160510594824383048.webp)](/images/2015/03/photo160510594824383048.webp)
 
 (Photo: Yofie)

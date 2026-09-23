@@ -8,7 +8,7 @@ On June 20th the Swiss Mozillians met in Zurich to discuss the second half of th
 
 <!-- excerpt -->
 
-[![](/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.jpeg)](/2016/09/mozillach_logo_cutout-sky_twitterheader.jpeg)
+[![](/2016/09/mozillach_logo_cutout-sky_twitterheader-1024x342.webp)](/2016/09/mozillach_logo_cutout-sky_twitterheader.webp)
 
 At first we did a retrospective, here are the key results:
 

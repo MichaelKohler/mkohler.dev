@@ -24,7 +24,7 @@ I asked Jan Bambach if he wanted to help out to organize a Firefox OS App Day. H
 
 We did a lot of advertisement for the event, but unfortunately that didn't turn out as we expected. We only heard about another event taking place the same day a few days before the event. This was too late to reschedule. Next time we'll check better and avoid having an event at the same day as a big Barcamp going on. I'm sure that we'd have more participants if it was on another day. Additionally we found out that asking Universities to advertise it to their students doesn't scale as well as it should. We didn't get any feedback from them.
 
-[![](https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg)](https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg)
+[![](https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.webp)](https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.webp)
 
 ## App Day
 
@@ -42,7 +42,7 @@ Apps created:
 *   A quiz app where you need to find out the capital or country by identifying the flag of the country (this was already developed before, but he did a lot of fixes and adapted it to Firefox OS)
 *   An app to upload Creative Commons pictures to the Wikimedia Commons page. Unfortunately we had a problem with the Wikimedia API and couldn't finish the app. He promised to finish it once it's possible. The Wikimedia Commons API doesn't send a CORS header, so systemXHR doesn't work if cookies are sent.
 
-[![B3Jr9DnIMAAlbvK.jpg_large](/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.jpg)](/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.jpg)
+[![B3Jr9DnIMAAlbvK.jpg_large](/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.webp)](/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.webp)
 
 At the end we showed how to upload an App to the Marketplace. Let's hope that everybody else uploads their app too once it has a better state and is not a prototype :)
 

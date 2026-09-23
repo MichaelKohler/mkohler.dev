@@ -18,7 +18,7 @@ On the 8th of February 2014 we had our second "German-speaking Mozilla Community
 *   It's hard to find new contributors for Marketing and Localization
 We splitted up in different groups: L10N/Support, Hacking and a "miscellaneous" group.
 
-![](https://farm8.staticflickr.com/7337/12417462025_b9dba8c0c4.jpg)
+![](https://farm8.staticflickr.com/7337/12417462025_b9dba8c0c4.webp)
 
 ## Let's review our goals for 2014
 
@@ -68,6 +68,6 @@ At the end of the day we had a **"Community Building"** session. Here's the outc
 *   Inform other communities about our next events (JS groups, user groups, ...)
 *   Big Mozilla Hacking Days (see above)
 
-![](https://farm6.staticflickr.com/5492/12417492125_fa4430da73_z.jpg)
+![](https://farm6.staticflickr.com/5492/12417492125_fa4430da73_z.webp)
 
 Thanks again for joining us! See all photos on [Henrik's flickr page](https://secure.flickr.com/photos/henx/sets/72157640739919535/).

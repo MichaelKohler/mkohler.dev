@@ -12,31 +12,31 @@ For the following graphs, 5 is "perfect" and 1 is "bad".
 
 ## Overall
 
-[![Screen Shot 2015-03-22 at 20.51.43](/images/2015/03/Screen-Shot-2015-03-22-at-20.51.43.png)](/images/2015/03/Screen-Shot-2015-03-22-at-20.51.43.png)
+[![Screen Shot 2015-03-22 at 20.51.43](/images/2015/03/Screen-Shot-2015-03-22-at-20.51.43.webp)](/images/2015/03/Screen-Shot-2015-03-22-at-20.51.43.webp)
 
 Overall we got quite good feedback for the whole event. Most of the attendees were happy with the meetup. This is also reflected in the work all contributors have done since the meetup. There are certainly a few things we can improve, but it's good to know that it wasn't a failure.
 
 ## Discussions / Breakout sessions
 
-[![Screen Shot 2015-03-22 at 20.57.41](/images/2015/03/Screen-Shot-2015-03-22-at-20.57.41.png)](/images/2015/03/Screen-Shot-2015-03-22-at-20.57.41.png)
+[![Screen Shot 2015-03-22 at 20.57.41](/images/2015/03/Screen-Shot-2015-03-22-at-20.57.41.webp)](/images/2015/03/Screen-Shot-2015-03-22-at-20.57.41.webp)
 
-[![Screen Shot 2015-03-22 at 20.57.49](/images/2015/03/Screen-Shot-2015-03-22-at-20.57.49.png)](/images/2015/03/Screen-Shot-2015-03-22-at-20.57.49.png)For the general discussions the overall feeling is reflected again.
+[![Screen Shot 2015-03-22 at 20.57.49](/images/2015/03/Screen-Shot-2015-03-22-at-20.57.49.webp)](/images/2015/03/Screen-Shot-2015-03-22-at-20.57.49.webp)For the general discussions the overall feeling is reflected again.
 
 The breakout sessions were quite short. This might be one point attendees didn't like about it. I think we'll get further input for the breakout sessions next time to make sure that all participants can benefit from them. But since we're over "3" on average, there is no need to complete question our format of the breakout sessions.
 
 ## Organization
 
-[![Screen Shot 2015-03-22 at 21.00.55](/images/2015/03/Screen-Shot-2015-03-22-at-21.00.55.png)](/images/2015/03/Screen-Shot-2015-03-22-at-21.00.55.png)
+[![Screen Shot 2015-03-22 at 21.00.55](/images/2015/03/Screen-Shot-2015-03-22-at-21.00.55.webp)](/images/2015/03/Screen-Shot-2015-03-22-at-21.00.55.webp)
 
-[![Screen Shot 2015-03-22 at 21.01.00](/images/2015/03/Screen-Shot-2015-03-22-at-21.01.00.png)](/images/2015/03/Screen-Shot-2015-03-22-at-21.01.00.png)Thanks to the great organizational help from Hagen Halbach, we could achieve our goal to give participants as much information about the event as possible before they traveled to Berlin. 78.6% saying that it was "perfect" says a lot. Thanks again to everyone who was involved with the organization!
+[![Screen Shot 2015-03-22 at 21.01.00](/images/2015/03/Screen-Shot-2015-03-22-at-21.01.00.webp)](/images/2015/03/Screen-Shot-2015-03-22-at-21.01.00.webp)Thanks to the great organizational help from Hagen Halbach, we could achieve our goal to give participants as much information about the event as possible before they traveled to Berlin. 78.6% saying that it was "perfect" says a lot. Thanks again to everyone who was involved with the organization!
 
 Even though we shifted almost everything right before the event (on Saturday morning), the participants were happy with the time management. Great to see spontaneous people! ;)
 
 ## Location / Food
 
-[![Screen Shot 2015-03-22 at 21.08.45](/images/2015/03/Screen-Shot-2015-03-22-at-21.08.45.png)](/images/2015/03/Screen-Shot-2015-03-22-at-21.08.45.png)
+[![Screen Shot 2015-03-22 at 21.08.45](/images/2015/03/Screen-Shot-2015-03-22-at-21.08.45.webp)](/images/2015/03/Screen-Shot-2015-03-22-at-21.08.45.webp)
 
-[![Screen Shot 2015-03-22 at 21.08.52](/images/2015/03/Screen-Shot-2015-03-22-at-21.08.52.png)](/images/2015/03/Screen-Shot-2015-03-22-at-21.08.52.png)
+[![Screen Shot 2015-03-22 at 21.08.52](/images/2015/03/Screen-Shot-2015-03-22-at-21.08.52.webp)](/images/2015/03/Screen-Shot-2015-03-22-at-21.08.52.webp)
 
 Since almost 93% answered that the Mozilla office in Berlin was suited for the event, we will probably do it there the next time too. This might change if we get a lot of new contributors and grow a lot. The biggest meeting room was full during our general discussions, so it might be worth to have a look at any other bigger venue for more people.
 

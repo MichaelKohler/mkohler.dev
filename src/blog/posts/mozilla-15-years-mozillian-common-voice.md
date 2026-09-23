@@ -28,7 +28,7 @@ My first commit to the [Sentence Collector repository](https://github.com/common
 
 The initial version looked slightly different, but at some point I decided to get it a bit closer to the design of the Common Voice website. This is how it looks now:
 
-[![](/images/2023/04/sentence-collector.png)](/images/2023/04/sentence-collector.png)
+[![](/images/2023/04/sentence-collector.webp)](/images/2023/04/sentence-collector.webp)
 
 ### Backend work on Sentence Collector
 

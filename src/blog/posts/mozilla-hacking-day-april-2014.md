@@ -12,7 +12,7 @@ On the 26th of April we met in Berlin to have a "Mozilla Hacking Day". After sev
 
 On Friday we met at the hotel and went out for Tapas to plan the last few things for Saturday and have some Mozilla discussions.
 
-[![Berlin_20140425_016_1280](/images/2014/05/Berlin_20140425_016_1280.jpg)](/images/2014/05/Berlin_20140425_016_1280.jpg)
+[![Berlin_20140425_016_1280](/images/2014/05/Berlin_20140425_016_1280.webp)](/images/2014/05/Berlin_20140425_016_1280.webp)
 
 ## Hacking Day on Saturday
 
@@ -131,11 +131,11 @@ Since we had some overlapping sessions (e.g. talks during other sessions), the a
 
 Those hacking upstairs splitted up to the different session tables with Firefox OS being the most popular. Some other tables, unfortunately, were empty. This is one point we need to address for future events (see "Lessions learned" below).
 
-[![Berlin_20140426_01_1280](/images/2014/05/Berlin_20140426_01_1280.jpg)](/images/2014/05/Berlin_20140426_01_1280.jpg)
+[![Berlin_20140426_01_1280](/images/2014/05/Berlin_20140426_01_1280.webp)](/images/2014/05/Berlin_20140426_01_1280.webp)
 
 In conclusion we can happily say that this was a great event and we'll follow up on that in autumn. We had a lot of discussions with interested people, mostly about Firefox OS. This was one of the first events where a lot of Mozilla emplyees were present, this is a big advantage and also helps to further improve the coorporation between employees and volunteers.
 
-[![Berlin_20140426_02_1280](/images/2014/05/Berlin_20140426_02_1280.jpg)](/images/2014/05/Berlin_20140426_02_1280.jpg)
+[![Berlin_20140426_02_1280](/images/2014/05/Berlin_20140426_02_1280.webp)](/images/2014/05/Berlin_20140426_02_1280.webp)
 
 ## Lessions learned
 

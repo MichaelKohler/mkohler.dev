@@ -23,13 +23,13 @@ This time we decided to use AirBnB since the hotel costs before Christmas in Col
 
 Thanks to the great help from the local O2 flagship store (thanks Robert et al!) everything was ready when we arrived at the store a few minutes before opening. Martyna from the Berlin office sent the Firefox costume directly to Cologne. Sören, Philipp, his wife and I we're ready to show Firefox OS to people within the store and people passing by the store. Sebastian from the German Firefox OS launch team unfortunately couldn't attend, so we were quite happy to see Philipp's wife helping us out.
 
-[![Team picture](/images/2015/02/DSC_0126.jpg)](/images/2015/02/DSC_0126.jpg)
+[![Team picture](/images/2015/02/DSC_0126.webp)](/images/2015/02/DSC_0126.webp)
 
 The O2 flagship store is in the middle of the city of Cologne. This also means a lot of people on the street. Since Cologne is quite strict with their rules in public space, we had to make sure that we're not blocking the street too much. So most of the time we stood in the door of the store without blocking the second entrance. We quickly figured out that this is the best option since for some reason there we're never a lot of people inside the store. For the people inside the store we had a table with flyers and some Firefox OS swag and several demo phones we could present. There were quite a lot of interested people, but most of them wouldn't want to exchange their smartphone for a Firefox OS device.
 
 With the Firefox costume we got a lot of attention and a lot of people wanted to shoot pictures with the fox - [the same as in Berlin in November](https://www.flickr.com/search/?tags=fx10mozber). If we didn't have enough impact for Firefox OS yet, we certainly made a lot of people smile because of us :)
 
-[![DSC_0019](/images/2015/02/DSC_0019.jpg)](/images/2015/02/DSC_0019.jpg)
+[![DSC_0019](/images/2015/02/DSC_0019.webp)](/images/2015/02/DSC_0019.webp)
 
 You can find the other pictures we took [on Flickr](https://www.flickr.com/photos/128655475@N02/sets/72157650287330397/)!
 
