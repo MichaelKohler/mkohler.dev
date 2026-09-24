@@ -17,7 +17,7 @@
   "packageManager": "pnpm@11.25.0",
   "scripts": {
     "build": "eleventy",
-    "fetch": "DEBUG=contributions* node fetch.mjs",
+    "fetch": "DEBUG=contributions* node scripts/fetch.mjs",
     "start": "eleventy --serve --incremental",
     "test": "playwright test",
     "test:headed": "playwright test --headed",
