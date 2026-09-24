@@ -1,6 +1,8 @@
 import pluginRss from '@11ty/eleventy-plugin-rss';
 import markdownIt from 'markdown-it';
 
+const md = markdownIt({ html: true });
+
 export default (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy({
     'public': '/',
@@ -12,7 +14,7 @@ export default (eleventyConfig) => {
   });
 
   eleventyConfig.addFilter('md', (content = "") => {
-    return markdownIt({ html: true }).render(content);
+    return md.render(content);
   });
 
   eleventyConfig.addCollection('blogposts', (collectionApi) => {
