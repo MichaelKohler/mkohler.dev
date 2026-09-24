@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cache::v6';
+const CACHE_NAME = 'cache::v7';
 
 const RESOURCES_TO_PREFETCH = [
   // We need the offline page so we can show it
@@ -13,7 +13,6 @@ self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => cache.addAll(RESOURCES_TO_PREFETCH))
-      .catch(console.error)
   );
 });
 
@@ -34,9 +33,20 @@ self.addEventListener('activate', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
+  // Only GET requests can be cached, and we only want to cache
+  // same-origin requests, not cross-origin resources like fonts or
+  // embeds.
+  if (event.request.method !== 'GET' || !event.request.url.startsWith(self.location.origin)) {
+    return;
+  }
+
   event.respondWith(
     fetch(event.request)
       .then((res) => {
+        if (!res.ok) {
+          return res;
+        }
+
         return caches.open(CACHE_NAME)
           .then((cache) => {
             cache.put(event.request, res.clone());
