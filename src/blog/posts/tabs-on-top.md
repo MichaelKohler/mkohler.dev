@@ -17,9 +17,13 @@ Coming back to the actual discussion I think it is difficult to get to a good de
 ## Pros
 Often tabs indicate that the content will change. Already with tabs on bottom the content of the tab changes when clicking on another tab. This will not change. But have you ever thought about other things that change when focusing another tab? The first thing that comes to mind is the location bar. Sure, that was logical, wasn't it? The other thing are the forward/back-arrows. The location bar indicates the URL you are currently on, the arrows represent the history. Even though you don't see the change of the arrows right away, their content changes. In my opinion it would be more intuitive having the tabs on top (even though a few things are constant like the home button).
 
+[![](/images/2010/04/bookmarksbar_on_tablevel.webp)](/images/2010/04/bookmarksbar_on_tablevel.webp)
+
 Wait, the bookmarks toolbar doesn't change. So why should it be below the location bar? It would be way better if it was right on top of the tabs (i.e. right below the window title bar). So just move it on top, so the bookmarks toolbar doesn't disturb the user's view.
 
-(thanks to [Alex Faaborg](http://blog.mozilla.com/faaborg/) for these [mockups](http://people.mozilla.com/~faaborg/files/daf/bookmarksBarLevel.webp))
+[![](/images/2010/04/bookmarksbar_on_browserlevel.webp)](/images/2010/04/bookmarksbar_on_browserlevel.webp)
+
+(thanks to [Alex Faaborg](http://blog.mozilla.com/faaborg/) for these mockups)
 
 An important fact in user-centered UI design has always been [Fitt's Law](http://en.wikipedia.org/wiki/Fitts%27s_law). I don't want to explain it here, but one aspect of it is really important: It is easier to click on an element which is located at the top of the screen than on one that is somewhere in the middle of the screen. This is because you can move your cursor straight to the top and it automatically stops there and then you can move it a few pixels down and you are right over the element to click on. Unfortunately nowadays the screen resolutions are very high and a lot of users don't have the windows maximized. Due to this fact Fitt's Law doesn't work here anymore.
 
