@@ -22,8 +22,6 @@ At the beginning I hold a short talk about Firefox OS explaining its way and our
 
 After that [Ankit](https://twitter.com/codekee) took over and explained how to use the Firefox OS Simulator.
 
-![](/images/2014/04/salzburg3.webp)
-
 Since Ankit showed how to debug the standard applications already installed on the simulator, a lot of participants instantly opened the editor and played with the Developer Tools.
 
 Since the time didn't allow us to do a lot of application programming the participants just played with the simulator and we answered some questions. One guy took his already existing web app and ported it to Firefox OS.
