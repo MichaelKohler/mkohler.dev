@@ -116,6 +116,14 @@ ul {
   }
 }
 
+.small {
+  font-size: 0.8rem;
+}
+
+a.small {
+  box-shadow: 0px 1px var(--brand-primary);
+}
+
 @keyframes greyOut {
   from {
     filter: grayscale(0);
