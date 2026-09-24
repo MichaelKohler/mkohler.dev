@@ -27,14 +27,16 @@ Am Samstag um 10:00 Uhr ging's los mit dem ersten offiziellen Tag.
 _On Saturday we started the first official day at 10am._
 
 <table cellpadding="2">
-<tbody>
+<thead>
 <tr>
-<td>**Beginn**</td>
-<td>**Ende**</td>
-<td>**Thema**</td>
-<td>**Dauer**</td>
-<td>**Wer**</td>
+<td>Beginn</td>
+<td>Ende</td>
+<td>Thema</td>
+<td>Dauer</td>
+<td>Wer</td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>10:00</td>
 <td>10:30</td>
@@ -167,7 +169,7 @@ _At the end of the official part of the day we had a discussion about the "Commu
 
 ![](https://c1.staticflickr.com/9/8656/16425623968_3a05a0f90d_b.webp)
 
-[![CommunityTiles](/images/2015/02/CommunityTiles-1024x636.webp)](/images/2015/02/CommunityTiles.webp)
+[![CommunityTiles](/images/2015/02/CommunityTiles.webp)](/images/2015/02/CommunityTiles.webp)
 
 _(Foto/Photo: Hagen Halbach)_
 

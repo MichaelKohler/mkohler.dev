@@ -34,77 +34,77 @@ Gen Kenai talked about Firefox OS on the main track. I think it was great to hav
 
 On Saturday we had our own [Mozilla track](http://fossasia.org/track/FOSSASIA-Mozilla.pdf).
 
-<table width="552">
+<table>
 <tbody>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.375]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">9:00 am</td>
-<td width="265" data-sheets-value="[null,2,&quot;Collaborative Webmaking using TogetherJS&quot;]">Collaborative Webmaking using TogetherJS</td>
-<td width="183" data-sheets-value="[null,2,&quot;Santosh&quot;]">Santosh</td>
+<td>9:00 am</td>
+<td>Collaborative Webmaking using TogetherJS</td>
+<td>Santosh</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.3958333333333333]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">9:30 am</td>
-<td width="265" data-sheets-value="[null,2,&quot;Offline Communications in Firefox OS&quot;]">Offline Communications in Firefox OS</td>
-<td width="183" data-sheets-value="[null,2,&quot;Jaipradeesh&quot;]">Jaipradeesh</td>
+<td>9:30 am</td>
+<td>Offline Communications in Firefox OS</td>
+<td>Jaipradeesh</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.4166666666666667]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">10:00 am</td>
-<td width="265" data-sheets-value="[null,2,&quot;Firefox Hello -\u00a0 The easiest way to connect for free over video with anyone, anywhere&quot;]">Firefox Hello -  The easiest way to connect for free over video with anyone, anywhere</td>
-<td width="183" data-sheets-value="[null,2,&quot;Priyanka Nag&quot;]">Priyanka Nag</td>
+<td>10:00 am</td>
+<td>Firefox Hello -  The easiest way to connect for free over video with anyone, anywhere</td>
+<td>Priyanka Nag</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.4375]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">10:30 am</td>
-<td width="265" data-sheets-value="[null,2,&quot;Building an Open Source Community&quot;]">Building an Open Source Community</td>
-<td width="183" data-sheets-value="[null,2,&quot;Bob Reyes&quot;]">Bob Reyes</td>
+<td>10:30 am</td>
+<td>Building an Open Source Community</td>
+<td>Bob Reyes</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.4583333333333333]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">11:00 am</td>
-<td width="265" data-sheets-value="[null,2,&quot;Firefox OS as a Thin Platform&quot;]">Firefox OS as a Thin Platform</td>
-<td width="183" data-sheets-value="[null,2,&quot;Soumya Deb&quot;]">Soumya Deb</td>
+<td>11:00 am</td>
+<td>Firefox OS as a Thin Platform</td>
+<td>Soumya Deb</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.4791666666666667]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">11:30 am</td>
-<td width="265" data-sheets-value="[null,2,&quot;Combining Firefox OS with Webmaker&quot;]">Combining Firefox OS with Webmaker</td>
-<td width="183" data-sheets-value="[null,2,&quot;Michael Kohler&quot;]">Michael Kohler</td>
+<td>11:30 am</td>
+<td>Combining Firefox OS with Webmaker</td>
+<td>Michael Kohler</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.5]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">12:00 pm</td>
-<td width="265"></td>
-<td width="183"></td>
+<td>12:00 pm</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.5416666666666666]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">1:00 pm</td>
-<td width="265" data-sheets-value="[null,2,&quot;INFA-Internet for All&quot;]">INFA-Internet for All</td>
-<td width="183" data-sheets-value="[null,2,&quot;Dyvik Chenna&quot;]">Dyvik Chenna</td>
+<td>1:00 pm</td>
+<td>INFA-Internet for All</td>
+<td>Dyvik Chenna</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.5625]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">1:30 pm</td>
-<td width="265" data-sheets-value="[null,2,&quot;Appmaking is Now Diversified&quot;]">Appmaking is Now Diversified</td>
-<td width="183" data-sheets-value="[null,2,&quot;Santosh&quot;]">Santosh</td>
+<td>1:30 pm</td>
+<td>Appmaking is Now Diversified</td>
+<td>Santosh</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.5833333333333334]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">2:00 pm</td>
-<td width="265" data-sheets-value="[null,2,&quot;Students Involvement in Mozilla's project&quot;]">Students Involvement in Mozilla's project</td>
-<td width="183" data-sheets-value="[null,2,&quot;Raj&quot;]">Raj</td>
+<td>2:00 pm</td>
+<td>Students Involvement in Mozilla's project</td>
+<td>Raj</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.6041666666666666]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">2:30 pm</td>
-<td width="265" data-sheets-value="[null,2,&quot;Localization of Firefox Marketplace Apps&quot;]">Localization of Firefox Marketplace Apps</td>
-<td width="183" data-sheets-value="[null,2,&quot;Biraj&quot;]">Biraj</td>
+<td>2:30 pm</td>
+<td>Localization of Firefox Marketplace Apps</td>
+<td>Biraj</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.625]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">3:00 pm</td>
-<td width="265" data-sheets-value="[null,2,&quot;Performance Efficient JavaScript&quot;]">Performance Efficient JavaScript</td>
-<td width="183" data-sheets-value="[null,2,&quot;Soumya Deb&quot;]">Soumya Deb</td>
+<td>3:00 pm</td>
+<td>Performance Efficient JavaScript</td>
+<td>Soumya Deb</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.6458333333333334]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">3:30 pm</td>
-<td width="265" data-sheets-value="[null,2,&quot;Write once, Run anywhere - Develop Hybrid apps with Cordova&quot;]">Write once, Run anywhere - Develop Hybrid apps with Cordova</td>
-<td width="183" data-sheets-value="[null,2,&quot;Jaipradeesh&quot;]">Jaipradeesh</td>
+<td>3:30 pm</td>
+<td>Write once, Run anywhere - Develop Hybrid apps with Cordova</td>
+<td>Jaipradeesh</td>
 </tr>
 <tr>
-<td width="104" data-sheets-value="[null,3,null,0.6666666666666666]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">4:00 pm</td>
-<td width="265" data-sheets-value="[null,2,&quot;Mobile Web Compatibility&quot;]">Mobile Web Compatibility</td>
-<td width="183" data-sheets-value="[null,2,&quot;Abdul Rauf&quot;]">Abdul Rauf</td>
+<td>4:00 pm</td>
+<td>Mobile Web Compatibility</td>
+<td>Abdul Rauf</td>
 </tr>
 </tbody>
 </table>
@@ -123,63 +123,63 @@ In the evening all of the Mozillians went for a Chinese dinner together. After d
 
 On Sunday we continued with our track with workshops.
 
-<table width="763">
+<table>
 <tbody>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.375]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">9:00 am</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Creating Your First Firefox OS App for Non-Coders&quot;]">Creating Your First Firefox OS App for Non-Coders</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Bob Reyes&quot;]">Bob Reyes</td>
+<td>9:00 am</td>
+<td rowspan="2">Creating Your First Firefox OS App for Non-Coders</td>
+<td rowspan="2">Bob Reyes</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.3958333333333333]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">9:30 am</td>
+<td>9:30 am</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.4166666666666667]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">10:00 am</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Webmaking with Mobile&quot;]">Webmaking with Mobile</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Raj and Biraj&quot;]">Raj and Biraj</td>
+<td>10:00 am</td>
+<td rowspan="2">Webmaking with Mobile</td>
+<td rowspan="2">Raj and Biraj</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.4375]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">10:30 am</td>
+<td>10:30 am</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.4583333333333333]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">11:00 am</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Security Testing for Developers Using OWASP ZAP&quot;]">Security Testing for Developers Using OWASP ZAP</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Sumanth Damarla&quot;]">Sumanth Damarla</td>
+<td>11:00 am</td>
+<td rowspan="2">Security Testing for Developers Using OWASP ZAP</td>
+<td rowspan="2">Sumanth Damarla</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.4791666666666667]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">11:30 am</td>
+<td>11:30 am</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.5]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">12:00 pm</td>
-<td width="339"></td>
-<td width="339"></td>
+<td>12:00 pm</td>
+<td></td>
+<td></td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.5416666666666666]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">1:00 pm</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Webmaking in Public Space&quot;]">Webmaking in Public Space</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Fauzan+Rara+Yofie&quot;]">Fauzan+Rara+Yofie</td>
+<td>1:00 pm</td>
+<td rowspan="2">Webmaking in Public Space</td>
+<td rowspan="2">Fauzan+Rara+Yofie</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.5625]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">1:30 pm</td>
+<td>1:30 pm</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.5833333333333334]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">2:00 pm</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Workshop on getting started with MDN &quot;]">Workshop on getting started with MDN</td>
-<td rowspan="2" width="339" data-sheets-value="[null,2,&quot;Priyanka&quot;]">Priyanka</td>
+<td>2:00 pm</td>
+<td rowspan="2">Workshop on getting started with MDN</td>
+<td rowspan="2">Priyanka</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.6041666666666666]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">2:30 pm</td>
+<td>2:30 pm</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.625]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">3:00 pm</td>
-<td rowspan="3" width="339" data-sheets-value="[null,2,&quot;Hacking on Gaia (1,5 Hour)&quot;]">Hacking on Gaia (1,5 Hour)</td>
-<td rowspan="3" width="339" data-sheets-value="[null,2,&quot;Michael+Deb+Jai&quot;]">Michael+Deb+Jai</td>
+<td>3:00 pm</td>
+<td rowspan="3">Hacking on Gaia (1,5 Hour)</td>
+<td rowspan="3">Michael+Deb+Jai</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.6458333333333334]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">3:30 pm</td>
+<td>3:30 pm</td>
 </tr>
 <tr>
-<td width="85" data-sheets-value="[null,3,null,0.6666666666666666]" data-sheets-numberformat="[null,6,&quot;h:mm am/pm&quot;,1]">4:00 pm</td>
+<td>4:00 pm</td>
 </tr>
 </tbody>
 </table>

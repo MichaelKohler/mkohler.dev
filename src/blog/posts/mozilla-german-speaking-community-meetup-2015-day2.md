@@ -27,14 +27,16 @@ Am Sonntag starteten wir auch um 10:00 Uhr im Berliner Büro.
 _On Sunday we once again started at 10am at the Berlin Office._
 
 <table cellpadding="2">
-<tbody>
+<thead>
 <tr>
-<td>**eginn**</td>
-<td>**Ende**</td>
-<td>**Thema**</td>
-<td>**Dauer**</td>
+<td>Beginn</td>
+<td>Ende</td>
+<td>Thema</td>
+<td>Dauer</td>
 <td></td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>10:00</td>
 <td>13:00</td>
@@ -80,6 +82,7 @@ Ziele _/ Goals:_
 
 *   Dokumentation auf dem Wiki fertigstellen / finish the documentation on the wiki
 *   "Localizers in Training" anschreiben und nachfragen / get in touch with the "Localizers in Training"
+
 **SUMO**
 
 SUMO hat eine Einführung in die neuen Tools durchgeführt. Zusätzlich wurden einige Ziele formuliert.
@@ -90,6 +93,7 @@ Ziele _/ Goals:_
 
 *   90% der Artikel sollen immer übersetzt sein _/ have 90% of all articles on SUMO translated all the time_
 *   Zu den Firefox Releases sollen immer die wichtigsten 100 Artikel übersetzt sein _/ for Firefox releases all of the top 100 articles should be translated_
+
 **Programmierung _/ Programming_**
 
 Die "Programmierung" Gruppe hat auch einige interessante Sachen ausgebearbeitet. Alles hier aufzulisten wäre zu viel. Daher sei euch ein Blick auf ihr [Etherpad](https://demeeting.etherpad.mozilla.org/community-meetup-2015-programmierung) gegönnt.
@@ -101,6 +105,7 @@ Ziele _/ Goals:_
 *   Rust Meetups weiterführen _/ continue the Rust meetups_
 *   Developer Meetups in Berlin _/ developer meetups in Berlin_
 *   5 neue Mozilla Entwickler rekrutieren _/ recruit 5 new dev contributors_
+
 **Community Builing**
 
 In der "Community Building" Gruppe haben wir diverse Themen besprochen. Unter anderem haben wir angeschaut, was momentan funktioniert und was nicht. Wir haben auch über Firefox Student Ambassadors und Recognition gesprochen. [Hier](https://demeeting.etherpad.mozilla.org/community-meetup-2015-cb) gibt's den Gesamtüberblick.
@@ -117,6 +122,7 @@ Ziele / _Goals:_
 *   Mozilla Day / Weekend
 *   "Onboarding" Prozess definieren _/ define onboarding process_
 *   Besseres Format für das wöchentliche Meeting _/ better format for the weekly meeting_
+
 **Webseiten _/ Websites_**
 
 Alle deutschen Mozilla Seiten laufen momentan auf dem Server von Kadir. Da Kadir nicht mehr so viel Zeit hat, wäre es gut, wenn alles zu "Community IT" umgezogen wird. Dies wurde am Meetup besprochen und für "OK" befunden. Der Bug dazu befindet sich [hier](https://bugzilla.mozilla.org/show_bug.cgi?id=1119329).
