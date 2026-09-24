@@ -78,6 +78,7 @@ h2 {
 
 h3 {
   font-size: 1.2rem;
+  font-weight: 500;
 }
 
 h4, h5, h6 {
@@ -94,6 +95,10 @@ a i:before {
   box-shadow: 0 2px var(--brand-primary);
   color: var(--text-default);
   transition: all 0.25s ease 0s;
+}
+
+a:has(img) {
+  box-shadow: none;
 }
 
 p {
@@ -502,9 +507,39 @@ header {
   }
 }
 
+#blog {
+  max-width: 70vw;
+  margin-inline: auto;
+  margin-block-end: 100px;
+}
+
 #blogpost {
+  max-width: 70vw;
+  margin-inline: auto;
+  margin-block-end: 100px;
+
   & img {
-    max-width: 90%;
+    max-width: 80%;
+    display: block;
+    margin-inline: auto;
+  }
+
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    padding-block-start: 1.3rem;
+    padding-block-end: 0;
+  }
+
+  table {
+    margin-block-end: 30px;
+
+    thead {
+      font-weight: 900;
+    }
   }
 }
 
