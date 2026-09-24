@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-09-23T06:24:27.000Z",
+    "description": "build(deps): bump zod from 4.5.4 to 4.6.5 in the production-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/105#pullrequestreview-5287585870",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-09-23T06:24:03.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/106#pullrequestreview-5287583291",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-09-09T06:06:43.000Z",
     "description": "build(deps-dev): bump @eslint/eslintrc from 3.3.6 to 3.3.7 in the development-dependencies group",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/104#pullrequestreview-5150379958",
