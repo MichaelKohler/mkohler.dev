@@ -21,12 +21,14 @@ It was the first time we created a website for an event in the German-speaking c
 For the first day, we had planned talks to introduce Mozilla, and dive deeper into the different projects. Since we had about 120 registrations we applied our standard 33% no-show rate and expected about 80 participants. In the end, we had around 55 participants, but nevertheless the attendees were very interested. This is a sign that quantity is not always the goal, quality is way more important.
 
 <table cellpadding="2">
-<tbody>
+<thead>
 <tr>
-<td>**Begin**</td>
-<td>**Topic**</td>
-<td>**Presenter**</td>
+<td>Begin</td>
+<td>Topic</td>
+<td>Presenter</td>
 </tr>
+</thead>
+<tbody>
 <tr>
 <td>10:00</td>
 <td>Welcome &amp; Introduction to Mozilla</td>
