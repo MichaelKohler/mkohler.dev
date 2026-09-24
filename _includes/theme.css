@@ -519,12 +519,20 @@ header {
   max-width: 70vw;
   margin-inline: auto;
   margin-block-end: 100px;
+
+  & a:hover {
+    box-shadow: 0 2px var(--accent-light-300);
+  }
 }
 
 #blogpost {
   max-width: 70vw;
   margin-inline: auto;
   margin-block-end: 100px;
+
+  & a:hover {
+    box-shadow: 0 2px var(--accent-light-300);
+  }
 
   & img {
     max-width: 80%;
