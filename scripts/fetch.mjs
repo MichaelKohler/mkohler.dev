@@ -1,7 +1,7 @@
 import { fetchAll } from 'volunteer-contributions-fetch';
 
 const config = {
-  outputFile: `${import.meta.dirname}/_data/contributions.json`,
+  outputFile: `${import.meta.dirname}/../_data/contributions.json`,
   communityPortal: {
     enabled: false,
     baseUrl: 'https://community.mozilla.org/people',
