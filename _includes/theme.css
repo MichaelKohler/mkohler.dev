@@ -520,6 +520,10 @@ header {
   margin-inline: auto;
   margin-block-end: 100px;
 
+  @media (max-width: 820px) {
+    max-width: 90vw;
+  }
+
   & a:hover {
     box-shadow: 0 2px var(--accent-light-300);
   }
@@ -530,6 +534,10 @@ header {
   margin-inline: auto;
   margin-block-end: 100px;
 
+  @media (max-width: 820px) {
+    max-width: 90vw;
+  }
+
   & a:hover {
     box-shadow: 0 2px var(--accent-light-300);
   }
@@ -538,6 +546,10 @@ header {
     max-width: 80%;
     display: block;
     margin-inline: auto;
+
+    @media (max-width: 820px) {
+      max-width: 100%;
+    }
   }
 
   & h1,
