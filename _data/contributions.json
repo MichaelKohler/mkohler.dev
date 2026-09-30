@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-09-29T15:54:32.000Z",
+    "description": "build(deps-dev): bump fast-uri from 3.1.6 to 3.1.8",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/355#pullrequestreview-5355116238",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-09-29T15:49:22.000Z",
+    "description": "build(deps): bump undici",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/107#pullrequestreview-5355049035",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-09-23T06:24:27.000Z",
     "description": "build(deps): bump zod from 4.5.4 to 4.6.5 in the production-dependencies group",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/105#pullrequestreview-5287585870",
