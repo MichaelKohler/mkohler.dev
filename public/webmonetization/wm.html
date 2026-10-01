@@ -461,8 +461,10 @@
     <main>
       <section>
         <p class="muted">
-          Make sure your Web Monetization extension is connected to a testnet
-          wallet address for this page to receive monetization events.
+          Make sure your Web Monetization extension is connected to the correct
+          wallet address for this page to receive monetization events. For testnet
+          addresses to work, the extension also needs to be connected to a testnet
+          wallet address.
         </p>
       </section>
 
@@ -585,7 +587,7 @@
           </div>
         </div>
         <p class="muted small">
-          Replace and Add use the wallet address selected above.
+          &quot;Replace&quot; and &quot;Add&quot; use the wallet address selected above.
         </p>
         <iframe
           src="wm-frame.html"
@@ -704,7 +706,6 @@
         }
       }
 
-      // Shows the form error and returns null if the selection is invalid.
       function readWalletAddress() {
         errorEl.textContent = "";
         try {
@@ -828,19 +829,20 @@
 
         // The iframe is same-origin, so its document is controlled from here:
         // link tags are created in it and its monetization events are observed.
-        refs.frame.addEventListener(
-          "load",
-          () => {
-            context.doc = refs.frame.contentDocument;
-            refs.frame.contentWindow.addEventListener(
-              "monetization",
-              onMonetization,
-            );
-            logPage(`${context.label}: Loaded`);
-            addTag(context, walletAddress);
-          },
-          { once: true },
-        );
+        // A reload (e.g. via the browser's "Reload frame") brings a fresh
+        // document without our link tags, so drop the stale ones and rebind.
+        let loaded = false;
+        refs.frame.addEventListener("load", () => {
+          [...context.links].forEach(removeTag);
+          context.doc = refs.frame.contentDocument;
+          refs.frame.contentWindow.addEventListener(
+            "monetization",
+            onMonetization,
+          );
+          logPage(`${context.label}: ${loaded ? "Reloaded" : "Loaded"}`);
+          if (!loaded) addTag(context, walletAddress);
+          loaded = true;
+        });
 
         framesEl.append(group);
         framesEmptyEl.hidden = true;
@@ -867,12 +869,19 @@
         errorEl.textContent = "";
       });
 
+      // Implicit submission (Enter) would use the first submit button
+      // ("Replace") as submitter; submit as "Add" instead.
+      customInput.addEventListener("keydown", (ev) => {
+        if (ev.key !== "Enter" || ev.isComposing) return;
+        ev.preventDefault();
+        form.requestSubmit(form.querySelector('button[value="add"]'));
+      });
+
       form.addEventListener("submit", (ev) => {
         ev.preventDefault();
         const walletAddress = readWalletAddress();
         if (!walletAddress) return;
 
-        // Pressing Enter in the input submits without a submitter; treat it as "add".
         const action = ev.submitter?.value ?? "add";
         if (action === "replace") {
           replaceTags(topContext, walletAddress);
@@ -906,7 +915,6 @@
 
       window.addEventListener("monetization", onMonetization);
 
-      // The first wallet address in the list is the default.
       addTag(topContext, selectEl.options[0].value);
     </script>
   </body>
