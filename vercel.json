@@ -26,7 +26,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "default-src 'none'; style-src 'unsafe-inline' https://*.webmonetization.workers.dev https://*.webmonetization.org http://localhost:5173; script-src 'self' 'unsafe-inline' https://*.webmonetization.workers.dev http://localhost:5173; base-uri 'self'; manifest-src 'self'; connect-src 'self' https://*.webmonetization.workers.dev https://*.webmonetization.org http://localhost:8787 http://localhost:5173; form-action 'self'; img-src https:; frame-ancestors 'none'; font-src 'self' https://*.webmonetization.workers.dev https://*.webmonetization.org http://localhost:5173; monetization-src 'self' https://ilp.interledger-test.dev"
+          "value": "default-src 'none'; style-src 'unsafe-inline' https://*.webmonetization.workers.dev https://*.webmonetization.org http://localhost:5173; script-src 'self' 'unsafe-inline' https://*.webmonetization.workers.dev http://localhost:5173; base-uri 'self'; manifest-src 'self'; connect-src 'self' https://*.webmonetization.workers.dev https://*.webmonetization.org http://localhost:8787 http://localhost:5173; form-action 'self'; img-src https:; frame-src 'self'; frame-ancestors 'self'; font-src 'self' https://*.webmonetization.workers.dev https://*.webmonetization.org http://localhost:5173; monetization-src 'self' https://ilp.interledger-test.dev"
         }
       ]
     },

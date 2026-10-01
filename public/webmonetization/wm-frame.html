@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Web Monetization Playground - Iframe</title>
+
+    <!-- Monetization link tags are added and removed by the parent page (wm.html). -->
+
+    <style>
+      @font-face {
+        font-family: "NebulaSansLight";
+        src: url("/fonts/nebulasans-light.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      :root {
+        color-scheme: light dark;
+        --text-default: light-dark(oklch(0.305 0 0), oklch(0.93 0 0));
+        --text-muted: light-dark(oklch(0.52 0.07 240), oklch(0.75 0.05 235));
+      }
+
+      body {
+        margin: 0;
+        padding: 12px 16px;
+        color: var(--text-default);
+        background-color: transparent;
+        font-family: "NebulaSansLight", sans-serif;
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
+
+      p {
+        margin: 0 0 6px;
+        color: var(--text-muted);
+      }
+
+      ul {
+        margin: 0;
+        padding-inline-start: 18px;
+        font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+        font-size: 0.75rem;
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>Iframe document · monetization link tags in this frame:</p>
+    <ul id="tags"></ul>
+
+    <script>
+      const listEl = document.getElementById("tags");
+
+      const render = () => {
+        const links = document.head.querySelectorAll('link[rel="monetization"]');
+        listEl.replaceChildren(
+          ...[...links].map((link) => {
+            const li = document.createElement("li");
+            li.textContent = link.outerHTML;
+            return li;
+          }),
+        );
+        if (!links.length) {
+          const li = document.createElement("li");
+          li.textContent = "(none)";
+          listEl.append(li);
+        }
+      };
+
+      new MutationObserver(render).observe(document.head, {
+        childList: true,
+        subtree: true,
+        attributes: true,
+      });
+      render();
+    </script>
+  </body>
+</html>
