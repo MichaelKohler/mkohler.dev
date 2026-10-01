@@ -1,5 +1,26 @@
 [
   {
+    "createdAt": "2026-09-30T07:28:18.000Z",
+    "description": "build(deps): bump brace-expansion",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/110#pullrequestreview-5362913545",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-09-30T06:33:20.000Z",
+    "description": "build(deps): bump jsdom from 30.0.1 to 30.1.1 in the production-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/108#pullrequestreview-5362326694",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-09-30T06:32:42.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 5 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/109#pullrequestreview-5362320161",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-09-29T15:54:32.000Z",
     "description": "build(deps-dev): bump fast-uri from 3.1.6 to 3.1.8",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/355#pullrequestreview-5355116238",
