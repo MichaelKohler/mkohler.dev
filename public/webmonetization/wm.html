@@ -1,0 +1,733 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Web Monetization Playground - Testnet</title>
+
+    <link
+      rel="preload"
+      href="/fonts/nebulasans-light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <style>
+      @font-face {
+        font-family: "NebulaSansLight";
+        src: url("/fonts/nebulasans-light.woff2") format("woff2");
+        font-display: swap;
+      }
+
+      :root {
+        color-scheme: light dark;
+        --background: light-dark(oklch(1 0 0), oklch(0.2 0.015 260));
+        --surface: light-dark(oklch(0.98 0.011 235), oklch(0.25 0.02 255));
+        --border: light-dark(oklch(0.88 0.016 227), oklch(0.36 0.025 250));
+        --brand-primary: oklch(0.31 0.06 260);
+        --brand-secondary: oklch(0.36 0.06 260);
+        --button: light-dark(oklch(0.31 0.06 260), oklch(0.52 0.07 240));
+        --button-hover: light-dark(oklch(0.36 0.06 260), oklch(0.58 0.07 240));
+        --text-default: light-dark(oklch(0.305 0 0), oklch(0.93 0 0));
+        --text-muted: light-dark(oklch(0.52 0.07 240), oklch(0.75 0.05 235));
+        --text-inverse: oklch(0.93 0 0);
+        --danger: light-dark(oklch(0.5 0.17 25), oklch(0.72 0.14 25));
+        --log-background: light-dark(oklch(0.96 0.005 250), oklch(0.16 0.01 260));
+        --font: "NebulaSansLight", sans-serif;
+        --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+        --radius: 10px;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--text-default);
+        background-color: var(--background);
+        font-family: var(--font);
+        line-height: 1.6;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: var(--font);
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 1.3;
+        margin: 0;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.3rem;
+        margin-block-end: 0.8rem;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+        box-shadow: 0 2px var(--text-muted);
+        transition: box-shadow 0.25s ease;
+
+        &:hover {
+          box-shadow: 0 2px var(--border);
+        }
+      }
+
+      header {
+        color: var(--text-inverse);
+
+        & .title {
+          background-color: var(--brand-secondary);
+          padding: 40px 30px;
+        }
+
+        & .subtitle {
+          background-color: var(--brand-primary);
+          padding: 16px 30px;
+        }
+
+        & a {
+          box-shadow: 0 2px var(--text-inverse);
+        }
+
+        & p {
+          margin: 0;
+        }
+      }
+
+      main {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 30px 30px 80px;
+      }
+
+      section {
+        margin-block-end: 40px;
+      }
+
+      .panel {
+        background-color: var(--surface);
+        border-radius: var(--radius);
+        padding: 24px;
+      }
+
+      .muted {
+        color: var(--text-muted);
+      }
+
+      .small {
+        font-size: 0.85rem;
+      }
+
+      label {
+        display: block;
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--text-muted);
+        margin-block-end: 6px;
+      }
+
+      .row {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: stretch;
+
+        & > select,
+        & > input {
+          flex: 1 1 320px;
+          min-width: 0;
+        }
+      }
+
+      .row + .row,
+      .field + .field {
+        margin-block-start: 14px;
+      }
+
+      select,
+      input[type="url"] {
+        font: inherit;
+        color: var(--text-default);
+        background-color: var(--background);
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        padding: 8px 12px;
+
+        &:focus-visible {
+          outline: 2px solid var(--text-muted);
+          outline-offset: 1px;
+        }
+      }
+
+      input[type="url"]:user-invalid {
+        border-color: var(--danger);
+      }
+
+      button {
+        font: inherit;
+        cursor: pointer;
+        border-radius: 6px;
+        padding: 8px 18px;
+        border: 1px solid var(--button);
+        background-color: var(--button);
+        color: var(--text-inverse);
+        transition:
+          background-color 0.2s ease,
+          border-color 0.2s ease;
+
+        &:hover {
+          background-color: var(--button-hover);
+          border-color: var(--button-hover);
+        }
+
+        &:focus-visible {
+          outline: 2px solid var(--text-muted);
+          outline-offset: 2px;
+        }
+
+        &.secondary {
+          background-color: transparent;
+          color: var(--text-default);
+          border-color: var(--border);
+
+          &:hover {
+            border-color: var(--text-muted);
+          }
+        }
+
+        &.danger {
+          background-color: transparent;
+          color: var(--danger);
+          border-color: currentColor;
+
+          &:hover {
+            background-color: color-mix(in oklch, var(--danger) 12%, transparent);
+          }
+        }
+      }
+
+      .error {
+        color: var(--danger);
+        margin: 10px 0 0;
+        min-height: 1.6em;
+      }
+
+      .totals {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 30px;
+        align-items: baseline;
+
+        & output {
+          font-size: 1.6rem;
+          font-variant-numeric: tabular-nums;
+          font-weight: 700;
+        }
+      }
+
+      pre {
+        font-family: var(--mono);
+        font-size: 0.8rem;
+        height: 9rem;
+        overflow: auto;
+        margin: 0;
+        padding: 12px 14px;
+        border: 1px solid var(--border);
+        border-radius: 6px;
+        background: var(--log-background);
+        white-space: pre-wrap;
+        word-break: break-all;
+      }
+
+      #tags {
+        display: grid;
+        gap: 20px;
+      }
+
+      .tag-card {
+        border: 1px solid var(--text-muted);
+        border-radius: var(--radius);
+        padding: 20px;
+        display: grid;
+        gap: 14px;
+        transition: opacity 0.2s ease;
+
+        &.is-disabled {
+          border-style: dashed;
+
+          & .tag-total {
+            opacity: 0.6;
+          }
+        }
+
+        & .tag-head {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px 20px;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+
+        & .tag-title {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          min-width: 0;
+          flex: 1 1 300px;
+
+          & h3 {
+            font-size: 1rem;
+            white-space: nowrap;
+          }
+
+          & a {
+            overflow-wrap: anywhere;
+          }
+        }
+
+        & .tag-actions {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+        }
+
+        & code {
+          font-family: var(--mono);
+          font-size: 0.8rem;
+          color: var(--text-muted);
+          overflow-wrap: anywhere;
+        }
+
+        & .tag-total output {
+          font-variant-numeric: tabular-nums;
+          font-weight: 700;
+        }
+      }
+
+      .badge {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background-color: color-mix(in oklch, var(--text-muted) 18%, transparent);
+        white-space: nowrap;
+
+        &.is-disabled {
+          background-color: color-mix(in oklch, var(--danger) 18%, transparent);
+          color: var(--danger);
+        }
+      }
+
+      .switch {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        margin: 0;
+        font-size: 0.9rem;
+        text-transform: none;
+        letter-spacing: normal;
+        color: var(--text-default);
+
+        & input {
+          appearance: none;
+          margin: 0;
+          width: 38px;
+          height: 22px;
+          border-radius: 999px;
+          background-color: var(--border);
+          position: relative;
+          cursor: pointer;
+          transition: background-color 0.2s ease;
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: var(--background);
+            transition: transform 0.2s ease;
+          }
+
+          &:checked {
+            background-color: var(--danger);
+
+            &::after {
+              transform: translateX(16px);
+            }
+          }
+
+          &:focus-visible {
+            outline: 2px solid var(--text-muted);
+            outline-offset: 2px;
+          }
+        }
+      }
+
+      .empty {
+        border: 1px dashed var(--border);
+        border-radius: var(--radius);
+        padding: 24px;
+        text-align: center;
+      }
+
+      @media (max-width: 600px) {
+        header .title,
+        header .subtitle {
+          padding-inline: 16px;
+        }
+
+        main {
+          padding-inline: 16px;
+        }
+
+        h1 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="title">
+        <h1>Web Monetization Playground</h1>
+      </div>
+      <div class="subtitle">
+        <p>
+          Add, replace, disable and remove monetization link tags on the fly.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <p class="muted">
+          Make sure your Web Monetization extension is connected to a testnet
+          wallet address for this page to receive monetization events.
+        </p>
+      </section>
+
+      <section class="panel" aria-labelledby="controls-heading">
+        <h2 id="controls-heading">Link tags</h2>
+
+        <form id="controls" novalidate>
+          <div class="field">
+            <label for="wallet-select">Wallet address</label>
+            <div class="row">
+              <select id="wallet-select">
+                <option value="https://ilp.interledger-test.dev/31ffa24">
+                  EUR - https://ilp.interledger-test.dev/31ffa24
+                </option>
+                <option
+                  value="https://ilp.interledger-test.dev/mkohler-wm-extension"
+                >
+                  USD - https://ilp.interledger-test.dev/mkohler-wm-extension
+                </option>
+                <option value="custom">Custom wallet address…</option>
+              </select>
+              <button type="submit" name="action" value="replace">
+                Replace
+              </button>
+              <button type="submit" name="action" value="add" class="secondary">
+                Add
+              </button>
+            </div>
+          </div>
+
+          <div class="field" id="custom-field" hidden>
+            <div class="row">
+              <input
+                id="custom-wallet"
+                type="url"
+                placeholder="https://ilp.interledger-test.dev/your-wallet"
+                aria-label="Custom wallet address"
+                autocomplete="off"
+                spellcheck="false"
+              />
+            </div>
+          </div>
+
+          <p class="error" id="form-error" role="alert"></p>
+        </form>
+
+        <div class="totals">
+          <span class="muted">Total received</span>
+          <output id="total-amount">–</output>
+        </div>
+      </section>
+
+      <section aria-labelledby="tags-heading">
+        <h2 id="tags-heading">Active tags</h2>
+        <div id="tags"></div>
+        <p class="empty muted" id="tags-empty" hidden>
+          No monetization link tags on the page. Add one above.
+        </p>
+      </section>
+
+      <section aria-labelledby="page-log-heading">
+        <h2 id="page-log-heading">Page events</h2>
+        <pre id="page-log"></pre>
+      </section>
+    </main>
+
+    <template id="tag-template">
+      <article class="tag-card">
+        <div class="tag-head">
+          <div class="tag-title">
+            <h3>Tag #<span data-ref="index"></span></h3>
+            <span class="badge" data-ref="badge">Enabled</span>
+            <a data-ref="href" target="_blank" rel="noopener"></a>
+          </div>
+          <div class="tag-actions">
+            <label class="switch">
+              <input type="checkbox" data-ref="disabled" />
+              Disabled
+            </label>
+            <button type="button" class="danger" data-ref="remove">
+              Remove
+            </button>
+          </div>
+        </div>
+        <code data-ref="markup"></code>
+        <div class="tag-total">
+          <span class="muted">Received amount:</span>
+          <output data-ref="amount">–</output>
+        </div>
+        <pre data-ref="log"></pre>
+      </article>
+    </template>
+
+    <script>
+      const ts = () => new Date().toLocaleTimeString();
+      const appendLog = (el, msg) =>
+        el.prepend(document.createTextNode(`${ts()}: ${msg}\n`));
+
+      const pageLogEl = document.getElementById("page-log");
+      const logPage = (msg) => appendLog(pageLogEl, msg);
+
+      const form = document.getElementById("controls");
+      const selectEl = document.getElementById("wallet-select");
+      const customField = document.getElementById("custom-field");
+      const customInput = document.getElementById("custom-wallet");
+      const errorEl = document.getElementById("form-error");
+      const tagsEl = document.getElementById("tags");
+      const tagsEmptyEl = document.getElementById("tags-empty");
+      const totalAmountEl = document.getElementById("total-amount");
+      const template = document.getElementById("tag-template");
+
+      /** @type {Map<HTMLLinkElement, {card: HTMLElement, refs: Record<string, HTMLElement>, totals: Map<string, number>}>} */
+      const tags = new Map();
+      const pageTotals = new Map();
+      let tagCounter = 0;
+
+      const formatters = new Map();
+      const formatAmount = (currency, amount) => {
+        if (!formatters.has(currency)) {
+          try {
+            formatters.set(
+              currency,
+              new Intl.NumberFormat(undefined, { style: "currency", currency }),
+            );
+          } catch {
+            formatters.set(currency, {
+              format: (value) => `${currency} ${value.toFixed(2)}`,
+            });
+          }
+        }
+        return formatters.get(currency).format(amount);
+      };
+      const formatTotals = (totals) =>
+        totals.size
+          ? [...totals].map(([c, a]) => formatAmount(c, a)).join(" · ")
+          : "–";
+
+      if (!document.createElement("link").relList.supports("monetization")) {
+        logPage("Web Monetization is not supported");
+      }
+
+      function normalizeWalletAddress(value) {
+        let input = value.trim();
+        // Accept payment pointers like `$ilp.interledger-test.dev/foo`.
+        if (input.startsWith("$")) input = `https://${input.slice(1)}`;
+        const url = new URL(input);
+        if (url.protocol !== "https:") {
+          throw new Error("Wallet address must use https://");
+        }
+        return url.href;
+      }
+
+      function getSelectedWalletAddress() {
+        if (selectEl.value !== "custom") return selectEl.value;
+        if (!customInput.value.trim()) {
+          throw new Error("Please enter a wallet address.");
+        }
+        try {
+          return normalizeWalletAddress(customInput.value);
+        } catch (err) {
+          throw new Error(
+            err instanceof TypeError ? "Invalid wallet address URL." : err.message,
+          );
+        }
+      }
+
+      function updateEmptyState() {
+        tagsEmptyEl.hidden = tags.size > 0;
+      }
+
+      function renderTagState(link) {
+        const { card, refs } = tags.get(link);
+        const disabled = link.hasAttribute("disabled");
+        card.classList.toggle("is-disabled", disabled);
+        refs.badge.classList.toggle("is-disabled", disabled);
+        refs.badge.textContent = disabled ? "Disabled" : "Enabled";
+        refs.disabled.checked = disabled;
+        refs.markup.textContent = link.outerHTML;
+      }
+
+      function addTag(walletAddress) {
+        const link = document.createElement("link");
+        link.rel = "monetization";
+        link.href = walletAddress;
+
+        const card = template.content.firstElementChild.cloneNode(true);
+        const refs = Object.fromEntries(
+          [...card.querySelectorAll("[data-ref]")].map((el) => [
+            el.dataset.ref,
+            el,
+          ]),
+        );
+        const index = ++tagCounter;
+        refs.index.textContent = index;
+        refs.href.href = walletAddress;
+        refs.href.textContent = walletAddress;
+
+        const state = { card, refs, totals: new Map(), index };
+        tags.set(link, state);
+        const log = (msg) => appendLog(refs.log, msg);
+
+        link.addEventListener("load", () => {
+          log("Load event fired");
+        });
+        link.addEventListener("error", () => {
+          log("Error event fired");
+        });
+
+        refs.disabled.addEventListener("change", () => {
+          link.toggleAttribute("disabled", refs.disabled.checked);
+          const msg = refs.disabled.checked
+            ? "Set disabled attribute"
+            : "Removed disabled attribute";
+          log(msg);
+          logPage(`Tag #${index}: ${msg}`);
+          renderTagState(link);
+        });
+        refs.remove.addEventListener("click", () => removeTag(link));
+
+        tagsEl.append(card);
+        document.head.append(link);
+        renderTagState(link);
+        updateEmptyState();
+
+        log(`Added link tag for ${walletAddress}`);
+        logPage(`Tag #${index}: Added ${walletAddress}`);
+        return link;
+      }
+
+      function removeTag(link) {
+        const state = tags.get(link);
+        if (!state) return;
+        link.remove();
+        state.card.remove();
+        tags.delete(link);
+        updateEmptyState();
+        logPage(`Tag #${state.index}: Removed ${link.href}`);
+      }
+
+      function replaceTags(walletAddress) {
+        const previous = [...tags.keys()];
+        if (previous.length) {
+          logPage(
+            `Replacing ${previous.length} tag(s) with ${walletAddress}`,
+          );
+        }
+        previous.forEach(removeTag);
+        addTag(walletAddress);
+      }
+
+      selectEl.addEventListener("change", () => {
+        const isCustom = selectEl.value === "custom";
+        customField.hidden = !isCustom;
+        errorEl.textContent = "";
+        if (isCustom) customInput.focus();
+      });
+
+      customInput.addEventListener("input", () => {
+        errorEl.textContent = "";
+      });
+
+      form.addEventListener("submit", (ev) => {
+        ev.preventDefault();
+        errorEl.textContent = "";
+
+        let walletAddress;
+        try {
+          walletAddress = getSelectedWalletAddress();
+        } catch (err) {
+          errorEl.textContent = err.message;
+          return;
+        }
+
+        // Pressing Enter in the input submits without a submitter; treat it as "add".
+        const action = ev.submitter?.value ?? "add";
+        if (action === "replace") {
+          replaceTags(walletAddress);
+        } else {
+          addTag(walletAddress);
+        }
+      });
+
+      window.addEventListener("monetization", (ev) => {
+        console.log(ev);
+        const amountSent = ev.amountSent.value;
+        const currency = ev.amountSent.currency;
+        const amount = Number(amountSent);
+
+        pageTotals.set(currency, (pageTotals.get(currency) ?? 0) + amount);
+        totalAmountEl.textContent = formatTotals(pageTotals);
+
+        const state = tags.get(ev.target);
+        if (!state) {
+          logPage(
+            `Monetization event for unknown/removed tag: ${currency} ${amountSent}`,
+          );
+          return;
+        }
+        state.totals.set(currency, (state.totals.get(currency) ?? 0) + amount);
+        state.refs.amount.textContent = formatTotals(state.totals);
+        appendLog(state.refs.log, currency + " " + amountSent);
+      });
+
+      // The first wallet address in the list is the default.
+      addTag(selectEl.options[0].value);
+    </script>
+  </body>
+</html>
