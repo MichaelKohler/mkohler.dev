@@ -9,25 +9,12 @@
 
     <!-- Monetization link tags are added and removed by the parent page (wm.html). -->
 
+    <link rel="stylesheet" href="styles.css" />
+
     <style>
-      @font-face {
-        font-family: "NebulaSansLight";
-        src: url("/fonts/nebulasans-light.woff2") format("woff2");
-        font-display: swap;
-      }
-
-      :root {
-        color-scheme: light dark;
-        --text-default: light-dark(oklch(0.305 0 0), oklch(0.93 0 0));
-        --text-muted: light-dark(oklch(0.52 0.07 240), oklch(0.75 0.05 235));
-      }
-
       body {
-        margin: 0;
         padding: 12px 16px;
-        color: var(--text-default);
         background-color: transparent;
-        font-family: "NebulaSansLight", sans-serif;
         font-size: 0.9rem;
         line-height: 1.5;
       }
@@ -40,7 +27,7 @@
       ul {
         margin: 0;
         padding-inline-start: 18px;
-        font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+        font-family: var(--mono);
         font-size: 0.75rem;
         overflow-wrap: anywhere;
       }
