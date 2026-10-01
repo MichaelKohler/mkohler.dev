@@ -1,0 +1,737 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <title>Web Monetization Playground - Testnet</title>
+
+    <link
+      rel="preload"
+      href="/fonts/nebulasans-light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <style>
+      .totals {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 30px;
+        align-items: baseline;
+
+        & output {
+          font-size: 1.6rem;
+          font-variant-numeric: tabular-nums;
+          font-weight: 700;
+        }
+      }
+
+      pre {
+        height: 9rem;
+      }
+
+      .tag-list,
+      #frames {
+        display: grid;
+        gap: 20px;
+      }
+
+      .frame-group {
+        display: grid;
+        gap: 14px;
+
+        & .frame-head {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px 20px;
+          justify-content: space-between;
+          align-items: center;
+
+          & h3 {
+            font-size: 1.1rem;
+          }
+        }
+
+        & .frame-actions {
+          display: flex;
+          flex-wrap: wrap;
+          align-items: center;
+          gap: 10px;
+        }
+
+        & .switch {
+          margin-inline-end: 6px;
+        }
+
+        & p {
+          margin: 0;
+        }
+
+        & iframe {
+          width: 100%;
+          height: 110px;
+          border: 1px dashed var(--text-muted);
+          border-radius: 6px;
+          background-color: var(--background);
+        }
+
+        & .tag-card {
+          background-color: var(--background);
+        }
+      }
+
+      .tag-card {
+        border: 1px solid var(--text-muted);
+        border-radius: var(--radius);
+        padding: 20px;
+        display: grid;
+        gap: 14px;
+        transition: opacity 0.2s ease;
+
+        &.is-disabled {
+          border-style: dashed;
+
+          & .tag-total {
+            opacity: 0.6;
+          }
+        }
+
+        & .tag-head {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px 20px;
+          justify-content: space-between;
+          align-items: flex-start;
+        }
+
+        & .tag-title {
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          min-width: 0;
+          flex: 1 1 300px;
+
+          & h3 {
+            font-size: 1rem;
+            white-space: nowrap;
+          }
+
+          & a {
+            overflow-wrap: anywhere;
+          }
+        }
+
+        & .tag-actions {
+          display: flex;
+          gap: 10px;
+          align-items: center;
+        }
+
+        & code {
+          font-family: var(--mono);
+          font-size: 0.8rem;
+          color: var(--text-muted);
+          overflow-wrap: anywhere;
+        }
+
+        & .tag-total output {
+          font-variant-numeric: tabular-nums;
+          font-weight: 700;
+        }
+      }
+
+      .badge {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 2px 8px;
+        border-radius: 999px;
+        background-color: color-mix(in oklch, var(--text-muted) 18%, transparent);
+        white-space: nowrap;
+
+        &.is-disabled {
+          background-color: color-mix(in oklch, var(--danger) 18%, transparent);
+          color: var(--danger);
+        }
+      }
+
+      .switch {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        cursor: pointer;
+        margin: 0;
+        font-size: 0.9rem;
+        text-transform: none;
+        letter-spacing: normal;
+        color: var(--text-default);
+
+        & input {
+          appearance: none;
+          margin: 0;
+          width: 38px;
+          height: 22px;
+          border-radius: 999px;
+          background-color: var(--border);
+          position: relative;
+          cursor: pointer;
+          transition: background-color 0.2s ease;
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 3px;
+            left: 3px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: var(--background);
+            transition: transform 0.2s ease;
+          }
+
+          &:checked {
+            background-color: var(--danger);
+
+            &::after {
+              transform: translateX(16px);
+            }
+          }
+
+          &:focus-visible {
+            outline: 2px solid var(--text-muted);
+            outline-offset: 2px;
+          }
+        }
+
+        &.positive input:checked {
+          background-color: var(--button);
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="title">
+        <h1>Web Monetization Playground</h1>
+      </div>
+      <div class="subtitle">
+        <p>
+          Add, replace, disable and remove monetization link tags on the fly.
+        </p>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <p class="muted">
+          Make sure your Web Monetization extension is connected to the correct
+          wallet address for this page to receive monetization events. For testnet
+          addresses to work, the extension also needs to be connected to a testnet
+          wallet address.
+        </p>
+      </section>
+
+      <section class="panel" aria-labelledby="controls-heading">
+        <h2 id="controls-heading">Link tags</h2>
+
+        <form id="controls" novalidate>
+          <div class="field">
+            <label for="wallet-select">Wallet address</label>
+            <div class="row">
+              <select id="wallet-select">
+                <option value="https://ilp.interledger-test.dev/31ffa24">
+                  EUR - https://ilp.interledger-test.dev/31ffa24
+                </option>
+                <option
+                  value="https://ilp.interledger-test.dev/mkohler-wm-extension"
+                >
+                  USD - https://ilp.interledger-test.dev/mkohler-wm-extension
+                </option>
+                <option value="custom">Custom wallet address…</option>
+              </select>
+              <button type="submit" name="action" value="replace">
+                Replace
+              </button>
+              <button type="submit" name="action" value="add" class="secondary">
+                Add
+              </button>
+              <button
+                type="submit"
+                name="action"
+                value="iframe"
+                class="secondary"
+              >
+                Add in new iframe
+              </button>
+            </div>
+          </div>
+
+          <div class="field" id="custom-field" hidden>
+            <div class="row">
+              <input
+                id="custom-wallet"
+                type="url"
+                placeholder="https://ilp.interledger-test.dev/your-wallet"
+                aria-label="Custom wallet address"
+                autocomplete="off"
+                spellcheck="false"
+              />
+            </div>
+          </div>
+
+          <p class="error" id="form-error" role="alert"></p>
+        </form>
+
+        <div class="totals">
+          <span class="muted">Total received</span>
+          <output id="total-amount">–</output>
+        </div>
+      </section>
+
+      <section aria-labelledby="tags-heading">
+        <h2 id="tags-heading">Top-level page tags</h2>
+        <div class="tag-list" id="tags"></div>
+        <p class="empty muted" id="tags-empty" hidden>
+          No monetization link tags on the page. Add one above.
+        </p>
+      </section>
+
+      <section aria-labelledby="frames-heading">
+        <h2 id="frames-heading">Iframes</h2>
+        <div id="frames"></div>
+        <p class="empty muted" id="frames-empty">
+          No iframes yet. Use “Add in new iframe” above.
+        </p>
+      </section>
+
+      <section aria-labelledby="page-log-heading">
+        <h2 id="page-log-heading">Page events</h2>
+        <pre id="page-log"></pre>
+      </section>
+    </main>
+
+    <template id="tag-template">
+      <article class="tag-card">
+        <div class="tag-head">
+          <div class="tag-title">
+            <h3>Tag #<span data-ref="index"></span></h3>
+            <span class="badge" data-ref="badge">Enabled</span>
+            <a data-ref="href" target="_blank" rel="noopener"></a>
+          </div>
+          <div class="tag-actions">
+            <label class="switch">
+              <input type="checkbox" data-ref="disabled" />
+              Disabled
+            </label>
+            <button type="button" class="danger" data-ref="remove">
+              Remove
+            </button>
+          </div>
+        </div>
+        <code data-ref="markup"></code>
+        <div class="tag-total">
+          <span class="muted">Received amount:</span>
+          <output data-ref="amount">–</output>
+        </div>
+        <pre data-ref="log"></pre>
+      </article>
+    </template>
+
+    <template id="frame-template">
+      <article class="frame-group panel">
+        <div class="frame-head">
+          <h3>Iframe #<span data-ref="index"></span></h3>
+          <div class="frame-actions">
+            <label class="switch positive">
+              <input type="checkbox" data-ref="allow" checked />
+              Allow monetization
+            </label>
+            <button type="button" data-ref="replace">Replace</button>
+            <button type="button" class="secondary" data-ref="add">Add</button>
+            <button type="button" class="danger" data-ref="remove">
+              Remove iframe
+            </button>
+          </div>
+        </div>
+        <p class="muted small">
+          &quot;Replace&quot; and &quot;Add&quot; use the wallet address selected above.
+          Toggling &quot;Allow monetization&quot; changes the iframe&apos;s
+          <code>allow</code> attribute and reloads it, keeping its link tags.
+        </p>
+        <iframe
+          src="wm-frame.html"
+          allow="monetization"
+          data-ref="frame"
+        ></iframe>
+        <div class="tag-list" data-ref="tags"></div>
+        <p class="empty muted" data-ref="empty" hidden>
+          No monetization link tags in this iframe.
+        </p>
+      </article>
+    </template>
+
+    <script>
+      const ts = () => new Date().toLocaleTimeString();
+      const appendLog = (el, msg) =>
+        el.prepend(document.createTextNode(`${ts()}: ${msg}\n`));
+
+      const pageLogEl = document.getElementById("page-log");
+      const logPage = (msg) => appendLog(pageLogEl, msg);
+
+      const form = document.getElementById("controls");
+      const selectEl = document.getElementById("wallet-select");
+      const customField = document.getElementById("custom-field");
+      const customInput = document.getElementById("custom-wallet");
+      const errorEl = document.getElementById("form-error");
+      const framesEl = document.getElementById("frames");
+      const framesEmptyEl = document.getElementById("frames-empty");
+      const totalAmountEl = document.getElementById("total-amount");
+      const tagTemplate = document.getElementById("tag-template");
+      const frameTemplate = document.getElementById("frame-template");
+
+      /**
+       * A context is a document that link tags are added to: the top-level
+       * page or one of the iframes.
+       * @typedef {Object} Context
+       * @property {string} label
+       * @property {Document} doc
+       * @property {HTMLElement} tagsEl
+       * @property {HTMLElement} emptyEl
+       * @property {Set<HTMLLinkElement>} links
+       */
+
+      /** @type {Map<HTMLLinkElement, {context: Context, card: HTMLElement, refs: Record<string, HTMLElement>, totals: Map<string, number>, index: number}>} */
+      const tags = new Map();
+      /** @type {Set<{context: Context, group: HTMLElement}>} */
+      const frames = new Set();
+      const pageTotals = new Map();
+      let tagCounter = 0;
+      let frameCounter = 0;
+
+      /** @type {Context} */
+      const topContext = {
+        label: "Page",
+        doc: document,
+        tagsEl: document.getElementById("tags"),
+        emptyEl: document.getElementById("tags-empty"),
+        links: new Set(),
+      };
+
+      const formatters = new Map();
+      const formatAmount = (currency, amount) => {
+        if (!formatters.has(currency)) {
+          try {
+            formatters.set(
+              currency,
+              new Intl.NumberFormat(undefined, { style: "currency", currency }),
+            );
+          } catch {
+            formatters.set(currency, {
+              format: (value) => `${currency} ${value.toFixed(2)}`,
+            });
+          }
+        }
+        return formatters.get(currency).format(amount);
+      };
+      const formatTotals = (totals) =>
+        totals.size
+          ? [...totals].map(([c, a]) => formatAmount(c, a)).join(" · ")
+          : "–";
+
+      const getRefs = (root) =>
+        Object.fromEntries(
+          [...root.querySelectorAll("[data-ref]")].map((el) => [
+            el.dataset.ref,
+            el,
+          ]),
+        );
+
+      if (!document.createElement("link").relList.supports("monetization")) {
+        logPage("Web Monetization is not supported");
+      }
+
+      function normalizeWalletAddress(value) {
+        let input = value.trim();
+        // Accept payment pointers like `$ilp.interledger-test.dev/foo`.
+        if (input.startsWith("$")) input = `https://${input.slice(1)}`;
+        const url = new URL(input);
+        if (url.protocol !== "https:") {
+          throw new Error("Wallet address must use https://");
+        }
+        return url.href;
+      }
+
+      function getSelectedWalletAddress() {
+        if (selectEl.value !== "custom") return selectEl.value;
+        if (!customInput.value.trim()) {
+          throw new Error("Please enter a wallet address.");
+        }
+        try {
+          return normalizeWalletAddress(customInput.value);
+        } catch (err) {
+          throw new Error(
+            err instanceof TypeError ? "Invalid wallet address URL." : err.message,
+          );
+        }
+      }
+
+      function readWalletAddress() {
+        errorEl.textContent = "";
+        try {
+          return getSelectedWalletAddress();
+        } catch (err) {
+          errorEl.textContent = err.message;
+          return null;
+        }
+      }
+
+      function updateEmptyState(context) {
+        context.emptyEl.hidden = context.links.size > 0;
+      }
+
+      function renderTagState(link) {
+        const { card, refs } = tags.get(link);
+        const disabled = link.hasAttribute("disabled");
+        card.classList.toggle("is-disabled", disabled);
+        refs.badge.classList.toggle("is-disabled", disabled);
+        refs.badge.textContent = disabled ? "Disabled" : "Enabled";
+        refs.disabled.checked = disabled;
+        refs.markup.textContent = link.outerHTML;
+      }
+
+      function addTag(context, walletAddress) {
+        const link = context.doc.createElement("link");
+        link.rel = "monetization";
+        link.href = walletAddress;
+
+        const card = tagTemplate.content.firstElementChild.cloneNode(true);
+        const refs = getRefs(card);
+        const index = ++tagCounter;
+        refs.index.textContent = index;
+        refs.href.href = walletAddress;
+        refs.href.textContent = walletAddress;
+
+        const state = { context, card, refs, totals: new Map(), index };
+        tags.set(link, state);
+        context.links.add(link);
+        const log = (msg) => appendLog(refs.log, msg);
+        const prefix = `${context.label} › Tag #${index}`;
+
+        link.addEventListener("load", () => {
+          log("Load event fired");
+        });
+        link.addEventListener("error", () => {
+          log("Error event fired");
+        });
+
+        refs.disabled.addEventListener("change", () => {
+          link.toggleAttribute("disabled", refs.disabled.checked);
+          const msg = refs.disabled.checked
+            ? "Set disabled attribute"
+            : "Removed disabled attribute";
+          log(msg);
+          logPage(`${prefix}: ${msg}`);
+          renderTagState(link);
+        });
+        refs.remove.addEventListener("click", () => removeTag(link));
+
+        context.tagsEl.append(card);
+        context.doc.head.append(link);
+        renderTagState(link);
+        updateEmptyState(context);
+
+        log(`Added link tag for ${walletAddress}`);
+        logPage(`${prefix}: Added ${walletAddress}`);
+        return link;
+      }
+
+      function removeTag(link) {
+        const state = tags.get(link);
+        if (!state) return;
+        const { context } = state;
+        link.remove();
+        state.card.remove();
+        tags.delete(link);
+        context.links.delete(link);
+        updateEmptyState(context);
+        logPage(`${context.label} › Tag #${state.index}: Removed ${link.href}`);
+      }
+
+      function replaceTags(context, walletAddress) {
+        const previous = [...context.links];
+        if (previous.length) {
+          logPage(
+            `${context.label}: Replacing ${previous.length} tag(s) with ${walletAddress}`,
+          );
+        }
+        previous.forEach(removeTag);
+        addTag(context, walletAddress);
+      }
+
+      function addFrame(walletAddress) {
+        const group = frameTemplate.content.firstElementChild.cloneNode(true);
+        const refs = getRefs(group);
+        const index = ++frameCounter;
+        refs.index.textContent = index;
+        refs.frame.title = `Iframe #${index}`;
+
+        /** @type {Context} */
+        const context = {
+          label: `Iframe #${index}`,
+          doc: null,
+          tagsEl: refs.tags,
+          emptyEl: refs.empty,
+          links: new Set(),
+        };
+        const frame = { context, group };
+        frames.add(frame);
+
+        refs.add.addEventListener("click", () => {
+          const wa = readWalletAddress();
+          if (wa && context.doc) addTag(context, wa);
+        });
+        refs.replace.addEventListener("click", () => {
+          const wa = readWalletAddress();
+          if (wa && context.doc) replaceTags(context, wa);
+        });
+        refs.remove.addEventListener("click", () => removeFrame(frame));
+
+        // Link tags to re-create after a reload triggered by the allow toggle.
+        let restoreTags = null;
+
+        // The permissions policy from the `allow` attribute is only applied
+        // when the iframe navigates, so changing it requires a reload.
+        refs.allow.addEventListener("change", () => {
+          restoreTags = [...context.links].map((link) => ({
+            href: link.href,
+            disabled: link.hasAttribute("disabled"),
+          }));
+          // The feature's default allowlist is 'self', so this same-origin
+          // iframe would still be allowed without the attribute.
+          const allow = refs.allow.checked
+            ? "monetization"
+            : "monetization 'none'";
+          refs.frame.setAttribute("allow", allow);
+          context.doc = null;
+          logPage(`${context.label}: Set allow="${allow}", reloading`);
+          refs.frame.src = refs.frame.src;
+        });
+
+        // The iframe is same-origin, so its document is controlled from here:
+        // link tags are created in it and its monetization events are observed.
+        // A reload (e.g. via the browser's "Reload frame") brings a fresh
+        // document without our link tags, so drop the stale ones and rebind.
+        let loaded = false;
+        refs.frame.addEventListener("load", () => {
+          [...context.links].forEach(removeTag);
+          context.doc = refs.frame.contentDocument;
+          refs.frame.contentWindow.addEventListener(
+            "monetization",
+            onMonetization,
+          );
+          logPage(`${context.label}: ${loaded ? "Reloaded" : "Loaded"}`);
+          // Only Chromium exposes the permissions policy to scripts, and only
+          // knows the feature with native Web Monetization support.
+          const policy = context.doc.featurePolicy;
+          if (policy?.features().includes("monetization")) {
+            logPage(
+              `${context.label}: Monetization ${policy.allowsFeature("monetization") ? "allowed" : "not allowed"} by permissions policy`,
+            );
+          }
+
+          if (!loaded) {
+            addTag(context, walletAddress);
+          } else if (restoreTags) {
+            for (const { href, disabled } of restoreTags) {
+              const link = addTag(context, href);
+              if (disabled) {
+                link.setAttribute("disabled", "");
+                renderTagState(link);
+              }
+            }
+          }
+          restoreTags = null;
+          loaded = true;
+        });
+
+        framesEl.append(group);
+        framesEmptyEl.hidden = true;
+        logPage(`${context.label}: Created`);
+      }
+
+      function removeFrame(frame) {
+        const { context, group } = frame;
+        [...context.links].forEach(removeTag);
+        group.remove();
+        frames.delete(frame);
+        framesEmptyEl.hidden = frames.size > 0;
+        logPage(`${context.label}: Removed`);
+      }
+
+      selectEl.addEventListener("change", () => {
+        const isCustom = selectEl.value === "custom";
+        customField.hidden = !isCustom;
+        errorEl.textContent = "";
+        if (isCustom) customInput.focus();
+      });
+
+      customInput.addEventListener("input", () => {
+        errorEl.textContent = "";
+      });
+
+      // Implicit submission (Enter) would use the first submit button
+      // ("Replace") as submitter; submit as "Add" instead.
+      customInput.addEventListener("keydown", (ev) => {
+        if (ev.key !== "Enter" || ev.isComposing) return;
+        ev.preventDefault();
+        form.requestSubmit(form.querySelector('button[value="add"]'));
+      });
+
+      form.addEventListener("submit", (ev) => {
+        ev.preventDefault();
+        const walletAddress = readWalletAddress();
+        if (!walletAddress) return;
+
+        const action = ev.submitter?.value ?? "add";
+        if (action === "replace") {
+          replaceTags(topContext, walletAddress);
+        } else if (action === "iframe") {
+          addFrame(walletAddress);
+        } else {
+          addTag(topContext, walletAddress);
+        }
+      });
+
+      function onMonetization(ev) {
+        console.log(ev);
+        const amountSent = ev.amountSent.value;
+        const currency = ev.amountSent.currency;
+        const amount = Number(amountSent);
+
+        pageTotals.set(currency, (pageTotals.get(currency) ?? 0) + amount);
+        totalAmountEl.textContent = formatTotals(pageTotals);
+
+        const state = tags.get(ev.target);
+        if (!state) {
+          logPage(
+            `Monetization event for unknown/removed tag: ${currency} ${amountSent}`,
+          );
+          return;
+        }
+        state.totals.set(currency, (state.totals.get(currency) ?? 0) + amount);
+        state.refs.amount.textContent = formatTotals(state.totals);
+        appendLog(state.refs.log, currency + " " + amountSent);
+      }
+
+      window.addEventListener("monetization", onMonetization);
+
+      addTag(topContext, selectEl.options[0].value);
+    </script>
+  </body>
+</html>

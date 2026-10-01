@@ -1,59 +1,77 @@
-<!-- stolen from https://raw.githubusercontent.com/sidvishnoi/test.sidvishnoi.com/refs/heads/main/web-monetization/publisher-tools/paywall.html -->
+<!--
+  Initially stolen from https://raw.githubusercontent.com/sidvishnoi/test.sidvishnoi.com/refs/heads/main/web-monetization/publisher-tools/paywall.html
+  Further adjusted for design.
+  -->
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="widget=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="color-scheme" content="light dark">
     <title>Paywall: Interledger Publisher Tools</title>
 
-    <style>
-      body {
-        line-height: 1.5;
-        font-family:
-          Bahnschrift, "DIN Alternate", "Franklin Gothic Medium", "Nimbus Sans Narrow", sans-serif-condensed, sans-serif;
-      }
-    </style>
+    <link
+      rel="preload"
+      href="/fonts/nebulasans-light.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+
+    <link rel="stylesheet" href="styles.css" />
 
     <style>
-      pre {
-        white-space: pre-wrap;
-        max-width: 80ch;
-        background-color: light-dark(#fafafa, #333);
-        padding: 0.5em;
-        margin-top: -1em;
+      .panels {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(min(100%, 360px), 1fr));
+        gap: 24px;
+        align-items: start;
+        margin-block-end: 40px;
+
+        & > section {
+          margin: 0;
+          min-width: 0;
+        }
+      }
+
+      .field {
+        display: grid;
+        gap: 6px;
+
+        & label {
+          margin: 0;
+          font-family: var(--mono);
+          text-transform: none;
+          letter-spacing: normal;
+        }
+
+        & p {
+          margin: 0;
+        }
+      }
+
+      form .field + .field {
+        margin-block-start: 20px;
+      }
+
+      .actions {
+        margin-block-start: 24px;
       }
 
       .placeholder {
-        background: light-dark(#eee, #111);
+        background-color: var(--surface);
+        border-radius: 6px;
         margin: 0.5em 0;
-      }
+        height: 2em;
 
-      form > * {
-        margin-top: 1em;
-      }
+        &.short {
+          width: 40%;
+          height: 4em;
+        }
 
-      label {
-        display: block;
-        font-weight: bold;
-      }
-
-      form p {
-        margin: 0;
-      }
-
-      form p,
-      form input {
-        margin-left: 1em;
-      }
-
-      form input {
-        min-width: 16ch;
-        field-sizing: content;
-      }
-
-      input[type="url"] {
-        min-width: 32ch;
+        &.tall {
+          height: 12em;
+        }
       }
     </style>
 
@@ -136,69 +154,88 @@
   </head>
 
   <body>
-    <h1>Paywall: Interledger Publisher Tools</h1>
-    <p>This is a test page for Interledger's Paywall publisher tool. Copied from <a href="https://test.sidvishnoi.com/web-monetization/publisher-tools/paywall.html">Sid</a>.</p>
-    <p>This page injects the following script for testing purposes:</p>
-    <pre id="script"></pre>
+    <header>
+      <div class="title">
+        <h1>Paywall</h1>
+      </div>
+    </header>
 
-    <p>You can customize the injected script by using these URL parameters:</p>
-    <form method="GET">
-      <div>
-        <label for="param-src">src</label>
-        <p id="f-desc-src">
-          Source of script: can be one of 'prod', 'staging', 'local', or a Pull Request number.
-          <strong>This parameter is required.</strong>
-        </p>
+    <main>
+      <div class="panels">
+        <section class="panel" aria-labelledby="params-heading">
+          <h2 id="params-heading">URL parameters</h2>
+          <p>You can customize the injected script by using these URL parameters:</p>
 
-        <input id="param-src" name="src" list="f-datalist-src" aria-describedby="f-desc-src">
-        <datalist id="f-datalist-src">
-          <option value="prod">prod</option>
-          <option value="staging">staging</option>
-          <option value="local">local</option>
-        </datalist>
+          <form method="GET">
+            <div class="field">
+              <label for="param-src">src</label>
+              <p id="f-desc-src" class="muted small">
+                Source of script: can be one of 'prod', 'staging', 'local', or a Pull Request number.
+                <strong>This parameter is required.</strong>
+              </p>
+
+              <input id="param-src" name="src" list="f-datalist-src" aria-describedby="f-desc-src">
+              <datalist id="f-datalist-src">
+                <option value="prod">prod</option>
+                <option value="staging">staging</option>
+                <option value="local">local</option>
+              </datalist>
+            </div>
+
+            <div class="field">
+              <label for="param-wa">wa</label>
+              <p id="f-desc-wa" class="muted small">
+                Wallet address that receives the payments. The paywall config is fetched with this wallet address as key.
+              </p>
+
+              <input id="param-wa" name="wa" type="url" aria-describedby="f-desc-wa">
+            </div>
+
+            <div class="field">
+              <label for="param-price">price</label>
+              <p id="f-desc-price" class="muted small">
+                Custom price override for current page. Overrides saved config price. Format: 1.05, 2.0, 5 etc.
+              </p>
+
+              <input
+                id="param-price"
+                name="price"
+                type="number"
+                min="0"
+                step="0.01"
+                inputmode="decimal"
+                aria-describedby="f-desc-price"
+              >
+            </div>
+
+            <div class="row actions">
+              <button type="submit">Submit</button>
+              <button type="reset" class="secondary">Reset</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="panel" aria-labelledby="script-heading">
+          <h2 id="script-heading">Injected script</h2>
+          <p>This page injects the following script for testing purposes:</p>
+          <pre id="script"></pre>
+        </section>
       </div>
 
-      <div>
-        <label for="param-wa">wa</label>
-        <p id="f-desc-wa">
-          Wallet address that receives the payments. The paywall config is fetched with this wallet address as key.
-        </p>
-
-        <input id="param-wa" name="wa" type="url" aria-describedby="f-desc-wa">
-      </div>
-
-      <div>
-        <label for="param-price">price</label>
-        <p id="f-desc-price">
-          Custom price override for current page. Overrides saved config price. Format: 1.05, 2.0, 5 etc.
-        </p>
-
-        <input
-          id="param-price"
-          name="price"
-          type="number"
-          min="0"
-          step="0.01"
-          inputmode="decimal"
-          aria-describedby="f-desc-price"
-        >
-      </div>
-
-      <button type="submit">Submit</button>
-      <button type="reset">Reset</button>
-    </form>
-
-    <hr style="margin-top: 2em;">
-    <p>The rest of the page content is just placeholder.</p>
-    <div class="placeholder" style="width: 100%; height: 2em"></div>
-    <div class="placeholder" style="width: 100%; height: 2em"></div>
-    <div class="placeholder" style="width: 100%; height: 2em"></div>
-    <div class="placeholder" style="width: 40%; height: 4em"></div>
-    <div class="placeholder" style="width: 100%; height: 12em"></div>
-    <div class="placeholder" style="width: 100%; height: 2em"></div>
-    <div class="placeholder" style="width: 100%; height: 2em"></div>
-    <div class="placeholder" style="width: 100%; height: 2em"></div>
-    <div class="placeholder" style="width: 40%; height: 4em"></div>
-    <div class="placeholder" style="width: 100%; height: 12em"></div>
+      <section aria-labelledby="placeholder-heading">
+        <h2 id="placeholder-heading">Placeholder content</h2>
+        <p class="muted">The rest of the page content is just placeholder.</p>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder short"></div>
+        <div class="placeholder tall"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder"></div>
+        <div class="placeholder short"></div>
+        <div class="placeholder tall"></div>
+      </section>
+    </main>
   </body>
 </html>
