@@ -60,7 +60,12 @@
         & .frame-actions {
           display: flex;
           flex-wrap: wrap;
+          align-items: center;
           gap: 10px;
+        }
+
+        & .switch {
+          margin-inline-end: 6px;
         }
 
         & p {
@@ -202,6 +207,10 @@
             outline-offset: 2px;
           }
         }
+
+        &.positive input:checked {
+          background-color: var(--button);
+        }
       }
     </style>
   </head>
@@ -339,6 +348,10 @@
         <div class="frame-head">
           <h3>Iframe #<span data-ref="index"></span></h3>
           <div class="frame-actions">
+            <label class="switch positive">
+              <input type="checkbox" data-ref="allow" checked />
+              Allow monetization
+            </label>
             <button type="button" data-ref="replace">Replace</button>
             <button type="button" class="secondary" data-ref="add">Add</button>
             <button type="button" class="danger" data-ref="remove">
@@ -348,6 +361,8 @@
         </div>
         <p class="muted small">
           &quot;Replace&quot; and &quot;Add&quot; use the wallet address selected above.
+          Toggling &quot;Allow monetization&quot; changes the iframe&apos;s
+          <code>allow</code> attribute and reloads it, keeping its link tags.
         </p>
         <iframe
           src="wm-frame.html"
@@ -587,6 +602,27 @@
         });
         refs.remove.addEventListener("click", () => removeFrame(frame));
 
+        // Link tags to re-create after a reload triggered by the allow toggle.
+        let restoreTags = null;
+
+        // The permissions policy from the `allow` attribute is only applied
+        // when the iframe navigates, so changing it requires a reload.
+        refs.allow.addEventListener("change", () => {
+          restoreTags = [...context.links].map((link) => ({
+            href: link.href,
+            disabled: link.hasAttribute("disabled"),
+          }));
+          // The feature's default allowlist is 'self', so this same-origin
+          // iframe would still be allowed without the attribute.
+          const allow = refs.allow.checked
+            ? "monetization"
+            : "monetization 'none'";
+          refs.frame.setAttribute("allow", allow);
+          context.doc = null;
+          logPage(`${context.label}: Set allow="${allow}", reloading`);
+          refs.frame.src = refs.frame.src;
+        });
+
         // The iframe is same-origin, so its document is controlled from here:
         // link tags are created in it and its monetization events are observed.
         // A reload (e.g. via the browser's "Reload frame") brings a fresh
@@ -600,7 +636,27 @@
             onMonetization,
           );
           logPage(`${context.label}: ${loaded ? "Reloaded" : "Loaded"}`);
-          if (!loaded) addTag(context, walletAddress);
+          // Only Chromium exposes the permissions policy to scripts, and only
+          // knows the feature with native Web Monetization support.
+          const policy = context.doc.featurePolicy;
+          if (policy?.features().includes("monetization")) {
+            logPage(
+              `${context.label}: Monetization ${policy.allowsFeature("monetization") ? "allowed" : "not allowed"} by permissions policy`,
+            );
+          }
+
+          if (!loaded) {
+            addTag(context, walletAddress);
+          } else if (restoreTags) {
+            for (const { href, disabled } of restoreTags) {
+              const link = addTag(context, href);
+              if (disabled) {
+                link.setAttribute("disabled", "");
+                renderTagState(link);
+              }
+            }
+          }
+          restoreTags = null;
           loaded = true;
         });
 
