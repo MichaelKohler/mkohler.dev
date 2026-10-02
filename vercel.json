@@ -42,6 +42,15 @@
           "value": "application/json"
         }
       ]
+    },
+    {
+      "source": "/.well-known/pay",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        }
+      ]
     }
   ],
   "rewrites": [
