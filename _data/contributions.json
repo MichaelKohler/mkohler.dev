@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-10-01T14:57:28.000Z",
+    "description": "build(deps): bump brace-expansion",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/357#pullrequestreview-5381120283",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-10-01T14:42:06.000Z",
+    "description": "build(deps-dev): bump undici from 7.29.0 to 7.30.0",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/356#pullrequestreview-5380898229",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-09-30T07:28:18.000Z",
     "description": "build(deps): bump brace-expansion",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/110#pullrequestreview-5362913545",
