@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-10-07T12:23:41.000Z",
+    "description": "build(deps): bump source-map-js from 1.2.1 to 1.2.2",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/112#pullrequestreview-5442202157",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-10-07T12:19:24.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 3 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/111#pullrequestreview-5442154800",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-10-01T14:57:28.000Z",
     "description": "build(deps): bump brace-expansion",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/357#pullrequestreview-5381120283",
