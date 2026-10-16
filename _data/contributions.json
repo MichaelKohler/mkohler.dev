@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2026-10-15T21:05:32.000Z",
+    "description": "build(deps-dev): bump handlebars from 4.7.9 to 4.7.10",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/115#pullrequestreview-5539924976",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-10-15T21:04:32.000Z",
+    "description": "build(deps): bump jsdom from 30.1.1 to 30.1.2 in the production-dependencies group across 1 directory",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/114#pullrequestreview-5539914116",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-10-15T21:01:47.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/113#pullrequestreview-5539885246",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-10-15T07:19:30.000Z",
+    "description": "[Bug]: Wrong casing of product names in addon history entries",
+    "link": "https://github.com/mozilla/addons/issues/16510",
+    "type": "Created Issue Report",
+    "source": "github-issues-created"
+  },
+  {
     "createdAt": "2026-10-07T12:23:41.000Z",
     "description": "build(deps): bump source-map-js from 1.2.1 to 1.2.2",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/112#pullrequestreview-5442202157",
