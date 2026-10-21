@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-10-20T05:46:51.000Z",
+    "description": "build(deps-dev): bump ava from 8.0.1 to 8.0.2 in the development-dependencies group",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/358#pullrequestreview-5581208774",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-10-15T21:05:32.000Z",
     "description": "build(deps-dev): bump handlebars from 4.7.9 to 4.7.10",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/115#pullrequestreview-5539924976",
