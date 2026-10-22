@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-10-21T05:55:21.000Z",
+    "description": "build(deps): bump zod from 4.6.5 to 4.6.7 in the production-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/116#pullrequestreview-5595505934",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-10-21T05:54:51.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 4 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/117#pullrequestreview-5595501217",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-10-20T05:46:51.000Z",
     "description": "build(deps-dev): bump ava from 8.0.1 to 8.0.2 in the development-dependencies group",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/358#pullrequestreview-5581208774",
