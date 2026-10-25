@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Font Awesome 6 Free Extended";
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../assets/fonts/fa-v6.1.2-mini-extended.woff2") format("woff2");
+}
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.fab, .fas { font-family: "Font Awesome 6 Free Extended"; font-style: normal; font-weight: 900; line-height: 1; display: inline-block; -webkit-font-smoothing: antialiased; }

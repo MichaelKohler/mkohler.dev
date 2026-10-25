@@ -1,0 +1,125 @@
+/* 16 · Swiss Aurora: the 14 structure in Manrope, with aurora gradients and glass */
+
+/* Loaded after ../14-poster-remix/style.css (both linked from each page). */
+
+:root {
+  --display: "Manrope", system-ui, sans-serif;
+  --text: "Manrope", system-ui, sans-serif;
+  --read: "Manrope", system-ui, sans-serif;
+  --paper: oklch(0.975 0.012 235);
+  --glass: oklch(1 0 0 / 0.72);
+  --hair: oklch(0.31 0.06 260 / 0.12);
+  --aurora:
+    radial-gradient(60% 80% at 85% 10%, oklch(0.52 0.09 240 / 0.75), transparent 70%),
+    radial-gradient(50% 70% at 10% 100%, oklch(0.45 0.08 225 / 0.6), transparent 70%),
+    linear-gradient(160deg, oklch(0.3 0.06 262), oklch(0.24 0.05 262));
+}
+
+body { font-size: 1rem; background: radial-gradient(80% 50% at 100% 0%, oklch(0.9 0.04 235 / 0.6), transparent 70%) no-repeat, var(--paper); }
+
+/* Display: extra-bold, tight, no capitals */
+.hero__name, .poster__word, .stage__word, .sh__title, .area__title, .dash__title, .article__title, .year__num, .job__year, .skill__words, .gig__title, .end__name, .kpis b, .stage__years a {
+  font-family: var(--display);
+  font-weight: 800;
+  text-transform: none;
+  letter-spacing: -0.045em;
+}
+
+/* Aurora instead of flat navy */
+.bar { position: sticky; top: 0; z-index: 10; background: oklch(0.27 0.055 262 / 0.94); backdrop-filter: blur(14px) saturate(1.4); border-bottom: 1px solid oklch(1 0 0 / 0.08); }
+.hero, .poster, .stage, .end { background: var(--aurora); }
+.skills, .area--navy { background: var(--aurora); }
+
+.hero__name { font-size: clamp(4.6rem, 12vw, 12rem); line-height: 0.88; }
+.hero__name span:last-child { color: oklch(0.82 0.07 235); }
+.hero__photo { margin: 0 0 40px; border-radius: 28px; align-self: center; aspect-ratio: 4 / 5; max-height: 78vh; box-shadow: 0 0 0 1px oklch(1 0 0 / 0.15), 0 40px 80px -30px oklch(0.15 0.05 262 / 0.9); }
+.hero { align-items: center; }
+.hero__photo.duo { grid-column: 7 / -1; }
+.hero__social a { background: oklch(1 0 0 / 0.12); border: 1px solid oklch(1 0 0 / 0.16); backdrop-filter: blur(8px); }
+
+.intro { border-bottom: 1px solid var(--hair); }
+
+.sh { border-top: 1px solid var(--hair); }
+.sh__title { font-size: clamp(2.4rem, 4vw, 3.6rem); line-height: 1; color: var(--navy); }
+.sh__num { font-weight: 800; }
+
+.job { border-top-color: var(--hair); }
+.job__year { font-size: clamp(2.6rem, 4vw, 3.8rem); line-height: 0.9; }
+.job--volunteer .job__year { color: var(--accent); -webkit-text-stroke: 0; }
+.job h3 { font-weight: 800; letter-spacing: -0.03em; }
+
+.skills .sh { border-top-color: oklch(1 0 0 / 0.2); }
+.skill__words { font-size: clamp(1.3rem, 2vw, 1.75rem); line-height: 1.25; letter-spacing: -0.03em; }
+.skill__words i { color: oklch(0.65 0.06 240); }
+.skill { padding: 22px 24px; border-radius: 20px; background: oklch(1 0 0 / 0.06); border: 1px solid oklch(1 0 0 / 0.1); }
+
+/* Glass cards (11) */
+.kpis li, .tile, .card { background: var(--glass); border-color: oklch(1 0 0 / 0.8); backdrop-filter: blur(16px); border-radius: 22px; box-shadow: 0 1px 0 oklch(1 0 0 / 0.9) inset, 0 20px 40px -24px oklch(0.31 0.06 260 / 0.35); }
+.dash { background: radial-gradient(60% 90% at 0% 0%, oklch(0.88 0.05 240 / 0.8), transparent 70%), radial-gradient(50% 80% at 100% 30%, oklch(0.9 0.04 210 / 0.7), transparent 70%); }
+.dash__title { font-size: clamp(2.8rem, 5vw, 4.6rem); line-height: 1; background: linear-gradient(100deg, var(--navy), oklch(0.5 0.08 240)); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.kpis b { font-size: 2.6rem; }
+.heat__cell { border-radius: 4px; }
+
+.chips a, .cta { border-width: 1px; border-radius: 999px; letter-spacing: 0.02em; text-transform: none; font-size: 0.92rem; }
+
+.area { gap: 72px; }
+.area__photo { border-radius: 24px; box-shadow: 0 30px 60px -30px oklch(0.15 0.05 262 / 0.7); }
+.area__title { font-size: clamp(2.6rem, 4.6vw, 4.2rem); line-height: 1; }
+.area--navy .area__title { color: oklch(0.88 0.05 235); }
+
+.filters button { border-radius: 12px; }
+
+.stage__word { font-size: clamp(4rem, 8vw, 8rem); }
+.stage__years a { font-size: 1.35rem; letter-spacing: -0.03em; }
+.year__num { font-size: clamp(2.6rem, 4vw, 3.6rem); border-bottom: 1px solid var(--hair); }
+.posts a { border-bottom-color: var(--hair); }
+.posts__title { font: 700 1.3rem/1.3 var(--display); letter-spacing: -0.02em; }
+
+/* Sans reading, 05-style: slightly smaller, generous leading, no drop cap */
+.article { font: 400 1.125rem/1.75 var(--read); max-width: 64ch; }
+.article__title { font-size: clamp(2.6rem, 5vw, 4rem); line-height: 1.02; }
+.article__body > p:first-child { font-size: 1.3rem; line-height: 1.6; color: var(--navy); }
+.article__body > p:first-child::first-letter { float: none; padding: 0; font-size: inherit; line-height: inherit; }
+.article__body h2 { font-weight: 800; letter-spacing: -0.03em; font-size: 1.8rem; }
+.article__body h3 { font-style: normal; font-weight: 700; font-size: 1.3rem; }
+.article__body img { border-radius: 14px; border: 0; box-shadow: 0 20px 40px -24px oklch(0.31 0.06 260 / 0.5); }
+.dek { font-style: normal; }
+.article__foot { font-style: normal; border-top-color: var(--hair); }
+
+.poster__word { font-size: clamp(5rem, 15vw, 15rem); }
+.gig .duo { border-radius: 14px; }
+.gig__title { font-size: 1.1rem; line-height: 1.25; letter-spacing: -0.02em; }
+
+.end__name { font-size: 1.6rem; }
+.end__dot { background: oklch(0.3 0.06 262); border-color: oklch(0.82 0.07 235); }
+
+@media (max-width: 1000px) {
+  .hero__photo, .hero__photo.duo { grid-column: 1 / -1; margin: 0 0 24px; aspect-ratio: 1; max-height: none; }
+  .hero__name { margin-top: 0; }
+}
+
+@media (max-width: 640px) {
+  .bar { position: static; background: none; backdrop-filter: none; border: 0; }
+  .bar__name { font-weight: 800; letter-spacing: -0.04em; }
+  .bar__role { font-style: normal; font-size: 0.95rem; }
+  .page-cv .bar { position: absolute; }
+  .hero { align-items: stretch; }
+  .hero__photo, .hero__photo.duo { margin: 0; align-self: stretch; max-height: none; border-radius: 0; box-shadow: none; aspect-ratio: auto; }
+  .hero__name { font-size: clamp(3.2rem, 17vw, 4.6rem); }
+  .poster, .stage, .dash { background: none; }
+  .poster__word, .stage__word, .dash__title { font: 800 2.4rem/1.05 var(--display); letter-spacing: -0.04em; }
+  .dash__title { color: var(--navy); background: none; }
+  .year__num { font-size: 2rem; font-weight: 800; }
+  .stage__years a { font: 700 1.05rem var(--display); }
+  .sh__title { font-size: 2.2rem; }
+  .skill { padding: 16px; }
+  .area__photo { border-radius: 16px; }
+  .article { font-size: 1.0625rem; }
+  .article__title { font: 800 2.2rem/1.08 var(--display); letter-spacing: -0.035em; }
+}
+
+@media print {
+  .hero__name { font-size: 30pt; }
+  .skill { padding: 0; border: 0; background: none; }
+  .bar { position: static; }
+}

@@ -1,0 +1,96 @@
+/* 15 · Serif Poster: the 14 structure set in Newsreader, with colour photos and lighter panels */
+
+/* Loaded after ../14-poster-remix/style.css (both linked from each page). */
+
+:root {
+  --display: "Newsreader", Georgia, serif;
+  --text: "Inter", system-ui, sans-serif;
+  --read: "Newsreader", Georgia, serif;
+}
+
+body { font: 400 1.125rem/1.6 var(--read); font-optical-sizing: auto; }
+.bar, .kicker, .label, .log, .filters, .pager, .badge, .meters, .kpis span, .tile__title, .byline, .posts__meta, .gig__date, .job__meta, .sh__num, .sh__aside, .stage__years sup, .chips a, .cta, .more { font-family: var(--text); }
+.log, .meters { font-size: 0.92rem; }
+
+/* Colour photos: no duotone, the talk thumbnails and area photos stay as shot */
+.duo { background: none; }
+.duo img { filter: none; mix-blend-mode: normal; }
+.duo::after { display: none; }
+
+/* Display type: large serif, surname in italic, no capitals */
+.hero__name, .poster__word, .stage__word, .sh__title, .area__title, .dash__title, .article__title, .year__num, .job__year, .skill__words, .gig__title, .end__name, .kpis b, .stage__years a {
+  text-transform: none;
+  letter-spacing: -0.02em;
+}
+
+.hero__name { font: 300 clamp(5rem, 13vw, 13rem)/0.86 var(--display); }
+.hero__name span:last-child { font-style: italic; color: var(--pale); }
+.hero__photo::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(to right, var(--navy) 0%, oklch(0.31 0.06 260 / 0.55) 22%, transparent 55%), linear-gradient(to top, oklch(0.31 0.06 260 / 0.6), transparent 35%); }
+.hero__lead { font-style: italic; font-size: clamp(1.2rem, 1.8vw, 1.5rem); }
+
+.sh__title { font: 400 clamp(2.6rem, 4.5vw, 4rem)/1 var(--display); }
+.sh { border-top-width: 1px; }
+
+.job__year { font: 300 clamp(3rem, 4.6vw, 4.4rem)/0.9 var(--display); font-variant-numeric: lining-nums; }
+.job--volunteer .job__year { color: var(--accent); -webkit-text-stroke: 0; font-style: italic; }
+.job h3 { font: 500 1.7rem/1.15 var(--display); letter-spacing: -0.01em; }
+.role__title { font: 600 0.95rem var(--text); }
+.role li::before { content: "·"; font-weight: 700; }
+
+/* Skills on a pale tint instead of a navy panel */
+.skills { background: var(--wash); color: var(--ink); }
+.skills .sh { border-top-color: var(--navy); }
+.skills .sh__num { color: var(--accent); }
+.skills .sh__aside { color: var(--muted); }
+.skills .sh__title { color: var(--navy); }
+.skill .kicker { color: var(--accent); }
+.skill__words { font: 400 clamp(1.4rem, 2.2vw, 1.9rem)/1.25 var(--display); color: var(--navy); }
+.skill__words i { color: var(--pale); }
+
+.dash__title { font: 400 clamp(3rem, 5vw, 4.6rem)/1 var(--display); }
+.kpis b { font: 400 3rem/1 var(--display); }
+.mozilla__cols { font-size: 1.1rem; }
+
+/* Areas: paper and tint alternate, photos framed */
+.area--navy { background: var(--wash); color: var(--ink); }
+.area--navy .kicker { color: var(--accent); }
+.area--navy .area__title { color: var(--navy); }
+.area__title { font: 400 clamp(2.8rem, 5vw, 4.4rem)/1 var(--display); }
+.area__title::after { content: ""; display: block; width: 48px; height: 2px; margin-top: 18px; background: var(--accent); }
+.area__photo { border-radius: 4px; box-shadow: 0 24px 48px -28px oklch(0.31 0.06 260 / 0.6); }
+
+.chips a, .cta { border-width: 1px; border-radius: 999px; letter-spacing: 0.06em; }
+
+.stage__word, .poster__word { font: 300 italic clamp(5rem, 10vw, 10rem)/0.9 var(--display); }
+.poster__word { font-size: clamp(5rem, 14vw, 14rem); }
+.stage__years a { font: 400 1.6rem/1 var(--display); }
+.year__num { font: 300 clamp(3rem, 4.5vw, 4rem)/1 var(--display); border-bottom-width: 1px; }
+.posts__title { font-weight: 400; font-size: 1.5rem; }
+
+.article__title { font: 400 clamp(2.6rem, 5.5vw, 4.2rem)/1.05 var(--display); }
+
+.gig__title { font: 500 1.2rem/1.2 var(--display); letter-spacing: 0; }
+.gig .duo { border-radius: 4px; }
+.gig:hover .duo img { transform: scale(1.03); transition: transform 0.3s; }
+
+.end__name { font: 400 1.9rem var(--display); }
+
+@media (max-width: 1000px) {
+  .hero__photo::before { background: linear-gradient(to top, var(--navy) 0%, transparent 45%); }
+}
+
+@media (max-width: 640px) {
+  body { font-size: 1.0625rem; }
+  .hero__name { font-size: clamp(3.4rem, 18vw, 4.8rem); font-weight: 400; }
+  .hero__photo::before { display: none; }
+  .poster__word, .stage__word, .dash__title { font: 400 2.6rem/1.08 var(--display); }
+  .year__num { font-size: 2rem; }
+  .sh__title { font-size: 2.4rem; }
+}
+
+@media print {
+  .hero__name { font-size: 32pt; font-weight: 400; }
+  .hero__lead { font-style: italic; }
+  .skills { background: none; }
+  .job__year { font-size: 20pt; }
+}

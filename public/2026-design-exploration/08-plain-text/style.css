@@ -1,0 +1,107 @@
+/* 08 · Plain Text — a personal homepage, the old-fashioned way */
+
+:root {
+  color-scheme: light dark;
+  --bg: oklch(0.99 0.004 235);
+  --ink: oklch(0.27 0.01 260);
+  --heading: oklch(0.31 0.06 260);
+  --muted: oklch(0.5 0.02 250);
+  --link: oklch(0.45 0.08 250);
+  --rule: oklch(0.31 0.06 260);
+  --hair: oklch(0.88 0.016 227);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: oklch(0.2 0.02 260);
+    --ink: oklch(0.88 0.01 240);
+    --heading: oklch(0.95 0.01 240);
+    --muted: oklch(0.68 0.025 250);
+    --link: oklch(0.78 0.07 240);
+    --rule: oklch(0.52 0.07 240);
+    --hair: oklch(0.32 0.03 260);
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1.0625rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+img { max-width: 100%; height: auto; }
+a { color: var(--link); text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
+a:hover { text-decoration-thickness: 2px; }
+.muted { color: var(--muted); }
+.date { font: 400 0.85rem/1.65 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: var(--muted); font-variant-numeric: tabular-nums; }
+
+.page { max-width: 42rem; margin: 0 auto; padding: 48px 20px 64px; }
+
+.head { display: flex; gap: 18px; align-items: center; padding-bottom: 20px; border-bottom: 2px solid var(--rule); margin-bottom: 40px; }
+.head__me img { display: block; width: 64px; height: 64px; border-radius: 50%; object-fit: cover; }
+.head__name { margin: 0; font-weight: 700; font-size: 1.15rem; }
+.head__name a { color: var(--heading); text-decoration: none; }
+.nav { display: flex; flex-wrap: wrap; gap: 0 16px; margin: 2px 0 0; padding: 0; list-style: none; }
+.nav a[aria-current] { color: var(--ink); text-decoration: none; font-weight: 600; }
+
+h1, h2, h3, h4 { color: var(--heading); line-height: 1.25; text-wrap: balance; }
+h1 { font-size: 2rem; letter-spacing: -0.015em; margin: 0 0 0.6rem; }
+h2 { font-size: 1.3rem; margin: 2.6rem 0 0.8rem; padding-top: 0.2rem; }
+h2 .muted { font-weight: 400; font-size: 0.9rem; }
+h3 { font-size: 1.1rem; margin: 0; }
+h4 { font-size: 1rem; margin: 1rem 0 0.2rem; }
+p { margin: 0 0 1rem; }
+ul { padding-left: 1.2rem; margin: 0 0 1rem; }
+li { margin: 0.2rem 0; }
+.lead { font-size: 1.2rem; line-height: 1.5; }
+.crumb { margin: 0 0 0.3rem; color: var(--muted); }
+
+.job { margin: 0 0 2rem; }
+.job > .date { margin: 0 0 0.4rem; }
+.job h4 + .muted { margin: 0 0 0.3rem; font-size: 0.95rem; }
+
+.skills { display: grid; grid-template-columns: 11rem 1fr; gap: 6px 16px; margin: 0; }
+.skills dt { font-weight: 600; }
+.skills dd { margin: 0; }
+
+.dated { list-style: none; padding: 0; }
+.dated li { display: grid; grid-template-columns: 6.5rem 1fr; gap: 16px; padding: 5px 0; margin: 0; }
+.blog .dated li, .talks .dated li { grid-template-columns: 4rem 1fr; }
+.dated .muted { font-size: 0.95rem; }
+.pager { display: flex; justify-content: space-between; border-top: 1px solid var(--hair); padding-top: 12px; }
+
+.body img { border-radius: 4px; margin: 0.5rem 0; }
+.body blockquote { margin: 1rem 0; padding-left: 1rem; border-left: 3px solid var(--hair); color: var(--muted); }
+.body h2 { font-size: 1.3rem; }
+
+.foot { margin-top: 64px; padding-top: 16px; border-top: 1px solid var(--hair); font-size: 0.9rem; color: var(--muted); }
+.foot__links { display: flex; flex-wrap: wrap; gap: 4px 16px; list-style: none; padding: 0; }
+.foot__links i { display: none; }
+
+@media (max-width: 520px) {
+  .page { padding-top: 28px; padding-inline: 16px; }
+  .head { margin-bottom: 28px; }
+  .head__me img { width: 52px; height: 52px; }
+  h1 { font-size: 1.7rem; }
+  .skills { grid-template-columns: 1fr; }
+  .skills dd { margin-bottom: 8px; }
+  .dated li { grid-template-columns: 1fr; gap: 0; padding: 7px 0; }
+  .blog .dated li, .talks .dated li { grid-template-columns: 3.6rem 1fr; gap: 10px; }
+}
+
+@media print {
+  @page { margin: 16mm; }
+  :root { --bg: #fff; --ink: #111; --heading: oklch(0.31 0.06 260); --muted: #555; --link: inherit; }
+  body { font-size: 10pt; line-height: 1.45; }
+  .page { max-width: none; padding: 0; }
+  .head { margin-bottom: 14pt; padding-bottom: 8pt; }
+  .head__me img { width: 44pt; height: 44pt; }
+  .nav, .foot { display: none; }
+  .head__name::after { content: " · mkohler.dev · me@michaelkohler.info"; font-weight: 400; color: #555; }
+  a { text-decoration: none; }
+  h2 { margin-top: 16pt; break-after: avoid; }
+  .job { break-inside: avoid; margin-bottom: 12pt; }
+}

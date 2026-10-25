@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>15 Years as a Mozilla Volunteer · Michael Kohler</title>
+  <meta name="theme-color" content="#23395B">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
+  <link rel="icon" href="../assets/favicon.ico">
+  <link rel="stylesheet" href="../shared/icons.css?v=mvnvj7la">
+  <link rel="stylesheet" href="style.css?v=mvnvj7la">
+  
+</head>
+<body>
+
+<div class="shell">
+  <aside class="rail">
+    <a class="rail__id" href="index.html">
+      <img class="rail__photo" src="../assets/images/profile.webp" alt="" width="200" height="200">
+      <span class="rail__name">Michael Kohler</span>
+      <span class="rail__role">Lead Software Engineer</span>
+    </a>
+    <nav aria-label="Main">
+<ul class="rail__nav">
+  <li><a href="index.html"><span>CV</span></a></li>
+  <li><a href="opensource.html"><span>Open Source</span></a></li>
+  <li><a href="blog.html" aria-current="page"><span>Blog</span></a></li>
+  <li><a href="talks.html"><span>Talks</span></a></li>
+</ul></nav>
+    <div class="rail__foot">
+      <p class="rail__place">Berlin, Germany</p>
+      
+<ul class="rail__social">
+  <li><a href="https://chaos.social/@mkohler" aria-label="Mastodon" rel="me noopener"><i class="fab" aria-hidden="true">&#xe800;</i></a></li>
+  <li><a href="https://www.linkedin.com/in/mkohlerdev" aria-label="LinkedIn" rel="me noopener"><i class="fab" aria-hidden="true">&#xf30c;</i></a></li>
+  <li><a href="/feed.xml" aria-label="RSS" rel="me noopener"><i class="fas" aria-hidden="true">&#xf09e;</i></a></li>
+  <li><a href="https://www.github.com/MichaelKohler" aria-label="GitHub" rel="me noopener"><i class="fab" aria-hidden="true">&#xf09b;</i></a></li>
+  <li><a href="mailto:me@michaelkohler.info" aria-label="Email" rel="me noopener"><i class="fas" aria-hidden="true">&#xf0e0;</i></a></li>
+  <li><a href="https://www.xing.com/profile/Michael_Kohler36" aria-label="Xing" rel="me noopener"><i class="fab" aria-hidden="true">&#xf168;</i></a></li>
+</ul>
+    </div>
+  </aside>
+  <main class="canvas post">
+    
+    <div class="article">
+      <article class="card prose prose--article">
+        <p class="eyebrow"><a href="blog.html">Blog</a> › 2023</p>
+        <h1>15 Years as a Mozilla Volunteer</h1>
+        <p class="article__meta"><img src="../assets/images/profile.webp" alt="" width="32" height="32"> Michael Kohler · 10 April 2023 · 6 min read</p>
+        <p>March 10th, 2023 marked my 15th year contributing to Mozilla as a volunteer. In this blog post I will focus on the past 5 years. Before reading this, you might want to check out my <a href="https://mkohler.dev/blog/2018/04/10-years-as-a-mozilla-volunteer/">previous blog post about my first 10 years</a>.</p>
+<!-- excerpt -->
+<h2 id="statistics">Statistics</h2>
+<p>Unfortunately I can't provide the same level of granular statistics as I did in that blog post, as the data aggregation from back then does not exist anymore. However, I created my own tool to track my contributions and you can find all my contributions listed <a href="/open-source">in the Open Source section of this website</a>. I might write about that tool in the future, until then you can set this up for yourself as well. The code can be found on <a href="https://github.com/MichaelKohler/volunteer-contributions-fetch/">GitHub</a>.</p>
+<h2 id="common-voice">Common Voice</h2>
+<p>Most of this blog post will focus on Common Voice, as that is the main project I have worked on in the past 5 years. This is the story of how I got to contribute to it and what contributions I've made over the years. Many of these efforts were based on input and collaboration of the community!</p>
+<p>Common Voice is Mozilla's effort to create a public domain dataset of voice recordings that can be used to create Machine Learning models to recognize speech. For more information check out the <a href="https://commonvoice.mozilla.org/about">About page on Common Voice</a>.</p>
+<h3 id="getting-to-know-sentence-collector">Getting to know Sentence Collector</h3>
+<p>As part of my Mozilla Reps work, I helped organize the <a href="https://www.meetup.com/berlin-mozilla-meetup/events/250208027/">Mozilla Berlin presence of Mozilla's Global Sprint in May 2018</a>. The Global Sprint was a global event encouraging participants to create fun projects for a healthy internet. For the Berlin instance of this event we decided to focus on Common Voice. One benefit of this was that the Common Voice team was located in Berlin and therefore easily could help us out. At that point I had heard about Common Voice before, but I do not remember contributing to it before this event.</p>
+<p>At the event we used a localization tool to submit and review sentences, as that already had a review flow. These sentences then get shown to the voice contributors to record. To get a good dataset many hours of recorded speech is necessary. Many hours of speech also means many sentences that need to be available to be recorded. As you might imagine, this does not scale well. Later that year in July Mike Henretty committed the first version of the <a href="https://commonvoice.mozilla.org/sentence-collector/">Sentence Collector</a> to GitHub. This then allowed as to improve upon and create a flow that specifically fits the purpose and processes of Common Voice.</p>
+<p>My first commit to the <a href="https://github.com/common-voice/sentence-collector/">Sentence Collector repository</a> was in November 2018. Since then I have maintained and improved the Sentence Collector as a volunteer. There were contributions from time to time from other contributors and of course the whole thing would not have been possible without the discussions with the community.</p>
+<p>The initial version looked slightly different, but at some point I decided to get it a bit closer to the design of the Common Voice website. This is how it looks now:</p>
+<p><a href="../assets/images/2023/04/sentence-collector.webp"><img src="../assets/images/2023/04/sentence-collector.webp" alt=""></a></p>
+<h3 id="backend-work-on-sentence-collector">Backend work on Sentence Collector</h3>
+<p>For some time in the beginning Sentence Collector did not have a real backend. The frontend basically directly contacted <a href="https://wiki.mozilla.org/Firefox/Kinto">Kinto</a>, which worked out quite well initially. However with time our requirements became more complex and we had to switch to using a real backend. I fully developed this backend based on a Node. This was quite a project to do in my free time, as there was no existing backend and therefore also no deployment processes. Additionally at that point we decided to introduce the same login mechanism as Common Voice uses and therefore we also had to integrate with Auth0, which made the whole project even bigger. However this was a great learning opportunity for me, as I had never worked with OAuth before that.</p>
+<h3 id="current-status-of-sentence-collector">Current status of Sentence Collector</h3>
+<p>Currently there is an ongoing project to fully integrate the Sentence Collector into the Common Voice platform. Until now it was quite hard to find the Sentence Collector and its code was completely independent of the Common Voice platform. This required us to come up with some processes to get the data integrated and keep everything consistent. We had talked about this more than 2 years ago, but it simply never happened. Therefore I'm very happy that this is now happening.</p>
+<h3 id="sentence-extractor">Sentence Extractor</h3>
+<p>As one-off contributions submitting sentences through Sentence Collector was not enough for all languages, the Common Voice team also created a tool that extracts sentences from Wikipedia (with legal requirements applied). That tool is called <a href="https://github.com/Common-Voice/cv-sentence-extractor">Sentence Extractor</a>. Around June 2019 I started contributing to that tool as well and then later on took over maintenance as well. Since then I helped integrate more sources apart from just Wikipedia, as well as creating more rules that can be applied to find the right sentences to extract. All of these rules are documented in the README file.</p>
+<p>A bigger project for the Sentence Extractor was the automation of the extraction process. For a long time trusted contributors ran the extraction process locally on their machine and then uploaded the resulting sentences file to the Common Voice repository. This could take hours to run. I created a GitHub Actions workflow which automates the process, while also making sure that none of the sentences changed. This allows anyone to trigger an extract and then the only manual process is to submit a PR with the file to the Common Voice repository. However the content of that file is easily comparable to the output of the GitHub Action and therefore guarantees compliance with the legal requirements easily.</p>
+<h2 id="community-work">Community Work</h2>
+<p>After moving to Berlin at the beginning of 2018 I started helping out with organizing community events in the Mozilla office. I joined the already existing bi-weekly Mozilla Nights and helped mentor attendees and then also further on helped organize those events. Unfortuantely we did not switch those bi-weekly Mozilla Nights to be online events and had to pause them during the pandemic.</p>
+<p>We have also organized campaign specific events between 2018 and the beginning of 2020, whenever Mozilla had a global campaign that benefited from having physical events happening. You can find previous campaigns as well as upcoming campaigns on the <a href="https://community.mozilla.org/campaigns/">Community Portal</a>. For many of those campaigns we needed a bug reporting form, therefore I develop and keep maintaining the <a href="https://github.com/mozilla/campaign-form/">campaign-form</a> which gets adjusted of reach campaign.</p>
+<p>I have also continued to be a Peer for the Reps program. However admittedly, in the past 2 years I did not contribute as much to the Reps program. If you'd like to chat with me about the program, I'm super happy to do so though!</p>
+<p>And finally, I organized the virtual Mozilla presence in the Mozilla Dev Room at FOSDEM 2022 together with other volunteers.</p>
+<h2 id="firefox">Firefox</h2>
+<p>I have also continued to write some patches for Firefox. These usually come in batches of 2 or 3 at the tiem and then I don't contribute to Firefox code for another half year. You can find a list of my fixed bugs on <a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL+%40michaelkohler">Bugzilla</a>. I'm probably going to keep contributing to Firefox from time to time, however I do not have a big amount of time availabe these days.</p>
+
+      </article>
+      <aside class="toc card">
+        <p class="card__title">On this page</p>
+        <ol><li class="toc--2"><a href="#statistics">Statistics</a></li><li class="toc--2"><a href="#common-voice">Common Voice</a></li><li class="toc--3"><a href="#getting-to-know-sentence-collector">Getting to know Sentence Collector</a></li><li class="toc--3"><a href="#backend-work-on-sentence-collector">Backend work on Sentence Collector</a></li><li class="toc--3"><a href="#current-status-of-sentence-collector">Current status of Sentence Collector</a></li><li class="toc--3"><a href="#sentence-extractor">Sentence Extractor</a></li><li class="toc--2"><a href="#community-work">Community Work</a></li><li class="toc--2"><a href="#firefox">Firefox</a></li></ol>
+        <a class="button" href="blog.html">← All posts</a>
+      </aside>
+    </div>
+    <footer class="canvas__foot">© 2026 Michael Kohler · Lead Software Engineer with a passion for Web Standards and DevOps</footer>
+  </main>
+</div>
+
+</body>
+</html>

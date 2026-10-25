@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Not found · Michael Kohler</title>
+  <meta name="theme-color" content="#23395B">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+  <link rel="icon" href="../assets/favicon.ico">
+  <link rel="stylesheet" href="../shared/icons.css?v=mvnvj7la">
+  <link rel="stylesheet" href="style.css?v=mvnvj7la">
+  
+</head>
+<body>
+
+<div class="split notfound">
+  <aside class="stage stage--photo">
+    
+    <img class="stage__photo" src="../assets/images/profile.webp" alt="" width="900" height="900">
+    
+    <div class="stage__text">
+      <p class="kicker">404</p>
+      <h1 class="stage__title"><em>Lost?</em></h1>
+      
+      
+    </div>
+  </aside>
+  <div class="side">
+    <header class="top">
+      <a class="top__name" href="index.html">Michael Kohler</a>
+      <nav aria-label="Main">
+<ul class="nav">
+  <li><a href="index.html">CV</a></li>
+  <li><a href="opensource.html">Open Source</a></li>
+  <li><a href="blog.html">Blog</a></li>
+  <li><a href="talks.html">Talks</a></li>
+</ul></nav>
+    </header>
+    <main>
+
+<section class="intro intro--prose">
+  <h2 class="h2">This page doesn’t exist.</h2>
+  <p>The page you’re looking for couldn’t be found.</p>
+  <p><a class="link" href="index.html">Back to the CV →</a></p>
+</section>
+    </main>
+    <footer class="foot">
+      <p>Lead Software Engineer with a passion for Web Standards and DevOps.</p>
+      
+<ul class="foot__social">
+  <li><a href="https://chaos.social/@mkohler" aria-label="Mastodon" rel="me noopener"><i class="fab" aria-hidden="true">&#xe800;</i><span>Mastodon</span></a></li>
+  <li><a href="https://www.linkedin.com/in/mkohlerdev" aria-label="LinkedIn" rel="me noopener"><i class="fab" aria-hidden="true">&#xf30c;</i><span>LinkedIn</span></a></li>
+  <li><a href="/feed.xml" aria-label="RSS" rel="me noopener"><i class="fas" aria-hidden="true">&#xf09e;</i><span>RSS</span></a></li>
+  <li><a href="https://www.github.com/MichaelKohler" aria-label="GitHub" rel="me noopener"><i class="fab" aria-hidden="true">&#xf09b;</i><span>GitHub</span></a></li>
+  <li><a href="mailto:me@michaelkohler.info" aria-label="Email" rel="me noopener"><i class="fas" aria-hidden="true">&#xf0e0;</i><span>Email</span></a></li>
+  <li><a href="https://www.xing.com/profile/Michael_Kohler36" aria-label="Xing" rel="me noopener"><i class="fab" aria-hidden="true">&#xf168;</i><span>Xing</span></a></li>
+</ul>
+    </footer>
+  </div>
+</div>
+<script>
+// Areas: swap the stage photo to match the section in view.
+const shots = document.querySelectorAll('[data-shot]');
+const show = (id) => shots.forEach((s) => s.classList.toggle('is-active', s.dataset.shot === id));
+const io = new IntersectionObserver((entries) => entries.forEach((e) => e.isIntersecting && show(e.target.dataset.area)), { rootMargin: '-45% 0px -45% 0px' });
+document.querySelectorAll('[data-area]').forEach((el) => io.observe(el));
+// Talks: preview the slide of the hovered or focused talk.
+const preview = document.querySelector('.stage__preview');
+document.querySelectorAll('[data-preview]').forEach((a) => {
+  const swap = () => { preview.src = a.dataset.preview; preview.closest('figure').querySelector('figcaption').textContent = a.dataset.caption; };
+  a.addEventListener('mouseenter', swap);
+  a.addEventListener('focus', swap);
+});</script>
+</body>
+</html>

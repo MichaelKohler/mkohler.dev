@@ -1,0 +1,2047 @@
+{
+  "version": 1,
+  "updatedAt": "2026-10-25T07:59:15.053Z",
+  "current": "mobile-reading",
+  "log": [
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "10-field-notes"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "cv-first-screen",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "opensource-top",
+      "type": "match",
+      "prevChampion": "11-aurora-glass"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "03-bento"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "03-bento"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "header",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "areas",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "08-plain-text"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "02-profile-rail"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "02-profile-rail"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "02-profile-rail"
+    },
+    {
+      "aspect": "contributions",
+      "type": "match",
+      "prevChampion": "02-profile-rail"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "footer",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "04-terminal"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "experience",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "08-plain-text"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "08-plain-text"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "08-plain-text"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "skills",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "blog-index",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "talks",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "06-timeline"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "12-split-screen"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "09-poster"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-home",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "03-bento"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-blog",
+      "type": "match",
+      "prevChampion": "13-editorial-hero"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "10-field-notes"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "05-swiss-grid"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    },
+    {
+      "aspect": "mobile-reading",
+      "type": "match",
+      "prevChampion": "01-editorial"
+    }
+  ],
+  "aspects": {
+    "cv-first-screen": {
+      "order": [
+        "12-split-screen",
+        "10-field-notes",
+        "05-swiss-grid",
+        "11-aurora-glass",
+        "09-poster",
+        "04-terminal",
+        "06-timeline",
+        "03-bento",
+        "08-plain-text",
+        "01-editorial",
+        "07-brutalist",
+        "02-profile-rail"
+      ],
+      "champion": "09-poster",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "12-split-screen",
+          "challenger": "10-field-notes",
+          "winner": "10-field-notes",
+          "at": "2026-10-25T07:42:41.245Z"
+        },
+        {
+          "champion": "10-field-notes",
+          "challenger": "05-swiss-grid",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:42:45.196Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "11-aurora-glass",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:43:26.114Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "09-poster",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:43:28.308Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "04-terminal",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:43:31.173Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "06-timeline",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:43:36.189Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "03-bento",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:43:38.925Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "08-plain-text",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:43:41.778Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "01-editorial",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:43:44.011Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "07-brutalist",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:43:46.558Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "02-profile-rail",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:43:48.946Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "opensource-top": {
+      "order": [
+        "06-timeline",
+        "11-aurora-glass",
+        "07-brutalist",
+        "03-bento",
+        "12-split-screen",
+        "04-terminal",
+        "08-plain-text",
+        "01-editorial",
+        "09-poster",
+        "05-swiss-grid",
+        "02-profile-rail",
+        "10-field-notes"
+      ],
+      "champion": "11-aurora-glass",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "06-timeline",
+          "challenger": "11-aurora-glass",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:05.897Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "07-brutalist",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:09.459Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "03-bento",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:16.137Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "12-split-screen",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:18.887Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "04-terminal",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:21.008Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "08-plain-text",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:22.916Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "01-editorial",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:31.229Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "09-poster",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:39.225Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "05-swiss-grid",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:45.412Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "02-profile-rail",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:47.491Z"
+        },
+        {
+          "champion": "11-aurora-glass",
+          "challenger": "10-field-notes",
+          "winner": "11-aurora-glass",
+          "at": "2026-10-25T07:44:50.614Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "header": {
+      "order": [
+        "12-split-screen",
+        "05-swiss-grid",
+        "03-bento",
+        "08-plain-text",
+        "06-timeline",
+        "04-terminal",
+        "09-poster",
+        "10-field-notes",
+        "02-profile-rail",
+        "07-brutalist",
+        "11-aurora-glass",
+        "01-editorial"
+      ],
+      "champion": "06-timeline",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "12-split-screen",
+          "challenger": "05-swiss-grid",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:45:02.113Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "03-bento",
+          "winner": "03-bento",
+          "at": "2026-10-25T07:45:05.025Z"
+        },
+        {
+          "champion": "03-bento",
+          "challenger": "08-plain-text",
+          "winner": "03-bento",
+          "at": "2026-10-25T07:45:09.636Z"
+        },
+        {
+          "champion": "03-bento",
+          "challenger": "06-timeline",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:45:14.515Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "04-terminal",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:45:17.172Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "09-poster",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:45:24.939Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "10-field-notes",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:45:27.202Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "02-profile-rail",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:45:29.775Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "07-brutalist",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:45:31.897Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "11-aurora-glass",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:45:35.182Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "01-editorial",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:45:37.878Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "areas": {
+      "order": [
+        "09-poster",
+        "04-terminal",
+        "07-brutalist",
+        "03-bento",
+        "05-swiss-grid",
+        "12-split-screen",
+        "11-aurora-glass",
+        "08-plain-text",
+        "02-profile-rail",
+        "01-editorial",
+        "06-timeline",
+        "10-field-notes"
+      ],
+      "champion": "09-poster",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "09-poster",
+          "challenger": "04-terminal",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:45:52.745Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "07-brutalist",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:45:55.220Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "03-bento",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:45:57.540Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "05-swiss-grid",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:46:00.668Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "12-split-screen",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:46:03.624Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "11-aurora-glass",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:46:06.652Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "08-plain-text",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:46:10.462Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "02-profile-rail",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:46:13.237Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "01-editorial",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:46:15.761Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "06-timeline",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:46:18.637Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "10-field-notes",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:46:21.361Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "contributions": {
+      "order": [
+        "08-plain-text",
+        "12-split-screen",
+        "09-poster",
+        "06-timeline",
+        "10-field-notes",
+        "04-terminal",
+        "07-brutalist",
+        "02-profile-rail",
+        "01-editorial",
+        "11-aurora-glass",
+        "05-swiss-grid",
+        "03-bento"
+      ],
+      "champion": "02-profile-rail",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "08-plain-text",
+          "challenger": "12-split-screen",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:46:27.378Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "09-poster",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:46:34.125Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "06-timeline",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:46:38.279Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "10-field-notes",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:46:41.550Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "04-terminal",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:46:43.682Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "07-brutalist",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:46:46.174Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "02-profile-rail",
+          "winner": "02-profile-rail",
+          "at": "2026-10-25T07:46:52.276Z"
+        },
+        {
+          "champion": "02-profile-rail",
+          "challenger": "01-editorial",
+          "winner": "02-profile-rail",
+          "at": "2026-10-25T07:46:59.205Z"
+        },
+        {
+          "champion": "02-profile-rail",
+          "challenger": "11-aurora-glass",
+          "winner": "02-profile-rail",
+          "at": "2026-10-25T07:47:04.210Z"
+        },
+        {
+          "champion": "02-profile-rail",
+          "challenger": "05-swiss-grid",
+          "winner": "02-profile-rail",
+          "at": "2026-10-25T07:47:07.390Z"
+        },
+        {
+          "champion": "02-profile-rail",
+          "challenger": "03-bento",
+          "winner": "02-profile-rail",
+          "at": "2026-10-25T07:47:17.632Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "footer": {
+      "order": [
+        "06-timeline",
+        "04-terminal",
+        "07-brutalist",
+        "08-plain-text",
+        "03-bento",
+        "02-profile-rail",
+        "09-poster",
+        "11-aurora-glass",
+        "05-swiss-grid",
+        "12-split-screen",
+        "10-field-notes",
+        "01-editorial"
+      ],
+      "champion": "06-timeline",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "06-timeline",
+          "challenger": "04-terminal",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:24.166Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "07-brutalist",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:27.488Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "08-plain-text",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:29.782Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "03-bento",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:37.031Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "02-profile-rail",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:39.925Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "09-poster",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:43.203Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "11-aurora-glass",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:46.361Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "05-swiss-grid",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:50.063Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "12-split-screen",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:53.608Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "10-field-notes",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:55.792Z"
+        },
+        {
+          "champion": "06-timeline",
+          "challenger": "01-editorial",
+          "winner": "06-timeline",
+          "at": "2026-10-25T07:47:59.673Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "experience": {
+      "order": [
+        "04-terminal",
+        "05-swiss-grid",
+        "08-plain-text",
+        "07-brutalist",
+        "06-timeline",
+        "02-profile-rail",
+        "12-split-screen",
+        "10-field-notes",
+        "09-poster",
+        "01-editorial",
+        "11-aurora-glass",
+        "03-bento"
+      ],
+      "champion": "05-swiss-grid",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "04-terminal",
+          "challenger": "05-swiss-grid",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:05.629Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "08-plain-text",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:14.594Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "07-brutalist",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:17.145Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "06-timeline",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:22.680Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "02-profile-rail",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:28.254Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "12-split-screen",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:33.817Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "10-field-notes",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:38.888Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "09-poster",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:45.046Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "01-editorial",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:48:51.249Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "11-aurora-glass",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:49:04.947Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "03-bento",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:49:11.246Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "skills": {
+      "order": [
+        "08-plain-text",
+        "10-field-notes",
+        "07-brutalist",
+        "09-poster",
+        "05-swiss-grid",
+        "03-bento",
+        "01-editorial",
+        "04-terminal",
+        "12-split-screen",
+        "06-timeline",
+        "02-profile-rail",
+        "11-aurora-glass"
+      ],
+      "champion": "09-poster",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "08-plain-text",
+          "challenger": "10-field-notes",
+          "winner": "08-plain-text",
+          "at": "2026-10-25T07:49:18.300Z"
+        },
+        {
+          "champion": "08-plain-text",
+          "challenger": "07-brutalist",
+          "winner": "08-plain-text",
+          "at": "2026-10-25T07:49:21.081Z"
+        },
+        {
+          "champion": "08-plain-text",
+          "challenger": "09-poster",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:49:31.343Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "05-swiss-grid",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:49:38.556Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "03-bento",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:49:42.571Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "01-editorial",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:49:49.746Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "04-terminal",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:49:52.671Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "12-split-screen",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:49:56.781Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "06-timeline",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:49:59.500Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "02-profile-rail",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:50:02.068Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "11-aurora-glass",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:50:05.476Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "blog-index": {
+      "order": [
+        "12-split-screen",
+        "11-aurora-glass",
+        "10-field-notes",
+        "07-brutalist",
+        "03-bento",
+        "02-profile-rail",
+        "09-poster",
+        "06-timeline",
+        "08-plain-text",
+        "04-terminal",
+        "01-editorial",
+        "05-swiss-grid"
+      ],
+      "champion": "12-split-screen",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "12-split-screen",
+          "challenger": "11-aurora-glass",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:14.470Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "10-field-notes",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:19.669Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "07-brutalist",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:22.812Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "03-bento",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:27.898Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "02-profile-rail",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:36.126Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "09-poster",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:40.615Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "06-timeline",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:43.186Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "08-plain-text",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:47.974Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "04-terminal",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:50.240Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "01-editorial",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:50:54.195Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "05-swiss-grid",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:51:00.902Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "talks": {
+      "order": [
+        "09-poster",
+        "08-plain-text",
+        "04-terminal",
+        "10-field-notes",
+        "05-swiss-grid",
+        "06-timeline",
+        "11-aurora-glass",
+        "12-split-screen",
+        "01-editorial",
+        "07-brutalist",
+        "03-bento",
+        "02-profile-rail"
+      ],
+      "champion": "09-poster",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "09-poster",
+          "challenger": "08-plain-text",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:07.476Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "04-terminal",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:09.972Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "10-field-notes",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:12.914Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "05-swiss-grid",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:15.793Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "06-timeline",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:27.396Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "11-aurora-glass",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:29.622Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "12-split-screen",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:34.820Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "01-editorial",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:39.225Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "07-brutalist",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:42.169Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "03-bento",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:45.779Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "02-profile-rail",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:51:50.289Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "reading": {
+      "order": [
+        "06-timeline",
+        "12-split-screen",
+        "11-aurora-glass",
+        "09-poster",
+        "07-brutalist",
+        "01-editorial",
+        "04-terminal",
+        "10-field-notes",
+        "05-swiss-grid",
+        "03-bento",
+        "08-plain-text",
+        "02-profile-rail"
+      ],
+      "champion": "01-editorial",
+      "next": 12,
+      "matches": [
+        {
+          "champion": "06-timeline",
+          "challenger": "12-split-screen",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:52:49.966Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "11-aurora-glass",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:52:53.488Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "09-poster",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:53:02.133Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "07-brutalist",
+          "winner": "12-split-screen",
+          "at": "2026-10-25T07:53:07.409Z"
+        },
+        {
+          "champion": "12-split-screen",
+          "challenger": "01-editorial",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:53:15.224Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "04-terminal",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:53:17.666Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "10-field-notes",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:53:20.619Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "05-swiss-grid",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:53:23.483Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "03-bento",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:53:26.419Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "08-plain-text",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:53:28.936Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "02-profile-rail",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:53:31.834Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "mobile-home": {
+      "order": [
+        "09-poster",
+        "04-terminal",
+        "13-editorial-hero",
+        "06-timeline",
+        "07-brutalist",
+        "08-plain-text",
+        "01-editorial",
+        "10-field-notes",
+        "05-swiss-grid",
+        "02-profile-rail",
+        "12-split-screen",
+        "03-bento",
+        "11-aurora-glass"
+      ],
+      "champion": "13-editorial-hero",
+      "next": 13,
+      "matches": [
+        {
+          "champion": "09-poster",
+          "challenger": "04-terminal",
+          "winner": "09-poster",
+          "at": "2026-10-25T07:53:46.010Z"
+        },
+        {
+          "champion": "09-poster",
+          "challenger": "13-editorial-hero",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:54:01.956Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "06-timeline",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:54:10.541Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "07-brutalist",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:54:16.909Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "08-plain-text",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:54:21.755Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "01-editorial",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:54:27.699Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "10-field-notes",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:54:33.413Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "05-swiss-grid",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:54:43.950Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "02-profile-rail",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:54:53.662Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "12-split-screen",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:55:11.415Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "03-bento",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:55:20.927Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "11-aurora-glass",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:55:27.268Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "mobile-blog": {
+      "order": [
+        "03-bento",
+        "05-swiss-grid",
+        "09-poster",
+        "10-field-notes",
+        "13-editorial-hero",
+        "12-split-screen",
+        "08-plain-text",
+        "11-aurora-glass",
+        "04-terminal",
+        "06-timeline",
+        "02-profile-rail",
+        "07-brutalist",
+        "01-editorial"
+      ],
+      "champion": "01-editorial",
+      "next": 13,
+      "matches": [
+        {
+          "champion": "03-bento",
+          "challenger": "05-swiss-grid",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:55:50.285Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "09-poster",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:56:06.449Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "10-field-notes",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:56:13.228Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "13-editorial-hero",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:56:24.341Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "12-split-screen",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:56:29.328Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "08-plain-text",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:56:34.817Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "11-aurora-glass",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:56:48.764Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "04-terminal",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:56:52.447Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "06-timeline",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:56:57.896Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "02-profile-rail",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:57:03.130Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "07-brutalist",
+          "winner": "13-editorial-hero",
+          "at": "2026-10-25T07:57:12.294Z"
+        },
+        {
+          "champion": "13-editorial-hero",
+          "challenger": "01-editorial",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:57:24.655Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    },
+    "mobile-reading": {
+      "order": [
+        "10-field-notes",
+        "05-swiss-grid",
+        "08-plain-text",
+        "02-profile-rail",
+        "07-brutalist",
+        "06-timeline",
+        "01-editorial",
+        "09-poster",
+        "13-editorial-hero",
+        "12-split-screen",
+        "11-aurora-glass",
+        "03-bento",
+        "04-terminal"
+      ],
+      "champion": "01-editorial",
+      "next": 13,
+      "matches": [
+        {
+          "champion": "10-field-notes",
+          "challenger": "05-swiss-grid",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:57:43.469Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "08-plain-text",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:57:53.057Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "02-profile-rail",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:58:03.377Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "07-brutalist",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:58:11.395Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "06-timeline",
+          "winner": "05-swiss-grid",
+          "at": "2026-10-25T07:58:17.512Z"
+        },
+        {
+          "champion": "05-swiss-grid",
+          "challenger": "01-editorial",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:58:26.545Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "09-poster",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:58:36.400Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "13-editorial-hero",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:58:43.207Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "12-split-screen",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:58:49.259Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "11-aurora-glass",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:58:57.637Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "03-bento",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:59:05.069Z"
+        },
+        {
+          "champion": "01-editorial",
+          "challenger": "04-terminal",
+          "winner": "01-editorial",
+          "at": "2026-10-25T07:59:14.881Z"
+        }
+      ],
+      "done": true,
+      "skipped": false
+    }
+  }
+}

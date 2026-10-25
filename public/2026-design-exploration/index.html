@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>mkohler.dev design study</title>
+  <link rel="icon" href="assets/favicon.ico">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --navy: oklch(0.31 0.06 260);
+      --navy-2: oklch(0.36 0.06 260);
+      --accent: oklch(0.52 0.07 240);
+      --bg: oklch(0.985 0.005 235);
+      --surface: oklch(1 0 0);
+      --text: oklch(0.3 0.01 260);
+      --heading: oklch(0.27 0.05 260);
+      --muted: oklch(0.52 0.02 250);
+      --line: oklch(0.9 0.014 230);
+      --chip: oklch(0.955 0.014 235);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --bg: oklch(0.2 0.03 260); --surface: oklch(0.245 0.035 260); --text: oklch(0.88 0.01 250);
+        --heading: oklch(0.96 0.01 250); --muted: oklch(0.7 0.025 250); --line: oklch(0.32 0.035 260); --chip: oklch(0.29 0.035 260);
+      }
+    }
+    :root[data-theme="dark"] {
+      --bg: oklch(0.2 0.03 260); --surface: oklch(0.245 0.035 260); --text: oklch(0.88 0.01 250);
+      --heading: oklch(0.96 0.01 250); --muted: oklch(0.7 0.025 250); --line: oklch(0.32 0.035 260); --chip: oklch(0.29 0.035 260);
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 400 1rem/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+    img { display: block; max-width: 100%; }
+    a { color: var(--accent); }
+    h1, h2, h3 { color: var(--heading); line-height: 1.2; margin: 0; letter-spacing: -0.01em; text-wrap: balance; }
+    p { margin: 0 0 0.8rem; }
+    .wrap { width: min(1240px, 100% - 32px); margin: 0 auto; }
+    .muted { color: var(--muted); }
+
+    .masthead { background: linear-gradient(160deg, var(--navy-2), var(--navy)); color: oklch(0.95 0.005 250); padding: 56px 0 48px; }
+    .masthead .wrap { display: grid; grid-template-columns: auto 1fr; gap: 28px; align-items: center; }
+    .masthead img { width: 112px; height: 112px; border-radius: 50%; object-fit: cover; border: 4px solid oklch(1 0 0 / 0.15); }
+    .masthead h1 { color: inherit; font-size: clamp(2rem, 4vw, 3rem); }
+    .masthead p { color: oklch(0.82 0.03 245); max-width: 70ch; margin: 0.5rem 0 0; }
+
+    section { padding: 48px 0 0; }
+    .section-title { font-size: 1.6rem; margin-bottom: 1rem; }
+    .lead { font-size: 1.08rem; max-width: 75ch; }
+
+    .brief { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 1.4rem; }
+    .brief > div { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; }
+    .brief h3 { font-size: 1rem; margin-bottom: 0.4rem; }
+    .brief ul { margin: 0; padding-left: 1.1rem; }
+    .brief li { margin: 0.15rem 0; }
+
+    .swatches { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 0.6rem; }
+    .swatches span { display: grid; grid-template-columns: 22px auto; gap: 8px; align-items: center; font-size: 0.8rem; padding: 4px 10px 4px 4px; border-radius: 999px; background: var(--chip); }
+    .swatches i { width: 22px; height: 22px; border-radius: 50%; border: 1px solid var(--line); }
+
+    .toc { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+    .toc a { display: block; text-decoration: none; color: var(--text); background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; transition: transform 0.2s, border-color 0.2s; }
+    .toc a:hover { transform: translateY(-2px); border-color: var(--accent); }
+    .toc img { aspect-ratio: 16 / 10; object-fit: cover; object-position: top; width: 100%; border-bottom: 1px solid var(--line); }
+    .toc span { display: block; padding: 10px 12px; }
+    .toc b { display: block; color: var(--heading); }
+    .toc small { color: var(--muted); }
+
+    table.matrix { width: 100%; border-collapse: collapse; font-size: 0.92rem; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+    .matrix th, .matrix td { text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+    .matrix thead th { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); background: var(--chip); }
+    .matrix td:first-child { font-weight: 600; color: var(--heading); white-space: nowrap; }
+    .matrix-wrap { overflow-x: auto; }
+
+    .shot { display: block; border-radius: 10px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 10px 30px -22px oklch(0.2 0.05 260 / 0.6); }
+    .shot img { width: 100%; }
+    .shot:hover { border-color: var(--accent); }
+
+    .proposal { border-top: 1px solid var(--line); margin-top: 56px; }
+    .proposal__head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 40px; align-items: start; }
+    .proposal__num { font-weight: 700; color: var(--accent); letter-spacing: 0.08em; font-size: 0.8rem; text-transform: uppercase; }
+    .proposal h2 { font-size: clamp(1.8rem, 3vw, 2.4rem); margin: 0.2rem 0 0.1rem; }
+    .proposal__tagline { font-size: 1.15rem; color: var(--muted); margin-bottom: 1rem; }
+    .proposal ul.ideas { margin: 0 0 1rem; padding-left: 1.1rem; }
+    .proposal ul.ideas li { margin: 0.35rem 0; }
+    .facts { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; font-size: 0.92rem; margin: 0 0 1rem; }
+    .facts dt { color: var(--muted); }
+    .facts dd { margin: 0; }
+    .open { display: inline-flex; align-items: center; gap: 0.5rem; margin: 0.4rem 0 1.1rem; padding: 0.75rem 1.4rem; border-radius: 999px; background: var(--navy); color: #fff; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px -12px oklch(0.2 0.05 260 / 0.8); transition: background 0.2s, transform 0.2s; }
+    .open:hover { background: var(--accent); transform: translateY(-1px); }
+    .open span { transition: transform 0.2s; }
+    .open:hover span { transform: translateX(3px); }
+    .pages__label { margin: 0 0 0.4rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+    .pages { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+    .pages a { display: inline-block; font-size: 0.85rem; padding: 4px 12px; border-radius: 999px; background: var(--chip); color: var(--heading); text-decoration: none; }
+    .pages a:hover { background: var(--navy); color: #fff; }
+
+    /* Desktop (1440×900) and mobile (390×844) side by side at the same height */
+    .gallery { margin-top: 28px; display: grid; grid-template-columns: minmax(0, 3.46fr) minmax(0, 1fr); gap: 16px; align-items: start; }
+    .gallery figure { margin: 0; }
+    .gallery figcaption { font-size: 0.82rem; color: var(--muted); margin-top: 4px; }
+    .gallery__mobile .shot { border-radius: 14px; }
+
+    footer { padding: 64px 0 48px; color: var(--muted); font-size: 0.9rem; }
+    code { font-size: 0.88em; background: var(--chip); padding: 0.1em 0.4em; border-radius: 4px; }
+
+    @media (max-width: 900px) {
+      .proposal__head { grid-template-columns: 1fr; gap: 20px; }
+    }
+    @media (max-width: 560px) {
+      .masthead .wrap { grid-template-columns: 1fr; }
+      .masthead img { width: 80px; height: 80px; }
+      .gallery { grid-template-columns: 1fr; }
+      .gallery__mobile { width: min(240px, 70%); }
+    }
+  </style>
+</head>
+<body>
+<header class="masthead">
+  <div class="wrap">
+    <img src="assets/images/profile.webp" alt="">
+    <div>
+      <h1>mkohler.dev design study</h1>
+      <p>17 layout directions for modernising the site. Each one covers every page type, uses the real content and keeps the existing navy palette and portrait.</p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2 class="section-title">The brief</h2>
+    <p class="lead">The current site is a bought template from an earlier era: a 360px photo next to two navy blocks, uppercase headings everywhere, and the navigation hidden in the footer behind a “Menu ↓” link. These proposals explore where the layout could go next. They are not production code: each one is a set of static HTML pages, generated from the same data the site uses today (<code>_data/</code>, <code>src/blog/posts</code>).</p>
+    <div class="brief">
+      <div>
+        <h3>Kept</h3>
+        <ul><li>The navy palette and its light tints</li><li>The portrait</li><li>All content, unchanged</li><li>A print style for the CV</li></ul>
+        <p class="swatches"><span title="oklch(0.31 0.06 260)"><i style="background:oklch(0.31 0.06 260)"></i>Brand primary</span><span title="oklch(0.36 0.06 260)"><i style="background:oklch(0.36 0.06 260)"></i>Brand secondary</span><span title="oklch(0.52 0.07 240)"><i style="background:oklch(0.52 0.07 240)"></i>Accent</span><span title="oklch(0.88 0.016 227)"><i style="background:oklch(0.88 0.016 227)"></i>Light 300</span><span title="oklch(0.98 0.011 235)"><i style="background:oklch(0.98 0.011 235)"></i>Light 100</span><span title="oklch(0.305 0 0)"><i style="background:oklch(0.305 0 0)"></i>Text</span></p>
+      </div>
+      <div>
+        <h3>Page types covered</h3>
+        <ul><li>CV (home)</li><li>Open Source</li><li>Contributions</li><li>Blog index</li><li>Blog post</li><li>Talks</li><li>404 / offline</li></ul>
+        <p class="muted">One representative post (“15 Years as a Mozilla Volunteer”) stands in for all 40 posts, and the contributions page shows a slice of page 1.</p>
+      </div>
+      <div>
+        <h3>How to look at it</h3>
+        <ul>
+          <li>Open any page straight from disk, no build or server needed. Web fonts load from Google Fonts; production would self-host them.</li>
+          <li>The screenshots show each proposal’s home page at 1440×900 and 390×844. Use the “Open” button to see every page.</li>
+          <li>Try printing each proposal’s CV page.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2 class="section-title">The proposals</h2>
+    <nav class="toc" aria-label="Proposals">
+      <a href="#current"><img src="current/cv.webp" alt="" loading="lazy"><span><b>Today</b><small>Current mkohler.dev</small></span></a>
+      <a href="#01-editorial"><img src="01-editorial/screenshots/cv.webp" alt="" loading="lazy"><span><b>01 · Editorial</b><small>A personal broadsheet</small></span></a><a href="#02-profile-rail"><img src="02-profile-rail/screenshots/cv.webp" alt="" loading="lazy"><span><b>02 · Profile Rail</b><small>The current header, turned on its side</small></span></a><a href="#03-bento"><img src="03-bento/screenshots/cv.webp" alt="" loading="lazy"><span><b>03 · Bento</b><small>Everything at a glance</small></span></a><a href="#04-terminal"><img src="04-terminal/screenshots/cv.webp" alt="" loading="lazy"><span><b>04 · Terminal</b><small>A home directory on the web</small></span></a><a href="#05-swiss-grid"><img src="05-swiss-grid/screenshots/cv.webp" alt="" loading="lazy"><span><b>05 · Swiss Grid</b><small>International Typographic Style, from Bern</small></span></a><a href="#06-timeline"><img src="06-timeline/screenshots/cv.webp" alt="" loading="lazy"><span><b>06 · Timeline</b><small>Two careers, one line</small></span></a><a href="#07-brutalist"><img src="07-brutalist/screenshots/cv.webp" alt="" loading="lazy"><span><b>07 · Neo-Brutalist</b><small>Thick lines, hard shadows, loud and friendly</small></span></a><a href="#08-plain-text"><img src="08-plain-text/screenshots/cv.webp" alt="" loading="lazy"><span><b>08 · Plain Text</b><small>A personal homepage, the old-fashioned way</small></span></a><a href="#09-poster"><img src="09-poster/screenshots/cv.webp" alt="" loading="lazy"><span><b>09 · Duotone Poster</b><small>Gig-poster energy in two shades of navy</small></span></a><a href="#10-field-notes"><img src="10-field-notes/screenshots/cv.webp" alt="" loading="lazy"><span><b>10 · Field Notes</b><small>A notebook kept since 2008</small></span></a><a href="#11-aurora-glass"><img src="11-aurora-glass/screenshots/cv.webp" alt="" loading="lazy"><span><b>11 · Aurora Glass</b><small>Frosted panels over soft navy light, with ⌘K</small></span></a><a href="#12-split-screen"><img src="12-split-screen/screenshots/cv.webp" alt="" loading="lazy"><span><b>12 · Split Screen</b><small>A fixed stage on the left, the story on the right</small></span></a><a href="#13-editorial-hero"><img src="13-editorial-hero/screenshots/cv.webp" alt="" loading="lazy"><span><b>13 · Editorial, photo header</b><small>Editorial on desktop, Split Screen’s photo header on mobile</small></span></a><a href="#14-poster-remix"><img src="14-poster-remix/screenshots/cv.webp" alt="" loading="lazy"><span><b>14 · Poster Remix</b><small>The match-off winners, put together</small></span></a><a href="#15-serif-poster"><img src="15-serif-poster/screenshots/cv.webp" alt="" loading="lazy"><span><b>15 · Serif Poster</b><small>The match-off structure, set like a magazine</small></span></a><a href="#16-swiss-aurora"><img src="16-swiss-aurora/screenshots/cv.webp" alt="" loading="lazy"><span><b>16 · Swiss Aurora</b><small>The match-off structure in a contemporary sans</small></span></a><a href="#17-editorial-poster"><img src="17-editorial-poster/screenshots/cv.webp" alt="" loading="lazy"><span><b>17 · Editorial, poster header</b><small>Editorial with the Duotone Poster’s header</small></span></a>
+    </nav>
+  </section>
+
+  <section>
+    <h2 class="section-title">At a glance</h2>
+    <div class="matrix-wrap">
+      <table class="matrix">
+        <thead><tr><th>Proposal</th><th>Idea</th><th>Typography</th><th>Dark mode</th><th>Best if…</th></tr></thead>
+        <tbody>
+          <tr><td>01 Editorial</td><td>A personal broadsheet</td><td>Newsreader (display and text, optical sizes) + Inter for small UI labels</td><td>No, light only</td><td>writing and the CV narrative matter most and the site should feel calm and timeless.</td></tr><tr><td>02 Profile Rail</td><td>The current header, turned on its side</td><td>Plus Jakarta Sans throughout, with tabular numbers for dates</td><td>Yes, follows the system</td><td>the site should feel like a polished, modern product profile and navigation matters.</td></tr><tr><td>03 Bento</td><td>Everything at a glance</td><td>Bricolage Grotesque for display, Inter for text</td><td>Yes, follows the system</td><td>the home page should be a quick, friendly overview that links deeper, rather than a full CV up front.</td></tr><tr><td>04 Terminal</td><td>A home directory on the web</td><td>JetBrains Mono throughout</td><td>Dark by design, no light theme.</td><td>the site should show developer personality first and the playful tone is welcome.</td></tr><tr><td>05 Swiss Grid</td><td>International Typographic Style, from Bern</td><td>Inter Tight (display, 600–800) + Inter (text)</td><td>No, light only</td><td>the site should look confident and designed, with a clear point of view and a Swiss reference.</td></tr><tr><td>06 Timeline</td><td>Two careers, one line</td><td>Sora (display) + Source Sans 3 (text)</td><td>Yes, follows the system</td><td>the long-term Mozilla commitment should stand next to the professional career, not hidden on a separate page.</td></tr><tr><td>07 Neo-Brutalist</td><td>Thick lines, hard shadows, loud and friendly</td><td>Space Grotesk (display and text) + Space Mono (labels, dates)</td><td>No, light only</td><td>the site should feel playful and personal, and stand out from typical developer CV sites.</td></tr><tr><td>08 Plain Text</td><td>A personal homepage, the old-fashioned way</td><td>System UI stack, with ui-monospace for dates</td><td>Yes, follows the system</td><td>the content should carry the site and maintenance should stay close to zero.</td></tr><tr><td>09 Duotone Poster</td><td>Gig-poster energy in two shades of navy</td><td>Anton (display) + Archivo (text)</td><td>No, but half the panels are navy</td><td>the site should feel bold and graphic, and the photos should become part of the design.</td></tr><tr><td>10 Field Notes</td><td>A notebook kept since 2008</td><td>Atkinson Hyperlegible (text) + Caveat (handwritten notes)</td><td>No, light only</td><td>the site should feel personal and approachable, with the volunteer and community story at the front.</td></tr><tr><td>11 Aurora Glass</td><td>Frosted panels over soft navy light, with ⌘K</td><td>Manrope (display and text)</td><td>Yes, follows the system</td><td>the site should look current and techy, and finding things quickly matters.</td></tr><tr><td>12 Split Screen</td><td>A fixed stage on the left, the story on the right</td><td>Instrument Serif (display) + Instrument Sans (text)</td><td>Yes, follows the system</td><td>the photos and slides should carry more of the story, and each page should feel like a single focused spread.</td></tr><tr><td>13 Editorial, photo header</td><td>Editorial on desktop, Split Screen’s photo header on mobile</td><td>Newsreader (display and text, optical sizes) + Inter for small UI labels</td><td>No, light only</td><td>writing and the CV narrative matter most and the site should feel calm and timeless.</td></tr><tr><td>14 Poster Remix</td><td>The match-off winners, put together</td><td>Anton (display) + Archivo (interface) + Newsreader (reading)</td><td>No, but the posters are navy</td><td>The direct answer to the match-off: each component is the one you picked.</td></tr><tr><td>15 Serif Poster</td><td>The match-off structure, set like a magazine</td><td>Newsreader (display and text) + Inter (interface)</td><td>No, it is a light, print-like design</td><td>For the match-off layout with Editorial’s calmer, more literary tone.</td></tr><tr><td>16 Swiss Aurora</td><td>The match-off structure in a contemporary sans</td><td>Manrope (display and text)</td><td>No, but the posters are deep navy gradients</td><td>For the match-off layout with a modern, product-like finish instead of print.</td></tr><tr><td>17 Editorial, poster header</td><td>Editorial with the Duotone Poster’s header</td><td>Newsreader (display and text) + Inter (labels)</td><td>No, but the header is navy</td><td>writing and the CV narrative matter most and the site should feel calm and timeless.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="proposal" id="current">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Baseline</p>
+        <h2>Today</h2>
+        <p class="proposal__tagline">The current mkohler.dev, for reference.</p>
+        <a class="open" href="https://mkohler.dev/">Open mkohler.dev <span aria-hidden="true">↗</span></a>
+      </div>
+      <p class="muted">Header: a 360px photo next to two navy bars with the name and title. Content is full width with no maximum measure. The menu lives in the footer. Headings are uppercase NebulaSans Light. On mobile the photo goes full width, and the name and title get cut off.</p>
+    </div>
+    <div class="gallery">
+      <figure><a class="shot" href="https://mkohler.dev/"><img src="current/cv.webp" alt="Current site: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="https://mkohler.dev/"><img src="current/cv-mobile.webp" alt="Current site: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+
+  
+  <section class="proposal" id="01-editorial">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 01</p>
+        <h2>Editorial</h2>
+        <p class="proposal__tagline">A personal broadsheet</p>
+        <p>Treats the site like a well-set magazine: a centred masthead, a serif typeface with real personality, generous margins and a strict reading measure. The CV reads like a profile piece, the blog like a column.</p>
+        <a class="open" href="01-editorial/index.html">Open Editorial <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="01-editorial/index.html">CV (home)</a></li><li><a href="01-editorial/opensource.html">Open Source</a></li><li><a href="01-editorial/contributions.html">Contributions</a></li><li><a href="01-editorial/blog.html">Blog index</a></li><li><a href="01-editorial/post.html">Blog post</a></li><li><a href="01-editorial/talks.html">Talks</a></li><li><a href="01-editorial/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>Masthead with a small round portrait, the name in a large serif and the navigation set in small caps below a hairline rule.</li><li>A margin column for dates and metadata runs through every page, so the CV, the archive and the contribution log share a rhythm.</li><li>Blog posts get a dek, byline and reading time, a 66-character measure and a drop cap. The archive is grouped by year like a printed index.</li><li>Colour is used sparingly: navy for type and rules, the light blue tint for pull-outs. The navy band survives only in the footer.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Newsreader (display and text, optical sizes) + Inter for small UI labels</dd>
+          <dt>Dark mode</dt><dd>No, light only</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if writing and the CV narrative matter most and the site should feel calm and timeless.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="01-editorial/index.html"><img src="01-editorial/screenshots/cv.webp" alt="Editorial: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="01-editorial/index.html"><img src="01-editorial/screenshots/cv-mobile.webp" alt="Editorial: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="02-profile-rail">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 02</p>
+        <h2>Profile Rail</h2>
+        <p class="proposal__tagline">The current header, turned on its side</p>
+        <p>The navy header blocks of today’s site become a fixed rail on the left, holding the portrait, the name, the navigation and the social links on every page. The content sits on a calm tinted canvas in white cards, so it reads more like an app than a document.</p>
+        <a class="open" href="02-profile-rail/index.html">Open Profile Rail <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="02-profile-rail/index.html">CV (home)</a></li><li><a href="02-profile-rail/opensource.html">Open Source</a></li><li><a href="02-profile-rail/contributions.html">Contributions</a></li><li><a href="02-profile-rail/blog.html">Blog index</a></li><li><a href="02-profile-rail/post.html">Blog post</a></li><li><a href="02-profile-rail/talks.html">Talks</a></li><li><a href="02-profile-rail/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>The identity never scrolls away, and the navigation is always one click away instead of hidden behind “Menu ↓” in the footer.</li><li>The CV is split into scannable cards: about, personal info, skills as chips and experience as a timeline with monogram markers.</li><li>Contributions get filter chips per source (they work: click one to filter the table) and blog posts get a sticky table of contents.</li><li>A dark theme follows the system setting: the rail stays navy and the canvas turns to a deeper navy.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Plus Jakarta Sans throughout, with tabular numbers for dates</dd>
+          <dt>Dark mode</dt><dd>Yes, follows the system setting</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the site should feel like a polished, modern product profile and navigation matters.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="02-profile-rail/index.html"><img src="02-profile-rail/screenshots/cv.webp" alt="Profile Rail: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="02-profile-rail/index.html"><img src="02-profile-rail/screenshots/cv-mobile.webp" alt="Profile Rail: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="03-bento">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 03</p>
+        <h2>Bento</h2>
+        <p class="proposal__tagline">Everything at a glance</p>
+        <p>The home page becomes a modular grid of rounded tiles, each one fact: the portrait, the current role, the location, eighteen years at Mozilla, contribution volume per year, the latest post and the latest talk. Inner pages reuse the same tiles, so the whole site feels like one dashboard of a life in software.</p>
+        <a class="open" href="03-bento/index.html">Open Bento <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="03-bento/index.html">CV (home)</a></li><li><a href="03-bento/opensource.html">Open Source</a></li><li><a href="03-bento/contributions.html">Contributions</a></li><li><a href="03-bento/blog.html">Blog index</a></li><li><a href="03-bento/post.html">Blog post</a></li><li><a href="03-bento/talks.html">Talks</a></li><li><a href="03-bento/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>The portrait gets the biggest tile, and the navy name tile next to it reuses the two-tone navy header of today’s site.</li><li>Real numbers from the contribution data (13k+ items, a per-year bar chart, a breakdown by source) make the volunteer work tangible.</li><li>A floating pill navigation with a mini avatar stays at the top on every page.</li><li>Tiles collapse to one column on mobile, so order is decided once and keeps working at every size. Dark mode is included.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Bricolage Grotesque for display, Inter for text</dd>
+          <dt>Dark mode</dt><dd>Yes, follows the system setting</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the home page should be a quick, friendly overview that links deeper, rather than a full CV up front.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="03-bento/index.html"><img src="03-bento/screenshots/cv.webp" alt="Bento: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="03-bento/index.html"><img src="03-bento/screenshots/cv-mobile.webp" alt="Bento: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="04-terminal">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 04</p>
+        <h2>Terminal</h2>
+        <p class="proposal__tagline">A home directory on the web</p>
+        <p>An unapologetically developer-flavoured take. The navy turns into a terminal background, everything is set in a monospace font, and every page opens with the command that would produce it: neofetch for the CV, git log for experience and contributions, ls for the blog and talks.</p>
+        <a class="open" href="04-terminal/index.html">Open Terminal <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="04-terminal/index.html">CV (home)</a></li><li><a href="04-terminal/opensource.html">Open Source</a></li><li><a href="04-terminal/contributions.html">Contributions</a></li><li><a href="04-terminal/blog.html">Blog index</a></li><li><a href="04-terminal/post.html">Blog post</a></li><li><a href="04-terminal/talks.html">Talks</a></li><li><a href="04-terminal/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>A tmux-style tab bar replaces the header, and a status line at the bottom shows the current path and location.</li><li>The CV opens with a neofetch block: the avatar on the left, key facts as “Uptime”, “Shell” and “Locale” on the right, and the navy palette as colour swatches.</li><li>Experience is drawn as a git graph, with Mozilla volunteering as a long-running parallel branch next to the jobs.</li><li>Contribution volume is shown as a plain-text bar chart (█), and blog posts are listed like ls -l output with reading time as the “size”.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>JetBrains Mono throughout</dd>
+          <dt>Dark mode</dt><dd>Dark by design, no light theme.</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the site should show developer personality first and the playful tone is welcome.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="04-terminal/index.html"><img src="04-terminal/screenshots/cv.webp" alt="Terminal: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="04-terminal/index.html"><img src="04-terminal/screenshots/cv-mobile.webp" alt="Terminal: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="05-swiss-grid">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 05</p>
+        <h2>Swiss Grid</h2>
+        <p class="proposal__tagline">International Typographic Style, from Bern</p>
+        <p>A nod to the Bern origin: a strict, visible 12-column grid, a tight grotesk in large sizes, hairline rules, numbered sections and big numerals. Navy is the only colour and appears as solid blocks, much like the header panels of today’s site, only louder.</p>
+        <a class="open" href="05-swiss-grid/index.html">Open Swiss Grid <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="05-swiss-grid/index.html">CV (home)</a></li><li><a href="05-swiss-grid/opensource.html">Open Source</a></li><li><a href="05-swiss-grid/contributions.html">Contributions</a></li><li><a href="05-swiss-grid/blog.html">Blog index</a></li><li><a href="05-swiss-grid/post.html">Blog post</a></li><li><a href="05-swiss-grid/talks.html">Talks</a></li><li><a href="05-swiss-grid/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>The name is set huge across the grid, with the portrait in a square grid cell. The tagline sits on a full-width navy band.</li><li>Every section is numbered (01 Experience, 02 Skills …). Years work as big numerals in the margin, which makes the timeline scannable.</li><li>Asymmetric layouts: metadata always sits in the left columns and content starts at column 4, on every page type.</li><li>No rounded corners, no shadows and no gradients. Hierarchy comes from size, weight and space alone, which makes for a very sharp print CV.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Inter Tight (display, 600–800) + Inter (text)</dd>
+          <dt>Dark mode</dt><dd>No, light only</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the site should look confident and designed, with a clear point of view and a Swiss reference.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="05-swiss-grid/index.html"><img src="05-swiss-grid/screenshots/cv.webp" alt="Swiss Grid: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="05-swiss-grid/index.html"><img src="05-swiss-grid/screenshots/cv-mobile.webp" alt="Swiss Grid: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="06-timeline">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 06</p>
+        <h2>Timeline</h2>
+        <p class="proposal__tagline">Two careers, one line</p>
+        <p>The story is told chronologically. A single vertical spine starts at the portrait and runs through every page. On the CV it splits into two lanes: paid work on one side, eighteen years of Mozilla volunteering on the other, so both careers can be read side by side, year by year.</p>
+        <a class="open" href="06-timeline/index.html">Open Timeline <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="06-timeline/index.html">CV (home)</a></li><li><a href="06-timeline/opensource.html">Open Source</a></li><li><a href="06-timeline/contributions.html">Contributions</a></li><li><a href="06-timeline/blog.html">Blog index</a></li><li><a href="06-timeline/post.html">Blog post</a></li><li><a href="06-timeline/talks.html">Talks</a></li><li><a href="06-timeline/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>The hero is a navy gradient with a large round portrait. The spine grows out of it and connects every section below.</li><li>Two-lane CV: jobs on the left, community milestones on the right (Rep in 2012, Council in 2015, Common Voice in 2018, FOSDEM in 2022), plus the number of talks given each year.</li><li>Open Source gets a small Gantt-style chart of the four areas over time. Blog posts and talks hang off the spine, grouped by year.</li><li>Blog posts get a reading-progress bar and a table of contents drawn as a mini timeline. A dark theme is included.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Sora (display) + Source Sans 3 (text)</dd>
+          <dt>Dark mode</dt><dd>Yes, follows the system setting</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the long-term Mozilla commitment should stand next to the professional career, not hidden on a separate page.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="06-timeline/index.html"><img src="06-timeline/screenshots/cv.webp" alt="Timeline: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="06-timeline/index.html"><img src="06-timeline/screenshots/cv-mobile.webp" alt="Timeline: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="07-brutalist">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 07</p>
+        <h2>Neo-Brutalist</h2>
+        <p class="proposal__tagline">Thick lines, hard shadows, loud and friendly</p>
+        <p>Everything sits in a box with a thick navy outline and a hard offset shadow, like stickers on a laptop lid. Type is a quirky grotesk at big sizes, the portrait is a tilted sticker, and skills, tags and sources become chunky labels. It keeps the two navy tones but uses them as flat fills instead of gradients.</p>
+        <a class="open" href="07-brutalist/index.html">Open Neo-Brutalist <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="07-brutalist/index.html">CV (home)</a></li><li><a href="07-brutalist/opensource.html">Open Source</a></li><li><a href="07-brutalist/contributions.html">Contributions</a></li><li><a href="07-brutalist/blog.html">Blog index</a></li><li><a href="07-brutalist/post.html">Blog post</a></li><li><a href="07-brutalist/talks.html">Talks</a></li><li><a href="07-brutalist/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>One visual rule, used everywhere: 3px navy border plus a 6px hard shadow. Hovering a link presses it down into its shadow.</li><li>The CV opens with a “sticker sheet”: the portrait, a name plate, and the tagline as a speech-bubble card.</li><li>Experience is a stack of index-card boxes, each with the year range as a tab sticking out at the top.</li><li>Talks and posts are equal cards in a grid with a coloured tag strip, so the 40 talks and 40 posts feel like a collection.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Space Grotesk (display and text) + Space Mono (labels, dates)</dd>
+          <dt>Dark mode</dt><dd>No, light only</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the site should feel playful and personal, and stand out from typical developer CV sites.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="07-brutalist/index.html"><img src="07-brutalist/screenshots/cv.webp" alt="Neo-Brutalist: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="07-brutalist/index.html"><img src="07-brutalist/screenshots/cv-mobile.webp" alt="Neo-Brutalist: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="08-plain-text">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 08</p>
+        <h2>Plain Text</h2>
+        <p class="proposal__tagline">A personal homepage, the old-fashioned way</p>
+        <p>The quietest possible version: one narrow column, system fonts, underlined links and no decoration except one navy rule and a small round portrait. Every page is a document you read from top to bottom. It loads instantly, prints perfectly and will still look right in ten years.</p>
+        <a class="open" href="08-plain-text/index.html">Open Plain Text <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="08-plain-text/index.html">CV (home)</a></li><li><a href="08-plain-text/opensource.html">Open Source</a></li><li><a href="08-plain-text/contributions.html">Contributions</a></li><li><a href="08-plain-text/blog.html">Blog index</a></li><li><a href="08-plain-text/post.html">Blog post</a></li><li><a href="08-plain-text/talks.html">Talks</a></li><li><a href="08-plain-text/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>No web fonts, no images in lists, no JavaScript. The pages are a few kilobytes of HTML and CSS, apart from the portrait.</li><li>Navigation is one line of text under the name, the way personal homepages used to work, and the footer repeats it.</li><li>Lists do all the work: experience, blog posts, talks and contributions are dated lists with tabular figures in the margin.</li><li>Dark mode follows the system and is just a second set of five colour tokens.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>System UI stack, with ui-monospace for dates</dd>
+          <dt>Dark mode</dt><dd>Yes, follows the system setting</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the content should carry the site and maintenance should stay close to zero.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="08-plain-text/index.html"><img src="08-plain-text/screenshots/cv.webp" alt="Plain Text: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="08-plain-text/index.html"><img src="08-plain-text/screenshots/cv-mobile.webp" alt="Plain Text: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="09-poster">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 09</p>
+        <h2>Duotone Poster</h2>
+        <p class="proposal__tagline">Gig-poster energy in two shades of navy</p>
+        <p>Every page opens like a poster: a full-bleed navy panel, a condensed display face at enormous sizes and photos turned into navy and pale-blue duotones, so even the conference snapshots and slide thumbnails belong to one palette. Below the poster, content alternates between navy and light panels.</p>
+        <a class="open" href="09-poster/index.html">Open Duotone Poster <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="09-poster/index.html">CV (home)</a></li><li><a href="09-poster/opensource.html">Open Source</a></li><li><a href="09-poster/contributions.html">Contributions</a></li><li><a href="09-poster/blog.html">Blog index</a></li><li><a href="09-poster/post.html">Blog post</a></li><li><a href="09-poster/talks.html">Talks</a></li><li><a href="09-poster/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>One CSS-only duotone treatment (grayscale plus two blend layers) recolours the portrait, the area photos and all 40 talk thumbnails. Hovering a talk shows its original colours.</li><li>The name is set across the full width, overlapping the portrait, on the CV. On every other page, a single big word (“Writing”, “On stage”, “404”) plays that role.</li><li>Experience reads like a festival line-up: the employers are huge, stacked names, with dates and roles in small text beside them.</li><li>Panels alternate navy and light, which gives the long CV and Open Source pages a rhythm without needing cards or boxes.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Anton (display) + Archivo (text)</dd>
+          <dt>Dark mode</dt><dd>No, but half the panels are navy</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the site should feel bold and graphic, and the photos should become part of the design.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="09-poster/index.html"><img src="09-poster/screenshots/cv.webp" alt="Duotone Poster: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="09-poster/index.html"><img src="09-poster/screenshots/cv-mobile.webp" alt="Duotone Poster: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="10-field-notes">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 10</p>
+        <h2>Field Notes</h2>
+        <p class="proposal__tagline">A notebook kept since 2008</p>
+        <p>The site as a personal notebook: grid paper, a ruled margin, notebook tabs for navigation and handwritten notes in navy ink beside the printed content. The portrait and the area photos are taped-in polaroids, talks are pinned snapshots and posts are index cards. Warm and human, but the body text stays a highly legible sans.</p>
+        <a class="open" href="10-field-notes/index.html">Open Field Notes <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="10-field-notes/index.html">CV (home)</a></li><li><a href="10-field-notes/opensource.html">Open Source</a></li><li><a href="10-field-notes/contributions.html">Contributions</a></li><li><a href="10-field-notes/blog.html">Blog index</a></li><li><a href="10-field-notes/post.html">Blog post</a></li><li><a href="10-field-notes/talks.html">Talks</a></li><li><a href="10-field-notes/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>The navigation is a row of notebook divider tabs. The active tab joins the page below it.</li><li>Handwriting is only used for annotations: margin dates, photo captions, a doodled arrow to the name. Everything you need to read is set in Atkinson Hyperlegible.</li><li>A highlighter stroke marks the one key phrase per page, the way you would mark up your own notes.</li><li>Blog posts are index cards, talks are polaroids pinned at slight angles, and the contributions log is a ruled ledger.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Atkinson Hyperlegible (text) + Caveat (handwritten notes)</dd>
+          <dt>Dark mode</dt><dd>No, light only</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the site should feel personal and approachable, with the volunteer and community story at the front.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="10-field-notes/index.html"><img src="10-field-notes/screenshots/cv.webp" alt="Field Notes: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="10-field-notes/index.html"><img src="10-field-notes/screenshots/cv-mobile.webp" alt="Field Notes: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="11-aurora-glass">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 11</p>
+        <h2>Aurora Glass</h2>
+        <p class="proposal__tagline">Frosted panels over soft navy light, with ⌘K</p>
+        <p>A contemporary product-site look: soft blurred blobs of the navy and accent blue drift behind frosted glass panels, with a glowing ring around the portrait. Open Source becomes a small dashboard with a year-by-month heatmap of all contributions, and a working command palette (⌘K or the search button) jumps to any page, post or talk.</p>
+        <a class="open" href="11-aurora-glass/index.html">Open Aurora Glass <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="11-aurora-glass/index.html">CV (home)</a></li><li><a href="11-aurora-glass/opensource.html">Open Source</a></li><li><a href="11-aurora-glass/contributions.html">Contributions</a></li><li><a href="11-aurora-glass/blog.html">Blog index</a></li><li><a href="11-aurora-glass/post.html">Blog post</a></li><li><a href="11-aurora-glass/talks.html">Talks</a></li><li><a href="11-aurora-glass/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>The aurora background is just two or three large blurred radial gradients, so it costs nothing to render and works in light and dark.</li><li>A heatmap of all 13k contributions by month shows the Mozilla years at a glance: the 2009 start, the 2015 to 2019 peak and the quieter years after.</li><li>The command palette indexes every page, all 40 posts and all 40 talks, and it works with the keyboard only (⌘K / Ctrl+K, arrows, Enter, Esc).</li><li>Dark mode is the showcase, with glowing aurora on deep navy. Light mode keeps the same glass over pale blue.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Manrope (display and text)</dd>
+          <dt>Dark mode</dt><dd>Yes, follows the system setting</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the site should look current and techy, and finding things quickly matters.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="11-aurora-glass/index.html"><img src="11-aurora-glass/screenshots/cv.webp" alt="Aurora Glass: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="11-aurora-glass/index.html"><img src="11-aurora-glass/screenshots/cv-mobile.webp" alt="Aurora Glass: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="12-split-screen">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 12</p>
+        <h2>Split Screen</h2>
+        <p class="proposal__tagline">A fixed stage on the left, the story on the right</p>
+        <p>Every page is split in two. The left half is a fixed navy stage holding the one thing that page is about: the portrait on the CV, the photo of the area you are reading about on Open Source, the slide of the talk you are pointing at, the title of the post. The right half scrolls with the content, set in a sharp serif and sans pairing.</p>
+        <a class="open" href="12-split-screen/index.html">Open Split Screen <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="12-split-screen/index.html">CV (home)</a></li><li><a href="12-split-screen/opensource.html">Open Source</a></li><li><a href="12-split-screen/contributions.html">Contributions</a></li><li><a href="12-split-screen/blog.html">Blog index</a></li><li><a href="12-split-screen/post.html">Blog post</a></li><li><a href="12-split-screen/talks.html">Talks</a></li><li><a href="12-split-screen/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>The stage responds to the content: on Open Source it swaps photos as you scroll through the areas, and on Talks it previews the slide of whichever talk you hover or focus.</li><li>The portrait finally gets real space: half the screen on the CV, with the name set over it in a large serif.</li><li>The talks page becomes a plain, scannable list of titles, because the images live on the stage instead of in 40 cards.</li><li>On mobile the stage becomes a header block above the content, and the hover previews are simply skipped. Dark mode is included.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Instrument Serif (display) + Instrument Sans (text)</dd>
+          <dt>Dark mode</dt><dd>Yes, follows the system setting</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if the photos and slides should carry more of the story, and each page should feel like a single focused spread.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="12-split-screen/index.html"><img src="12-split-screen/screenshots/cv.webp" alt="Split Screen: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="12-split-screen/index.html"><img src="12-split-screen/screenshots/cv-mobile.webp" alt="Split Screen: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="13-editorial-hero">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 13</p>
+        <h2>Editorial, photo header</h2>
+        <p class="proposal__tagline">Editorial on desktop, Split Screen’s photo header on mobile</p>
+        <p>Proposal 01 unchanged on desktop and tablet. On phones the centred masthead gives way to the full-bleed header from Split Screen (12): the portrait fills the top of the screen, the navigation sits over it in white, and the name is set large in Newsreader at the bottom of the photo. Inner pages get a shorter photo band with the same treatment.</p>
+        <a class="open" href="13-editorial-hero/index.html">Open Editorial, photo header <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="13-editorial-hero/index.html">CV (home)</a></li><li><a href="13-editorial-hero/opensource.html">Open Source</a></li><li><a href="13-editorial-hero/contributions.html">Contributions</a></li><li><a href="13-editorial-hero/blog.html">Blog index</a></li><li><a href="13-editorial-hero/post.html">Blog post</a></li><li><a href="13-editorial-hero/talks.html">Talks</a></li><li><a href="13-editorial-hero/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>Desktop is exactly Editorial: this proposal imports its template and stylesheet and only adds a mobile header.</li><li>On the CV the portrait takes about three quarters of the first screen, with a navy gradient so the white name, role and social icons stay readable.</li><li>Every other page keeps the photo as a shorter band, so the person is present on every page without pushing the content too far down.</li><li>The mobile navigation is always visible at the top of the photo, which fixes the cramped small-caps row of the original on phones.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Newsreader (display and text, optical sizes) + Inter for small UI labels</dd>
+          <dt>Dark mode</dt><dd>No, light only</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if writing and the CV narrative matter most and the site should feel calm and timeless.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="13-editorial-hero/index.html"><img src="13-editorial-hero/screenshots/cv.webp" alt="Editorial, photo header: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="13-editorial-hero/index.html"><img src="13-editorial-hero/screenshots/cv-mobile.webp" alt="Editorial, photo header: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="14-poster-remix">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 14</p>
+        <h2>Poster Remix</h2>
+        <p class="proposal__tagline">The match-off winners, put together</p>
+        <p>Built from the match-off results: every component is the one that won its round, redrawn so they share one system. The CV, talks and Open Source areas use the Duotone Poster (09). The top bar and footer come from Timeline (06), the experience list from Swiss Grid (05), the filtered contributions log from Profile Rail (02), the blog index from Split Screen (12), the Open Source dashboard intro from Aurora Glass (11), and reading and the mobile pages from Editorial (01 and 13).</p>
+        <a class="open" href="14-poster-remix/index.html">Open Poster Remix <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="14-poster-remix/index.html">CV (home)</a></li><li><a href="14-poster-remix/opensource.html">Open Source</a></li><li><a href="14-poster-remix/contributions.html">Contributions</a></li><li><a href="14-poster-remix/blog.html">Blog index</a></li><li><a href="14-poster-remix/post.html">Blog post</a></li><li><a href="14-poster-remix/talks.html">Talks</a></li><li><a href="14-poster-remix/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>Desktop CV, talks, skills and the Open Source areas are 09’s navy posters and duotone photos. 09 won 5 of the 14 rounds and had the most wins overall.</li><li>Navy top bar with the round avatar and pill navigation (06, winner) on every page, and 06’s centred footer with the round social buttons.</li><li>Experience in 05’s grid, with big year numerals in the margin. Open Source opens with 11’s dashboard (key numbers, monthly heatmap, sources). Contributions use 02’s working filter chips and source badges.</li><li>The blog is 12’s split page: a sticky navy stage with the year index, and the list on the right. Posts are set like 01: Newsreader, a 66-character measure and a drop cap.</li><li>On phones, the CV opens with 13’s full-bleed photo header and every other page uses 01’s centred masthead. These were the two mobile winners.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Anton (display) + Archivo (interface) + Newsreader (reading)</dd>
+          <dt>Dark mode</dt><dd>No, but the posters are navy</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>The direct answer to the match-off: each component is the one you picked.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="14-poster-remix/index.html"><img src="14-poster-remix/screenshots/cv.webp" alt="Poster Remix: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="14-poster-remix/index.html"><img src="14-poster-remix/screenshots/cv-mobile.webp" alt="Poster Remix: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="15-serif-poster">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 15</p>
+        <h2>Serif Poster</h2>
+        <p class="proposal__tagline">The match-off structure, set like a magazine</p>
+        <p>The same winning structure as Poster Remix (14), but typeset entirely in Newsreader, the face that won reading on desktop and on phones. The posters keep their scale but turn into large serif titles with the surname in italic, as in the 13 mobile header that won. Photos stay in full colour under a navy gradient, and the page alternates between paper and a soft blue tint instead of solid navy, so it reads calmer and more literary.</p>
+        <a class="open" href="15-serif-poster/index.html">Open Serif Poster <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="15-serif-poster/index.html">CV (home)</a></li><li><a href="15-serif-poster/opensource.html">Open Source</a></li><li><a href="15-serif-poster/contributions.html">Contributions</a></li><li><a href="15-serif-poster/blog.html">Blog index</a></li><li><a href="15-serif-poster/post.html">Blog post</a></li><li><a href="15-serif-poster/talks.html">Talks</a></li><li><a href="15-serif-poster/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>One typeface family across the whole site: Newsreader for every heading, Inter only for labels, numbers and the navigation.</li><li>The CV hero is 09’s layout (name across the full width, overlapping the portrait), with “Michael” set upright and “Kohler” in italic, like 13’s mobile header.</li><li>Photos keep their colour. A navy gradient, not a duotone, keeps text readable, and the talk thumbnails stay as they are.</li><li>Navy is kept for the hero, the blog stage, the top bar and the footer. Skills and the Open Source areas sit on a pale tint, so long pages feel lighter than in 14.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Newsreader (display and text) + Inter (interface)</dd>
+          <dt>Dark mode</dt><dd>No, it is a light, print-like design</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>For the match-off layout with Editorial’s calmer, more literary tone.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="15-serif-poster/index.html"><img src="15-serif-poster/screenshots/cv.webp" alt="Serif Poster: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="15-serif-poster/index.html"><img src="15-serif-poster/screenshots/cv-mobile.webp" alt="Serif Poster: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="16-swiss-aurora">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 16</p>
+        <h2>Swiss Aurora</h2>
+        <p class="proposal__tagline">The match-off structure in a contemporary sans</p>
+        <p>The same winning structure as Poster Remix (14), but drawn with the runner-ups’ style: Aurora Glass (11) came second for the first impression and won the Open Source intro, and Swiss Grid (05) came second for the blog index and mobile reading. One geometric sans (Manrope) for everything, a strict grid with hairlines, and soft navy and blue aurora gradients instead of flat navy panels. The duotone photos stay, with rounded corners.</p>
+        <a class="open" href="16-swiss-aurora/index.html">Open Swiss Aurora <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="16-swiss-aurora/index.html">CV (home)</a></li><li><a href="16-swiss-aurora/opensource.html">Open Source</a></li><li><a href="16-swiss-aurora/contributions.html">Contributions</a></li><li><a href="16-swiss-aurora/blog.html">Blog index</a></li><li><a href="16-swiss-aurora/post.html">Blog post</a></li><li><a href="16-swiss-aurora/talks.html">Talks</a></li><li><a href="16-swiss-aurora/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>The navy panels from 09 become slow aurora gradients (navy into the accent blue), so the posters keep their weight but feel less like print.</li><li>Everything is set in Manrope: an extra-bold, tightly spaced display for names and section titles, and regular weight for the body, including blog posts. This is the sans alternative to 14 and 15, which use a serif for reading.</li><li>Cards, KPI tiles, the contributions card and the top bar are frosted glass with a hairline border, taken from 11, on a lightly tinted page.</li><li>The structure stays the same as 14: 05’s numbered sections and year numerals, 02’s filter chips, 12’s split blog page, 06’s footer, and the 13 / 01 mobile headers.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Manrope (display and text)</dd>
+          <dt>Dark mode</dt><dd>No, but the posters are deep navy gradients</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>For the match-off layout with a modern, product-like finish instead of print.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="16-swiss-aurora/index.html"><img src="16-swiss-aurora/screenshots/cv.webp" alt="Swiss Aurora: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="16-swiss-aurora/index.html"><img src="16-swiss-aurora/screenshots/cv-mobile.webp" alt="Swiss Aurora: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+  <section class="proposal" id="17-editorial-poster">
+    <div class="proposal__head">
+      <div>
+        <p class="proposal__num">Proposal 17</p>
+        <h2>Editorial, poster header</h2>
+        <p class="proposal__tagline">Editorial with the Duotone Poster’s header</p>
+        <p>Proposal 01 below the fold, with the header of the Duotone Poster (09) on top. The CV opens with a full-height navy poster: the duotone portrait on the right and the name set across it at poster size. Every other page gets a shorter navy band with one big word. The poster is set in Editorial’s Newsreader, with the surname in italic, and uses Editorial’s spaced small-caps navigation, so the header and the page below read as one design.</p>
+        <a class="open" href="17-editorial-poster/index.html">Open Editorial, poster header <span aria-hidden="true">→</span></a>
+        <p class="pages__label">All pages</p>
+        <ul class="pages"><li><a href="17-editorial-poster/index.html">CV (home)</a></li><li><a href="17-editorial-poster/opensource.html">Open Source</a></li><li><a href="17-editorial-poster/contributions.html">Contributions</a></li><li><a href="17-editorial-poster/blog.html">Blog index</a></li><li><a href="17-editorial-poster/post.html">Blog post</a></li><li><a href="17-editorial-poster/talks.html">Talks</a></li><li><a href="17-editorial-poster/404.html">404 / offline</a></li></ul>
+      </div>
+      <div>
+        <ul class="ideas"><li>Everything below the header is 01 unchanged: the ledes, the experience list, the archive and the reading layout. This proposal imports its template and stylesheet and only replaces the masthead.</li><li>The header keeps 09’s structure: the name across the full width, overlapping the duotone portrait, and the role and social links below it. The type is Newsreader instead of Anton, so the poster uses the same voice as the page under it.</li><li>Inner pages get a navy band with one word (“Open Source”, “Writing”, “On stage”, “404”), set like 09’s page posters but shorter, so 01’s lede with its sentence-long headline follows quickly.</li><li>Open Source and the contributions log get the charts from Bento (03) and Aurora Glass (11): contributions per year as bars, per month as a heatmap and per source as horizontal bars, drawn in Editorial’s navy and type.</li><li>On phones the poster follows 09’s mobile layout: a square duotone portrait first, then the name pulled up over its bottom edge. The navigation sits at the top in white small caps.</li></ul>
+        <dl class="facts">
+          <dt>Typography</dt><dd>Newsreader (display and text) + Inter (labels)</dd>
+          <dt>Dark mode</dt><dd>No, but the header is navy</dd>
+          <dt>Print</dt><dd>The CV has its own print stylesheet</dd>
+          <dt>Fit</dt><dd>Best if writing and the CV narrative matter most and the site should feel calm and timeless.</dd>
+        </dl>
+      </div>
+    </div>
+
+    <div class="gallery">
+      <figure><a class="shot" href="17-editorial-poster/index.html"><img src="17-editorial-poster/screenshots/cv.webp" alt="Editorial, poster header: home page on desktop" loading="lazy"></a><figcaption>Desktop</figcaption></figure>
+      <figure class="gallery__mobile"><a class="shot" href="17-editorial-poster/index.html"><img src="17-editorial-poster/screenshots/cv-mobile.webp" alt="Editorial, poster header: home page on mobile" loading="lazy"></a><figcaption>Mobile</figcaption></figure>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p>Rebuild after changing a template or the data: <code>node exploration/_tools/build.mjs</code>, then refresh the screenshots with <code>node exploration/_tools/screenshots.mjs</code> (set <code>CHROMIUM=…</code> if Playwright’s bundled browser isn’t installed). Each proposal is a <code>template.mjs</code> plus a handwritten <code>style.css</code>; shared content lives in <code>_tools/content.mjs</code>.</p>
+</footer>
+
+</body>
+</html>
