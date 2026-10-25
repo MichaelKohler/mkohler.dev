@@ -37,7 +37,7 @@ fs.writeFileSync(path.join(exploration, 'index.html'), noindex(renderIndex(metas
 console.log('index.html');
 
 // Copy every public/ file the generated pages reference into exploration/assets.
-const publicDir = path.join(exploration, '..', 'public');
+const publicDir = path.join(exploration, '..');
 const generated = [
   path.join(exploration, 'index.html'),
   path.join(exploration, 'shared/icons.css'),

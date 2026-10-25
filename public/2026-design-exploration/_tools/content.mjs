@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import markdownIt from 'markdown-it';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
-const root = path.resolve(here, '../..');
+const root = path.resolve(here, '../../..');
 const md = markdownIt({ html: true });
 
 // Assets are copied from public/ into exploration/assets by build.mjs, so the folder is self-contained.

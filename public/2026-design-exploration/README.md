@@ -15,7 +15,7 @@ Open `index.html` in a browser for the overview: the idea behind each proposal, 
 
 - `NN-name/`: one proposal. `template.mjs` renders the pages, `style.css` is handwritten, `screenshots/` holds the overview images. The generated `.html` files are checked in.
 - `_tools/`: the build (`build.mjs`), shared content (`content.mjs`), charts, the overview page and the screenshot script.
-- `assets/`: photos, the icon font and the favicon copied from `public/`, so the pages work offline.
+- `assets/`: photos, the icon font and the favicon copied from the site’s `public/` folder, so the pages work offline.
 - `current/`: screenshots of the live site, for reference.
 
 ## Rebuilding
@@ -23,8 +23,8 @@ Open `index.html` in a browser for the overview: the idea behind each proposal, 
 From the repo root:
 
 ```sh
-node exploration/_tools/build.mjs [NN-name]        # regenerate pages, index.html and assets
-node exploration/_tools/screenshots.mjs [NN-name]  # refresh the screenshots (uses Playwright)
+node public/2026-design-exploration/_tools/build.mjs [NN-name]        # regenerate pages, index.html and assets
+node public/2026-design-exploration/_tools/screenshots.mjs [NN-name]  # refresh the screenshots (uses Playwright)
 ```
 
 Set `CHROMIUM=/path/to/chrome` if Playwright's bundled browser isn't installed.
