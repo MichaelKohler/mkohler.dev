@@ -1,6 +1,6 @@
 # Design exploration
 
-A design study for modernising mkohler.dev. It holds 17 layout proposals, each a set of static HTML pages (CV, Open Source, contributions, blog index, one blog post, talks, 404), generated from the same data the live site uses. All of them keep the existing navy palette and portrait. None of this is production code, and it is not part of the site build.
+A design study for modernising mkohler.dev. It holds 18 layout proposals, each a set of static HTML pages (CV, Open Source, contributions, blog index, one blog post, talks, 404), generated from the same data the live site uses. All of them keep the existing navy palette and portrait. None of this is production code; the site build copies it to /2026-design-exploration/ as is.
 
 Open `index.html` in a browser for the overview: the idea behind each proposal, a desktop and a mobile screenshot of its home page, and links to all its pages. Everything works straight from disk, no server needed.
 
@@ -10,6 +10,7 @@ Open `index.html` in a browser for the overview: the idea behind each proposal, 
 - **13**: Editorial with Split Screen's (12) mobile photo header.
 - **14–16**: built from a 1-vs-1 match-off of 01–13 (results in `matchoff-results.md`).
 - **17**: Editorial with the Duotone Poster (09) header and the contribution charts from Bento (03) and Aurora Glass (11).
+- **18**: 17 with the Timeline (06) header instead of the poster.
 
 ## Layout
 
