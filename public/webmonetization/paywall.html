@@ -124,7 +124,7 @@
           case "local":
             return `http://localhost:5173/paywall.js`;
           default:
-            return `https://pr${param}-publisher-tools-cdn.webmonetization.workers.dev/paywall.js`;
+            return `https://${param}-publisher-tools-cdn.webmonetization.workers.dev/paywall.js`;
         }
       }
 
@@ -170,7 +170,7 @@
             <div class="field">
               <label for="param-src">src</label>
               <p id="f-desc-src" class="muted small">
-                Source of script: can be one of 'prod', 'staging', 'local', or a Pull Request number.
+                Source of script: can be one of 'prod', 'staging', 'local', or a commit hash.
                 <strong>This parameter is required.</strong>
               </p>
 

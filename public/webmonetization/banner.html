@@ -98,7 +98,7 @@
           case "local":
             return `http://localhost:5173/${TOOL}.js`;
           default:
-            return `https://pr${param}-publisher-tools-cdn.webmonetization.workers.dev/${TOOL}.js`;
+            return `https://${param}-publisher-tools-cdn.webmonetization.workers.dev/${TOOL}.js`;
         }
       }
 
@@ -158,7 +158,7 @@
               <label for="param-src">src</label>
               <p id="f-desc-src" class="muted small">
                 Source of script: can be one of 'prod', 'staging', 'local', or a
-                Pull Request number.
+                commit hash.
                 <strong>This parameter is required.</strong>
               </p>
 
