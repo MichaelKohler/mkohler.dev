@@ -82,14 +82,7 @@
         const src = (() => {
           const val = params.get("src");
           if (!val) return null;
-          if (val === "local" || val === "prod" || val === "staging") {
-            return val;
-          }
-          const pr = Number(val);
-          if (val && typeof pr === "number" && Number.isFinite(pr)) {
-            return pr;
-          }
-          return "staging";
+          return val;
         })();
 
         const wa = (() => {
