@@ -1,9 +1,10 @@
 ---
 layout: "base.liquid"
 permalink: "/"
+nav: cv
 ---
 
-<section id="homesection">
+<section id="homesection" class="page">
   <section class="details">
     <div class="about">
       <h3 class="tagline">
@@ -27,79 +28,17 @@ permalink: "/"
           <p>
             With my volunteer work for Mozilla I&apos;m very passionate about the Open
             Web and Software Engineering in general.
-            Head over to the <a href="/opensource">dedicated Open Source page</a> to see
+            Head over to the <a href="/opensource/">dedicated Open Source page</a> to see
             many of my contributions.
           </p>
         </div>
       </section>
     </div>
-
-    <section class="sidebar">
-      <h3>Personal Info</h3>
-      <div class="sidebar-info">
-        <div class="row">
-          <div>Name:</div>
-          <div>Michael Kohler</div>
-        </div>
-        <div class="row">
-          <div>Place:</div>
-          <div>
-            Berlin, Germany
-            <br/>
-            originally from Bern, Switzerland
-          </div>
-        </div>
-        <div class="row">
-          <div>eMail:</div>
-          <a href="mailto:me@michaelkohler.info">me@michaelkohler.info</a>
-        </div>
-        <div class="row">
-          <div>Languages (fluent):</div>
-          <div>German, English</div>
-        </div>
-      </div>
-    </section>
   </section>
 
   <section class="experience-info">
-    <section class="sidebar skills">
-      <h3>Skills</h3>
-      <div class="sidebar-info">
-        <div class="row">
-          <div>Programming Languages:</div>
-          <div>TypeScript/JavaScript, HTML, CSS, Gleam, Rust, Python, Lua, Bash</div>
-        </div>
-        <div class="row">
-          <div>DevOps:</div>
-          <div>Pipelines/Actions, Docker, Kubernetes, Grafana, Prometheus, GitLab, Ansible, Metrics</div>
-        </div>
-        <div class="row">
-          <div>Databases:</div>
-          <div>PostgreSQL, DynamoDB, InfluxDB, MongoDB</div>
-        </div>
-        <div class="row">
-          <div>IoT:</div>
-          <div>WebThings, Z-Wave, Device Management, Firmware Management, MQTT</div>
-        </div>
-        <div class="row">
-          <div>Methodologies:</div>
-          <div>Scrum, TDD, Feature Flags, Code Quality, Cost Analysis, Monitoring, Observability</div>
-        </div>
-        <div class="row">
-          <div>Product:</div>
-          <div>
-            Requirement Engineering, Release Management, Backlog Refinement, Sprint Planning, Retros, Analytics
-          </div>
-        </div>
-        <div class="row">
-          <div>Management:</div>
-          <div>Mentoring, Conflict Resolution, Personal Development</div>
-        </div>
-      </div>
-    </section>
-
-    <div class="pro-experience">
-      <h3>Experience</h3>
+    <div class="pro-experience hanging-section">
+      <h3 class="hanging-title">Experience</h3>
       <div class="experience">
       <ul>
           <li>
@@ -122,7 +61,7 @@ permalink: "/"
               <a href="https://www.mozilla.org">Volunteer @ Mozilla Foundation</a>
             </p>
             <p class="position">Developer, Community Builder</p>
-            <p>Head over to the <a href="/opensource">dedicated Open Source page</a> to see many of my contributions.
+            <p>Head over to the <a href="/opensource/">dedicated Open Source page</a> to see many of my contributions.
             <ul class="responsibilities">
               <li>
                 Mozilla Rep from 2012 to 2023 - served on the Reps Council and was a Reps Leadership Peer
@@ -299,5 +238,40 @@ permalink: "/"
         </ul>
       </div>
     </div>
+    <section class="sidebar skills hanging-section">
+      <h3 class="hanging-title">Skills</h3>
+      <div class="sidebar-info">
+        <div class="row">
+          <div>Programming Languages:</div>
+          <div>TypeScript/JavaScript, HTML, CSS, Gleam, Rust, Python, Lua, Bash</div>
+        </div>
+        <div class="row">
+          <div>DevOps:</div>
+          <div>Pipelines/Actions, Docker, Kubernetes, Grafana, Prometheus, GitLab, Ansible, Metrics</div>
+        </div>
+        <div class="row">
+          <div>Databases:</div>
+          <div>PostgreSQL, DynamoDB, InfluxDB, MongoDB</div>
+        </div>
+        <div class="row">
+          <div>IoT:</div>
+          <div>WebThings, Z-Wave, Device Management, Firmware Management, MQTT</div>
+        </div>
+        <div class="row">
+          <div>Methodologies:</div>
+          <div>Scrum, TDD, Feature Flags, Code Quality, Cost Analysis, Monitoring, Observability</div>
+        </div>
+        <div class="row">
+          <div>Product:</div>
+          <div>
+            Requirement Engineering, Release Management, Backlog Refinement, Sprint Planning, Retros, Analytics
+          </div>
+        </div>
+        <div class="row">
+          <div>Management:</div>
+          <div>Mentoring, Conflict Resolution, Personal Development</div>
+        </div>
+      </div>
+    </section>
   </section>
 </section>

@@ -1,0 +1,56 @@
+{%- if contributionStats.byYear %}
+<section class="activity hanging-section">
+  <h2 class="hanging-title">Activity</h2>
+  <div class="activity-grid">
+    <div>
+      <h3 class="label">Per year</h3>
+      <figure class="year-chart" aria-label="Contributions per year">
+        <div class="bars" aria-hidden="true">
+          {%- for year in contributionStats.byYear %}
+          <span class="bar{% if year.peak %} peak{% endif %}" style="--value: {{ year.value }}" data-tip="{{ year.year }}: {{ year.label }}">{% if year.peak %}<b>{{ year.label }}</b>{% endif %}</span>
+          {%- endfor %}
+        </div>
+        <div class="axis" aria-hidden="true"><span>{{ contributionStats.firstYear }}</span><span>{{ contributionStats.lastYear }}</span></div>
+        <ul class="visually-hidden">
+          {%- for year in contributionStats.byYear %}
+          <li>{{ year.year }}: {{ year.label }}</li>
+          {%- endfor %}
+        </ul>
+      </figure>
+    </div>
+
+    <div>
+      <h3 class="label">By source</h3>
+      <ul class="sources">
+        {%- for source in contributionStats.bySource %}
+        <li><span>{{ source.label }}</span><b>{{ source.count }}</b><i style="--value: {{ source.value }}"></i></li>
+        {%- endfor %}
+      </ul>
+    </div>
+
+    <div class="wide">
+      <h3 class="label">Per month, {{ contributionStats.firstYear }}–{{ contributionStats.lastYear }}</h3>
+      <figure class="heatmap" aria-label="Contributions per month">
+        <div class="cells" aria-hidden="true">
+          <span></span>
+          {%- for initial in contributionStats.monthInitials %}<span class="month">{{ initial }}</span>{% endfor %}
+          {%- for year in contributionStats.byMonth %}
+          <span class="year">{{ year.year }}</span>
+          {%- for month in year.months %}{% if month.future %}<span></span>{% else %}<span class="cell" data-level="{{ month.level }}" data-tip="{{ month.name }} {{ year.year }}: {{ month.count }}"></span>{% endif %}{% endfor %}
+          {%- endfor %}
+        </div>
+        <figcaption class="key" aria-hidden="true">
+          Less
+          {%- for level in (0..4) %} <span class="cell" data-level="{{ level }}"></span>{% endfor %}
+          More
+        </figcaption>
+        <ul class="visually-hidden">
+          {%- for year in contributionStats.byMonth %}
+          <li>{{ year.year }}: {{ year.total }}</li>
+          {%- endfor %}
+        </ul>
+      </figure>
+    </div>
+  </div>
+</section>
+{%- endif %}

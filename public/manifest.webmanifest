@@ -7,7 +7,7 @@
       "src": "/images/icon-192.png",
       "type": "image/png",
       "sizes": "192x192",
-      "purpose": "any maskable"
+      "purpose": "any"
     },
     {
       "src": "/images/icon-512.png",
@@ -17,7 +17,7 @@
   ],
   "start_url": "/",
   "background_color": "#23395B",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "theme_color": "#23395B",
   "shortcuts": [

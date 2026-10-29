@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Michael Kohler</title>
+    <title>{% if title %}{{ title }} · {% endif %}Michael Kohler</title>
     <meta charset="UTF-8" />
     <meta name="description" content="Michael is a Lead Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,20 +13,28 @@
       as="image" />
     <link
       rel="preload"
-      href="/fonts/nebulasans-light.woff2"
+      href="/fonts/newsreader.woff2"
       as="font"
       type="font/woff2"
       crossorigin />
+    <link
+      rel="preload"
+      href="/fonts/inter.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    {%- if nav == "cv" %}
     <link
       rel="preload"
       href="/fonts/fa-v6.1.2-mini-extended.woff2"
       as="font"
       type="font/woff2"
       crossorigin />
+    {%- endif %}
 
-    <meta property="og:title" content="Michael Kohler - Lead Software Engineer - CV" />
+    <meta property="og:title" content="{% if title %}{{ title }} - Michael Kohler{% else %}Michael Kohler - Lead Software Engineer - CV{% endif %}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mkohler.dev" />
+    <meta property="og:url" content="https://mkohler.dev{{ page.url }}" />
     <meta property="og:description" content="Michael is a Lead Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008." />
     <meta property="og:image" content="https://mkohler.dev/images/profile.avif" />
     <meta property="og:image:alt" content="Preview of the website with Michael's profile image" />

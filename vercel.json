@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/((?!webmonetization/|2026-design-exploration).*)",
+      "source": "/((?!webmonetization/).*)",
       "headers": [
         {
           "key": "Content-Security-Policy",
@@ -31,19 +31,6 @@
       ]
     },
     {
-      "source": "/2026-design-exploration(/.*)?",
-      "headers": [
-        {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; script-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self'; img-src 'self' https: data:; frame-ancestors 'none'; font-src 'self' https://fonts.gstatic.com"
-        },
-        {
-          "key": "X-Robots-Tag",
-          "value": "noindex, nofollow"
-        }
-      ]
-    },
-    {
       "source": "/.well-known/webfinger",
       "headers": [
         {
@@ -65,10 +52,6 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    { "source": "/2026-design-exploration", "destination": "/2026-design-exploration/" },
-    { "source": "/2026-design-exploration/:dir(\\d\\d-[a-z-]+)", "destination": "/2026-design-exploration/:dir/" }
   ],
   "rewrites": [
     { "source": "/.well-known/webfinger", "destination": "/api/webfinger" },

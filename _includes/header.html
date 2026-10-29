@@ -1,19 +1,56 @@
-<header>
-  <a href="#menu" class="menu-button" tabindex="1">
-    <span class="icon">↓</span>
-    <span>Menu</span>
-  </a>
-  <div class="info-row">
-    <a href="/"><img class="photo" src="/images/profile.avif" decoding="sync" alt="" /></a>
-    <div class="info-container">
-      <div class="name">
-        <h1>Michael Kohler</h1>
-      </div>
-      <section class="position">
-        <h2>
-          <span>Lead Software Engineer</span>
-        </h2>
-      </section>
-    </div>
+<header{% if nav == "cv" %} class="cv"{% elsif header_short %} class="short"{% endif %}>
+  <div class="bar">
+    {%- unless nav == "cv" %}
+    <a class="brand" href="/"><img src="/images/profile.avif" alt="" width="36" height="36" /><span>Michael Kohler</span></a>
+    {%- endunless %}
+    <nav id="menu" aria-label="Main">
+      <ul>
+        <li><a href="/"{% if nav == "cv" %} aria-current="page"{% endif %}>CV</a></li>
+        <li><a href="/opensource/"{% if nav == "opensource" %} aria-current="page"{% endif %}>Open Source</a></li>
+        <li><a href="/blog/"{% if nav == "blog" %} aria-current="page"{% endif %}>Blog</a></li>
+        <li><a href="/talks/"{% if nav == "talks" %} aria-current="page"{% endif %}>Talks</a></li>
+      </ul>
+    </nav>
   </div>
+
+  {%- if nav == "cv" %}
+  <img class="photo" src="/images/profile.avif" decoding="sync" alt="Michael Kohler in Berlin" width="220" height="220" />
+  <div class="name">
+    <h1>Michael <em>Kohler</em></h1>
+  </div>
+  <section class="position">
+    <h2>Lead Software Engineer</h2>
+  </section>
+  <dl class="facts">
+    <div>
+      <dt>Based in</dt>
+      <dd>Berlin, Germany <span>originally from Bern, Switzerland</span></dd>
+    </div>
+    <div>
+      <dt>Email</dt>
+      <dd><a href="mailto:me@michaelkohler.info">me@michaelkohler.info</a></dd>
+    </div>
+    <div>
+      <dt>Languages</dt>
+      <dd>German, English <span>fluent</span></dd>
+    </div>
+  </dl>
+  <ul class="social">
+    <li><a target="_blank" aria-label="Michael on Mastodon" rel="noopener noreferrer" href="https://chaos.social/@mkohler"><i class="fab">&#xe800;</i></a></li>
+    <li><a target="_blank" aria-label="Michael's LinkedIn" rel="noopener noreferrer" href="https://www.linkedin.com/in/mkohlerdev"><i class="fab">&#xf30c;</i></a></li>
+    <li><a target="_blank" aria-label="Michael's Blog RSS" rel="noopener noreferrer" href="/feed.xml"><i class="fas">&#xf09e;</i></a></li>
+    <li><a target="_blank" aria-label="Michael on GitHub" rel="noopener noreferrer" href="https://www.github.com/MichaelKohler"><i class="fab">&#xf09b;</i></a></li>
+    <li><a target="_blank" aria-label="Michael's Email" rel="noopener noreferrer" href="mailto:me@michaelkohler.info"><i class="fas">&#xf0e0;</i></a></li>
+    <li><a target="_blank" aria-label="Michael on Xing" rel="noopener noreferrer" href="https://www.xing.com/profile/Michael_Kohler36"><i class="fab">&#xf168;</i></a></li>
+  </ul>
+  {%- else %}
+  <p class="kicker">{{ header_kicker }}</p>
+  {%- comment %} Pages with their own h1 (blog posts, 404, offline) get the title as a paragraph. {% endcomment %}
+  {%- if own_heading %}
+  <p class="title">{{ header_title }}</p>
+  {%- else %}
+  <h1 class="title">{{ header_title }}</h1>
+  {%- endif %}
+  {%- endif %}
+  <span class="stem" aria-hidden="true"></span>
 </header>

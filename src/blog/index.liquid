@@ -1,15 +1,45 @@
 ---
 layout: "base.liquid"
+title: Blog
 permalink: /blog/
+nav: blog
+header_kicker: Blog
+header_title: Writing
 ---
 
 <section id="blog" class="page">
-  {%- for post in collections.blogposts %}
-    <h2><a href="{{post.url | url}}">{{post.data.title}}</a></h2>
-    <p class="date">{{post.data.date | date: "%Y-%m-%d at %H:%M:%S"}}</p>
+  {%- assign latest = collections.blogposts | first %}
+  <article class="feature">
+    <p class="date">{{latest.data.date | date: "%Y-%m-%d"}}</p>
+    <h2><a href="{{latest.url | url}}">{{latest.data.title}}</a></h2>
 
-    <p>{{post.data.page.excerpt|md}}</p>
+    <div class="excerpt">{{latest.data.page.excerpt|md}}</div>
 
-    <p><a href="{{post.url | url}}">Read more!</a></p>
-  {% endfor -%}
+    <p><a href="{{latest.url | url}}">Read more!</a></p>
+  </article>
+
+  <section class="hanging-section archive">
+    <h2 class="hanging-title">Archive</h2>
+    <div>
+    {%- assign current_year = "" %}
+    {%- for post in collections.blogposts %}
+      {%- assign year = post.data.date | date: "%Y" %}
+      {%- if year != current_year %}
+        {%- unless forloop.first %}
+      </ol>
+    </div>
+        {%- endunless %}
+    <div class="year">
+      <h3>{{year}}</h3>
+      <ol>
+        {%- assign current_year = year %}
+      {%- endif %}
+        <li><a href="{{post.url | url}}">{{post.data.title}}</a> <span class="date">{{post.data.date | date: "%Y-%m-%d"}}</span></li>
+      {%- if forloop.last %}
+      </ol>
+    </div>
+      {%- endif %}
+    {%- endfor %}
+    </div>
+  </section>
 </section>
