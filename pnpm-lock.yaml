@@ -21,9 +21,6 @@ importers:
       '@playwright/test':
         specifier: ^1.64.1
         version: 1.64.1
-      clean-css:
-        specifier: ^5.3.3
-        version: 5.3.3
       markdown-it:
         specifier: ^15.0.3
         version: 15.0.3
@@ -260,10 +257,6 @@ packages:
   chokidar@4.0.3:
     resolution: {integrity: sha512-Qgzu8kfBvo+cA4962jnP1KkS6Dop5NS6g7R5LFYJr4b8Ub94PPQXUksCw9PvXoeXPRRddRNC5C1JQUR2SMGtnA==}
     engines: {node: '>= 14.16.0'}
-
-  clean-css@5.3.3:
-    resolution: {integrity: sha512-D5J+kHaVb/wKSFcyyV75uCn8fiY4sV38XJoe4CUyGQ+mOU/fMVYUdH1hJC+CJQ5uY3EnW27SbJYS4X8BiLrAFg==}
-    engines: {node: '>= 10.0'}
 
   commander@10.0.1:
     resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
@@ -666,10 +659,6 @@ packages:
 
   source-map-js@1.2.2:
     resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
-    engines: {node: '>=0.10.0'}
-
-  source-map@0.6.1:
-    resolution: {integrity: sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==}
     engines: {node: '>=0.10.0'}
 
   ssri@11.0.0:
@@ -1075,10 +1064,6 @@ snapshots:
     dependencies:
       readdirp: 4.1.2
 
-  clean-css@5.3.3:
-    dependencies:
-      source-map: 0.6.1
-
   commander@10.0.1: {}
 
   commander@5.1.0: {}
@@ -1432,8 +1417,6 @@ snapshots:
   slugify@1.6.9: {}
 
   source-map-js@1.2.2: {}
-
-  source-map@0.6.1: {}
 
   ssri@11.0.0:
     dependencies:

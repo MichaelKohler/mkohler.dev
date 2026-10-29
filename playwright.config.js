@@ -43,7 +43,7 @@ module.exports = defineConfig({
     {
       name: 'chromium-mobile',
       use: {
-        ...devices['iPhone 12'],
+        ...devices['Pixel 7'],
         viewport: { width: 390, height: 844 }
       },
     },

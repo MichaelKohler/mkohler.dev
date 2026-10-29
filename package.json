@@ -11,7 +11,6 @@
     "@11ty/eleventy": "^3.1.7",
     "@11ty/eleventy-plugin-rss": "^3.1.0",
     "@playwright/test": "^1.64.1",
-    "clean-css": "^5.3.3",
     "markdown-it": "^15.0.3"
   },
   "packageManager": "pnpm@11.25.0",

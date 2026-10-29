@@ -1,17 +1,21 @@
 ---
 layout: "base.liquid"
+title: Contributions
 permalink: "/contributions/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/{% endif %}index.html"
 
 pagination:
   data: contributions
   size: 500
   resolve: values
+nav: opensource
+header_kicker: Open Source · log
+header_title: Contributions
 ---
 
 <section id="contributions" class="page">
   <h2>Contributions - Page {{ pagination.pageNumber | plus: 1 }}</h2>
 
-  <p>
+  <p class="intro">
     This report includes data sources which can be queried automatically.
     Of course there are many contributions which can't be tracked automatically,
     so they have been omitted here. Most data sources are related to Mozilla.
@@ -21,21 +25,27 @@ pagination:
     which will not show up here.
   </p>
 
+  {% if pagination.pageNumber == 0 %}
+    {% include "../_includes/activity.html" %}
+  {% endif %}
+
   <div class="pagination">
     {% if pagination.href.previous %}
-      <a href="{{ pagination.href.previous }}">< Previous Page</a>
+      <a href="{{ pagination.href.previous }}">&lt; Previous Page</a>
     {% endif %}
 
     {% if pagination.href.next %}
-      <a href="{{ pagination.href.next }}">Next Page ></a>
+      <a href="{{ pagination.href.next }}">Next Page &gt;</a>
     {% endif %}
   </div>
 
   <table class="contributions">
     <thead>
-      <th>Date</th>
-      <th>Type</th>
-      <th>Description</th>
+      <tr>
+        <th>Date</th>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
     </thead>
     <tbody>
       {% for contribution in pagination.items %}
@@ -43,12 +53,12 @@ pagination:
           <td>{{ contribution.createdAt | date: "%Y-%m-%d" }}</td>
           <td>
             {% if contribution.link == "" %}
-              {{ contribution.type }}
+              {{ contribution.type | escape }}
             {% else %}
-              <a href="{{ contribution.link }}">{{ contribution.type }}</a>
+              <a href="{{ contribution.link | escape }}">{{ contribution.type | escape }}</a>
             {% endif %}
           </td>
-          <td>{{ contribution.description }}</td>
+          <td>{{ contribution.description | escape }}</td>
         </tr>
       {% endfor %}
     </tbody>
@@ -56,11 +66,11 @@ pagination:
 
   <div class="pagination">
     {% if pagination.href.previous %}
-      <a href="{{ pagination.href.previous }}">< Previous Page</a>
+      <a href="{{ pagination.href.previous }}">&lt; Previous Page</a>
     {% endif %}
 
     {% if pagination.href.next %}
-      <a href="{{ pagination.href.next }}">Next Page ></a>
+      <a href="{{ pagination.href.next }}">Next Page &gt;</a>
     {% endif %}
   </div>
 </section>

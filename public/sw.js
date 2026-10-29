@@ -1,10 +1,11 @@
-const CACHE_NAME = 'cache::v7';
+const CACHE_NAME = 'cache::v8';
+const OFFLINE_URL = '/offline/';
 
 const RESOURCES_TO_PREFETCH = [
   // We need the offline page so we can show it
   // as it's unlikely somebody would fetch that
   // by themselves..
-  '/offline/',
+  OFFLINE_URL,
 ];
 
 self.addEventListener('install', (event) => {
@@ -27,45 +28,51 @@ self.addEventListener('activate', (event) => {
           }
         }));
       })
+      .then(() => self.clients.claim())
   );
-
-  return self.clients.claim();
 });
 
 self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+
   // Only GET requests can be cached, and we only want to cache
   // same-origin requests, not cross-origin resources like fonts or
-  // embeds.
-  if (event.request.method !== 'GET' || !event.request.url.startsWith(self.location.origin)) {
+  // embeds. Vercel's analytics endpoints are never worth caching.
+  if (
+    event.request.method !== 'GET' ||
+    url.origin !== self.location.origin ||
+    url.pathname.startsWith('/_vercel/')
+  ) {
     return;
   }
 
   event.respondWith(
     fetch(event.request)
       .then((res) => {
-        if (!res.ok) {
-          return res;
+        if (res.ok) {
+          const copy = res.clone();
+          event.waitUntil(
+            caches.open(CACHE_NAME).then((cache) => cache.put(event.request, copy))
+          );
         }
 
-        return caches.open(CACHE_NAME)
-          .then((cache) => {
-            cache.put(event.request, res.clone());
-            return res;
-          });
-      })
-      .catch((error) => {
-        console.error('Fetch failed; returning cached page instead.', error);
-        console.debug('Original request was:', event.request);
-        return caches.match(event.request)
-      })
-      .then((res) => {
-        if (!res) {
-          console.error('No cached page found; returning offline page instead.');
-          return caches.match('/offline/');
-        }
-
-        console.log('Found cached page, returning that instead.');
         return res;
+      })
+      .catch(async (error) => {
+        console.error('Fetch failed; trying the cache instead.', error);
+
+        const cached = await caches.match(event.request);
+        if (cached) {
+          return cached;
+        }
+
+        // Only page navigations get the offline page; images, styles and
+        // fonts must not be answered with HTML.
+        if (event.request.mode === 'navigate') {
+          return caches.match(OFFLINE_URL);
+        }
+
+        return Response.error();
       })
   );
 });
