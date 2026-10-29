@@ -78,7 +78,13 @@
           }
         })();
 
-        return { src, wa };
+        const tag = (() => {
+          const val = params.get("tag");
+          if (!val) return "version1";
+          return val;
+        })();
+
+        return { src, wa, tag };
       }
 
       /** @param {ReturnType<typeof getParams>['src']} param */
@@ -104,7 +110,7 @@
         script.type = "module";
         script.src = getSrc(params.src);
         script.dataset.walletAddress = params.wa;
-        script.dataset.tag = "version1";
+        script.dataset.tag = params.tag;
         document.head.prepend(script);
       }
 
@@ -115,6 +121,7 @@
           : `${TOOL[0].toUpperCase()}${TOOL.slice(1)} script not injected. ?src URL parameter is missing`;
         $id("param-src").value = params.src || "";
         $id("param-wa").value = params.wa || "";
+        $id("param-tag").value = params.tag || "";
       });
     </script>
   </head>
@@ -181,6 +188,16 @@
                 type="url"
                 aria-describedby="f-desc-wa"
               />
+            </div>
+
+            <div class="field">
+              <label for="param-tag">tag</label>
+              <p id="f-desc-tag" class="muted small">
+                Config version tag to load for the wallet address. Defaults to
+                'version1'.
+              </p>
+
+              <input id="param-tag" name="tag" aria-describedby="f-desc-tag" />
             </div>
 
             <div class="row actions">

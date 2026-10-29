@@ -95,6 +95,12 @@
           }
         })();
 
+        const tag = (() => {
+          const val = params.get("tag");
+          if (!val) return "version1";
+          return val;
+        })();
+
         const price = (() => {
           const val = params.get("price");
           return Number.isFinite(Number(val)) ? val : undefined;
@@ -103,6 +109,7 @@
         return {
           src,
           wa,
+          tag,
           price,
         };
       }
@@ -129,7 +136,7 @@
         script.type = "module";
         script.src = getSrc(params.src);
         script.dataset.walletAddress = params.wa;
-        script.dataset.tag = "version1";
+        script.dataset.tag = params.tag;
         if (params.price) script.dataset.price = params.price;
         document.head.prepend(script);
       }
@@ -141,6 +148,7 @@
           : "Paywall script not injected. ?src URL parameter is missing";
         $id("param-src").value = params.src || "";
         $id("param-wa").value = params.wa || "";
+        $id("param-tag").value = params.tag || "";
         $id("param-price").value = params.price || "";
       });
     </script>
@@ -182,6 +190,15 @@
               </p>
 
               <input id="param-wa" name="wa" type="url" aria-describedby="f-desc-wa">
+            </div>
+
+            <div class="field">
+              <label for="param-tag">tag</label>
+              <p id="f-desc-tag" class="muted small">
+                Config version tag to load for the wallet address. Defaults to 'version1'.
+              </p>
+
+              <input id="param-tag" name="tag" aria-describedby="f-desc-tag">
             </div>
 
             <div class="field">
