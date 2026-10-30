@@ -111,8 +111,8 @@ a {
   cursor: pointer;
   color: var(--brand-primary);
   text-decoration: underline;
-  text-decoration-color: var(--accent-light-300);
-  text-decoration-thickness: 1px;
+  text-decoration-color: var(--accent-minor-100);
+  text-decoration-thickness: 0.06em;
   text-underline-offset: 0.18em;
   transition: text-decoration-color 0.2s;
 
@@ -631,7 +631,6 @@ header {
 
       & a {
         color: var(--brand-primary);
-        text-decoration: none;
       }
     }
 
@@ -1168,10 +1167,6 @@ table.contributions {
     & h2 {
       margin-bottom: 1rem;
       font-size: clamp(2rem, 4vw, 3rem);
-
-      & a {
-        text-decoration: none;
-      }
     }
 
     & .excerpt {
@@ -1219,14 +1214,6 @@ table.contributions {
       gap: 2rem;
       padding: 0.35rem 0;
 
-      & a {
-        text-decoration: none;
-
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-
       & .date {
         padding-top: 0.35rem;
         white-space: nowrap;
@@ -1270,7 +1257,6 @@ table.contributions {
       letter-spacing: 0.14em;
       text-transform: uppercase;
       color: var(--accent-minor-100);
-      text-decoration: none;
     }
 
     & h1 {
@@ -1396,7 +1382,6 @@ table.contributions {
     & > a {
       font-size: 1.35rem;
       line-height: 1.2;
-      text-decoration: none;
     }
 
     & p {
