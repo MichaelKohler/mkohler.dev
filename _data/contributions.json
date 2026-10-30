@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-10-29T09:41:57.000Z",
+    "description": "build(deps): bump jsdom from 30.1.2 to 30.1.3 in the production-dependencies group across 1 directory",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/118#pullrequestreview-5695655421",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-10-29T09:41:24.000Z",
+    "description": "build(deps): bump undici",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/120#pullrequestreview-5695648012",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-10-28T06:28:32.000Z",
     "description": "build(deps-dev): bump the development-dependencies group with 4 updates",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/119#pullrequestreview-5678670128",
