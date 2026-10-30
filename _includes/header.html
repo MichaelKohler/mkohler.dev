@@ -55,7 +55,7 @@
   </ul>
   {%- else %}
   <p class="kicker">{{ header_kicker }}</p>
-  {%- comment %} Pages with their own h1 (blog posts, 404, offline) get the title as a paragraph. {% endcomment %}
+  {%- comment %} Pages with their own h1 (blog posts) get the title as a paragraph. {% endcomment %}
   {%- if own_heading %}
   <p class="title">{{ header_title }}</p>
   {%- else %}

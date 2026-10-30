@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cache::v8';
+const CACHE_NAME = 'cache::v9';
 const OFFLINE_URL = '/offline/';
 
 const RESOURCES_TO_PREFETCH = [

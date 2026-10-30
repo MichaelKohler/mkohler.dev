@@ -1442,12 +1442,6 @@ table.contributions {
   min-height: 45vh;
   padding-top: clamp(3rem, 8vw, 6rem);
 
-  & h1 {
-    margin-bottom: 1.5rem;
-    font-size: clamp(2.2rem, 5vw, 3.9rem);
-    letter-spacing: -0.015em;
-  }
-
   & p {
     font-size: 1.3rem;
     color: var(--text-muted);
