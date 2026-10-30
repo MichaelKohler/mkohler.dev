@@ -17,7 +17,7 @@ _This is the first post regarding the German-speaking Mozilla community meetup. 
 
 _The meetup was held on February 20 to February 22 2015\. To facilitate the coordination between all volonteers and staff living/working in the German speaking countries (Germany, Austria, Switzerland) we meet once a year to discuss any topics, plans and goals for the year. Further it's important to meet regularly to have certain discussions in person since these are faster and more efficient. In total 27 persons attended this meetup._
 
-![](https://c1.staticflickr.com/9/8645/16405536767_d3cf70ccec_b.webp)
+![](https://c1.staticflickr.com/9/8645/16405536767_d3cf70ccec_b.jpg)
 
 _(Foto/Photo: Hagen Halbach)_
 
@@ -45,7 +45,7 @@ _A big "Thank you" to Hagen (help with the organization), Martyna (all office an
 
 _I think we've succeeded very well with these goals for the meetup._
 
-![](https://c1.staticflickr.com/9/8639/16612818695_88540f287e_b.webp)
+![](https://c1.staticflickr.com/9/8639/16612818695_88540f287e_b.jpg)
 
 _ (Foto/Photo: Hagen Halbach)_
 

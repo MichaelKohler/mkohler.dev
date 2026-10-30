@@ -17,7 +17,7 @@ _This is the second post regarding the German-speaking Mozilla community meetup.
 
 _The meetup was held on February 20 to February 22 2015\. To facilitate the coordination between all volonteers and staff living/working in the German speaking countries (Germany, Austria, Switzerland) we meet once a year to discuss any topics, plans and goals for the year. Further it's important to meet regularly to have certain discussions in person since these are faster and more efficient. In total 27 persons attended this meetup._
 
-![](https://c4.staticflickr.com/8/7413/15980191113_e450885b65_k.webp)
+![](https://c4.staticflickr.com/8/7413/15980191113_e450885b65_k.jpg)
 
 _ (Foto/Photo: Brian King)_
 
@@ -140,7 +140,7 @@ _To know where we currently stand with our community, we did a "SWOT" analysis (
 *   Chrome + Google Services
 *   ...
 
-![](https://c1.staticflickr.com/9/8672/15990641624_2dd6ac191e_b.webp)
+![](https://c1.staticflickr.com/9/8672/15990641624_2dd6ac191e_b.jpg)
 
 _(Foto/Photo: Hagen Halbach)_
 
@@ -156,7 +156,7 @@ _We discussed the first outcomes of the groups together. Please refer to [day 2]
 
 _Markus, a local developer from Berlin, came by on Saturday. He'd like to organize regular events in Berlin to increase the presence of Mozilla in the city and to build a local community. We like this idea and will support him in 2015!_
 
-![](https://c1.staticflickr.com/9/8657/16423487858_67a6158668_h.webp)
+![](https://c1.staticflickr.com/9/8657/16423487858_67a6158668_h.jpg)
 
 _(Foto/Photo: Mario Behling)_
 
@@ -168,7 +168,7 @@ _After the group discussions Brian had further information: Participation. Pleas
 
 _At the end of the official part of the day we had a discussion about the "Community Tile". When you open a new tab in a new Firefox profile you'll see an overview of different sites you can visit. One of these links is reserved for the community. We discussed our proposal and came to the conclusion that we should focus to tell everyone what the German speaking community does and especially that there are local people working on Mozilla projects._
 
-![](https://c1.staticflickr.com/9/8656/16425623968_3a05a0f90d_b.webp)
+![](https://c1.staticflickr.com/9/8656/16425623968_3a05a0f90d_b.jpg)
 
 [![CommunityTiles](/images/2015/02/CommunityTiles.webp)](/images/2015/02/CommunityTiles.webp)
 
@@ -178,7 +178,7 @@ _(Foto/Photo: Hagen Halbach)_
 
 _Want to see who was there? See for yourself!_
 
-![](https://c1.staticflickr.com/9/8628/15990683374_64c5746a87_b.webp)
+![](https://c1.staticflickr.com/9/8628/15990683374_64c5746a87_b.jpg)
 
 _(Foto/Photo: Brian King)_
 

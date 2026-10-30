@@ -24,7 +24,7 @@ I asked Jan Bambach if he wanted to help out to organize a Firefox OS App Day. H
 
 We did a lot of advertisement for the event, but unfortunately that didn't turn out as we expected. We only heard about another event taking place the same day a few days before the event. This was too late to reschedule. Next time we'll check better and avoid having an event at the same day as a big Barcamp going on. I'm sure that we'd have more participants if it was on another day. Additionally we found out that asking Universities to advertise it to their students doesn't scale as well as it should. We didn't get any feedback from them.
 
-[![](https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.webp)](https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.webp)
+[![](https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg)](https://farm8.staticflickr.com/7564/15692584017_1de6b03b7a_b.jpg)
 
 ## App Day
 

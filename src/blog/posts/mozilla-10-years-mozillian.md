@@ -53,7 +53,7 @@ In 2009 I added myself to the [Germany/Austria/Switzerland contributors wiki pag
 ## Mozilla Switzerland
 After this initial meeting, we started to meet more regularly in different places in Switzerland. We organised “MozCoffees” in Bern and Zurich, slowly but steadily growing and building the Mozilla Switzerland community.
 
-[![](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.webp)](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.webp)
+[![](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg)](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.jpg)
 
 Our first event in Switzerland apart from regular MozCoffees was the “Weekend of Code 2012” event. Mozillians from Switzerland shared their knowledge about different areas they are contributing to. I’ve held a [Firefox Source Code talk](https://mkohler.dev/presentations/mozilla_weekend_of_code_2012.html), my first talk I’ve ever given about a Mozilla topic.
 
@@ -114,7 +114,7 @@ I was involved with Firefox OS until the [decision to pivot to Connected Devices
 ## Reps Governance & Participation
 Thanks to my involvement in the Reps program on a strategic level and my interest in continuing this, I’ve applied to the [Reps Council elections in 2015](https://blog.mozilla.org/mozillareps/2015/05/08/council-elections-know-your-candidates/) in May 2015. This allowed me to shape the conversation and strategy about the Reps program on a more impactful level. This included being invited to several [Mozilla All Hands](https://wiki.mozilla.org/All_Hands) where we spent a week discussing everything about Participation. Some people might not understand why I would take a week off my work to go “work” for Mozilla in my free time, but well, that’s who I am.
 
-[![](https://mkohler.dev/images/userpic01.webp)](https://mkohler.dev/assets/images/userpic01.webp)
+[![](/images/userpic01.webp)](/images/userpic01.webp)
 
 As my first term came to an end, I like having these conversations so much that I [decided to apply for another term](https://discourse.mozilla.org/t/council-elections-september-2016-nominee-q-a/10650). Crazy, I know. We went through the whole “Reps Next” project and introduced a few improvements to the program which were overdue for a long time. This term lasted until November 2017. You might ask why two terms amount to about one and a half year? We had a little delay on the second elections and therefore were not fully on schedule anymore. Happens :)
 

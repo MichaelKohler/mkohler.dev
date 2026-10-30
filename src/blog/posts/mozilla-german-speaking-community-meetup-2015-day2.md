@@ -17,7 +17,7 @@ _This is the third post regarding the German-speaking Mozilla community meetup. 
 
 _The meetup was held on February 20 to February 22 2015\. To facilitate the coordination between all volonteers and staff living/working in the German speaking countries (Germany, Austria, Switzerland) we meet once a year to discuss any topics, plans and goals for the year. Further it's important to meet regularly to have certain discussions in person since these are faster and more efficient. In total 27 persons attended this meetup._
 
-![](https://c1.staticflickr.com/9/8592/16611675751_2775ba0ee5_b.webp)
+![](https://c1.staticflickr.com/9/8592/16611675751_2775ba0ee5_b.jpg)
 
 _(Foto/Photo: Hagen Halbach)_
 
@@ -139,7 +139,7 @@ _All German Mozilla sites are currently hosted by Kadir. Since Kadir doesn't hav
 
 _All these plans and goals are summarized in our Trello board. All German speaking community members can self-assign a task and work on it. With this board we want to track and work on all our plans._
 
-![](https://c1.staticflickr.com/9/8667/16612791035_d850aa541f_b.webp)
+![](https://c1.staticflickr.com/9/8667/16612791035_d850aa541f_b.jpg)
 
 _ (Foto/Photo: Hagen Halbach)_
 
@@ -158,7 +158,7 @@ _After that we discussed what features should be on the mozilla.de website. In g
 *   Social Media
 *   <span lang="de">Prominenter Link auf SUMO</span> _/ prominent link to SUMO for help_
 *   <span lang="de">Link Wörterbücher</span> _/ link to the dictionaries_
-![](https://c1.staticflickr.com/9/8605/16404178707_a1cf9486dd_h.webp)
+![](https://c1.staticflickr.com/9/8605/16404178707_a1cf9486dd_h.jpg)
 
 _(Foto/Photo: Hagen Halbach)_
 
