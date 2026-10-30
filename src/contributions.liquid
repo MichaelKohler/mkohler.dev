@@ -29,15 +29,15 @@ header_title: Contributions
     {% include "../_includes/activity.html" %}
   {% endif %}
 
-  <div class="pagination">
+  <nav class="pagination" aria-label="Contributions pages, top">
     {% if pagination.href.previous %}
-      <a href="{{ pagination.href.previous }}">&lt; Previous Page</a>
+      <a href="{{ pagination.href.previous }}"><span aria-hidden="true">←</span> Previous Page</a>
     {% endif %}
 
     {% if pagination.href.next %}
-      <a href="{{ pagination.href.next }}">Next Page &gt;</a>
+      <a href="{{ pagination.href.next }}">Next Page <span aria-hidden="true">→</span></a>
     {% endif %}
-  </div>
+  </nav>
 
   <table class="contributions">
     <thead>
@@ -64,13 +64,13 @@ header_title: Contributions
     </tbody>
   </table>
 
-  <div class="pagination">
+  <nav class="pagination" aria-label="Contributions pages, bottom">
     {% if pagination.href.previous %}
-      <a href="{{ pagination.href.previous }}">&lt; Previous Page</a>
+      <a href="{{ pagination.href.previous }}"><span aria-hidden="true">←</span> Previous Page</a>
     {% endif %}
 
     {% if pagination.href.next %}
-      <a href="{{ pagination.href.next }}">Next Page &gt;</a>
+      <a href="{{ pagination.href.next }}">Next Page <span aria-hidden="true">→</span></a>
     {% endif %}
-  </div>
+  </nav>
 </section>

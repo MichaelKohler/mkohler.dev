@@ -4,10 +4,10 @@ layout: "base.liquid"
 
 <section id="blogpost" class="page">
   <div class="intro">
-    <a href="/blog/" class="small">← Back to blog post overview</a>
+    <a href="/blog/" class="small" lang="en">← Back to blog post overview</a>
 
-    <h1>{{title}}</h1>
-    <p class="date">{{date | date: "%Y-%m-%d at %H:%M:%S"}}</p>
+    <h1{% if title_lang %} lang="{{ title_lang }}"{% endif %}>{{title}}</h1>
+    <p class="date" lang="en">{{date | date: "%Y-%m-%d at %H:%M:%S"}}</p>
   </div>
 
   <div class="content">

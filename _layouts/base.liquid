@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ lang | default: "en" }}">
   <head>
-    <title>{% if title %}{{ title }} · {% endif %}Michael Kohler</title>
+    <title>{% if title %}{{ title }}{% if pagination %}, page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages | size }}{% endif %} · {% endif %}Michael Kohler</title>
     <meta charset="UTF-8" />
     <meta name="description" content="Michael is a Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,7 +37,7 @@
       crossorigin />
     {%- endif %}
 
-    <meta property="og:title" content="{% if title %}{{ title }} - Michael Kohler{% else %}Michael Kohler - Software Engineer - CV{% endif %}" />
+    <meta property="og:title" content="{% if title %}{{ title }}{% if pagination %}, page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages | size }}{% endif %} - Michael Kohler{% else %}Michael Kohler - Software Engineer - CV{% endif %}" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mkohler.dev{{ page.url }}" />
     <meta property="og:description" content="Michael is a Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008." />
@@ -65,9 +65,13 @@
   </head>
 
   <body>
+    <a class="skip-link" href="#main" lang="en">Skip to content</a>
+
     {% include "../_includes/header.html" %}
 
-    {{ content }}
+    <main id="main">
+      {{ content }}
+    </main>
 
     {% include "../_includes/footer.html" %}
 

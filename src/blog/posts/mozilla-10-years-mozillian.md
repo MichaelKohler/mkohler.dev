@@ -11,7 +11,7 @@ March 10th, 2018 marked my 10 year anniversary as a Mozilla volunteer. I wanted 
 
 [![](/images/2018/04/10years.webp)](/images/2018/04/10years.webp)
 
-# Statistics
+## Statistics
 
 If you only care about numbers, here they are. These were measured until early March 2018 and taken from Mozilla’s Community Analytics tool.
 
@@ -29,7 +29,7 @@ If you only care about numbers, here they are. These were measured until early M
 * 451 emails to 20 different mailing lists
 * 495 posts / 155 topics created on Discourse since September 14
 
-# First contact
+## First contact
 I have been using Firefox for at least since the 1.0 release. Unfortunately I don’t have any recollection or evidence for this, but I have a feeling that it could have been one of the releases before as well. In any case, I had been using Firefox for quite some time before I even came into contact with the principle of it being Open Source.
 
 I was in high school when the first contact with a Firefox contributor happened. This must have been some time in 2007, can’t remember when exactly that was. Friends of mine found our Math teacher’s name connected to Firefox. You might ask how that might have happened? Well, I’d say basic stalking. They found his name in the [Mozilla Credits](https://www.mozilla.org/credits/), probably by googling his name. Until now I’m not fully sure how it happened, but that seems like the most credible variant of it. The other possibility would be that they saw him in-product. Back then there was a scrolling list of all these names in the “About” window of Firefox. Having seen it there seems less credible though, as they would had needed to stare at this scrolling list for a few names until they found it. I’m pretty sure they were not *that* bored. You never know though. In the next Math class, they asked him about this and he decided to give a short introduction explaining what he has done for Firefox and showed some code. At that point I was fully hooked and it dawned on me that I can do that as well!
@@ -38,19 +38,19 @@ From then on I was hooked and started using the Minefield, nowadays known as “
 
 Even though I was using Minefield and testing it before I filed my first bug, I took my first Bugzilla activity as official start date of my contributions. I think that’s a fair starting point - and honestly the only one I would have a solid date for.
 
-# First patch
+## First patch
 I didn’t work on my first Firefox patch until about a year later. Funny enough, I went back to the first bug I filed and tried to fix it. Getting the development environment up and running and getting used to the Firefox coding style took me some time, and it’s probably also the patch I needed to revise the most times till now. I remember being on IRC and asking all kinds of questions that are still turning up on IRC nowadays. I remember being very happy once the patch was done and got merged into Firefox itself.
 
 I have to admit, I’ve done probably less coding on Mozilla projects between 2008 and 2013 than I have done in the past 2 months.
 
 [![](/images/2018/04/commits.webp)](/images/2018/04/commits.webp)
 
-# First contact with the community
+## First contact with the community
 In 2009 I added myself to the [Germany/Austria/Switzerland contributors wiki page](https://wiki.mozilla.org/Contributors/Germany_Austria_Switzerland). This is how my real-life interaction with the community started - I’m not counting my Math teacher in high school here - for reasons. Henrik, my dear mentor eversince, was working in Switzerland in 2011, and he checked out the mentioned Wiki page and found my name. He contacted me and asked if I’d like to have a coffee and talk about Mozilla and meet eachother. Of course I was in! We’ve met in Bern on a summer evening, 22nd of August 2011 to be exact. Yes, that was the [Firefox 6 launch party in Bern](https://wiki.mozilla.org/Firefox_6_Release_Party_in_Bern). I even got my first Firefox stickers!
 
 [![](/images/2018/04/me.webp)](/images/2018/04/me.webp)
 
-# Mozilla Switzerland
+## Mozilla Switzerland
 After this initial meeting, we started to meet more regularly in different places in Switzerland. We organised “MozCoffees” in Bern and Zurich, slowly but steadily growing and building the Mozilla Switzerland community.
 
 [![](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.webp)](https://www.mozilla.org/media/img/contact/pictures/switzerland-01.8e23f4679062.webp)
@@ -69,12 +69,12 @@ Henrik also introduced me to [MozFest](https://mozillafestival.org/) which I att
 
 The Mozilla Switzerland crew also attended the [MozCamp in Warsaw](https://wiki.mozilla.org/MozCampEU2012) in 2012. This was my second interaction point with the international community which helped me a lot to get around! That’s also the first time I’ve met Ioana, our lovely Mozilla Reps module owner.
 
- # The Reps era
+## The Reps era
 As Henrik left his job in Switzerland he suggested me joining the [Reps program](http://wiki.mozilla.org/Reps/) he had been part of for quite some time before. With his mentoring skills he already had prepared me for it the year before that, so it was a quite easy decision for me. I’ve [applied to the program](https://bugzilla.mozilla.org/show_bug.cgi?id=810035) on November 8th 2012 and got accepted 5 days later. I’m pretty sure there was some pressure from Ioana as I’ve created my application when sitting right next to her at MozFest. In hindsight a very good thing ;)
 
 I think my contributions through the Reps program would deserve a completely independent blog post, so I’m not gonna go into details here. You can find all 44 pages of reports since then in the [Reps archive](https://mozilla.github.io/reps-archive/reps/michaelkohler.html). Have fun! I was also featured as [“Rep of the Month” in March 2014](https://twitter.com/hmitsch/status/441253990211538946), I was really happy about that!
 
-# Trying to build the German speaking community
+## Trying to build the German speaking community
 A big part of my Reps life was devoted to the German-speaking community. This includes Germany, Austria and parts of Switzerland. I was invited to the [“Community Reboot”](http://brian.kingsonline.net/talk/2013/01/german-community-reboot/) event in January 2013 which marked the [start](https://www.soeren-hentzschel.at/mozilla/ein-neuanfang-fur-die-deutschsprachige-mozilla-community/) of my little project to nurture the German-speaking community and bring it closer together. We did several experiments with the regular [online meetings of the community](https://wiki.mozilla.org/De/Meetings) and also introduced regular video meetings.
 
 [![](/images/2018/04/demeeting.webp)](/images/2018/04/demeeting.webp)
@@ -89,7 +89,7 @@ All my efforts lasted until around early 2016, when I decided that the whole pro
 
 [![](/images/2018/04/monument.webp)](/images/2018/04/monument.webp)
 
-# The Firefox OS era
+## The Firefox OS era
 When I first heard about Firefox OS I was excited. At one of the Mozilla Switzerland meetups Henrik tried to get it running on a Samsung Galaxy and we had a lot of fun. This was before the Geeksphone devices came out. I remember the day when I ordered my first Firefox OS phone so I can play around with it. Turned out, I very quickly switched to it as my primary phone and until it’s end always used a Firefox OS phone as primary phone. Sometime with experimental builds on it, but that was nothing new as I was using Firefox Nightly as my main browser as well (same people might say I like to live dangerously..). Dogfooding (or as we called it, Foxfooding) was very important to provide a stable and working platform and I didn’t see another way apart from using it daily. Up to now I’m missing the “switch apps by swiping from the very edge of the phone” feature, that was amazing!
 
 As Firefox OS was my new primary focus, I started organising events and talks about it. Together with other amazing contributors around Germany, Austria and Switzerland I’ve organized App hackathons, to name a few (not a full list):
@@ -111,7 +111,7 @@ Once Firefox OS launched in Germany, I was part of the launch team. We did a [pr
 
 I was involved with Firefox OS until the [decision to pivot to Connected Devices](https://blog.mozilla.org/blog/2015/12/09/firefox-os-pivot-to-connected-devices/). After that I was more focused on Reps specific tasks.
 
-# Reps Governance & Participation
+## Reps Governance & Participation
 Thanks to my involvement in the Reps program on a strategic level and my interest in continuing this, I’ve applied to the [Reps Council elections in 2015](https://blog.mozilla.org/mozillareps/2015/05/08/council-elections-know-your-candidates/) in May 2015. This allowed me to shape the conversation and strategy about the Reps program on a more impactful level. This included being invited to several [Mozilla All Hands](https://wiki.mozilla.org/All_Hands) where we spent a week discussing everything about Participation. Some people might not understand why I would take a week off my work to go “work” for Mozilla in my free time, but well, that’s who I am.
 
 [![](https://mkohler.dev/images/userpic01.webp)](https://mkohler.dev/assets/images/userpic01.webp)
@@ -120,7 +120,7 @@ As my first term came to an end, I like having these conversations so much that 
 
 After my second term on Council I decided to accept Ioana’s proposal to become a Peer. This was officially announced in December 2017. I hope to bring the same valuable inputs to strategic discussions about the program to the broader group as I have been in Council. Let’s see what comes next :)
 
-# What is next
+## What is next
 I’ve recently moved to Berlin to my amazing Mozillian girlfriend. As some of you know, I've been together with Konstantina for almost 3 years now and finally was able to make the step to move there as well. This means no longer commuting from Switzerland to Berlin on weekends, which became quite cumbersome over time. I'm very happy I did this and there are no regrets whatsoever. As I'm still employed by NEEO and working remotely, it's definitely an exciting time.
 
 Moving to Berlin means putting the Swiss community into the very capable hands of other contributors but of course I’ll still be in Switzerland from time to time. I’m sure they will do fine without me :)

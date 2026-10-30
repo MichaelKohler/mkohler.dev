@@ -165,7 +165,25 @@ table.contributions th,
   color: var(--accent-minor-100);
 }
 
-.visually-hidden {
+.skip-link {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.5rem;
+  z-index: 3;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  background: var(--background);
+  color: var(--brand-primary);
+  font: 600 0.85rem var(--label-font-family);
+  transform: translateY(-200%);
+
+  &:focus {
+    transform: none;
+  }
+}
+
+.visually-hidden,
+table.contributions thead {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -266,6 +284,7 @@ header {
     line-height: 0.95;
     letter-spacing: -0.03em;
     color: var(--accent-pale);
+    overflow-wrap: anywhere;
   }
 
   /* A short fading rule leads from the header into the page */
@@ -318,7 +337,8 @@ header {
       }
     }
 
-    & .position h2 {
+    & .position {
+      margin: 0;
       font-family: var(--label-font-family);
       font-size: 0.72rem;
       font-weight: 600;
@@ -553,7 +573,7 @@ header {
       gap: 1.5rem;
     }
 
-    & h4 {
+    & h3 {
       margin-bottom: 0.9rem;
       font-family: var(--label-font-family);
       font-size: 0.72rem;
@@ -652,12 +672,17 @@ header {
 
   & .skills .sidebar-info {
     display: grid;
+    margin: 0;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1.8rem 3rem;
 
     @media (max-width: 640px) {
       grid-template-columns: minmax(0, 1fr);
       gap: 1.5rem;
+    }
+
+    & dd {
+      margin: 0;
     }
   }
 }
@@ -700,6 +725,10 @@ header {
 
       & li + li {
         margin-top: 0.7rem;
+      }
+
+      & a {
+        overflow-wrap: anywhere;
       }
     }
 
@@ -748,7 +777,6 @@ header {
       background: var(--brand-primary);
       color: var(--text-inverse);
       text-decoration: none;
-      white-space: nowrap;
       transition: background-color 0.2s;
 
       &:hover,
@@ -774,8 +802,8 @@ header {
     }
 
     & .lane-name {
-      overflow: hidden;
-      text-overflow: ellipsis;
+      min-width: 0;
+      overflow-wrap: anywhere;
       font-size: 0.85rem;
       font-weight: 600;
     }
@@ -784,6 +812,7 @@ header {
       font-size: 0.72rem;
       color: var(--text-inverse-muted);
       font-variant-numeric: tabular-nums;
+      white-space: nowrap;
 
       @media (max-width: 640px) {
         display: none;
@@ -1096,11 +1125,14 @@ table.contributions {
     }
   }
 
-  @media (max-width: 640px) {
+  /* Only visually hidden up to 640px, so the cells keep their column headers */
+  @media (min-width: 641px) {
     & thead {
-      display: none;
+      all: revert;
     }
+  }
 
+  @media (max-width: 640px) {
     & tr {
       display: grid;
       grid-template-columns: auto 1fr;
@@ -1328,12 +1360,18 @@ table.contributions {
       }
     }
 
-    /* Block-level so wide tables scroll on their own instead of the page */
-    & table {
-      display: block;
-      max-width: 100%;
+    /* Wide tables scroll on their own instead of the page */
+    & .table-scroll {
       overflow-x: auto;
       margin-block-end: 30px;
+    }
+
+    & :is(pre, .table-scroll):focus-visible {
+      outline: 2px solid var(--accent-minor-100);
+      outline-offset: 2px;
+    }
+
+    & table {
       border-collapse: collapse;
       font-size: 1rem;
 
@@ -1439,16 +1477,96 @@ footer {
   background-color: var(--brand-primary);
   color: var(--text-inverse);
 
-  & h3 {
-    margin-bottom: 0.4rem;
-    font-size: 1.6rem;
-    color: inherit;
-  }
-
   & p {
     margin: 0;
     font-size: 1rem;
     color: var(--text-inverse-muted);
+  }
+
+  & .name {
+    margin-bottom: 0.4rem;
+    font-family: var(--title-font-family);
+    font-size: 1.6rem;
+    line-height: 1.12;
+    color: inherit;
+  }
+}
+
+/* Backgrounds are dropped in forced colors, so anything drawn with one needs
+ * its own system colors or a border. */
+@media (forced-colors: active) {
+  header nav ul a {
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline;
+    }
+
+    &[aria-current] {
+      forced-color-adjust: none;
+      background: Highlight;
+      color: HighlightText;
+    }
+  }
+
+  .activity {
+    & .bar,
+    & .bar.peak,
+    & .cell,
+    & .sources i {
+      forced-color-adjust: none;
+    }
+
+    & .bar,
+    & .bar.peak {
+      background: CanvasText;
+
+      &:hover {
+        background: Highlight;
+      }
+
+      & b {
+        color: CanvasText;
+      }
+    }
+
+    & .bar:hover::after,
+    & .cells .cell:hover::after {
+      forced-color-adjust: none;
+      border: 1px solid CanvasText;
+      background: Canvas;
+      color: CanvasText;
+    }
+
+    & .sources i {
+      background: linear-gradient(to right, CanvasText calc(var(--value) * 100%), color-mix(in srgb, CanvasText 25%, Canvas) 0);
+    }
+
+    & .cell {
+      border: 1px solid CanvasText;
+      background: Canvas;
+
+      &[data-level="1"] { background: color-mix(in srgb, CanvasText 30%, Canvas); }
+      &[data-level="2"] { background: color-mix(in srgb, CanvasText 55%, Canvas); }
+      &[data-level="3"] { background: color-mix(in srgb, CanvasText 75%, Canvas); }
+      &[data-level="4"] { background: CanvasText; }
+    }
+
+    & .cells .cell:hover {
+      outline-color: Highlight;
+    }
+  }
+
+  #opensource .area-timeline .lane-bar {
+    border: 1px solid;
+
+    &:hover,
+    &:focus-visible {
+      text-decoration: underline;
+    }
+
+    &.ongoing {
+      border-right-style: dashed;
+    }
   }
 }
 
@@ -1472,6 +1590,7 @@ footer {
     text-decoration: none;
   }
 
+  .skip-link,
   header .bar,
   header .photo,
   header .social,
@@ -1495,7 +1614,7 @@ footer {
       line-height: 1.05;
     }
 
-    & .position h2 {
+    & .position {
       margin-top: 4pt;
       font-size: 9pt;
 

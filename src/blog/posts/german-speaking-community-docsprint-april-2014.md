@@ -2,6 +2,8 @@
 title: German-speaking Community DocSprint April 2014
 permalink: /blog/2014/04/{{title | slugify}}/
 date: 2014-04-13 18:11:18
+lang: de
+title_lang: en
 ---
 
 Am 5. und 6. April  traffen wir uns in Berlin für einen Mozilla DocSprint der deutschspachigen Community. Es konnten leider nicht alle Core-Contributors dabei sein, aber wir hatten trotzdem ein schönes und produktives Wochenende.

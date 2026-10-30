@@ -21,6 +21,14 @@ On Saturday around 40 people showed up to get to know Mozilla and hack on its pr
 Our schedule:
 
 <table dir="ltr" style="table-layout: fixed; font-size: 13px; font-family: arial,sans,sans-serif; border-collapse: collapse; border: 1px solid #ccc;" border="1" cellspacing="0" cellpadding="0"><colgroup><col width="120" /><col width="252" /><col width="341" /><col width="147" /></colgroup>
+<thead>
+<tr>
+<th scope="col">Time</th>
+<th scope="col">Topic</th>
+<th scope="col">Description</th>
+<th scope="col">Speaker</th>
+</tr>
+</thead>
 <tbody>
 <tr style="height: 23px;">
 <td style="padding: 0px 3px 0px 3px; vertical-align: middle; background-color: #efefef; color: #000000; text-align: center; direction: ltr;">9:00 - 9:45</td>
@@ -91,6 +99,14 @@ Our schedule:
 </tbody>
 </table>
 <table dir="ltr" style="table-layout: fixed; font-size: 13px; font-family: arial,sans,sans-serif; border-collapse: collapse; border: 1px solid #ccc;" border="1" cellspacing="0" cellpadding="0"><colgroup><col width="120" /><col width="252" /><col width="341" /><col width="147" /></colgroup>
+<thead>
+<tr>
+<th scope="col">Time</th>
+<th scope="col">Topic</th>
+<th scope="col">Description</th>
+<th scope="col">Speaker</th>
+</tr>
+</thead>
 <tbody>
 <tr style="height: 17px;">
 <td style="padding: 0px 3px 0px 3px; vertical-align: middle; color: #000000; text-align: center; direction: ltr;">afternoon</td>

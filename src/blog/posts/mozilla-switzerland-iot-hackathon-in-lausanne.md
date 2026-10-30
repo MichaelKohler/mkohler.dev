@@ -15,8 +15,6 @@ We started to organize the [Hackathon on Github](https://github.com/mozillach/pa
 ## The Hackathon
 We expected more people to come, but as mentioned above, this is our first self-organized event in the French speaking part of Switzerland. Nevertheless we were four persons with an interest in hacking something together.
 
-<video src="https://fat.gfycat.com/SereneSnappyAuk.webm" controls="controls" width="300" height="150"></video>
-
 Geoffroy and Paul started to have a look at [Vaani.iot](https://github.com/mozilla/vaani.iot), one of the projects that Mozilla is currently pushing on. They started to build it on their laptops, unfortunately the Vaani documentation is not good enough yet to see the full picture and what you could do with it. We're planning to [send some feedback](https://github.com/mozillach/participation/issues/37) regarding that to the Vaani team.
 
 In the meantime Martin and I set up my Raspberry Pi and started to write a small script together that reads out the temperature from one of the sensors. Once we've done that, I created a small API to have the temperature returned in JSON format.

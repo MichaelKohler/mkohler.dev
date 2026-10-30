@@ -34,7 +34,8 @@ header_title: Writing
       <ol>
         {%- assign current_year = year %}
       {%- endif %}
-        <li><a href="{{post.url | url}}">{{post.data.title}}</a> <span class="date">{{post.data.date | date: "%Y-%m-%d"}}</span></li>
+        {%- assign title_lang = post.data.title_lang | default: post.data.lang %}
+        <li><a href="{{post.url | url}}"{% if title_lang %} lang="{{ title_lang }}"{% endif %}>{{post.data.title}}</a> <span class="date">{{post.data.date | date: "%Y-%m-%d"}}</span></li>
       {%- if forloop.last %}
       </ol>
     </div>

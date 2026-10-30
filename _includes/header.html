@@ -1,4 +1,4 @@
-<header{% if nav == "cv" %} class="cv"{% elsif header_short %} class="short"{% endif %}>
+<header lang="en"{% if nav == "cv" %} class="cv"{% elsif header_short %} class="short"{% endif %}>
   <div class="bar">
     {%- unless nav == "cv" %}
     <a class="brand" href="/"><img src="/images/profile-96.avif" alt="" width="36" height="36" /><span>Michael Kohler</span></a>
@@ -6,8 +6,8 @@
     <nav id="menu" aria-label="Main">
       <ul>
         <li><a href="/"{% if nav == "cv" %} aria-current="page"{% endif %}>CV</a></li>
-        <li><a href="/opensource/"{% if nav == "opensource" %} aria-current="page"{% endif %}>Open Source</a></li>
-        <li><a href="/blog/"{% if nav == "blog" %} aria-current="page"{% endif %}>Blog</a></li>
+        <li><a href="/opensource/"{% if nav == "opensource" %} aria-current="{% if page.url == "/opensource/" %}page{% else %}true{% endif %}"{% endif %}>Open Source</a></li>
+        <li><a href="/blog/"{% if nav == "blog" %} aria-current="{% if page.url == "/blog/" %}page{% else %}true{% endif %}"{% endif %}>Blog</a></li>
         <li><a href="/talks/"{% if nav == "talks" %} aria-current="page"{% endif %}>Talks</a></li>
       </ul>
     </nav>
@@ -28,9 +28,7 @@
   <div class="name">
     <h1>Michael <em>Kohler</em></h1>
   </div>
-  <section class="position">
-    <h2>Software Engineer</h2>
-  </section>
+  <p class="position">Software Engineer</p>
   <dl class="facts">
     <div>
       <dt>Based in</dt>

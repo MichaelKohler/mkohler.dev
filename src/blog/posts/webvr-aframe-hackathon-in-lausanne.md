@@ -12,7 +12,7 @@ Last Saturday the [Mozilla Switzerland community](http://mozilla.ch/), together 
 
 [![](/images/2017/07/L0086.webp)](/images/2017/07/L0086.webp)
 
-### About the event
+## About the event
 
 We gathered at 10 o'clock to have some initial talks and a light breakfast. It also took some time to set up the Vive and making sure we can demo [A-Painter](https://aframe.io/a-painter) and other VR applications. At around 10:30 we started with a quick intro by Geoffroy and me. We [explained the agenda and some general information about Mozilla](https://docs.google.com/presentation/d/1udTkTO9qn76qwNlW3g5IhOCFpS_2eqv8RGfQOUdOaKk). After that, Ben gave an [intro to WebVR](https://docs.google.com/presentation/d/1UzDvBJno6CR-fsuVQzXvBS1RnvHY9Xe8NRYl-yVFWwg/edit#slide=id.g24a51ed3a8_0_16) and how they are using A-Frame at [Archilogic](https://spaces.archilogic.com/explore). It's amazing to see how it is being used in the wild for really amazing and helpful projects! Thank you for your time to come to Lausanne and present to us!
 
@@ -32,7 +32,7 @@ Here are some projects that were created/started during this hackathon (click on
 
 [![](/images/2017/07/Screen-Shot-2017-07-24-at-22.46.00.webp)](https://michaelkohler.github.io/webvr-reps/)
 
-### Another thank you - our preparation hero
+## Another thank you - our preparation hero
 
 A big "thank you" goes to [Geoffroy](https://twitter.com/gperriard), who has helped us out with the whole coordination with the venue and did an amazing job promoting the event to his network. We are so happy to have people like Geoffroy who are helping us keep the Open Web public and accessible to all!
 
@@ -40,7 +40,7 @@ Honestly, the only thing I did was the administration parts of creating event pa
 
 [![](/images/2017/07/L0294.webp)](/images/2017/07/L0294.webp)
 
-### Conclusion
+## Conclusion
 
 We had a lot of fun, and we hope our attendees did too! The verbal feedback was good, however we couldn't get a lot of responses through the feedback form, even though I reminded all participants after the event through email to please fill out the feedback form. Additionally we need to do better in terms of diversity!
 

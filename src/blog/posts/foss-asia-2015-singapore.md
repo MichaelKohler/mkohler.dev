@@ -35,6 +35,13 @@ Gen Kenai talked about Firefox OS on the main track. I think it was great to hav
 On Saturday we had our own [Mozilla track](http://fossasia.org/track/FOSSASIA-Mozilla.pdf).
 
 <table>
+<thead>
+<tr>
+<th scope="col">Time</th>
+<th scope="col">Session</th>
+<th scope="col">Speaker</th>
+</tr>
+</thead>
 <tbody>
 <tr>
 <td>9:00 am</td>
@@ -124,6 +131,13 @@ In the evening all of the Mozillians went for a Chinese dinner together. After d
 On Sunday we continued with our track with workshops.
 
 <table>
+<thead>
+<tr>
+<th scope="col">Time</th>
+<th scope="col">Session</th>
+<th scope="col">Speaker</th>
+</tr>
+</thead>
 <tbody>
 <tr>
 <td>9:00 am</td>
