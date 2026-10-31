@@ -18,6 +18,9 @@ const RESOURCES_TO_PREFETCH = [
 
 const MAX_CACHE_ENTRIES = 200;
 
+// A page load caches many resources at once, one trim after them is enough.
+const TRIM_DELAY = 1000;
+
 const NETWORK_TIMEOUT = 5000;
 
 // Browsers kill a worker that takes too long to respond (Firefox after 60s) and
@@ -38,6 +41,19 @@ const trimCache = async (cache) => {
 
   const removable = keys.filter((key) => new URL(key.url).pathname !== OFFLINE_URL);
   await Promise.all(removable.slice(0, excess).map((key) => cache.delete(key)));
+};
+
+let pendingTrim = null;
+
+// Each write waits for this inside its waitUntil, so the worker stays alive
+// until the trim ran. If it's killed anyway, the next write trims instead.
+const scheduleTrim = (cache) => {
+  pendingTrim ??= new Promise((resolve) => setTimeout(resolve, TRIM_DELAY)).then(() => {
+    pendingTrim = null;
+    return trimCache(cache);
+  });
+
+  return pendingTrim;
 };
 
 const addSavedCopyNotice = async (res) => {
@@ -121,7 +137,7 @@ self.addEventListener('fetch', (event) => {
       const copy = res.clone();
       const cache = await caches.open(CACHE_NAME);
       await cache.put(cacheKey, copy);
-      await trimCache(cache);
+      await scheduleTrim(cache);
     }
   }, () => {}));
 
