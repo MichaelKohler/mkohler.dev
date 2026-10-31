@@ -244,7 +244,7 @@
           <div class="field">
             <label for="wallet-select">Wallet address</label>
             <div class="row">
-              <select id="wallet-select">
+              <select id="wallet-select" autocomplete="off">
                 <option value="https://ilp.interledger-test.dev/31ffa24">
                   EUR - https://ilp.interledger-test.dev/31ffa24
                 </option>
@@ -411,7 +411,7 @@
        * @property {Set<HTMLLinkElement>} links
        */
 
-      /** @type {Map<HTMLLinkElement, {context: Context, card: HTMLElement, refs: Record<string, HTMLElement>, totals: Map<string, number>, index: number}>} */
+      /** @type {Map<HTMLLinkElement, {context: Context, card: HTMLElement, refs: Record<string, HTMLElement>, totals: Map<string, {amount: number, digits: number}>, index: number}>} */
       const tags = new Map();
       /** @type {Set<{context: Context, group: HTMLElement}>} */
       const frames = new Set();
@@ -429,25 +429,44 @@
       };
 
       const formatters = new Map();
-      const formatAmount = (currency, amount) => {
-        if (!formatters.has(currency)) {
+      const formatAmount = (currency, { amount, digits }) => {
+        const key = `${currency}:${digits}`;
+        if (!formatters.has(key)) {
           try {
+            const options = { style: "currency", currency };
+            const { maximumFractionDigits } = new Intl.NumberFormat(
+              undefined,
+              options,
+            ).resolvedOptions();
             formatters.set(
-              currency,
-              new Intl.NumberFormat(undefined, { style: "currency", currency }),
+              key,
+              new Intl.NumberFormat(undefined, {
+                ...options,
+                maximumFractionDigits: Math.max(maximumFractionDigits, digits),
+              }),
             );
           } catch {
-            formatters.set(currency, {
-              format: (value) => `${currency} ${value.toFixed(2)}`,
+            formatters.set(key, {
+              format: (value) =>
+                `${currency} ${value.toFixed(Math.max(2, digits))}`,
             });
           }
         }
-        return formatters.get(currency).format(amount);
+        return formatters.get(key).format(amount);
       };
       const formatTotals = (totals) =>
         totals.size
           ? [...totals].map(([c, a]) => formatAmount(c, a)).join(" · ")
           : "–";
+      // Small streaming amounts need more digits than the currency's default.
+      // Showing as many as the events had also rounds away float drift.
+      const addToTotals = (totals, currency, value) => {
+        const { amount = 0, digits = 0 } = totals.get(currency) ?? {};
+        totals.set(currency, {
+          amount: amount + Number(value),
+          digits: Math.max(digits, String(value).split(".")[1]?.length ?? 0),
+        });
+      };
 
       const getRefs = (root) =>
         Object.fromEntries(
@@ -464,10 +483,15 @@
       function normalizeWalletAddress(value) {
         let input = value.trim();
         // Accept payment pointers like `$ilp.interledger-test.dev/foo`.
-        if (input.startsWith("$")) input = `https://${input.slice(1)}`;
+        const isPaymentPointer = input.startsWith("$");
+        if (isPaymentPointer) input = `https://${input.slice(1)}`;
         const url = new URL(input);
         if (url.protocol !== "https:") {
           throw new Error("Wallet address must use https://");
+        }
+        // A payment pointer without a path resolves to the well-known path.
+        if (isPaymentPointer && url.pathname === "/") {
+          url.pathname = "/.well-known/pay";
         }
         return url.href;
       }
@@ -510,10 +534,12 @@
         refs.markup.textContent = link.outerHTML;
       }
 
-      function addTag(context, walletAddress) {
+      function addTag(context, walletAddress, { disabled = false } = {}) {
         const link = context.doc.createElement("link");
         link.rel = "monetization";
         link.href = walletAddress;
+        // Set before inserting, so that a disabled tag never starts a session.
+        link.toggleAttribute("disabled", disabled);
 
         const card = tagTemplate.content.firstElementChild.cloneNode(true);
         const refs = getRefs(card);
@@ -654,11 +680,7 @@
             addTag(context, walletAddress);
           } else if (restoreTags) {
             for (const { href, disabled } of restoreTags) {
-              const link = addTag(context, href);
-              if (disabled) {
-                link.setAttribute("disabled", "");
-                renderTagState(link);
-              }
+              addTag(context, href, { disabled });
             }
           }
           restoreTags = null;
@@ -717,9 +739,8 @@
         console.log(ev);
         const amountSent = ev.amountSent.value;
         const currency = ev.amountSent.currency;
-        const amount = Number(amountSent);
 
-        pageTotals.set(currency, (pageTotals.get(currency) ?? 0) + amount);
+        addToTotals(pageTotals, currency, amountSent);
         totalAmountEl.textContent = formatTotals(pageTotals);
 
         const state = tags.get(ev.target);
@@ -729,7 +750,7 @@
           );
           return;
         }
-        state.totals.set(currency, (state.totals.get(currency) ?? 0) + amount);
+        addToTotals(state.totals, currency, amountSent);
         state.refs.amount.textContent = formatTotals(state.totals);
         appendLog(state.refs.log, currency + " " + amountSent);
       }
