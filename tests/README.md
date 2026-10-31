@@ -65,3 +65,15 @@ The handlers in `api/` are tested with the Node.js test runner, with upstream re
 ```bash
 pnpm test:api
 ```
+
+# Service Worker Tests
+
+`tests/service-worker.spec.js` checks the worker in real browsers against its own server, which can return errors, respond slowly or go down. It covers updating, caching, trimming and the fallbacks. It's part of `pnpm test` and only runs in the desktop projects. It serves `_site`, so build first if `src/sw.liquid` changed.
+
+# Internal Link Check
+
+`tests/links/internal-links.test.mjs` checks the internal links and anchors of all pages in `_site`, except inside the archived presentations. It runs in CI after the build. Run `pnpm build` first, and delete `_site` if it contains leftovers from older builds.
+
+```bash
+pnpm test:links
+```

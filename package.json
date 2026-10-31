@@ -20,6 +20,7 @@
     "start": "eleventy --serve --incremental",
     "test": "playwright test",
     "test:api": "node --test \"tests/api/*.test.mjs\"",
+    "test:links": "node --test \"tests/links/*.test.mjs\"",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "test:update": "playwright test --update-snapshots"
