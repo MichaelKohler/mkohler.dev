@@ -1,7 +1,7 @@
-// Aggregates _data/contributions.json for the charts on the Open Source and
+// Aggregates src/_data/contributions.json for the charts on the Open Source and
 // contributions pages: per year, per year × month and per source.
 import fs from "node:fs";
-import { TIME_ZONE } from "../scripts/timezone.mjs";
+import { TIME_ZONE } from "../../scripts/timezone.mjs";
 
 const contributions = JSON.parse(
   fs.readFileSync(new URL("./contributions.json", import.meta.url), "utf8"),

@@ -32,7 +32,7 @@ jobs:
         run: git config --global user.email "github-actions[bot]@users.noreply.github.com"
       - name: Commit Changes
         run: |
-          git add _data
+          git add src/_data
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else

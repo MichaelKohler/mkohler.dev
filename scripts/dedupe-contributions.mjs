@@ -1,8 +1,8 @@
-// Removes duplicates from _data/contributions.json. The GitHub filter matches on the
+// Removes duplicates from src/_data/contributions.json. The GitHub filter matches on the
 // repository name, so a commit shows up once per fork or mirror that contains it.
 import fs from "node:fs/promises";
 
-const outputFile = `${import.meta.dirname}/../_data/contributions.json`;
+const outputFile = `${import.meta.dirname}/../src/_data/contributions.json`;
 
 const COMMIT_LINK =
   /^https:\/\/github\.com\/([^/]+)\/[^/]+\/commit\/([0-9a-f]+)/;
