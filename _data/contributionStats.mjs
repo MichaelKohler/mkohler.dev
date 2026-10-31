@@ -63,7 +63,8 @@ export default () => {
   const perSource = countBy((c) => c.source);
   const years = contributions.map((c) => Number(yearOf(c)));
   const firstYear = Math.min(...years);
-  const lastYear = Math.max(...years);
+  const currentMonth = monthFormat.format(new Date());
+  const lastYear = Number(currentMonth.slice(0, 4));
   const yearRange = Array.from(
     { length: lastYear - firstYear + 1 },
     (_, i) => firstYear + i,
@@ -90,16 +91,13 @@ export default () => {
           Math.ceil((Math.log(count + 1) / Math.log(maxMonth + 1)) * 4),
         )
       : 0;
-  // Months after the latest contribution haven't happened yet, so they get no cell.
-  const lastMonth = contributions
-    .map(monthOf)
-    .reduce((a, b) => (a > b ? a : b));
+  // Months after the build date haven't happened yet, so they get no cell.
   const byMonth = yearRange.map((year) => ({
     year,
     total: format(perYear[year] || 0),
     months: monthNames.map((name, i) => {
       const key = `${year}-${String(i + 1).padStart(2, "0")}`;
-      if (key > lastMonth) {
+      if (key > currentMonth) {
         return { name, future: true };
       }
       const count = perMonth[key] || 0;
