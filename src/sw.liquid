@@ -20,6 +20,11 @@ const MAX_CACHE_ENTRIES = 200;
 
 const NETWORK_TIMEOUT = 5000;
 
+// Browsers kill a worker that takes too long to respond (Firefox after 60s) and
+// retry the request without it, which ends on their own error page. We need to
+// give up well before that to be able to show the offline page.
+const GIVE_UP_TIMEOUT = 20000;
+
 const SAVED_COPY_NOTICE = `<p class="saved-copy-notice" role="status">You're seeing a saved copy of this page because the connection failed or is very slow.</p>`;
 
 // Removes the oldest entries once the cache is over its limit. The offline
@@ -71,7 +76,9 @@ self.addEventListener('activate', (event) => {
           }
         }));
       })
-      .then(() => self.registration.navigationPreload?.enable())
+      // Earlier versions enabled this and it stays on until disabled. In Firefox,
+      // a failed preload fails the navigation no matter what we respond with.
+      .then(() => self.registration.navigationPreload?.disable())
       .then(() => self.clients.claim())
   );
 });
@@ -97,7 +104,7 @@ self.addEventListener('fetch', (event) => {
   const cacheKey = url.origin + url.pathname;
   const isNavigation = event.request.mode === 'navigate';
 
-  const network = (async () => (await event.preloadResponse) || fetch(event.request))();
+  const network = fetch(event.request);
 
   event.waitUntil(network.then(async (res) => {
     // Partial responses (206) from Range requests can't be cached, and
@@ -128,9 +135,12 @@ self.addEventListener('fetch', (event) => {
     try {
       const timeout = new Promise((resolve) => setTimeout(resolve, NETWORK_TIMEOUT));
       const res = await Promise.race([network, timeout]);
+      const giveUp = () => new Promise((_, reject) => {
+        setTimeout(() => reject(new Error('Network timed out')), GIVE_UP_TIMEOUT - NETWORK_TIMEOUT);
+      });
 
       // Without a cached copy, a slow response still beats no response
-      return res || await getCachedCopy() || await network;
+      return res || await getCachedCopy() || await Promise.race([network, giveUp()]);
     } catch (error) {
       console.error('Fetch failed; trying the cache instead.', error);
 
