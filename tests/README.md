@@ -57,3 +57,11 @@ When you make intentional visual changes:
 - `tests/visual-regression.spec.js` - Main test file
 - `playwright.config.js` - Playwright configuration
 - `tests/visual-regression.spec.js-snapshots/` - Baseline screenshots (tracked in git)
+
+# API Tests
+
+The handlers in `api/` are tested with the Node.js test runner, with upstream requests mocked. They run in CI before the build.
+
+```bash
+pnpm test:api
+```

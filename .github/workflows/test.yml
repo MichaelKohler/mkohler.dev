@@ -22,6 +22,8 @@ jobs:
           cache: 'pnpm'
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
+      - name: Run API Tests
+        run: pnpm test:api
       - name: Build
         run: pnpm build
       - name: Install Playwright Browsers
