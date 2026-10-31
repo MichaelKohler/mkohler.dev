@@ -182,6 +182,17 @@ table.contributions th,
   }
 }
 
+/* Added by the service worker when it serves a page from its cache */
+.saved-copy-notice {
+  margin: 0;
+  padding: 0.5rem 1.5rem;
+  background: var(--brand-primary);
+  color: var(--text-inverse);
+  font-family: var(--label-font-family);
+  font-size: 0.875rem;
+  text-align: center;
+}
+
 .visually-hidden,
 table.contributions thead {
   position: absolute;
@@ -1495,6 +1506,10 @@ footer {
 /* Backgrounds are dropped in forced colors, so anything drawn with one needs
  * its own system colors or a border. */
 @media (forced-colors: active) {
+  .saved-copy-notice {
+    border-bottom: 1px solid;
+  }
+
   header nav ul a {
     &:hover,
     &:focus-visible {
@@ -1591,6 +1606,7 @@ footer {
   }
 
   .skip-link,
+  .saved-copy-notice,
   header .bar,
   header .photo,
   header .social,

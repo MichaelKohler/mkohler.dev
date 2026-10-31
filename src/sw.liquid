@@ -1,0 +1,151 @@
+---
+permalink: /sw.js
+eleventyExcludeFromCollections: true
+---
+// Build {{ "now" | date: "%s" }}
+// This line changes with every build. Browsers only reinstall a worker when its
+// bytes change, and installing is what refreshes the offline page.
+
+const CACHE_NAME = 'cache::v10';
+const OFFLINE_URL = '/offline/';
+
+const RESOURCES_TO_PREFETCH = [
+  // We need the offline page so we can show it
+  // as it's unlikely somebody would fetch that
+  // by themselves..
+  OFFLINE_URL,
+];
+
+const MAX_CACHE_ENTRIES = 200;
+
+const NETWORK_TIMEOUT = 5000;
+
+const SAVED_COPY_NOTICE = `<p class="saved-copy-notice" role="status">You're seeing a saved copy of this page because the connection failed or is very slow.</p>`;
+
+// Removes the oldest entries once the cache is over its limit. The offline
+// page always has to stay, otherwise we couldn't show it anymore.
+const trimCache = async (cache) => {
+  const keys = await cache.keys();
+  const excess = keys.length - MAX_CACHE_ENTRIES;
+  if (excess <= 0) {
+    return;
+  }
+
+  const removable = keys.filter((key) => new URL(key.url).pathname !== OFFLINE_URL);
+  await Promise.all(removable.slice(0, excess).map((key) => cache.delete(key)));
+};
+
+const addSavedCopyNotice = async (res) => {
+  if (!res.headers.get('content-type')?.includes('text/html')) {
+    return res;
+  }
+
+  const html = await res.text();
+  const headers = new Headers(res.headers);
+  headers.delete('content-length');
+
+  return new Response(html.replace(/<body[^>]*>/i, (tag) => tag + SAVED_COPY_NOTICE), {
+    status: res.status,
+    statusText: res.statusText,
+    headers,
+  });
+};
+
+self.addEventListener('install', (event) => {
+  self.skipWaiting();
+
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then((cache) => cache.addAll(RESOURCES_TO_PREFETCH))
+  );
+});
+
+self.addEventListener('activate', (event) => {
+  event.waitUntil(
+    caches.keys()
+      .then((keyList) => {
+        // Purge old caches
+        return Promise.all(keyList.map((key) => {
+          if (key !== CACHE_NAME) {
+            return caches.delete(key);
+          }
+        }));
+      })
+      .then(() => self.registration.navigationPreload?.enable())
+      .then(() => self.clients.claim())
+  );
+});
+
+self.addEventListener('fetch', (event) => {
+  const url = new URL(event.request.url);
+
+  // Only GET requests can be cached, and we only want to cache
+  // same-origin requests, not cross-origin resources like fonts or
+  // embeds. Vercel's analytics endpoints and our own API routes are
+  // never worth caching.
+  if (
+    event.request.method !== 'GET' ||
+    url.origin !== self.location.origin ||
+    url.pathname.startsWith('/_vercel/') ||
+    url.pathname.startsWith('/api/') ||
+    url.pathname.startsWith('/.well-known/')
+  ) {
+    return;
+  }
+
+  // Ignore query params
+  const cacheKey = url.origin + url.pathname;
+  const isNavigation = event.request.mode === 'navigate';
+
+  const network = (async () => (await event.preloadResponse) || fetch(event.request))();
+
+  event.waitUntil(network.then(async (res) => {
+    // Partial responses (206) from Range requests can't be cached, and
+    // presentations are not worth having offline. The Web Monetization
+    // pages are also not meant to be used offline.
+    if (
+      res.status === 200 &&
+      !url.pathname.startsWith('/presentations/') &&
+      !url.pathname.startsWith('/webmonetization/')
+    ) {
+      const copy = res.clone();
+      const cache = await caches.open(CACHE_NAME);
+      await cache.put(cacheKey, copy);
+      await trimCache(cache);
+    }
+  }, () => {}));
+
+  const getCachedCopy = async () => {
+    const cached = await caches.match(cacheKey);
+    if (cached && isNavigation && url.pathname !== OFFLINE_URL) {
+      return addSavedCopyNotice(cached);
+    }
+
+    return cached;
+  };
+
+  event.respondWith((async () => {
+    try {
+      const timeout = new Promise((resolve) => setTimeout(resolve, NETWORK_TIMEOUT));
+      const res = await Promise.race([network, timeout]);
+
+      // Without a cached copy, a slow response still beats no response
+      return res || await getCachedCopy() || await network;
+    } catch (error) {
+      console.error('Fetch failed; trying the cache instead.', error);
+
+      const cached = await getCachedCopy();
+      if (cached) {
+        return cached;
+      }
+
+      // Only page navigations get the offline page; images, styles and
+      // fonts must not be answered with HTML.
+      if (isNavigation) {
+        return caches.match(OFFLINE_URL);
+      }
+
+      return Response.error();
+    }
+  })());
+});
