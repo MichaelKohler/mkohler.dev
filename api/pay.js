@@ -1,4 +1,7 @@
 const INTERNAL_SERVER_ERROR_CODE = 'INTERNAL_SERVER_ERROR';
+const BAD_GATEWAY_CODE = 'BAD_GATEWAY';
+const METHOD_NOT_ALLOWED_CODE = 'METHOD_NOT_ALLOWED';
+const ALLOWED_METHODS = 'GET, HEAD, OPTIONS';
 const PAYMENT_POINTER = "https://ilp.gatehub.net/941671735/EUR";
 const UPSTREAM_TIMEOUT_MS = 5000;
 
@@ -29,6 +32,21 @@ function getSPSPMediaType(acceptHeaderValue = "") {
 }
 
 export default async function handler(request, response) {
+  // SPSP responses contain per-request credentials
+  response.setHeader('Cache-Control', 'no-store');
+
+  if (request.method === 'OPTIONS') {
+    response.setHeader('Allow', ALLOWED_METHODS);
+    response.setHeader('Access-Control-Allow-Methods', ALLOWED_METHODS);
+    response.setHeader('Access-Control-Allow-Headers', '*');
+    return response.status(204).end();
+  }
+
+  if (request.method !== 'GET' && request.method !== 'HEAD') {
+    response.setHeader('Allow', ALLOWED_METHODS);
+    return response.status(405).json({ error: METHOD_NOT_ALLOWED_CODE });
+  }
+
   const spspMediaType = getSPSPMediaType(request.headers["accept"]);
   const mediaType = spspMediaType || DEFAULT_ACCEPT_HEADER;
 
@@ -43,11 +61,12 @@ export default async function handler(request, response) {
     });
 
     if (!res.ok) {
-      return response.status(500).json({ error: INTERNAL_SERVER_ERROR_CODE });
+      console.error(`Failed to resolve payment pointer, upstream returned ${res.status}`);
+      return response.status(502).json({ error: BAD_GATEWAY_CODE });
     }
 
     const data = await res.json();
-    response.setHeader('Content-Type', mediaType);
+    response.setHeader('Content-Type', res.headers.get('content-type') || mediaType);
     return response.status(200).send(JSON.stringify(data));
   } catch (error) {
     console.error('Failed to resolve payment pointer', error);
