@@ -7,11 +7,11 @@ title_lang: de
 
 _(English version below every paragraph)_
 
-<span lang="de">Das ist der zweite Eintrag zum [Treffen der deutschsprachigen Mozilla Gemeinschaft](https://wiki.mozilla.org/De:Meeting:2015). Insgesamt werden drei Teile veröffentlicht. Die weiteren findest du hier: [Tag 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/), [Tag 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/), [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/) .</span>
+<span lang="de">Das ist der zweite Eintrag zum [Treffen der deutschsprachigen Mozilla Gemeinschaft](https://wiki.mozilla.org/De:Meeting:2015). Insgesamt werden drei Teile veröffentlicht. Die weiteren findest du hier: [Tag 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-de-en/), [Tag 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-de-en/), [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-de-en/) .</span>
 
 <!-- excerpt -->
 
-_This is the second post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all other parts here: [day 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/), [day 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/), [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/) ._
+_This is the second post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all other parts here: [day 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-de-en/), [day 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-de-en/), [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-de-en/) ._
 
 <span lang="de">Das Treffen fand vom 20\. bis am 22\. Februar 2015 statt. Um die Koordination unter den Freiwilligen im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu gewährleisten, treffen wir uns jährlich um unsere Pläne und Ziele für das jeweilige Jahr zu definieren. Zusätzlich ist es natürlich auch wichtig, sich von Zeit zu Zeit zu treffen, da einige Diskussionen einfacher und schneller in einem Gespräch vor Ort geführt werden können. Insgesamt haben 27 Personen teilgenommen.</span>
 
@@ -148,9 +148,9 @@ _(Foto/Photo: Hagen Halbach)_
 
 _We splitted up in different groups to discuss group-specific topics and report back to everybody. We had "Localization", "Developer Engagement / Programming", "Community Building" and "Websites"._
 
-<span lang="de">Nach dieser Gruppenarbeit kamen wir zusammen und haben bereits erste Ergebnisse diskutiert. Weitere Informationen zu den Arbeitsergebnissen dieser Gruppe folgen im Beitrag zum [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/).</span>
+<span lang="de">Nach dieser Gruppenarbeit kamen wir zusammen und haben bereits erste Ergebnisse diskutiert. Weitere Informationen zu den Arbeitsergebnissen dieser Gruppe folgen im Beitrag zum [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-de-en/).</span>
 
-_We discussed the first outcomes of the groups together. Please refer to [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/) to see the results._
+_We discussed the first outcomes of the groups together. Please refer to [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-de-en/) to see the results._
 
 <span lang="de">Am Samstag kam Markus vorbei. Markus möchte regelmässige Veranstaltungen in Berlin durchführen, um die Präsenz von Mozilla in Berlin zu vergrössern und eine lokale Gemeinschaft zu gründen. Wir begrüssen diese Idee natürlich und werden in 2015 Markus mit dabei unterstützen!</span>
 
@@ -186,6 +186,6 @@ _(Foto/Photo: Brian King)_
 
 _I'd like to thank all attendees who participated in very informative and constructive discussions during the weekend. I think that we have a lot to do in 2015\. If we can save the motivation from this meetup and work on our defined plans and goals, we'll have a very successful year. You can find all pictures of the meetup on [flickr](https://wiki.mozilla.org/De:Meeting:2015#Fotos)._
 
-<span lang="de">Nun geht es weiter mit dem [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/).</span>
+<span lang="de">Nun geht es weiter mit dem [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-de-en/).</span>
 
-_Now continue reading [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/)._
+_Now continue reading [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-de-en/)._

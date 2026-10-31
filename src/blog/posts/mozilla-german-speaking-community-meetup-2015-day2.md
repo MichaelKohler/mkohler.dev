@@ -7,11 +7,11 @@ title_lang: de
 
 _(English version below every paragraph)_
 
-<span lang="de">Das ist der dritte Eintrag zum [Treffen der deutschsprachigen Mozilla Gemeinschaft](https://wiki.mozilla.org/De:Meeting:2015). Insgesamt werden drei Teile veröffentlicht. Die vorherigen Teile findest du hier: [Tag 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/), [Tag 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/), [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/) .</span>
+<span lang="de">Das ist der dritte Eintrag zum [Treffen der deutschsprachigen Mozilla Gemeinschaft](https://wiki.mozilla.org/De:Meeting:2015). Insgesamt werden drei Teile veröffentlicht. Die vorherigen Teile findest du hier: [Tag 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-de-en/), [Tag 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-de-en/), [Tag 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-de-en/) .</span>
 
 <!-- excerpt -->
 
-_This is the third post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all previous parts here: [day 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-(de-en)/), [day 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-(de-en)/), [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-(de-en)/) ._
+_This is the third post regarding the German-speaking Mozilla community meetup. There will be three parts in total. You can find all previous parts here: [day 0](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-de-en/), [day 1](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-1-de-en/), [day 2](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-2-de-en/) ._
 
 <span lang="de">Das Treffen fand vom 20\. bis am 22\. Februar 2015 statt. Um die Koordination unter den Freiwilligen im deutschsprachigen Raum (Deutschland, Österreich, Schweiz) zu gewährleisten, treffen wir uns jährlich um unsere Pläne und Ziele für das jeweilige Jahr zu definieren. Zusätzlich ist es natürlich auch wichtig, sich von Zeit zu Zeit zu treffen, da einige Diskussionen einfacher und schneller in einem Gespräch vor Ort geführt werden können. Insgesamt haben 27 Personen teilgenommen.</span>
 
