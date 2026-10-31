@@ -1,5 +1,6 @@
 const INTERNAL_SERVER_ERROR_CODE = 'INTERNAL_SERVER_ERROR';
 const PAYMENT_POINTER = "https://ilp.gatehub.net/941671735/EUR";
+const UPSTREAM_TIMEOUT_MS = 5000;
 
 const DEFAULT_ACCEPT_HEADER = "application/json";
 // In order of preference
@@ -10,12 +11,21 @@ const SPSP_MEDIA_TYPES = [
 
 // Picks the preferred SPSP media type out of an Accept header such as
 // "application/spsp4+json, application/spsp+json;q=0.9", if any.
+// The highest q-value wins, ties go to our order of preference. Types with q=0
+// are explicitly refused by the client and thus skipped. A missing or malformed
+// q-value counts as 1.
 function getSPSPMediaType(acceptHeaderValue = "") {
-  const accepted = acceptHeaderValue
-    .split(',')
-    .map((part) => part.split(';')[0].trim().toLowerCase());
+  const qValues = new Map(
+    acceptHeaderValue.split(',').map((part) => {
+      const [type, ...params] = part.split(';').map((token) => token.trim().toLowerCase());
+      const qParam = params.map((param) => param.match(/^q=(\d(?:\.\d*)?)$/)).find(Boolean);
+      return [type, qParam ? Number(qParam[1]) : 1];
+    })
+  );
 
-  return SPSP_MEDIA_TYPES.find((type) => accepted.includes(type));
+  return SPSP_MEDIA_TYPES
+    .filter((type) => qValues.get(type) > 0)
+    .sort((a, b) => qValues.get(b) - qValues.get(a))[0];
 }
 
 export default async function handler(request, response) {
@@ -27,6 +37,7 @@ export default async function handler(request, response) {
       headers: {
         Accept: mediaType,
       },
+      signal: AbortSignal.timeout(UPSTREAM_TIMEOUT_MS),
     });
 
     if (!res.ok) {
