@@ -18,9 +18,10 @@
     "build": "eleventy",
     "fetch": "DEBUG=contributions* node scripts/fetch.mjs && node scripts/dedupe-contributions.mjs",
     "start": "eleventy --serve --incremental",
-    "test": "playwright test",
+    "test": "npm run test:api && rm -rf _site && npm run build && npm run test:links && npm run test:playwright",
     "test:api": "node --test \"tests/api/*.test.mjs\"",
     "test:links": "node --test \"tests/links/*.test.mjs\"",
+    "test:playwright": "playwright test",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "test:update": "playwright test --update-snapshots"

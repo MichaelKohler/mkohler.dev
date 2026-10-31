@@ -1,4 +1,4 @@
-# Visual Regression Testing
+# Testing
 
 This project uses Playwright for visual regression testing to ensure the homepage appearance remains consistent across changes.
 
@@ -15,8 +15,11 @@ The visual regression tests are already configured and ready to use. The setup i
 ## Running Tests
 
 ```bash
-# Run all tests
+# Run all tests: API tests, a clean build, the link check and Playwright
 pnpm test
+
+# Run only the Playwright tests
+pnpm test:playwright
 
 # Run tests in headed mode (see browser)
 pnpm test:headed
@@ -68,11 +71,11 @@ pnpm test:api
 
 # Service Worker Tests
 
-`tests/service-worker.spec.js` checks the worker in real browsers against its own server, which can return errors, respond slowly or go down. It covers updating, caching, trimming and the fallbacks. It's part of `pnpm test` and only runs in the desktop projects. It serves `_site`, so build first if `src/sw.liquid` changed.
+`tests/service-worker.spec.js` checks the worker in real browsers against its own server, which can return errors, respond slowly or go down. It covers updating, caching, trimming and the fallbacks. It's part of `pnpm test:playwright` and only runs in the desktop projects. It serves `_site`, so build first if `src/sw.liquid` changed.
 
 # Internal Link Check
 
-`tests/links/internal-links.test.mjs` checks the internal links and anchors of all pages in `_site`, except inside the archived presentations. It runs in CI after the build. Run `pnpm build` first, and delete `_site` if it contains leftovers from older builds.
+`tests/links/internal-links.test.mjs` checks the internal links and anchors of all pages in `_site`, except inside the archived presentations. It runs in CI after the build. `pnpm test` builds first. To run it by itself, run `pnpm build` first, and delete `_site` if it contains leftovers from older builds.
 
 ```bash
 pnpm test:links
