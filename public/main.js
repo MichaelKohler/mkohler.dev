@@ -5,11 +5,10 @@ if ('serviceWorker' in navigator) {
     .catch((error) => console.error('Service worker registration failed.', error));
 };
 
-async function injectAnalytics() {
-  await import("/_vercel/insights/script.js");
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-}
+// Queues calls until the analytics script takes over, so va() never throws
+window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
 
 if (!navigator.globalPrivacyControl) {
-  injectAnalytics()
+  // Content blockers and local development make this fail, which is fine
+  import("/_vercel/insights/script.js").catch(() => {});
 }
