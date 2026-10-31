@@ -25,7 +25,8 @@ export default function handler(request, response) {
       }],
     };
 
-    response.status(200).json(mastodonResponse);
+    response.setHeader('Content-Type', 'application/jrd+json');
+    response.status(200).send(JSON.stringify(mastodonResponse));
     return;
   }
 
