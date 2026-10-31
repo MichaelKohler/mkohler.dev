@@ -30,9 +30,9 @@ header_title: On stage
             <span class="{{ tag | slug }}">{{tag}}</span>
           {% endfor %}
         </div>
-        <a href="{{ talk.url }}" target="_blank">{{ talk.title }}</a>
+        <a href="{{ talk.url }}" target="_blank">{{ talk.title | escape }}</a>
         <p>{{ talk.date | date: "%Y-%m-%d" }}</p>
-        <p>{{ talk.description }}</p>
+        <p>{{ talk.description | escape }}</p>
       </div>
     </li>
     {% endfor %}
