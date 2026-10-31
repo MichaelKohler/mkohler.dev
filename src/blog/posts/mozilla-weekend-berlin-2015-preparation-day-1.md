@@ -92,7 +92,7 @@ For the first day, we had planned talks to introduce Mozilla, and dive deeper in
 </tbody>
 </table>
 
-All these talks will be available on [air.mozilla.org](air.mozilla.org) once their uploaded as well! I think we had quite a good mix of projects, even though Firefox was not represented as good as it could have been.
+All these talks will be available on [air.mozilla.org](https://air.mozilla.org) once their uploaded as well! I think we had quite a good mix of projects, even though Firefox was not represented as good as it could have been.
 
 > Awesome talk about [@firefox](https://twitter.com/firefox) OS by [@sonnenkiste](https://twitter.com/sonnenkiste) at [#mozweekend](https://twitter.com/hashtag/mozweekend?src=hash) [@mozilla](https://twitter.com/mozilla) [pic.twitter.com/fcd39pdK6R](http://t.co/fcd39pdK6R)
 > — Mario Behling (@mariobehling) [July 11, 2015](https://twitter.com/mariobehling/status/619834739541868544)

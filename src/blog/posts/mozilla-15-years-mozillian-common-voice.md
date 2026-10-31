@@ -10,7 +10,7 @@ March 10th, 2023 marked my 15th year contributing to Mozilla as a volunteer. In 
 
 ## Statistics
 
-Unfortunately I can't provide the same level of granular statistics as I did in that blog post, as the data aggregation from back then does not exist anymore. However, I created my own tool to track my contributions and you can find all my contributions listed [in the Open Source section of this website](/open-source). I might write about that tool in the future, until then you can set this up for yourself as well. The code can be found on [GitHub](https://github.com/MichaelKohler/volunteer-contributions-fetch/).
+Unfortunately I can't provide the same level of granular statistics as I did in that blog post, as the data aggregation from back then does not exist anymore. However, I created my own tool to track my contributions and you can find all my contributions listed [in the Open Source section of this website](/opensource/). I might write about that tool in the future, until then you can set this up for yourself as well. The code can be found on [GitHub](https://github.com/MichaelKohler/volunteer-contributions-fetch/).
 
 ## Common Voice
 

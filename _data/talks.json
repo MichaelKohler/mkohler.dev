@@ -300,7 +300,7 @@
     "title": "Firefox OS App Day Zurich - Event",
     "description": "Firefox OS App Day introduction slides",
     "image": "/images/presentations/2013-05-25-event.webp",
-    "url": "/presentations/ffos-appday-switzerland/ffosappday",
+    "url": "/presentations/ffos-appday-switzerland/FFOSAppDay.html",
     "tags": ["Mozilla", "Firefox OS", "Switzerland"]
   },
   {
@@ -308,7 +308,7 @@
     "title": "Firefox OS App Day Zurich - MozillaCH",
     "description": "Firefox OS App Day introduction to the Mozilla Switzerland community",
     "image": "/images/presentations/2013-05-25-mozch.webp",
-    "url": "/presentations/ffos-appday-switzerland-mozch/mozillach",
+    "url": "/presentations/ffos-appday-switzerland-mozch/MozillaCH.html",
     "tags": ["Mozilla", "Switzerland"]
   },
   {
