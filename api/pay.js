@@ -32,6 +32,8 @@ export default async function handler(request, response) {
   const spspMediaType = getSPSPMediaType(request.headers["accept"]);
   const mediaType = spspMediaType || DEFAULT_ACCEPT_HEADER;
 
+  response.setHeader('Vary', 'Accept');
+
   try {
     const res = await fetch(PAYMENT_POINTER, {
       headers: {
