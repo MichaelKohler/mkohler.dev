@@ -10,6 +10,8 @@
 
 set -euo pipefail
 
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
 REPO="MichaelKohler/mkohler.dev"
 ARTIFACT_NAME="playwright-report-test"
 SNAPSHOTS_DIR="tests/visual-regression.spec.js-snapshots"
