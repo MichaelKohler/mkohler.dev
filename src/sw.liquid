@@ -25,7 +25,7 @@ const NETWORK_TIMEOUT = 5000;
 // give up well before that to be able to show the offline page.
 const GIVE_UP_TIMEOUT = 20000;
 
-const SAVED_COPY_NOTICE = `<p class="saved-copy-notice" role="status">You're seeing a saved copy of this page because the connection failed or is very slow.</p>`;
+const SAVED_COPY_NOTICE = `<p class="saved-copy-notice" role="status">You're seeing a saved copy of this page because the site could not be reached or is very slow.</p>`;
 
 // Removes the oldest entries once the cache is over its limit. The offline
 // page always has to stay, otherwise we couldn't show it anymore.
@@ -47,7 +47,10 @@ const addSavedCopyNotice = async (res) => {
 
   const html = await res.text();
   const headers = new Headers(res.headers);
+  // These described the original body, and we're responding with a different one
+  headers.delete('content-encoding');
   headers.delete('content-length');
+  headers.delete('etag');
 
   return new Response(html.replace(/<body[^>]*>/i, (tag) => tag + SAVED_COPY_NOTICE), {
     status: res.status,
@@ -139,8 +142,12 @@ self.addEventListener('fetch', (event) => {
         setTimeout(() => reject(new Error('Network timed out')), GIVE_UP_TIMEOUT - NETWORK_TIMEOUT);
       });
 
-      // Without a cached copy, a slow response still beats no response
-      return res || await getCachedCopy() || await Promise.race([network, giveUp()]);
+      if (res && res.status < 500) {
+        return res;
+      }
+
+      // Without a cached copy, a server error or a slow response still beats no response
+      return await getCachedCopy() || res || await Promise.race([network, giveUp()]);
     } catch (error) {
       console.error('Fetch failed; trying the cache instead.', error);
 
