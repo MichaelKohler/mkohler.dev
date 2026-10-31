@@ -10,15 +10,15 @@ Mozilla's [Participation Team](https://wiki.mozilla.org/Participation) has start
 
 Everything started out at the [end of September](https://groups.google.com/forum/#!topic/mozilla.community.german/d4RehRw08uo), when we formed a focus group. Everybody was invited to join the focus group to brainstorm about possible plans we can set in stone to drive Mozilla's mission forward. I'd like to thank everybody who chimed in with their ideas and thoughts on the German-speaking community and its future in our [own Discourse category](https://discourse.mozilla-community.org/c/communities/german-vision):
 
-*   [Andreas Wagner](https://mozillians.org/en-US/u/TheOne/)
-*   [Axel Hecht](https://mozillians.org/en-US/u/Pike/)
-*   [Elio Qoshi](https://mozillians.org/en-US/u/elioqoshi/)
-*   [Henrik Mitsch](https://mozillians.org/en-US/u/henx/)
-*   [Mario Behling](https://mozillians.org/en-US/u/mb/)
-*   [Michael Kohler](https://mozillians.org/en-US/u/mkohler/)
-*   [Philippe Brossard](https://mozillians.org/en-US/u/phil982/)
-*   [Sebastian Hengst](https://mozillians.org/en-US/u/Archaeopteryx/)
-*   [Sören Hentzschel](https://mozillians.org/en-US/u/soeren.hentzschel/)
+- [Andreas Wagner](https://mozillians.org/en-US/u/TheOne/)
+- [Axel Hecht](https://mozillians.org/en-US/u/Pike/)
+- [Elio Qoshi](https://mozillians.org/en-US/u/elioqoshi/)
+- [Henrik Mitsch](https://mozillians.org/en-US/u/henx/)
+- [Mario Behling](https://mozillians.org/en-US/u/mb/)
+- [Michael Kohler](https://mozillians.org/en-US/u/mkohler/)
+- [Philippe Brossard](https://mozillians.org/en-US/u/phil982/)
+- [Sebastian Hengst](https://mozillians.org/en-US/u/Archaeopteryx/)
+- [Sören Hentzschel](https://mozillians.org/en-US/u/soeren.hentzschel/)
 
 After the [community meetup at the beginning of the year](https://mkohler.dev/blog/2015/02/treffen-der-deutschsprachigen-mozilla-gemeinschaft-tag-0-de-en/) we had a lot of momentum which enabled us to get quite a lot done. Unfortunately this momentum has decreased over time, with a low since September (my opinion). Therefore our main areas we picked for our mid-term plans focused on internal improvements we can make, so we can focus on Mozilla top-organizational goals once we have implemented our improvements. This doesn't mean that the German-speaking community won't focus on product or mission, but it's just not where we can commit as a whole community right now.
 
@@ -32,9 +32,9 @@ In 6 months it's clear for new and existing contributors who is working in which
 
 Goals:
 
-*   Understandable documentation of every contribution area the German-speaking community is active in. At least 60% of the areas are documented initially.
-*   There are contact persons listed per contribution area with clear means of contact. At least 80% of the initially defined areas have at least one contact person for new contributors. For the three biggest areas there are at least two contact persons.
-*   Handling of new contributors is defined clearly for all contribution areas, including responsibilities for individuals and groups. The onboarding process is clearly specified and we get at least two new long-term contributors per area. These new contributors can be onboarded within a few weeks with the help of the contact persons as mentors. Further mentors can be defined without them needed to be "contact persons".
+- Understandable documentation of every contribution area the German-speaking community is active in. At least 60% of the areas are documented initially.
+- There are contact persons listed per contribution area with clear means of contact. At least 80% of the initially defined areas have at least one contact person for new contributors. For the three biggest areas there are at least two contact persons.
+- Handling of new contributors is defined clearly for all contribution areas, including responsibilities for individuals and groups. The onboarding process is clearly specified and we get at least two new long-term contributors per area. These new contributors can be onboarded within a few weeks with the help of the contact persons as mentors. Further mentors can be defined without them needed to be "contact persons".
 
 ## Website
 
@@ -42,11 +42,11 @@ In 6 months the [mozilla.de](http://www.mozilla.de) website is the base for all 
 
 Goals:
 
-*   The website clearly states the possibilities to contribute to the German-speaking community (even if this is only a link to a well defined /contribute page)
-*   The website lists all current Mozilla product and projects
-*   The content defined in February 2015 is re-evaluated and incorporated as needed
-*   The website is the main entry point to the community and promoted as such
-*   Through the new website we get at least 10% of new contributors which found us trough it
+- The website clearly states the possibilities to contribute to the German-speaking community (even if this is only a link to a well defined /contribute page)
+- The website lists all current Mozilla product and projects
+- The content defined in February 2015 is re-evaluated and incorporated as needed
+- The website is the main entry point to the community and promoted as such
+- Through the new website we get at least 10% of new contributors which found us trough it
 
 ## Meetings / Updates
 
@@ -54,10 +54,10 @@ In 6 months discussions among the community members are well distributed. New to
 
 Goals:
 
-*   There are at least 6 active participants per meeting
-*   The meeting is structured for efficiency and brings in a reasonable ratio between discussion and update topics. There are enough enough discussion points so that updates can be treated as "read only" in 60% of the time.
-*   The satisfaction of the participants who would like to join is increased by 30%
-*   There are at least 10 unique participants in discussions on the mailing list
+- There are at least 6 active participants per meeting
+- The meeting is structured for efficiency and brings in a reasonable ratio between discussion and update topics. There are enough enough discussion points so that updates can be treated as "read only" in 60% of the time.
+- The satisfaction of the participants who would like to join is increased by 30%
+- There are at least 10 unique participants in discussions on the mailing list
 
 ## Social Media
 
@@ -65,11 +65,11 @@ In 6 months the German-speaking community is active on the most important social
 
 Goals:
 
-*   The different channels are clearly separated and the user knows what content needs to be expected.
-*   We have at least 1200 followers with [@mozilla_deutsch](https://twitter.com/mozilla_deutsch), [@MozillaDe](https://twitter.com/mozillade) and [@FirefoxDe](https://twitter.com/firefoxde) (not unique followers)
-*   We have at least 750 "likes" on our Facebook page
-*   We keep users engaged and updated with at least 8 tweets per month per channel
-*   There are at least 3 maintainers for the different accounts
+- The different channels are clearly separated and the user knows what content needs to be expected.
+- We have at least 1200 followers with [@mozilla_deutsch](https://twitter.com/mozilla_deutsch), [@MozillaDe](https://twitter.com/mozillade) and [@FirefoxDe](https://twitter.com/firefoxde) (not unique followers)
+- We have at least 750 "likes" on our Facebook page
+- We keep users engaged and updated with at least 8 tweets per month per channel
+- There are at least 3 maintainers for the different accounts
 
 ![](https://farm9.staticflickr.com/8605/16404178707_c37bd448af_z_d.jpg)
 

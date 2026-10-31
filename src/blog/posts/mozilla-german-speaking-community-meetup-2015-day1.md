@@ -111,34 +111,34 @@ _To know where we currently stand with our community, we did a "SWOT" analysis (
 
 **<span lang="de">Stärken</span> _/ Strengths:_**
 
-*   <span lang="de">L10N: umgesetzte Menge und Qualität</span> _/ L10N: amount of work that was done and the quality of it_
-*   <span lang="de">Viele Projekte in der Gemeinschaft vertreten</span> _/ a lot of different projects are worked on by the community_
-*   <span lang="de">Wir hatten mehr Events als in 2013</span> _/ we had more (and more impactful) events in 2013_
-*   <span lang="de">Spontanität</span> _/ spontanous_
-*   ...
+- <span lang="de">L10N: umgesetzte Menge und Qualität</span> _/ L10N: amount of work that was done and the quality of it_
+- <span lang="de">Viele Projekte in der Gemeinschaft vertreten</span> _/ a lot of different projects are worked on by the community_
+- <span lang="de">Wir hatten mehr Events als in 2013</span> _/ we had more (and more impactful) events in 2013_
+- <span lang="de">Spontanität</span> _/ spontanous_
+- ...
 
 **<span lang="de">Schwächen</span> _/ Weaknesses:_**
 
-*   <span lang="de">Viel Arbeit</span> _/ a lot of work_
-*   <span lang="de">"Bus Faktor"</span> _/ "bus factor"_
-*   <span lang="de">Kommunikation</span> _/ communication_
-*   <span lang="de">Wenige Social Media Aktivitäten</span> _/ not a lot of social media activities_
-*   <span lang="de">Wöchentliche Meetings sind nicht effizient genug</span> _/ weekly meetings aren't very efficient_
-*   ....
+- <span lang="de">Viel Arbeit</span> _/ a lot of work_
+- <span lang="de">"Bus Faktor"</span> _/ "bus factor"_
+- <span lang="de">Kommunikation</span> _/ communication_
+- <span lang="de">Wenige Social Media Aktivitäten</span> _/ not a lot of social media activities_
+- <span lang="de">Wöchentliche Meetings sind nicht effizient genug</span> _/ weekly meetings aren't very efficient_
+- ....
 
 **<span lang="de">Möglichkeiten</span> _/ Opportunities:_**
 
-*   Web Standards
-*   Rust
-*   <span lang="de">Datenschutz</span> _/ privacy_
-*   Firefox Student Ambassadors
-*   ...
+- Web Standards
+- Rust
+- <span lang="de">Datenschutz</span> _/ privacy_
+- Firefox Student Ambassadors
+- ...
 
 **<span lang="de">Gefahren</span> _/ Threats:_**
 
-*   <span lang="de">Fragmentierung</span> _/ fragmentation_
-*   Chrome + Google Services
-*   ...
+- <span lang="de">Fragmentierung</span> _/ fragmentation_
+- Chrome + Google Services
+- ...
 
 ![](https://c1.staticflickr.com/9/8672/15990641624_2dd6ac191e_b.jpg)
 

@@ -42,7 +42,9 @@
       const listEl = document.getElementById("tags");
 
       const render = () => {
-        const links = document.head.querySelectorAll('link[rel="monetization"]');
+        const links = document.head.querySelectorAll(
+          'link[rel="monetization"]',
+        );
         listEl.replaceChildren(
           ...[...links].map((link) => {
             const li = document.createElement("li");

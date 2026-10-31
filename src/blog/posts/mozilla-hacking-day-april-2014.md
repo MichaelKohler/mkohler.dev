@@ -155,9 +155,9 @@ In conclusion we can happily say that this was a great event and we'll follow up
 
 ## Lessions learned
 
-*   We knew we'll have a few "no show", but we didn't expect it to be almost 40%. We need to find a way to improve that.
-*   Better calculate the food: we had some Pizzas and bread left. At the end we gave it away to people needing it more than we do, but nevertheless this could be improved. But this also has to do with the first lession.
-*   Better plan the sessions and ask people about their interests earlier to not have empty session tables.
+- We knew we'll have a few "no show", but we didn't expect it to be almost 40%. We need to find a way to improve that.
+- Better calculate the food: we had some Pizzas and bread left. At the end we gave it away to people needing it more than we do, but nevertheless this could be improved. But this also has to do with the first lession.
+- Better plan the sessions and ask people about their interests earlier to not have empty session tables.
 
 A big "Thanks!" goes out to everyone who helped organize it and supported us at the event itself. Also, I'd like to thank co.up which sponsered the venue.
 

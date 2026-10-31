@@ -1,10 +1,11 @@
 // Removes duplicates from _data/contributions.json. The GitHub filter matches on the
 // repository name, so a commit shows up once per fork or mirror that contains it.
-import fs from 'node:fs/promises';
+import fs from "node:fs/promises";
 
 const outputFile = `${import.meta.dirname}/../_data/contributions.json`;
 
-const COMMIT_LINK = /^https:\/\/github\.com\/([^/]+)\/[^/]+\/commit\/([0-9a-f]+)/;
+const COMMIT_LINK =
+  /^https:\/\/github\.com\/([^/]+)\/[^/]+\/commit\/([0-9a-f]+)/;
 
 // Lower is better: which repository's link to keep for a commit found in several.
 const ownerRank = (owner) => {
@@ -16,11 +17,12 @@ const ownerRank = (owner) => {
 
 // Only commits are compared by SHA, a PR or comment is a separate contribution.
 const parseCommit = ({ source, link }) => {
-  const [, owner, sha] = (source === 'github-commit' && link.match(COMMIT_LINK)) || [];
+  const [, owner, sha] =
+    (source === "github-commit" && link.match(COMMIT_LINK)) || [];
   return { owner, sha };
 };
 
-const contributions = JSON.parse(await fs.readFile(outputFile, 'utf8'));
+const contributions = JSON.parse(await fs.readFile(outputFile, "utf8"));
 
 const bestCommits = new Map();
 for (const contribution of contributions) {
@@ -47,4 +49,6 @@ const deduped = contributions.filter((contribution) => {
 });
 
 await fs.writeFile(outputFile, `${JSON.stringify(deduped, null, 2)}\n`);
-console.log(`Removed ${contributions.length - deduped.length} duplicate contributions`);
+console.log(
+  `Removed ${contributions.length - deduped.length} duplicate contributions`,
+);

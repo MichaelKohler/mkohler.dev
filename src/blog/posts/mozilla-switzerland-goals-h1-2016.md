@@ -14,12 +14,12 @@ With these remarks in mind, we started to define goals for 2016\. Since there ar
 
 The goals are highly influenced by the [OKR (Objective - Key Results) Framework](http://eleganthack.com/the-art-of-the-okr/). To document open issues that support this goal, I have created [a repository in our MozillaCH GitHub organization](https://github.com/mozillach/participation). The goal is to assign the "overall goal" label to each issue. You can find a good documentation on GitHub issues [in their documentation](https://help.github.com/articles/about-issues/). There is [a template](https://github.com/mozillach/participation/issues/1) you can use for new issues.
 
-*   [Objective 1](https://github.com/mozillach/participation/issues/3): The community is vibrant and active due to structured contribution areas
-*   [Objective 2](https://github.com/mozillach/participation/issues/4): MozillaCH is a valuable partner for privacy in Switzerland
-*   [Objective 3](https://github.com/mozillach/participation/issues/5): There is a vibrant community in the "Romandie" which is part of the overall community
-*   [Objective 4](https://github.com/mozillach/participation/issues/6): The MozillaCH website is the place to link to for community topics
-*   [Objective 5](https://github.com/mozillach/participation/issues/7): With talks and events we increase our reach and provide a valuable information source regarding the Open Web
-*   [Objective 6](https://github.com/mozillach/participation/issues/8): Social Media is a crucial part of our activities providing valuable information about Mozilla and the Open Web
+- [Objective 1](https://github.com/mozillach/participation/issues/3): The community is vibrant and active due to structured contribution areas
+- [Objective 2](https://github.com/mozillach/participation/issues/4): MozillaCH is a valuable partner for privacy in Switzerland
+- [Objective 3](https://github.com/mozillach/participation/issues/5): There is a vibrant community in the "Romandie" which is part of the overall community
+- [Objective 4](https://github.com/mozillach/participation/issues/6): The MozillaCH website is the place to link to for community topics
+- [Objective 5](https://github.com/mozillach/participation/issues/7): With talks and events we increase our reach and provide a valuable information source regarding the Open Web
+- [Objective 6](https://github.com/mozillach/participation/issues/8): Social Media is a crucial part of our activities providing valuable information about Mozilla and the Open Web
 
 ![](/images/2016/02/CRhvD5rWwAEDmGp.webp)
 

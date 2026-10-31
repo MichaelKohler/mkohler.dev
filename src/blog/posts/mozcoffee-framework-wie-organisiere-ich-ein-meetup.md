@@ -13,11 +13,11 @@ Dieses Dokument soll als kurzes Tutorial dienen, um ein erfolgreiches Meetup zu 
 
 Als erstes sollte man sich überlegen, was das Ziel für das Meetup ist. Mögliche Fragen dazu sind:
 
-*   Ist es ein Meetup, um neue Mitwirkende in die Community zu integrieren?
-*   Ist es ein Meetup, um sich innerhalb der bestehenden Community besser kennenzulernen und ein regelmässiger Ideenaustausch zu gestalten?
-*   Soll dies “generell Mozilla” oder ist es eine Serie von möglichen, verschiedenen Themen?
-*   Wem will ich was bieten? Dies kann Mitarbeiter im Büro, Kollegen/Freunde oder auch Fremde sein.
-Anhand dieser Fragen, kann die Agenda mit möglichen Themen zusammengestellt werden.
+- Ist es ein Meetup, um neue Mitwirkende in die Community zu integrieren?
+- Ist es ein Meetup, um sich innerhalb der bestehenden Community besser kennenzulernen und ein regelmässiger Ideenaustausch zu gestalten?
+- Soll dies “generell Mozilla” oder ist es eine Serie von möglichen, verschiedenen Themen?
+- Wem will ich was bieten? Dies kann Mitarbeiter im Büro, Kollegen/Freunde oder auch Fremde sein.
+  Anhand dieser Fragen, kann die Agenda mit möglichen Themen zusammengestellt werden.
 
 ## Mögliche Themen / Formate
 
@@ -27,36 +27,36 @@ Das andere Format ist ein Vortrag-basiertes Meetup. Hier spielt es grundsätzlic
 
 Mögliche Themen für Vorträge (kann von 10 bis 60 Minuten reichen):
 
-*   Mozilla generell (Mission, Struktur, Gemeinschaft)
-*   Was sind die möglichen funktionalen Gebiete, bei denen sich man engagieren kann?
-*   Produkt-spezifisch, z.B. Firefox, Firefox OS, Webmaker, ..
-*   Gebiet-spezifisch, z.B. UX, Design, Coding, Lokalisierung, ..
-*   Web Developer spezifische Talks, wie z.B. “Demo Firefox Developer Tools”
-*   Netzneutralität, Privatsphäre
-Für beide Formate gilt: es macht nichts, wenn du auf eine Frage nicht antworten kannst. Auch “ich weiss, wen ich da fragen kann und ich werde mich bei dir melden” ist eine gute Antwort.
+- Mozilla generell (Mission, Struktur, Gemeinschaft)
+- Was sind die möglichen funktionalen Gebiete, bei denen sich man engagieren kann?
+- Produkt-spezifisch, z.B. Firefox, Firefox OS, Webmaker, ..
+- Gebiet-spezifisch, z.B. UX, Design, Coding, Lokalisierung, ..
+- Web Developer spezifische Talks, wie z.B. “Demo Firefox Developer Tools”
+- Netzneutralität, Privatsphäre
+  Für beide Formate gilt: es macht nichts, wenn du auf eine Frage nicht antworten kannst. Auch “ich weiss, wen ich da fragen kann und ich werde mich bei dir melden” ist eine gute Antwort.
 
 ## Mögliche Agenda mit Vorträgen
 
-*   18:30 Eintreffen
-*   18:40 kurze Intro zu “Was ist Mozilla?”
-*   18:45 Vortrag
-*   xx:xx Fragerunde
-*   danach gemütliches Beisammensein und Diskussionsrunde
-Dies ist natürlich nur ein Vorschlag. Wenn es sich herausstellt, dass ein Treffen über den Mittag besser geeignet wäre, kann dies natürlich auch gemacht werden.
+- 18:30 Eintreffen
+- 18:40 kurze Intro zu “Was ist Mozilla?”
+- 18:45 Vortrag
+- xx:xx Fragerunde
+- danach gemütliches Beisammensein und Diskussionsrunde
+  Dies ist natürlich nur ein Vorschlag. Wenn es sich herausstellt, dass ein Treffen über den Mittag besser geeignet wäre, kann dies natürlich auch gemacht werden.
 
 ## Was ist das gewünschte Resultat des Meetups?
 
 Eine wichtige Frage ist, was das Resultat des Meetups sein soll.
 
-*   Generelle Information über Mozilla, Produkte, etc, damit die Leute informiert sind?
-*   Gewinnen von neuen Contributorn?
-*   Mischung aus beidem?
-Um die weitere Planung zu vereinfachen, sollte hier 2-3 Ziele definiert werden. Mögliche Beispiele sind:
+- Generelle Information über Mozilla, Produkte, etc, damit die Leute informiert sind?
+- Gewinnen von neuen Contributorn?
+- Mischung aus beidem?
+  Um die weitere Planung zu vereinfachen, sollte hier 2-3 Ziele definiert werden. Mögliche Beispiele sind:
 
-*   Am Ende des Meetups wissen 5 weitere Personen für was Mozilla einsteht und wie man helfen könnte
-*   Am Ende des Meetups sind 2 Personen interessiert bei Mozilla mitzumachen und wissen, wo sie beginnen können
-*   10 neue Personen werden Firefox zuhause runterladen und ausprobieren
-*   2 Personen erzählen ihren Freunden vom Meetup und laden diese zum nächsten Treffen ein
+- Am Ende des Meetups wissen 5 weitere Personen für was Mozilla einsteht und wie man helfen könnte
+- Am Ende des Meetups sind 2 Personen interessiert bei Mozilla mitzumachen und wissen, wo sie beginnen können
+- 10 neue Personen werden Firefox zuhause runterladen und ausprobieren
+- 2 Personen erzählen ihren Freunden vom Meetup und laden diese zum nächsten Treffen ein
 
 ## Grösse
 
@@ -102,9 +102,9 @@ Für regelmässige Meetups kann auf meetup.com eine Meetup-Gruppe erstellt werde
 
 Beispiele:
 
-*   [http://www.meetup.com/Mozilla-Meetup-Switzerland/](http://www.meetup.com/Mozilla-Meetup-Switzerland/)
-*   [http://www.meetup.com/Bremen-Mozilla-Meetup/](http://www.meetup.com/Bremen-Mozilla-Meetup/)
-*   [http://www.meetup.com/Berlin-Mozilla-Meetup/](http://www.meetup.com/Berlin-Mozilla-Meetup/)
+- [http://www.meetup.com/Mozilla-Meetup-Switzerland/](http://www.meetup.com/Mozilla-Meetup-Switzerland/)
+- [http://www.meetup.com/Bremen-Mozilla-Meetup/](http://www.meetup.com/Bremen-Mozilla-Meetup/)
+- [http://www.meetup.com/Berlin-Mozilla-Meetup/](http://www.meetup.com/Berlin-Mozilla-Meetup/)
 
 ### Twitter / Soziale Medien
 

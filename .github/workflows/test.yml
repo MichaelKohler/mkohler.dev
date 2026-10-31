@@ -19,9 +19,11 @@ jobs:
         uses: actions/setup-node@v7
         with:
           node-version: 24
-          cache: 'pnpm'
+          cache: "pnpm"
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
+      - name: Check Formatting
+        run: pnpm format:check
       - name: Run API Tests
         run: pnpm test:api
       - name: Build

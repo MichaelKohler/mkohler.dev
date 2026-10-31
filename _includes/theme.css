@@ -30,7 +30,8 @@
   src: url("/fonts/fa-v6.1.2-mini-extended.woff2") format("woff2");
 }
 
-.fab, .fas {
+.fab,
+.fas {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -38,7 +39,7 @@
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
-  line-height: 1
+  line-height: 1;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -98,7 +99,12 @@ img {
   display: block;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--title-font-family);
   font-weight: 400;
   line-height: 1.12;
@@ -211,7 +217,11 @@ header {
   padding: 8rem var(--page-edge) 5rem;
   color: var(--text-inverse);
   background:
-    radial-gradient(ellipse 80% 70% at 50% 0%, oklch(0.42 0.07 250 / 0.8), transparent 70%),
+    radial-gradient(
+      ellipse 80% 70% at 50% 0%,
+      oklch(0.42 0.07 250 / 0.8),
+      transparent 70%
+    ),
     linear-gradient(180deg, var(--brand-secondary), var(--brand-primary));
 
   & a {
@@ -767,7 +777,11 @@ header {
       padding: 0.6rem 0;
       list-style: none;
       /* One faint gridline per year, lined up with the axis below. */
-      background: repeating-linear-gradient(to right, var(--accent-light-300) 0 1px, transparent 1px calc(100% / var(--years)));
+      background: repeating-linear-gradient(
+        to right,
+        var(--accent-light-300) 0 1px,
+        transparent 1px calc(100% / var(--years))
+      );
     }
 
     & li {
@@ -803,7 +817,11 @@ header {
         --bar: var(--brand-primary);
         padding-right: 3rem;
         border-radius: 6px 0 0 6px;
-        background: linear-gradient(to right, var(--bar) calc(100% - 2.5rem), color-mix(in oklch, var(--bar) 15%, var(--background)));
+        background: linear-gradient(
+          to right,
+          var(--bar) calc(100% - 2.5rem),
+          color-mix(in oklch, var(--bar) 15%, var(--background))
+        );
 
         &:hover,
         &:focus-visible {
@@ -952,7 +970,11 @@ header {
     flex: 1;
     height: max(2px, calc(var(--value) * 100%));
     border-radius: 4px 4px 0 0;
-    background: color-mix(in oklch, var(--brand-primary) 55%, var(--accent-light-300));
+    background: color-mix(
+      in oklch,
+      var(--brand-primary) 55%,
+      var(--accent-light-300)
+    );
 
     &.peak {
       background: var(--brand-primary);
@@ -999,7 +1021,13 @@ header {
   }
 
   & .bar:nth-last-child(-n + 3):hover::after,
-  & .cells .cell:is(:nth-child(13n + 11), :nth-child(13n + 12), :nth-child(13n)):hover::after {
+  &
+    .cells
+    .cell:is(
+      :nth-child(13n + 11),
+      :nth-child(13n + 12),
+      :nth-child(13n)
+    ):hover::after {
     left: auto;
     right: 0;
     transform: none;
@@ -1040,7 +1068,11 @@ header {
       grid-column: 1 / -1;
       height: 6px;
       border-radius: 3px;
-      background: linear-gradient(to right, var(--brand-primary) calc(var(--value) * 100%), var(--accent-light-300) 0);
+      background: linear-gradient(
+        to right,
+        var(--brand-primary) calc(var(--value) * 100%),
+        var(--accent-light-300) 0
+      );
     }
   }
 
@@ -1083,10 +1115,30 @@ header {
       height: 11px;
     }
 
-    &[data-level="1"] { background: color-mix(in oklch, var(--brand-primary) 22%, var(--accent-light-300)); }
-    &[data-level="2"] { background: color-mix(in oklch, var(--brand-primary) 45%, var(--accent-light-300)); }
-    &[data-level="3"] { background: color-mix(in oklch, var(--brand-primary) 70%, var(--accent-light-300)); }
-    &[data-level="4"] { background: var(--brand-primary); }
+    &[data-level="1"] {
+      background: color-mix(
+        in oklch,
+        var(--brand-primary) 22%,
+        var(--accent-light-300)
+      );
+    }
+    &[data-level="2"] {
+      background: color-mix(
+        in oklch,
+        var(--brand-primary) 45%,
+        var(--accent-light-300)
+      );
+    }
+    &[data-level="3"] {
+      background: color-mix(
+        in oklch,
+        var(--brand-primary) 70%,
+        var(--accent-light-300)
+      );
+    }
+    &[data-level="4"] {
+      background: var(--brand-primary);
+    }
   }
 
   & .key {
@@ -1553,17 +1605,29 @@ footer {
     }
 
     & .sources i {
-      background: linear-gradient(to right, CanvasText calc(var(--value) * 100%), color-mix(in srgb, CanvasText 25%, Canvas) 0);
+      background: linear-gradient(
+        to right,
+        CanvasText calc(var(--value) * 100%),
+        color-mix(in srgb, CanvasText 25%, Canvas) 0
+      );
     }
 
     & .cell {
       border: 1px solid CanvasText;
       background: Canvas;
 
-      &[data-level="1"] { background: color-mix(in srgb, CanvasText 30%, Canvas); }
-      &[data-level="2"] { background: color-mix(in srgb, CanvasText 55%, Canvas); }
-      &[data-level="3"] { background: color-mix(in srgb, CanvasText 75%, Canvas); }
-      &[data-level="4"] { background: CanvasText; }
+      &[data-level="1"] {
+        background: color-mix(in srgb, CanvasText 30%, Canvas);
+      }
+      &[data-level="2"] {
+        background: color-mix(in srgb, CanvasText 55%, Canvas);
+      }
+      &[data-level="3"] {
+        background: color-mix(in srgb, CanvasText 75%, Canvas);
+      }
+      &[data-level="4"] {
+        background: CanvasText;
+      }
     }
 
     & .cells .cell:hover {

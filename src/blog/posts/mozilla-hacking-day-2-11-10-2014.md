@@ -8,7 +8,7 @@ On the 11th of October we organized a "Mozilla Hacking Day 2" in Berlin. This wa
 
 <!-- excerpt -->
 
-On Friday we met and went to dinner and talked about the next day. Since we had to wake up early on Saturday we didn't stay up long (*cough*). On Saturday we had a quick delay since we couldn't have our room at TU Berlin yet at 9am. Fortunately we could have it at 9:30am and had interesting talks before that while waiting. This was organized together with [MeshCon](http://meshcon.net/), so we could talk to a lot of people that generally don't get in touch with Mozilla.
+On Friday we met and went to dinner and talked about the next day. Since we had to wake up early on Saturday we didn't stay up long (_cough_). On Saturday we had a quick delay since we couldn't have our room at TU Berlin yet at 9am. Fortunately we could have it at 9:30am and had interesting talks before that while waiting. This was organized together with [MeshCon](http://meshcon.net/), so we could talk to a lot of people that generally don't get in touch with Mozilla.
 
 ![Table picture](https://farm4.staticflickr.com/3956/14931192133_c3c0114762.jpg)
 
@@ -24,10 +24,10 @@ From the around 35 attendees, 2 said that they will continue contributing to Moz
 
 According to the feedback we have decided the following:
 
-*   More specific hackathons (for example "Firefox Hacking")
-*   Since we didn't do any localization there will be a localization sprint next year
-*   It's hard to get feedback (only 4 people have filled out the form) - how can we improve that?
-*   The next time, prepare a "Good First Bug" list beforehand instead of using the bugzilla search
+- More specific hackathons (for example "Firefox Hacking")
+- Since we didn't do any localization there will be a localization sprint next year
+- It's hard to get feedback (only 4 people have filled out the form) - how can we improve that?
+- The next time, prepare a "Good First Bug" list beforehand instead of using the bugzilla search
 
 All in all, it was a great day and we'll certainly provide this opportunity to learn in 2015.
 

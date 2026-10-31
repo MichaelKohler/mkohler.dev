@@ -18,10 +18,10 @@ Saarbrücker Str. 24, Haus C, Berlin
 
 ## Schedule for Saturday 28th November
 
-*   Servo: Mozilla's Parallel & Safe Next-Generation Browser Engine
-*   Data reporting at Mozilla
-*   Firefox OS: Why we exist
-*   What's new in Firefox
+- Servo: Mozilla's Parallel & Safe Next-Generation Browser Engine
+- Data reporting at Mozilla
+- Firefox OS: Why we exist
+- What's new in Firefox
 
 After the talks there will be some food and time to get in touch with developers and each other.
 

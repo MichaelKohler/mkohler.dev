@@ -8,13 +8,14 @@ Currently there is a discussion about the Tabs-on-Top feature in the [mozilla.de
 
 <!-- excerpt -->
 
-Firefox is currently used by millions of users. This means a lot of people who need to be satisfied. Otherwise they will just think about changing the browser. But wait, is there a good browser which has the option to place tabs on the bottom of the location bar? Yes, it is Firefox. Of course there will be an option to place tabs on the bottom. It is just about where to place the tabs by *default*.
+Firefox is currently used by millions of users. This means a lot of people who need to be satisfied. Otherwise they will just think about changing the browser. But wait, is there a good browser which has the option to place tabs on the bottom of the location bar? Yes, it is Firefox. Of course there will be an option to place tabs on the bottom. It is just about where to place the tabs by _default_.
 
 It is well known that good design is getting more and more important (e.g. the iPhone or iPad design). Unfortunately a lot of people think that good visual design (good looking interfaces) are the best ones. This is in most cases absolutely false. The best GUI is the one that allows the user to do the needed actions in the most comfortable way. A browser is still just for surfing the web (at least in most cases) and not for looking at something beautiful.
 
 Coming back to the actual discussion I think it is difficult to get to a good decision. There are pros and cons which I will explain now.
 
 ## Pros
+
 Often tabs indicate that the content will change. Already with tabs on bottom the content of the tab changes when clicking on another tab. This will not change. But have you ever thought about other things that change when focusing another tab? The first thing that comes to mind is the location bar. Sure, that was logical, wasn't it? The other thing are the forward/back-arrows. The location bar indicates the URL you are currently on, the arrows represent the history. Even though you don't see the change of the arrows right away, their content changes. In my opinion it would be more intuitive having the tabs on top (even though a few things are constant like the home button).
 
 [![](/images/2010/04/bookmarksbar_on_tablevel.webp)](/images/2010/04/bookmarksbar_on_tablevel.webp)

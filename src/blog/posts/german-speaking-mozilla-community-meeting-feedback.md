@@ -46,12 +46,12 @@ The same goes for the food format we used. We had deliveries twice and went for 
 
 There are also a few text inputs I'd like to mention here:
 
-*   We should have talked more about Social Media
-*   Localizer group was small, important people couldn't come to the meetup
-*   Community Building topics might be quite hard for technical people
-*   We could do daily logistics emails to all participants
-*   "It would have been great if everyone couldve [sic!] given their input on topics. A few contributors were not participating in discussions which lowers the quantity of valuable input."
-*   The presence of the few Mozilla employees were valued, even though a few people would have liked more input from the volunteers
+- We should have talked more about Social Media
+- Localizer group was small, important people couldn't come to the meetup
+- Community Building topics might be quite hard for technical people
+- We could do daily logistics emails to all participants
+- "It would have been great if everyone couldve [sic!] given their input on topics. A few contributors were not participating in discussions which lowers the quantity of valuable input."
+- The presence of the few Mozilla employees were valued, even though a few people would have liked more input from the volunteers
 
 And of course, completely selfish: "Michael+Hagen! Awesome guys!"
 

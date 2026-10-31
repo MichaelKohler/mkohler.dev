@@ -7,6 +7,7 @@ date: 2016-05-05 14:31:47 +02:00
 Last Saturday we've held a [Firefox Hackathon](https://mozilla.github.io/reps-archive/e/firefox-hackathon-zurich-april-2015/) in Zurich, Switzerland. We've had 12 people joining us.
 
 <!-- excerpt -->
+
 ## Introduction
 
 At first I gave an [introduction to Firefox](https://docs.google.com/presentation/d/11euVpPoJ7kKO1OcWTYCqA3XOmUC_DAoGi1rJEeQtOS8/edit) and introduced the agenda of the hackathon.
@@ -27,16 +28,16 @@ Before the hackathon we created a list of "good first bugs" that we could work o
 
 We worked on about 13 different bugs, and we finished 10 patches! This is a great achievement, we probably couldn't have done that if we needed more time to set up a traditional Firefox environment. Here's the full list:
 
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1031956](https://bugzilla.mozilla.org/show_bug.cgi?id=1031956) (Colin, Patch done, but not yet uploaded)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1256822](https://bugzilla.mozilla.org/show_bug.cgi?id=1256822) (Fabien, patch just needs a small addition to the commit message)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1256895](https://bugzilla.mozilla.org/show_bug.cgi?id=1256895) (Ale and Richard, patch just needs a small addition to the commit message)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1256912](https://bugzilla.mozilla.org/show_bug.cgi?id=1256912) (Augustin, patch was checked in)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1256810](https://bugzilla.mozilla.org/show_bug.cgi?id=1256810) (Fabien, patch just needs a small addition to the commit message)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1256936](https://bugzilla.mozilla.org/show_bug.cgi?id=1256936) (Fabien, patch just needs a small addition to the commit message)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1256795](https://bugzilla.mozilla.org/show_bug.cgi?id=1256795) (Ale and Richard, patch just needs a small addition to the commit message)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1235062](https://bugzilla.mozilla.org/show_bug.cgi?id=1235062) (Ale and Richard, patchs needs some more work)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1256863](https://bugzilla.mozilla.org/show_bug.cgi?id=1256863) (Michael, patch was checked in)
-* [https://bugzilla.mozilla.org/show_bug.cgi?id=1256854](https://bugzilla.mozilla.org/show_bug.cgi?id=1256854) (Michael, patch was checked in)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1031956](https://bugzilla.mozilla.org/show_bug.cgi?id=1031956) (Colin, Patch done, but not yet uploaded)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1256822](https://bugzilla.mozilla.org/show_bug.cgi?id=1256822) (Fabien, patch just needs a small addition to the commit message)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1256895](https://bugzilla.mozilla.org/show_bug.cgi?id=1256895) (Ale and Richard, patch just needs a small addition to the commit message)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1256912](https://bugzilla.mozilla.org/show_bug.cgi?id=1256912) (Augustin, patch was checked in)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1256810](https://bugzilla.mozilla.org/show_bug.cgi?id=1256810) (Fabien, patch just needs a small addition to the commit message)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1256936](https://bugzilla.mozilla.org/show_bug.cgi?id=1256936) (Fabien, patch just needs a small addition to the commit message)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1256795](https://bugzilla.mozilla.org/show_bug.cgi?id=1256795) (Ale and Richard, patch just needs a small addition to the commit message)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1235062](https://bugzilla.mozilla.org/show_bug.cgi?id=1235062) (Ale and Richard, patchs needs some more work)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1256863](https://bugzilla.mozilla.org/show_bug.cgi?id=1256863) (Michael, patch was checked in)
+- [https://bugzilla.mozilla.org/show_bug.cgi?id=1256854](https://bugzilla.mozilla.org/show_bug.cgi?id=1256854) (Michael, patch was checked in)
 
 Thanks to everybody who contributed, great work! Also a big thanks to Julian Descolette, a Dev Tools employee from Switzerland who supported us as a really good mentor. Without him we probably couldn't have fixed some of the bugs in that time!
 
@@ -56,9 +57,9 @@ For the next hackathon, we might want to have a talk about the Firefox Architect
 
 ## Lessions learned
 
-*   Janitor will be great for hackathons (though still Alpha, so keep an eye on it)
-*   The mix of talk + then directly start hacking works out
-*   The participants are happy if they can create a patch in a few minutes to learn the process (Creating Patch, Bugzilla, Review, etc) and I think they are more motivated for future patches
+- Janitor will be great for hackathons (though still Alpha, so keep an eye on it)
+- The mix of talk + then directly start hacking works out
+- The participants are happy if they can create a patch in a few minutes to learn the process (Creating Patch, Bugzilla, Review, etc) and I think they are more motivated for future patches
 
 ![](https://c4.staticflickr.com/8/7164/26830426435_816408ddb3_z.jpg)
 

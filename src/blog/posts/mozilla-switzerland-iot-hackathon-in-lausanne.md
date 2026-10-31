@@ -13,6 +13,7 @@ On April 2nd 2016 we held a small [IoT Hackathon in Lausanne](http://www.meetup.
 We started to organize the [Hackathon on Github](https://github.com/mozillach/participation/issues/12), so everyone can participate. Geoffroy was really helpful to organize the space for it at [Liip.ch](https://www.liip.ch). Thanks a lot to them, without them organizing our events would be way harder!
 
 ## The Hackathon
+
 We expected more people to come, but as mentioned above, this is our first self-organized event in the French speaking part of Switzerland. Nevertheless we were four persons with an interest in hacking something together.
 
 Geoffroy and Paul started to have a look at [Vaani.iot](https://github.com/mozilla/vaani.iot), one of the projects that Mozilla is currently pushing on. They started to build it on their laptops, unfortunately the Vaani documentation is not good enough yet to see the full picture and what you could do with it. We're planning to [send some feedback](https://github.com/mozillach/participation/issues/37) regarding that to the Vaani team.
@@ -29,10 +30,10 @@ After all, we could achieve something together and definitely had some good lear
 
 ## Lessions learned
 
-*   Organizing a hackathon for the first time in a new city is not easy
-*   We probably need to establish an "evening-only" meetup series first, so we can attract participants that identify with us
-*   We could use this opportunity to document the Liip space in Lausanne for future events on our [Events page on the wiki](https://wiki.mozilla.org/Switzerland/Events)
-*   Not all projects are well documented, we need to work on this!
+- Organizing a hackathon for the first time in a new city is not easy
+- We probably need to establish an "evening-only" meetup series first, so we can attract participants that identify with us
+- We could use this opportunity to document the Liip space in Lausanne for future events on our [Events page on the wiki](https://wiki.mozilla.org/Switzerland/Events)
+- Not all projects are well documented, we need to work on this!
 
 ## After the Hackathon
 

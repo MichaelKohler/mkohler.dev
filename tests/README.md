@@ -36,7 +36,7 @@ pnpm test:update
 The current setup tests:
 
 - **Chromium Desktop** (1280x720): Homepage screenshot
-- **Chromium Mobile** (iPhone 12 size): Homepage screenshot  
+- **Chromium Mobile** (iPhone 12 size): Homepage screenshot
 - **Firefox Desktop** (1280x720): Homepage screenshot
 - **Firefox Mobile** (390x844): Homepage screenshot
 

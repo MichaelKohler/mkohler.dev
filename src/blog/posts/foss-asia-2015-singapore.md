@@ -220,12 +220,12 @@ Further we promoted the [Bug Sprint](https://mozbugsprints.org/e/fossasia-2015) 
 
 ## Lessons learned (these are just my points, we need to have a more broad discussion with all the people involved)
 
-*   Next time we should have a general overview of the location before the event (is there a main booth room? Where are the tracks located exactly?)
-*   Swag should arrive in time. I did not check what exactly the problem was, but at conferences it’s critical to have at least some stickers. Also you need to have something to mark the booth with (table cloth would be perfect).
-*   Further, in my opinion, it wouldn’t hurt to have a roll-banner to use for the booth. It’s hard to tell what booth it is when people stand in front of the swag.
-*   Having a “Web” and “Mozilla” track is difficult. Non-Mozillians will often choose the web track since it’s more general. Maybe we could “inject” a few talks into the other tracks? Maybe we could move all technical presentations to the different tracks and have only “evangelism” talks at our track? (this is not solely my idea, Deb and all others helped a lot last night)
-*   Aggressively advertising workshops helps.
-*   People are interested in Mozilla, maybe we could do even more outreach during the breaks.
+- Next time we should have a general overview of the location before the event (is there a main booth room? Where are the tracks located exactly?)
+- Swag should arrive in time. I did not check what exactly the problem was, but at conferences it’s critical to have at least some stickers. Also you need to have something to mark the booth with (table cloth would be perfect).
+- Further, in my opinion, it wouldn’t hurt to have a roll-banner to use for the booth. It’s hard to tell what booth it is when people stand in front of the swag.
+- Having a “Web” and “Mozilla” track is difficult. Non-Mozillians will often choose the web track since it’s more general. Maybe we could “inject” a few talks into the other tracks? Maybe we could move all technical presentations to the different tracks and have only “evangelism” talks at our track? (this is not solely my idea, Deb and all others helped a lot last night)
+- Aggressively advertising workshops helps.
+- People are interested in Mozilla, maybe we could do even more outreach during the breaks.
 
 We have started a discussion about the “lessons learned” on [Discourse](https://discourse.mozilla-community.org/t/fossasia-possible-improvements/1830). Join in if you have attended #fossasia (or otherwise if you have good input).
 

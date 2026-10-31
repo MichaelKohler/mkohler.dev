@@ -37,9 +37,9 @@ _A big "Thank you" to Hagen (help with the organization), Martyna (all office an
 
 ## <span lang="de">Ziele des Treffens</span> _/ Goals_
 
-*   <span lang="de">Stand der Gemeinschaft besprechen</span> _/ discuss the current state of the community_
-*   <span lang="de">Pläne und Ziele für 2015 definieren</span> _/ define plans and goals for 2015_
-*   <span lang="de">Zusammenhalt stärken und persönliche Gespräche führen</span> _/ increase the atmosphere and have time for personal discussions_
+- <span lang="de">Stand der Gemeinschaft besprechen</span> _/ discuss the current state of the community_
+- <span lang="de">Pläne und Ziele für 2015 definieren</span> _/ define plans and goals for 2015_
+- <span lang="de">Zusammenhalt stärken und persönliche Gespräche führen</span> _/ increase the atmosphere and have time for personal discussions_
 
 <span lang="de">Ich denke, dass wir diese Ziele wunderbar erfüllt haben.</span>
 

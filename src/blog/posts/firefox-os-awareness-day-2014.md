@@ -12,10 +12,10 @@ On the 13.12.2014 we've met in Cologne, Germany to have a "Firefox OS Awareness 
 
 Most of the people under 50 years old in Germany own a smartphone. This is either an Android, iOS, Windows Phone or BlackBerry, but not a lot of Firefox OS devices around. Firefox OS devices are sold at Congstar (online) and O2 (they have shops, but haven't seen any Firefox OS devices in the shops yet). There are probably three different segments where Firefox OS devices could be considered:
 
-*   Teens who buy their first smartphone (contra: many apps that teens use are not available on Firefox OS yet)
-*   Privacy concerned people
-*   People over 50 who still use feature phones (but this is a hard segment since most of the time they don't actually want to spend money on a smartphone since they don't need the advantages of a smartphone)
-**Arriving in Cologne**
+- Teens who buy their first smartphone (contra: many apps that teens use are not available on Firefox OS yet)
+- Privacy concerned people
+- People over 50 who still use feature phones (but this is a hard segment since most of the time they don't actually want to spend money on a smartphone since they don't need the advantages of a smartphone)
+  **Arriving in Cologne**
 
 This time we decided to use AirBnB since the hotel costs before Christmas in Cologne are almost insane. We've found a nice appartment with enough space to host 4 persons (6 wouldn't have been a problem either) for a good price. The host was very nice and the checkin was painless. For events with about 4 to 6 Mozillians attending we can look into AirBnB again!
 
@@ -35,8 +35,8 @@ You can find the other pictures we took [on Flickr](https://www.flickr.com/photo
 
 ## Lessons learned
 
-*   The German phone market is almost saturated with Android/iOS
-*   Astonishingly a lot of people that do not have a smartphone are happy with it and wouldn't change for an easy "beginner-friendly" smartphone. This is mostly the population above 60 years.
-*   Even though most people were not interested in buying a new smartphone, it was good to get the word out about a mobile phone OS that runs on the Web platform.
-*   We've met one person who already played with Firefox OS and had a nice chat with him about apps etc. Community building at it's best since he had never been in contact with the local community.
-*   There are a lot of French tourists in Cologne, for the next time we would also print French flyers when doing something near the French border.
+- The German phone market is almost saturated with Android/iOS
+- Astonishingly a lot of people that do not have a smartphone are happy with it and wouldn't change for an easy "beginner-friendly" smartphone. This is mostly the population above 60 years.
+- Even though most people were not interested in buying a new smartphone, it was good to get the word out about a mobile phone OS that runs on the Web platform.
+- We've met one person who already played with Firefox OS and had a nice chat with him about apps etc. Community building at it's best since he had never been in contact with the local community.
+- There are a lot of French tourists in Cologne, for the next time we would also print French flyers when doing something near the French border.

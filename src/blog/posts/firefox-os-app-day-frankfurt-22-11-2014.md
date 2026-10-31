@@ -12,15 +12,15 @@ On the 22nd of November we met in Frankfurt am Main (Germany) to have a Firefox 
 
 I asked Jan Bambach if he wanted to help out to organize a Firefox OS App Day. He gladly accepted even though he had some stress in school since he has to write exams. After figuring out a date, we started to plan the event. We started with the agenda.
 
-* 09:00 - 09:15 Welcome / Introduction to Mozilla
-* 09:15 - 09:45 "What is Firefox OS?"
-* 09:45 - 10:15 "How do I develop for Firefox OS?"
-* 10:15 - 10:30 Break
-* 10:30 - 12:30 Hacking your own Firefox OS app
-* 12:30 - 13:30 Lunch Break
-* 13:30 - 17:15 Hacking your own Firefox OS app
-* 17:15 - 17:30 "Firefox Marketplace - How to submit an app"
-* 17:30 - 18:15 App presentations
+- 09:00 - 09:15 Welcome / Introduction to Mozilla
+- 09:15 - 09:45 "What is Firefox OS?"
+- 09:45 - 10:15 "How do I develop for Firefox OS?"
+- 10:15 - 10:30 Break
+- 10:30 - 12:30 Hacking your own Firefox OS app
+- 12:30 - 13:30 Lunch Break
+- 13:30 - 17:15 Hacking your own Firefox OS app
+- 17:15 - 17:30 "Firefox Marketplace - How to submit an app"
+- 17:30 - 18:15 App presentations
 
 We did a lot of advertisement for the event, but unfortunately that didn't turn out as we expected. We only heard about another event taking place the same day a few days before the event. This was too late to reschedule. Next time we'll check better and avoid having an event at the same day as a big Barcamp going on. I'm sure that we'd have more participants if it was on another day. Additionally we found out that asking Universities to advertise it to their students doesn't scale as well as it should. We didn't get any feedback from them.
 
@@ -36,11 +36,11 @@ Since we could support every developer without having a "question queue", the ov
 /images/images
 Apps created:
 
-*   [Wasserwaage](https://marketplace.firefox.com/app/wasserwaage-lite?src=search)- an app to measure if something is even
-*   Clownfish - a game where you need to swim around fishes and need to avoid them  (still awaiting review in the Marketplace, make sure to check it out once it's reviewed!)
-*   A game where you need to clear your side of the table of all balls so that the other person has all the balls (not yet pushed to the Marketplace, but already a very exciting game even though there are no points yet)
-*   A quiz app where you need to find out the capital or country by identifying the flag of the country (this was already developed before, but he did a lot of fixes and adapted it to Firefox OS)
-*   An app to upload Creative Commons pictures to the Wikimedia Commons page. Unfortunately we had a problem with the Wikimedia API and couldn't finish the app. He promised to finish it once it's possible. The Wikimedia Commons API doesn't send a CORS header, so systemXHR doesn't work if cookies are sent.
+- [Wasserwaage](https://marketplace.firefox.com/app/wasserwaage-lite?src=search)- an app to measure if something is even
+- Clownfish - a game where you need to swim around fishes and need to avoid them  (still awaiting review in the Marketplace, make sure to check it out once it's reviewed!)
+- A game where you need to clear your side of the table of all balls so that the other person has all the balls (not yet pushed to the Marketplace, but already a very exciting game even though there are no points yet)
+- A quiz app where you need to find out the capital or country by identifying the flag of the country (this was already developed before, but he did a lot of fixes and adapted it to Firefox OS)
+- An app to upload Creative Commons pictures to the Wikimedia Commons page. Unfortunately we had a problem with the Wikimedia API and couldn't finish the app. He promised to finish it once it's possible. The Wikimedia Commons API doesn't send a CORS header, so systemXHR doesn't work if cookies are sent.
 
 [![B3Jr9DnIMAAlbvK.jpg_large](/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.webp)](/images/2014/11/B3Jr9DnIMAAlbvK.jpg_large.webp)
 
@@ -50,7 +50,7 @@ Thanks to everybody who attended, great event!
 
 ## Lessons learned
 
-*   Check better for "competing" events during the event days
-*   Re-check location (fortunately this wasn't a problem even though the reservation wasn't confirmed)
-*   Smaller groups are better since you can support the developers way better than in a large group
-*   We should advertise the Flame better, there is a lot of interest!
+- Check better for "competing" events during the event days
+- Re-check location (fortunately this wasn't a problem even though the reservation wasn't confirmed)
+- Smaller groups are better since you can support the developers way better than in a large group
+- We should advertise the Flame better, there is a lot of interest!

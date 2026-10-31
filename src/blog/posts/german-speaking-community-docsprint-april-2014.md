@@ -38,32 +38,32 @@ Die erledigten Arbeiten könnt ihr nachfolgend einsehen.
 
 ### SUMO
 
-*   26 Artikel aktualisiert
-*   100 wichtigste Artikel: 34% -> 48%
-Etherpad mit den entsprechenden Artikel und Links: [https://demeeting.etherpad.mozilla.org/german-speaking-sprint-berlin-april-2014-sumo](https://demeeting.etherpad.mozilla.org/german-speaking-sprint-berlin-april-2014-sumo)
+- 26 Artikel aktualisiert
+- 100 wichtigste Artikel: 34% -> 48%
+  Etherpad mit den entsprechenden Artikel und Links: [https://demeeting.etherpad.mozilla.org/german-speaking-sprint-berlin-april-2014-sumo](https://demeeting.etherpad.mozilla.org/german-speaking-sprint-berlin-april-2014-sumo)
 
 ### MDN
 
 Vorher:
 
-*   Artikel übersetzt: 9 (18%)
-*   Artikel aktuell: 1 (12%)
-Nachher:
+- Artikel übersetzt: 9 (18%)
+- Artikel aktuell: 1 (12%)
+  Nachher:
 
-*   Artikel übersetzt: 15 (29%)
-*   Artikel aktuell: 11 (74%)
+- Artikel übersetzt: 15 (29%)
+- Artikel aktuell: 11 (74%)
 
 Etherpad, mit den entsprechenden Artikel und Links: [https://demeeting.etherpad.mozilla.org/german-speaking-sprint-berlin-april-2014-mdn](https://demeeting.etherpad.mozilla.org/german-speaking-sprint-berlin-april-2014-mdn)
 
 ### Product-Sprint
 
-Die Liste mit den Bugs, findet ihr [hier](https://docs.google.com/a/erweiterungen.de/spreadsheet/ccc?key=0AufkiiuZgQPwdEx3VVpHWWtfdGRsVloyX0hMZl9USUE&amp;usp=drive_web#gid=0).
+Die Liste mit den Bugs, findet ihr [hier](https://docs.google.com/a/erweiterungen.de/spreadsheet/ccc?key=0AufkiiuZgQPwdEx3VVpHWWtfdGRsVloyX0hMZl9USUE&usp=drive_web#gid=0).
 
 ### Sonstiges
 
-*   Webmaker.org wurde vollständig aktualisiert und übersetzt -> 100%
-*   Appmaker Übersetzung aktualisiert --> von 40% -> 83%
-*   whatcanidoformozilla.org [aktualisiert und weiter übersetzt](https://github.com/jdm/asknot/pull/184) -> 100%
+- Webmaker.org wurde vollständig aktualisiert und übersetzt -> 100%
+- Appmaker Übersetzung aktualisiert --> von 40% -> 83%
+- whatcanidoformozilla.org [aktualisiert und weiter übersetzt](https://github.com/jdm/asknot/pull/184) -> 100%
 
 Mein Ziel wäre gewesen, auch noch ca. 30% der Webmaker-SUMO Artikel zu übersetzen, aber dafür hat es leider zeitlich nicht gereicht. Da ich nun aber weiss, wie diese übersetzt werden können, kann ich das auch so machen und muss nicht vor Ort in Berlin sein.
 

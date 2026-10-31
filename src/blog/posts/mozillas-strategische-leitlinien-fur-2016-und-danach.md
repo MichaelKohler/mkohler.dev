@@ -25,7 +25,7 @@ Zu Jahresbeginn werden wir näher auf diese Strategie eingehen und weitere Detai
 
 Der aktuelle Aufruf zum Handeln besteht darin, im Kontext Ihrer Arbeit über diese Ziele nachzudenken und darüber, wie Sie im kommenden Jahr bei Mozilla mitwirken möchten. Dies hilft, Ihre Innovationen, Ambitionen und Ihren Einfluss im Jahr 2016 zu gestalten.
 
-Wir hoffen, dass Sie mitdiskutieren und Ihre Fragen, Kommentare und Pläne für das Vorantreiben der strategischen Leitlinien im Jahr 2016 [hier](https://discourse.mozilla-community.org/t/mozillas-strategic-narrative-2016/6397) auf Discourse teilen und Ihre Gedanken auf Twitter mit dem Hashtag [#Mozilla2016Strategy](https://twitter.com/search?q=%23mozilla2016strategy&amp;src=typd) mitteilen.
+Wir hoffen, dass Sie mitdiskutieren und Ihre Fragen, Kommentare und Pläne für das Vorantreiben der strategischen Leitlinien im Jahr 2016 [hier](https://discourse.mozilla-community.org/t/mozillas-strategic-narrative-2016/6397) auf Discourse teilen und Ihre Gedanken auf Twitter mit dem Hashtag [#Mozilla2016Strategy](https://twitter.com/search?q=%23mozilla2016strategy&src=typd) mitteilen.
 
 ## Mission, Vision &amp; Strategie
 
@@ -48,7 +48,7 @@ Unsere Säulen
 1.  **Produkte:** Wir entwickeln Produkte mit Menschen im Mittelpunkt sowie Bildungsprogramme, mit deren Hilfe Menschen online ihr gesamtes Potential ausschöpfen können.
 2.  **Technologie:** Wir entwickeln robuste technische Lösungen, die das Internet über     verschiedene Plattformen hinweg zum Leben erwecken.
 3.  **Menschen:** Wir entwickeln Führungspersonen und Mitwirkende in der Gemeinschaft, die das Internet erfinden, gestalten und verteidigen.
-Wir wir positive Veränderungen in Zukunft anpacken wollen
+    Wir wir positive Veränderungen in Zukunft anpacken wollen
 
 Die Arbeitsweise ist ebensowichtig wie das Ziel. Unsere Gesundheit und bleibender Einfluss hängen davon ab, wie sehr unsere Produkte und Aktivitäten:
 

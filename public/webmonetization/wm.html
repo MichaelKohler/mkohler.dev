@@ -151,7 +151,11 @@
         letter-spacing: 0.05em;
         padding: 2px 8px;
         border-radius: 999px;
-        background-color: color-mix(in oklch, var(--text-muted) 18%, transparent);
+        background-color: color-mix(
+          in oklch,
+          var(--text-muted) 18%,
+          transparent
+        );
         white-space: nowrap;
 
         &.is-disabled {
@@ -231,9 +235,9 @@
       <section>
         <p class="muted">
           Make sure your Web Monetization extension is connected to the correct
-          wallet address for this page to receive monetization events. For testnet
-          addresses to work, the extension also needs to be connected to a testnet
-          wallet address.
+          wallet address for this page to receive monetization events. For
+          testnet addresses to work, the extension also needs to be connected to
+          a testnet wallet address.
         </p>
       </section>
 
@@ -253,9 +257,7 @@
                 >
                   USD - https://ilp.interledger-test.dev/mkohler-wm-extension
                 </option>
-                <option
-                  value="https://ilp.interledger-test.dev/mkohlertestmxn"
-                >
+                <option value="https://ilp.interledger-test.dev/mkohlertestmxn">
                   MXN - https://ilp.interledger-test.dev/mkohlertestmxn
                 </option>
                 <option value="custom">Custom wallet address…</option>
@@ -365,8 +367,9 @@
           </div>
         </div>
         <p class="muted small">
-          &quot;Replace&quot; and &quot;Add&quot; use the wallet address selected above.
-          Toggling &quot;Allow monetization&quot; changes the iframe&apos;s
+          &quot;Replace&quot; and &quot;Add&quot; use the wallet address
+          selected above. Toggling &quot;Allow monetization&quot; changes the
+          iframe&apos;s
           <code>allow</code> attribute and reloads it, keeping its link tags.
         </p>
         <iframe
@@ -505,7 +508,9 @@
           return normalizeWalletAddress(customInput.value);
         } catch (err) {
           throw new Error(
-            err instanceof TypeError ? "Invalid wallet address URL." : err.message,
+            err instanceof TypeError
+              ? "Invalid wallet address URL."
+              : err.message,
           );
         }
       }

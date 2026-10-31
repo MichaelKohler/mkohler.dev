@@ -5,9 +5,9 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="color-scheme" content="light dark">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
     <title>Paywall: Interledger Publisher Tools</title>
 
     <link
@@ -165,17 +165,25 @@
       <div class="panels">
         <section class="panel" aria-labelledby="params-heading">
           <h2 id="params-heading">URL parameters</h2>
-          <p>You can customize the injected script by using these URL parameters:</p>
+          <p>
+            You can customize the injected script by using these URL parameters:
+          </p>
 
           <form method="GET">
             <div class="field">
               <label for="param-src">src</label>
               <p id="f-desc-src" class="muted small">
-                Source of script: can be one of 'prod', 'staging', 'local', or a commit hash.
+                Source of script: can be one of 'prod', 'staging', 'local', or a
+                commit hash.
                 <strong>This parameter is required.</strong>
               </p>
 
-              <input id="param-src" name="src" list="f-datalist-src" aria-describedby="f-desc-src">
+              <input
+                id="param-src"
+                name="src"
+                list="f-datalist-src"
+                aria-describedby="f-desc-src"
+              />
               <datalist id="f-datalist-src">
                 <option value="prod">prod</option>
                 <option value="staging">staging</option>
@@ -186,25 +194,33 @@
             <div class="field">
               <label for="param-wa">wa</label>
               <p id="f-desc-wa" class="muted small">
-                Wallet address that receives the payments. The paywall config is fetched with this wallet address as key.
+                Wallet address that receives the payments. The paywall config is
+                fetched with this wallet address as key.
               </p>
 
-              <input id="param-wa" name="wa" type="url" aria-describedby="f-desc-wa">
+              <input
+                id="param-wa"
+                name="wa"
+                type="url"
+                aria-describedby="f-desc-wa"
+              />
             </div>
 
             <div class="field">
               <label for="param-tag">tag</label>
               <p id="f-desc-tag" class="muted small">
-                Config version tag to load for the wallet address. Defaults to 'version1'.
+                Config version tag to load for the wallet address. Defaults to
+                'version1'.
               </p>
 
-              <input id="param-tag" name="tag" aria-describedby="f-desc-tag">
+              <input id="param-tag" name="tag" aria-describedby="f-desc-tag" />
             </div>
 
             <div class="field">
               <label for="param-price">price</label>
               <p id="f-desc-price" class="muted small">
-                Custom price override for current page. Overrides saved config price. Format: 1.05, 2.0, 5 etc.
+                Custom price override for current page. Overrides saved config
+                price. Format: 1.05, 2.0, 5 etc.
               </p>
 
               <input
@@ -215,7 +231,7 @@
                 step="0.01"
                 inputmode="decimal"
                 aria-describedby="f-desc-price"
-              >
+              />
             </div>
 
             <div class="row actions">

@@ -22,9 +22,9 @@ The first session on Saturday was about the Alignment WG. Before the weekend we 
 
 For the Meta Working Group we had more open questions and therefore decided to do brainstorming in three teams. The questions were:
 
-*   Who can join Council?
-*   Which recognition mechanisms should be implement now?
-*   How does accountability look in Reps?
+- Who can join Council?
+- Which recognition mechanisms should be implement now?
+- How does accountability look in Reps?
 
 We're currently documenting the findings in the [Meta working group working proposal](https://docs.google.com/document/d/1nasMyLtDj9YV0Dk_pqhMyw75ETCJqU9MSgJqS3Uirgk/edit#), but we probably will need some more time to figure out everything perfectly. Keep an eye out on the [Discourse topic](https://discourse.mozilla-community.org/t/working-group-meta/7051) in case we'll need more feedback from you all!
 
