@@ -1,3 +1,11 @@
 {
-  "singleQuote": false
+  "singleQuote": false,
+  "plugins": ["@shopify/prettier-plugin-liquid"],
+  "liquidSingleQuote": false,
+  "overrides": [
+    {
+      "files": "_includes/*.html",
+      "options": { "parser": "liquid-html" }
+    }
+  ]
 }

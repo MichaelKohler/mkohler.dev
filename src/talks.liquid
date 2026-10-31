@@ -6,35 +6,36 @@ nav: talks
 header_kicker: Talks
 header_title: On stage
 ---
-
 <section id="talks" class="page">
   <section class="intro">
-    <h2 class="tagline">
-      I gave talks about different Mozilla topics. You can find the slides and recordings here.
-    </h2>
+    <h2 class="tagline">I gave talks about different Mozilla topics. You can find the slides and recordings here.</h2>
   </section>
 
   <ul class="talks-list">
     {% for talk in talks %}
-    <li>
-      <img
-        src="{{ talk.image }}"
-        srcset="{{ talk.image | replace: ".webp", "-380.webp" }} 380w, {{ talk.image }} 500w"
-        sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 2.6rem), 370px"
-        alt=""
-        {% if forloop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %}
-      />
-      <div class="content">
-        <div class="tags">
-          {% for tag in talk.tags %}
-            <span class="{{ tag | slug }}">{{tag}}</span>
-          {% endfor %}
+      <li>
+        <img
+          src="{{ talk.image }}"
+          srcset="{{ talk.image | replace: ".webp", "-380.webp" }} 380w, {{ talk.image }} 500w"
+          sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 2.6rem), 370px"
+          alt=""
+          {% if forloop.first %}
+            fetchpriority="high"
+          {% else %}
+            loading="lazy"
+          {% endif %}
+        />
+        <div class="content">
+          <div class="tags">
+            {% for tag in talk.tags %}
+              <span class="{{ tag | slug }}">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          <a href="{{ talk.url }}" target="_blank">{{ talk.title | escape }}</a>
+          <p>{{ talk.date | date: "%Y-%m-%d" }}</p>
+          <p>{{ talk.description | escape }}</p>
         </div>
-        <a href="{{ talk.url }}" target="_blank">{{ talk.title | escape }}</a>
-        <p>{{ talk.date | date: "%Y-%m-%d" }}</p>
-        <p>{{ talk.description | escape }}</p>
-      </div>
-    </li>
+      </li>
     {% endfor %}
   </ul>
 </section>

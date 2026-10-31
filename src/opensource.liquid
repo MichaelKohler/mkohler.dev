@@ -6,42 +6,37 @@ nav: opensource
 header_kicker: Since 2008
 header_title: Open Source
 ---
-
 <section id="opensource" class="page">
   <section class="intro">
-    <h2 class="tagline">
-      Contributing to different Open Source projects
-    </h2>
+    <h2 class="tagline">Contributing to different Open Source projects</h2>
   </section>
 
   <section class="hanging-section essay">
     <h2 class="hanging-title">Mozilla</h2>
     <div class="essay-body">
       <p>
-        I&apos;ve always been interested in the Open Web since I started creating my
-        first websites. Mozilla’s mission is to &quot;ensure the Internet is a global
-        public resource, open and accessible to all&quot;. This resonates with me very
-        well because a lot of my knowledge comes from research on the internet.
+        I&apos;ve always been interested in the Open Web since I started creating my first websites. Mozilla’s mission
+        is to &quot;ensure the Internet is a global public resource, open and accessible to all&quot;. This resonates
+        with me very well because a lot of my knowledge comes from research on the internet.
       </p>
       <p>
-        I started to use Firefox around version 1 and have never switched since then.
-        In the beginning I was using the release channel. After my math teacher in
-        high school introduced us to Mozilla and what he is working on for Firefox
-        (he wrote the initial code for Session Restore) I was hooked and started to
-        use the nightly build and report bugs. Soon after that I wrote my first patch
-        to improve the sorting of the bookmarks backup menu. Since then I have written
-        patches, started to bring Swiss Mozillians together, went as far as Germany
-        and Austria to help build the German speaking community and
-        I was also involved in the Mozilla Reps (Representative) program.
+        I started to use Firefox around version 1 and have never switched since then. In the beginning I was using the
+        release channel. After my math teacher in high school introduced us to Mozilla and what he is working on for
+        Firefox (he wrote the initial code for Session Restore) I was hooked and started to use the nightly build and
+        report bugs. Soon after that I wrote my first patch to improve the sorting of the bookmarks backup menu. Since
+        then I have written patches, started to bring Swiss Mozillians together, went as far as Germany and Austria to
+        help build the German speaking community and I was also involved in the Mozilla Reps (Representative) program.
       </p>
       <p>
-        These days I am not as active as I was before, though I still try to
-        contribute where I can, which is mostly by using and testing
-        Firefox Nightly as well as advocating for an open internet.
+        These days I am not as active as I was before, though I still try to contribute where I can, which is mostly by
+        using and testing Firefox Nightly as well as advocating for an open internet.
       </p>
 
       <h3>Talks</h3>
-      <p>Over the years I've given a few talks. You can find all of them on the <a href="/talks/">dedicated talks page</a>.</p>
+      <p>
+        Over the years I've given a few talks. You can find all of them on the
+        <a href="/talks/">dedicated talks page</a>.
+      </p>
     </div>
     <aside>
       <h3>Profiles</h3>
@@ -63,215 +58,193 @@ header_title: Open Source
   <section class="hanging-section">
     <h2 class="hanging-title">Areas</h2>
     <div>
-    {%- assign currentYear = "now" | date: "%Y" | plus: 0 %}
-    {%- assign yearCount = currentYear | minus: 2007 %}
-    <figure class="area-timeline" style="--years: {{ yearCount }}" aria-label="Areas over time">
-      <ol class="lanes">
-        <li>
-          <a href="#area-firefox" class="lane-bar ongoing" style="--from: 1; --to: {{ currentYear | minus: 2006 }}">
-            <span class="lane-name">Firefox</span>
-            <span class="lane-years">2008 – now</span>
-          </a>
-        </li>
-        <li>
-          <a href="#area-community-building" class="lane-bar" style="--from: 3; --to: 18">
-            <span class="lane-name">Community Building</span>
-            <span class="lane-years">2010 – 2024</span>
-          </a>
-        </li>
-        <li>
-          <a href="#area-mozilla-reps" class="lane-bar" style="--from: 5; --to: 17">
-            <span class="lane-name">Mozilla Reps</span>
-            <span class="lane-years">2012 – 2023</span>
-          </a>
-        </li>
-        <li>
-          <a href="#area-common-voice" class="lane-bar" style="--from: 11; --to: 18">
-            <span class="lane-name">Common Voice</span>
-            <span class="lane-years">2018 – 2024</span>
-          </a>
-        </li>
-      </ol>
-      <div class="axis" aria-hidden="true">
-        {%- for year in (2008..currentYear) %}<span>{{ year }}</span>{% endfor %}
-      </div>
-    </figure>
+      {%- assign currentYear = "now" | date: "%Y" | plus: 0 %}
+      {%- assign yearCount = currentYear | minus: 2007 %}
+      <figure class="area-timeline" style="--years: {{ yearCount }}" aria-label="Areas over time">
+        <ol class="lanes">
+          <li>
+            <a href="#area-firefox" class="lane-bar ongoing" style="--from: 1; --to: {{ currentYear | minus: 2006 }}">
+              <span class="lane-name">Firefox</span>
+              <span class="lane-years">2008 – now</span>
+            </a>
+          </li>
+          <li>
+            <a href="#area-community-building" class="lane-bar" style="--from: 3; --to: 18">
+              <span class="lane-name">Community Building</span>
+              <span class="lane-years">2010 – 2024</span>
+            </a>
+          </li>
+          <li>
+            <a href="#area-mozilla-reps" class="lane-bar" style="--from: 5; --to: 17">
+              <span class="lane-name">Mozilla Reps</span>
+              <span class="lane-years">2012 – 2023</span>
+            </a>
+          </li>
+          <li>
+            <a href="#area-common-voice" class="lane-bar" style="--from: 11; --to: 18">
+              <span class="lane-name">Common Voice</span>
+              <span class="lane-years">2018 – 2024</span>
+            </a>
+          </li>
+        </ol>
+        <div class="axis" aria-hidden="true">
+          {%- for year in (2008..currentYear) -%}
+            <span>{{ year }}</span>
+          {%- endfor %}
+        </div>
+      </figure>
 
-    <div class="areas">
-      <article class="area" id="area-firefox">
-        <div class="area-image">
-          <img
-            src="/images/me_firefox-800.avif"
-            srcset="/images/me_firefox-480.avif 480w, /images/me_firefox-640.avif 640w, /images/me_firefox-800.avif 800w, /images/me_firefox.avif 1200w"
-            sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 3rem), 432px"
-            alt="Michael hugging the fox"
-          />
-          <p class="area-years">2008 – now</p>
-        </div>
-        <h3>Firefox</h3>
-        <ul>
-          <li>
-            Using Firefox Nightly on a daily basis to test new features and look out
-            for regressions
-          </li>
-          <li>
-            Filed more than
-            <a href="https://bugzilla.mozilla.org/user_profile?login=me@michaelkohler.info">130 bugs</a>
-          </li>
-          <li>
-            Submitted more than
-            <a href="https://bugzilla.mozilla.org/user_profile?login=me@michaelkohler.info">250 patches</a>
-            for several different Firefox components
-          </li>
-        </ul>
-      </article>
-      <article class="area" id="area-community-building">
-        <div class="area-image">
-          <img
-            src="/images/me_community_building-800.avif"
-            srcset="/images/me_community_building-480.avif 480w, /images/me_community_building-640.avif 640w, /images/me_community_building-800.avif 800w, /images/me_community_building.avif 1200w"
-            sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 3rem), 432px"
-            alt="Michael in front of the Brandenburger Tor with a group of Mozillians"
-          />
-          <p class="area-years">2010 – 2024</p>
-        </div>
-        <h3>Community Building</h3>
-        <ul>
-          <li>
-            Started with another Mozillian in Switzerland to build the
-            <a href="https://mozilla.ch">mozilla.ch</a>
-            community
-          </li>
-          <li>
-            Organized (almost) monthly
-            <a href="https://www.meetup.com/Mozilla-Meetup-Switzerland/">meetups in Zurich</a>
-          </li>
-          <li>
-            Led
-            <a href="https://github.com/mozillach/participation/">Participation</a>
-            in Switzerland
-          </li>
-          <li>
-            In 2013, 2014 and 2015 I helped develop the German-speaking community
-            (Germany, Austria, Switzerland)
-          </li>
-          <li>
-            I&apos;ve spoken about Mozilla at several conferences
-          </li>
-          <li>
-            Organized Firefox hackathons around Switzerland to share my knowledge
-          </li>
-          <li>
-            Hosted bi-weekly Meetups in Berlin from April 2018 to early 2020, and
-            organized other events
-          </li>
-        </ul>
-      </article>
-      <article class="area" id="area-mozilla-reps">
-        <div class="area-image">
-          <img
-            src="/images/reps_group-800.avif"
-            srcset="/images/reps_group-480.avif 480w, /images/reps_group-640.avif 640w, /images/reps_group-800.avif 800w, /images/reps_group.avif 1200w"
-            sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 3rem), 432px"
-            alt="Michael and the rest of the Reps Council and Peers in Berlin in April 2016"
-          />
-          <p class="area-years">2012 – 2023</p>
-        </div>
-        <h3>Mozilla Reps</h3>
-        <ul>
-          <li>
-            Started as
-            <a href="https://wiki.mozilla.org/Reps">Mozilla Rep</a>
-            in 2012 and was a member of the program until its sunset in 2023
-          </li>
-          <li>
-            Officially represented Mozilla in Switzerland and supporting
-            Community Development
-          </li>
-          <li>
-            Reps Mentor from 2014 until the end of the program to coach other Mozilla Reps
-          </li>
-          <li>
-            I was voted to be a
-            <a href="https://wiki.mozilla.org/ReMo/Council">Reps Council</a>
-            member from
-            May 2015 to November 2017 to bring the Reps program to the
-            next phase and take care of operational
-            and strategic responsibilities of the Reps program
-          </li>
-          <li>
-            From December 2017 to the end of the program in the leadership body
-            (Module Peers) of the Reps Program
-          </li>
-          <li>
-            Organized Mozilla's virtual presence at FOSDEM 2022, hosting a developer room with talks.
-          </li>
-        </ul>
-      </article>
-      <article class="area" id="area-common-voice">
-        <div class="area-image">
-          <img
-            src="/images/me-800.avif"
-            srcset="/images/me-480.avif 480w, /images/me-640.avif 640w, /images/me-800.avif 800w, /images/me.avif 1200w"
-            sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 3rem), 432px"
-            alt="Michael listening at a conference"
-          />
-          <p class="area-years">2018 – 2024</p>
-        </div>
-        <h3>Common Voice</h3>
-        <ul>
-          <li>
-            Worked on different tooling for the
-            <a href="https://commonvoice.mozilla.org">Common Voice</a>
-            project mostly around
-            sentence collections
-          </li>
-          <li>
-            Improved and maintained the
-            <a href="https://commonvoice.mozilla.org/sentence-collector/#/">Common Voice Sentence Collector</a> before
-            it got integrated into the platform.
-          </li>
-          <li>
-            Maintained the
-            <a href="https://github.com/common-voice/cv-sentence-extractor">Common Voice Sentence Extractor</a>
-          </li>
-          <li>
-            Answered questions about Common Voice in the forums
-          </li>
-        </ul>
-      </article>
-    </div>
+      <div class="areas">
+        <article class="area" id="area-firefox">
+          <div class="area-image">
+            <img
+              src="/images/me_firefox-800.avif"
+              srcset="/images/me_firefox-480.avif 480w, /images/me_firefox-640.avif 640w, /images/me_firefox-800.avif 800w, /images/me_firefox.avif 1200w"
+              sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 3rem), 432px"
+              alt="Michael hugging the fox"
+            />
+            <p class="area-years">2008 – now</p>
+          </div>
+          <h3>Firefox</h3>
+          <ul>
+            <li>Using Firefox Nightly on a daily basis to test new features and look out for regressions</li>
+            <li>
+              Filed more than
+              <a href="https://bugzilla.mozilla.org/user_profile?login=me@michaelkohler.info">130 bugs</a>
+            </li>
+            <li>
+              Submitted more than
+              <a href="https://bugzilla.mozilla.org/user_profile?login=me@michaelkohler.info">250 patches</a>
+              for several different Firefox components
+            </li>
+          </ul>
+        </article>
+        <article class="area" id="area-community-building">
+          <div class="area-image">
+            <img
+              src="/images/me_community_building-800.avif"
+              srcset="/images/me_community_building-480.avif 480w, /images/me_community_building-640.avif 640w, /images/me_community_building-800.avif 800w, /images/me_community_building.avif 1200w"
+              sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 3rem), 432px"
+              alt="Michael in front of the Brandenburger Tor with a group of Mozillians"
+            />
+            <p class="area-years">2010 – 2024</p>
+          </div>
+          <h3>Community Building</h3>
+          <ul>
+            <li>
+              Started with another Mozillian in Switzerland to build the
+              <a href="https://mozilla.ch">mozilla.ch</a>
+              community
+            </li>
+            <li>
+              Organized (almost) monthly
+              <a href="https://www.meetup.com/Mozilla-Meetup-Switzerland/">meetups in Zurich</a>
+            </li>
+            <li>
+              Led
+              <a href="https://github.com/mozillach/participation/">Participation</a>
+              in Switzerland
+            </li>
+            <li>
+              In 2013, 2014 and 2015 I helped develop the German-speaking community (Germany, Austria, Switzerland)
+            </li>
+            <li>I&apos;ve spoken about Mozilla at several conferences</li>
+            <li>Organized Firefox hackathons around Switzerland to share my knowledge</li>
+            <li>Hosted bi-weekly Meetups in Berlin from April 2018 to early 2020, and organized other events</li>
+          </ul>
+        </article>
+        <article class="area" id="area-mozilla-reps">
+          <div class="area-image">
+            <img
+              src="/images/reps_group-800.avif"
+              srcset="/images/reps_group-480.avif 480w, /images/reps_group-640.avif 640w, /images/reps_group-800.avif 800w, /images/reps_group.avif 1200w"
+              sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 3rem), 432px"
+              alt="Michael and the rest of the Reps Council and Peers in Berlin in April 2016"
+            />
+            <p class="area-years">2012 – 2023</p>
+          </div>
+          <h3>Mozilla Reps</h3>
+          <ul>
+            <li>
+              Started as
+              <a href="https://wiki.mozilla.org/Reps">Mozilla Rep</a>
+              in 2012 and was a member of the program until its sunset in 2023
+            </li>
+            <li>Officially represented Mozilla in Switzerland and supporting Community Development</li>
+            <li>Reps Mentor from 2014 until the end of the program to coach other Mozilla Reps</li>
+            <li>
+              I was voted to be a
+              <a href="https://wiki.mozilla.org/ReMo/Council">Reps Council</a>
+              member from May 2015 to November 2017 to bring the Reps program to the next phase and take care of
+              operational and strategic responsibilities of the Reps program
+            </li>
+            <li>
+              From December 2017 to the end of the program in the leadership body (Module Peers) of the Reps Program
+            </li>
+            <li>Organized Mozilla's virtual presence at FOSDEM 2022, hosting a developer room with talks.</li>
+          </ul>
+        </article>
+        <article class="area" id="area-common-voice">
+          <div class="area-image">
+            <img
+              src="/images/me-800.avif"
+              srcset="/images/me-480.avif 480w, /images/me-640.avif 640w, /images/me-800.avif 800w, /images/me.avif 1200w"
+              sizes="(max-width: 640px) calc(100vw - 3rem), (max-width: 960px) calc(50vw - 3rem), 432px"
+              alt="Michael listening at a conference"
+            />
+            <p class="area-years">2018 – 2024</p>
+          </div>
+          <h3>Common Voice</h3>
+          <ul>
+            <li>
+              Worked on different tooling for the
+              <a href="https://commonvoice.mozilla.org">Common Voice</a>
+              project mostly around sentence collections
+            </li>
+            <li>
+              Improved and maintained the
+              <a href="https://commonvoice.mozilla.org/sentence-collector/#/">Common Voice Sentence Collector</a> before
+              it got integrated into the platform.
+            </li>
+            <li>
+              Maintained the
+              <a href="https://github.com/common-voice/cv-sentence-extractor">Common Voice Sentence Extractor</a>
+            </li>
+            <li>Answered questions about Common Voice in the forums</li>
+          </ul>
+        </article>
+      </div>
     </div>
   </section>
 
   <section class="hanging-section">
     <h2 class="hanging-title">Latest contributions</h2>
     <div>
-    <table class="contributions">
-      <thead>
-        <tr>
-          <th>Date</th>
-          <th>Type</th>
-          <th>Description</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for contribution in contributions limit: 5 %}
+      <table class="contributions">
+        <thead>
           <tr>
-            <td>{{ contribution.createdAt | date: "%Y-%m-%d" }}</td>
-            <td>
-              {% if contribution.link == "" %}
-                {{ contribution.type | escape }}
-              {% else %}
-                <a href="{{ contribution.link | escape }}">{{ contribution.type | escape }}</a>
-              {% endif %}
-            </td>
-            <td>{{ contribution.description | escape }}</td>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Description</th>
           </tr>
-        {% endfor %}
-      </tbody>
-    </table>
-    <a href="/contributions/">See all contributions</a>
+        </thead>
+        <tbody>
+          {% for contribution in contributions limit: 5 %}
+            <tr>
+              <td>{{ contribution.createdAt | date: "%Y-%m-%d" }}</td>
+              <td>
+                {% if contribution.link == "" %}
+                  {{ contribution.type | escape }}
+                {% else %}
+                  <a href="{{ contribution.link | escape }}">{{ contribution.type | escape }}</a>
+                {% endif %}
+              </td>
+              <td>{{ contribution.description | escape }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <a href="/contributions/">See all contributions</a>
     </div>
   </section>
 </section>

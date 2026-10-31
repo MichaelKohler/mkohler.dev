@@ -5,5 +5,6 @@ pnpm-lock.yaml
 # Git submodule with archived decks
 public/presentations/
 
-# Prettier can't parse the Liquid in these
-_includes/*.html
+# Not HTML, the Liquid parser would break the JavaScript and XML in these
+src/sw.liquid
+src/feed.njk

@@ -1,57 +1,78 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ lang | default: "en" }}">
   <head>
-    <title>{% if title %}{{ title | escape }}{% if pagination %}, page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages | size }}{% endif %} · {% endif %}Michael Kohler</title>
+    <title>
+      {% if title -%}
+        {{- title | escape -}}
+        {%- if pagination %}, page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages | size }}{% endif %} ·
+      {% endif %}
+      Michael Kohler
+    </title>
     <meta charset="UTF-8" />
-    <meta name="description" content="Michael is a Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008.">
+    <meta
+      name="description"
+      content="Michael is a Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008."
+    >
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#23395B">
 
     {%- if nav == "cv" %}
-    <link
-      rel="preload"
-      href="/images/profile-440.avif"
-      imagesrcset="/images/profile-220.avif 220w, /images/profile-440.avif 440w"
-      imagesizes="(max-width: 820px) 168px, 220px"
-      fetchpriority="high"
-      as="image" />
+      <link
+        rel="preload"
+        href="/images/profile-440.avif"
+        imagesrcset="/images/profile-220.avif 220w, /images/profile-440.avif 440w"
+        imagesizes="(max-width: 820px) 168px, 220px"
+        fetchpriority="high"
+        as="image"
+      />
     {%- endif %}
     <link
       rel="preload"
       href="/fonts/newsreader.woff2"
       as="font"
       type="font/woff2"
-      crossorigin />
+      crossorigin
+    />
     <link
       rel="preload"
       href="/fonts/inter.woff2"
       as="font"
       type="font/woff2"
-      crossorigin />
+      crossorigin
+    />
     {%- if nav == "cv" %}
-    <link
-      rel="preload"
-      href="/fonts/fa-v6.1.2-mini-extended.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin />
+      <link
+        rel="preload"
+        href="/fonts/fa-v6.1.2-mini-extended.woff2"
+        as="font"
+        type="font/woff2"
+        crossorigin
+      />
     {%- endif %}
 
-    <meta property="og:title" content="{% if title %}{{ title | escape }}{% if pagination %}, page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages | size }}{% endif %} - Michael Kohler{% else %}Michael Kohler - Software Engineer - CV{% endif %}" />
+    <meta
+      property="og:title"
+      content="{% if title %}{{ title | escape }}{% if pagination %}, page {{ pagination.pageNumber | plus: 1 }} of {{ pagination.pages | size }}{% endif %} - Michael Kohler{% else %}Michael Kohler - Software Engineer - CV{% endif %}"
+    />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://mkohler.dev{{ page.url }}" />
-    <meta property="og:description" content="Michael is a Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008." />
+    <meta
+      property="og:description"
+      content="Michael is a Software Engineer and Open Source enthusiast living in Berlin. He has been contributing to Mozilla since 2008."
+    />
     <meta property="og:image" content="https://mkohler.dev/images/profile.png" />
     <meta property="og:image:alt" content="Michael's profile image" />
 
     <link
       rel="shortcut icon"
       href="/favicon.ico"
-      type="image/x-icon">
+      type="image/x-icon"
+    >
     <link
       rel="shortcut icon"
       href="/images/icon-192.png"
-      sizes="192x192">
+      sizes="192x192"
+    >
     <link rel="apple-touch-icon" href="/images/icon-192.png">
     <link rel="manifest" href="/manifest.webmanifest">
 
@@ -78,6 +99,7 @@
     <script
       src="/main.js"
       defer
-      async></script>
+      async
+    ></script>
   </body>
 </html>
