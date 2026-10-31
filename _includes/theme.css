@@ -1418,7 +1418,7 @@ table.contributions {
 
   & img {
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 16 / 10;
     object-fit: cover;
     border: 1px solid var(--accent-light-300);
   }
