@@ -1,5 +1,10 @@
 import pluginRss from '@11ty/eleventy-plugin-rss';
 import markdownIt from 'markdown-it';
+import { TIME_ZONE } from './scripts/timezone.mjs';
+
+// Liquid's date filter formats in the process timezone. Its timezoneOffset option
+// is off by an hour around DST changes when the build machine observes DST itself.
+process.env.TZ = TIME_ZONE;
 
 const md = markdownIt({ html: true });
 

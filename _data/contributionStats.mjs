@@ -1,6 +1,7 @@
 // Aggregates _data/contributions.json for the charts on the Open Source and
 // contributions pages: per year, per year × month and per source.
 import fs from "node:fs";
+import { TIME_ZONE } from "../scripts/timezone.mjs";
 
 const contributions = JSON.parse(
   fs.readFileSync(new URL("./contributions.json", import.meta.url), "utf8"),
@@ -36,6 +37,15 @@ const monthNames = [
 
 const format = (n) => n.toLocaleString("en-US");
 
+// en-CA formats as YYYY-MM, which also keeps the keys sortable.
+const monthFormat = new Intl.DateTimeFormat("en-CA", {
+  timeZone: TIME_ZONE,
+  year: "numeric",
+  month: "2-digit",
+});
+const monthOf = (c) => monthFormat.format(new Date(c.createdAt));
+const yearOf = (c) => monthOf(c).slice(0, 4);
+
 const countBy = (fn) =>
   contributions.reduce((acc, contribution) => {
     const key = fn(contribution);
@@ -48,10 +58,10 @@ export default () => {
     return { total: 0 };
   }
 
-  const perYear = countBy((c) => c.createdAt.slice(0, 4));
-  const perMonth = countBy((c) => c.createdAt.slice(0, 7));
+  const perYear = countBy(yearOf);
+  const perMonth = countBy(monthOf);
   const perSource = countBy((c) => c.source);
-  const years = contributions.map((c) => Number(c.createdAt.slice(0, 4)));
+  const years = contributions.map((c) => Number(yearOf(c)));
   const firstYear = Math.min(...years);
   const lastYear = Math.max(...years);
   const yearRange = Array.from(
@@ -82,7 +92,7 @@ export default () => {
       : 0;
   // Months after the latest contribution haven't happened yet, so they get no cell.
   const lastMonth = contributions
-    .map((c) => c.createdAt.slice(0, 7))
+    .map(monthOf)
     .reduce((a, b) => (a > b ? a : b));
   const byMonth = yearRange.map((year) => ({
     year,

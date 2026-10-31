@@ -1,7 +1,7 @@
 ---
 title: Barcamp Erfurt 2013
 permalink: /blog/2013/08/{{title | slugify}}/
-date: 2013-08-05 23:03:07
+date: 2013-08-05 23:03:07 +02:00
 ---
 
 On the 15th and 16th of June (long time ago, I know), I was invited to the Barcamp Erfurt 2013. Since I had never been at a Barcamp before, I didn't exactly know what it will be like. I gotta say: Barcamps are awesome!

@@ -1,7 +1,7 @@
 ---
 title: Reps Council Working Days Berlin 2016
 permalink: /blog/2016/04/{{title | slugify}}/
-date: 2016-04-24 14:10:43
+date: 2016-04-24 14:10:43 +02:00
 ---
 
 From April 15th through April 17th the [Mozilla Reps Council](https://wiki.mozilla.org/ReMo/Council) met in Berlin together with the [Participation Team](http://wiki.mozilla.org/Participation) to discuss the Working groups and overall strategy topics. Unfortunately I couldn't attend on Friday (working day 1) since I had to take my exams. Therefore I could only attend Saturday and Sunday. Nevertheless I think I could help out a lot and definitely learned a lot doing this :) This blog posts reflects my personal opinions, the others will write a blog post as well to give you a more concise view of this weekend.

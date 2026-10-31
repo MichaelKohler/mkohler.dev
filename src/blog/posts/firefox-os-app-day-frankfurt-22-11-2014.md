@@ -1,7 +1,7 @@
 ---
 title: Firefox OS App Day Frankfurt - 22.11.2014
 permalink: /blog/2014/11/{{title | slugify}}/
-date: 2014-11-25 22:58:29
+date: 2014-11-25 22:58:29 +01:00
 ---
 
 On the 22nd of November we met in Frankfurt am Main (Germany) to have a Firefox OS App Day. This is an event where we have talks in the morning to explain Firefox OS and Web APIs and then we hack for the rest of the day creating amazing apps for Firefox OS (and the open web).

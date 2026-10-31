@@ -1,7 +1,7 @@
 ---
 title: Mozilla Switzerland - Community Meetup June 2016
 permalink: /blog/2016/09/{{title | slugify}}/
-date: 2016-09-06 21:05:47
+date: 2016-09-06 21:05:47 +02:00
 ---
 
 On June 20th the Swiss Mozillians met in Zurich to discuss the second half of the year. The goal was to come up with objectives for [mozilla.ch](https://mozilla.ch) that are aligned with the current Mozilla strategy and the Participation Team and Mozilla Reps goals.

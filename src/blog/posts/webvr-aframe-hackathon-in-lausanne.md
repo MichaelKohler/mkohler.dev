@@ -1,7 +1,7 @@
 ---
 title: WebVR/A-Frame Hackathon in Lausanne
 permalink: /blog/2017/07/{{title | slugify}}/
-date: 2017-07-24 22:49:55
+date: 2017-07-24 22:49:55 +02:00
 ---
 
 Last Saturday the [Mozilla Switzerland community](http://mozilla.ch/), together with [Liip](https://www.liip.ch/en), has organized a [WebVR/A-Frame Hackathon](https://mozilla.github.io/reps-archive/e/webvr-a-frame-hackathon/) in Lausanne, Switzerland. As always (also in Zurich), we turned to Liip for support regarding a venue, and as always they were happy to host us in Lausanne. At this point, a big "thank you" to them! Without their support we couldn't organize events as easy as we can now.

@@ -1,7 +1,7 @@
 ---
 title: 15 Years as a Mozilla Volunteer
 permalink: /blog/2023/04/{{title | slugify}}/
-date: 2023-04-10 19:00:00
+date: 2023-04-10 19:00:00 +02:00
 ---
 
 March 10th, 2023 marked my 15th year contributing to Mozilla as a volunteer. In this blog post I will focus on the past 5 years. Before reading this, you might want to check out my [previous blog post about my first 10 years](https://mkohler.dev/blog/2018/04/10-years-as-a-mozilla-volunteer/).

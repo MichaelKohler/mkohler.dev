@@ -1,7 +1,7 @@
 ---
 title: Treffen der deutschsprachigen Mozilla Gemeinschaft - Tag 0 (DE / EN)
 permalink: /blog/2015/02/{{title | slugify}}/
-date: 2015-02-27 04:32:52
+date: 2015-02-27 04:32:52 +01:00
 title_lang: de
 ---
 

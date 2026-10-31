@@ -1,7 +1,7 @@
 ---
 title: '#FoxYeah in the German-speaking community'
 permalink: /blog/2015/07/{{title | slugify}}/
-date: 2015-07-19 18:19:22
+date: 2015-07-19 18:19:22 +02:00
 ---
 
 Back in the beginning of June Mozilla has released [Firefox 38.0.5](https://www.mozilla.org/en-US/firefox/38.0.5/releasenotes/), together with a campaign to [promote Firefox all over the world](https://foxyeah.mozilla.org/). This also included offline events, which we did in Zurich, Bern and Berlin.

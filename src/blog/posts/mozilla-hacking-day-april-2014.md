@@ -1,7 +1,7 @@
 ---
 title: Mozilla Hacking Day April 2014
 permalink: /blog/2014/05/{{title | slugify}}/
-date: 2014-05-26 22:57:03
+date: 2014-05-26 22:57:03 +02:00
 ---
 
 On the 26th of April we met in Berlin to have a "Mozilla Hacking Day". After several month of planning, we had a good session plan which sounded interesting. On [meetup.com](http://meetup.com), 55 people rsvp'd and about 17 Mozillians registered to help us out at the event itself.

@@ -1,7 +1,7 @@
 ---
 title: MobileCamp 2015 - Firefox OS room
 permalink: /blog/2015/05/{{title | slugify}}/
-date: 2015-05-17 09:01:16
+date: 2015-05-17 09:01:16 +02:00
 ---
 
 On April 25 and 26 the 7th edition of the [MobileCamp](http://www.mobilecamp.de) was organized in Dresden, Germany. Mobilecamp is a barcamp with "Mobile" as topic. It's probably the most important barcamp regarding mobile in the German-speaking countries. Therefore the German-speaking Mozilla community decided to host a Firefox OS day on Saturday. The organizers of the barcamp were kind enough to lend us a room specific for that.

@@ -1,7 +1,7 @@
 ---
 title: Alpha Review - Using Janitor to contribute to Firefox
 permalink: /blog/2016/05/{{title | slugify}}/
-date: 2016-05-05 15:02:12
+date: 2016-05-05 15:02:12 +02:00
 ---
 
 At the [Firefox Hackathon in Zurich](https://mkohler.dev/blog/2016/05/firefox-hackathon-zurich-april-2016/) we used [The Janitor](http://janitor.technology/) to contribute to Firefox. It's important to note that it's still in alpha and invite-only.

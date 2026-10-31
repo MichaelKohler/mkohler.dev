@@ -1,7 +1,7 @@
 ---
 title: MozCoffee Framework - Wie organisiere ich ein Meetup?
 permalink: /blog/2015/12/{{title | slugify}}/
-date: 2015-12-04 23:49:05
+date: 2015-12-04 23:49:05 +01:00
 lang: de
 ---
 

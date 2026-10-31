@@ -1,7 +1,7 @@
 ---
 title: Mozilla Switzerland Community Meetup 2017
 permalink: /blog/2017/01/{{title | slugify}}/
-date: 2017-01-28 21:55:40
+date: 2017-01-28 21:55:40 +01:00
 ---
 
 On the 28th of January we, the Mozilla Switzerland, community held another community meetup to organize ourselves for the next few months in 2017.

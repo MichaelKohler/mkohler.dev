@@ -1,7 +1,7 @@
 ---
 title: Firefox Hackathon Zurich April 2016
 permalink: /blog/2016/05/{{title | slugify}}/
-date: 2016-05-05 14:31:47
+date: 2016-05-05 14:31:47 +02:00
 ---
 
 Last Saturday we've held a [Firefox Hackathon](https://mozilla.github.io/reps-archive/e/firefox-hackathon-zurich-april-2015/) in Zurich, Switzerland. We've had 12 people joining us.

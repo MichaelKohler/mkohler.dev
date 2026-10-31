@@ -1,7 +1,7 @@
 ---
 title: Firefox OS Awareness Day 2014
 permalink: /blog/2015/02/{{title | slugify}}/
-date: 2015-02-08 16:05:31
+date: 2015-02-08 16:05:31 +01:00
 ---
 
 On the 13.12.2014 we've met in Cologne, Germany to have a "Firefox OS Awareness Day". The goal of this event was to promote Firefox OS in Germany, a very difficult task as it turns out.

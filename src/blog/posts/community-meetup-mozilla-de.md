@@ -1,7 +1,7 @@
 ---
 title: German-speaking Mozilla Community Meetup February 2014
 permalink: /blog/2014/02/{{title | slugify}}/
-date: 2014-02-23 23:34:25
+date: 2014-02-23 23:34:25 +01:00
 ---
 
 **TL;DR:** Great meetup, let's work on our defined goals for 2014!

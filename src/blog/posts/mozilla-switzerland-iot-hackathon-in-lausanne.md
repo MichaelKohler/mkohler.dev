@@ -1,7 +1,7 @@
 ---
 title: Mozilla Switzerland IoT Hackathon in Lausanne
 permalink: /blog/2016/04/{{title | slugify}}/
-date: 2016-04-24 13:04:27
+date: 2016-04-24 13:04:27 +02:00
 ---
 
 On April 2nd 2016 we held a small [IoT Hackathon in Lausanne](http://www.meetup.com/Mozilla-Meetup-Romandie/events/229797456/) to brainstorm about the Web and IoT. This was aligned with the [new direction that Mozilla is taking on](https://blog.mozilla.org/futurereleases/2016/03/01/update-on-connected-devices/).

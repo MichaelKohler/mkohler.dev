@@ -1,7 +1,7 @@
 ---
 title: my mozconfig
 permalink: /blog/2010/04/{{title | slugify}}/
-date: 2010-04-14 17:55:11
+date: 2010-04-14 17:55:11 +02:00
 ---
 
 As you probably know I have already fixed a few bugs in Mozilla Firefox. For this I need to build Firefox from the source files. Therefore I need a "mozconfig" which sets some general options how to build Firefox.

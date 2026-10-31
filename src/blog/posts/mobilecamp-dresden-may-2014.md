@@ -1,7 +1,7 @@
 ---
 title: MobileCamp Dresden May 2014
 permalink: /blog/2014/05/{{title | slugify}}/
-date: 2014-05-26 22:58:32
+date: 2014-05-26 22:58:32 +02:00
 ---
 
 On the 10th May I went to the MobileCamp in Dresden, Germany to give a keynote about Firefox OS. One of our community members was asked if Mozilla wants to do the keynote and we thought that this is a great opportunity to tell people in Germany about our mission and our goals we have with Firefox OS.

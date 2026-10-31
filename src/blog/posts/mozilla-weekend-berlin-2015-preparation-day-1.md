@@ -1,7 +1,7 @@
 ---
 title: Mozilla Weekend Berlin 2015 - Preparation & Day 1
 permalink: /blog/2015/07/{{title | slugify}}/
-date: 2015-07-19 19:24:18
+date: 2015-07-19 19:24:18 +02:00
 ---
 
 At the Community Meetup of the German-speaking community back in February we decided to organize a Mozilla Day or Mozilla Weekend in 2015 to get more visible in Berlin, tell people about Mozilla's mission and projects, and recruit new Mozillians.

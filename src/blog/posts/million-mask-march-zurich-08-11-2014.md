@@ -1,7 +1,7 @@
 ---
 title: Million Mask March Zurich - 08.11.2014
 permalink: /blog/2014/11/{{title | slugify}}/
-date: 2014-11-20 21:35:03
+date: 2014-11-20 21:35:03 +01:00
 ---
 
 On the 8th of November (yes, 2 days before #fx10), we met in Zurich to provide a tea booth for protesters. There is a new law coming up in Switzerland which would negatively influence everybody's privacy, which was the reason for the protest. A few days before the event I asked Martin and Gion-Andri from the Swiss community if they'd like to help out with the tea since two other members couldn't make it that day. Fortunately they said yes and did a great job!

@@ -1,7 +1,7 @@
 ---
 title: Mozilla Weekend Berlin - Day 2 / Feedback
 permalink: /blog/2015/07/{{title | slugify}}/
-date: 2015-07-19 20:38:51
+date: 2015-07-19 20:38:51 +02:00
 ---
 
 At the Community Meetup of the German-speaking community back in February we decided to organize a Mozilla Day or Mozilla Weekend in 2015 to get more visible in Berlin, tell people about Mozilla’s mission and projects, and recruit new Mozillians. We did this on July 11th and 12th. This is the post about Day 2. You can read about [Day 1 in a previous blog post](https://mkohler.dev/blog/2015/07/mozilla-weekend-berlin-2015-preparation-and-day-1/).
