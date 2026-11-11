@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-11-10T20:43:31.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/363#pullrequestreview-5849039554",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-11-03T12:06:35.000Z",
     "description": "build(deps-dev): bump ava from 8.1.2 to 8.2.0 in the development-dependencies group",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/362#pullrequestreview-5751878140",
