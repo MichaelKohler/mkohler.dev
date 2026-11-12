@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-11-11T06:34:08.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/121#pullrequestreview-5854774035",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-11-10T20:43:31.000Z",
     "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/363#pullrequestreview-5849039554",
