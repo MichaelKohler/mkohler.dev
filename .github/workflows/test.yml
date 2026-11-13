@@ -10,13 +10,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7.0.1
         with:
           submodules: "recursive"
       - name: Install pnpm
         uses: pnpm/action-setup@v6.1.1
       - name: Use Node.js 24
-        uses: actions/setup-node@v7
+        uses: actions/setup-node@v7.1.0
         with:
           node-version: 24
           cache: "pnpm"
@@ -35,7 +35,7 @@ jobs:
       - name: Run Playwright Tests
         run: pnpm test:playwright
       - name: Upload test results
-        uses: actions/upload-artifact@v7
+        uses: actions/upload-artifact@v7.0.2
         if: failure()
         with:
           name: playwright-report-test
