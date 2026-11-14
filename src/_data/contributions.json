@@ -1,5 +1,33 @@
 [
   {
+    "createdAt": "2026-11-13T21:22:27.000Z",
+    "description": "mozillach/mozilla-watcher: Lock action workflows (#364)",
+    "link": "https://github.com/mozillach/mozilla-watcher/commit/f0ca8e7bbaffaa992ab5e44f4916e3777af5a544",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-13T21:21:34.000Z",
+    "description": "Lock action workflows",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/364",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-11-13T21:18:47.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(actions): lock actions (#122)",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/cfc4212ed19776213ed84131658e91f7da81e65a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-13T21:17:00.000Z",
+    "description": "ci(actions): lock actions",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/122",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2026-11-11T06:34:08.000Z",
     "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/121#pullrequestreview-5854774035",
