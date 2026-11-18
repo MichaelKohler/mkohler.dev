@@ -1,5 +1,12 @@
 [
   {
+    "createdAt": "2026-11-17T09:11:29.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/366#pullrequestreview-5935703190",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-11-13T21:22:27.000Z",
     "description": "mozillach/mozilla-watcher: Lock action workflows (#364)",
     "link": "https://github.com/mozillach/mozilla-watcher/commit/f0ca8e7bbaffaa992ab5e44f4916e3777af5a544",
