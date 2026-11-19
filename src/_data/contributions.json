@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-11-18T07:16:09.000Z",
+    "description": "build(deps): bump minimatch and @vercel/nft",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/365#pullrequestreview-5952216662",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-11-18T07:14:55.000Z",
+    "description": "build(deps-dev): bump semantic-release from 25.0.9 to 26.0.0-beta.5 in the development-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/123#pullrequestreview-5952200516",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
     "createdAt": "2026-11-17T09:11:29.000Z",
     "description": "build(deps-dev): bump the development-dependencies group with 2 updates",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/366#pullrequestreview-5935703190",
