@@ -18,6 +18,8 @@ const sourceLabels = {
   "discourse-posts": "Discourse posts",
   "discourse-topics": "Discourse topics",
   reps: "Mozilla Reps activities",
+  wiki: "Mozilla Wiki edits",
+  osm: "OpenStreetMap edits",
 };
 
 const monthNames = [
