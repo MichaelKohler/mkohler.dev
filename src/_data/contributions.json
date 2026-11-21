@@ -34391,6 +34391,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2019-01-12T00:00:00.000Z",
+    "description": ".. well, I'm fully involved in it, so just filing it anyway :)",
+    "type": "Organized/Joined meeting about Mission Driven Mozillians",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2019-01-11T18:33:21.838Z",
     "description": "Announcing the Firefox Fights for you video challenge",
     "link": "https://discourse.mozilla.org/t/announcing-the-firefox-fights-for-you-video-challenge/34997/2",
@@ -38201,6 +38208,13 @@
   {
     "createdAt": "2018-09-14T00:00:00.000Z",
     "description": "Cleaned up Reps issues and planned further work for Reps for me",
+    "type": "Worked on program duties: Reviewed swag, budget, requests",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2018-09-14T00:00:00.000Z",
+    "description": "Reviewed and approved a Budget Request",
     "type": "Worked on program duties: Reviewed swag, budget, requests",
     "link": "",
     "source": "reps"
@@ -44352,6 +44366,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2018-04-05T00:00:00.000Z",
+    "description": "Reviewed a budget in the \"discussion\" phase",
+    "type": "Worked on program duties: Reviewed swag, budget, requests",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2018-04-03T18:52:07.000Z",
     "description": "mozilla/Reps: Add new Reps",
     "link": "https://github.com/mozilla/Reps/commit/8750284cd3e4d91436395f281aa3aba3f140df78",
@@ -45724,6 +45745,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2018-01-19T00:00:00.000Z",
+    "description": "Reviewed the on-boarding plan of Estelle, very aligned and I'm very looking forward to see how this turns out!",
+    "type": "Worked on program duties: Reviewed swag, budget, requests",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2018-01-18T13:52:35.000Z",
     "description": "Privacy Month Retweet Tip #18",
     "link": "https://github.com/mozilla/reps-tweets/issues/27#issuecomment-358652295",
@@ -45887,6 +45915,13 @@
   {
     "createdAt": "2018-01-11T00:00:00.000Z",
     "description": "Updated the application tracking sheet to prepare the next screening round and asked Daniele to bring it forward as Member of the Council",
+    "type": "Worked on program duties: Reviewed swag, budget, requests",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2018-01-11T00:00:00.000Z",
+    "description": "I've reviewed the Orientation Period for new Reps and welcomed (if passed) them to the Reps program.",
     "type": "Worked on program duties: Reviewed swag, budget, requests",
     "link": "",
     "source": "reps"
@@ -57533,6 +57568,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2017-02-27T00:00:00.000Z",
+    "description": "Participated in today's internal call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2017-02-26T23:55:14.000Z",
     "description": "mozilla/activate.mozilla.community: Merge pull request #179 from Ryuno-Ki/d-and-i-abbreviation\n\nAdded hint on what D&I means to all languages.",
     "link": "https://github.com/mozilla/activate.mozilla.community/commit/84b43a5b750e6277ddc5e6d559a3ab939ff24359",
@@ -58956,6 +58998,20 @@
   {
     "createdAt": "2017-01-26T00:00:00.000Z",
     "description": "Sent a mail to all my mentees to make them aware or the Q1 goals and the post about changes in community support.",
+    "type": "Communicated with my mentee/mentor",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2017-01-26T00:00:00.000Z",
+    "description": "Had a quick call with Elio on synching with him regarding our relationship and he told me about his past months.",
+    "type": "Communicated with my mentee/mentor",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2017-01-26T00:00:00.000Z",
+    "description": "Had a talk with Robert K. to talk about upcoming plans. He has a lot planned, as he is at a few conferences and meetups. He also wants to organize another meetup in Vienna (to be planned). Further he is interested in WebVR, and is interested in a training Srushtika is preparing. He is also a Campus RC and a TechSpeaker now. He therefore has a lot on his plate and is well aligned with Mozilla (haha, who would have guessed..)",
     "type": "Communicated with my mentee/mentor",
     "link": "",
     "source": "reps"
@@ -65304,6 +65360,13 @@
   },
   {
     "createdAt": "2016-05-05T00:00:00.000Z",
+    "description": "Participated in the weekly Reps meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2016-05-05T00:00:00.000Z",
     "description": "Wrote a blog post about http://janitor.technology which we used in our Firefox hackathon",
     "type": "Wrote an article",
     "link": "https://michaelkohler.info/2016/alpha-review-using-janitor-to-contribute-to-firefox",
@@ -67377,6 +67440,20 @@
   {
     "createdAt": "2016-03-09T00:00:00.000Z",
     "description": "Participated in a call to sync for GitHub Participation issues since we want to move Reps tasks into it as well",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2016-03-09T00:00:00.000Z",
+    "description": "Attended a \"Events Working Group\" call initiated by Fran as Council representative",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2016-03-09T00:00:00.000Z",
+    "description": "Participated in the weekly Reps call",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -69482,6 +69559,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-11-25T00:00:00.000Z",
+    "description": "Participated in the weekly Council meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2015-11-24T21:53:33.795Z",
     "description": "Mozlando-nians - Introduce yourself!",
     "link": "https://discourse.mozilla.org/t/mozlando-nians-introduce-yourself/5392/17",
@@ -69776,6 +69860,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-11-03T00:00:00.000Z",
+    "description": "Particiapted in the Campaign Release War Room",
+    "type": "Participated in a campaign",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2015-11-02T23:52:14.689Z",
     "description": "Auswahl der Ziele",
     "link": "https://discourse.mozilla.org/t/auswahl-der-ziele/5047",
@@ -69883,6 +69974,13 @@
   {
     "createdAt": "2015-10-29T00:00:00.000Z",
     "description": "Participated in the Participation call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-10-29T00:00:00.000Z",
+    "description": "Participated in the Reps weekly call",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -70091,6 +70189,20 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-10-22T00:00:00.000Z",
+    "description": "Participated in the weekly Reps call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-10-22T00:00:00.000Z",
+    "description": "1:1 coaching session with Nuke",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2015-10-21T21:23:50.620Z",
     "description": "TDSB volunteer hours?",
     "link": "https://discourse.mozilla.org/t/tdsb-volunteer-hours/4818/2",
@@ -70114,6 +70226,27 @@
   {
     "createdAt": "2015-10-21T00:00:00.000Z",
     "description": "1:1 with Brian",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-10-21T00:00:00.000Z",
+    "description": "Participated in the Update Call regarding Foxfooding Phase 2",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-10-21T00:00:00.000Z",
+    "description": "Participated in the weekly Fall campaign cross functional meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-10-21T00:00:00.000Z",
+    "description": "Participated in the weekly Reps Council call",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -70448,6 +70581,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-10-08T00:00:00.000Z",
+    "description": "Participated in the weekly Reps call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2015-10-07T22:46:06.000Z",
     "description": "Germany Partnerships In Place And Initial Plan Milestones Completed",
     "link": "https://github.com/mozilla/community-development/issues/148#issuecomment-146354098",
@@ -70737,6 +70877,13 @@
   {
     "createdAt": "2015-09-24T00:00:00.000Z",
     "description": "Participated in the bi-weekly German-speaking community meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-09-24T00:00:00.000Z",
+    "description": "Participated in the weekly Reps call",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -71032,6 +71179,13 @@
     "createdAt": "2015-09-10T00:00:00.000Z",
     "description": "1:1 with Axel Hecht to discuss the status of the German-speaking community",
     "type": "Worked on project planning",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-09-10T00:00:00.000Z",
+    "description": "Participated in the weekly Reps call",
+    "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
   },
@@ -71456,6 +71610,20 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-08-28T00:00:00.000Z",
+    "description": "Had a 1:1 with Nuke regarding the German-speaking community",
+    "type": "Consulted for a functional area",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-08-28T00:00:00.000Z",
+    "description": "Participated in the Working Meeting for Mozilla Community Websites",
+    "type": "Consulted for a functional area",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2015-08-26T00:00:00.000Z",
     "description": "Participated in the Fall Campaign Cross Functional Meeting",
     "type": "Participated in a campaign",
@@ -71561,6 +71729,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-08-19T00:00:00.000Z",
+    "description": "Participated in the weekly Reps Council meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2015-08-18T00:00:00.000Z",
     "description": "Had a meeting with Brian and George discussing the Germany Q3 Participation Goals",
     "type": "Worked on project planning",
@@ -71660,6 +71835,13 @@
   },
   {
     "createdAt": "2015-08-13T00:00:00.000Z",
+    "description": "Participated in the weekly Reps call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-08-13T00:00:00.000Z",
     "description": "Chaos Communication Camp 2015: Florian Merz will be the Mozilla presence at this year's Chaos Communication Camp. Talk to him about Mozilla if you see him!\r\nThe Chaos Communication Camp is an international, five-day open-air event for hackers and associated life-forms. It provides a relaxed atmosphere for free exchange of technical, social, and political ideas.",
     "type": "Attended an Event",
     "link": "https://reps.mozilla.org/e/chaos-communication-camp-2015/",
@@ -71675,6 +71857,13 @@
   {
     "createdAt": "2015-08-12T00:00:00.000Z",
     "description": "Attended the Fall Campaign Coordination Meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-08-12T00:00:00.000Z",
+    "description": "Participated in the Council meeting",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -71890,6 +72079,27 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-08-05T00:00:00.000Z",
+    "description": "Participated in the Reps Council meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-08-05T00:00:00.000Z",
+    "description": "Participated in the weekly Firefox Fall Campaign engineering meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-08-05T00:00:00.000Z",
+    "description": "Participated in the weekly Council Meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2015-08-04T00:00:00.000Z",
     "description": "Reviewed Quentin's budget request",
     "type": "Worked on program duties: Reviewed swag, budget, requests",
@@ -71962,6 +72172,13 @@
   {
     "createdAt": "2015-07-29T00:00:00.000Z",
     "description": "Participated in the weekly Reps Council call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-07-29T00:00:00.000Z",
+    "description": "Participated in the weekly Firefox Fall Campaign engineering meeting with Erin.",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -72242,6 +72459,13 @@
   {
     "createdAt": "2015-07-08T00:00:00.000Z",
     "description": "Participated in the Mozilla Program Management call regarding the Fall Campaign. This is the coordination call for the Engineering terms to track, scope and advance the campaign. Erin Lancaster invited me to have a volunteer voice on the call as well and hopefully I will be able to get some voice in there in the next meetings (it's weekly). The first meeting was great.",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-07-08T00:00:00.000Z",
+    "description": "Participated in the weekly Reps Council meeting",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -73151,6 +73375,20 @@
   },
   {
     "createdAt": "2015-05-28T00:00:00.000Z",
+    "description": "Participated in the Council onboarding meeting",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-05-28T00:00:00.000Z",
+    "description": "Participated in the weekly Spring Campaign Community call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-05-28T00:00:00.000Z",
     "description": "Participated in the weekly Reps call",
     "type": "Participated in a meeting",
     "link": "https://air.mozilla.org/reps-weekly-20150528/",
@@ -73166,6 +73404,13 @@
   {
     "createdAt": "2015-05-27T00:00:00.000Z",
     "description": "Participated (at least the first half, then listened) in the Impact Workshop",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-05-27T00:00:00.000Z",
+    "description": "Participated in the Reps Council meeting",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -73319,6 +73564,13 @@
   },
   {
     "createdAt": "2015-05-21T00:00:00.000Z",
+    "description": "Participated in the weekly Spring Campaign Community call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-05-21T00:00:00.000Z",
     "description": "Participated in the weekly Reps call.",
     "type": "Participated in a meeting",
     "link": "https://air.mozilla.org/reps-weekly-20150521/",
@@ -73423,6 +73675,13 @@
     "source": "reps"
   },
   {
+    "createdAt": "2015-05-20T00:00:00.000Z",
+    "description": "Had a meeting with Axel Hecht regarding the Community Tile and Mozilla Weekend in Berlin. We did some live hacking on the landing page and figured out most of the agenda for the Weekend.",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
     "createdAt": "2015-05-19T23:22:03.000Z",
     "description": "GA metrics",
     "link": "https://github.com/MozillaDE/tiles-landing-page/issues/5",
@@ -73497,6 +73756,13 @@
     "description": "Worked on a draft email for FSA in Germany, Switzerland and Austria",
     "type": "Worked on project planning",
     "link": "https://demeeting.etherpad.mozilla.org/fsa-campaign-mail",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-05-16T00:00:00.000Z",
+    "description": "Wrote a few mails to people about the Spring campaign community events.",
+    "type": "Worked on project planning",
+    "link": "",
     "source": "reps"
   },
   {
@@ -73621,6 +73887,20 @@
   {
     "createdAt": "2015-05-07T00:00:00.000Z",
     "description": "Had a meeting with TJ Lee to discuss the further steps regarding FSA in Germany, Austria and Switzerland",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-05-07T00:00:00.000Z",
+    "description": "Attended the Spring Campaign Community information call",
+    "type": "Participated in a meeting",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-05-07T00:00:00.000Z",
+    "description": "Participated in the special election call (Reps)",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -73775,6 +74055,13 @@
   {
     "createdAt": "2015-04-28T00:00:00.000Z",
     "description": "Said updated me on the current status of his involvement. He is currently involved with www.mombasatech.org . Further he has a few plans to increase the impact of Mozilla in his community.",
+    "type": "Communicated with my mentee/mentor",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-04-28T00:00:00.000Z",
+    "description": "Talked to Elio regarding OpenTechSummit in Berlin in May. We initially went the direction to not involve man power and costs in attending due to not getting a booth. We talked about impact in the past and we were just not sure that a one day event is worth the costs. Now Mario (Rep and organizer) just handed out free tickets for Mozillians and would be able to sponsor 200€ for the flight costs. WIth that we would have about 50€-100€ costs on our side. With this information I think that it is a good investment/impact ratio.",
     "type": "Communicated with my mentee/mentor",
     "link": "",
     "source": "reps"
@@ -74915,6 +75202,20 @@
   },
   {
     "createdAt": "2015-03-26T00:00:00.000Z",
+    "description": "Communicated with Quentin Lamamy and answered his question about whether to create an event page on the portal for his talk at a local Lille school or not. I told him to create one to show his impact. Further we talked about Swag requests.",
+    "type": "Communicated with my mentee/mentor",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-03-26T00:00:00.000Z",
+    "description": "I participated in the bi-weekly German speaking community meeting and facilitated all the important topics coming from the \"community builder\". Obviously there were other topics ;)",
+    "type": "Participated in a meeting",
+    "link": "https://air.mozilla.org/german-speaking-community-bi-weekly-meeting-20150326/",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-03-26T00:00:00.000Z",
     "description": "I gave a talk about how to combine Webmaker and Firefox OS. After the talk we had a really nice discussion about possible new features and how to improve the overall \"learning experience\".",
     "type": "Gave a talk",
     "link": "http://mkohler.codes/presentations/mozillach-combining-firefox-os-webmaker/index.html",
@@ -75441,6 +75742,13 @@
   {
     "createdAt": "2015-02-05T00:00:00.000Z",
     "description": "Followed up on all my mentees to remind them to\r\n\r\n* fill out missing parts of the profile\r\n* mark the FOSDEM event as attended if they were there\r\n* write reports\r\n* ask if there is anything I could help them with",
+    "type": "Communicated with my mentee/mentor",
+    "link": "",
+    "source": "reps"
+  },
+  {
+    "createdAt": "2015-02-05T00:00:00.000Z",
+    "description": "Orientation call with Quentin F. done",
     "type": "Communicated with my mentee/mentor",
     "link": "",
     "source": "reps"
