@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       volunteer-contributions-fetch:
-        specifier: ^4.0.1
-        version: 4.0.1
+        specifier: ^4.0.2
+        version: 4.0.2
     devDependencies:
       '@11ty/eleventy':
         specifier: ^3.1.8
@@ -745,8 +745,8 @@ packages:
   urlpattern-polyfill@10.1.0:
     resolution: {integrity: sha512-IGjKp/o0NL3Bso1PymYURCJxMPNAf/ILOpendP9f5B6e1rTJgdgiOvgfoT8VxCAdY+Wisb9uhGaJJf3yZ2V9nw==}
 
-  volunteer-contributions-fetch@4.0.1:
-    resolution: {integrity: sha512-C7nPk+r84fVeAjcEMiMzYTbsL4b3NbmcmHOVEPMTgeUoSFo9CubsbLVzO401ashR+sQGZc87TW97U2TmMedo+Q==}
+  volunteer-contributions-fetch@4.0.2:
+    resolution: {integrity: sha512-yVgS2svo5uvv66TqZ5D+6Ha9jrawftb0+VVE/ilzZMy/zMRqpY5IZxz3q5WX0jfKwYeAyspwoH3qbYNlNqo+nA==}
     engines: {node: ^22.22.2 || ^24.15.0 || >=26.0.0}
 
   w3c-xmlserializer@6.0.0:
@@ -1506,7 +1506,7 @@ snapshots:
 
   urlpattern-polyfill@10.1.0: {}
 
-  volunteer-contributions-fetch@4.0.1:
+  volunteer-contributions-fetch@4.0.2:
     dependencies:
       '@octokit/rest': 22.0.1
       debug: 4.4.3
