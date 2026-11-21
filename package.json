@@ -10,10 +10,10 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.1.8",
     "@11ty/eleventy-plugin-rss": "^3.1.0",
-    "@playwright/test": "^1.65.0",
+    "@playwright/test": "^1.65.1",
     "@shopify/prettier-plugin-liquid": "^1.11.4",
     "markdown-it": "^15.0.3",
-    "prettier": "^3.9.10"
+    "prettier": "^3.10.1"
   },
   "packageManager": "pnpm@11.25.0",
   "scripts": {
