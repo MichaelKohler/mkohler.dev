@@ -1,5 +1,565 @@
 [
   {
+    "createdAt": "2026-11-21T22:38:33.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): run search twice to avoid required 'is' parameter error",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/eb2e76d93ccee690d7c4f4c8575d3c1036425fcd",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T22:37:18.000Z",
+    "description": "fix(github): run search twice to avoid required 'is' parameter error",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/125",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-11-21T21:58:02.000Z",
+    "description": "Fix a lot of things",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/124",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-11-21T21:56:34.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(test): only run on PR",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d37f951a160a71d3e8834c0154fadafbadbc6525",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T21:55:26.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(contributions): better error message for enabled config",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/5a56d84701261273618dd47aa6e05a88b222c753",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T21:35:15.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(osm): pass on stopDate as ISO date",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/4e8eef57d7763470d587ae6510478b2d86a52f45",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T21:21:36.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): ignore passed in contributions when outputFile config is set",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/e5baf2b05891c0790c9dee2e2d0e338d0cb212b6",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T21:09:51.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(utils): skip NaN dates when getting latest contribution",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/92116f0c03f301a00acd04bfe72ee9b94e57536d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T20:59:17.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(discourse): make sure renames of topics do not count twice",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/3976eeaaa54447dc967184f84e022870d285c203",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T20:56:44.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): key on SHA so repo copies don't count twice",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/78fd7a23d385f2c71b663e5ab3585f46d9a41fc9",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T20:47:15.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(release): properly run tests before release and run tests on PR",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/63406d072f56d314598da421fca3763f0b0b5d74",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T20:44:01.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(validator): do not require all fields in config when source is disabled",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/bad3b8d6c10712e016aeb8a58a6a556ccf81b804",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T20:38:47.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(contributions): handle NaN dates correctly",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/0c4e99b05ef1dc1cb4abb61a085751ae14ceb29e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:37:08.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(wiki): validate baseURL",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/a98f4b496a15951e54cdf133e643c32eac12564a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:33:51.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(bugzilla): add sort order and skip unavailable bugs",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/fb55f879f14858dacc324518078f93a85fcdc82d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:30:11.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(communityportal): fail when parsing fails",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/b7c45548972f4b78a0b7092f5b8a131481fa9e52",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:26:14.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): compare username case insensitively",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/0c1eec6d91b25bf956d3d4547cb47e26cc56968a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:25:52.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(bugzilla): compare email case insensitively",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/5b35fbdecc5ad4e1ac502f59fdeda87f8ca1054e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:23:13.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): allow classic tokens without scopes",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/8348644d8063d780bf16453b0849cafb283c4c8c",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:21:22.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): fetch older commits to not miss one",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/ae482068a0519cfdfb9d4cf0da5b4b198ec7c18a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:12:08.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(github): make better use of helper functions",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/2687c378fee973f6a5ae156217552f1251a2c6de",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:02:29.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(contributions): inline one-line function",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/1e173e7f52cd69fbc09fd9cff1591f91b041392a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T18:01:27.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(contributions): simplify enabled checks",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/3fe6f7b2865d233b3498b9f1913b4ef39d461f84",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:59:22.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(github): use setTimeout instead of custom waitFor",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/be734d0e4953aa62a6491e9f2b0a6941348fda12",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:56:24.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(test): run prettier check as well",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/8ac65b8ccb563e560adee7b28bdcd7ccede333a9",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:55:08.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(test): test on Node 22, 24, and 26",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/7f854337b3beb5cb6d1a3d6e6c6173636afecc4a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:54:38.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(release): update semantic-release package out of beta and use Node 26 for release",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/105c14e08be3c32c9a1d835bb6a66bf85811241a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:46:54.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): catch wrong config",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/4ce85e3554250903447158a4d0c15dafd3ae3916",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:39:59.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(validator): do not allow baseUrls with trailing slash\n\nBREAKING CHANGE: in case someone uses a trailing slash now, they will\nget an error now.",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/81ada3db660c8ea62c0e1d961a7bb7c1d1a3e7a6",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:37:36.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(osm): do not fetch changesets created before stopDate",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/cdceff97a94da1f99d318ac4f4776a5b47f50b30",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:27:43.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): do not allow non-array for existing contributions",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/62e330de9e2865b6978cc49d6062efcfe802e2a9",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:25:49.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): write output file atomically",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d26a1bf294492e98dcfc4ebc8c6fae1b2664764d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:21:49.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: feat(schema): use strictObject everywhere\n\nBREAKING CHANGE: if someone uses configs that are not valid, this will\nlead to errors.",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/dc47b3331526e06e3540a85b88f5d3a0b933a14b",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:18:31.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): validate regex in schema",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/3780d0d138f768cf6f3a892fa252a9dcb29606c9",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:11:25.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): also track comments on PRs that are not reviews",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/28dce8c5b59689a78b7ae0d0956d3dd9f9d9e540",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:08:00.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): keep existing contributions if fetch result is 0",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d2971e3c7d2b1a7fbe5126877cca6a397a3617c7",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T17:01:24.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: docs(readme): clarify GitHub regex filter and wiki baseUrl",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/3570ae4f95cac6ed405dfbe85b16b63f83b50b67",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:53:12.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: build(npm): only pack needed files for npm package",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/eb48b700c314c30b75eb27f31f7f163228331cb4",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:51:10.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(test): add permissions and persist-credentials in test workflow",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/e73b6e1938cc5ffc3e6705a549e155e62d3efdf3",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:50:11.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(node): add node version",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/c5c2536ef20cdadcf63ef3654c04fc0544df6a1d",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:48:41.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(communityportal): improve date parsing",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/fb02aaaa35bedcf4c934931647822f911635b7d9",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:39:12.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(wiki): fix format",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/ffe596e440312ac4a23962832be831a726b17f6c",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:37:04.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(logs): only log length of bugzilla and github results",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/0d1177e7fc4c202d4f091b6761825f57f98725ec",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:35:48.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(communityportal): also deduplicate campaigns",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/703fa8733be037ca23d390d409446a4e42165aea",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:33:31.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(tests): use proper type for stopDate",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/4128c2851f71ab14782d9d8c8e10f36f8e0e83d6",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:31:57.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(code): remove dead config and code",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/aeaf7f7021f49a5f2e25dcfd59501c10d6d0c348",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:27:39.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): use timeouts everywhere",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/bd15f706a9330a20d118d7d7e4e52e217317c421",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:24:54.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: docs(readme): fix bugs in README",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/b6841914d159a7e9e61e8b8d5d7e237a2627674e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:22:05.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(validator): use parsed config and don't double-validate",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/6a35b2d51f813639aa5d3fffb43d9191eb4277c5",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:18:45.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(linting): adjust linting config",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/cac24aa60a686a24c5c3b31a389c75953d584c43",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:15:02.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(validator): properly validate stopDate",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/37ed080b199c34be4306e3c9669381505a967ed1",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:12:45.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): do not throw away contributions for disabled source",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/5cb822b2ba8f37d795b4a65d63ea0aa23f5ac493",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T16:03:21.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(wiki): add request delay of 2s",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/4991b755e23d8324c7e4c2025f4a546d0cd48075",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:59:25.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(package): remove unusued ava and nyc configs",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/ac5e6f9e17d917f66d0a9ca51238df0f2d6fb859",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:58:40.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(fetch): improve contribution duplication logic",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/26654b9be33aef84b1c96021cfbabdb50eeeeff3",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:47:46.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(github): remove dead code",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/aded667295323d498260a58eb5bc925add2d1864",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:46:39.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(communityportal): make deduplication work",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d0148916291c442c77af2b42c15d4a8b455756b3",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:42:17.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(contributions): only keep one deduplication function",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/1b8b8eb6ce4d784f24c37bb422604d951c02b0a4",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:08:38.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): more thoroughly validate top level config keys",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/033576fe9098f48c18da1f7ff85c082391b04a8e",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:06:19.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(wiki): do not lose contributions at month boundary",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/0800ed37e15678ef349c3be1d8f43093dc6a43f3",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:03:23.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(osm): do not lose contributions in the same second",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/c9fe637de19c3c8c880f4b0baca5ab4ea937d554",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T15:00:41.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): split up period if search returns max results",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d22f03810bfd4fdb3dfc465b3a51cca843ff3331",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T14:55:54.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): use pagination for reviews and comments",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/c2e5c90fd516dad83f6e7d93c6f51d152e3ce8d4",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T14:52:52.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(wiki): check response ok and encode username",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/03bd89959151bd68cea9ab6d5975801a94c0b6a1",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T14:27:59.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): handle case where user does not exist anymore",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/004ccae9e18d498482c7fe4b5b1d4de7db16fd2f",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T14:26:42.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): handle 410 and 451 errors",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/83959903a697fc32a0703a4e5d169a777251cc2f",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T14:21:42.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): fetch latest month when newest contribution is on its last day",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/f32c3c650bcc404b4984baca3ef72b7eacb26085",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T22:20:51.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(wiki): make editType optional",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/ab5ade63bdea928a4a74444fb9389936c6d22617",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T22:19:23.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(bugzilla/discourse/osm): encode username and abort if request fetching fails",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/7e47757a338cb610c56b9b016088b48b1b94b4d7",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T22:16:21.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(bugzilla/github): find latest contribution without assuming existing contributions are sorted",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/38d02ea0862c664a7464886e9cc226d52df63fca",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T22:12:31.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(bugzilla): use UTC",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/e2c750971a80c1986e0fb54095201ae9404d823c",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T22:11:33.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(bugzilla): use base url in format and encode username in URL",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/2744253843955fe05054146d1322bc5d57eb678a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T22:09:56.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(wiki): fix stop date check",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/e4dc8c02fe8c24ce284b2377294792a7c81ee3dd",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T22:00:44.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): do not turn error into empty list",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/2fbedba23f80f286c54d51b57a32dc25e07586c7",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T21:54:16.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): abort if request fails with non-404 status",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/dcc7775745a9d2b94702f2d4b509e4f529aefdef",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T21:50:14.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): correctly compare stopDate",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/067577ad8aba76060522b81bfc472f01b04458fa",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T21:45:56.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github/wiki): always use UTC",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/38fe0c08fbe656c19caacdc20fce212d900b9a27",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T21:41:29.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): compare actual contributions before aborting and fix deduplication",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/68a0dd8480fb56ba68fe2d7a9f59c914974ae39f",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T21:16:29.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): never continue with an unreadable or corrupt output file",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/5ad482cbee1ee29ac02c9c440ed185f3ae088d54",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-20T21:13:30.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(osm): do not crash when there is no tag or no more entries",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d68e4072d4dad2a4e64c0a9edfe59e6537a913c4",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2026-11-18T07:16:09.000Z",
     "description": "build(deps): bump minimatch and @vercel/nft",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/365#pullrequestreview-5952216662",
@@ -763,6 +1323,20 @@
     "source": "github-reviews"
   },
   {
+    "createdAt": "2026-03-18T05:50:14.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group across 1 directory with 4 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/53#issuecomment-4079926490",
+    "type": "Commented on a Pull Request",
+    "source": "github-comments"
+  },
+  {
+    "createdAt": "2026-03-18T05:47:23.000Z",
+    "description": "build(deps-dev): bump the development-dependencies group across 1 directory with 4 updates",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/53#issuecomment-4079917260",
+    "type": "Commented on a Pull Request",
+    "source": "github-comments"
+  },
+  {
     "createdAt": "2026-03-17T09:17:40.000Z",
     "description": "build(deps): bump pug from 3.0.3 to 3.0.4 in the production-dependencies group",
     "link": "https://github.com/mozillach/mozilla-watcher/pull/332#pullrequestreview-3959244015",
@@ -894,6 +1468,13 @@
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/2a6e13385f7c6b93513a27a6c5b3a45948047dfb",
     "type": "GitHub Commit",
     "source": "github-commit"
+  },
+  {
+    "createdAt": "2025-12-29T21:11:59.000Z",
+    "description": "build(deps): bump peaceiris/actions-gh-pages from 3 to 4",
+    "link": "https://github.com/mozillach/mozilla-watcher/pull/319#issuecomment-3697553540",
+    "type": "Commented on a Pull Request",
+    "source": "github-comments"
   },
   {
     "createdAt": "2025-12-29T21:11:18.000Z",
@@ -33810,13 +34391,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2019-01-12T00:00:00.000Z",
-    "description": ".. well, I'm fully involved in it, so just filing it anyway :)",
-    "type": "Organized/Joined meeting about Mission Driven Mozillians",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2019-01-11T18:33:21.838Z",
     "description": "Announcing the Firefox Fights for you video challenge",
     "link": "https://discourse.mozilla.org/t/announcing-the-firefox-fights-for-you-video-challenge/34997/2",
@@ -37627,13 +38201,6 @@
   {
     "createdAt": "2018-09-14T00:00:00.000Z",
     "description": "Cleaned up Reps issues and planned further work for Reps for me",
-    "type": "Worked on program duties: Reviewed swag, budget, requests",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2018-09-14T00:00:00.000Z",
-    "description": "Reviewed and approved a Budget Request",
     "type": "Worked on program duties: Reviewed swag, budget, requests",
     "link": "",
     "source": "reps"
@@ -43785,13 +44352,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2018-04-05T00:00:00.000Z",
-    "description": "Reviewed a budget in the \"discussion\" phase",
-    "type": "Worked on program duties: Reviewed swag, budget, requests",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2018-04-03T18:52:07.000Z",
     "description": "mozilla/Reps: Add new Reps",
     "link": "https://github.com/mozilla/Reps/commit/8750284cd3e4d91436395f281aa3aba3f140df78",
@@ -45164,13 +45724,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2018-01-19T00:00:00.000Z",
-    "description": "Reviewed the on-boarding plan of Estelle, very aligned and I'm very looking forward to see how this turns out!",
-    "type": "Worked on program duties: Reviewed swag, budget, requests",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2018-01-18T13:52:35.000Z",
     "description": "Privacy Month Retweet Tip #18",
     "link": "https://github.com/mozilla/reps-tweets/issues/27#issuecomment-358652295",
@@ -45334,13 +45887,6 @@
   {
     "createdAt": "2018-01-11T00:00:00.000Z",
     "description": "Updated the application tracking sheet to prepare the next screening round and asked Daniele to bring it forward as Member of the Council",
-    "type": "Worked on program duties: Reviewed swag, budget, requests",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2018-01-11T00:00:00.000Z",
-    "description": "I've reviewed the Orientation Period for new Reps and welcomed (if passed) them to the Reps program.",
     "type": "Worked on program duties: Reviewed swag, budget, requests",
     "link": "",
     "source": "reps"
@@ -56987,13 +57533,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2017-02-27T00:00:00.000Z",
-    "description": "Participated in today's internal call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2017-02-26T23:55:14.000Z",
     "description": "mozilla/activate.mozilla.community: Merge pull request #179 from Ryuno-Ki/d-and-i-abbreviation\n\nAdded hint on what D&I means to all languages.",
     "link": "https://github.com/mozilla/activate.mozilla.community/commit/84b43a5b750e6277ddc5e6d559a3ab939ff24359",
@@ -58417,20 +58956,6 @@
   {
     "createdAt": "2017-01-26T00:00:00.000Z",
     "description": "Sent a mail to all my mentees to make them aware or the Q1 goals and the post about changes in community support.",
-    "type": "Communicated with my mentee/mentor",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2017-01-26T00:00:00.000Z",
-    "description": "Had a quick call with Elio on synching with him regarding our relationship and he told me about his past months.",
-    "type": "Communicated with my mentee/mentor",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2017-01-26T00:00:00.000Z",
-    "description": "Had a talk with Robert K. to talk about upcoming plans. He has a lot planned, as he is at a few conferences and meetups. He also wants to organize another meetup in Vienna (to be planned). Further he is interested in WebVR, and is interested in a training Srushtika is preparing. He is also a Campus RC and a TechSpeaker now. He therefore has a lot on his plate and is well aligned with Mozilla (haha, who would have guessed..)",
     "type": "Communicated with my mentee/mentor",
     "link": "",
     "source": "reps"
@@ -64779,13 +65304,6 @@
   },
   {
     "createdAt": "2016-05-05T00:00:00.000Z",
-    "description": "Participated in the weekly Reps meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2016-05-05T00:00:00.000Z",
     "description": "Wrote a blog post about http://janitor.technology which we used in our Firefox hackathon",
     "type": "Wrote an article",
     "link": "https://michaelkohler.info/2016/alpha-review-using-janitor-to-contribute-to-firefox",
@@ -66859,20 +67377,6 @@
   {
     "createdAt": "2016-03-09T00:00:00.000Z",
     "description": "Participated in a call to sync for GitHub Participation issues since we want to move Reps tasks into it as well",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2016-03-09T00:00:00.000Z",
-    "description": "Attended a \"Events Working Group\" call initiated by Fran as Council representative",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2016-03-09T00:00:00.000Z",
-    "description": "Participated in the weekly Reps call",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -68978,13 +69482,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-11-25T00:00:00.000Z",
-    "description": "Participated in the weekly Council meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2015-11-24T21:53:33.795Z",
     "description": "Mozlando-nians - Introduce yourself!",
     "link": "https://discourse.mozilla.org/t/mozlando-nians-introduce-yourself/5392/17",
@@ -69279,13 +69776,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-11-03T00:00:00.000Z",
-    "description": "Particiapted in the Campaign Release War Room",
-    "type": "Participated in a campaign",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2015-11-02T23:52:14.689Z",
     "description": "Auswahl der Ziele",
     "link": "https://discourse.mozilla.org/t/auswahl-der-ziele/5047",
@@ -69393,13 +69883,6 @@
   {
     "createdAt": "2015-10-29T00:00:00.000Z",
     "description": "Participated in the Participation call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-10-29T00:00:00.000Z",
-    "description": "Participated in the Reps weekly call",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -69608,20 +70091,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-10-22T00:00:00.000Z",
-    "description": "Participated in the weekly Reps call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-10-22T00:00:00.000Z",
-    "description": "1:1 coaching session with Nuke",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2015-10-21T21:23:50.620Z",
     "description": "TDSB volunteer hours?",
     "link": "https://discourse.mozilla.org/t/tdsb-volunteer-hours/4818/2",
@@ -69645,27 +70114,6 @@
   {
     "createdAt": "2015-10-21T00:00:00.000Z",
     "description": "1:1 with Brian",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-10-21T00:00:00.000Z",
-    "description": "Participated in the Update Call regarding Foxfooding Phase 2",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-10-21T00:00:00.000Z",
-    "description": "Participated in the weekly Fall campaign cross functional meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-10-21T00:00:00.000Z",
-    "description": "Participated in the weekly Reps Council call",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -70000,13 +70448,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-10-08T00:00:00.000Z",
-    "description": "Participated in the weekly Reps call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2015-10-07T22:46:06.000Z",
     "description": "Germany Partnerships In Place And Initial Plan Milestones Completed",
     "link": "https://github.com/mozilla/community-development/issues/148#issuecomment-146354098",
@@ -70296,13 +70737,6 @@
   {
     "createdAt": "2015-09-24T00:00:00.000Z",
     "description": "Participated in the bi-weekly German-speaking community meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-09-24T00:00:00.000Z",
-    "description": "Participated in the weekly Reps call",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -70598,13 +71032,6 @@
     "createdAt": "2015-09-10T00:00:00.000Z",
     "description": "1:1 with Axel Hecht to discuss the status of the German-speaking community",
     "type": "Worked on project planning",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-09-10T00:00:00.000Z",
-    "description": "Participated in the weekly Reps call",
-    "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
   },
@@ -71029,20 +71456,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-08-28T00:00:00.000Z",
-    "description": "Had a 1:1 with Nuke regarding the German-speaking community",
-    "type": "Consulted for a functional area",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-08-28T00:00:00.000Z",
-    "description": "Participated in the Working Meeting for Mozilla Community Websites",
-    "type": "Consulted for a functional area",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2015-08-26T00:00:00.000Z",
     "description": "Participated in the Fall Campaign Cross Functional Meeting",
     "type": "Participated in a campaign",
@@ -71148,13 +71561,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-08-19T00:00:00.000Z",
-    "description": "Participated in the weekly Reps Council meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2015-08-18T00:00:00.000Z",
     "description": "Had a meeting with Brian and George discussing the Germany Q3 Participation Goals",
     "type": "Worked on project planning",
@@ -71254,13 +71660,6 @@
   },
   {
     "createdAt": "2015-08-13T00:00:00.000Z",
-    "description": "Participated in the weekly Reps call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-08-13T00:00:00.000Z",
     "description": "Chaos Communication Camp 2015: Florian Merz will be the Mozilla presence at this year's Chaos Communication Camp. Talk to him about Mozilla if you see him!\r\nThe Chaos Communication Camp is an international, five-day open-air event for hackers and associated life-forms. It provides a relaxed atmosphere for free exchange of technical, social, and political ideas.",
     "type": "Attended an Event",
     "link": "https://reps.mozilla.org/e/chaos-communication-camp-2015/",
@@ -71276,13 +71675,6 @@
   {
     "createdAt": "2015-08-12T00:00:00.000Z",
     "description": "Attended the Fall Campaign Coordination Meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-08-12T00:00:00.000Z",
-    "description": "Participated in the Council meeting",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -71498,27 +71890,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-08-05T00:00:00.000Z",
-    "description": "Participated in the Reps Council meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-08-05T00:00:00.000Z",
-    "description": "Participated in the weekly Firefox Fall Campaign engineering meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-08-05T00:00:00.000Z",
-    "description": "Participated in the weekly Council Meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2015-08-04T00:00:00.000Z",
     "description": "Reviewed Quentin's budget request",
     "type": "Worked on program duties: Reviewed swag, budget, requests",
@@ -71591,13 +71962,6 @@
   {
     "createdAt": "2015-07-29T00:00:00.000Z",
     "description": "Participated in the weekly Reps Council call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-07-29T00:00:00.000Z",
-    "description": "Participated in the weekly Firefox Fall Campaign engineering meeting with Erin.",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -71878,13 +72242,6 @@
   {
     "createdAt": "2015-07-08T00:00:00.000Z",
     "description": "Participated in the Mozilla Program Management call regarding the Fall Campaign. This is the coordination call for the Engineering terms to track, scope and advance the campaign. Erin Lancaster invited me to have a volunteer voice on the call as well and hopefully I will be able to get some voice in there in the next meetings (it's weekly). The first meeting was great.",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-07-08T00:00:00.000Z",
-    "description": "Participated in the weekly Reps Council meeting",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -72794,20 +73151,6 @@
   },
   {
     "createdAt": "2015-05-28T00:00:00.000Z",
-    "description": "Participated in the Council onboarding meeting",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-05-28T00:00:00.000Z",
-    "description": "Participated in the weekly Spring Campaign Community call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-05-28T00:00:00.000Z",
     "description": "Participated in the weekly Reps call",
     "type": "Participated in a meeting",
     "link": "https://air.mozilla.org/reps-weekly-20150528/",
@@ -72823,13 +73166,6 @@
   {
     "createdAt": "2015-05-27T00:00:00.000Z",
     "description": "Participated (at least the first half, then listened) in the Impact Workshop",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-05-27T00:00:00.000Z",
-    "description": "Participated in the Reps Council meeting",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -72983,13 +73319,6 @@
   },
   {
     "createdAt": "2015-05-21T00:00:00.000Z",
-    "description": "Participated in the weekly Spring Campaign Community call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-05-21T00:00:00.000Z",
     "description": "Participated in the weekly Reps call.",
     "type": "Participated in a meeting",
     "link": "https://air.mozilla.org/reps-weekly-20150521/",
@@ -73094,13 +73423,6 @@
     "source": "reps"
   },
   {
-    "createdAt": "2015-05-20T00:00:00.000Z",
-    "description": "Had a meeting with Axel Hecht regarding the Community Tile and Mozilla Weekend in Berlin. We did some live hacking on the landing page and figured out most of the agenda for the Weekend.",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
     "createdAt": "2015-05-19T23:22:03.000Z",
     "description": "GA metrics",
     "link": "https://github.com/MozillaDE/tiles-landing-page/issues/5",
@@ -73175,13 +73497,6 @@
     "description": "Worked on a draft email for FSA in Germany, Switzerland and Austria",
     "type": "Worked on project planning",
     "link": "https://demeeting.etherpad.mozilla.org/fsa-campaign-mail",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-05-16T00:00:00.000Z",
-    "description": "Wrote a few mails to people about the Spring campaign community events.",
-    "type": "Worked on project planning",
-    "link": "",
     "source": "reps"
   },
   {
@@ -73306,20 +73621,6 @@
   {
     "createdAt": "2015-05-07T00:00:00.000Z",
     "description": "Had a meeting with TJ Lee to discuss the further steps regarding FSA in Germany, Austria and Switzerland",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-05-07T00:00:00.000Z",
-    "description": "Attended the Spring Campaign Community information call",
-    "type": "Participated in a meeting",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-05-07T00:00:00.000Z",
-    "description": "Participated in the special election call (Reps)",
     "type": "Participated in a meeting",
     "link": "",
     "source": "reps"
@@ -73474,13 +73775,6 @@
   {
     "createdAt": "2015-04-28T00:00:00.000Z",
     "description": "Said updated me on the current status of his involvement. He is currently involved with www.mombasatech.org . Further he has a few plans to increase the impact of Mozilla in his community.",
-    "type": "Communicated with my mentee/mentor",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-04-28T00:00:00.000Z",
-    "description": "Talked to Elio regarding OpenTechSummit in Berlin in May. We initially went the direction to not involve man power and costs in attending due to not getting a booth. We talked about impact in the past and we were just not sure that a one day event is worth the costs. Now Mario (Rep and organizer) just handed out free tickets for Mozillians and would be able to sponsor 200€ for the flight costs. WIth that we would have about 50€-100€ costs on our side. With this information I think that it is a good investment/impact ratio.",
     "type": "Communicated with my mentee/mentor",
     "link": "",
     "source": "reps"
@@ -74621,20 +74915,6 @@
   },
   {
     "createdAt": "2015-03-26T00:00:00.000Z",
-    "description": "Communicated with Quentin Lamamy and answered his question about whether to create an event page on the portal for his talk at a local Lille school or not. I told him to create one to show his impact. Further we talked about Swag requests.",
-    "type": "Communicated with my mentee/mentor",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-03-26T00:00:00.000Z",
-    "description": "I participated in the bi-weekly German speaking community meeting and facilitated all the important topics coming from the \"community builder\". Obviously there were other topics ;)",
-    "type": "Participated in a meeting",
-    "link": "https://air.mozilla.org/german-speaking-community-bi-weekly-meeting-20150326/",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-03-26T00:00:00.000Z",
     "description": "I gave a talk about how to combine Webmaker and Firefox OS. After the talk we had a really nice discussion about possible new features and how to improve the overall \"learning experience\".",
     "type": "Gave a talk",
     "link": "http://mkohler.codes/presentations/mozillach-combining-firefox-os-webmaker/index.html",
@@ -75161,13 +75441,6 @@
   {
     "createdAt": "2015-02-05T00:00:00.000Z",
     "description": "Followed up on all my mentees to remind them to\r\n\r\n* fill out missing parts of the profile\r\n* mark the FOSDEM event as attended if they were there\r\n* write reports\r\n* ask if there is anything I could help them with",
-    "type": "Communicated with my mentee/mentor",
-    "link": "",
-    "source": "reps"
-  },
-  {
-    "createdAt": "2015-02-05T00:00:00.000Z",
-    "description": "Orientation call with Quentin F. done",
     "type": "Communicated with my mentee/mentor",
     "link": "",
     "source": "reps"
