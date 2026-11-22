@@ -18,6 +18,7 @@ export const config = {
     allowPrivate: true, // needed due to using fine-grained PAT
     username: "MichaelKohler",
     stopDate: "2008-01-01",
+    delayMsPerRequest: 500,
     filter:
       "mozilla|common-voice|reps|remo|sc-scripts|webmaker|firefox|activate|surprisera|fxos|foxfooding|arewetenyet|asknot|community_dashboard_participation|appday|matrix|volunteer-contributions-fetch|interledger|NEEOInc|tailscale|wicg",
     tagRules: [
