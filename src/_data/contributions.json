@@ -1,5 +1,19 @@
 [
   {
+    "createdAt": "2026-11-21T23:16:30.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(contributions): add description field to duplication key (#126)",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/69750730a5b55c27b31195dc88f990fc19cef5a6",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-21T23:15:38.000Z",
+    "description": "fix(contributions): add description field to duplication key",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/126",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
     "createdAt": "2026-11-21T22:38:33.000Z",
     "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): run search twice to avoid required 'is' parameter error",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/eb2e76d93ccee690d7c4f4c8575d3c1036425fcd",
