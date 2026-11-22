@@ -36,6 +36,7 @@ const config = {
     enabled: true,
     baseUrl: "https://wiki.mozilla.org/api.php",
     username: "michaelkohler",
+    stopDate: "2008-01-01",
   }
 };
 
