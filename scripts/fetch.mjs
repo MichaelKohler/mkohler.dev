@@ -32,6 +32,11 @@ const config = {
     displayName: "cyphix1",
     stopDate: "2024-11-01",
   },
+  wiki: {
+    enabled: true,
+    baseUrl: "https://wiki.mozilla.org/api.php",
+    username: "michaelkohler",
+  }
 };
 
 fetchAll(config);
