@@ -25,14 +25,14 @@ const config = {
     username: "MichaelKohler",
     stopDate: "2008-01-01",
     filter:
-      "mozilla|common-voice|reps|remo|sc-scripts|webmaker|firefox|activate|surprisera|fxos|foxfooding|arewetenyet|asknot|community_dashboard_participation|appday|matrix|volunteer-contributions-fetch|interledger|NEEOInc|tailscale",
+      "mozilla|common-voice|reps|remo|sc-scripts|webmaker|firefox|activate|surprisera|fxos|foxfooding|arewetenyet|asknot|community_dashboard_participation|appday|matrix|volunteer-contributions-fetch|interledger|NEEOInc|tailscale|wicg",
     tagRules: [
       {
         pattern: 'mozilla|common-voice|reps|remo|sc-scripts|webmaker|firefox|activate|surprisera|fxos|foxfooding|arewetenyet|asknot|community_dashboard_participation|appday',
         tags: ['mozilla'],
       },
       {
-        pattern: 'interledger',
+        pattern: 'interledger|wicg',
         tags: ['work'],
         dateRange: { startDate: '2026-07-01' },
       },
