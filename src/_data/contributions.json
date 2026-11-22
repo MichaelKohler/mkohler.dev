@@ -1,5 +1,173 @@
 [
   {
+    "createdAt": "2026-11-22T18:04:42.000Z",
+    "description": "More improvements",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/127",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-11-22T17:15:55.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: feat(github): add backfill function",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/6342a872540a5285c5e4de096fe69470571e3f06",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T16:54:35.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: feat(contributions): add tag feature",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/a5af411b17fabc9a90e7c3557b2cd7779a3929a8",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:50:42.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(communityportal): properly handle spaces",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/1cd8135747c11276f9f6d3f3d43ddd06f3faf4ca",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:49:27.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(discourse): properly paginate",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/5a3a2bf8580cf8dbfd35b6babe4684592293b841",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:40:06.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(utils): make base Url actually check for an URL",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/9d1e67033e9acbf1e16ea8a5ed03bebd8b063a6c",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:38:23.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(osm): add request delay as well",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/4e0f426347e0f6b3d901f068264fd37b53642a67",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:37:13.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(config): move request delays to delayMsPerRequest config",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/79257fa7881a75c43a503f5841e5a15d9a303d51",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:33:03.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: docs(readme): add commented type",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/e1cb5b2519ee1d31adb8386a9389741d52ba0cee",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:31:41.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): make sure delay is not negative",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/66b07f2602417f5dac5eb965394e92e226210183",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:30:27.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): add random UUID to temp file name",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/7af855e2be90e5a770c8cc67d04b65a5d068cb48",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:25:52.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(fetch): remove unnecessary stat call",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/2e31132655b1a837fca546a1849004bbcb0ef9f8",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:23:39.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(commit): run prettier on precommit",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/f59a2314daf99c7b68cbae77ecf584c4ba8e771b",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:21:42.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: ci(test): adjust community portal test to use actual HTML",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/bcc05bd2bf56ccd302ab684b93d67390668569e7",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:13:42.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(bugzilla): add request delay",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/d6643b587a393fa341bc5eb897fe94affd5a1d57",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T14:10:12.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): add rate limit and retry handling",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/b5b204b1c62bea9e880da118c8e12cff575f55df",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T13:58:17.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(fetch): add a user agent header in common fetch function",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/6078e7c6f7bf3b7e7042382ce9d20290090d01a7",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T13:51:50.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): use updated filter instead of created to avoid losing interactions on old issues/PRs",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/b8fcfdeb98197fd140fb96ba00ece22a43d1adb0",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T13:01:40.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: docs(example): remove allowPrivate from example script",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/9d21b0802dcd8d1b7a5ba0b96bd9e10ef32a9ace",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T13:00:58.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(communityportal): improve error message in case HTML changes",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/93a20a4e28bb2db6c0c12b6b0c1214f5fcaa0c09",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T13:00:12.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: docs(readme): clarify that issuesEnabled also counts for PRs",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/dae639b618bc9509f36f7e22c813a09b60e14494",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T12:57:57.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(discourse): add delay between requests",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/f0827e1d90ffe1a247032f514b2dd84f68cf509a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T12:54:24.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(github): properly hide issues, comments, and PRs reviews for private repos as well",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/5b702d15cf3a2d957d26a613f3ea766291fbf741",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-22T12:44:08.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: fix(wiki): use API endpoint that returns all results instead of max 50",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/cde01423e1cac4400de09c69bd0c1e3e7357ba64",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
     "createdAt": "2026-11-21T23:16:30.000Z",
     "description": "MichaelKohler/volunteer-contributions-fetch: fix(contributions): add description field to duplication key (#126)",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/69750730a5b55c27b31195dc88f990fc19cef5a6",
