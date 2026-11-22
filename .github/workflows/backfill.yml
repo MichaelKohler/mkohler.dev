@@ -37,4 +37,10 @@ jobs:
             git commit -m "Backfill contributions data"
           fi
       - name: Push
-        run: git push origin main
+        run: |
+          if ! git pull --rebase origin main; then
+            git rebase --abort
+            echo "Rebase onto origin/main failed, aborting"
+            exit 1
+          fi
+          git push origin main
