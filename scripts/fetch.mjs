@@ -32,12 +32,6 @@ const config = {
     displayName: "cyphix1",
     stopDate: "2024-11-01",
   },
-  mediaWiki: {
-    enabled: true,
-    baseUrl: "https://wiki.mozilla.org/api.php",
-    username: "michaelkohler",
-    stopDate: "2008-01-01",
-  }
 };
 
 fetchAll(config);
