@@ -18,7 +18,7 @@
   "packageManager": "pnpm@11.25.0",
   "scripts": {
     "build": "eleventy",
-    "fetch": "DEBUG=contributions* node scripts/fetch.mjs && node scripts/dedupe-contributions.mjs",
+    "fetch": "DEBUG=contributions* node scripts/fetch.mjs",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "start": "eleventy --serve --incremental",
