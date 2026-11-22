@@ -17,6 +17,7 @@
   },
   "packageManager": "pnpm@11.25.0",
   "scripts": {
+    "backfill": "DEBUG=contributions* node scripts/backfill.mjs",
     "build": "eleventy",
     "fetch": "DEBUG=contributions* node scripts/fetch.mjs",
     "format": "prettier . --write",

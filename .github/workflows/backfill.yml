@@ -1,0 +1,40 @@
+name: Backfill
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Install pnpm
+        uses: pnpm/action-setup@v6.1.1
+      - name: Use Node.js 24
+        uses: actions/setup-node@v7.1.0
+        with:
+          node-version: 24
+          cache: "pnpm"
+      - name: Install Dependencies
+        run: pnpm install --frozen-lockfile
+      - name: Backfill
+        run: pnpm run backfill
+        env:
+          GITHUB_TOKEN: ${{ secrets.PUBLIC_SCOPE_GH_TOKEN }}
+      - name: Set Git Author
+        run: git config --global user.name "github-actions[bot]"
+      - name: Set Git Email
+        run: git config --global user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Commit Changes
+        run: |
+          git add src/_data
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Backfill contributions data"
+          fi
+      - name: Push
+        run: git push origin main
