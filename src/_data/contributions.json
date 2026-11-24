@@ -1,5 +1,135 @@
 [
   {
+    "createdAt": "2026-11-23T13:32:20.000Z",
+    "description": "fix(website): fix library view on developer page",
+    "link": "https://github.com/WICG/webmonetization/pull/828",
+    "type": "Created PR",
+    "source": "github-pr-created",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T12:21:01.000Z",
+    "description": "feat(spec/flows): adjust to payment session improvements",
+    "link": "https://github.com/WICG/webmonetization/pull/808#pullrequestreview-6021599995",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T12:05:50.000Z",
+    "description": "feat(spec): add 'fully active' payment session condition",
+    "link": "https://github.com/WICG/webmonetization/pull/815#issuecomment-7100486572",
+    "type": "Commented on a Pull Request",
+    "source": "github-comments",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T11:58:11.000Z",
+    "description": "WICG/webmonetization: feat(spec): add 'fully active' payment session condition (#815)",
+    "link": "https://github.com/WICG/webmonetization/commit/9469d718777a7a8ea616c2a8dbc05e5bf8b98b80",
+    "type": "GitHub Commit",
+    "source": "github-commit",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T10:23:26.000Z",
+    "description": "feat(spec): add 'fully active' payment session condition",
+    "link": "https://github.com/WICG/webmonetization/pull/815#pullrequestreview-6019900220",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T10:07:07.000Z",
+    "description": "Release logo change version and update addon store screenshots",
+    "link": "https://github.com/interledger/web-monetization-extension/issues/1563#issuecomment-7097517814",
+    "type": "Commented on an Issue",
+    "source": "github-comments",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T09:50:22.000Z",
+    "description": "WICG/webmonetization: feat(spec): simplify status section (#816)",
+    "link": "https://github.com/WICG/webmonetization/commit/eeaeed53202b25cf15cfc1c19b9811e55f411826",
+    "type": "GitHub Commit",
+    "source": "github-commit",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T08:20:49.000Z",
+    "description": "chore: release version 1.6.0",
+    "link": "https://github.com/interledger/web-monetization-extension/pull/1566#pullrequestreview-6018439519",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T08:13:44.000Z",
+    "description": "chore: release version 1.6.0",
+    "link": "https://github.com/interledger/web-monetization-extension/pull/1566#pullrequestreview-6018357509",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T07:17:43.000Z",
+    "description": "Update welcome.yml",
+    "link": "https://github.com/WICG/webmonetization/pull/827#pullrequestreview-6017757623",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T07:04:32.000Z",
+    "description": "chore(deps): bump katex and @interledger/docs-design-system",
+    "link": "https://github.com/WICG/webmonetization/pull/825#issuecomment-7093958192",
+    "type": "Commented on a Pull Request",
+    "source": "github-comments",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T07:03:50.000Z",
+    "description": "chore(deps-dev): bump @biomejs/biome from 2.6.7 to 2.6.8",
+    "link": "https://github.com/interledger/httpbis-digest-headers/pull/100#pullrequestreview-6017643410",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-23T07:02:12.000Z",
+    "description": "chore(deps): bump minimatch, eslint, @typescript-eslint/parser and typescript-eslint",
+    "link": "https://github.com/WICG/webmonetization/pull/826#pullrequestreview-6017631388",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "createdAt": "2026-11-22T18:04:42.000Z",
     "description": "More improvements",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/127",
