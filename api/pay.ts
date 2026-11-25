@@ -1,3 +1,17 @@
+// The parts of Vercel's request and response this handler uses
+interface PayRequest {
+  method?: string;
+  // Node joins repeated Accept headers into one string
+  headers: { accept?: string };
+}
+interface PayResponse {
+  setHeader(name: string, value: string): unknown;
+  status(code: number): PayResponse;
+  json(body: unknown): PayResponse;
+  send(body: string): PayResponse;
+  end(): PayResponse;
+}
+
 const INTERNAL_SERVER_ERROR_CODE = "INTERNAL_SERVER_ERROR";
 const BAD_GATEWAY_CODE = "BAD_GATEWAY";
 const METHOD_NOT_ALLOWED_CODE = "METHOD_NOT_ALLOWED";
@@ -14,8 +28,8 @@ const SPSP_MEDIA_TYPES = ["application/spsp4+json", "application/spsp+json"];
 // The highest q-value wins, ties go to our order of preference. Types with q=0
 // are explicitly refused by the client and thus skipped. A missing or malformed
 // q-value counts as 1.
-function getSPSPMediaType(acceptHeaderValue = "") {
-  const qValues = new Map(
+function getSPSPMediaType(acceptHeaderValue = ""): string | undefined {
+  const qValues = new Map<string | undefined, number>(
     acceptHeaderValue.split(",").map((part) => {
       const [type, ...params] = part
         .split(";")
@@ -27,12 +41,16 @@ function getSPSPMediaType(acceptHeaderValue = "") {
     }),
   );
 
-  return SPSP_MEDIA_TYPES.filter((type) => qValues.get(type) > 0).sort(
-    (a, b) => qValues.get(b) - qValues.get(a),
+  const qValue = (type: string) => qValues.get(type) ?? 0;
+  return SPSP_MEDIA_TYPES.filter((type) => qValue(type) > 0).sort(
+    (a, b) => qValue(b) - qValue(a),
   )[0];
 }
 
-export default async function handler(request, response) {
+export default async function handler(
+  request: PayRequest,
+  response: PayResponse,
+) {
   // SPSP responses contain per-request credentials
   response.setHeader("Cache-Control", "no-store");
 
@@ -48,7 +66,7 @@ export default async function handler(request, response) {
     return response.status(405).json({ error: METHOD_NOT_ALLOWED_CODE });
   }
 
-  const spspMediaType = getSPSPMediaType(request.headers["accept"]);
+  const spspMediaType = getSPSPMediaType(request.headers.accept);
   const mediaType = spspMediaType || DEFAULT_ACCEPT_HEADER;
 
   response.setHeader("Vary", "Accept");

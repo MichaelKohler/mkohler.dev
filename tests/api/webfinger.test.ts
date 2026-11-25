@@ -1,9 +1,9 @@
 import assert from "node:assert/strict";
 import { describe, it } from "node:test";
-import handler from "../../api/webfinger.js";
-import { createResponse } from "./helpers.mjs";
+import handler from "../../api/webfinger.ts";
+import { createResponse } from "./helpers.ts";
 
-function callHandler(query) {
+function callHandler(query: Record<string, string | string[]>) {
   const response = createResponse();
   handler({ query }, response);
   return response;
@@ -13,7 +13,7 @@ describe("webfinger", () => {
   for (const [name, query] of [
     ["missing", {}],
     ["empty", { resource: "" }],
-  ]) {
+  ] as const) {
     it(`responds with 400 if the resource is ${name}`, () => {
       const response = callHandler(query);
 
@@ -29,7 +29,7 @@ describe("webfinger", () => {
 
     assert.equal(response.statusCode, 200);
     assert.equal(response.headers["content-type"], "application/jrd+json");
-    assert.deepEqual(JSON.parse(response.body), {
+    assert.deepEqual(JSON.parse(response.body as string), {
       subject: "acct:mkohler@chaos.social",
       aliases: [
         "https://chaos.social/@mkohler",
@@ -54,7 +54,7 @@ describe("webfinger", () => {
     });
   });
 
-  for (const [name, resource] of [
+  const unknownResources: [string, string | string[]][] = [
     ["another account", "acct:someone@mkohler.dev"],
     ["another domain", "acct:mkohler@example.com"],
     ["a resource without the acct scheme", "mkohler@mkohler.dev"],
@@ -62,7 +62,9 @@ describe("webfinger", () => {
       "a repeated query param",
       ["acct:mkohler@mkohler.dev", "acct:someone@mkohler.dev"],
     ],
-  ]) {
+  ];
+
+  for (const [name, resource] of unknownResources) {
     it(`responds with 404 for ${name}`, () => {
       const response = callHandler({ resource });
 

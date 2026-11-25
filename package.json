@@ -4,6 +4,7 @@
   "description": "Michael Kohler's CV",
   "author": "Michael Kohler",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "volunteer-contributions-fetch": "^4.1.0"
   },
@@ -12,23 +13,30 @@
     "@11ty/eleventy-plugin-rss": "^3.1.0",
     "@playwright/test": "^1.65.0",
     "@shopify/prettier-plugin-liquid": "^1.11.4",
+    "@types/node": "^22.20.5",
     "markdown-it": "^15.0.3",
-    "prettier": "^3.9.10"
+    "posthtml": "^0.16.7",
+    "prettier": "^3.9.10",
+    "typescript": "^6.0.3"
   },
   "packageManager": "pnpm@11.25.0",
   "scripts": {
-    "backfill": "DEBUG=contributions* node scripts/backfill.mjs",
-    "build": "eleventy",
-    "fetch": "DEBUG=contributions* node scripts/fetch.mjs",
+    "backfill": "DEBUG=contributions* node scripts/backfill.ts",
+    "build": "eleventy --config=eleventy.config.ts",
+    "fetch": "DEBUG=contributions* node scripts/fetch.ts",
     "format": "prettier . --write",
     "format:check": "prettier . --check",
-    "start": "eleventy --serve --incremental",
-    "test": "npm run test:api && rm -rf _site && npm run build && npm run test:links && npm run test:playwright",
-    "test:api": "node --test \"tests/api/*.test.mjs\"",
-    "test:links": "node --test \"tests/links/*.test.mjs\"",
+    "typecheck": "tsc",
+    "start": "eleventy --config=eleventy.config.ts --serve --incremental",
+    "test": "npm run typecheck && npm run test:api && rm -rf _site && npm run build && npm run test:links && npm run test:playwright",
+    "test:api": "node --test \"tests/api/*.test.ts\"",
+    "test:links": "node --test \"tests/links/*.test.ts\"",
     "test:playwright": "playwright test",
     "test:headed": "playwright test --headed",
     "test:ui": "playwright test --ui",
     "test:update": "playwright test --update-snapshots"
+  },
+  "engines": {
+    "node": ">=22.18.0"
   }
 }

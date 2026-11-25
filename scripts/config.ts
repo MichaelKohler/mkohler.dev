@@ -1,4 +1,6 @@
-export const config = {
+import type { Config } from "volunteer-contributions-fetch";
+
+export const config: Config = {
   outputFile: `${import.meta.dirname}/../src/_data/contributions.json`,
   communityPortal: {
     enabled: false,

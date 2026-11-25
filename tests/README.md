@@ -9,8 +9,8 @@ The visual regression tests are already configured and ready to use. The setup i
 - **Playwright Test Framework**: Configured for both desktop and mobile viewports
 - **Multiple Browsers**: Tests run on both Chromium and Firefox
 - **Dev Server Integration**: Tests run against the live development server
-- **Baseline Screenshots**: Stored in `tests/visual-regression.spec.js-snapshots/`
-- **Test Configuration**: `playwright.config.js` with Chromium and Firefox projects
+- **Baseline Screenshots**: Stored in `tests/visual-regression.spec.ts-snapshots/`
+- **Test Configuration**: `playwright.config.ts` with Chromium and Firefox projects
 
 ## Running Tests
 
@@ -57,9 +57,9 @@ When you make intentional visual changes:
 
 ## Files
 
-- `tests/visual-regression.spec.js` - Main test file
-- `playwright.config.js` - Playwright configuration
-- `tests/visual-regression.spec.js-snapshots/` - Baseline screenshots (tracked in git)
+- `tests/visual-regression.spec.ts` - Main test file
+- `playwright.config.ts` - Playwright configuration
+- `tests/visual-regression.spec.ts-snapshots/` - Baseline screenshots (tracked in git)
 
 # API Tests
 
@@ -71,11 +71,11 @@ pnpm test:api
 
 # Service Worker Tests
 
-`tests/service-worker.spec.js` checks the worker in real browsers against its own server, which can return errors, respond slowly or go down. It covers updating, caching, trimming and the fallbacks. It's part of `pnpm test:playwright` and only runs in the desktop projects. It serves `_site`, so build first if `src/sw.liquid` changed.
+`tests/service-worker.spec.ts` checks the worker in real browsers against its own server, which can return errors, respond slowly or go down. It covers updating, caching, trimming and the fallbacks. It's part of `pnpm test:playwright` and only runs in the desktop projects. It serves `_site`, so build first if `src/sw.liquid` changed.
 
 # Internal Link Check
 
-`tests/links/internal-links.test.mjs` checks the internal links and anchors of all pages in `_site`, except inside the archived presentations. It runs in CI after the build. `pnpm test` builds first. To run it by itself, run `pnpm build` first, and delete `_site` if it contains leftovers from older builds.
+`tests/links/internal-links.test.ts` checks the internal links and anchors of all pages in `_site`, except inside the archived presentations. It runs in CI after the build. `pnpm test` builds first. To run it by itself, run `pnpm build` first, and delete `_site` if it contains leftovers from older builds.
 
 ```bash
 pnpm test:links

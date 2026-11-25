@@ -1,4 +1,18 @@
-export default function handler(request, response) {
+// The parts of Vercel's request and response this handler uses
+interface WebfingerRequest {
+  query: Record<string, string | string[] | undefined>;
+}
+interface WebfingerResponse {
+  setHeader(name: string, value: string): unknown;
+  status(code: number): WebfingerResponse;
+  json(body: unknown): WebfingerResponse;
+  send(body?: string): WebfingerResponse;
+}
+
+export default function handler(
+  request: WebfingerRequest,
+  response: WebfingerResponse,
+) {
   const resource = request.query.resource;
 
   if (!resource) {

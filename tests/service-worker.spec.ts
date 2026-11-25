@@ -1,13 +1,19 @@
-const fs = require("node:fs");
-const http = require("node:http");
-const path = require("node:path");
-const zlib = require("node:zlib");
-const { test, expect } = require("@playwright/test");
+import fs from "node:fs";
+import http from "node:http";
+import type { AddressInfo } from "node:net";
+import path from "node:path";
+import zlib from "node:zlib";
+import { test, expect, type Page } from "@playwright/test";
 
-const SITE_DIR = path.join(__dirname, "../_site");
+type Handler = (
+  request: http.IncomingMessage,
+  response: http.ServerResponse,
+) => void;
+
+const SITE_DIR = path.join(import.meta.dirname, "../_site");
 const MAX_CACHE_ENTRIES = 200;
 const NETWORK_TIMEOUT = 5000;
-const CONTENT_TYPES = {
+const CONTENT_TYPES: Record<string, string> = {
   ".css": "text/css",
   ".html": "text/html",
   ".js": "text/javascript",
@@ -18,7 +24,11 @@ const CONTENT_TYPES = {
 const CACHE_CONTROL = "public, max-age=0, must-revalidate";
 
 const respondWith =
-  (status, body = "", headers = {}) =>
+  (
+    status: number,
+    body: string | Buffer = "",
+    headers: http.OutgoingHttpHeaders = {},
+  ): Handler =>
   (_request, response) => {
     response
       .writeHead(status, {
@@ -28,15 +38,19 @@ const respondWith =
       })
       .end(body);
   };
-const hang = () => {};
+const hang: Handler = () => {};
 
 // Serves the build with its own server, so that tests can control the responses and take
 // the site down in all browsers: in Firefox, setOffline doesn't affect the worker's requests.
-function startServer(overrides, getWorkerRevision) {
+function startServer(
+  overrides: Map<string, Handler>,
+  getWorkerRevision: () => number,
+): Promise<http.Server> {
   const server = http.createServer((request, response) => {
-    const { pathname } = new URL(request.url, "http://localhost");
-    if (overrides.has(pathname)) {
-      overrides.get(pathname)(request, response);
+    const { pathname } = new URL(request.url ?? "/", "http://localhost");
+    const override = overrides.get(pathname);
+    if (override) {
+      override(request, response);
       return;
     }
 
@@ -66,38 +80,43 @@ function startServer(overrides, getWorkerRevision) {
   });
 }
 
-function stopServer(server) {
-  return new Promise((resolve) => {
-    server.close(resolve);
+function stopServer(server: http.Server) {
+  return new Promise<void>((resolve) => {
+    server.close(() => resolve());
     server.closeAllConnections();
   });
 }
 
-const isCached = (page, pathname) =>
+const isCached = (page: Page, pathname: string) =>
   page.evaluate(async (key) => !!(await caches.match(key)), pathname);
 
-const waitUntilCached = (page, pathname) =>
+const waitUntilCached = (page: Page, pathname: string) =>
   expect.poll(() => isCached(page, pathname)).toBe(true);
 
-const request = (page, pathname, init) =>
+// The options are serialized into the page, so only plain values work
+const request = (
+  page: Page,
+  pathname: string,
+  init: { method?: string } = {},
+) =>
   page.evaluate(
-    async ([url, options]) => {
+    async ({ url, options }) => {
       const response = await fetch(url, options);
       return { status: response.status, text: await response.text() };
     },
-    [pathname, init],
+    { url: pathname, options: init },
   );
 
 test.describe("Service Worker", () => {
-  let server;
-  let baseUrl;
-  let overrides;
-  let workerRevision;
+  let server: http.Server;
+  let baseUrl: string;
+  let overrides: Map<string, Handler>;
+  let workerRevision: number;
 
-  const url = (pathname) => `${baseUrl}${pathname}`;
+  const url = (pathname: string) => `${baseUrl}${pathname}`;
 
   test.skip(
-    ({ viewport }) => viewport.width < 500,
+    ({ viewport }) => (viewport?.width ?? 0) < 500,
     "The viewport makes no difference here",
   );
 
@@ -105,7 +124,7 @@ test.describe("Service Worker", () => {
     overrides = new Map();
     workerRevision = 1;
     server = await startServer(overrides, () => workerRevision);
-    baseUrl = `http://127.0.0.1:${server.address().port}`;
+    baseUrl = `http://127.0.0.1:${(server.address() as AddressInfo).port}`;
 
     await page.goto(url("/"));
     await page.evaluate(() => navigator.serviceWorker.ready);
@@ -160,7 +179,7 @@ test.describe("Service Worker", () => {
       await waitUntilCached(page, "/talks/");
       expect(
         await page.evaluate(async () => {
-          const name = (await caches.keys())[0];
+          const name = (await caches.keys())[0]!;
           const keys = await (await caches.open(name)).keys();
           return keys.some((key) => key.url.includes("utm_source"));
         }),
@@ -204,7 +223,7 @@ test.describe("Service Worker", () => {
       page,
     }) => {
       await page.evaluate(async (count) => {
-        const cache = await caches.open((await caches.keys())[0]);
+        const cache = await caches.open((await caches.keys())[0]!);
         for (let i = 0; i < count; i++) {
           await cache.put(`/entry-${i}`, new Response("entry"));
         }
@@ -215,7 +234,7 @@ test.describe("Service Worker", () => {
       await expect
         .poll(() =>
           page.evaluate(async () => {
-            const cache = await caches.open((await caches.keys())[0]);
+            const cache = await caches.open((await caches.keys())[0]!);
             return (await cache.keys()).length;
           }),
         )
@@ -252,7 +271,7 @@ test.describe("Service Worker", () => {
 
       const response = await page.goto(url("/talks/"));
 
-      expect(response.status()).toBe(404);
+      expect(response?.status()).toBe(404);
       await expect(page.locator("h1.title")).toHaveText("Not found");
       await expect(page.locator(".saved-copy-notice")).toHaveCount(0);
     });
@@ -266,7 +285,7 @@ test.describe("Service Worker", () => {
 
       const response = await page.goto(url("/talks/"));
 
-      expect(response.status()).toBe(200);
+      expect(response?.status()).toBe(200);
       await expect(page.locator(".saved-copy-notice")).toBeVisible();
       await expect(page.locator("h1.title")).toHaveText("On stage");
     });
@@ -293,7 +312,7 @@ test.describe("Service Worker", () => {
 
       const response = await page.goto(url("/contributions/"));
 
-      expect(response.status()).toBe(503);
+      expect(response?.status()).toBe(503);
       await expect(page.locator("h1.title")).toHaveText("Server error");
     });
   });
@@ -363,7 +382,7 @@ test.describe("Service Worker", () => {
 
       await expect(page.locator(".saved-copy-notice")).toBeVisible();
       await expect(page.locator("h1.title")).toHaveText("On stage");
-      const headers = response.headers();
+      const headers = response!.headers();
       expect(headers["content-encoding"]).toBeUndefined();
       expect(headers.etag).toBeUndefined();
       expect(headers["x-frame-options"]).toBe("DENY");
@@ -382,7 +401,7 @@ test.describe("Service Worker", () => {
       await stopServer(server);
       const response = await page.goto(url("/feed.xml"));
 
-      expect(await response.text()).toBe("<feed><body/></feed>");
+      expect(await response!.text()).toBe("<feed><body/></feed>");
     });
   });
 
@@ -401,12 +420,12 @@ test.describe("Service Worker", () => {
     test("Keeps waiting for the network without a cached copy", async ({
       page,
     }) => {
-      overrides.set("/contributions/", (req, res) => {
+      overrides.set("/contributions/", (request, response) => {
         setTimeout(
           respondWith(200, '<h1 class="title">Late</h1>'),
           NETWORK_TIMEOUT + 1000,
-          req,
-          res,
+          request,
+          response,
         );
       });
 

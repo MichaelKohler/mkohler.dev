@@ -1,6 +1,10 @@
+import path from "node:path";
+import { pathToFileURL } from "node:url";
 import pluginRss from "@11ty/eleventy-plugin-rss";
+import type { UserConfig } from "@11ty/eleventy";
 import markdownIt from "markdown-it";
-import { TIME_ZONE } from "./scripts/timezone.mjs";
+import type { Node } from "posthtml";
+import { TIME_ZONE } from "./scripts/timezone.ts";
 
 // Liquid's date filter formats in the process timezone. Its timezoneOffset option
 // is off by an hour around DST changes when the build machine observes DST itself.
@@ -8,7 +12,19 @@ process.env.TZ = TIME_ZONE;
 
 const md = markdownIt({ html: true });
 
-export default (eleventyConfig) => {
+export default (eleventyConfig: UserConfig) => {
+  // Eleventy only picks up .js, .cjs and .mjs data files by itself. Node strips the
+  // types on import, and the query busts the module cache on rebuilds during `start`.
+  eleventyConfig.addDataExtension("ts", {
+    read: false,
+    parser: async (filePath) => {
+      const url = pathToFileURL(path.resolve(filePath));
+      url.searchParams.set("t", String(Date.now()));
+      const { default: data } = await import(url.href);
+      return typeof data === "function" ? data() : data;
+    },
+  });
+
   eleventyConfig.addPassthroughCopy({
     public: "/",
   });
@@ -27,14 +43,14 @@ export default (eleventyConfig) => {
   eleventyConfig.htmlTransformer.addPosthtmlPlugin(
     "html",
     ({ page }) =>
-      (tree) => {
+      (tree: Node) => {
         if (!page.inputPath.startsWith("./src/blog/posts/")) {
           return;
         }
 
         let codeBlocks = 0;
         let tables = 0;
-        const wrapped = new WeakSet();
+        const wrapped = new WeakSet<Node>();
         tree.walk((node) => {
           if (node.tag === "pre") {
             node.attrs = {

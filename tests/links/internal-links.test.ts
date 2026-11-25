@@ -9,18 +9,18 @@ const SITE_DIR =
 const ORIGIN = "https://mkohler.dev";
 
 // The presentations are archived decks, so only links pointing to them are checked.
-const isChecked = (file) => !file.startsWith("presentations/");
+const isChecked = (file: string) => !file.startsWith("presentations/");
 // These only exist on Vercel.
-const isServedByVercel = (pathname) =>
+const isServedByVercel = (pathname: string) =>
   pathname.startsWith("/_vercel/") ||
   vercelConfig.rewrites.some(({ source }) => source === pathname);
 
 const htmlFiles = fs
-  .readdirSync(SITE_DIR, { recursive: true })
+  .readdirSync(SITE_DIR, { recursive: true, encoding: "utf8" })
   .map((file) => file.split(path.sep).join("/"))
   .filter((file) => file.endsWith(".html") && isChecked(file));
 
-function getLinks(html) {
+function getLinks(html: string) {
   const withoutScripts = html.replace(/<script[\s\S]*?<\/script>/gi, "");
   const attributes = withoutScripts.matchAll(
     /\s(href|src|srcset)\s*=\s*(?:"([^"]*)"|'([^']*)')/gi,
@@ -28,15 +28,15 @@ function getLinks(html) {
 
   return [...attributes]
     .flatMap(([, name, doubleQuoted, singleQuoted]) => {
-      const value = doubleQuoted ?? singleQuoted;
-      return name.toLowerCase() === "srcset"
+      const value = doubleQuoted ?? singleQuoted ?? "";
+      return name?.toLowerCase() === "srcset"
         ? value.split(",").map((candidate) => candidate.trim().split(/\s+/)[0])
         : [value];
     })
-    .filter(Boolean);
+    .filter((link): link is string => Boolean(link));
 }
 
-function resolveFile(pathname) {
+function resolveFile(pathname: string) {
   const file = path.join(SITE_DIR, decodeURIComponent(pathname));
   const candidate = pathname.endsWith("/")
     ? path.join(file, "index.html")
@@ -46,18 +46,20 @@ function resolveFile(pathname) {
     : null;
 }
 
-const anchorsByFile = new Map();
-function getAnchors(file) {
-  if (!anchorsByFile.has(file)) {
+const anchorsByFile = new Map<string, Set<string>>();
+function getAnchors(file: string) {
+  let anchors = anchorsByFile.get(file);
+  if (!anchors) {
     const matches = fs
       .readFileSync(file, "utf8")
       .matchAll(/\s(?:id|name)\s*=\s*["']([^"']+)["']/g);
-    anchorsByFile.set(file, new Set([...matches].map((match) => match[1])));
+    anchors = new Set([...matches].map((match) => match[1]!));
+    anchorsByFile.set(file, anchors);
   }
-  return anchorsByFile.get(file);
+  return anchors;
 }
 
-function getLinkError(link, page) {
+function getLinkError(link: string, page: string) {
   let url;
   try {
     url = new URL(link, `${ORIGIN}/${page}`);

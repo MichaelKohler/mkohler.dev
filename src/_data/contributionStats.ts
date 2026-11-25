@@ -1,13 +1,14 @@
 // Aggregates src/_data/contributions.json for the charts on the Open Source and
 // contributions pages: per year, per year × month and per source.
 import fs from "node:fs";
-import { TIME_ZONE } from "../../scripts/timezone.mjs";
+import type { Contribution } from "volunteer-contributions-fetch";
+import { TIME_ZONE } from "../../scripts/timezone.ts";
 
-const contributions = JSON.parse(
+const contributions: Contribution[] = JSON.parse(
   fs.readFileSync(new URL("./contributions.json", import.meta.url), "utf8"),
 );
 
-const sourceLabels = {
+const sourceLabels: Record<string, string> = {
   "github-commit": "GitHub commits",
   "github-comments": "GitHub comments",
   "github-issues-created": "Issues opened",
@@ -37,7 +38,7 @@ const monthNames = [
   "Dec",
 ];
 
-const format = (n) => n.toLocaleString("en-US");
+const format = (n: number) => n.toLocaleString("en-US");
 
 // en-CA formats as YYYY-MM, which also keeps the keys sortable.
 const monthFormat = new Intl.DateTimeFormat("en-CA", {
@@ -45,11 +46,11 @@ const monthFormat = new Intl.DateTimeFormat("en-CA", {
   year: "numeric",
   month: "2-digit",
 });
-const monthOf = (c) => monthFormat.format(new Date(c.createdAt));
-const yearOf = (c) => monthOf(c).slice(0, 4);
+const monthOf = (c: Contribution) => monthFormat.format(new Date(c.createdAt));
+const yearOf = (c: Contribution) => monthOf(c).slice(0, 4);
 
-const countBy = (fn) =>
-  contributions.reduce((acc, contribution) => {
+const countBy = (fn: (c: Contribution) => string) =>
+  contributions.reduce<Record<string, number>>((acc, contribution) => {
     const key = fn(contribution);
     acc[key] = (acc[key] || 0) + 1;
     return acc;
@@ -86,7 +87,7 @@ export default () => {
 
   // Five levels on a log scale, so quiet years stay visible next to the busiest ones.
   const maxMonth = Math.max(...Object.values(perMonth));
-  const level = (count) =>
+  const level = (count: number) =>
     count
       ? Math.max(
           1,
@@ -108,10 +109,12 @@ export default () => {
   }));
 
   const sources = Object.entries(perSource).sort((a, b) => b[1] - a[1]);
+  // Sorted by count, so the first source is the largest
+  const maxSource = sources[0]?.[1] ?? 1;
   const bySource = sources.map(([key, count]) => ({
     label: sourceLabels[key] || key,
     count: format(count),
-    value: (count / sources[0][1]).toFixed(3),
+    value: (count / maxSource).toFixed(3),
   }));
 
   return {

@@ -1,9 +1,9 @@
-const { defineConfig, devices } = require("@playwright/test");
+import { defineConfig, devices } from "@playwright/test";
 
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
-module.exports = defineConfig({
+export default defineConfig({
   testDir: "./tests",
   /* These run with the Node.js test runner, see `pnpm test:api` and `test:links` */
   testIgnore: ["api/**", "links/**"],

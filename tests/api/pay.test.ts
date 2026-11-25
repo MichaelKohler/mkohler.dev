@@ -1,22 +1,32 @@
 import assert from "node:assert/strict";
-import { afterEach, beforeEach, describe, it, mock } from "node:test";
-import handler from "../../api/pay.js";
-import { createResponse } from "./helpers.mjs";
+import {
+  afterEach,
+  beforeEach,
+  describe,
+  it,
+  mock,
+  type Mock,
+} from "node:test";
+import handler from "../../api/pay.ts";
+import { createResponse } from "./helpers.ts";
 
 const PAYMENT_POINTER = "https://ilp.gatehub.net/941671735/EUR";
 const ALLOWED_METHODS = "GET, HEAD, OPTIONS";
 
-let fetchMock;
-let consoleErrorMock;
+let fetchMock: Mock<typeof fetch>;
+let consoleErrorMock: Mock<typeof console.error>;
 
 function mockUpstream(
   body = '{"id":"wallet"}',
-  init = { headers: { "content-type": "application/json" } },
+  init: ResponseInit = { headers: { "content-type": "application/json" } },
 ) {
   fetchMock.mock.mockImplementation(async () => new Response(body, init));
 }
 
-async function callHandler({ method = "GET", accept } = {}) {
+async function callHandler({
+  method = "GET",
+  accept,
+}: { method?: string; accept?: string } = {}) {
   const response = createResponse();
   await handler(
     { method, headers: accept === undefined ? {} : { accept } },
@@ -25,8 +35,9 @@ async function callHandler({ method = "GET", accept } = {}) {
   return response;
 }
 
+const upstreamInit = () => fetchMock.mock.calls[0]?.arguments[1];
 const upstreamAccept = () =>
-  fetchMock.mock.calls[0].arguments[1].headers.Accept;
+  (upstreamInit()?.headers as Record<string, string> | undefined)?.Accept;
 
 beforeEach(() => {
   fetchMock = mock.method(globalThis, "fetch", async () => {
@@ -73,13 +84,13 @@ describe("pay: HTTP methods", () => {
       assert.equal(response.statusCode, 200);
       assert.equal(response.body, '{"id":"wallet"}');
       assert.equal(fetchMock.mock.callCount(), 1);
-      assert.equal(fetchMock.mock.calls[0].arguments[0], PAYMENT_POINTER);
+      assert.equal(fetchMock.mock.calls[0]?.arguments[0], PAYMENT_POINTER);
     });
   }
 });
 
 describe("pay: Accept header", () => {
-  const cases = [
+  const cases: [string, string | undefined, string][] = [
     ["no header", undefined, "application/json"],
     ["an empty header", "", "application/json"],
     ["an unrelated type", "text/html", "application/json"],
@@ -179,7 +190,7 @@ describe("pay: response headers", () => {
     assert.equal(response.headers.vary, "Accept");
   });
 
-  const noStoreCases = [
+  const noStoreCases: [string, string, () => void][] = [
     ["a success", "GET", () => {}],
     ["a preflight", "OPTIONS", () => {}],
     ["a rejected method", "POST", () => {}],
@@ -209,9 +220,7 @@ describe("pay: upstream failures", () => {
   it("sets a timeout on the upstream request", async () => {
     await callHandler();
 
-    assert.ok(
-      fetchMock.mock.calls[0].arguments[1].signal instanceof AbortSignal,
-    );
+    assert.ok(upstreamInit()?.signal instanceof AbortSignal);
   });
 
   for (const status of [404, 406, 503]) {
@@ -224,8 +233,8 @@ describe("pay: upstream failures", () => {
       assert.deepEqual(response.body, { error: "BAD_GATEWAY" });
       assert.equal(consoleErrorMock.mock.callCount(), 1);
       assert.match(
-        consoleErrorMock.mock.calls[0].arguments[0],
-        new RegExp(status),
+        consoleErrorMock.mock.calls[0]?.arguments[0],
+        new RegExp(String(status)),
       );
     });
   }
@@ -240,7 +249,7 @@ describe("pay: upstream failures", () => {
 
     assert.equal(response.statusCode, 500);
     assert.deepEqual(response.body, { error: "INTERNAL_SERVER_ERROR" });
-    assert.equal(consoleErrorMock.mock.calls[0].arguments[1], error);
+    assert.equal(consoleErrorMock.mock.calls[0]?.arguments[1], error);
   });
 
   it("responds with 500 and logs if upstream does not return JSON", async () => {

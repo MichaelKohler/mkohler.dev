@@ -1,4 +1,6 @@
 {
+  "buildCommand": "pnpm build",
+  "outputDirectory": "_site",
   "headers": [
     {
       "source": "/((?!webmonetization/).*)",
