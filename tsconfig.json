@@ -1,0 +1,28 @@
+{
+  // Type-check only. Node (and Playwright and Vercel) run the .ts files directly,
+  // so there is no build step and no emitted output. "dom" is for the code that
+  // Playwright runs in the browser, public/main.js stays plain JavaScript.
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["esnext", "dom"],
+    "types": ["node"],
+    "noEmit": true,
+
+    // Required for Node's native type stripping
+    "allowImportingTsExtensions": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "_site", "public"]
+}

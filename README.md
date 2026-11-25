@@ -6,6 +6,8 @@ mkohler.dev
 Setting up
 -----
 
+The project is written in TypeScript, which Node.js runs directly without a build step. This needs Node.js 22.18 or newer. `public/main.js` is the only JavaScript file, as it's served to the browser as is.
+
 After cloning the repository change to the newly created folder and install the third-party dependencies.
 
 ```
@@ -32,6 +34,13 @@ $ pnpm build
 ```
 
 This will create a few folder `_site` which will include all necessary files to upload to a web server.
+
+Checking types
+-----
+
+```
+$ pnpm typecheck
+```
 
 LICENSE
 -----

@@ -14,7 +14,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")/.."
 
 REPO="MichaelKohler/mkohler.dev"
 ARTIFACT_NAME="playwright-report-test"
-SNAPSHOTS_DIR="tests/visual-regression.spec.js-snapshots"
+SNAPSHOTS_DIR="tests/visual-regression.spec.ts-snapshots"
 PROJECTS=("chromium-desktop" "chromium-mobile" "firefox-desktop" "firefox-mobile")
 TMP_DIR="$(mktemp -d)"
 

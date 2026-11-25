@@ -24,6 +24,8 @@ jobs:
         run: pnpm install --frozen-lockfile
       - name: Check Formatting
         run: pnpm format:check
+      - name: Type Check
+        run: pnpm typecheck
       - name: Run API Tests
         run: pnpm test:api
       - name: Build
