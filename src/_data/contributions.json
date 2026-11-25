@@ -1,5 +1,99 @@
 [
   {
+    "createdAt": "2026-11-25T06:38:56.000Z",
+    "description": "build(deps-dev): bump prettier from 3.9.10 to 3.10.1 in the development-dependencies group",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/128#pullrequestreview-6052970368",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-11-25T06:38:25.000Z",
+    "description": "build(deps): bump jsdom from 30.1.3 to 31.0.0",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/129#pullrequestreview-6052963037",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews"
+  },
+  {
+    "createdAt": "2026-11-24T08:48:13.000Z",
+    "description": "Define the payment session limit scope",
+    "link": "https://github.com/WICG/webmonetization/issues/830#issuecomment-7126582733",
+    "type": "Commented on an Issue",
+    "source": "github-comments",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-24T08:35:33.000Z",
+    "description": "chore(deps): update dependencies",
+    "link": "https://github.com/WICG/webmonetization/pull/829#pullrequestreview-6036001733",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-24T07:17:35.000Z",
+    "description": "chore(deps): update dependencies",
+    "link": "https://github.com/WICG/webmonetization/pull/829#pullrequestreview-6035147076",
+    "type": "Requested changes on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-24T07:17:05.000Z",
+    "description": "chore(deps): update dependencies",
+    "link": "https://github.com/WICG/webmonetization/pull/829#pullrequestreview-6035142578",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-24T07:16:39.000Z",
+    "description": "chore(deps): update dependencies",
+    "link": "https://github.com/WICG/webmonetization/pull/829#pullrequestreview-6035138636",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-24T07:01:49.000Z",
+    "description": "WICG/webmonetization: fix(website): fix library view on developer page (#828)",
+    "link": "https://github.com/WICG/webmonetization/commit/730fd400424f4e01f990ae0cffefa7e8a72a973f",
+    "type": "GitHub Commit",
+    "source": "github-commit",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-24T07:01:44.000Z",
+    "description": "fix(website): fix library view on developer page",
+    "link": "https://github.com/WICG/webmonetization/pull/828#issuecomment-7124537450",
+    "type": "Commented on a Pull Request",
+    "source": "github-comments",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-24T06:50:25.000Z",
+    "description": "WICG/webmonetization: feat(spec): clarify incoming payment URL authentication (#817)",
+    "link": "https://github.com/WICG/webmonetization/commit/d607053afebcd48450eb9551a3299c1620fda8e5",
+    "type": "GitHub Commit",
+    "source": "github-commit",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "createdAt": "2026-11-23T13:32:20.000Z",
     "description": "fix(website): fix library view on developer page",
     "link": "https://github.com/WICG/webmonetization/pull/828",
