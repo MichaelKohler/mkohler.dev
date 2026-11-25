@@ -238,6 +238,7 @@ header_title: Open Source
                 {% else %}
                   <a href="{{ contribution.link | escape }}">{{ contribution.type | escape }}</a>
                 {% endif %}
+                {% include "contribution-tags.html" %}
               </td>
               <td>{{ contribution.description | escape }}</td>
             </tr>

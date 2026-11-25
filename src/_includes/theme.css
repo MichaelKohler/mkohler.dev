@@ -1188,6 +1188,41 @@ table.contributions {
     }
   }
 
+  & .contribution-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin: 0.35rem 0 0;
+    padding: 0;
+    list-style: none;
+
+    & li {
+      --tag-hue: 250;
+      --tag-chroma: 0.015;
+      padding: 0.1rem 0.5rem;
+      border: 1px solid oklch(0.86 var(--tag-chroma) var(--tag-hue));
+      border-radius: 999px;
+      background: oklch(0.96 calc(var(--tag-chroma) * 0.6) var(--tag-hue));
+      color: oklch(0.42 calc(var(--tag-chroma) * 1.6) var(--tag-hue));
+      font-family: var(--label-font-family);
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      line-height: 1.5;
+      text-transform: uppercase;
+
+      &.tag-mozilla {
+        --tag-hue: 40;
+        --tag-chroma: 0.04;
+      }
+
+      &.tag-work {
+        --tag-hue: 240;
+        --tag-chroma: 0.04;
+      }
+    }
+  }
+
   /* Only visually hidden up to 640px, so the cells keep their column headers */
   @media (min-width: 641px) {
     & thead {

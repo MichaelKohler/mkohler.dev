@@ -1,0 +1,7 @@
+{% if contribution.tags.size > 0 %}
+  <ul class="contribution-tags" aria-label="Tags">
+    {% for tag in contribution.tags %}
+      <li class="tag-{{ tag | slugify }}">{{ tag | escape }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
