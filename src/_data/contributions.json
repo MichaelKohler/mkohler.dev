@@ -1,5 +1,139 @@
 [
   {
+    "createdAt": "2026-11-26T07:26:40.000Z",
+    "description": "First pass review edits",
+    "link": "https://github.com/WICG/webmonetization/pull/833#pullrequestreview-6070025959",
+    "type": "Approved a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-26T07:18:58.000Z",
+    "description": "First pass review edits",
+    "link": "https://github.com/WICG/webmonetization/pull/833#pullrequestreview-6069954773",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-26T07:16:01.000Z",
+    "description": "First pass review edits",
+    "link": "https://github.com/WICG/webmonetization/pull/833#pullrequestreview-6069927746",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-26T07:02:30.000Z",
+    "description": "Clarify Payment Session / Session in flows spec",
+    "link": "https://github.com/WICG/webmonetization/issues/834",
+    "type": "Created Issue Report",
+    "source": "github-issues-created",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-25T22:04:57.000Z",
+    "description": "MichaelKohler/volunteer-contributions-fetch: refactor(ts): migrate to TypeScript (#130)",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/commit/83930239325e6532a4e818939076a515f96fb55a",
+    "type": "GitHub Commit",
+    "source": "github-commit"
+  },
+  {
+    "createdAt": "2026-11-25T22:02:34.000Z",
+    "description": "refactor(ts): migrate to TypeScript",
+    "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/130",
+    "type": "Created PR",
+    "source": "github-pr-created"
+  },
+  {
+    "createdAt": "2026-11-25T15:04:28.000Z",
+    "description": "feat(spec/flows): adjust to payment session improvements",
+    "link": "https://github.com/WICG/webmonetization/pull/808#issuecomment-7166261108",
+    "type": "Commented on a Pull Request",
+    "source": "github-comments",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-25T14:39:28.000Z",
+    "description": "feat(spec/flows): adjust to payment session improvements",
+    "link": "https://github.com/WICG/webmonetization/pull/808#pullrequestreview-6059701861",
+    "type": "Commented on a Pull Request",
+    "source": "github-reviews",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-25T10:32:31.000Z",
+    "description": "WICG/webmonetization: feat(spec/flows): add issue note about media sessions (#818)",
+    "link": "https://github.com/WICG/webmonetization/commit/8b442e7a46132f9f38efc37c910057e72036a8af",
+    "type": "GitHub Commit",
+    "source": "github-commit",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-25T08:37:41.000Z",
+    "description": "chore(spec): add spec format for flows and extension spec as well",
+    "link": "https://github.com/WICG/webmonetization/pull/832#issuecomment-7157272511",
+    "type": "Commented on a Pull Request",
+    "source": "github-comments",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-25T08:37:23.000Z",
+    "description": "chore(spec): add spec format for flows and extension spec as well",
+    "link": "https://github.com/WICG/webmonetization/pull/832",
+    "type": "Created PR",
+    "source": "github-pr-created",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-25T08:19:34.000Z",
+    "description": "feat(spec): add explainer",
+    "link": "https://github.com/WICG/webmonetization/pull/831",
+    "type": "Created PR",
+    "source": "github-pr-created",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-25T08:07:45.000Z",
+    "description": "interledger/web-monetization-extension: chore(ci): add GitHub Action lockfile (#1564)",
+    "link": "https://github.com/interledger/web-monetization-extension/commit/d868dbd13473b0ca5e94b3287068140d7526afd7",
+    "type": "GitHub Commit",
+    "source": "github-commit",
+    "tags": [
+      "work"
+    ]
+  },
+  {
+    "createdAt": "2026-11-25T07:02:10.000Z",
+    "description": "Define the payment session limit scope",
+    "link": "https://github.com/WICG/webmonetization/issues/830#issuecomment-7155417367",
+    "type": "Commented on an Issue",
+    "source": "github-comments",
+    "tags": [
+      "work"
+    ]
+  },
+  {
     "createdAt": "2026-11-25T06:38:56.000Z",
     "description": "build(deps-dev): bump prettier from 3.9.10 to 3.10.1 in the development-dependencies group",
     "link": "https://github.com/MichaelKohler/volunteer-contributions-fetch/pull/128#pullrequestreview-6052970368",
